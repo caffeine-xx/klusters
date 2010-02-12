@@ -1,0 +1,2042 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classWaveformView" kind="class" prot="public">
+    <compoundname>WaveformView</compoundname>
+    <basecompoundref refid="classViewWidget" prot="public" virt="non-virtual">ViewWidget</basecompoundref>
+    <includes refid="waveformview_8h" local="no">waveformview.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" prot="public" static="no">
+        <name>PresentationMode</name>
+        <enumvalue id="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62ee7bc9cf256c85b9c9c58b66b4022d5e" prot="public">
+          <name>SAMPLE</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62a563164f59a34c020183782d3f04f1cb" prot="public">
+          <name>TIME_FRAME</name>
+          <initializer>2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>String indicating in which presentation mode the user is (sample, time frame). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classWaveformView_19695b783e4eca9a797b6ca576ba48358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class WaveformThread</definition>
+        <argsstring></argsstring>
+        <name>WaveformThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWaveformView_1303d71f1ff1ed7e109a9d892ac895816" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::maximumTime</definition>
+        <argsstring></argsstring>
+        <name>maximumTime</name>
+        <briefdescription>
+<para>The time maximum in second. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="286" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1206d4621bb22a053b318a205ea03ca7f" prot="private" static="no" mutable="no">
+        <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">PresentationMode</ref></type>
+        <definition>PresentationMode WaveformView::presentationMode</definition>
+        <argsstring></argsstring>
+        <name>presentationMode</name>
+        <briefdescription>
+<para>Mode of presentation used, spike sample or time frame. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default is sample mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="289" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e15e3eafbad55a9a7cb3564ab24c2756" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::meanPresentation</definition>
+        <argsstring></argsstring>
+        <name>meanPresentation</name>
+        <briefdescription>
+<para>Boolean indicating if all the waveforms, corresponding to the mode of presentation, are shown or if only the mean and the standard deviation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="295" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1f939ce68232d5f34a03eb3d7e4835cde" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::overLayPresentation</definition>
+        <argsstring></argsstring>
+        <name>overLayPresentation</name>
+        <briefdescription>
+<para>Boolean indicating if the waveforms for the presented clusters have to overlay. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="300" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_115148e7da95e3ee67375389c3ffe7a56" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::abscissaMin</definition>
+        <argsstring></argsstring>
+        <name>abscissaMin</name>
+        <briefdescription>
+<para>Minimal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="303" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_18876976b37e6fc4009367ceae9d7fbff" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::abscissaMax</definition>
+        <argsstring></argsstring>
+        <name>abscissaMax</name>
+        <briefdescription>
+<para>Maximal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="306" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_120db44071913920ab54aa3d569f970a5" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::ordinateMin</definition>
+        <argsstring></argsstring>
+        <name>ordinateMin</name>
+        <briefdescription>
+<para>Minimal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="309" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1cebbc35ecf4823bae6ba2465e27eb0ed" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::ordinateMax</definition>
+        <argsstring></argsstring>
+        <name>ordinateMax</name>
+        <briefdescription>
+<para>Maximal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="312" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_167b544d2377ead879baf83ba309ad034" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::nbSamplesInWaveform</definition>
+        <argsstring></argsstring>
+        <name>nbSamplesInWaveform</name>
+        <briefdescription>
+<para>Number of points used to describe a waveform. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="315" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1b8aa79927d1c2d6f6dbb3d41d5a7aeef" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::peakPositionInWaveform</definition>
+        <argsstring></argsstring>
+        <name>peakPositionInWaveform</name>
+        <briefdescription>
+<para>Position of the peak among the points decribing the waveform. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="318" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1ecdf030c86fa343d0376363034cfd0a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::nbchannels</definition>
+        <argsstring></argsstring>
+        <name>nbchannels</name>
+        <briefdescription>
+<para>Number of electrodes used in that experiment. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="321" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1b5ad52e6a6fb43abfc85ca80a83cf70c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::widthBorder</definition>
+        <argsstring></argsstring>
+        <name>widthBorder</name>
+        <briefdescription>
+<para>The width border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="324" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_159b0897f13cecfc4b780cd8f92a13508" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::heightBorder</definition>
+        <argsstring></argsstring>
+        <name>heightBorder</name>
+        <briefdescription>
+<para>The height border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="327" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1c4a6a59bff8e1d607a83162ddc5492c4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <briefdescription>
+<para>The delta between the starting abscisses of two clusters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="330" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1c0b2fae70084c699633e4049b3d3e700" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::Xstep</definition>
+        <argsstring></argsstring>
+        <name>Xstep</name>
+        <briefdescription>
+<para>Abscissa step between two points of a given spike. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="333" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="333" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1c1477f5010487bde9f4eecd30d232465" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::Xspace</definition>
+        <argsstring></argsstring>
+        <name>Xspace</name>
+        <briefdescription>
+<para>Abscissa space between two clusters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="336" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e93bf83fd986503651e140e0886c4598" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::Yspace</definition>
+        <argsstring></argsstring>
+        <name>Yspace</name>
+        <briefdescription>
+<para>Ordinate space between two electrodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="339" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1bc1b92ff319a268235ea5a6fd0c5de0e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::X0</definition>
+        <argsstring></argsstring>
+        <name>X0</name>
+        <briefdescription>
+<para>The abscissa of the system coordinate center for the channel which is presented at the top of the view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="343" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_147d2792b5a75ba07620b2a43f0ed22c3" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::Y0</definition>
+        <argsstring></argsstring>
+        <name>Y0</name>
+        <briefdescription>
+<para>The ordinate of the system coordinate center for the channel which is presented at the top of the view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="347" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1469127674f743087a3d3773c1d3cf447" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::acquisitionGain</definition>
+        <argsstring></argsstring>
+        <name>acquisitionGain</name>
+        <briefdescription>
+<para>Acquisition system gain. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="350" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1313519b037b317ac9dcb42d5e250fa78" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::gain</definition>
+        <argsstring></argsstring>
+        <name>gain</name>
+        <briefdescription>
+<para>The actual gain is 0.75 raised to the power of gain times the acquisition system gain. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="355" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1ae8a531eb8a489c78d698896dbba00b4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformView::YsizeForMaxAmp</definition>
+        <argsstring></argsstring>
+        <name>YsizeForMaxAmp</name>
+        <briefdescription>
+<para>Size in pixels corresponding to the amplitude maximal. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="358" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e2bc04f32b51481a759b9047d86d5903" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float WaveformView::Yfactor</definition>
+        <argsstring></argsstring>
+        <name>Yfactor</name>
+        <briefdescription>
+<para>Factor use to calculate the ordinate value to been drawn. </para>        </briefdescription>
+        <detaileddescription>
+<para>The factor equals YsizeForMaxAmp divided by gain. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="363" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1a1073693e8e7588f9e6c533a0a27d33a" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* WaveformView::channelPositions</definition>
+        <argsstring></argsstring>
+        <name>channelPositions</name>
+        <briefdescription>
+<para>Index positions of the channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="366" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e3c751466a565d2271ed8c4b13b61ecd" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+<para>When the presentation mode is time frame, this variable keeps track of the current start time of the time window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="370" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_152927c126c2e33e68ccdac59cf9e6861" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::endTime</definition>
+        <argsstring></argsstring>
+        <name>endTime</name>
+        <briefdescription>
+<para>When the presentation mode is time frame, this variable keeps track of the current end time of the time window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="374" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_136210f591565d1c0d3e78c787b5e69a4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::isTwoBytesRecording</definition>
+        <argsstring></argsstring>
+        <name>isTwoBytesRecording</name>
+        <briefdescription>
+<para>True is the data where recording using a 12 or 16 bits recording system which gives data coded on 2 bytes, false otherwise (the recording is then assume to be 32 bits and then the data are coded on 4 bytes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="379" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1aa422d7842e7d19fdf76744e0fcf08c9" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> &gt;</type>
+        <definition>QPtrList&lt;WaveformThread&gt; WaveformView::threadsToBeKill</definition>
+        <argsstring></argsstring>
+        <name>threadsToBeKill</name>
+        <briefdescription>
+<para>List of pointers on the threads which have to be suppress when this object is destroy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="382" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_16af9f49b8c964247b6f960b1a0e95d0b" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> &gt;</type>
+        <definition>QPtrList&lt;WaveformThread&gt; WaveformView::threadsToDisregard</definition>
+        <argsstring></argsstring>
+        <name>threadsToDisregard</name>
+        <briefdescription>
+<para>List of pointers on the threads for which the result should not be taken into account. </para>        </briefdescription>
+        <detaileddescription>
+<para>If a cluster is modified while a thread launch to obtain the cluster&apos;s data is running a second thread will be launch. In that case only the result of the last thread shoud be used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="388" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1231524863755388dd894fe762c45792e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::dataReady</definition>
+        <argsstring></argsstring>
+        <name>dataReady</name>
+        <briefdescription>
+<para>True if the waveform information needed to draw the waveforms are available. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="391" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e74328b2a07d5aaea60bb064b8ebfc4c" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; WaveformView::clustersToDisregard</definition>
+        <argsstring></argsstring>
+        <name>clustersToDisregard</name>
+        <briefdescription>
+<para>List of the clusters to be disregared because they have been changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="394" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_198c002a4effaf0a57e1f2d4f178dce48" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long WaveformView::nbSpkToDisplay</definition>
+        <argsstring></argsstring>
+        <name>nbSpkToDisplay</name>
+        <briefdescription>
+<para>The number of spikes to display in sample mode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="397" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_1e203b4d1ccebff1fcd3d2d1af16f002a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::isZoomed</definition>
+        <argsstring></argsstring>
+        <name>isZoomed</name>
+        <briefdescription>
+<para>True if the view has been zoomed, false ohterwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="400" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_110d0a2ccdbcc293ef12d89f5e9400965" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformView::goingToDie</definition>
+        <argsstring></argsstring>
+        <name>goingToDie</name>
+        <briefdescription>
+<para>True if the widget is about to be deleted, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="403" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classWaveformView_1711159e537bfcb6218e0d7906fc0e488" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int WaveformView::XMARGIN</definition>
+        <argsstring></argsstring>
+        <name>XMARGIN</name>
+        <briefdescription>
+<para>Border on the left and right sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="407" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformView_13efff7f1c4bac959ac6ff1923050895a" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int WaveformView::YMARGIN</definition>
+        <argsstring></argsstring>
+        <name>YMARGIN</name>
+        <briefdescription>
+<para>Border on the top and bottom sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="411" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWaveformView_18eb441f96c3d47007166f645f1c08e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaveformView::WaveformView</definition>
+        <argsstring>(KlustersDoc &amp;doc, KlustersView &amp;view, QColor backgroundColor, int acquisitionGain, QValueList&lt; int &gt; positions, KStatusBar *statusBar, QWidget *parent=0, bool isTimeFrameMode=false, long start=0, long timeFrameWidth=0, long nbSpkToDisplay=0, bool overLay=false, bool mean=false, const char *name=0, int minSize=50, int maxSize=4000, int windowTopLeft=-500, int windowBottomRight=1001, int border=0)</argsstring>
+        <name>WaveformView</name>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersView" kindref="compound">KlustersView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>acquisitionGain</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>positions</declname>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isTimeFrameMode</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>start</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeFrameWidth</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>nbSpkToDisplay</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>overLay</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mean</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+          <defval>4000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowTopLeft</declname>
+          <defval>-500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowBottomRight</declname>
+          <defval>1001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>border</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Initialize the position of the channels (the positions will be configurable in the settings). </para>        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="47" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_14cdf34d782e97069d35475130fd0419b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>WaveformView::~WaveformView</definition>
+        <argsstring>()</argsstring>
+        <name>~WaveformView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="64" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="109" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1cad6888fcdbfe2d613b1db7f7af56307" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::willBeKilled</definition>
+        <argsstring>()</argsstring>
+        <name>willBeKilled</name>
+        <reimplements refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2">willBeKilled</reimplements>
+        <briefdescription>
+<para>Signals that the widget is about to be deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="758" bodyend="765"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classWaveformView_1d458ee0391b5f3963ce273002d018e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::singleColorUpdate</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>singleColorUpdate</name>
+        <reimplements refid="classViewWidget_1334a7e900904d2db053455f9c8b5e6fc">singleColorUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the view only for one cluster for which the color has been changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id for which the color have changed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="130" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1b2178befa4ebaa4bad4a8485ca061c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::addClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addClusterToView</name>
+        <reimplements refid="classViewWidget_16183b4a8e96fe2bf13fdacaf892678b4">addClusterToView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Draws an additional cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="169" bodyend="198"/>
+        <referencedby refid="classWaveformView_17297eb125ee936ce7af048dcc64a47f4" compoundref="waveformview_8h" startline="112" endline="112">addNewClusterToView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1950d13da5d849f790ffbe12e1edbebad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::removeClusterFromView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>removeClusterFromView</name>
+        <reimplements refid="classViewWidget_103c155399b7f12e5aea1e090a40581be">removeClusterFromView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Removes a cluster from those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>Which impose to redraw everything <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to remove. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="95" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="200" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1692ee48dd0b0c618df287c4946397ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::addNewClusterToView</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplements refid="classViewWidget_1a1ca23c8b1d3bb088b4f0ca0ad696b2b">addNewClusterToView</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes of the new cluster are coming. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="104" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="213" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_17297eb125ee936ce7af048dcc64a47f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::addNewClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplements refid="classViewWidget_1d872c228588cb0a372f1f2f33709d58f">addNewClusterToView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="112" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="112" bodyend="112"/>
+        <references refid="classWaveformView_1b2178befa4ebaa4bad4a8485ca061c81" compoundref="waveformview_8cpp" startline="169" endline="198">addClusterToView</references>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1a532692a9e1ca9fb770fed7c23debe38" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::spikesRemovedFromClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, bool active)</argsstring>
+        <name>spikesRemovedFromClusters</name>
+        <reimplements refid="classViewWidget_13e0ee079110b4369f0524cc3491f93d6">spikesRemovedFromClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the removal of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes have been taken. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="228" bodyend="239"/>
+        <referencedby refid="classWaveformView_1c81b131be5778fe83c330ce5f6f8fdfc" compoundref="waveformview_8h" startline="156" endline="158">undoUpdateClusters</referencedby>
+        <referencedby refid="classWaveformView_1ad146ed85385b25ed0f011cd63af179b" compoundref="waveformview_8h" startline="144" endline="146">updateClusters</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1cb7017405c897a3e6619ca2f5a77eebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::spikesAddedToCluster</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>spikesAddedToCluster</name>
+        <reimplements refid="classViewWidget_1ac959304564cbc8836998950f1a717ed">spikesAddedToCluster</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the addition of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to which the spikes have been added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="128" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="241" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1793a5b9a4d86f7e6796e76f82a98b192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::setMode</definition>
+        <argsstring>(BaseFrame::Mode selectedMode)</argsstring>
+        <name>setMode</name>
+        <reimplements refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3">setMode</reimplements>
+        <param>
+          <type><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref></type>
+          <declname>selectedMode</declname>
+        </param>
+        <briefdescription>
+<para>Changes the current mode, call by a selection of a tool. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new mode of drawing (selection or zoom) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="133" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="133" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1ad146ed85385b25ed0f011cd63af179b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::updateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active, bool isModifiedByDeletion)</argsstring>
+        <name>updateClusters</name>
+        <reimplements refid="classViewWidget_17406b5a4d71f7ef3ade9ac29850d2037">updateClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isModifiedByDeletion</declname>
+        </param>
+        <briefdescription>
+<para>Updates the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isModifiedByDeletion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the clusters of <computeroutput>modifiedClusters</computeroutput> have been modified by the deletion of spikes (moved to cluster 0 or 1, cluster of artefact and cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="144" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="144" bodyend="146"/>
+        <references refid="classWaveformView_1a532692a9e1ca9fb770fed7c23debe38" compoundref="waveformview_8cpp" startline="228" endline="239">spikesRemovedFromClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1c81b131be5778fe83c330ce5f6f8fdfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::undoUpdateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active)</argsstring>
+        <name>undoUpdateClusters</name>
+        <reimplements refid="classViewWidget_133078af928133ca135553b75c5d55300">undoUpdateClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is call only during an undo otherwise the updateClusters is call. There are 2 functions in order to reduce the number of clusters to draw whenever possible. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="156" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="156" bodyend="158"/>
+        <references refid="classWaveformView_1a532692a9e1ca9fb770fed7c23debe38" compoundref="waveformview_8cpp" startline="228" endline="239">spikesRemovedFromClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1657c429d63f1e45b76ed32f38070b36f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setMeanPresentation</definition>
+        <argsstring>()</argsstring>
+        <name>setMeanPresentation</name>
+        <briefdescription>
+<para>Sets the way of presenting the information concerning the waveforms selected to only show the waveforms of the mean and the standard deviation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="163" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="560" bodyend="573"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1a7b3bdbbe954b870072ec84346634dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setAllWaveformsPresentation</definition>
+        <argsstring>()</argsstring>
+        <name>setAllWaveformsPresentation</name>
+        <briefdescription>
+<para>Sets the way of presenting the information concerning the waveforms selected to show all the waveforms corresponding to the mode of presentation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="168" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="575" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_16299fc423410500b7aa16cf75666b63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setOverLayPresentation</definition>
+        <argsstring>()</argsstring>
+        <name>setOverLayPresentation</name>
+        <briefdescription>
+<para>The waveforms of each cluster are overlaying. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="172" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="844" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_161348f3bfd0a196f5618732e15083762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setSideBySidePresentation</definition>
+        <argsstring>()</argsstring>
+        <name>setSideBySidePresentation</name>
+        <briefdescription>
+<para>The waveforms of each cluster are presented side by side. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="176" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="859" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_142b5bcc2580f2bb9fcd1a8b233a920fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setSampleMode</definition>
+        <argsstring>()</argsstring>
+        <name>setSampleMode</name>
+        <briefdescription>
+<para>Sets the mode of presentation to sample mode, meaning that, for each shown cluster, only one out of the number of spikes to be displayed will be shown. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="181" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="588" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_112d58947f8ab2a17ac0c1e60b9dbd5e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setTimeFrameMode</definition>
+        <argsstring>()</argsstring>
+        <name>setTimeFrameMode</name>
+        <briefdescription>
+<para>Sets the mode of presentation to time frame mode, meaning that, for each shown cluster, only the spikes within the current time frame will be shown. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="186" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="600" bodyend="610"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_137e86070421d04bf63d6dad18d911f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setTimeFrame</definition>
+        <argsstring>(long start, long width)</argsstring>
+        <name>setTimeFrame</name>
+        <param>
+          <type>long</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Changes the time and update the view accordingly. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start time of the time frame in second. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>width</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>width of the time frame in second. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="192" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="612" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1d8c7b97f2c0dfe486915fe43bde596fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setGain</definition>
+        <argsstring>(int gain)</argsstring>
+        <name>setGain</name>
+        <param>
+          <type>int</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the initial maximum amplitude of the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new value to set the initial maximum amplitude of the waveforms (before increase or decrease). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="197" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="197" bodyend="204"/>
+        <references refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" compoundref="baseframe_8h" startline="293">BaseFrame::drawContentsMode</references>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1151074205d582e9c6f54254a36309dc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::increaseAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>increaseAmplitude</name>
+        <briefdescription>
+<para>Increase of the amplitude of the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="208" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="816" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1de9539d1e742a7a86d6e1ab20a22a269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::decreaseAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>decreaseAmplitude</name>
+        <briefdescription>
+<para>Decrease of the amplitude of the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="212" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="830" bodyend="842"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1441631df05b5cf8befc8fc7eb401b586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setDisplayNbSpikes</definition>
+        <argsstring>(long nbSpikes)</argsstring>
+        <name>setDisplayNbSpikes</name>
+        <param>
+          <type>long</type>
+          <declname>nbSpikes</declname>
+        </param>
+        <briefdescription>
+<para>Increase of the number of samples display in the sample mode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="216" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="627" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_147ef80336653077fd80c8c29e2870bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool WaveformView::isThreadsRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadsRunning</name>
+        <reimplements refid="classViewWidget_1c9f9f10cbb4a62e7155322472679411b">isThreadsRunning</reimplements>
+        <briefdescription>
+<para>Enables the caller to know if there is any thread running launch by the view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="219" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1adc33eefc8bc1028c50fad78fff32b70" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::updateDrawing</definition>
+        <argsstring>()</argsstring>
+        <name>updateDrawing</name>
+        <reimplements refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b">updateDrawing</reimplements>
+        <briefdescription>
+<para>Update the information presented in the view if need it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="222" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="666" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_16a18167200e7e852858d267c7644effa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::setChannelPositions</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;positions)</argsstring>
+        <name>setChannelPositions</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>positions</declname>
+        </param>
+        <briefdescription>
+<para>Initialize the position of the channels in the view. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>positions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>positions of the channels to use in the view set by the user in the settings dialog. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="227" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="227" bodyend="236"/>
+        <references refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" compoundref="baseframe_8h" startline="293">BaseFrame::drawContentsMode</references>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1ac95f93e9771eb65588127af48b0a546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::clustersRenumbered</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>clustersRenumbered</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Update the information presented in the view after a renumbering if need it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="242" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="674" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="slot" id="classWaveformView_1be060383727a599f7390b14cdd13354a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::print</definition>
+        <argsstring>(QPainter &amp;printPainter, QPaintDeviceMetrics &amp;metrics, bool whiteBackground)</argsstring>
+        <name>print</name>
+        <reimplements refid="classViewWidget_1460212eda79f47409f01478b771d7895">print</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>printPainter</declname>
+        </param>
+        <param>
+          <type>QPaintDeviceMetrics &amp;</type>
+          <declname>metrics</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>whiteBackground</declname>
+        </param>
+        <briefdescription>
+<para>Prints the currently display information on a printer via the painter <computeroutput>printPainter</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printPainter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on a printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>metrics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object providing information about the printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whiteBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the printed background has to be white, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="249" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="767" bodyend="814"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classWaveformView_12bffb346795b06cdc236c01697e6ff3c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::drawContents</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>drawContents</name>
+        <reimplements refid="classBaseFrame_12b5d68358bfcc4ecdd0c3e6a3da82ac6">drawContents</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Draws the contents of the frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter used to draw the contents of the frame. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="256" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="361" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1513e23710228dadcdf2974cfcb48fb60" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::customEvent</definition>
+        <argsstring>(QCustomEvent *event)</argsstring>
+        <name>customEvent</name>
+        <param>
+          <type>QCustomEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Treat the events sent by the <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> instances. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="259" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="254" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_192564b468eca5af50d1f2347d9be2108" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::mouseDoubleClickEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseDoubleClickEvent</name>
+        <reimplements refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b">mouseDoubleClickEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a double click. </para>        </briefdescription>
+        <detaileddescription>
+<para>The waveforms are retrieve in case the data have changed (an other view has changed its parameters) as all the views are sharing the same data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="266" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="686" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1479b44b080958401a8a99df609890dc7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::mouseReleaseEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseReleaseEvent</name>
+        <reimplements refid="classBaseFrame_17b6086bb37e3ad0c56a8b8eb166b3d9e">mouseReleaseEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse click. </para>        </briefdescription>
+        <detaileddescription>
+<para>The waveforms are retrieve in case the data have changed (an other view has changed its parameters) as all the views are sharing the same data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse release event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="273" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="710" bodyend="733"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1c5bd4d585eabe0cc12cb773315b9b82f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void WaveformView::resizeEvent</definition>
+        <argsstring>(QResizeEvent *event)</argsstring>
+        <name>resizeEvent</name>
+        <reimplements refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63">resizeEvent</reimplements>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a resize event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The waveforms are retrieve in case the data have changed (an other view has changed its parameters) as all the views are sharing the same data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resize event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="280" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="736" bodyend="756"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classWaveformView_1557fbb57d52e01e31669508c59a90eb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::drawWaveforms</definition>
+        <argsstring>(QPainter &amp;painter, const QValueList&lt; int &gt; &amp;clusterList)</argsstring>
+        <name>drawWaveforms</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>clusterList</declname>
+        </param>
+        <briefdescription>
+<para>Draws the waveforms of the clusters in the list <computeroutput>clustersList</computeroutput> on the given painter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the waveforms </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters to draw </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="420" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="419" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_10910104e77396c3b45373367dbfece24" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::updateWindow</definition>
+        <argsstring>()</argsstring>
+        <name>updateWindow</name>
+        <briefdescription>
+<para>Updates the dimension of the window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="423" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="536" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1386237edb46632fcd7819b315b9e223e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> *</type>
+        <definition>WaveformThread * WaveformView::getWaveforms</definition>
+        <argsstring>()</argsstring>
+        <name>getWaveforms</name>
+        <briefdescription>
+<para>Creates a thread which will get the waveform information. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="426" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="121" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_18306c69cf5ff0b96db400fb44f349441" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::askForWaveformInformation</definition>
+        <argsstring>(int clusterId)</argsstring>
+        <name>askForWaveformInformation</name>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+<para>Asks the waveform information for the cluster <computeroutput>clusterId</computeroutput> by launching a <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the cluster to ask waveform information for. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="432" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="146" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_185d466c01f2fc3662d3dda71cb416482" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::askForWaveformInformation</definition>
+        <argsstring>(QValueList&lt; int &gt; clusterIds)</argsstring>
+        <name>askForWaveformInformation</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>clusterIds</declname>
+        </param>
+        <briefdescription>
+<para>Asks the waveform information for the clusters listed in <computeroutput>clusterIds</computeroutput> by launching a <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ids of the clusters to ask waveform information for. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="438" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="157" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_1f196d0fb35674f1037713ebe27d4bbe0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::updateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;clustersToUpdate)</argsstring>
+        <name>updateClusters</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToUpdate</declname>
+        </param>
+        <briefdescription>
+<para>Adds the clusters to the list of those to be updated and get the updated waveform information for it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clustersToUpdate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters to update </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformView_112fb44b81f73b91c525c9ff0166b0cad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformView::drawClusterIds</definition>
+        <argsstring>(QPainter &amp;painter)</argsstring>
+        <name>drawClusterIds</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+<para>Draws the clusters identifiers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the information </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="450" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.cpp" bodystart="640" bodyend="664"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>View displaying the waveforms of a subset of the spikes evenly spaced in time over the whole recording. </para>    </briefdescription>
+    <detaileddescription>
+<para>Using the spin boxes in the Parameter Bar, the user can specify which spikes to use. All modification request is sent directly to the <ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> object and the view is automatically updated via <ref refid="classKlustersView" kindref="compound">KlustersView</ref> when the waveforms have been changed. If the view is active, it is also automatically updated when clusers are changed. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1454">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1455" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1455">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+      </node>
+      <node id="1453">
+        <label>WaveformView</label>
+        <link refid="classWaveformView"/>
+        <childnode refid="1454" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1474">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1475" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1472">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1466">
+        <label>T</label>
+      </node>
+      <node id="1457">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1458" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1473" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1464">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1465" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1481">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1475">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1458" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1461" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1468" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1459">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1478">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1470">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1471">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1469">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1473">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1457" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1474" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1476" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="1460">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1461" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1462" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1468" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1470" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1471" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1472" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1477">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1478" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1479">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1476" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1458">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1459" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1480">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1481" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1482" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1483" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1468">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1469" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1482">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1463">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1464" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1467" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1456">
+        <label>WaveformView</label>
+        <link refid="classWaveformView"/>
+        <childnode refid="1457" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1461">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1476">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1477" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1479" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1480" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1471" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1465">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1466" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1483">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1467">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1462">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformview.h" bodystart="53" bodyend="452"/>
+    <listofallmembers>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>@0</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>@2</name></member>
+      <member refid="classWaveformView_18876976b37e6fc4009367ceae9d7fbff" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>abscissaMax</name></member>
+      <member refid="classWaveformView_115148e7da95e3ee67375389c3ffe7a56" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>abscissaMin</name></member>
+      <member refid="classWaveformView_1469127674f743087a3d3773c1d3cf447" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>acquisitionGain</name></member>
+      <member refid="classWaveformView_1b2178befa4ebaa4bad4a8485ca061c81" prot="public" virt="virtual"><scope>WaveformView</scope><name>addClusterToView</name></member>
+      <member refid="classWaveformView_1692ee48dd0b0c618df287c4946397ea6" prot="public" virt="virtual"><scope>WaveformView</scope><name>addNewClusterToView</name></member>
+      <member refid="classWaveformView_17297eb125ee936ce7af048dcc64a47f4" prot="public" virt="virtual"><scope>WaveformView</scope><name>addNewClusterToView</name></member>
+      <member refid="classWaveformView_18306c69cf5ff0b96db400fb44f349441" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>askForWaveformInformation</name></member>
+      <member refid="classWaveformView_185d466c01f2fc3662d3dda71cb416482" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>askForWaveformInformation</name></member>
+      <member refid="classBaseFrame_1042d27fb77a59e37912653348f9883f3" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>BaseFrame</name></member>
+      <member refid="classBaseFrame_15b689b1ba4f8873b318778079c6786c4" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>BORDER</name></member>
+      <member refid="classBaseFrame_1ebb3ce33f4a37c3eb2ee72474050fa37" prot="public" virt="virtual"><scope>WaveformView</scope><name>changeBackgroundColor</name></member>
+      <member refid="classWaveformView_1a1073693e8e7588f9e6c533a0a27d33a" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>channelPositions</name></member>
+      <member refid="classWaveformView_1ac95f93e9771eb65588127af48b0a546" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>clustersRenumbered</name></member>
+      <member refid="classWaveformView_1e74328b2a07d5aaea60bb064b8ebfc4c" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>clustersToDisregard</name></member>
+      <member refid="classViewWidget_1bccba002ff28008b32f8082553f6fca8" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>clusterUpdateList</name></member>
+      <member refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>colorLegend</name></member>
+      <member refid="classWaveformView_1513e23710228dadcdf2974cfcb48fb60" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>customEvent</name></member>
+      <member refid="classWaveformView_1231524863755388dd894fe762c45792e" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>dataReady</name></member>
+      <member refid="classWaveformView_1de9539d1e742a7a86d6e1ab20a22a269" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>decreaseAmplitude</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f531ac6e4c2710a204fc01fc902469bcd" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>DELETE_ARTEFACT</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f07b03c1319e024f327c9817eb6b029ba" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>DELETE_NOISE</name></member>
+      <member refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>doc</name></member>
+      <member refid="classBaseFrame_1b053dfe22801668fd82f1f5f34f32263" prot="public" virt="virtual"><scope>WaveformView</scope><name>dockBeingClosed</name></member>
+      <member refid="classViewWidget_1091c72490041f8e45689b1dc4d693d5e" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>doublebuffer</name></member>
+      <member refid="classWaveformView_112fb44b81f73b91c525c9ff0166b0cad" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>drawClusterIds</name></member>
+      <member refid="classWaveformView_12bffb346795b06cdc236c01697e6ff3c" prot="protected" virt="virtual"><scope>WaveformView</scope><name>drawContents</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>DrawContentsMode</name></member>
+      <member refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>drawContentsMode</name></member>
+      <member refid="classBaseFrame_1c1183e155932c92026c2e8e9553905ea" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>drawRubber</name></member>
+      <member refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>drawRubberBand</name></member>
+      <member refid="classWaveformView_1557fbb57d52e01e31669508c59a90eb7" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>drawWaveforms</name></member>
+      <member refid="classViewWidget_15dd5db4d43d33a65b403400e46f4b891" prot="public" virt="virtual"><scope>WaveformView</scope><name>emptySelection</name></member>
+      <member refid="classWaveformView_152927c126c2e33e68ccdac59cf9e6861" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>endTime</name></member>
+      <member refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>firstClick</name></member>
+      <member refid="classWaveformView_1313519b037b317ac9dcb42d5e250fa78" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>gain</name></member>
+      <member refid="classWaveformView_1386237edb46632fcd7819b315b9e223e" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>getWaveforms</name></member>
+      <member refid="classWaveformView_110d0a2ccdbcc293ef12d89f5e9400965" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>goingToDie</name></member>
+      <member refid="classWaveformView_159b0897f13cecfc4b780cd8f92a13508" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>heightBorder</name></member>
+      <member refid="classWaveformView_1151074205d582e9c6f54254a36309dc5" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>increaseAmplitude</name></member>
+      <member refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>isDoubleClick</name></member>
+      <member refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>isRubberBandToBeDrawn</name></member>
+      <member refid="classWaveformView_147ef80336653077fd80c8c29e2870bbc" prot="public" virt="virtual"><scope>WaveformView</scope><name>isThreadsRunning</name></member>
+      <member refid="classWaveformView_136210f591565d1c0d3e78c787b5e69a4" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>isTwoBytesRecording</name></member>
+      <member refid="classWaveformView_1e203b4d1ccebff1fcd3d2d1af16f002a" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>isZoomed</name></member>
+      <member refid="classBaseFrame_1992b1cb3328945272b015bd3f6d1f7cb" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>MAX_SIZE</name></member>
+      <member refid="classWaveformView_1303d71f1ff1ed7e109a9d892ac895816" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>maximumTime</name></member>
+      <member refid="classWaveformView_1e15e3eafbad55a9a7cb3564ab24c2756" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>meanPresentation</name></member>
+      <member refid="classBaseFrame_190d22b4bd74df6e61a7824951000e5e8" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>MIN_SIZE</name></member>
+      <member refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>Mode</name></member>
+      <member refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>mode</name></member>
+      <member refid="classWaveformView_192564b468eca5af50d1f2347d9be2108" prot="protected" virt="virtual"><scope>WaveformView</scope><name>mouseDoubleClickEvent</name></member>
+      <member refid="classBaseFrame_1e0bc9fac62c249065e52f3d393e84cf7" prot="protected" virt="virtual"><scope>WaveformView</scope><name>mouseMoveEvent</name></member>
+      <member refid="classBaseFrame_1154d190f81125058199ed6770c5152b6" prot="protected" virt="virtual"><scope>WaveformView</scope><name>mousePressEvent</name></member>
+      <member refid="classWaveformView_1479b44b080958401a8a99df609890dc7" prot="protected" virt="virtual"><scope>WaveformView</scope><name>mouseReleaseEvent</name></member>
+      <member refid="classWaveformView_1ecdf030c86fa343d0376363034cfd0a7" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>nbchannels</name></member>
+      <member refid="classWaveformView_167b544d2377ead879baf83ba309ad034" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>nbSamplesInWaveform</name></member>
+      <member refid="classWaveformView_198c002a4effaf0a57e1f2d4f178dce48" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>nbSpkToDisplay</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fef0a4da74dd881e94fe07b9b3d1bf83a" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>NEW_CLUSTER</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fc7cda1ba26c6de6294f2cd188b6d0e33" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>NEW_CLUSTERS</name></member>
+      <member refid="classBaseFrame_1a470ad78b538adc53ffeabee229c4c9e" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>oldSize</name></member>
+      <member refid="classWaveformView_1cebbc35ecf4823bae6ba2465e27eb0ed" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>ordinateMax</name></member>
+      <member refid="classWaveformView_120db44071913920ab54aa3d569f970a5" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>ordinateMin</name></member>
+      <member refid="classWaveformView_1f939ce68232d5f34a03eb3d7e4835cde" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>overLayPresentation</name></member>
+      <member refid="classBaseFrame_1eb86348c3d22a2271be7a269aa891d72" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>parentDockBeingClosed</name></member>
+      <member refid="classWaveformView_1b8aa79927d1c2d6f6dbb3d41d5a7aeef" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>peakPositionInWaveform</name></member>
+      <member refid="classWaveformView_1206d4621bb22a053b318a205ea03ca7f" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>presentationMode</name></member>
+      <member refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>PresentationMode</name></member>
+      <member refid="classWaveformView_1be060383727a599f7390b14cdd13354a" prot="public" virt="virtual"><scope>WaveformView</scope><name>print</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db8231288ec4453e28f207d42383a741213f2fb" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>REDRAW</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312d65241269619717949ae60374a711daf" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>REFRESH</name></member>
+      <member refid="classWaveformView_1950d13da5d849f790ffbe12e1edbebad" prot="public" virt="virtual"><scope>WaveformView</scope><name>removeClusterFromView</name></member>
+      <member refid="classWaveformView_1c5bd4d585eabe0cc12cb773315b9b82f" prot="protected" virt="virtual"><scope>WaveformView</scope><name>resizeEvent</name></member>
+      <member refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>rubber</name></member>
+      <member refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62ee7bc9cf256c85b9c9c58b66b4022d5e" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>SAMPLE</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f6f501aff76320842235887eb153f07a3" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>SELECT_TIME</name></member>
+      <member refid="classWaveformView_1a7b3bdbbe954b870072ec84346634dbc" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setAllWaveformsPresentation</name></member>
+      <member refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setBorders</name></member>
+      <member refid="classWaveformView_16a18167200e7e852858d267c7644effa" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setChannelPositions</name></member>
+      <member refid="classWaveformView_1441631df05b5cf8befc8fc7eb401b586" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setDisplayNbSpikes</name></member>
+      <member refid="classWaveformView_1d8c7b97f2c0dfe486915fe43bde596fd" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setGain</name></member>
+      <member refid="classWaveformView_1657c429d63f1e45b76ed32f38070b36f" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setMeanPresentation</name></member>
+      <member refid="classWaveformView_1793a5b9a4d86f7e6796e76f82a98b192" prot="public" virt="virtual"><scope>WaveformView</scope><name>setMode</name></member>
+      <member refid="classWaveformView_16299fc423410500b7aa16cf75666b63e" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setOverLayPresentation</name></member>
+      <member refid="classWaveformView_142b5bcc2580f2bb9fcd1a8b233a920fa" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setSampleMode</name></member>
+      <member refid="classWaveformView_161348f3bfd0a196f5618732e15083762" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setSideBySidePresentation</name></member>
+      <member refid="classWaveformView_137e86070421d04bf63d6dad18d911f96" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setTimeFrame</name></member>
+      <member refid="classWaveformView_112d58947f8ab2a17ac0c1e60b9dbd5e7" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>setTimeFrameMode</name></member>
+      <member refid="classWaveformView_1c4a6a59bff8e1d607a83162ddc5492c4" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>shift</name></member>
+      <member refid="classWaveformView_1d458ee0391b5f3963ce273002d018e89" prot="public" virt="virtual"><scope>WaveformView</scope><name>singleColorUpdate</name></member>
+      <member refid="classWaveformView_1cb7017405c897a3e6619ca2f5a77eebb" prot="public" virt="virtual"><scope>WaveformView</scope><name>spikesAddedToCluster</name></member>
+      <member refid="classWaveformView_1a532692a9e1ca9fb770fed7c23debe38" prot="public" virt="virtual"><scope>WaveformView</scope><name>spikesRemovedFromClusters</name></member>
+      <member refid="classWaveformView_1e3c751466a565d2271ed8c4b13b61ecd" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>startTime</name></member>
+      <member refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>statusBar</name></member>
+      <member refid="classWaveformView_1aa422d7842e7d19fdf76744e0fcf08c9" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>threadsToBeKill</name></member>
+      <member refid="classWaveformView_16af9f49b8c964247b6f960b1a0e95d0b" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>threadsToDisregard</name></member>
+      <member refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62a563164f59a34c020183782d3f04f1cb" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>TIME_FRAME</name></member>
+      <member refid="classWaveformView_1c81b131be5778fe83c330ce5f6f8fdfc" prot="public" virt="virtual"><scope>WaveformView</scope><name>undoUpdateClusters</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db823129813ffc0ade2d4aced59cfdabd1459d9" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>UPDATE</name></member>
+      <member refid="classWaveformView_1ad146ed85385b25ed0f011cd63af179b" prot="public" virt="virtual"><scope>WaveformView</scope><name>updateClusters</name></member>
+      <member refid="classWaveformView_1f196d0fb35674f1037713ebe27d4bbe0" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>updateClusters</name></member>
+      <member refid="classViewWidget_1238b02bc4888a936feb5c24133596911" prot="public" virt="virtual"><scope>WaveformView</scope><name>updatedDimensions</name></member>
+      <member refid="classWaveformView_1adc33eefc8bc1028c50fad78fff32b70" prot="public" virt="virtual"><scope>WaveformView</scope><name>updateDrawing</name></member>
+      <member refid="classWaveformView_10910104e77396c3b45373367dbfece24" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>updateWindow</name></member>
+      <member refid="classViewWidget_166610cd0dfae797713df3acb439033cc" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>view</name></member>
+      <member refid="classBaseFrame_16b8a18a51e085c5d68e1812ea7b603ea" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>viewport</name></member>
+      <member refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_1bc359186819f10c30a5ae505d6f1920d" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>viewportToWorldHeight</name></member>
+      <member refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>viewportToWorldWidth</name></member>
+      <member refid="classViewWidget_186837c742daf2ccd927c6d9511287f50" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>ViewWidget</name></member>
+      <member refid="classWaveformView_19695b783e4eca9a797b6ca576ba48358" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>WaveformThread</name></member>
+      <member refid="classWaveformView_18eb441f96c3d47007166f645f1c08e17" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>WaveformView</name></member>
+      <member refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>wholeHeightRectangle</name></member>
+      <member refid="classWaveformView_1b5ad52e6a6fb43abfc85ca80a83cf70c" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>widthBorder</name></member>
+      <member refid="classWaveformView_1cad6888fcdbfe2d613b1db7f7af56307" prot="public" virt="virtual"><scope>WaveformView</scope><name>willBeKilled</name></member>
+      <member refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>window</name></member>
+      <member refid="classBaseFrame_195b3b1ec4173a584b33d403909f25d94" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>WINDOW_BOTTOM_RIGHT</name></member>
+      <member refid="classBaseFrame_18dac5dc5940d0ba950367a6209baf1d9" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>WINDOW_TOP_LEFT</name></member>
+      <member refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_12b63b89729e706626167a7dc7020a3aa" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_1282acf96cb3e2cf1889da54236d1623e" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewportAbscissa</name></member>
+      <member refid="classBaseFrame_1af257590f63f103f946f599add211cd5" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewportHeight</name></member>
+      <member refid="classBaseFrame_1a66187fbc3b1a9978f7604a17a04071b" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewportOrdinate</name></member>
+      <member refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>worldToViewportWidth</name></member>
+      <member refid="classWaveformView_1bc1b92ff319a268235ea5a6fd0c5de0e" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>X0</name></member>
+      <member refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>Xborder</name></member>
+      <member refid="classWaveformView_1711159e537bfcb6218e0d7906fc0e488" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>XMARGIN</name></member>
+      <member refid="classWaveformView_1c1477f5010487bde9f4eecd30d232465" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>Xspace</name></member>
+      <member refid="classWaveformView_1c0b2fae70084c699633e4049b3d3e700" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>Xstep</name></member>
+      <member refid="classWaveformView_147d2792b5a75ba07620b2a43f0ed22c3" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>Y0</name></member>
+      <member refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>Yborder</name></member>
+      <member refid="classWaveformView_1e2bc04f32b51481a759b9047d86d5903" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>Yfactor</name></member>
+      <member refid="classWaveformView_13efff7f1c4bac959ac6ff1923050895a" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>YMARGIN</name></member>
+      <member refid="classWaveformView_1ae8a531eb8a489c78d698896dbba00b4" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>YsizeForMaxAmp</name></member>
+      <member refid="classWaveformView_1e93bf83fd986503651e140e0886c4598" prot="private" virt="non-virtual"><scope>WaveformView</scope><name>Yspace</name></member>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2d75fd832d6a47113cab9b9dc548971d6" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>ZOOM</name></member>
+      <member refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" prot="protected" virt="non-virtual"><scope>WaveformView</scope><name>zoomCursor</name></member>
+      <member refid="classBaseFrame_16f5fb51668be38012d5eb0aa7b8b3cbe" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>~BaseFrame</name></member>
+      <member refid="classViewWidget_1283c1ee4a0e61803161713b7b3538b82" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>~ViewWidget</name></member>
+      <member refid="classWaveformView_14cdf34d782e97069d35475130fd0419b" prot="public" virt="non-virtual"><scope>WaveformView</scope><name>~WaveformView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="tracesprovider_8h" kind="file">
+    <compoundname>tracesprovider.h</compoundname>
+    <includes refid="dataprovider_8h" local="no">dataprovider.h</includes>
+    <includes refid="array_8h" local="no">array.h</includes>
+    <includes refid="types_8h" local="no">types.h</includes>
+    <includes local="no">qptrlist.h</includes>
+    <includes local="no">qobject.h</includes>
+    <includedby refid="klustersdoc_8h" local="yes">klustersdoc.h</includedby>
+    <includedby refid="traceview_8h" local="yes">traceview.h</includedby>
+    <includedby refid="tracesprovider_8cpp" local="yes">tracesprovider.cpp</includedby>
+    <includedby refid="tracesprovider_8moc_8cpp" local="yes">tracesprovider.moc.cpp</includedby>
+    <incdepgraph>
+      <node id="2494">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="2495" relation="include">
+        </childnode>
+        <childnode refid="2496" relation="include">
+        </childnode>
+      </node>
+      <node id="2495">
+        <label>qobject.h</label>
+      </node>
+      <node id="2496">
+        <label>kurl.h</label>
+      </node>
+      <node id="2497">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2498" relation="include">
+        </childnode>
+        <childnode refid="2499" relation="include">
+        </childnode>
+      </node>
+      <node id="2501">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2493">
+        <label>tracesprovider.h</label>
+        <link refid="tracesprovider.h"/>
+        <childnode refid="2494" relation="include">
+        </childnode>
+        <childnode refid="2497" relation="include">
+        </childnode>
+        <childnode refid="2500" relation="include">
+        </childnode>
+        <childnode refid="2501" relation="include">
+        </childnode>
+        <childnode refid="2495" relation="include">
+        </childnode>
+      </node>
+      <node id="2499">
+        <label>iostream</label>
+      </node>
+      <node id="2498">
+        <label>cstring</label>
+      </node>
+      <node id="2500">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2507">
+        <label>tracewidget.h</label>
+        <link refid="tracewidget_8h-source"/>
+      </node>
+      <node id="2506">
+        <label>traceview.h</label>
+        <link refid="traceview_8h-source"/>
+        <childnode refid="2507" relation="include">
+        </childnode>
+      </node>
+      <node id="2503">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="2504" relation="include">
+        </childnode>
+        <childnode refid="2505" relation="include">
+        </childnode>
+      </node>
+      <node id="2505">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="2504">
+        <label>autosavethread.h</label>
+        <link refid="autosavethread_8h-source"/>
+      </node>
+      <node id="2502">
+        <label>tracesprovider.h</label>
+        <link refid="tracesprovider.h"/>
+        <childnode refid="2503" relation="include">
+        </childnode>
+        <childnode refid="2506" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classTracesProvider" prot="public">TracesProvider</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tracesprovider.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Mar<sp/>1<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan.myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>TRACESPROVIDER_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TRACESPROVIDER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dataprovider.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classTracesProvider" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classTracesProvider" kindref="compound">TracesProvider</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classDataProvider" kindref="compound">DataProvider</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classTracesProvider_1b3f0d4973e33fb3206fb20585ba2fb16" kindref="member">TracesProvider</ref>(KURL<sp/>fileUrl,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbChannels,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samplingRate,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classTracesProvider" kindref="compound">TracesProvider</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_115a28fc38479728605849e1d8bb4aad9" kindref="member">requestData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classTracesProvider_1e19315e3ae81d0dbf2f43f081fbdc0ff" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_1e19315e3ae81d0dbf2f43f081fbdc0ff" kindref="member">setNbChannels</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb){</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/>nbChannels<sp/>=<sp/>nb;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/>computeRecordingLength();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classTracesProvider_14b3676ab7058abe83be3629a4c521192" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_14b3676ab7058abe83be3629a4c521192" kindref="member">setResolution</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>res){</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/>resolution<sp/>=<sp/>res;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/>computeRecordingLength();</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="classTracesProvider_19e1ab93c2e057f17ce346f035379fc60" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_19e1ab93c2e057f17ce346f035379fc60" kindref="member">setSamplingRate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate){</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/>samplingRate<sp/>=<sp/>rate;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/>computeRecordingLength();</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="classTracesProvider_1849a5bb8d771e156d9352a5b09a9285b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_1849a5bb8d771e156d9352a5b09a9285b" kindref="member">setOffset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newOffset){offset<sp/>=<sp/><sp/>newOffset;};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="classTracesProvider_17f7985a31e8e6e94236b6b42dfa96945" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_17f7985a31e8e6e94236b6b42dfa96945" kindref="member">getNbChannels</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbChannels;};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classTracesProvider_127f43611a182aa44bcec1bb849ffb3a1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_127f43611a182aa44bcec1bb849ffb3a1" kindref="member">getResolution</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resolution;};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classTracesProvider_18fad4f54ef71252528e06d3ac2ccecf4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_18fad4f54ef71252528e06d3ac2ccecf4" kindref="member">getSamplingRate</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>samplingRate;};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classTracesProvider_1b15ff57527436ee448716610448f1414" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_1b15ff57527436ee448716610448f1414" kindref="member">getOffset</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>offset;};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="classTracesProvider_17e7bff8bdd97abf5a4a31e24cfa839ac" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_17e7bff8bdd97abf5a4a31e24cfa839ac" kindref="member">recordingLength</ref>()</highlight><highlight class="keyword">const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>length;};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>dataType<sp/><ref refid="classTracesProvider_18c3d8a1470cf4bde0c44c8c5cf610a82" kindref="member">getNbSamples</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_194a5a4cffdc5838999c8b81e22e5f930" kindref="member">getTotalNbSamples</ref>();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTracesProvider_1a1757f81106426811c405a6437654cf1" kindref="member">dataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>data,QObject*<sp/>initiator);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbChannels;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resolution;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samplingRate;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>offset;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>length;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>retrieveData(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>computeRecordingLength();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="sortabletable_8h" kind="file">
+    <compoundname>sortabletable.h</compoundname>
+    <includes refid="array_8h" local="yes">array.h</includes>
+    <includes refid="types_8h" local="yes">types.h</includes>
+    <includedby refid="data_8h" local="yes">data.h</includedby>
+    <includedby refid="sortabletable_8cpp" local="yes">sortabletable.cpp</includedby>
+    <incdepgraph>
+      <node id="2452">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2453" relation="include">
+        </childnode>
+        <childnode refid="2454" relation="include">
+        </childnode>
+      </node>
+      <node id="2451">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable.h"/>
+        <childnode refid="2452" relation="include">
+        </childnode>
+        <childnode refid="2455" relation="include">
+        </childnode>
+      </node>
+      <node id="2454">
+        <label>iostream</label>
+      </node>
+      <node id="2453">
+        <label>cstring</label>
+      </node>
+      <node id="2455">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2463">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2462">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="2463" relation="include">
+        </childnode>
+      </node>
+      <node id="2459">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2468">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant_8h-source"/>
+        <childnode refid="2467" relation="include">
+        </childnode>
+      </node>
+      <node id="2456">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable.h"/>
+        <childnode refid="2457" relation="include">
+        </childnode>
+      </node>
+      <node id="2460">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="2469">
+        <label>waveformthread.h</label>
+        <link refid="waveformthread_8h-source"/>
+      </node>
+      <node id="2466">
+        <label>minmaxthread.h</label>
+        <link refid="minmaxthread_8h-source"/>
+      </node>
+      <node id="2458">
+        <label>autosavethread.h</label>
+        <link refid="autosavethread_8h-source"/>
+      </node>
+      <node id="2467">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+      <node id="2461">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider_8h-source"/>
+        <childnode refid="2459" relation="include">
+        </childnode>
+      </node>
+      <node id="2465">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread_8h-source"/>
+      </node>
+      <node id="2464">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="2462" relation="include">
+        </childnode>
+        <childnode refid="2465" relation="include">
+        </childnode>
+      </node>
+      <node id="2457">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2459" relation="include">
+        </childnode>
+        <childnode refid="2461" relation="include">
+        </childnode>
+        <childnode refid="2462" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+        <childnode refid="2465" relation="include">
+        </childnode>
+        <childnode refid="2466" relation="include">
+        </childnode>
+        <childnode refid="2467" relation="include">
+        </childnode>
+        <childnode refid="2468" relation="include">
+        </childnode>
+        <childnode refid="2469" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classSortableTable" prot="public">SortableTable</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sortabletable.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>jeu<sp/>sep<sp/>18<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SORTABLETABLE_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SORTABLETABLE_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;array.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classSortableTable" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>(){};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classSortableTable" kindref="compound">SortableTable</ref>(){};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>(dataType<sp/><ref refid="classArray_1bf8d9f719e657139795c7804422c70fc" kindref="member">nbOfColumns</ref>,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>twoRows<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(twoRows)<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;::setSize</ref>(2,nbOfColumns);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/><ref refid="classArray" kindref="compound">Array&lt;dataType&gt;::setSize</ref>(1,nbOfColumns);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>&amp;<sp/>currentSortableTable);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="51" refid="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_1b5290c54d264027a2325fd52271af5f2" kindref="member">sort</ref>(dataType<sp/>rowToSort){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(rowToSort<sp/>==<sp/>1)<sp/>Quicksort(1,<sp/>2,<sp/>1,<sp/>nbColumns);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(rowToSort<sp/>==<sp/>2)<sp/>Quicksort(2,<sp/>1,<sp/>1,<sp/>nbColumns);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classSortableTable_1b5290c54d264027a2325fd52271af5f2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_1b5290c54d264027a2325fd52271af5f2" kindref="member">sort</ref>(){Quicksort(1,nbColumns);};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_19e0b1abed52e808d7f645a4506efff34" kindref="member">subset</ref>(<ref refid="classSortableTable" kindref="compound">SortableTable</ref>&amp;<sp/>subsetTable,dataType<sp/>row,dataType<sp/>startColumn,dataType<sp/>endColumn);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>(dataType<sp/><ref refid="classArray_1d55af2bb256e18c4554faea8d8abce42" kindref="member">nbOfRows</ref>,<sp/>dataType<sp/><ref refid="classArray_1bf8d9f719e657139795c7804422c70fc" kindref="member">nbOfColumns</ref>){};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*QuickSort<sp/>algorithm.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/>*<sp/>To<sp/>speed<sp/>the<sp/>sort,<sp/>two<sp/>sort<sp/>algorithms<sp/>are<sp/>combined.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/>*<sp/>Quicksort()<sp/>is<sp/>used<sp/>as<sp/>the<sp/>main<sp/>algorithm,<sp/>but<sp/>when<sp/>the<sp/>subarrays<sp/>get<sp/>small<sp/>enough,</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/>*<sp/>we<sp/>switch<sp/>to<sp/>an<sp/>alternative,<sp/>a<sp/>selection<sp/>sort.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/>*<sp/>The<sp/>small<sp/>enough<sp/>is<sp/>a<sp/>value<sp/>between<sp/>5<sp/>and<sp/>20.</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SelectionSort(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>dataType<sp/>Partition(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Quicksort(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SelectionSort(dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>dataType<sp/>Partition(dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Quicksort(dataType<sp/>left,<sp/>dataType<sp/>right);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dataType<sp/>kSMALL_ENOUGH;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h"/>
+  </compounddef>
+</doxygen>

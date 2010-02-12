@@ -1,0 +1,293 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classKlustersApp_1_1Validator" kind="class" prot="private">
+    <compoundname>KlustersApp::Validator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classKlustersApp_1_1Validator_1844089fc968eecd5627bdd022b69959b" prot="private" static="no" mutable="no">
+        <type><ref refid="classKlustersApp" kindref="compound">KlustersApp</ref> *</type>
+        <definition>KlustersApp* KlustersApp::Validator::klusters</definition>
+        <argsstring></argsstring>
+        <name>klusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="591" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="589" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKlustersApp_1_1Validator_166a476ed6a32cdc54636d927db4ed4e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersApp::Validator::Validator</definition>
+        <argsstring>(QObject *parent, const char *name=0)</argsstring>
+        <name>Validator</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="579" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="579" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1Validator_19e09d716a5a61d46f8f27a2c20b66f93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersApp::Validator::Validator</definition>
+        <argsstring>(int minimum, int maximum, QObject *parent, const char *name=0)</argsstring>
+        <name>Validator</name>
+        <param>
+          <type>int</type>
+          <declname>minimum</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maximum</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="583" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="582" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1Validator_15963d28bdc36bcde67dabeac65ff5624" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersApp::Validator::~Validator</definition>
+        <argsstring>()</argsstring>
+        <name>~Validator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="586" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="586" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1Validator_151055222436dce628c5cd91530298c6f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KlustersApp::Validator::fixup</definition>
+        <argsstring>(QString &amp;input) const </argsstring>
+        <name>fixup</name>
+        <param>
+          <type>QString &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="587" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="587" bodyend="589"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a validator for the duration lineEdit which fix any bad entry by setting the last correct value. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1156">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1150">
+        <label>T</label>
+      </node>
+      <node id="1148">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1143">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1154">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1153" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1147" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1155">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1144">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1145" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1146" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1147" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1152" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1154" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1155" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1156" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1142">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1143" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1157">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1158">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1159" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1160" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1161" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1152">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1147">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1148" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1151" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1145">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1141">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1142" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1157" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1158" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1155" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1149">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1150" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1140">
+        <label>KlustersApp::Validator</label>
+        <childnode refid="1141" relation="usage">
+          <edgelabel>klusters</edgelabel>
+        </childnode>
+      </node>
+      <node id="1161">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1151">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1147" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1146">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1147" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="576" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="576" bodyend="592"/>
+    <listofallmembers>
+      <member refid="classKlustersApp_1_1Validator_151055222436dce628c5cd91530298c6f" prot="public" virt="non-virtual"><scope>KlustersApp::Validator</scope><name>fixup</name></member>
+      <member refid="classKlustersApp_1_1Validator_1844089fc968eecd5627bdd022b69959b" prot="private" virt="non-virtual"><scope>KlustersApp::Validator</scope><name>klusters</name></member>
+      <member refid="classKlustersApp_1_1Validator_166a476ed6a32cdc54636d927db4ed4e4" prot="public" virt="non-virtual"><scope>KlustersApp::Validator</scope><name>Validator</name></member>
+      <member refid="classKlustersApp_1_1Validator_19e09d716a5a61d46f8f27a2c20b66f93" prot="public" virt="non-virtual"><scope>KlustersApp::Validator</scope><name>Validator</name></member>
+      <member refid="classKlustersApp_1_1Validator_15963d28bdc36bcde67dabeac65ff5624" prot="public" virt="non-virtual"><scope>KlustersApp::Validator</scope><name>~Validator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,5 @@
+base referer
+rect $classData.html 199,280 252,307
+rect $classMinMaxThread.html 227,371 347,398
+rect $classSortableTable.html 168,174 283,200
+rect $classArray.html 165,96 285,123

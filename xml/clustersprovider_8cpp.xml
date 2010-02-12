@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="clustersprovider_8cpp" kind="file">
+    <compoundname>clustersprovider.cpp</compoundname>
+    <includes local="no">qfile.h</includes>
+    <includes local="no">qstringlist.h</includes>
+    <includes local="no">qfileinfo.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">kurl.h</includes>
+    <includes local="no">kprocess.h</includes>
+    <includes local="no">kio/netaccess.h</includes>
+    <includes local="no">ktempfile.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes refid="clustersprovider_8h" local="yes">clustersprovider.h</includes>
+    <includes refid="timer_8h" local="yes">timer.h</includes>
+    <incdepgraph>
+      <node id="367">
+        <label>qregion.h</label>
+      </node>
+      <node id="344">
+        <label>iomanip</label>
+      </node>
+      <node id="340">
+        <label>qfile.h</label>
+      </node>
+      <node id="360">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="361" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="362" relation="include">
+        </childnode>
+      </node>
+      <node id="353">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="354" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+      </node>
+      <node id="365">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="361">
+        <label>qstring.h</label>
+      </node>
+      <node id="362">
+        <label>stdlib.h</label>
+      </node>
+      <node id="354">
+        <label>qobject.h</label>
+      </node>
+      <node id="346">
+        <label>kurl.h</label>
+      </node>
+      <node id="339">
+        <label>clustersprovider.cpp</label>
+        <link refid="clustersprovider.cpp"/>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="341" relation="include">
+        </childnode>
+        <childnode refid="342" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="344" relation="include">
+        </childnode>
+        <childnode refid="345" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="347" relation="include">
+        </childnode>
+        <childnode refid="348" relation="include">
+        </childnode>
+        <childnode refid="349" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="351" relation="include">
+        </childnode>
+        <childnode refid="352" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+      </node>
+      <node id="371">
+        <label>stdexcept</label>
+      </node>
+      <node id="355">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="356" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+      </node>
+      <node id="364">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="359">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+      </node>
+      <node id="363">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="345">
+        <label>fstream</label>
+      </node>
+      <node id="352">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider_8h-source"/>
+        <childnode refid="353" relation="include">
+        </childnode>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="358" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="354" relation="include">
+        </childnode>
+      </node>
+      <node id="351">
+        <label>unistd.h</label>
+      </node>
+      <node id="372">
+        <label>vector</label>
+      </node>
+      <node id="349">
+        <label>ktempfile.h</label>
+      </node>
+      <node id="350">
+        <label>math.h</label>
+      </node>
+      <node id="373">
+        <label>timer.h</label>
+        <link refid="timer_8h-source"/>
+        <childnode refid="374" relation="include">
+        </childnode>
+      </node>
+      <node id="374">
+        <label>sys/time.h</label>
+      </node>
+      <node id="343">
+        <label>iostream</label>
+      </node>
+      <node id="347">
+        <label>kprocess.h</label>
+      </node>
+      <node id="370">
+        <label>qthread.h</label>
+      </node>
+      <node id="342">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="348">
+        <label>kio/netaccess.h</label>
+      </node>
+      <node id="366">
+        <label>qdict.h</label>
+      </node>
+      <node id="368">
+        <label>qmap.h</label>
+      </node>
+      <node id="369">
+        <label>qmutex.h</label>
+      </node>
+      <node id="356">
+        <label>cstring</label>
+      </node>
+      <node id="341">
+        <label>qstringlist.h</label>
+      </node>
+      <node id="358">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="355" relation="include">
+        </childnode>
+        <childnode refid="359" relation="include">
+        </childnode>
+        <childnode refid="360" relation="include">
+        </childnode>
+        <childnode refid="357" relation="include">
+        </childnode>
+        <childnode refid="363" relation="include">
+        </childnode>
+        <childnode refid="364" relation="include">
+        </childnode>
+        <childnode refid="365" relation="include">
+        </childnode>
+        <childnode refid="366" relation="include">
+        </childnode>
+        <childnode refid="367" relation="include">
+        </childnode>
+        <childnode refid="368" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="346" relation="include">
+        </childnode>
+        <childnode refid="343" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="350" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clustersprovider.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Wed<sp/>Apr<sp/>14<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan.myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//QT<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstringlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfileinfo.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iomanip&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kprocess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kio/netaccess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ktempfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>c/c++<sp/>libraries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">//Unix<sp/>include<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;clustersprovider.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;timer.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="classClustersProvider_1110deddefb7bd4722c77cf36f31b4b46" kindref="member">ClustersProvider::ClustersProvider</ref>(KURL<sp/>fileUrl,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samplingRate,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentSamplingRate,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData,dataType<sp/>dataFileMaxTime):<sp/><ref refid="classDataProvider" kindref="compound">DataProvider</ref>(fileUrl),</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/>samplingRate(samplingRate),clusteringData(clusteringData),dataFileMaxTime(dataFileMaxTime){</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/>clusterPosition<sp/>=<sp/>0.25;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/></highlight><highlight class="comment">//Find<sp/>the<sp/>cluster<sp/>file<sp/>number<sp/>and<sp/>use<sp/>it<sp/>as<sp/>the<sp/>name<sp/>for<sp/>the<sp/>provider</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>file<sp/>name<sp/>can<sp/>be<sp/>X.clu.n<sp/>or<sp/>X.n.clu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/>QString<sp/>fileName<sp/>=<sp/>fileUrl.fileName();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>startingIndex<sp/>=<sp/>fileName.findRev(</highlight><highlight class="stringliteral">&quot;clu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startingIndex<sp/>==<sp/>static_cast&lt;int&gt;(fileName.length())<sp/>-<sp/>3){</highlight><highlight class="comment">//X.n.clu</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBStartingIndex<sp/>=<sp/>fileName.findRev(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">,startingIndex<sp/>-<sp/>2);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>name<sp/>=<sp/>fileName.mid(nBStartingIndex<sp/>+<sp/>1,(startingIndex<sp/>-<sp/>1)<sp/>-<sp/>(nBStartingIndex<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight><highlight class="comment">//X.clu.n</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nBStartingIndex<sp/>=<sp/>fileName.findRev(</highlight><highlight class="stringliteral">&quot;.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>name<sp/>=<sp/>fileName.right(static_cast&lt;int&gt;(fileName.length())<sp/>-<sp/>(nBStartingIndex<sp/>+<sp/>1));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/>nbOfDimensions<sp/>=<sp/>clusteringData.<ref refid="classData_19eb1775015f1d6956beb63576fc760cf" kindref="member">nbOfDimensions</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/>fileMaxTime<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_17e746531a09640a04ae30a520a5b32ba" kindref="member">maxDimension</ref>(nbOfDimensions));</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/>previousStartTime<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">ClustersProvider::~ClustersProvider(){</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_173f86b1dda818e9a02e1a5faa2dea1b8" kindref="member">ClustersProvider::requestData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits){</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>retrieveData(startTime,endTime,initiator,startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ClustersProvider::retrieveData(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits){</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>data;<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/></highlight><highlight class="comment">//Convert<sp/>the<sp/>time<sp/>in<sp/>miliseconds<sp/>to<sp/>time<sp/>in<sp/>recording<sp/>units<sp/>if<sp/>need<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/>dataType<sp/>startInRecordingUnits;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/></highlight><highlight class="comment">//startTimeInRecordingUnits<sp/>has<sp/>been<sp/>computed<sp/>in<sp/>a<sp/>previous<sp/>call<sp/>to<sp/>a<sp/>browsing<sp/>function.<sp/>It<sp/>has<sp/>to<sp/>be<sp/>used<sp/>insted<sp/>of<sp/>computing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>value<sp/>from<sp/>startTime<sp/>because<sp/>of<sp/>the<sp/>rounding<sp/>which<sp/>has<sp/>been<sp/>applied<sp/>to<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startTimeInRecordingUnits<sp/>!=<sp/>0)<sp/>startInRecordingUnits<sp/>=<sp/>startTimeInRecordingUnits;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>startInRecordingUnits<sp/>=<sp/>static_cast&lt;dataType&gt;(startTime<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/>dataType<sp/>endInRecordingUnits<sp/>=<sp/><sp/>static_cast&lt;dataType&gt;(endTime<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startInRecordingUnits<sp/>&gt;<sp/>fileMaxTime){</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Send<sp/>the<sp/>information<sp/>to<sp/>the<sp/>receiver.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">dataReady</ref>(data,initiator,name);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(endInRecordingUnits<sp/>&gt;<sp/>fileMaxTime)<sp/>endInRecordingUnits<sp/>=<sp/>fileMaxTime;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>information<sp/>for<sp/>the<sp/>next<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/>previousStartTime<sp/>=<sp/>startInRecordingUnits;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>*<sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/>Data::ClusterInfoMap*<sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/></highlight><highlight class="comment">//Obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>internal<sp/>variables<sp/>of<sp/>data<sp/>storing<sp/>the<sp/>information<sp/>the<sp/>clusters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/></highlight><highlight class="comment">//A<sp/>copy<sp/>is<sp/>needed<sp/>because<sp/>the<sp/>clusters<sp/>can<sp/>changed<sp/>while<sp/>the<sp/>look<sp/>up<sp/>of<sp/>information<sp/>is<sp/>in<sp/>process.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/>clusteringData.<ref refid="classData_16f98fa7d29a02577122299e390c68728" kindref="member">duplicate</ref>(spikesByCluster,clusterInfoMap);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/>QValueList&lt;int&gt;::iterator<sp/>iterator;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/>dataType<sp/>nbSpikes<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){<sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>nbSpikes<sp/>+=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/></highlight><highlight class="comment">//The<sp/>exact<sp/>size<sp/>(&lt;=&gt;<sp/>number<sp/>of<sp/>spikes<sp/>is<sp/>not<sp/>known<sp/>yet,<sp/>so<sp/>the<sp/>size<sp/>of<sp/>data<sp/>is<sp/>set<sp/>to<sp/>the<sp/>maximum<sp/>possible)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/>data.setSize(nbSpikes);</highlight><highlight class="comment">//a<sp/>SortableTable<sp/>haas<sp/>by<sp/>default<sp/>2<sp/>lines.<sp/>Here<sp/>the<sp/>first<sp/>line<sp/>contains<sp/>the<sp/>sample<sp/>index<sp/>and<sp/>the<sp/>secoind<sp/>the<sp/>clusterId.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/>dataType<sp/>time<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstSpikePosition;<sp/>i<sp/>&lt;<sp/>lastPosition;++i){</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>endInRecordingUnits)<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/>data(1,count<sp/>+<sp/>1)<sp/>=<sp/>time<sp/>-<sp/>startInRecordingUnits;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/>data(2,count<sp/>+<sp/>1)<sp/>=<sp/>*iterator;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>data<sp/>in<sp/>a<sp/>array<sp/>of<sp/>the<sp/>good<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>(count);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/>finalData.<ref refid="classArray_119bcb349c3fccf22dfdbdf5076cb9a78" kindref="member">copySubset</ref>(data,count);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/></highlight><highlight class="comment">//Sort<sp/>the<sp/>data<sp/>by<sp/>timestampe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" kindref="member">sort</ref>(1);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/></highlight><highlight class="comment">//Send<sp/>the<sp/>information<sp/>to<sp/>the<sp/>reciever.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/>emit<sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">dataReady</ref>(finalData,initiator,name);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1b2702a683bb72d1c7541309a871518cd" kindref="member">ClustersProvider::requestNextClusterData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits){</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>data;<sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/>dataType<sp/>timeFrameInRecordingUnits<sp/>=<sp/>static_cast&lt;dataType&gt;(timeFrame<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>position<sp/>=<sp/>static_cast&lt;float&gt;(timeFrameInRecordingUnits)<sp/>*<sp/>clusterPosition;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/></highlight><highlight class="comment">//Convert<sp/>the<sp/>time<sp/>in<sp/>miliseconds<sp/>to<sp/>time<sp/>in<sp/>recording<sp/>units<sp/>if<sp/>need<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/>dataType<sp/>startInRecordingUnits;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/></highlight><highlight class="comment">//startTimeInRecordingUnits<sp/>has<sp/>been<sp/>computed<sp/>in<sp/>a<sp/>previous<sp/>call<sp/>to<sp/>a<sp/>browsing<sp/>function.<sp/>It<sp/>has<sp/>to<sp/>be<sp/>used<sp/>insted<sp/>of<sp/>computing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>value<sp/>from<sp/>startTime<sp/>because<sp/>of<sp/>the<sp/>rounding<sp/>which<sp/>has<sp/>been<sp/>applied<sp/>to<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startTimeInRecordingUnits<sp/>!=<sp/>0){</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>startInRecordingUnits<sp/>=<sp/>startTimeInRecordingUnits<sp/>+<sp/>static_cast&lt;long&gt;(position);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/>}<sp/></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>startInRecordingUnits<sp/>=<sp/>static_cast&lt;dataType&gt;(startTime<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startInRecordingUnits<sp/>&gt;<sp/>fileMaxTime){</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Send<sp/>the<sp/>information<sp/>to<sp/>the<sp/>receiver.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">dataReady</ref>(data,initiator,name);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>*<sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/>Data::ClusterInfoMap*<sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/></highlight><highlight class="comment">//Obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>internal<sp/>variables<sp/>of<sp/>data<sp/>storing<sp/>the<sp/>information<sp/>the<sp/>clusters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/></highlight><highlight class="comment">//A<sp/>copy<sp/>is<sp/>needed<sp/>because<sp/>the<sp/>clusters<sp/>can<sp/>changed<sp/>while<sp/>the<sp/>look<sp/>up<sp/>of<sp/>information<sp/>is<sp/>in<sp/>process.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/>clusteringData.<ref refid="classData_16f98fa7d29a02577122299e390c68728" kindref="member">duplicate</ref>(spikesByCluster,clusterInfoMap);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/>QValueList&lt;int&gt;::iterator<sp/>iterator;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/>dataType<sp/>nbSpikes<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){<sp/><sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>nbSpikes<sp/>+=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/></highlight><highlight class="comment">//The<sp/>exact<sp/>size<sp/>(&lt;=&gt;<sp/>number<sp/>of<sp/>spikes<sp/>is<sp/>not<sp/>known<sp/>yet,<sp/>so<sp/>the<sp/>size<sp/>of<sp/>data<sp/>is<sp/>set<sp/>to<sp/>the<sp/>maximum<sp/>possible)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/>data.setSize(nbSpikes);</highlight><highlight class="comment">//a<sp/>SortableTable<sp/>haas<sp/>by<sp/>default<sp/>2<sp/>lines.<sp/>Here<sp/>the<sp/>first<sp/>line<sp/>contains<sp/>the<sp/>sample<sp/>index<sp/>and<sp/>the<sp/>secoind<sp/>the<sp/>clusterId.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/></highlight><highlight class="comment">//First<sp/>look<sp/>up<sp/>for<sp/>the<sp/>the<sp/>time<sp/>corresponding<sp/>to<sp/>the<sp/>first<sp/>spike<sp/>found<sp/>after<sp/>startInRecordingUnits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>firstSpikes;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/>dataType<sp/>time<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>selectedIds.begin();<sp/>iterator<sp/>!=<sp/>selectedIds.end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstSpikePosition;<sp/>i<sp/>&lt;<sp/>lastPosition;++i){</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>startInRecordingUnits){</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>firstSpikes.append(time);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/></highlight><highlight class="comment">//check<sp/>that<sp/>a<sp/>spike<sp/>has<sp/>been<sp/>found,<sp/>if<sp/>that<sp/>is<sp/>not<sp/>the<sp/>case<sp/>return<sp/>startTime<sp/>as<sp/>the<sp/>startingTime<sp/>=&gt;<sp/>no<sp/>change<sp/>will<sp/>be<sp/>done<sp/>in<sp/>the<sp/>view,<sp/>and<sp/>startTimeInRecordingUnits<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(firstSpikes.size()<sp/>==<sp/>0){</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>(data,initiator,name,startTime,startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/>qHeapSort(firstSpikes);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/>time<sp/>=<sp/>firstSpikes[0];</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/></highlight><highlight class="comment">//compute<sp/>the<sp/>final<sp/>starting<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/>dataType<sp/>startingInRecordingUnits<sp/>=<sp/>QMAX(time<sp/>-<sp/>static_cast&lt;long&gt;(position),0);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startingInRecordingUnits<sp/>==<sp/>previousStartTime){</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(firstSpikes.size()<sp/>==<sp/>1){</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>(data,initiator,name,startTime,startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Set<sp/>startInRecordingUnits<sp/>to<sp/>the<sp/>time<sp/>which<sp/>has<sp/>given<sp/>this<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/>startInRecordingUnits<sp/>=<sp/>time;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>firstSpikes.clear();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>selectedIds.begin();<sp/>iterator<sp/>!=<sp/>selectedIds.end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstSpikePosition;<sp/>i<sp/>&lt;<sp/>lastPosition;++i){</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>startInRecordingUnits){</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>firstSpikes.append(time);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//check<sp/>that<sp/>a<sp/>spike<sp/>has<sp/>been<sp/>found,<sp/>if<sp/>that<sp/>is<sp/>not<sp/>the<sp/>case<sp/>return<sp/>startTime<sp/>as<sp/>the<sp/>startingTime<sp/>=&gt;<sp/>no<sp/>change<sp/>will<sp/>be<sp/>done<sp/>in<sp/>the<sp/>view,<sp/>and<sp/>startTimeInRecordingUnits<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(firstSpikes.size()<sp/>==<sp/>0){</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>(data,initiator,name,startTime,startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/>qHeapSort(firstSpikes);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/>time<sp/>=<sp/>firstSpikes[0];</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/>startingInRecordingUnits<sp/>=<sp/>QMAX(time<sp/>-<sp/>static_cast&lt;long&gt;(position),0);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/>dataType<sp/>endInRecordingUnits<sp/>=<sp/>startingInRecordingUnits<sp/>+<sp/>timeFrameInRecordingUnits;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/></highlight><highlight class="comment">//Always<sp/>keep<sp/>the<sp/>same<sp/>timeFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(endInRecordingUnits<sp/>&gt;<sp/>dataFileMaxTime){</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/>startingInRecordingUnits<sp/>=<sp/>dataFileMaxTime<sp/>-<sp/>timeFrameInRecordingUnits;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/>endInRecordingUnits<sp/>=<sp/>dataFileMaxTime;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstSpikePosition;<sp/>i<sp/>&lt;<sp/>lastPosition;++i){</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startingInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>endInRecordingUnits)<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/>data(1,count<sp/>+<sp/>1)<sp/>=<sp/>time<sp/>-<sp/>startingInRecordingUnits;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/>data(2,count<sp/>+<sp/>1)<sp/>=<sp/>*iterator;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>data<sp/>in<sp/>a<sp/>array<sp/>of<sp/>the<sp/>good<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>(count);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/>finalData.<ref refid="classArray_119bcb349c3fccf22dfdbdf5076cb9a78" kindref="member">copySubset</ref>(data,count);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/></highlight><highlight class="comment">//Sort<sp/>the<sp/>data<sp/>by<sp/>timestampe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" kindref="member">sort</ref>(1);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Computes<sp/>the<sp/>starting<sp/>time<sp/>in<sp/>miliseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>computeStartingTime<sp/>=<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(startingInRecordingUnits)<sp/>*<sp/>static_cast&lt;double&gt;(1000)<sp/>/<sp/>static_cast&lt;double&gt;(samplingRate));</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/>dataType<sp/>startingInMiliseconds<sp/>=<sp/>static_cast&lt;dataType&gt;(floor(0.5<sp/>+<sp/>computeStartingTime));</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>information<sp/>for<sp/>the<sp/>next<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/>previousStartTime<sp/>=<sp/>startingInRecordingUnits;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/></highlight><highlight class="comment">//Send<sp/>the<sp/>information<sp/>to<sp/>the<sp/>receiver.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/>emit<sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>(finalData,initiator,name,startingInMiliseconds,startingInRecordingUnits);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c93de2c06321ea2736c7eef5fb504542" kindref="member">ClustersProvider::requestPreviousClusterData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits){</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>data;<sp/></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/>dataType<sp/>timeFrameInRecordingUnits<sp/>=<sp/>static_cast&lt;dataType&gt;(timeFrame<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>position<sp/>=<sp/>static_cast&lt;float&gt;(timeFrameInRecordingUnits)<sp/>*<sp/>clusterPosition;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/></highlight><highlight class="comment">//Convert<sp/>the<sp/>time<sp/>in<sp/>miliseconds<sp/>to<sp/>time<sp/>in<sp/>recording<sp/>units<sp/>if<sp/>need<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/>dataType<sp/>startInRecordingUnits;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/></highlight><highlight class="comment">//startTimeInRecordingUnits<sp/>has<sp/>been<sp/>computed<sp/>in<sp/>a<sp/>previous<sp/>call<sp/>to<sp/>a<sp/>browsing<sp/>function.<sp/>It<sp/>has<sp/>to<sp/>be<sp/>used<sp/>insted<sp/>of<sp/>computing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>value<sp/>from<sp/>startTime<sp/>because<sp/>of<sp/>the<sp/>rounding<sp/>which<sp/>has<sp/>been<sp/>applied<sp/>to<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(startTimeInRecordingUnits<sp/>!=<sp/>0){</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/>startInRecordingUnits<sp/>=<sp/>startTimeInRecordingUnits<sp/>+<sp/>static_cast&lt;long&gt;(position);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/>}<sp/></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>startInRecordingUnits<sp/>=<sp/>static_cast&lt;dataType&gt;(startTime<sp/>*<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(samplingRate)<sp/>/<sp/>static_cast&lt;double&gt;(1000)));</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>*<sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/>Data::ClusterInfoMap*<sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/></highlight><highlight class="comment">//Obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>internal<sp/>variables<sp/>of<sp/>data<sp/>storing<sp/>the<sp/>information<sp/>the<sp/>clusters.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/></highlight><highlight class="comment">//A<sp/>copy<sp/>is<sp/>needed<sp/>because<sp/>the<sp/>clusters<sp/>can<sp/>changed<sp/>while<sp/>the<sp/>look<sp/>up<sp/>of<sp/>information<sp/>is<sp/>in<sp/>process.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/>clusteringData.<ref refid="classData_16f98fa7d29a02577122299e390c68728" kindref="member">duplicate</ref>(spikesByCluster,clusterInfoMap);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/>QValueList&lt;int&gt;::iterator<sp/>iterator;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/>dataType<sp/>nbSpikes<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){<sp/><sp/></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/>nbSpikes<sp/>+=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/></highlight><highlight class="comment">//The<sp/>exact<sp/>size<sp/>(&lt;=&gt;<sp/>number<sp/>of<sp/>spikes<sp/>is<sp/>not<sp/>known<sp/>yet,<sp/>so<sp/>the<sp/>size<sp/>of<sp/>data<sp/>is<sp/>set<sp/>to<sp/>the<sp/>maximum<sp/>possible)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/>data.setSize(nbSpikes);</highlight><highlight class="comment">//a<sp/>SortableTable<sp/>haas<sp/>by<sp/>default<sp/>2<sp/>lines.<sp/>Here<sp/>the<sp/>first<sp/>line<sp/>contains<sp/>the<sp/>sample<sp/>index<sp/>and<sp/>the<sp/>secoind<sp/>the<sp/>clusterId.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/></highlight><highlight class="comment">//First<sp/>look<sp/>up<sp/>for<sp/>the<sp/>the<sp/>time<sp/>corresponding<sp/>to<sp/>the<sp/>first<sp/>spike<sp/>found<sp/>before<sp/>startInRecordingUnits</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>firstSpikes;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/>dataType<sp/>time<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>selectedIds.begin();<sp/>iterator<sp/>!=<sp/>selectedIds.end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/>dataType<sp/>firstPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstPosition;<sp/>i<sp/>&gt;<sp/>lastPosition;--i){</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>startInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startInRecordingUnits){</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>firstSpikes.append(time);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/></highlight><highlight class="comment">//check<sp/>that<sp/>a<sp/>spike<sp/>has<sp/>been<sp/>found,<sp/>if<sp/>that<sp/>is<sp/>not<sp/>the<sp/>case<sp/>return<sp/>startTime<sp/>as<sp/>the<sp/>startingTime<sp/>=&gt;<sp/>no<sp/>change<sp/>will<sp/>be<sp/>done<sp/>in<sp/>the<sp/>view,<sp/>and<sp/>startTimeInRecordingUnits<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(firstSpikes.size()<sp/>==<sp/>0){</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" kindref="member">previousClusterDataReady</ref>(data,initiator,name,startTime,startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;<sp/><sp/></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/>qHeapSort(firstSpikes);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/>time<sp/>=<sp/>firstSpikes[firstSpikes.size()<sp/>-<sp/>1];</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/></highlight><highlight class="comment">//the<sp/>found<sp/>spike<sp/>will<sp/>be<sp/>placed<sp/>at<sp/>clusterPosition*100<sp/>%<sp/>of<sp/>the<sp/>timeFrame<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/></highlight><highlight class="comment">//compute<sp/>the<sp/>final<sp/>starting<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/>dataType<sp/>startingInRecordingUnits<sp/>=<sp/>QMAX(time<sp/>-<sp/>static_cast&lt;long&gt;(position),0);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/>dataType<sp/>endInRecordingUnits<sp/>=<sp/>startingInRecordingUnits<sp/>+<sp/>timeFrameInRecordingUnits;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>clusterIds-&gt;begin();<sp/>iterator<sp/>!=<sp/>clusterIds-&gt;end();<sp/>++iterator){</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/>dataType<sp/>firstSpikePosition<sp/>=<sp/>(*clusterInfoMap)[*iterator].firstSpikePosition();</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/>dataType<sp/>nbSpikesOfCluster<sp/>=<sp/>(*clusterInfoMap)[*iterator].nbSpikes();</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/>dataType<sp/>lastPosition<sp/>=<sp/><sp/>firstSpikePosition<sp/>+<sp/>nbSpikesOfCluster;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>firstSpikePosition;<sp/>i<sp/>&lt;<sp/>lastPosition;++i){</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/>dataType<sp/>featuresRowIndex<sp/>=<sp/>static_cast&lt;dataType&gt;((*spikesByCluster)(1,i));<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/>time<sp/>=<sp/>static_cast&lt;dataType&gt;(clusteringData.<ref refid="classData_13f4913eeea737bea5bbc7a9914a2ff11" kindref="member">features</ref>(featuresRowIndex,nbOfDimensions));</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&lt;<sp/>startingInRecordingUnits)<sp/></highlight><highlight class="keywordflow">continue</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(time<sp/>&gt;<sp/>endInRecordingUnits)<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/>data(1,count<sp/>+<sp/>1)<sp/>=<sp/>time<sp/>-<sp/>startingInRecordingUnits;</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/><sp/>data(2,count<sp/>+<sp/>1)<sp/>=<sp/>*iterator;</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>data<sp/>in<sp/>a<sp/>array<sp/>of<sp/>the<sp/>good<sp/>size</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref><sp/>finalData;</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>(count);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/>finalData.<ref refid="classArray_119bcb349c3fccf22dfdbdf5076cb9a78" kindref="member">copySubset</ref>(data,count);</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/></highlight><highlight class="comment">//Sort<sp/>the<sp/>data<sp/>by<sp/>timestampe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/>finalData.<ref refid="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" kindref="member">sort</ref>(1);</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Computes<sp/>the<sp/>starting<sp/>time<sp/>in<sp/>miliseconds</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>computeStartingTime<sp/>=<sp/>static_cast&lt;double&gt;(static_cast&lt;double&gt;(startingInRecordingUnits)<sp/>*<sp/>static_cast&lt;double&gt;(1000)<sp/>/<sp/>static_cast&lt;double&gt;(samplingRate));</highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/>dataType<sp/>startingInMiliseconds<sp/>=<sp/>static_cast&lt;dataType&gt;(floor(0.5<sp/>+<sp/>computeStartingTime));</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/></highlight><highlight class="comment">//Store<sp/>the<sp/>information<sp/>for<sp/>the<sp/>next<sp/>request</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="412"><highlight class="normal"><sp/>previousStartTime<sp/>=<sp/>startingInRecordingUnits;</highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"><sp/></highlight><highlight class="comment">//Send<sp/>the<sp/>information<sp/>to<sp/>the<sp/>receiver.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/>emit<sp/><ref refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" kindref="member">previousClusterDataReady</ref>(finalData,initiator,name,startingInMiliseconds,startingInRecordingUnits);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp"/>
+  </compounddef>
+</doxygen>

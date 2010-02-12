@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="configuration_8h" kind="file">
+    <compoundname>configuration.h</compoundname>
+    <includes local="no">qstring.h</includes>
+    <includes local="no">qfont.h</includes>
+    <includes local="no">qcolor.h</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="configuration_8cpp" local="yes">configuration.cpp</includedby>
+    <includedby refid="klusters_8cpp" local="yes">klusters.cpp</includedby>
+    <includedby refid="prefdialog_8cpp" local="yes">prefdialog.cpp</includedby>
+    <incdepgraph>
+      <node id="576">
+        <label>configuration.h</label>
+        <link refid="configuration.h"/>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="578" relation="include">
+        </childnode>
+        <childnode refid="579" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+      </node>
+      <node id="577">
+        <label>qstring.h</label>
+      </node>
+      <node id="579">
+        <label>qcolor.h</label>
+      </node>
+      <node id="578">
+        <label>qfont.h</label>
+      </node>
+      <node id="580">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classConfiguration" prot="public">Configuration</innerclass>
+      <sectiondef kind="">
+      <memberdef kind="function" id="configuration_8h_164389e63464ed34e4164d3ff62f25e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration&amp; configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <briefdescription>
+<para>Returns a reference to the application configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="197" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="configuration_8h_164389e63464ed34e4164d3ff62f25e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration&amp; configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <briefdescription>
+<para>Returns a reference to the application configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="197" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configuration.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Dec<sp/>12<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CONFIGURATION_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CONFIGURATION_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfont.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcolor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classConfiguration" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1995f21643ada0d57a8ae542c508e2dec" kindref="member">read</ref>();</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a75c026a728e50c5c9608083190b7a8e" kindref="member">write</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classConfiguration_1764e1266ca470da4513c322145f1fbaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1764e1266ca470da4513c322145f1fbaa" kindref="member">setCrashRecovery</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>use){crashRecovery<sp/>=<sp/>use;};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classConfiguration_1a6e17506c8d6d43ccc105b8db49de146" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a6e17506c8d6d43ccc105b8db49de146" kindref="member">setCrashRecoveryIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index){crashRecoveryIndex<sp/>=<sp/>index;};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="classConfiguration_1c39959a2a38157fbc10819b64dc8bc2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1c39959a2a38157fbc10819b64dc8bc2e" kindref="member">setGain</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gain){this-&gt;gain<sp/>=<sp/>gain;};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classConfiguration_1de8b2258641393f5d07a33400db7f188" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1de8b2258641393f5d07a33400db7f188" kindref="member">setTimeInterval</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>time){timeInterval<sp/>=<sp/>time;};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classConfiguration_12d881e74e87c110b52611708a46e4b9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_12d881e74e87c110b52611708a46e4b9c" kindref="member">setNbUndo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb){nbUndo<sp/>=<sp/>nb;};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classConfiguration_156d77986ca7c3a08575bc6218b2ce3b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_156d77986ca7c3a08575bc6218b2ce3b3" kindref="member">setChannelPositions</ref>(QValueList&lt;int&gt;<sp/>positions){</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>channelPositions.clear();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;::iterator<sp/>iterator;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(iterator<sp/>=<sp/>positions.begin();<sp/>iterator<sp/>!=<sp/>positions.end();<sp/>++iterator)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>channelPositions.append(*iterator);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classConfiguration_12c446f312e2601d9364d32125a522ace" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_12c446f312e2601d9364d32125a522ace" kindref="member">setNbChannels</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb){nbChannels<sp/>=<sp/>nb;};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classConfiguration_18ef935d533f578207fc59fc764de426d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_18ef935d533f578207fc59fc764de426d" kindref="member">setBackgroundColor</ref>(QColor<sp/>color)<sp/>{backgroundColor<sp/>=<sp/>color;};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classConfiguration_122bf94e0450fd38908a020a3ec93003f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_122bf94e0450fd38908a020a3ec93003f" kindref="member">setReclusteringExecutable</ref>(QString<sp/>executable)<sp/>{reclusteringExecutable<sp/>=<sp/>executable;};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classConfiguration_193975179b0b9aa9577534ce8f0594d6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_193975179b0b9aa9577534ce8f0594d6d" kindref="member">setReclusteringArguments</ref>(QString<sp/>arguments)<sp/>{reclusteringArgs<sp/>=<sp/>arguments;};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83" refid="classConfiguration_1c54c2694c995c1f5919d4d579ad2b57c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1c54c2694c995c1f5919d4d579ad2b57c" kindref="member">isCrashRecovery</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecovery;};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classConfiguration_1aed803db445e9a07323e0bfa030b2d77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1aed803db445e9a07323e0bfa030b2d77" kindref="member">crashRecoveryInterval</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(crashRecoveryIndex){</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>3;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>5;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>15;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>30;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="classConfiguration_1df1bbd437574b23e3b0cf400cc23d8e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1df1bbd437574b23e3b0cf400cc23d8e3" kindref="member">crashRecoveryIntervalIndex</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecoveryIndex;};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classConfiguration_1ff4be7ee2b641a6d88d2a916aa78c18e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1ff4be7ee2b641a6d88d2a916aa78c18e" kindref="member">getGain</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gain;};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="classConfiguration_1881f6c0739dd99bd30c08c8a3e74ce46" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1881f6c0739dd99bd30c08c8a3e74ce46" kindref="member">getTimeInterval</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>timeInterval;};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classConfiguration_17f8531c4000c0293f78c8caa3124342a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_17f8531c4000c0293f78c8caa3124342a" kindref="member">getNbUndo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbUndo;};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="classConfiguration_167a1e103437a36d02d14117acc07312b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;*<sp/><ref refid="classConfiguration_167a1e103437a36d02d14117acc07312b" kindref="member">getChannelPositions</ref>()<sp/>{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;channelPositions;};</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classConfiguration_1defd81e491a839f802cebab1fa2c0e2d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1defd81e491a839f802cebab1fa2c0e2d" kindref="member">getNbChannels</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbChannels;};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="classConfiguration_1efbbe89bf667275f75a4a4149a9dbf34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QColor<sp/><ref refid="classConfiguration_1efbbe89bf667275f75a4a4149a9dbf34" kindref="member">getBackgroundColor</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>backgroundColor;};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127" refid="classConfiguration_1c24486902200d3707e63b92be9194ee3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classConfiguration_1c24486902200d3707e63b92be9194ee3" kindref="member">getReclusteringExecutable</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringExecutable;};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classConfiguration_1bdd4795cdfe8dfccd037cd311cf2d5f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classConfiguration_1bdd4795cdfe8dfccd037cd311cf2d5f1" kindref="member">getReclusteringArguments</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringArgs;};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="classConfiguration_1f240551c920b066da94c6e5e907879b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1f240551c920b066da94c6e5e907879b4" kindref="member">isCrashRecoveryDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecoveryDefault;};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="classConfiguration_1d13c5c9d5aca331095b96418e160404a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1d13c5c9d5aca331095b96418e160404a" kindref="member">crashRecoveryIntervalIndexDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecoveryIndexDefault;};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="classConfiguration_1e40d85c7e2dd9f1b4aa7e1e437375c60" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1e40d85c7e2dd9f1b4aa7e1e437375c60" kindref="member">getGainDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gainDefault;};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="classConfiguration_1e5798d1652e87e9f468657926b74256c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1e5798d1652e87e9f468657926b74256c" kindref="member">getTimeIntervalDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>timeIntervalDefault;};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="classConfiguration_1bdcd0bfb31033aea1f54ea172deae440" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1bdcd0bfb31033aea1f54ea172deae440" kindref="member">getNbUndoDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbUndoDefault;};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="classConfiguration_10c49646a311b35b3ee5df2b927482f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QColor<sp/><ref refid="classConfiguration_10c49646a311b35b3ee5df2b927482f72" kindref="member">getBackgroundColorDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>backgroundColorDefault;};</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="classConfiguration_14e0ce12a2af7244bd91c2a0ecdd82b92" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classConfiguration_14e0ce12a2af7244bd91c2a0ecdd82b92" kindref="member">getReclusteringExecutableDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringExecutableDefault;};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="classConfiguration_1d9e20c0afaa18e15a2fb3a36267c339e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classConfiguration_1d9e20c0afaa18e15a2fb3a36267c339e" kindref="member">getReclusteringArgumentsDefault</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringArgsDefault;};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>crashRecovery;<sp/></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>crashRecoveryIndex;<sp/></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>gain;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>timeInterval;<sp/></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>nbUndo;<sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;<sp/>channelPositions;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbChannels;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>QColor<sp/>backgroundColor;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>reclusteringExecutable;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>reclusteringArgs;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>crashRecoveryDefault;<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>crashRecoveryIndexDefault;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>gainDefault;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>timeIntervalDefault;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>nbUndoDefault;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>backgroundColorDefault;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>reclusteringExecutableDefault;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>reclusteringArgsDefault;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref>();</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref>&amp;);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref>&amp;<sp/><ref refid="classConfiguration_164389e63464ed34e4164d3ff62f25e79" kindref="member">configuration</ref>();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><ref refid="classConfiguration" kindref="compound">Configuration</ref>&amp;<sp/>configuration();</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>CONFIGURATION_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h"/>
+  </compounddef>
+</doxygen>

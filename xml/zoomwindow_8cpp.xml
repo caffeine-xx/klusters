@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="zoomwindow_8cpp" kind="file">
+    <compoundname>zoomwindow.cpp</compoundname>
+    <includes refid="zoomwindow_8h" local="yes">zoomwindow.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="3048">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="3049" relation="include">
+        </childnode>
+        <childnode refid="3050" relation="include">
+        </childnode>
+        <childnode refid="3051" relation="include">
+        </childnode>
+      </node>
+      <node id="3049">
+        <label>qrect.h</label>
+      </node>
+      <node id="3047">
+        <label>zoomwindow.cpp</label>
+        <link refid="zoomwindow.cpp"/>
+        <childnode refid="3048" relation="include">
+        </childnode>
+        <childnode refid="3052" relation="include">
+        </childnode>
+      </node>
+      <node id="3050">
+        <label>qpoint.h</label>
+      </node>
+      <node id="3051">
+        <label>math.h</label>
+      </node>
+      <node id="3052">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ZoomWindow.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Aug<sp/>21<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;zoomwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//Assignment<sp/>of<sp/>the<sp/>min<sp/>and<sp/>max<sp/>scale<sp/>allowed<sp/>(starting<sp/>point<sp/>100%)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ZoomWindow::MIN_SCALE<sp/>=<sp/>1;</highlight><highlight class="comment">//0.51;//51%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>ZoomWindow::MAX_SCALE<sp/>=<sp/>22.73;</highlight><highlight class="comment">//227.%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="classZoomWindow_13935a92cbd049d32a6ae96dba3653673" kindref="member">ZoomWindow::ZoomWindow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QRect&amp;<sp/>rect){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>initialLeft<sp/><sp/><sp/>=<sp/>rect.left();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>initialRight<sp/><sp/>=<sp/>rect.right();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>initialTop<sp/><sp/><sp/><sp/>=<sp/>rect.top();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>initialBottom<sp/>=<sp/>rect.bottom();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>left<sp/><sp/><sp/><sp/>=<sp/>rect.left();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>right<sp/><sp/><sp/>=<sp/>rect.right();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>top<sp/><sp/><sp/><sp/><sp/>=<sp/>rect.top();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>bottom<sp/><sp/>=<sp/>rect.bottom();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="classZoomWindow_1ebd4f209291a4931c73c3bf3bdfbbb6a" kindref="member">ZoomWindow::~ZoomWindow</ref>(){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="classZoomWindow_10e0ccfd2b978a01ee0e19ef1cd2f77e9" kindref="member">ZoomWindow::operator QRect</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//A<sp/>QRect<sp/>has<sp/>a<sp/>constructor<sp/>taking<sp/>2<sp/>Qpoints<sp/>(topLeft<sp/>and<sp/>bottomRight)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Those<sp/>QPoints<sp/>are<sp/>created<sp/>with<sp/>an<sp/>explicit<sp/>cast</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/>QPoint<sp/>topLeft(static_cast&lt;int&gt;(left),static_cast&lt;int&gt;(top));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/>QPoint<sp/>bottomRight(static_cast&lt;int&gt;(right),static_cast&lt;int&gt;(bottom));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QRect(topLeft,bottomRight);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">ZoomWindow::zoom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>centerX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>centerY){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Store<sp/>current<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousLeft<sp/><sp/><sp/>=<sp/>left;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousRight<sp/><sp/>=<sp/>right;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousTop<sp/><sp/><sp/><sp/>=<sp/>top;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousBottom<sp/>=<sp/>bottom;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//To<sp/>enlarge<sp/>the<sp/>drawing,<sp/>the<sp/>size<sp/>of<sp/>the<sp/>window<sp/>as<sp/>to<sp/>be<sp/>smaller<sp/>and<sp/>to<sp/>reduce</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>drawing,<sp/>the<sp/>size<sp/>of<sp/>the<sp/>window<sp/>as<sp/>to<sp/>be<sp/>bigger.<sp/>Therefore<sp/>the<sp/>zoom<sp/>factor<sp/>is<sp/>1/factor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>zoomFactor<sp/>=<sp/>1/factor;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/><sp/>=<sp/>fabs(right<sp/>-<sp/>left);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>fabs(top<sp/>-<sp/>bottom);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>left<sp/><sp/><sp/>=<sp/>centerX<sp/>-<sp/>zoomFactor<sp/>*<sp/>width/2.0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/>right<sp/><sp/>=<sp/>centerX<sp/>+<sp/>zoomFactor<sp/>*<sp/>width/2.0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>top<sp/><sp/><sp/><sp/>=<sp/>centerY<sp/>-<sp/>zoomFactor<sp/>*<sp/>height/2.0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>bottom<sp/>=<sp/>centerY<sp/>+<sp/>zoomFactor<sp/>*<sp/>height/2.0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Make<sp/>sure<sp/>that<sp/>the<sp/>new<sp/>window<sp/>remains<sp/>inside<sp/>the<sp/>intial<sp/>boundaries.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" kindref="member">correctWindow</ref>();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Verify<sp/>if<sp/>the<sp/>window<sp/>has<sp/>really<sp/>been<sp/>modified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(left<sp/>==<sp/>previousLeft<sp/>&amp;&amp;<sp/>right<sp/>==<sp/>previousRight<sp/>&amp;&amp;<sp/>top<sp/>==<sp/>previousTop<sp/>&amp;&amp;<sp/>bottom<sp/>==<sp/>previousBottom);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">ZoomWindow::zoom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstClickX,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstClickY,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondClickX,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondClickY){</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Store<sp/>current<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousLeft<sp/><sp/><sp/>=<sp/>left;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousRight<sp/><sp/>=<sp/>right;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousTop<sp/><sp/><sp/><sp/>=<sp/>top;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>previousBottom<sp/>=<sp/>bottom;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>left<sp/><sp/><sp/>=<sp/>static_cast&lt;float&gt;(QMIN(firstClickX,secondClickX));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>right<sp/><sp/>=<sp/>static_cast&lt;float&gt;(QMAX(firstClickX,secondClickX));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>top<sp/><sp/><sp/><sp/>=<sp/>static_cast&lt;float&gt;(QMIN(firstClickY,secondClickY));</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>bottom<sp/>=<sp/>static_cast&lt;float&gt;(QMAX(firstClickY,secondClickY));</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Make<sp/>sure<sp/>that<sp/>the<sp/>new<sp/>window<sp/>remains<sp/>inside<sp/>the<sp/>intial<sp/>boundaries.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><ref refid="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" kindref="member">correctWindow</ref>();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Verify<sp/>if<sp/>the<sp/>window<sp/>has<sp/>really<sp/>been<sp/>modified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!(left<sp/>==<sp/>previousLeft<sp/>&amp;&amp;<sp/>right<sp/>==<sp/>previousRight<sp/>&amp;&amp;<sp/>top<sp/>==<sp/>previousTop<sp/>&amp;&amp;<sp/>bottom<sp/>==<sp/>previousBottom);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" kindref="member">ZoomWindow::correctWindow</ref>(){</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>initialLeft)<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/>right<sp/>+=<sp/>initialLeft<sp/>-<sp/>left;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(right<sp/>&gt;<sp/>initialRight)<sp/>right<sp/>=<sp/>initialRight;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/>left<sp/>=<sp/>initialLeft;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(right<sp/>&gt;<sp/>initialRight){</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/>left<sp/>+=<sp/>initialRight<sp/>-<sp/>right;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>initialLeft)<sp/>left<sp/>=<sp/>initialLeft;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/>right<sp/>=<sp/>initialRight;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(bottom<sp/>&gt;<sp/>initialBottom)<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>top<sp/>+=<sp/>initialBottom<sp/>-<sp/>bottom;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(top<sp/>&lt;<sp/>initialTop)<sp/>top<sp/>=<sp/>initialTop;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>bottom<sp/>=<sp/>initialBottom;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(top<sp/>&lt;<sp/>initialTop){</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/>bottom<sp/>+=<sp/>initialTop<sp/>-<sp/>top;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(bottom<sp/>&gt;<sp/>initialBottom)<sp/>bottom<sp/>=<sp/>initialBottom;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/>top<sp/>=<sp/>initialTop;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialWidth<sp/>=<sp/>(initialRight-initialLeft);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>width<sp/>=<sp/>(right-left);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleX<sp/>=<sp/>initialWidth/width;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(scaleX<sp/>&gt;<sp/>MAX_SCALE){</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//increase<sp/>window<sp/>width<sp/>so<sp/>scaleX<sp/>will<sp/>equal<sp/>MAX_SCALE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaX<sp/>=<sp/>initialWidth<sp/>/<sp/>MAX_SCALE<sp/><sp/>-<sp/>width;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/>left<sp/>-=<sp/>0.5<sp/>*<sp/>deltaX;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/>right<sp/>+=<sp/>0.5<sp/>*<sp/>deltaX;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialHeight<sp/>=<sp/>(initialBottom-initialTop);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>height<sp/>=<sp/>(bottom-top);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaleY<sp/>=<sp/>initialHeight/height;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(scaleY<sp/>&gt;<sp/>MAX_SCALE){</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//increase<sp/>window<sp/>height<sp/>so<sp/>scaleY<sp/>will<sp/>equal<sp/>MAX_SCALE.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>deltaY<sp/>=<sp/>initialHeight<sp/>/<sp/>MAX_SCALE<sp/><sp/>-<sp/>height;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/>top<sp/>-=<sp/>0.5<sp/>*<sp/>deltaY;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/>bottom<sp/>+=<sp/>0.5<sp/>*<sp/>deltaY;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Make<sp/>sure<sp/>that<sp/>the<sp/>new<sp/>window<sp/>is<sp/>still<sp/>inside<sp/>the<sp/>initial<sp/>boundaries.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>initialLeft)<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/>right<sp/>+=<sp/>initialLeft<sp/>-<sp/>left;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(right<sp/>&gt;<sp/>initialRight)<sp/>right<sp/>=<sp/>initialRight;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/>left<sp/>=<sp/>initialLeft;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(right<sp/>&gt;<sp/>initialRight){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/>left<sp/>+=<sp/>initialRight<sp/>-<sp/>right;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>initialLeft)<sp/>left<sp/>=<sp/>initialLeft;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/>right<sp/>=<sp/>initialRight;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(bottom<sp/>&gt;<sp/>initialBottom)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>top<sp/>+=<sp/>initialBottom<sp/>-<sp/>bottom;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(top<sp/>&lt;<sp/>initialTop)<sp/>top<sp/>=<sp/>initialTop;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>bottom<sp/>=<sp/>initialBottom;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(top<sp/>&lt;<sp/>initialTop){</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/>bottom<sp/>+=<sp/>initialTop<sp/>-<sp/>top;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(bottom<sp/>&gt;<sp/>initialBottom)<sp/>bottom<sp/>=<sp/>initialBottom;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/>top<sp/>=<sp/>initialTop;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp"/>
+  </compounddef>
+</doxygen>

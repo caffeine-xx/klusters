@@ -1,0 +1,8 @@
+base referer
+rect $classCorrelationThread.html 69,368 213,395
+rect $classCorrelationView.html 295,278 423,304
+rect $classViewWidget.html 195,187 296,214
+rect $classKlustersView.html 129,278 236,304
+rect $classBaseFrame.html 217,96 313,123
+rect $classKlustersDoc.html 92,96 193,123
+rect $classData.html 60,6 113,32

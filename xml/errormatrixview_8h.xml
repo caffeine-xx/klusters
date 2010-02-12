@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="errormatrixview_8h" kind="file">
+    <compoundname>errormatrixview.h</compoundname>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">qmap.h</includes>
+    <includes local="no">qcolor.h</includes>
+    <includes local="no">qvaluelist.h</includes>
+    <includes local="no">qptrlist.h</includes>
+    <includes refid="viewwidget_8h" local="no">viewwidget.h</includes>
+    <includes refid="array_8h" local="yes">array.h</includes>
+    <includes refid="pair_8h" local="yes">pair.h</includes>
+    <includedby refid="errormatrixthread_8h" local="yes">errormatrixthread.h</includedby>
+    <includedby refid="errormatrixview_8cpp" local="yes">errormatrixview.cpp</includedby>
+    <includedby refid="errormatrixview_8moc_8cpp" local="yes">errormatrixview.moc.cpp</includedby>
+    <includedby refid="klustersview_8cpp" local="yes">klustersview.cpp</includedby>
+    <incdepgraph>
+      <node id="1086">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1083" relation="include">
+        </childnode>
+        <childnode refid="1087" relation="include">
+        </childnode>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+      </node>
+      <node id="1095">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+      </node>
+      <node id="1080">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1082">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1083" relation="include">
+        </childnode>
+        <childnode refid="1084" relation="include">
+        </childnode>
+        <childnode refid="1085" relation="include">
+        </childnode>
+        <childnode refid="1086" relation="include">
+        </childnode>
+      </node>
+      <node id="1088">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1091" relation="include">
+        </childnode>
+      </node>
+      <node id="1096">
+        <label>qstring.h</label>
+      </node>
+      <node id="1097">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1089">
+        <label>qrect.h</label>
+      </node>
+      <node id="1093">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1094" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+      </node>
+      <node id="1085">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="1083">
+        <label>qframe.h</label>
+      </node>
+      <node id="1079">
+        <label>qcolor.h</label>
+      </node>
+      <node id="1081">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1090">
+        <label>qpoint.h</label>
+      </node>
+      <node id="1087">
+        <label>qcursor.h</label>
+      </node>
+      <node id="1076">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview.h"/>
+        <childnode refid="1077" relation="include">
+        </childnode>
+        <childnode refid="1078" relation="include">
+        </childnode>
+        <childnode refid="1079" relation="include">
+        </childnode>
+        <childnode refid="1080" relation="include">
+        </childnode>
+        <childnode refid="1081" relation="include">
+        </childnode>
+        <childnode refid="1082" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>math.h</label>
+      </node>
+      <node id="1077">
+        <label>qwidget.h</label>
+      </node>
+      <node id="1092">
+        <label>iostream</label>
+      </node>
+      <node id="1078">
+        <label>qmap.h</label>
+      </node>
+      <node id="1084">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="1094">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1099">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+      <node id="1098">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview.h"/>
+        <childnode refid="1099" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classErrorMatrixView" prot="public">ErrorMatrixView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>errormatrixview.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Jan<sp/>5<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ERRORMATRIXVIEW_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ERRORMATRIXVIEW_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>Qt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcolor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvaluelist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>application<sp/>specific<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;viewwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;array.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pair.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">//<sp/>forward<sp/>declaration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersView" kindref="compound">KlustersView</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="classErrorMatrixView" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classViewWidget" kindref="compound">ViewWidget</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>(<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>&amp;<sp/><ref refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" kindref="member">doc</ref>,<ref refid="classKlustersView" kindref="compound">KlustersView</ref>&amp;<sp/><ref refid="classViewWidget_166610cd0dfae797713df3acb439033cc" kindref="member">view</ref>,QColor<sp/>backgroundColor,KStatusBar*<sp/><ref refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" kindref="member">statusBar</ref>,QWidget<sp/>*parent=0,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name=0,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize<sp/>=<sp/>50,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>=<sp/>4000,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>=<sp/>-500,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight<sp/>=<sp/>1001,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1be7fdec65331be47d4bfca91637cc256" kindref="member">willBeKilled</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_13fa450bd9e0ac2a7b6d9e89854aaf3b9" kindref="member">isThreadsRunning</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_195bbcba77f32f6253f9d70f989c4afdb" kindref="member">updateMatrixContents</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1be3e01992541a5adc96bbc6dbd54dbd1" kindref="member">clustersGrouped</ref>(QValueList&lt;int&gt;&amp;<sp/>groupedClusters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newClusterId);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1b2b1bd0d12fa78b9d24438fd683ec58d" kindref="member">clustersDeleted</ref>(QValueList&lt;int&gt;&amp;<sp/>deletedClusters,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destinationCluster);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_18f3ec2d125523a383b2a744c970a001f" kindref="member">removeSpikesFromClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>destinationClusterId,QValueList&lt;int&gt;&amp;<sp/>emptiedClusters);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1200d21282cb7cbd54d6e841bc1271e32" kindref="member">newClusterAdded</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,QValueList&lt;int&gt;&amp;<sp/>emptiedClusters);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" kindref="member">newClustersAdded</ref>(QMap&lt;int,int&gt;&amp;<sp/>fromToNewClusterIds,QValueList&lt;int&gt;&amp;<sp/>emptiedClusters);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" kindref="member">newClustersAdded</ref>(QValueList&lt;int&gt;&amp;<sp/>clustersToRecluster);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_12f84c47e90fd2d6725a292521768631c" kindref="member">renumber</ref>(QMap&lt;int,int&gt;&amp;<sp/>clusterIdsOldNew);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_169b1ae818a8104a13154ea79529c6ad9" kindref="member">undoRenumbering</ref>(QMap&lt;int,int&gt;&amp;<sp/>clusterIdsNewOld);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1b5450c1a803893d54a708771ec9b600c" kindref="member">undoAdditionModification</ref>(QValueList&lt;int&gt;&amp;<sp/>addedClusters,QValueList&lt;int&gt;&amp;<sp/>updatedClusters);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_16e0559b8888f3e0e2c3353b9cf28ec95" kindref="member">undoAddition</ref>(QValueList&lt;int&gt;&amp;<sp/>addedClusters);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_13ed3cac1cb79ffba02d9a4c9c75f34b9" kindref="member">undoModification</ref>(QValueList&lt;int&gt;&amp;<sp/>updatedClusters);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_13207f1a1d5724f6869aa10e641ed2fe4" kindref="member">redoRenumbering</ref>(QMap&lt;int,int&gt;&amp;<sp/>clusterIdsOldNew);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_15d7b4bbb266d3af918c912d0ee37b7c6" kindref="member">redoAdditionModification</ref>(QValueList&lt;int&gt;&amp;<sp/>addedClusters,QValueList&lt;int&gt;&amp;<sp/>modifiedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isModifiedByDeletion,QValueList&lt;int&gt;&amp;<sp/>deletedClusters);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1817a9cbb4b65621f7613f1d034e24be0" kindref="member">redoAddition</ref>(QValueList&lt;int&gt;&amp;<sp/>addedClusters,QValueList&lt;int&gt;&amp;<sp/>deletedClusters);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_16a89bb07d7a1314431956527e9359931" kindref="member">redoModification</ref>(QValueList&lt;int&gt;&amp;<sp/>updatedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isModifiedByDeletion,QValueList&lt;int&gt;&amp;<sp/>deletedClusters);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_14bbf5248d4b4999c40359c9d1d5d3571" kindref="member">redoDeletion</ref>(QValueList&lt;int&gt;&amp;<sp/>deletedClusters);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_138a7990d11741fb42db186e607dcb386" kindref="member">print</ref>(QPainter&amp;<sp/>printPainter,QPaintDeviceMetrics&amp;<sp/>metrics,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>whiteBackground);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_149882967374ab5a4731805f0025248e8" kindref="member">drawContents</ref>(QPainter*<sp/>p);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_10a45bd29e0fec237388d46d316f37e59" kindref="member">customEvent</ref>(QCustomEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="classErrorMatrixView_15918a9b5165b23dac19c3fd0f4cc48f3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_15918a9b5165b23dac19c3fd0f4cc48f3" kindref="member">resizeEvent</ref>(QResizeEvent*<sp/>event){</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Trigger<sp/>parent<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63" kindref="member">ViewWidget::resizeEvent</ref>(event);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="classErrorMatrixView_121e97b064d9a688e057de77949a4144e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_121e97b064d9a688e057de77949a4144e" kindref="member">mousePressEvent</ref>(QMouseEvent*<sp/>event){};</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1aaaa6d453f04fba350ee12b41c2f445d" kindref="member">mouseReleaseEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_18638881f0a749ff652986be3065b1e3d" kindref="member">mouseMoveEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="211" refid="classErrorMatrixView_1e0336730047333d04393848bcd120d69" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView_1e0336730047333d04393848bcd120d69" kindref="member">mouseDoubleClickEvent</ref>(QMouseEvent*<sp/>event){};</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>QMap&lt;int,QColor&gt;<sp/>colorMap;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/>QValueList&lt;int&gt;<sp/>clusterList;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/>QValueList&lt;int&gt;<sp/>computedClusterList;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/>QValueList&lt;int&gt;<sp/>ignoreClusterIndex;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>*<sp/>probabilities;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/>QValueList&lt;int&gt;<sp/>modifiedClusterList;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>QMap&lt;int,<sp/>QValueList&lt;int&gt;<sp/>&gt;<sp/>deletedMap;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMin;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMax;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMin;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMax;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/>uint<sp/>widthBorder;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/>uint<sp/>heightBorder;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cellWidth;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/>QPtrList&lt;ErrorMatrixThread&gt;<sp/>threadsToBeKill;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dataReady;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbColors;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>cutoffProbability;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>hasBeenRenumbered;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbActions;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbRedo;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isNotUpToDate;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbPreviousUndo;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbPreviousRedo;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>goingToDie;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/>QValueList&lt;Pair&gt;<sp/>selectedPairs;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/>QMap&lt;int,bool&gt;<sp/>renumbering;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Methods</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>*<sp/>computeMatrix();</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateWindow();</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawMatrix(QPainter&amp;<sp/>painter);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawClusterIds(QPainter&amp;<sp/>painter);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initializeColorMap();</highlight></codeline>
+<codeline lineno="317"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h"/>
+  </compounddef>
+</doxygen>

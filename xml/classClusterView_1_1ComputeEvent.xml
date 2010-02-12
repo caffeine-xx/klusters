@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterView_1_1ComputeEvent" kind="class" prot="private">
+    <compoundname>ClusterView::ComputeEvent</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterView_1_1ComputeEvent_1ec6caa6ae5ae937b43caa171b3903bfd" prot="private" static="no" mutable="no">
+        <type>QPointArray</type>
+        <definition>QPointArray ClusterView::ComputeEvent::selectionPolygon</definition>
+        <argsstring></argsstring>
+        <name>selectionPolygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="404" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classClusterView_1_1ComputeEvent_12876633f2e30b4694f6e8a8753b83cc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend ComputeEvent *</type>
+        <definition>ComputeEvent* ClusterView::getComputeEvent</definition>
+        <argsstring>(QPointArray selectionPolygon)</argsstring>
+        <name>ClusterView::getComputeEvent</name>
+        <param>
+          <type>QPointArray</type>
+          <declname>selectionPolygon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="395"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterView_1_1ComputeEvent_1ca8af71de842f07b3efb7981b99a2225" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClusterView::ComputeEvent::~ComputeEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~ComputeEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="398" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" bodystart="398" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterView_1_1ComputeEvent_14ccb03e7d0f6a641216c1d9fb6e9d663" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QPointArray</type>
+        <definition>QPointArray ClusterView::ComputeEvent::polygon</definition>
+        <argsstring>()</argsstring>
+        <name>polygon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="399" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" bodystart="399" bodyend="399"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classClusterView_1_1ComputeEvent_197f42efc7bcb36f757f8fb545c3fb659" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClusterView::ComputeEvent::ComputeEvent</definition>
+        <argsstring>(QPointArray polygon)</argsstring>
+        <name>ComputeEvent</name>
+        <param>
+          <type>QPointArray</type>
+          <declname>polygon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="402" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" bodystart="402" bodyend="402"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to inform the Cluster View that it is time to compute the new data corresponding to the polygon of selection. </para>    </briefdescription>
+    <detaileddescription>
+<para>The aim of this event is to allow the view to close the polygon of selection before asking for the computation. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" line="392" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h" bodystart="392" bodyend="405"/>
+    <listofallmembers>
+      <member refid="classClusterView_1_1ComputeEvent_12876633f2e30b4694f6e8a8753b83cc4" prot="private" virt="non-virtual"><scope>ClusterView::ComputeEvent</scope><name>ClusterView::getComputeEvent</name></member>
+      <member refid="classClusterView_1_1ComputeEvent_197f42efc7bcb36f757f8fb545c3fb659" prot="private" virt="non-virtual"><scope>ClusterView::ComputeEvent</scope><name>ComputeEvent</name></member>
+      <member refid="classClusterView_1_1ComputeEvent_14ccb03e7d0f6a641216c1d9fb6e9d663" prot="public" virt="non-virtual"><scope>ClusterView::ComputeEvent</scope><name>polygon</name></member>
+      <member refid="classClusterView_1_1ComputeEvent_1ec6caa6ae5ae937b43caa171b3903bfd" prot="private" virt="non-virtual"><scope>ClusterView::ComputeEvent</scope><name>selectionPolygon</name></member>
+      <member refid="classClusterView_1_1ComputeEvent_1ca8af71de842f07b3efb7981b99a2225" prot="public" virt="non-virtual"><scope>ClusterView::ComputeEvent</scope><name>~ComputeEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

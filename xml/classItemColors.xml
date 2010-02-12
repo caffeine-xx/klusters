@@ -1,0 +1,898 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classItemColors" kind="class" prot="public">
+    <compoundname>ItemColors</compoundname>
+    <includes refid="itemcolors_8h" local="no">itemcolors.h</includes>
+    <innerclass refid="structItemColors_1_1ItemColor" prot="private">ItemColors::ItemColor</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classItemColors_1e031d6e39bea289f53f7d859a418920c" prot="public" static="no">
+        <name>SelectionMode</name>
+        <enumvalue id="classItemColors_1e031d6e39bea289f53f7d859a418920caa4cdf99e36cf7b1fa8eee7ef15a76fa" prot="public">
+          <name>BY_INDEX</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classItemColors_1e031d6e39bea289f53f7d859a418920ccb5ebd253086b4b9975b32abc78eaacd" prot="public">
+          <name>BY_ITEM_NUMBER</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classItemColors_1c09e9177297dc32ba547b61e90ce3d5d" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; ItemColor &gt;</type>
+        <definition>QPtrList&lt;ItemColor&gt; ItemColors::itemList</definition>
+        <argsstring></argsstring>
+        <name>itemList</name>
+        <briefdescription>
+<para>list of the ItemColor contained in the class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classItemColors_19a7cf50b317eb640a311eb2a3789622c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemColors::colorChanged</definition>
+        <argsstring></argsstring>
+        <name>colorChanged</name>
+        <briefdescription>
+<para>True if at least one color has changed, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classItemColors_1906a010e32d13ee4ab0b4c9d7ad9d366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ItemColors::ItemColors</definition>
+        <argsstring>()</argsstring>
+        <name>ItemColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_18788b2757335a149c2384e7431191aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ItemColors::~ItemColors</definition>
+        <argsstring>()</argsstring>
+        <name>~ItemColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1eade0dc970b16eb947e5a92d32c1a36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ItemColors::ItemColors</definition>
+        <argsstring>(const ItemColors &amp;itemcolors)</argsstring>
+        <name>ItemColors</name>
+        <param>
+          <type>const <ref refid="classItemColors" kindref="compound">ItemColors</ref> &amp;</type>
+          <declname>itemcolors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="35" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1b1078b093e8bdda2525ae8de310d7386" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ItemColors::removeAll</definition>
+        <argsstring>()</argsstring>
+        <name>removeAll</name>
+        <briefdescription>
+<para>Suppress all the elements of. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QColor</type>
+        <definition>QColor ItemColors::color</definition>
+        <argsstring>(int identifier, SelectionMode mode=BY_ITEM_NUMBER)</argsstring>
+        <name>color</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>SelectionMode</type>
+          <declname>mode</declname>
+          <defval>BY_ITEM_NUMBER</defval>
+        </param>
+        <briefdescription>
+<para>Returns the color for a item with a given id or position in the list (<computeroutput>identifier</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>depending on the mode the index in the list of items or the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the way of looking up for the color. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the QColor for the given item. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="98" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1cd8b2f4b4ab0f6f59bb9d7173bb2f3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::setColor</definition>
+        <argsstring>(int identifier, QColor color, SelectionMode mode=BY_ITEM_NUMBER)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>SelectionMode</type>
+          <declname>mode</declname>
+          <defval>BY_ITEM_NUMBER</defval>
+        </param>
+        <briefdescription>
+<para>Sets the color for a item with a given id or position in the list (<computeroutput>identifier</computeroutput>) to color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>identifier depending on the mode the index in the list of items or the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the way of looking up for the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color to attribute to the item. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="106" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="56" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_11e843f3a9dc5e7473aa6e60668776259" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ItemColors::itemId</definition>
+        <argsstring>(int index)</argsstring>
+        <name>itemId</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns the item id corresponding to a given position in the list (<computeroutput>index</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index in the list of items. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the item id. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1720e7e7ceaeb086314bffb0b633d73e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ItemColors::itemIndex</definition>
+        <argsstring>(int itemId) const</argsstring>
+        <name>itemIndex</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the item index of the item id <computeroutput>itemId</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list corresponding to the item id or -1 if not found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1d6106a973d0d779f1d90a3d6413c3750" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString ItemColors::itemLabel</definition>
+        <argsstring>(int index)</argsstring>
+        <name>itemLabel</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns the item label corresponding to a given position in the list (<computeroutput>index</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index in the list of items. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the item label. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_175f3487df5bc1abc46df29698381e485" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString ItemColors::itemLabelById</definition>
+        <argsstring>(int id)</argsstring>
+        <name>itemLabelById</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Returns the item label corresponding to a given item id (<computeroutput>id</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the item to be look up. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the item label. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1c14bf1392ed92cd06510247b7c579de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ItemColors::contains</definition>
+        <argsstring>(int itemId)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the item Id exists false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the item to check for existence. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the boolean value for the existance of the item. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="141" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="79" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1d4962231910670f75f8a02d945205463" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ItemColors::isColorChanged</definition>
+        <argsstring>(int identifier, SelectionMode mode=BY_ITEM_NUMBER)</argsstring>
+        <name>isColorChanged</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>SelectionMode</type>
+          <declname>mode</declname>
+          <defval>BY_ITEM_NUMBER</defval>
+        </param>
+        <briefdescription>
+<para>Returns true if the color for a item with a given id or position in the list (<computeroutput>identifier</computeroutput>) has been changed, otherwise returns false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>depending on the mode the index in the list of items or the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the way of looking up for the color. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the color status for the given item. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="85" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_14992dcd7a41b0b186c50c1dae6223d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::setColorChanged</definition>
+        <argsstring>(int identifier, bool changed, SelectionMode mode=BY_ITEM_NUMBER)</argsstring>
+        <name>setColorChanged</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>changed</declname>
+        </param>
+        <param>
+          <type>SelectionMode</type>
+          <declname>mode</declname>
+          <defval>BY_ITEM_NUMBER</defval>
+        </param>
+        <briefdescription>
+<para>If changed is true, the color for a item with a given id or position in the list (<computeroutput>identifier</computeroutput>) is said to have changed, otherwise is said not to have changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>depending on the mode the index in the list of items or the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the way of looking up for the color. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>changed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color status. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="159" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="94" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1da9479be1e644aef36e058fa859f5183" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint</type>
+        <definition>virtual uint ItemColors::numberOfItems</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfItems</name>
+        <briefdescription>
+<para>Returns the number of items. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of items in the list, </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="165" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="165" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1d1205053a2109dd30dec9d91a4ac1cd0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ItemColors::isColorChanged</definition>
+        <argsstring>() const</argsstring>
+        <name>isColorChanged</name>
+        <briefdescription>
+<para>Returns true if at least the color of one item have changed, otherwise returns false. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the color status for the list of items. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="171" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1447b7f891e318023c45acf552e90817b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ItemColors::setColorChanged</definition>
+        <argsstring>(bool changed)</argsstring>
+        <name>setColorChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>changed</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color status for the entire list of items. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>changed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color status. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="177" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="177" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1ad18853c399635eba74382945cbe0955" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint</type>
+        <definition>uint ItemColors::append</definition>
+        <argsstring>(int itemId, QColor color)</argsstring>
+        <name>append</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Appends a item to the list of items, the label is set to the item id and the color status is set to false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the item. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="186" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1cb43aae1e636d9491ed6ca311c70d43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint</type>
+        <definition>uint ItemColors::append</definition>
+        <argsstring>(int itemId, QString label, QColor color)</argsstring>
+        <name>append</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Appends a item to the list of items, the color status is set to false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item label. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the item. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="195" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1fe00eda17d35be0d60bce0b6a78c7488" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::insert</definition>
+        <argsstring>(int itemId, QColor color, int index)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a item at position <computeroutput>index</computeroutput> in the list of items, the label is set to the item id and the color status is set to false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index position where to insert the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the item. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="203" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="116" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_17d5c5828f1ee1d000d3fb53ae84561d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::insert</definition>
+        <argsstring>(int itemId, QString label, QColor color, int index)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>label</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a item at position <computeroutput>index</computeroutput> in the list of items, the color status is set to false. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item label. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index position where to insert the item. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the item. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="212" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="120" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_12ab1cc59206fd12f4a4cf7d88a823f66" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ItemColors::remove</definition>
+        <argsstring>(int identifier, SelectionMode mode=BY_ITEM_NUMBER)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>SelectionMode</type>
+          <declname>mode</declname>
+          <defval>BY_ITEM_NUMBER</defval>
+        </param>
+        <briefdescription>
+<para>Removes a item, with a given id or position in the list (<computeroutput>identifier</computeroutput>),from the list of items. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>depending on the mode the index in the list of items or the item id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the way of looking up for the item, </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if successful,i.e. if identifier is in range, otherwise returns false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="221" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="124" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1c192b8cf920d42a4a9385ea5b900a267" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt; int &gt; ItemColors::colorChangedItemList</definition>
+        <argsstring>()</argsstring>
+        <name>colorChangedItemList</name>
+        <briefdescription>
+<para>Returns the list of item ids for which the color has been changed since. </para>        </briefdescription>
+        <detaileddescription>
+<para>the last reset of their status. <simplesect kind="return"><para>item ids list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="228" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="157" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_17e0a91ad96e51d9e59b0cd4b2f1f67dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::resetAllColorStatus</definition>
+        <argsstring>()</argsstring>
+        <name>resetAllColorStatus</name>
+        <briefdescription>
+<para>Resets the status color of the object to false. </para>        </briefdescription>
+        <detaileddescription>
+<para>and do the same for all the items. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="234" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="166" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_13f93c952e7bf8cae24e2a05a71452bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::changeItemId</definition>
+        <argsstring>(int index, int newItemId)</argsstring>
+        <name>changeItemId</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newItemId</declname>
+        </param>
+        <briefdescription>
+<para>Changes the itemId of a given element in the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of the item in the list. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newItemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new id to assign. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="241" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_17ec5592ee1998122b19bffcf9f2c0089" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ItemColors::changeItemLabel</definition>
+        <argsstring>(int index, QString newItemLabel)</argsstring>
+        <name>changeItemLabel</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>newItemLabel</declname>
+        </param>
+        <briefdescription>
+<para>Changes the item label of a given element in the list. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>position of the item in the list. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newItemLabel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new label to assign. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="248" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="182" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classItemColors_19630682bc77dd23b442e52a9097ffc20" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>ItemColor *</type>
+        <definition>ItemColors::ItemColor * ItemColors::itemColor</definition>
+        <argsstring>(int itemId) const</argsstring>
+        <name>itemColor</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the item id <computeroutput>itemId</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the itemColor corresponding to the item id or null if not found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="76" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="132" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classItemColors_1fb1395b4b88480e45e03f4d1b7d17f49" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ItemColors::itemColorIndex</definition>
+        <argsstring>(int itemId) const</argsstring>
+        <name>itemColorIndex</name>
+        <param>
+          <type>int</type>
+          <declname>itemId</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the item index of the item id <computeroutput>itemId</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>itemId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the item id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list corresponding to the item id or -1 if not found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.cpp" bodystart="144" bodyend="155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the list of the items with their associated id, color and color status (i.e the color has been changed or not). </para>    </briefdescription>
+    <detaileddescription>
+<para>The list index is zero based. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="34" bodyend="250"/>
+    <listofallmembers>
+      <member refid="classItemColors_1ad18853c399635eba74382945cbe0955" prot="public" virt="virtual"><scope>ItemColors</scope><name>append</name></member>
+      <member refid="classItemColors_1cb43aae1e636d9491ed6ca311c70d43c" prot="public" virt="virtual"><scope>ItemColors</scope><name>append</name></member>
+      <member refid="classItemColors_1e031d6e39bea289f53f7d859a418920caa4cdf99e36cf7b1fa8eee7ef15a76fa" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>BY_INDEX</name></member>
+      <member refid="classItemColors_1e031d6e39bea289f53f7d859a418920ccb5ebd253086b4b9975b32abc78eaacd" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>BY_ITEM_NUMBER</name></member>
+      <member refid="classItemColors_13f93c952e7bf8cae24e2a05a71452bf4" prot="public" virt="virtual"><scope>ItemColors</scope><name>changeItemId</name></member>
+      <member refid="classItemColors_17ec5592ee1998122b19bffcf9f2c0089" prot="public" virt="virtual"><scope>ItemColors</scope><name>changeItemLabel</name></member>
+      <member refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" prot="public" virt="virtual"><scope>ItemColors</scope><name>color</name></member>
+      <member refid="classItemColors_19a7cf50b317eb640a311eb2a3789622c" prot="private" virt="non-virtual"><scope>ItemColors</scope><name>colorChanged</name></member>
+      <member refid="classItemColors_1c192b8cf920d42a4a9385ea5b900a267" prot="public" virt="virtual"><scope>ItemColors</scope><name>colorChangedItemList</name></member>
+      <member refid="classItemColors_1c14bf1392ed92cd06510247b7c579de2" prot="public" virt="virtual"><scope>ItemColors</scope><name>contains</name></member>
+      <member refid="classItemColors_1fe00eda17d35be0d60bce0b6a78c7488" prot="public" virt="virtual"><scope>ItemColors</scope><name>insert</name></member>
+      <member refid="classItemColors_17d5c5828f1ee1d000d3fb53ae84561d0" prot="public" virt="virtual"><scope>ItemColors</scope><name>insert</name></member>
+      <member refid="classItemColors_1d4962231910670f75f8a02d945205463" prot="public" virt="virtual"><scope>ItemColors</scope><name>isColorChanged</name></member>
+      <member refid="classItemColors_1d1205053a2109dd30dec9d91a4ac1cd0" prot="public" virt="virtual"><scope>ItemColors</scope><name>isColorChanged</name></member>
+      <member refid="classItemColors_19630682bc77dd23b442e52a9097ffc20" prot="private" virt="virtual"><scope>ItemColors</scope><name>itemColor</name></member>
+      <member refid="classItemColors_1fb1395b4b88480e45e03f4d1b7d17f49" prot="private" virt="virtual"><scope>ItemColors</scope><name>itemColorIndex</name></member>
+      <member refid="classItemColors_1906a010e32d13ee4ab0b4c9d7ad9d366" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>ItemColors</name></member>
+      <member refid="classItemColors_1eade0dc970b16eb947e5a92d32c1a36d" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>ItemColors</name></member>
+      <member refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" prot="public" virt="virtual"><scope>ItemColors</scope><name>itemId</name></member>
+      <member refid="classItemColors_1720e7e7ceaeb086314bffb0b633d73e3" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>itemIndex</name></member>
+      <member refid="classItemColors_1d6106a973d0d779f1d90a3d6413c3750" prot="public" virt="virtual"><scope>ItemColors</scope><name>itemLabel</name></member>
+      <member refid="classItemColors_175f3487df5bc1abc46df29698381e485" prot="public" virt="virtual"><scope>ItemColors</scope><name>itemLabelById</name></member>
+      <member refid="classItemColors_1c09e9177297dc32ba547b61e90ce3d5d" prot="private" virt="non-virtual"><scope>ItemColors</scope><name>itemList</name></member>
+      <member refid="classItemColors_1da9479be1e644aef36e058fa859f5183" prot="public" virt="virtual"><scope>ItemColors</scope><name>numberOfItems</name></member>
+      <member refid="classItemColors_12ab1cc59206fd12f4a4cf7d88a823f66" prot="public" virt="virtual"><scope>ItemColors</scope><name>remove</name></member>
+      <member refid="classItemColors_1b1078b093e8bdda2525ae8de310d7386" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>removeAll</name></member>
+      <member refid="classItemColors_17e0a91ad96e51d9e59b0cd4b2f1f67dd" prot="public" virt="virtual"><scope>ItemColors</scope><name>resetAllColorStatus</name></member>
+      <member refid="classItemColors_1e031d6e39bea289f53f7d859a418920c" prot="public" virt="non-virtual"><scope>ItemColors</scope><name>SelectionMode</name></member>
+      <member refid="classItemColors_1cd8b2f4b4ab0f6f59bb9d7173bb2f3d7" prot="public" virt="virtual"><scope>ItemColors</scope><name>setColor</name></member>
+      <member refid="classItemColors_14992dcd7a41b0b186c50c1dae6223d7e" prot="public" virt="virtual"><scope>ItemColors</scope><name>setColorChanged</name></member>
+      <member refid="classItemColors_1447b7f891e318023c45acf552e90817b" prot="public" virt="virtual"><scope>ItemColors</scope><name>setColorChanged</name></member>
+      <member refid="classItemColors_18788b2757335a149c2384e7431191aee" prot="public" virt="virtual"><scope>ItemColors</scope><name>~ItemColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

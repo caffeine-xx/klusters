@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefgenerallayout_8cpp" kind="file">
+    <compoundname>prefgenerallayout.cpp</compoundname>
+    <includes local="no">kdialog.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes refid="prefgenerallayout_8h" local="yes">prefgenerallayout.h</includes>
+    <includes local="no">qvariant.h</includes>
+    <includes local="no">qpushbutton.h</includes>
+    <includes local="no">qgroupbox.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">qspinbox.h</includes>
+    <includes local="no">qcombobox.h</includes>
+    <includes local="no">qcheckbox.h</includes>
+    <includes local="no">qlineedit.h</includes>
+    <includes local="no">qlayout.h</includes>
+    <includes local="no">qtooltip.h</includes>
+    <includes local="no">qwhatsthis.h</includes>
+    <includes local="yes">kcolorbutton.h</includes>
+    <includes refid="prefgenerallayout_8moc" local="yes">prefgenerallayout.moc</includes>
+    <incdepgraph>
+      <node id="2138">
+        <label>prefgenerallayout.h</label>
+        <link refid="prefgenerallayout_8h-source"/>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2140" relation="include">
+        </childnode>
+      </node>
+      <node id="2144">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2150">
+        <label>qwhatsthis.h</label>
+      </node>
+      <node id="2151">
+        <label>kcolorbutton.h</label>
+      </node>
+      <node id="2141">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="2148">
+        <label>qlayout.h</label>
+      </node>
+      <node id="2137">
+        <label>klocale.h</label>
+      </node>
+      <node id="2149">
+        <label>qtooltip.h</label>
+      </node>
+      <node id="2139">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2146">
+        <label>qcheckbox.h</label>
+      </node>
+      <node id="2143">
+        <label>qlabel.h</label>
+      </node>
+      <node id="2140">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2147">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="2135">
+        <label>prefgenerallayout.cpp</label>
+        <link refid="prefgenerallayout.cpp"/>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+        <childnode refid="2139" relation="include">
+        </childnode>
+        <childnode refid="2141" relation="include">
+        </childnode>
+        <childnode refid="2142" relation="include">
+        </childnode>
+        <childnode refid="2143" relation="include">
+        </childnode>
+        <childnode refid="2144" relation="include">
+        </childnode>
+        <childnode refid="2145" relation="include">
+        </childnode>
+        <childnode refid="2146" relation="include">
+        </childnode>
+        <childnode refid="2147" relation="include">
+        </childnode>
+        <childnode refid="2148" relation="include">
+        </childnode>
+        <childnode refid="2149" relation="include">
+        </childnode>
+        <childnode refid="2150" relation="include">
+        </childnode>
+        <childnode refid="2151" relation="include">
+        </childnode>
+      </node>
+      <node id="2136">
+        <label>kdialog.h</label>
+      </node>
+      <node id="2142">
+        <label>qgroupbox.h</label>
+      </node>
+      <node id="2145">
+        <label>qcombobox.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;kdialog.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Form<sp/>implementation<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;./prefgenerallayout.ui&apos;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>Created:<sp/>sam<sp/>sep<sp/>1<sp/>20:01:23<sp/>2007</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>User<sp/>Interface<sp/>Compiler<sp/>($Id:<sp/>qt/main.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Aug<sp/>31<sp/>2005<sp/>$)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefgenerallayout.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvariant.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpushbutton.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qgroupbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qspinbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcombobox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcheckbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlineedit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlayout.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtooltip.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwhatsthis.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;kcolorbutton.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/><sp/>Constructs<sp/>a<sp/>PrefGeneralLayout<sp/>as<sp/>a<sp/>child<sp/>of<sp/>&apos;parent&apos;,<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/><sp/>name<sp/>&apos;name&apos;<sp/>and<sp/>widget<sp/>flags<sp/>set<sp/>to<sp/>&apos;f&apos;.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">PrefGeneralLayout::PrefGeneralLayout(<sp/>QWidget*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/>WFlags<sp/>fl<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QWidget(<sp/>parent,<sp/>name,<sp/>fl<sp/>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!name<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>setName(<sp/></highlight><highlight class="stringliteral">&quot;PrefGeneralLayout&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>1,<sp/>1,<sp/>11,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;PrefGeneralLayoutLayout&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>layout18<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout18&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer17<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Fixed,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>layout18-&gt;addItem(<sp/>spacer17<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGroupBox(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;groupBox2&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)5,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>groupBox2-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2-&gt;setMaximumSize(<sp/>QSize(<sp/>32767,<sp/>70<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox2,<sp/></highlight><highlight class="stringliteral">&quot;layout9&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget-&gt;setGeometry(<sp/>QRect(<sp/>20,<sp/>30,<sp/>200,<sp/>24<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>layout9<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>privateLayoutWidget,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout9&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget,<sp/></highlight><highlight class="stringliteral">&quot;textLabel4&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>layout9-&gt;addWidget(<sp/>textLabel4<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>undoSpinBox<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpinBox(<sp/>privateLayoutWidget,<sp/></highlight><highlight class="stringliteral">&quot;undoSpinBox&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>undoSpinBox-&gt;setWrapping(<sp/>TRUE<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>undoSpinBox-&gt;setMaxValue(<sp/>30<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>undoSpinBox-&gt;setValue(<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>layout9-&gt;addWidget(<sp/>undoSpinBox<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer7<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>81,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>layout9-&gt;addItem(<sp/>spacer7<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>layout18-&gt;addWidget(<sp/>groupBox2<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout-&gt;addLayout(<sp/>layout18,<sp/>1,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>21,<sp/>30,<sp/>QSizePolicy::Minimum,<sp/>QSizePolicy::Expanding<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout-&gt;addItem(<sp/>spacer1,<sp/>4,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>layout45<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout45&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer17_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Fixed,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>layout45-&gt;addItem(<sp/>spacer17_2<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGroupBox(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;groupBox3&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)5,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>groupBox3-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox3,<sp/></highlight><highlight class="stringliteral">&quot;layout16&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget_2-&gt;setGeometry(<sp/>QRect(<sp/>20,<sp/>30,<sp/>325,<sp/>40<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>layout16<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>privateLayoutWidget_2,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout16&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget_2,<sp/></highlight><highlight class="stringliteral">&quot;textLabel1&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>layout16-&gt;addWidget(<sp/>textLabel1<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>backgroundColorButton<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KColorButton(<sp/>privateLayoutWidget_2,<sp/></highlight><highlight class="stringliteral">&quot;backgroundColorButton&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>backgroundColorButton-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)5,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>backgroundColorButton-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>backgroundColorButton-&gt;setMinimumSize(<sp/>QSize(<sp/>200,<sp/>30<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>layout16-&gt;addWidget(<sp/>backgroundColorButton<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>layout45-&gt;addWidget(<sp/>groupBox3<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout-&gt;addLayout(<sp/>layout45,<sp/>3,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>layout17<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;layout17&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer16<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Fixed,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>layout17-&gt;addItem(<sp/>spacer16<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGroupBox(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;groupBox1&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox1-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)5,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>groupBox1-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox1-&gt;setMinimumSize(<sp/>QSize(<sp/>370,<sp/>0<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox1-&gt;setMaximumSize(<sp/>QSize(<sp/>32767,<sp/>120<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget_3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox1,<sp/></highlight><highlight class="stringliteral">&quot;layout6&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget_3-&gt;setGeometry(<sp/>QRect(<sp/>20,<sp/>70,<sp/>245,<sp/>32<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>layout6<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>privateLayoutWidget_3,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout6&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget_3,<sp/></highlight><highlight class="stringliteral">&quot;textLabel3&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>layout6-&gt;addWidget(<sp/>textLabel3<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QComboBox(<sp/>FALSE,<sp/>privateLayoutWidget_3,<sp/></highlight><highlight class="stringliteral">&quot;crashRecoveryComboBox&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>layout6-&gt;addWidget(<sp/>crashRecoveryComboBox<sp/>);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer5<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>326,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>layout6-&gt;addItem(<sp/>spacer5<sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget_4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox1,<sp/></highlight><highlight class="stringliteral">&quot;layout8&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget_4-&gt;setGeometry(<sp/>QRect(<sp/>20,<sp/>30,<sp/>287,<sp/>30<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>layout8<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>privateLayoutWidget_4,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout8&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryCheckBox<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QCheckBox(<sp/>privateLayoutWidget_4,<sp/></highlight><highlight class="stringliteral">&quot;crashRecoveryCheckBox&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>layout8-&gt;addWidget(<sp/>crashRecoveryCheckBox<sp/>);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer6<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>layout8-&gt;addItem(<sp/>spacer6<sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>layout17-&gt;addWidget(<sp/>groupBox1<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout-&gt;addLayout(<sp/>layout17,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>layout33<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout33&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer17_3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Fixed,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>layout33-&gt;addItem(<sp/>spacer17_3<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGroupBox(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;groupBox2_2&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2_2-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)7,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>groupBox2_2-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2_2-&gt;setMaximumSize(<sp/>QSize(<sp/>32767,<sp/>140<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget_5<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox2_2,<sp/></highlight><highlight class="stringliteral">&quot;layout32&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget_5-&gt;setGeometry(<sp/>QRect(<sp/>17,<sp/>44,<sp/>370,<sp/>70<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>layout32<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QVBoxLayout(<sp/>privateLayoutWidget_5,<sp/>11,<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;layout32&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>layout31<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout31&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel4_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget_5,<sp/></highlight><highlight class="stringliteral">&quot;textLabel4_2&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>layout31-&gt;addWidget(<sp/>textLabel4_2<sp/>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutableLineEdit<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLineEdit(<sp/>privateLayoutWidget_5,<sp/></highlight><highlight class="stringliteral">&quot;reclusteringExecutableLineEdit&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>layout31-&gt;addWidget(<sp/>reclusteringExecutableLineEdit<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutableButton<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QPushButton(<sp/>privateLayoutWidget_5,<sp/></highlight><highlight class="stringliteral">&quot;reclusteringExecutableButton&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutableButton-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)0,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>reclusteringExecutableButton-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutableButton-&gt;setMinimumSize(<sp/>QSize(<sp/>60,<sp/>29<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>layout31-&gt;addWidget(<sp/>reclusteringExecutableButton<sp/>);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>layout32-&gt;addLayout(<sp/>layout31<sp/>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>layout28<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>0,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout28&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel1_2<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget_5,<sp/></highlight><highlight class="stringliteral">&quot;textLabel1_2&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>layout28-&gt;addWidget(<sp/>textLabel1_2<sp/>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringArgsLineEdit<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLineEdit(<sp/>privateLayoutWidget_5,<sp/></highlight><highlight class="stringliteral">&quot;reclusteringArgsLineEdit&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringArgsLineEdit-&gt;setMinimumSize(<sp/>QSize(<sp/>0,<sp/>0<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>layout28-&gt;addWidget(<sp/>reclusteringArgsLineEdit<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>layout32-&gt;addLayout(<sp/>layout28<sp/>);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>layout33-&gt;addWidget(<sp/>groupBox2_2<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayoutLayout-&gt;addLayout(<sp/>layout33,<sp/>2,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>languageChange();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>resize(<sp/>QSize(450,<sp/>514).expandedTo(minimumSizeHint())<sp/>);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>clearWState(<sp/>WState_Polished<sp/>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="165"><highlight class="comment"><sp/>*<sp/><sp/>Destroys<sp/>the<sp/>object<sp/>and<sp/>frees<sp/>any<sp/>allocated<sp/>resources</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">PrefGeneralLayout::~PrefGeneralLayout()</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>need<sp/>to<sp/>delete<sp/>child<sp/>widgets,<sp/>Qt<sp/>does<sp/>it<sp/>all<sp/>for<sp/>us</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/>*<sp/><sp/>Sets<sp/>the<sp/>strings<sp/>of<sp/>the<sp/>subwidgets<sp/>using<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/>*<sp/><sp/>language.</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefGeneralLayout::languageChange()</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>setCaption(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;General&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2-&gt;setTitle(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Undo&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel4-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Number<sp/>of<sp/>steps&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3-&gt;setTitle(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Miscellaneous&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel1-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Background<sp/>color&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>backgroundColorButton-&gt;setText(<sp/>QString::null<sp/>);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox1-&gt;setTitle(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Crash<sp/>and<sp/>recovery&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel3-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Time-interval&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;clear();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;insertItem(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;1<sp/>min&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;insertItem(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;3<sp/>min&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;insertItem(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;5<sp/>min&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;insertItem(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;15<sp/>min&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryComboBox-&gt;insertItem(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;30<sp/>min&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryCheckBox-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Periodically<sp/>save<sp/>data<sp/>to<sp/>a<sp/>recovery<sp/>file&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox2_2-&gt;setTitle(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Reclustering&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel4_2-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Executable&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutableButton-&gt;setText(<sp/>QString::null<sp/>);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel1_2-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Arguments&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefgenerallayout.moc&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.cpp"/>
+  </compounddef>
+</doxygen>

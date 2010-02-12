@@ -1,0 +1,4 @@
+base referer
+rect $classData.html 145,280 199,307
+rect $classSortableTable.html 176,173 291,200
+rect $classArray.html 173,96 293,123

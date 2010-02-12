@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="sortabletable_8cpp" kind="file">
+    <compoundname>sortabletable.cpp</compoundname>
+    <includes refid="sortabletable_8h" local="yes">sortabletable.h</includes>
+    <includes local="no">cstring</includes>
+    <incdepgraph>
+      <node id="2446">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+      </node>
+      <node id="2445">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="2446" relation="include">
+        </childnode>
+        <childnode refid="2449" relation="include">
+        </childnode>
+      </node>
+      <node id="2448">
+        <label>iostream</label>
+      </node>
+      <node id="2447">
+        <label>cstring</label>
+      </node>
+      <node id="2449">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+      <node id="2444">
+        <label>sortabletable.cpp</label>
+        <link refid="sortabletable.cpp"/>
+        <childnode refid="2445" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sortabletable.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>jeu<sp/>sep<sp/>18<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sortabletable.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//C<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstring&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dataType<sp/>SortableTable::kSMALL_ENOUGH<sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">SortableTable::SortableTable(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>&amp;<sp/>currentSortableTable):</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;(currentSortableTable.nbRows,currentSortableTable.nbColumns){</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/>memcpy(array,currentSortableTable.<ref refid="classArray_1e2cc2a9a3218834ff71f023903e9fdbc" kindref="member">array</ref>,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nbRows<sp/>*<sp/>nbColumns<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(dataType));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSortableTable_19e0b1abed52e808d7f645a4506efff34" kindref="member">SortableTable::subset</ref>(<ref refid="classSortableTable" kindref="compound">SortableTable</ref>&amp;<sp/>subsetTable,<sp/>dataType<sp/>row,dataType<sp/>startColumn,dataType<sp/>endColumn){</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(row<sp/>==<sp/>2<sp/>&amp;&amp;<sp/>nbRows<sp/>==<sp/>1)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/>subsetTable.<ref refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" kindref="member">setSize</ref>((endColumn<sp/>-<sp/>startColumn)<sp/>+<sp/>1,</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/>memcpy(&amp;(subsetTable.<ref refid="classArray_1e2cc2a9a3218834ff71f023903e9fdbc" kindref="member">array</ref>[(row<sp/>-<sp/>1)*nbColumns]),&amp;array[(row<sp/>-<sp/>1)*nbColumns<sp/>+<sp/>(startColumn<sp/>-<sp/>1)],((endColumn<sp/>-<sp/>startColumn)<sp/>+<sp/>1)<sp/>*<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(dataType));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SortableTable::SelectionSort(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right){</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>left;<sp/>i<sp/>&lt;<sp/>right;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>min<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>j=i+1;<sp/>j<sp/>&lt;=<sp/>right;<sp/>j++)</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,j)<sp/>&lt;<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,min))<sp/>min<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>temp<sp/>=<sp/>(*this)(rowToSort,min);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>temp2<sp/>=<sp/>(*this)(secondRow,min);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(rowToSort,min)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,i);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(secondRow,min)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(secondRow,i);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(rowToSort,i)<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(secondRow,i)<sp/>=<sp/>temp2;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">dataType<sp/>SortableTable::Partition(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>dataType<sp/>val<sp/>=<sp/>(*this)(rowToSort,left);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>dataType<sp/>lm<sp/>=<sp/>left-1;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>dataType<sp/>rm<sp/>=<sp/>right+1;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;;)<sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rm--;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,rm)<sp/>&gt;<sp/>val);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lm++;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,lm)<sp/>&lt;<sp/>val);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(lm<sp/>&lt;<sp/>rm)<sp/>{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>tempr<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,rm);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>tempr2<sp/>=<sp/>(*this)(secondRow,rm);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(rowToSort,rm)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(rowToSort,lm);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(secondRow,rm)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(secondRow,lm);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(rowToSort,lm)<sp/>=<sp/>tempr;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(secondRow,lm)<sp/>=<sp/>tempr2;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rm;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SortableTable::Quicksort(dataType<sp/>rowToSort,dataType<sp/>secondRow,<sp/>dataType<sp/>left,<sp/>dataType<sp/>right){</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>(right-kSMALL_ENOUGH))<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>dataType<sp/>split_pt<sp/>=<sp/>Partition(rowToSort,<sp/>secondRow,<sp/>left,<sp/>right);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>Quicksort(rowToSort,secondRow,<sp/>left,<sp/>split_pt);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>Quicksort(rowToSort,secondRow,<sp/>split_pt+1,<sp/>right);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>SelectionSort(rowToSort,<sp/>secondRow,<sp/>left,<sp/>right);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SortableTable::SelectionSort(dataType<sp/>left,<sp/>dataType<sp/>right){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>i<sp/>=<sp/>left;<sp/>i<sp/>&lt;<sp/>right;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>min<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(dataType<sp/>j=i+1;<sp/>j<sp/>&lt;=<sp/>right;<sp/>j++)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,j)<sp/>&lt;<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,min))<sp/>min<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>temp<sp/>=<sp/>(*this)(1,min);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(1,min)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,i);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(1,i)<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">dataType<sp/>SortableTable::Partition(dataType<sp/>left,<sp/>dataType<sp/>right){<sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>dataType<sp/>val<sp/>=<sp/>(*this)(1,left);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>dataType<sp/>lm<sp/>=<sp/>left-1;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>dataType<sp/>rm<sp/>=<sp/>right+1;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;;)<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rm--;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,rm)<sp/>&gt;<sp/>val);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lm++;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,lm)<sp/>&lt;<sp/>val);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(lm<sp/>&lt;<sp/>rm)<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dataType<sp/>tempr<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,rm);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(1,rm)<sp/>=<sp/>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">)(1,lm);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(*this)(1,lm)<sp/>=<sp/>tempr;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>rm;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>SortableTable::Quicksort(dataType<sp/>left,<sp/>dataType<sp/>right){</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(left<sp/>&lt;<sp/>(right-kSMALL_ENOUGH))<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>dataType<sp/>split_pt<sp/>=<sp/>Partition(left,<sp/>right);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>Quicksort(left,<sp/>split_pt);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>Quicksort(split_pt+1,<sp/>right);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>SelectionSort(left,<sp/>right);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp"/>
+  </compounddef>
+</doxygen>

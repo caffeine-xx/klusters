@@ -1,0 +1,801 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="klusters_8moc_8cpp" kind="file">
+    <compoundname>klusters.moc.cpp</compoundname>
+    <includes refid="klusters_8h" local="yes">klusters.h</includes>
+    <includes local="no">qmetaobject.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">private/qucomextra_p.h</includes>
+    <incdepgraph>
+      <node id="1443">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1444" relation="include">
+        </childnode>
+        <childnode refid="1445" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1452">
+        <label>qtimer.h</label>
+      </node>
+      <node id="1432">
+        <label>qregion.h</label>
+      </node>
+      <node id="1407">
+        <label>kapp.h</label>
+      </node>
+      <node id="1455">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="1434">
+        <label>qfile.h</label>
+      </node>
+      <node id="1427">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="1428" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1429" relation="include">
+        </childnode>
+      </node>
+      <node id="1400">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="1399">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="1400" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1402" relation="include">
+        </childnode>
+        <childnode refid="1403" relation="include">
+        </childnode>
+        <childnode refid="1404" relation="include">
+        </childnode>
+        <childnode refid="1405" relation="include">
+        </childnode>
+        <childnode refid="1406" relation="include">
+        </childnode>
+        <childnode refid="1407" relation="include">
+        </childnode>
+        <childnode refid="1408" relation="include">
+        </childnode>
+        <childnode refid="1409" relation="include">
+        </childnode>
+        <childnode refid="1410" relation="include">
+        </childnode>
+        <childnode refid="1411" relation="include">
+        </childnode>
+        <childnode refid="1412" relation="include">
+        </childnode>
+        <childnode refid="1413" relation="include">
+        </childnode>
+      </node>
+      <node id="1413">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="1414" relation="include">
+        </childnode>
+        <childnode refid="1408" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1417" relation="include">
+        </childnode>
+        <childnode refid="1418" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1448" relation="include">
+        </childnode>
+      </node>
+      <node id="1401">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1440">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="1416" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+        <childnode refid="1415" relation="include">
+        </childnode>
+        <childnode refid="1443" relation="include">
+        </childnode>
+      </node>
+      <node id="1445">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="1446" relation="include">
+        </childnode>
+        <childnode refid="1447" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>qstring.h</label>
+      </node>
+      <node id="1429">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1410">
+        <label>kurl.h</label>
+      </node>
+      <node id="1398">
+        <label>klusters.moc.cpp</label>
+        <link refid="klusters.moc.cpp"/>
+        <childnode refid="1399" relation="include">
+        </childnode>
+        <childnode refid="1453" relation="include">
+        </childnode>
+        <childnode refid="1454" relation="include">
+        </childnode>
+        <childnode refid="1455" relation="include">
+        </childnode>
+      </node>
+      <node id="1446">
+        <label>qrect.h</label>
+      </node>
+      <node id="1437">
+        <label>stdexcept</label>
+      </node>
+      <node id="1402">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="1422">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1423" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+      </node>
+      <node id="1441">
+        <label>qframe.h</label>
+      </node>
+      <node id="1415">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="1420">
+        <label>qcolor.h</label>
+      </node>
+      <node id="1419">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1447">
+        <label>qpoint.h</label>
+      </node>
+      <node id="1425">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+      </node>
+      <node id="1430">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="1454">
+        <label>qapplication.h</label>
+      </node>
+      <node id="1412">
+        <label>klocale.h</label>
+      </node>
+      <node id="1414">
+        <label>kprinter.h</label>
+      </node>
+      <node id="1439">
+        <label>vector</label>
+      </node>
+      <node id="1418">
+        <label>itemcolors.h</label>
+        <link refid="itemcolors_8h-source"/>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1420" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+      </node>
+      <node id="1444">
+        <label>qcursor.h</label>
+      </node>
+      <node id="1408">
+        <label>kdockwidget.h</label>
+      </node>
+      <node id="1411">
+        <label>kdeprint/kprintdialogpage.h</label>
+      </node>
+      <node id="1406">
+        <label>qcheckbox.h</label>
+      </node>
+      <node id="1449">
+        <label>qpainter.h</label>
+      </node>
+      <node id="1405">
+        <label>qlabel.h</label>
+      </node>
+      <node id="1438">
+        <label>math.h</label>
+      </node>
+      <node id="1416">
+        <label>qwidget.h</label>
+      </node>
+      <node id="1404">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="1424">
+        <label>iostream</label>
+      </node>
+      <node id="1417">
+        <label>qvaluevector.h</label>
+      </node>
+      <node id="1436">
+        <label>qthread.h</label>
+      </node>
+      <node id="1453">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="1403">
+        <label>qvalidator.h</label>
+      </node>
+      <node id="1409">
+        <label>kaction.h</label>
+      </node>
+      <node id="1451">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="1431">
+        <label>qdict.h</label>
+      </node>
+      <node id="1448">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="1445" relation="include">
+        </childnode>
+        <childnode refid="1440" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1421" relation="include">
+        </childnode>
+        <childnode refid="1441" relation="include">
+        </childnode>
+        <childnode refid="1449" relation="include">
+        </childnode>
+        <childnode refid="1450" relation="include">
+        </childnode>
+        <childnode refid="1442" relation="include">
+        </childnode>
+        <childnode refid="1451" relation="include">
+        </childnode>
+        <childnode refid="1452" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>qmap.h</label>
+      </node>
+      <node id="1450">
+        <label>qstyle.h</label>
+      </node>
+      <node id="1435">
+        <label>qmutex.h</label>
+      </node>
+      <node id="1442">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="1423">
+        <label>cstring</label>
+      </node>
+      <node id="1421">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="1422" relation="include">
+        </childnode>
+        <childnode refid="1425" relation="include">
+        </childnode>
+        <childnode refid="1427" relation="include">
+        </childnode>
+        <childnode refid="1426" relation="include">
+        </childnode>
+        <childnode refid="1430" relation="include">
+        </childnode>
+        <childnode refid="1419" relation="include">
+        </childnode>
+        <childnode refid="1401" relation="include">
+        </childnode>
+        <childnode refid="1431" relation="include">
+        </childnode>
+        <childnode refid="1432" relation="include">
+        </childnode>
+        <childnode refid="1433" relation="include">
+        </childnode>
+        <childnode refid="1434" relation="include">
+        </childnode>
+        <childnode refid="1435" relation="include">
+        </childnode>
+        <childnode refid="1436" relation="include">
+        </childnode>
+        <childnode refid="1410" relation="include">
+        </childnode>
+        <childnode refid="1424" relation="include">
+        </childnode>
+        <childnode refid="1437" relation="include">
+        </childnode>
+        <childnode refid="1438" relation="include">
+        </childnode>
+        <childnode refid="1439" relation="include">
+        </childnode>
+      </node>
+      <node id="1426">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="klusters_8moc_8cpp_17f16bc9e8927368aad0ee3a58da25f45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_KlustersApp</definition>
+        <argsstring>(&quot;KlustersApp&quot;,&amp;KlustersApp::staticMetaObject)</argsstring>
+        <name>cleanUp_KlustersApp</name>
+        <param>
+          <type>&quot;KlustersApp&quot;</type>
+        </param>
+        <param>
+          <type>&amp;KlustersApp::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="klusters_8moc_8cpp_17f16bc9e8927368aad0ee3a58da25f45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_KlustersApp</definition>
+        <argsstring>(&quot;KlustersApp&quot;,&amp;KlustersApp::staticMetaObject)</argsstring>
+        <name>cleanUp_KlustersApp</name>
+        <param>
+          <type>&quot;KlustersApp&quot;</type>
+        </param>
+        <param>
+          <type>&amp;KlustersApp::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>KlustersApp<sp/>meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;klusters.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>Fri<sp/>Sep<sp/>7<sp/>09:48:15<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>Qt<sp/>MOC<sp/>($Id:<sp/>qt/moc_yacc.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Oct<sp/>19<sp/>16:22<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_NO_COMPAT</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;klusters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmetaobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;private/qucomextra_p.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)<sp/>||<sp/>(Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>26)</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>3.3.7.<sp/>It&quot;</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*KlustersApp::className()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QMetaObject<sp/>*KlustersApp::metaObj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QMetaObjectCleanUp<sp/>cleanUp_KlustersApp(<sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal">,<sp/>&amp;KlustersApp::staticMetaObject<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>KlustersApp::tr(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::DefaultCodec<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromLatin1(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>KlustersApp::trUtf8(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::UnicodeUTF8<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromUtf8(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMetaObject*<sp/>KlustersApp::staticMetaObject()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>metaObj<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaObject*<sp/>parentObject<sp/>=<sp/>KDockMainWindow::staticMetaObject();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::Out<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;queryClose&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_0<sp/>};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateParameterBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;executePreferencesDlg&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_3<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;applyPreferences&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_4<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;initializePreferences&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_5<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileOpen&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_6<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileImport&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_7[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;url&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;KURL&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_7<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileOpenRecent&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_7<sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_8<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileSave&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_9<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileRenumberAndSave&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_10<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileSaveAs&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_11<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileClose&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_12<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFilePrint&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_13<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotFileQuit&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_14<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUndo&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_15<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotRedo&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_16<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotKeyBindings&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_17<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewMainToolBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_18<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewStatusBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_19<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewActionBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_20<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewToolBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_21<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewParameterBar&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_22<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotViewClusterInfo&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_23<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotWindowNewClusterDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_24<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotWindowNewWaveformDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_25<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotWindowNewCrosscorrelationDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_26<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotWindowNewOverViewDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_27<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotWindowNewGroupingAssistantDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_28<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotNewTraceDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_29[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;text&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_29<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotStatusMsg&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_29<sp/>};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_30<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;viewMenuAboutToShow&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_31[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;id&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_31<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;viewMenuActivated&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_31<sp/>};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_32<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSingleNew&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_33<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotMultipleNew&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_34<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDeleteNoise&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_35<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDeleteArtefact&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_36<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotZoom&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_37<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSelectTime&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_38[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clusterId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_38<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSingleColorUpdate&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_38<sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_39[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_39<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateShownClusters&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_39<sp/>};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_40[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_40<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotGroupClusters&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_40<sp/>};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_41[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_41<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotMoveClustersToNoise&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_41<sp/>};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_42[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_42<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotMoveClustersToArtefact&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_42<sp/>};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_43<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotImmediateSelection&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_44<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDelaySelection&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_45[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;widget&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QWidget&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_45<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotTabChange&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_45<sp/>};</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_46[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dimensionX&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_46<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateDimensionX&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_46<sp/>};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_47[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dimensionYs&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_47<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateDimensionY&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_47<sp/>};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_48<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDisplayClose&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_49[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;undoNb&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_49<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateUndoNb&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_49<sp/>};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_50[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoNb&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_50<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateRedoNb&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_50<sp/>};</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_51[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;start&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_51<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateStartTime&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_51<sp/>};</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_52<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateDuration&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_53<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotTimeFrameMode&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_54<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;setOverLayPresentation&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_55<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotMeanPresentation&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_56<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotIncreaseAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_57<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDecreaseAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_58[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;nbSpikes&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_58<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSpikesTodisplay&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_58<sp/>};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_59<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateCorrelogramsHalfDuration&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_60<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateBinSize&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_61<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotIncreaseCorrelogramsAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_62<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDecreaseCorrelogramsAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_63<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotNoScale&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_64<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotScaleByMax&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_65<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotScaleByShouler&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_66<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotShoulderLine&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_67<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotUpdateErrorMatrix&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_68<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSelectAll&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_69<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSelectAllWO01&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_70<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotRecluster&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_71<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotStopRecluster&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_72[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;process&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;KProcess&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_72<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotProcessExited&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_72<sp/>};</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_73<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotOutputTreatmentOver&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_74<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;renameActiveDisplay&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_75<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotIncreaseAllChannelsAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_76<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotDecreaseAllChannelsAmplitude&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_77<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotShowLabels&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_78<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotShowNextCluster&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_79<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotShowPreviousCluster&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_80<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotSpikesDeleted&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>slot_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;queryClose()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateParameterBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;executePreferencesDlg()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_2,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;applyPreferences()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_3,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initializePreferences()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_4,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileOpen()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_5,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileImport()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_6,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileOpenRecent(const<sp/>KURL&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_7,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileSave()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_8,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileRenumberAndSave()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_9,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileSaveAs()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_10,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileClose()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_11,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFilePrint()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_12,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotFileQuit()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_13,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUndo()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_14,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotRedo()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_15,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotKeyBindings()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_16,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewMainToolBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_17,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewStatusBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_18,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewActionBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_19,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewToolBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_20,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewParameterBar()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_21,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotViewClusterInfo()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_22,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotWindowNewClusterDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_23,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotWindowNewWaveformDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_24,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotWindowNewCrosscorrelationDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_25,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotWindowNewOverViewDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_26,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotWindowNewGroupingAssistantDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_27,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotNewTraceDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_28,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotStatusMsg(const<sp/>QString&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_29,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;viewMenuAboutToShow()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_30,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;viewMenuActivated(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_31,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSingleNew()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_32,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotMultipleNew()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_33,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDeleteNoise()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_34,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDeleteArtefact()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_35,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotZoom()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_36,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSelectTime()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_37,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSingleColorUpdate(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_38,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateShownClusters(QValueList&lt;int&gt;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_39,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotGroupClusters(QValueList&lt;int&gt;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_40,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotMoveClustersToNoise(QValueList&lt;int&gt;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_41,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotMoveClustersToArtefact(QValueList&lt;int&gt;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_42,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotImmediateSelection()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_43,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDelaySelection()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_44,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotTabChange(QWidget*)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_45,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateDimensionX(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_46,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateDimensionY(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_47,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDisplayClose()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_48,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateUndoNb(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_49,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateRedoNb(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_50,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateStartTime(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_51,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateDuration()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_52,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotTimeFrameMode()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_53,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;setOverLayPresentation()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_54,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotMeanPresentation()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_55,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotIncreaseAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_56,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDecreaseAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_57,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSpikesTodisplay(int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_58,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateCorrelogramsHalfDuration()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_59,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateBinSize()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_60,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotIncreaseCorrelogramsAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_61,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDecreaseCorrelogramsAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_62,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotNoScale()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_63,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotScaleByMax()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_64,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotScaleByShouler()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_65,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotShoulderLine()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_66,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotUpdateErrorMatrix()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_67,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSelectAll()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_68,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSelectAllWO01()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_69,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotRecluster()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_70,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotStopRecluster()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_71,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotProcessExited(KProcess*)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_72,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotOutputTreatmentOver()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_73,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;renameActiveDisplay()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_74,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotIncreaseAllChannelsAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_75,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotDecreaseAllChannelsAmplitude()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_76,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotShowLabels()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_77,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotShowNextCluster()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_78,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotShowPreviousCluster()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_79,<sp/>QMetaData::Private<sp/>},</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotSpikesDeleted()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_80,<sp/>QMetaData::Private<sp/>}</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>metaObj<sp/>=<sp/>QMetaObject::new_metaobject(</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal">,<sp/>parentObject,</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>slot_tbl,<sp/>81,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="274"><highlight class="normal">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">#endif<sp/></highlight><highlight class="comment">//<sp/>QT_NO_PROPERTIES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/>cleanUp_KlustersApp.setMetaObject(<sp/>metaObj<sp/>);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>KlustersApp::qt_cast(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>clname<sp/>)</highlight></codeline>
+<codeline lineno="284"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!qstrcmp(<sp/>clname,<sp/></highlight><highlight class="stringliteral">&quot;KlustersApp&quot;</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KDockMainWindow::qt_cast(<sp/>clname<sp/>);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>KlustersApp::qt_invoke(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="291"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;slotOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>static_QUType_bool.set(_o,<ref refid="classKlustersApp_102af6812b32ae17bf3e46d4ddc5c4b06" kindref="member">queryClose</ref>());<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/><ref refid="classKlustersApp_164db61eab5b2a48580fc758d0cc23a1e" kindref="member">slotUpdateParameterBar</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/><ref refid="classKlustersApp_1170a157fcd6460b7d6def6b258c3db18" kindref="member">executePreferencesDlg</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/><ref refid="classKlustersApp_1c7c2a96cafce4fb33453e9a024ed70b9" kindref="member">applyPreferences</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/><ref refid="classKlustersApp_163021de4ec271742dfaf23ec8def318e" kindref="member">initializePreferences</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:<sp/>slotFileOpen();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:<sp/>slotFileImport();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:<sp/>slotFileOpenRecent((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL&amp;)*((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL*)static_QUType_ptr.get(_o+1)));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:<sp/>slotFileSave();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:<sp/>slotFileRenumberAndSave();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:<sp/>slotFileSaveAs();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:<sp/>slotFileClose();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:<sp/>slotFilePrint();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>13:<sp/>slotFileQuit();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>14:<sp/>slotUndo();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>15:<sp/>slotRedo();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>16:<sp/>slotKeyBindings();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>17:<sp/>slotViewMainToolBar();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>18:<sp/>slotViewStatusBar();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>19:<sp/>slotViewActionBar();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>20:<sp/>slotViewToolBar();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>21:<sp/>slotViewParameterBar();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>22:<sp/>slotViewClusterInfo();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>23:<sp/>slotWindowNewClusterDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>24:<sp/>slotWindowNewWaveformDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>25:<sp/>slotWindowNewCrosscorrelationDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>26:<sp/>slotWindowNewOverViewDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>27:<sp/>slotWindowNewGroupingAssistantDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>28:<sp/>slotNewTraceDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>29:<sp/>slotStatusMsg((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)static_QUType_QString.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>30:<sp/>viewMenuAboutToShow();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>31:<sp/>viewMenuActivated((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>32:<sp/>slotSingleNew();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>33:<sp/>slotMultipleNew();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>34:<sp/>slotDeleteNoise();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>35:<sp/>slotDeleteArtefact();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>36:<sp/>slotZoom();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>37:<sp/>slotSelectTime();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>38:<sp/>slotSingleColorUpdate((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>39:<sp/>slotUpdateShownClusters((QValueList&lt;int&gt;)(*((QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1))));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>40:<sp/>slotGroupClusters((QValueList&lt;int&gt;)(*((QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1))));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>41:<sp/>slotMoveClustersToNoise((QValueList&lt;int&gt;)(*((QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1))));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>42:<sp/>slotMoveClustersToArtefact((QValueList&lt;int&gt;)(*((QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1))));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>43:<sp/>slotImmediateSelection();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>44:<sp/>slotDelaySelection();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>45:<sp/>slotTabChange((QWidget*)static_QUType_ptr.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>46:<sp/>slotUpdateDimensionX((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>47:<sp/>slotUpdateDimensionY((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>48:<sp/>slotDisplayClose();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>49:<sp/>slotUpdateUndoNb((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>50:<sp/>slotUpdateRedoNb((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>51:<sp/>slotUpdateStartTime((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>52:<sp/>slotUpdateDuration();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>53:<sp/>slotTimeFrameMode();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>54:<sp/>setOverLayPresentation();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>55:<sp/>slotMeanPresentation();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>56:<sp/>slotIncreaseAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>57:<sp/>slotDecreaseAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>58:<sp/>slotSpikesTodisplay((</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>59:<sp/>slotUpdateCorrelogramsHalfDuration();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>60:<sp/>slotUpdateBinSize();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>61:<sp/>slotIncreaseCorrelogramsAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>62:<sp/>slotDecreaseCorrelogramsAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>63:<sp/>slotNoScale();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>64:<sp/>slotScaleByMax();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>65:<sp/>slotScaleByShouler();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>66:<sp/>slotShoulderLine();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>67:<sp/>slotUpdateErrorMatrix();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>68:<sp/>slotSelectAll();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>69:<sp/>slotSelectAllWO01();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>70:<sp/>slotRecluster();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>71:<sp/>slotStopRecluster();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>72:<sp/>slotProcessExited((KProcess*)static_QUType_ptr.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>73:<sp/>slotOutputTreatmentOver();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>74:<sp/>renameActiveDisplay();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>75:<sp/>slotIncreaseAllChannelsAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>76:<sp/>slotDecreaseAllChannelsAmplitude();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>77:<sp/>slotShowLabels();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>78:<sp/>slotShowNextCluster();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>79:<sp/>slotShowPreviousCluster();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>80:<sp/>slotSpikesDeleted();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KDockMainWindow::qt_invoke(<sp/>_id,<sp/>_o<sp/>);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>KlustersApp::qt_emit(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KDockMainWindow::qt_emit(_id,_o);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="385"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>KlustersApp::qt_property(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,<sp/>QVariant*<sp/>v)</highlight></codeline>
+<codeline lineno="387"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KDockMainWindow::qt_property(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>f,<sp/>v);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>KlustersApp::qt_static_property(<sp/>QObject*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/>QVariant*<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_PROPERTIES</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.moc.cpp"/>
+  </compounddef>
+</doxygen>

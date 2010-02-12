@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="processwidget_8moc_8cpp" kind="file">
+    <compoundname>processwidget.moc.cpp</compoundname>
+    <includes refid="processwidget_8h" local="yes">processwidget.h</includes>
+    <includes local="no">qmetaobject.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">private/qucomextra_p.h</includes>
+    <includes local="no">qobjectdefs.h</includes>
+    <includes local="no">qsignalslotimp.h</includes>
+    <incdepgraph>
+      <node id="2299">
+        <label>qsignalslotimp.h</label>
+      </node>
+      <node id="2291">
+        <label>processwidget.h</label>
+        <link refid="processwidget_8h-source"/>
+        <childnode refid="2292" relation="include">
+        </childnode>
+        <childnode refid="2293" relation="include">
+        </childnode>
+        <childnode refid="2294" relation="include">
+        </childnode>
+      </node>
+      <node id="2297">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="2298">
+        <label>qobjectdefs.h</label>
+      </node>
+      <node id="2290">
+        <label>processwidget.moc.cpp</label>
+        <link refid="processwidget.moc.cpp"/>
+        <childnode refid="2291" relation="include">
+        </childnode>
+        <childnode refid="2295" relation="include">
+        </childnode>
+        <childnode refid="2296" relation="include">
+        </childnode>
+        <childnode refid="2297" relation="include">
+        </childnode>
+        <childnode refid="2298" relation="include">
+        </childnode>
+        <childnode refid="2299" relation="include">
+        </childnode>
+      </node>
+      <node id="2294">
+        <label>qcolor.h</label>
+      </node>
+      <node id="2296">
+        <label>qapplication.h</label>
+      </node>
+      <node id="2293">
+        <label>kprinter.h</label>
+      </node>
+      <node id="2295">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="2292">
+        <label>klistbox.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="processwidget_8moc_8cpp_181d258b77bf2a6f70080bdb9a4d16c57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ProcessWidget</definition>
+        <argsstring>(&quot;ProcessWidget&quot;,&amp;ProcessWidget::staticMetaObject)</argsstring>
+        <name>cleanUp_ProcessWidget</name>
+        <param>
+          <type>&quot;ProcessWidget&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ProcessWidget::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="processwidget_8moc_8cpp_181d258b77bf2a6f70080bdb9a4d16c57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ProcessWidget</definition>
+        <argsstring>(&quot;ProcessWidget&quot;,&amp;ProcessWidget::staticMetaObject)</argsstring>
+        <name>cleanUp_ProcessWidget</name>
+        <param>
+          <type>&quot;ProcessWidget&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ProcessWidget::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>ProcessWidget<sp/>meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;processwidget.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>Sat<sp/>Sep<sp/>1<sp/>20:02:15<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>Qt<sp/>MOC<sp/>($Id:<sp/>qt/moc_yacc.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Oct<sp/>19<sp/>16:22<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_NO_COMPAT</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;processwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmetaobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;private/qucomextra_p.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)<sp/>||<sp/>(Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>26)</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>3.3.7.<sp/>It&quot;</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ProcessWidget::className()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QMetaObject<sp/>*ProcessWidget::metaObj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QMetaObjectCleanUp<sp/>cleanUp_ProcessWidget(<sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal">,<sp/>&amp;ProcessWidget::staticMetaObject<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ProcessWidget::tr(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::DefaultCodec<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromLatin1(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ProcessWidget::trUtf8(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::UnicodeUTF8<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromUtf8(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMetaObject*<sp/>ProcessWidget::staticMetaObject()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>metaObj<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaObject*<sp/>parentObject<sp/>=<sp/>KListBox::staticMetaObject();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::Out<sp/>},</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dir&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;command&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;startJob&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_0<sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;killJob&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_2[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;line&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;insertStdoutLine&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_2<sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_3[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;line&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_3<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;insertStderrLine&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_3<sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_4[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;KProcess&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_4<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotProcessExited&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_4<sp/>};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_5<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;slotOutputTreatmentOver&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>slot_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startJob(const<sp/>QString&amp;,const<sp/>QString&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;killJob()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;insertStdoutLine(const<sp/>QString&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_2,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;insertStderrLine(const<sp/>QString&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_3,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotProcessExited(KProcess*)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_4,<sp/>QMetaData::Protected<sp/>},</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;slotOutputTreatmentOver()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_5,<sp/>QMetaData::Protected<sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;KProcess&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;processExited&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_signal_0<sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;processOutputsFinished&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;hidden&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>signal_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;processExited(KProcess*)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_0,<sp/>QMetaData::Protected<sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;processOutputsFinished()&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_1,<sp/>QMetaData::Protected<sp/>},</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;hidden()&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_2,<sp/>QMetaData::Protected<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>metaObj<sp/>=<sp/>QMetaObject::new_metaobject(</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal">,<sp/>parentObject,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>slot_tbl,<sp/>6,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>signal_tbl,<sp/>3,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">#endif<sp/></highlight><highlight class="comment">//<sp/>QT_NO_PROPERTIES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>cleanUp_ProcessWidget.setMetaObject(<sp/>metaObj<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ProcessWidget::qt_cast(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>clname<sp/>)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!qstrcmp(<sp/>clname,<sp/></highlight><highlight class="stringliteral">&quot;ProcessWidget&quot;</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KListBox::qt_cast(<sp/>clname<sp/>);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobjectdefs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qsignalslotimp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>processExited</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::processExited(<sp/>KProcess*<sp/>t0<sp/>)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[2];</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,t0);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>processOutputsFinished</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::processOutputsFinished()</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>hidden</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::hidden()</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProcessWidget::qt_invoke(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;slotOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>static_QUType_bool.set(_o,<ref refid="classProcessWidget_19e3c899c3eb14de51465608e22a1e070" kindref="member">startJob</ref>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)static_QUType_QString.get(_o+1),(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)static_QUType_QString.get(_o+2)));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/><ref refid="classProcessWidget_1572f011eba9b8b804334562dd3d6cdc4" kindref="member">killJob</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/><ref refid="classProcessWidget_1e51d45fb2b93efd0262713ecc1444c71" kindref="member">insertStdoutLine</ref>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)static_QUType_QString.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/><ref refid="classProcessWidget_11eeae8ece5dfded17fd12b540eb1b873" kindref="member">insertStderrLine</ref>((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)static_QUType_QString.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/>slotProcessExited((KProcess*)static_QUType_ptr.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:<sp/>slotOutputTreatmentOver();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KListBox::qt_invoke(<sp/>_id,<sp/>_o<sp/>);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProcessWidget::qt_emit(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;signalOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>processExited((KProcess*)static_QUType_ptr.get(_o+1));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/>processOutputsFinished();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/>hidden();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KListBox::qt_emit(_id,_o);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="169"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProcessWidget::qt_property(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,<sp/>QVariant*<sp/>v)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>KListBox::qt_property(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>f,<sp/>v);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ProcessWidget::qt_static_property(<sp/>QObject*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/>QVariant*<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_PROPERTIES</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="eventsprovider_8h" kind="file">
+    <compoundname>eventsprovider.h</compoundname>
+    <includes refid="dataprovider_8h" local="no">dataprovider.h</includes>
+    <includes refid="array_8h" local="no">array.h</includes>
+    <includes refid="types_8h" local="no">types.h</includes>
+    <includes local="no">qptrlist.h</includes>
+    <includes local="no">qobject.h</includes>
+    <includes local="no">qfile.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="eventsprovider_8cpp" local="yes">eventsprovider.cpp</includedby>
+    <includedby refid="eventsprovider_8moc_8cpp" local="yes">eventsprovider.moc.cpp</includedby>
+    <includedby refid="traceview_8cpp" local="yes">traceview.cpp</includedby>
+    <incdepgraph>
+      <node id="1151">
+        <label>eventsprovider.h</label>
+        <link refid="eventsprovider.h"/>
+        <childnode refid="1152" relation="include">
+        </childnode>
+        <childnode refid="1155" relation="include">
+        </childnode>
+        <childnode refid="1158" relation="include">
+        </childnode>
+        <childnode refid="1159" relation="include">
+        </childnode>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1160" relation="include">
+        </childnode>
+        <childnode refid="1161" relation="include">
+        </childnode>
+      </node>
+      <node id="1160">
+        <label>qfile.h</label>
+      </node>
+      <node id="1152">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1154" relation="include">
+        </childnode>
+      </node>
+      <node id="1153">
+        <label>qobject.h</label>
+      </node>
+      <node id="1154">
+        <label>kurl.h</label>
+      </node>
+      <node id="1155">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1156" relation="include">
+        </childnode>
+        <childnode refid="1157" relation="include">
+        </childnode>
+      </node>
+      <node id="1159">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1161">
+        <label>math.h</label>
+      </node>
+      <node id="1157">
+        <label>iostream</label>
+      </node>
+      <node id="1156">
+        <label>cstring</label>
+      </node>
+      <node id="1158">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classEventDescription" prot="public">EventDescription</innerclass>
+    <innerclass refid="classEventsProvider" prot="public">EventsProvider</innerclass>
+      <sectiondef kind="">
+      <memberdef kind="function" id="eventsprovider_8h_18a51eda3185265c0a1a8282a2bb6c522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const EventDescription &amp;s1, const EventDescription &amp;s2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1386" bodyend="1389"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="eventsprovider_8h_18a51eda3185265c0a1a8282a2bb6c522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const EventDescription &amp;s1, const EventDescription &amp;s2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1386" bodyend="1389"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eventsprovider.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Jun<sp/>07<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan.myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>EVENTSPROVIDER_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>EVENTSPROVIDER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dataprovider.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>c/c++<sp/>libraries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="classEventDescription" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEventDescription" kindref="compound">EventDescription</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QString{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classEventDescription" kindref="compound">EventDescription</ref>():QString(){};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classEventDescription" kindref="compound">EventDescription</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;<sp/>s):QString(s){};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator&lt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classEventDescription" kindref="compound">EventDescription</ref>&amp;<sp/>s1,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classEventDescription" kindref="compound">EventDescription</ref>&amp;<sp/>s2);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classEventsProvider" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classEventsProvider" kindref="compound">EventsProvider</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classDataProvider" kindref="compound">DataProvider</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90" kindref="member">loadReturnMessage</ref><sp/>{OK=0,OPEN_ERROR=1,INCORRECT_CONTENT=2,COUNT_ERROR=3};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><ref refid="classEventsProvider_1f5a5408a39df110a761c0a05010c138f" kindref="member">EventsProvider</ref>(KURL<sp/>fileUrl,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentSamplingRate,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position<sp/>=<sp/>25);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classEventsProvider" kindref="compound">EventsProvider</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1d6dec09f16591b2f53cbddbdc96babb1" kindref="member">requestData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_13c5819196ba81514cdf34eec143ee34e" kindref="member">requestNextEventData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1e0c949e211c42562429ca95b9a260499" kindref="member">requestPreviousEventData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1cceb976433725bd97a19f3c546fa7cfd" kindref="member">loadData</ref>();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="classEventsProvider_19f02275111e4072e7cbd095a7d4191d1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_19f02275111e4072e7cbd095a7d4191d1" kindref="member">getNbEvents</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbEvents;};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="classEventsProvider_19fcb77e64326554bc9adefdc7a6eb9d6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QMap&lt;EventDescription,int&gt;<sp/><ref refid="classEventsProvider_19fcb77e64326554bc9adefdc7a6eb9d6" kindref="member">eventDescriptionIdMap</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>eventIds;};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="110" refid="classEventsProvider_10b33e8e7f42dbecd9e8c56fc4329531e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QMap&lt;int,EventDescription&gt;<sp/><ref refid="classEventsProvider_10b33e8e7f42dbecd9e8c56fc4329531e" kindref="member">eventIdDescriptionMap</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>idsDescriptions;};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="classEventsProvider_19dfb521f56c0d4627d01c40b50133c87" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classEventsProvider_19dfb521f56c0d4627d01c40b50133c87" kindref="member">getName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classEventsProvider_155715274fc885148869b6bf4792cc4c8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_155715274fc885148869b6bf4792cc4c8" kindref="member">getDescriptionLength</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>descriptionLength;};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="classEventsProvider_1c67590bd2d844fa2f63c1db62b105900" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1c67590bd2d844fa2f63c1db62b105900" kindref="member">setEventPosition</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>position){eventPosition<sp/>=<sp/>static_cast&lt;float&gt;(position)<sp/>/<sp/>100.0;};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1467a0837455cab20b9ffe80aefed2495" kindref="member">modifiedEvent</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newTime);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_19653a7e52887010e832669bc532fd485" kindref="member">removeEvent</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1da7ddce431ab341fd442edd8a3656d49" kindref="member">addEvent</ref>(QString<sp/>eventDescriptionToAdd,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_133b3b25df10d7f1cd1056e4a5cd89606" kindref="member">undo</ref>();</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1699d0aa9a45ee2f51fb2d955fcfd52ce" kindref="member">redo</ref>();</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_13c2a61d9efc69320fc9aa7e5b42e6a72" kindref="member">clearUndoRedoData</ref>();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_16f55d7200cc8ab7b038123309805fbb0" kindref="member">save</ref>(QFile*<sp/>eventFile);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="classEventsProvider_1eff38c275b0ab413a0a54ecaa61e066d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1eff38c275b0ab413a0a54ecaa61e066d" kindref="member">isModified</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>modified;};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1c929d39f562537cd44d7413739673376" kindref="member">initializeEmptyProvider</ref>();</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="classEventsProvider_1e3d90fb5b11664b6c5c3ae59cbe03700" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1e3d90fb5b11664b6c5c3ae59cbe03700" kindref="member">updateSamplingRate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>rate){</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/>currentSamplingRate<sp/>=<sp/>static_cast&lt;float&gt;(static_cast&lt;float&gt;(rate)<sp/>/<sp/>1000.0);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Initialize<sp/>the<sp/>variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/>previousStartTime<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/>previousStartIndex<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/>previousEndIndex<sp/>=<sp/>nbEvents;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/>previousEndTime<sp/>=<sp/>static_cast&lt;long&gt;(floor(0.5<sp/>+<sp/>timeStamps(1,nbEvents)));</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/>fileMaxTime<sp/>=<sp/>previousEndTime;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1db689c023b77cb984bbc2ac07ccae257" kindref="member">renameEvent</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,QString<sp/>newEventDescription,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1e48e4f307cc9fbbb278b1c776f897a17" kindref="member">dataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>times,<ref refid="classArray" kindref="compound">Array&lt;int&gt;</ref>&amp;<sp/>ids,QObject*<sp/>initiator,QString<sp/>providerName);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1543c534fb1baf205ef89cb37df7a212a" kindref="member">nextEventDataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>times,<ref refid="classArray" kindref="compound">Array&lt;int&gt;</ref>&amp;<sp/>ids,QObject*<sp/>initiator,QString<sp/>providerName,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTime);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1ce6a554d8f1d5c68dca9487d47f497a8" kindref="member">previousEventDataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>times,<ref refid="classArray" kindref="compound">Array&lt;int&gt;</ref>&amp;<sp/>ids,QObject*<sp/>initiator,QString<sp/>providerName,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTime);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_13780ad0f0a5cb7514a2903e2ef51d599" kindref="member">newEventDescriptionCreated</ref>(QString<sp/>providerName,QMap&lt;int,int&gt;<sp/>oldNewEventIds,QMap&lt;int,int&gt;<sp/>newOldEventIds,QString<sp/>eventDescriptionAdded);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classEventsProvider_1e22f5448150f167a147c16a27ef61c95" kindref="member">eventDescriptionRemoved</ref>(QString<sp/>providerName,QMap&lt;int,int&gt;<sp/>oldNewEventIds,QMap&lt;int,int&gt;<sp/>newOldEventIds,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eventIdToRemove,QString<sp/>eventDescriptionToRemove);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>QString<sp/>name;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>currentSamplingRate;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref><sp/>timeStamps;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><ref refid="classpArray" kindref="compound">pArray&lt;EventDescription&gt;</ref><sp/>events;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref><sp/>timeStampsUndo;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><ref refid="classpArray" kindref="compound">pArray&lt;EventDescription&gt;</ref><sp/>eventsUndo;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref><sp/>timeStampsRedo;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><ref refid="classpArray" kindref="compound">pArray&lt;EventDescription&gt;</ref><sp/>eventsRedo;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>previousStartTime;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>previousEndTime;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>previousStartIndex;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>previousEndIndex;</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>nbEvents;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/>QMap&lt;EventDescription,int&gt;<sp/>eventIds;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/>QMap&lt;int,EventDescription&gt;<sp/>idsDescriptions;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>descriptionLength;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>fileMaxTime;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>eventPosition;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>modified;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/>QMap&lt;EventDescription,int&gt;<sp/>eventDescriptionCounter;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/>QMap&lt;EventDescription,int&gt;<sp/>eventDescriptionCounterUndo;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/>QMap&lt;EventDescription,int&gt;<sp/>eventDescriptionCounterRedo;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>retrieveData(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>findIndex(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>eventTime,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eventId<sp/>=<sp/>-1);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addEventDescription(QString<sp/>eventDescriptionToAdd);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>removeEventDescription(QString<sp/>eventDescriptionToRemove);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h"/>
+  </compounddef>
+</doxygen>

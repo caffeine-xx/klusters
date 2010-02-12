@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classWaveformThread_1_1NoWaveformDataEvent" kind="class" prot="public">
+    <compoundname>WaveformThread::NoWaveformDataEvent</compoundname>
+    <includes refid="waveformthread_8h" local="no">waveformthread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWaveformThread_1_1NoWaveformDataEvent_1e8bb4ddf6ff1a8b927626db9271d79d1" prot="private" static="no" mutable="no">
+        <type><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> &amp;</type>
+        <definition>WaveformThread&amp; WaveformThread::NoWaveformDataEvent::waveformThread</definition>
+        <argsstring></argsstring>
+        <name>waveformThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="110" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classWaveformThread_1_1NoWaveformDataEvent_1552774e0d2ab8d6bfe68dae131cd5475" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref> *</type>
+        <definition>NoWaveformDataEvent* WaveformThread::noWaveformDataEvent</definition>
+        <argsstring>()</argsstring>
+        <name>WaveformThread::noWaveformDataEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="101"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWaveformThread_1_1NoWaveformDataEvent_1c01b5023bbfe60a60d276bb897dbf682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> *</type>
+        <definition>WaveformThread* WaveformThread::NoWaveformDataEvent::parentThread</definition>
+        <argsstring>()</argsstring>
+        <name>parentThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="104" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1_1NoWaveformDataEvent_1cc24cf63a698949846b6dc491db855f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WaveformThread::NoWaveformDataEvent::~NoWaveformDataEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~NoWaveformDataEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="105" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classWaveformThread_1_1NoWaveformDataEvent_14fdfe15170abf0e5c2ce50d5d1a8a84d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WaveformThread::NoWaveformDataEvent::NoWaveformDataEvent</definition>
+        <argsstring>(WaveformThread &amp;thread)</argsstring>
+        <name>NoWaveformDataEvent</name>
+        <param>
+          <type><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="108" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to send information to the <ref refid="classWaveformView" kindref="compound">WaveformView</ref> to inform it that there is not data available for the requested cluster. </para>    </briefdescription>
+    <detaileddescription>
+<para>A reason being that the cluster has been suppress after the thread has been launched. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1443">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1444" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1441">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1435">
+        <label>T</label>
+      </node>
+      <node id="1426">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1442" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1433">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1434" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1450">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1444">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1427" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1430" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1437" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1428">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1424">
+        <label>WaveformThread</label>
+        <link refid="classWaveformThread"/>
+        <childnode refid="1425" relation="usage">
+          <edgelabel>waveformView</edgelabel>
+        </childnode>
+        <childnode refid="1432" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1447">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1423">
+        <label>WaveformThread::NoWaveformDataEvent</label>
+        <link refid="classWaveformThread_1_1NoWaveformDataEvent"/>
+        <childnode refid="1424" relation="usage">
+          <edgelabel>waveformThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1439">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1438" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1432" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1440">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1438">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1442">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1426" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1443" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1445" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="1429">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1430" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1431" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1432" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1437" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1439" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1440" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1441" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1446">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1447" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1448">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1445" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1427">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1428" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1449">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1450" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1451" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1452" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1437">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1438" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1451">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1432">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1433" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1436" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1425">
+        <label>WaveformView</label>
+        <link refid="classWaveformView"/>
+        <childnode refid="1426" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1430">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1445">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1446" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1448" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1449" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1440" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1434">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1435" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1452">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1436">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1432" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1431">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1429" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1432" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="98" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="98" bodyend="111"/>
+    <listofallmembers>
+      <member refid="classWaveformThread_1_1NoWaveformDataEvent_14fdfe15170abf0e5c2ce50d5d1a8a84d" prot="private" virt="non-virtual"><scope>WaveformThread::NoWaveformDataEvent</scope><name>NoWaveformDataEvent</name></member>
+      <member refid="classWaveformThread_1_1NoWaveformDataEvent_1c01b5023bbfe60a60d276bb897dbf682" prot="public" virt="non-virtual"><scope>WaveformThread::NoWaveformDataEvent</scope><name>parentThread</name></member>
+      <member refid="classWaveformThread_1_1NoWaveformDataEvent_1e8bb4ddf6ff1a8b927626db9271d79d1" prot="private" virt="non-virtual"><scope>WaveformThread::NoWaveformDataEvent</scope><name>waveformThread</name></member>
+      <member refid="classWaveformThread_1_1NoWaveformDataEvent_1552774e0d2ab8d6bfe68dae131cd5475" prot="private" virt="non-virtual"><scope>WaveformThread::NoWaveformDataEvent</scope><name>WaveformThread::noWaveformDataEvent</name></member>
+      <member refid="classWaveformThread_1_1NoWaveformDataEvent_1cc24cf63a698949846b6dc491db855f1" prot="public" virt="non-virtual"><scope>WaveformThread::NoWaveformDataEvent</scope><name>~NoWaveformDataEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

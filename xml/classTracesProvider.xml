@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classTracesProvider" kind="class" prot="public">
+    <compoundname>TracesProvider</compoundname>
+    <basecompoundref refid="classDataProvider" prot="public" virt="non-virtual">DataProvider</basecompoundref>
+    <includes refid="tracesprovider_8h" local="no">tracesprovider.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTracesProvider_16ae85bd61fcf8146949ab673e315316b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TracesProvider::nbChannels</definition>
+        <argsstring></argsstring>
+        <name>nbChannels</name>
+        <briefdescription>
+<para>Number of channels used to record the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="125" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTracesProvider_1891e58d04ba587cb9732e4e84a0fbddc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TracesProvider::resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <briefdescription>
+<para>Resolution of the acquisition system used to record the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="128" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTracesProvider_12264c07006a4da321cacd75d994858e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TracesProvider::samplingRate</definition>
+        <argsstring></argsstring>
+        <name>samplingRate</name>
+        <briefdescription>
+<para>Sampling rate used to record the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="131" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTracesProvider_145b69adb3c9f34ec129d420176357283" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TracesProvider::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+<para>Offset to apply to the data before given them away. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTracesProvider_1272cf2abbd370a7a694049c5c146df50" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long TracesProvider::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+<para>the total length of the document in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="137" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTracesProvider_1b3f0d4973e33fb3206fb20585ba2fb16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TracesProvider::TracesProvider</definition>
+        <argsstring>(KURL fileUrl, int nbChannels, int resolution, int samplingRate, int offset)</argsstring>
+        <name>TracesProvider</name>
+        <param>
+          <type>KURL</type>
+          <declname>fileUrl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbChannels</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samplingRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the url of the file containing the data provided by this class. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbChannels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of channels. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>resolution</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resolution of the acquisition system used to record the data contained in the file identified by fileUrl. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samplingRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate used to record the data contained in the file identified by fileUrl. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset to apply to the data contained in the file identified by fileUrl. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_1c10932309f9fcb7466ef0103223bd293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TracesProvider::~TracesProvider</definition>
+        <argsstring>()</argsstring>
+        <name>~TracesProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_115a28fc38479728605849e1d8bb4aad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void TracesProvider::requestData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>requestData</name>
+        <reimplements refid="classDataProvider_10df9ff57ddcbad2ba07f62346a01f86c">requestData</reimplements>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the retrieve of the traces included in the time rate given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_1e19315e3ae81d0dbf2f43f081fbdc0ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::setNbChannels</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbChannels</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of channels corresponding to the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the number of channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_14b3676ab7058abe83be3629a4c521192" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::setResolution</definition>
+        <argsstring>(int res)</argsstring>
+        <name>setResolution</name>
+        <param>
+          <type>int</type>
+          <declname>res</declname>
+        </param>
+        <briefdescription>
+<para>Sets the resolution used to record the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resolution. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_19e1ab93c2e057f17ce346f035379fc60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::setSamplingRate</definition>
+        <argsstring>(int rate)</argsstring>
+        <name>setSamplingRate</name>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+<para>Sets the sampling rate used to record the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the sampling rate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="76" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="76" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_1849a5bb8d771e156d9352a5b09a9285b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::setOffset</definition>
+        <argsstring>(int newOffset)</argsstring>
+        <name>setOffset</name>
+        <param>
+          <type>int</type>
+          <declname>newOffset</declname>
+        </param>
+        <briefdescription>
+<para>Sets the offset to apply to the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newOffset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>offset. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_17f7985a31e8e6e94236b6b42dfa96945" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TracesProvider::getNbChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbChannels</name>
+        <briefdescription>
+<para>Returns the number of channels corresponding to the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_127f43611a182aa44bcec1bb849ffb3a1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TracesProvider::getResolution</definition>
+        <argsstring>() const</argsstring>
+        <name>getResolution</name>
+        <briefdescription>
+<para>Returns the resolution used to record the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_18fad4f54ef71252528e06d3ac2ccecf4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TracesProvider::getSamplingRate</definition>
+        <argsstring>() const</argsstring>
+        <name>getSamplingRate</name>
+        <briefdescription>
+<para>Returns the sampling rate used to record the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="96" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="96" bodyend="96"/>
+        <referencedby refid="classTraceView_1688771f14317976a1bc2d523b5b0fa05" compoundref="traceview_8h" startline="415" endline="419">TraceView::samplingRateModified</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_1b15ff57527436ee448716610448f1414" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int TracesProvider::getOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>getOffset</name>
+        <briefdescription>
+<para>Returns the offset to apply to the data contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="100" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_17e7bff8bdd97abf5a4a31e24cfa839ac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long long</type>
+        <definition>long long TracesProvider::recordingLength</definition>
+        <argsstring>() const</argsstring>
+        <name>recordingLength</name>
+        <briefdescription>
+<para>Returns the total length of the document in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="103" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_18c3d8a1470cf4bde0c44c8c5cf610a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType TracesProvider::getNbSamples</definition>
+        <argsstring>(long startTime, long endTime, long startTimeInRecordingUnits)</argsstring>
+        <name>getNbSamples</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Computes the number of samples between <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which the data have been retrieved, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of samples in the given time frame. </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which the data have been retrieved, given in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="111" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="43" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_194a5a4cffdc5838999c8b81e22e5f930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long TracesProvider::getTotalNbSamples</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalNbSamples</name>
+        <briefdescription>
+<para>Returns the total number of samples in recorded contained in the file identified by fileUrl. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="114" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="235" bodyend="237"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTracesProvider_1a1757f81106426811c405a6437654cf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::dataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;data, QObject *initiator)</argsstring>
+        <name>dataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>array of data (number of channels X number of samples). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="121" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.moc.cpp" bodystart="87" bodyend="98"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classTracesProvider_15cb0d4bbb98c4add254ddcc9964d1b5c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::retrieveData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>retrieveData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the traces included in the time frame given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="71" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classTracesProvider_14ec9eb5e183baecf8d70f47a7e7820f4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TracesProvider::computeRecordingLength</definition>
+        <argsstring>()</argsstring>
+        <name>computeRecordingLength</name>
+        <briefdescription>
+<para>Computes the total length of the document in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.cpp" bodystart="193" bodyend="233"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class providing the row recorded data (contained in a .dat or .eeg file). </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1300">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1299">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1300" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1302">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1301">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1302" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" line="35" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracesprovider.h" bodystart="35" bodyend="152"/>
+    <listofallmembers>
+      <member refid="classTracesProvider_14ec9eb5e183baecf8d70f47a7e7820f4" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>computeRecordingLength</name></member>
+      <member refid="classDataProvider_1c0f46a1b6591e24fb57682372c0fb3b3" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>DataProvider</name></member>
+      <member refid="classTracesProvider_1a1757f81106426811c405a6437654cf1" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>dataReady</name></member>
+      <member refid="classDataProvider_12fa94f4ef65e78995b0182cbe9a03b55" prot="protected" virt="non-virtual"><scope>TracesProvider</scope><name>fileName</name></member>
+      <member refid="classTracesProvider_17f7985a31e8e6e94236b6b42dfa96945" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getNbChannels</name></member>
+      <member refid="classTracesProvider_18c3d8a1470cf4bde0c44c8c5cf610a82" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getNbSamples</name></member>
+      <member refid="classTracesProvider_1b15ff57527436ee448716610448f1414" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getOffset</name></member>
+      <member refid="classTracesProvider_127f43611a182aa44bcec1bb849ffb3a1" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getResolution</name></member>
+      <member refid="classTracesProvider_18fad4f54ef71252528e06d3ac2ccecf4" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getSamplingRate</name></member>
+      <member refid="classTracesProvider_194a5a4cffdc5838999c8b81e22e5f930" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>getTotalNbSamples</name></member>
+      <member refid="classDataProvider_15361517c17a7054ca22554d83f882d94" prot="public" virt="virtual"><scope>TracesProvider</scope><name>isThreadsRunning</name></member>
+      <member refid="classTracesProvider_1272cf2abbd370a7a694049c5c146df50" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>length</name></member>
+      <member refid="classTracesProvider_16ae85bd61fcf8146949ab673e315316b" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>nbChannels</name></member>
+      <member refid="classTracesProvider_145b69adb3c9f34ec129d420176357283" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>offset</name></member>
+      <member refid="classTracesProvider_17e7bff8bdd97abf5a4a31e24cfa839ac" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>recordingLength</name></member>
+      <member refid="classTracesProvider_115a28fc38479728605849e1d8bb4aad9" prot="public" virt="virtual"><scope>TracesProvider</scope><name>requestData</name></member>
+      <member refid="classTracesProvider_1891e58d04ba587cb9732e4e84a0fbddc" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>resolution</name></member>
+      <member refid="classTracesProvider_15cb0d4bbb98c4add254ddcc9964d1b5c" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>retrieveData</name></member>
+      <member refid="classTracesProvider_12264c07006a4da321cacd75d994858e5" prot="private" virt="non-virtual"><scope>TracesProvider</scope><name>samplingRate</name></member>
+      <member refid="classTracesProvider_1e19315e3ae81d0dbf2f43f081fbdc0ff" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>setNbChannels</name></member>
+      <member refid="classTracesProvider_1849a5bb8d771e156d9352a5b09a9285b" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>setOffset</name></member>
+      <member refid="classTracesProvider_14b3676ab7058abe83be3629a4c521192" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>setResolution</name></member>
+      <member refid="classTracesProvider_19e1ab93c2e057f17ce346f035379fc60" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>setSamplingRate</name></member>
+      <member refid="classTracesProvider_1b3f0d4973e33fb3206fb20585ba2fb16" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>TracesProvider</name></member>
+      <member refid="classDataProvider_1eaf1d12be2fa035dff39f34825a094d2" prot="public" virt="virtual"><scope>TracesProvider</scope><name>~DataProvider</name></member>
+      <member refid="classTracesProvider_1c10932309f9fcb7466ef0103223bd293" prot="public" virt="non-virtual"><scope>TracesProvider</scope><name>~TracesProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

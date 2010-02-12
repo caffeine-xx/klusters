@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterPaletteIconViewItem" kind="class" prot="public">
+    <compoundname>ClusterPaletteIconViewItem</compoundname>
+    <includes refid="clusterpaletteiconviewitem_8h" local="no">clusterpaletteiconviewitem.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterPaletteIconViewItem_12030ef576446d1f8c67060c34a7650df" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterPaletteIconViewItem::toolTipText</definition>
+        <argsstring></argsstring>
+        <name>toolTipText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPaletteIconViewItem_1a303d8bcc4ea3ba459984f8109873712" prot="private" static="no" mutable="no">
+        <type><ref refid="classClusterPaletteToolTip" kindref="compound">ClusterPaletteToolTip</ref> *</type>
+        <definition>ClusterPaletteToolTip* ClusterPaletteIconViewItem::toolTip</definition>
+        <argsstring></argsstring>
+        <name>toolTip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterPaletteIconViewItem_1d7a0c73825012b1479f62495052d7d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPaletteIconViewItem::ClusterPaletteIconViewItem</definition>
+        <argsstring>(QIconView *, QString)</argsstring>
+        <name>ClusterPaletteIconViewItem</name>
+        <param>
+          <type>QIconView *</type>
+          <defname>parent</defname>
+        </param>
+        <param>
+          <type>QString</type>
+          <defname>label</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.cpp" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteIconViewItem_136159217900c234902783c71dec6a0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPaletteIconViewItem::ClusterPaletteIconViewItem</definition>
+        <argsstring>(QIconView *parent, QString text, const QPixmap &amp;icon)</argsstring>
+        <name>ClusterPaletteIconViewItem</name>
+        <param>
+          <type>QIconView *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>const QPixmap &amp;</type>
+          <declname>icon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteIconViewItem_15f40389719776af5c3c6c677974ce6b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPaletteIconViewItem::~ClusterPaletteIconViewItem</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterPaletteIconViewItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.cpp" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteIconViewItem_135425d3380e6fbb64c9c1e81116e2ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPaletteIconViewItem::setToolTipText</definition>
+        <argsstring>(const QString)</argsstring>
+        <name>setToolTipText</name>
+        <param>
+          <type>const </type>
+          <declname>QString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.cpp" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteIconViewItem_168e047849c734d8c04b16c2ac09c0823" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterPaletteIconViewItem::getToolTipText</definition>
+        <argsstring>(void) const</argsstring>
+        <name>getToolTipText</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan &lt;<ulink url="mailto:lynn.hazan@myrealbox.com">lynn.hazan@myrealbox.com</ulink>&gt; This class represents the items in the clusterpalette. </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+<para>It overwrites thr default QIconViewItem to enable the use of a custom toolTip class (<ref refid="classClusterPaletteToolTip" kindref="compound">ClusterPaletteToolTip</ref>). </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="743">
+        <label>ClusterPaletteIconViewItem</label>
+        <link refid="classClusterPaletteIconViewItem"/>
+        <childnode refid="744" relation="usage">
+          <edgelabel>toolTip</edgelabel>
+        </childnode>
+      </node>
+      <node id="744">
+        <label>ClusterPaletteToolTip</label>
+        <link refid="classClusterPaletteToolTip"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpaletteiconviewitem.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classClusterPaletteIconViewItem_1d7a0c73825012b1479f62495052d7d95" prot="public" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>ClusterPaletteIconViewItem</name></member>
+      <member refid="classClusterPaletteIconViewItem_136159217900c234902783c71dec6a0ea" prot="public" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>ClusterPaletteIconViewItem</name></member>
+      <member refid="classClusterPaletteIconViewItem_168e047849c734d8c04b16c2ac09c0823" prot="public" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>getToolTipText</name></member>
+      <member refid="classClusterPaletteIconViewItem_135425d3380e6fbb64c9c1e81116e2ec2" prot="public" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>setToolTipText</name></member>
+      <member refid="classClusterPaletteIconViewItem_1a303d8bcc4ea3ba459984f8109873712" prot="private" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>toolTip</name></member>
+      <member refid="classClusterPaletteIconViewItem_12030ef576446d1f8c67060c34a7650df" prot="private" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>toolTipText</name></member>
+      <member refid="classClusterPaletteIconViewItem_15f40389719776af5c3c6c677974ce6b5" prot="public" virt="non-virtual"><scope>ClusterPaletteIconViewItem</scope><name>~ClusterPaletteIconViewItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

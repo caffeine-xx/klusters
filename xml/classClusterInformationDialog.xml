@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterInformationDialog" kind="class" prot="public">
+    <compoundname>ClusterInformationDialog</compoundname>
+    <includes refid="clusterinformationdialog_8h" local="no">clusterinformationdialog.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterInformationDialog_10371401a7e64b5e5035dd992ae9d0163" prot="private" static="no" mutable="no">
+        <type>QWidget *</type>
+        <definition>QWidget* ClusterInformationDialog::page</definition>
+        <argsstring></argsstring>
+        <name>page</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_11abb51d192a7ee94f8f5e56265b51d15" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* ClusterInformationDialog::structure</definition>
+        <argsstring></argsstring>
+        <name>structure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_1ab34edeef264c2415006026fff04ba86" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* ClusterInformationDialog::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_1755a21381454213f4f480fe9f50708e1" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* ClusterInformationDialog::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+<para>Isolation Distance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_1739a82c518f536a7e8f5b7e67dc86f5e" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* ClusterInformationDialog::quality</definition>
+        <argsstring></argsstring>
+        <name>quality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_1ee32f1889ebba83a58bd231452fbdd21" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* ClusterInformationDialog::notes</definition>
+        <argsstring></argsstring>
+        <name>notes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="61" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterInformationDialog_14e5393b4841ae41e6cd7d7d7b7816559" prot="private" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* ClusterInformationDialog::layout</definition>
+        <argsstring></argsstring>
+        <name>layout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterInformationDialog_1aec8e12d4d11104a9e417da1474658b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterInformationDialog::ClusterInformationDialog</definition>
+        <argsstring>(QWidget *parent=0, const QString &amp;caption=&quot;Cluster information&quot;)</argsstring>
+        <name>ClusterInformationDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>caption</declname>
+          <defval>&quot;Cluster information&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.cpp" bodystart="26" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_16e7aadc692e67b996cd6c78c098e6969" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ClusterInformationDialog::~ClusterInformationDialog</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterInformationDialog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.cpp" bodystart="77" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_177b8f2811a6a31c0cb530e4e89c1ed15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterInformationDialog::getStructure</definition>
+        <argsstring>()</argsstring>
+        <name>getStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_10faeccc4339ded5492f487f4438e90a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterInformationDialog::getType</definition>
+        <argsstring>()</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_16a0aaf362a83cfa934b1cfa4a0398c5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterInformationDialog::getId</definition>
+        <argsstring>()</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_189cd821d6aeaa44fbb2fb0949e973a12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterInformationDialog::getQuality</definition>
+        <argsstring>()</argsstring>
+        <name>getQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_19d0ab7b55e7c845e2aede587290e90e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ClusterInformationDialog::getNotes</definition>
+        <argsstring>()</argsstring>
+        <name>getNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_1246fca2671d2252204ae80ebee721b68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterInformationDialog::setStructure</definition>
+        <argsstring>(QString pStructure)</argsstring>
+        <name>setStructure</name>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_1aa4accdd97624199611602512915f9da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterInformationDialog::setType</definition>
+        <argsstring>(QString pType)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_1968647de24575e6646ff774f7337f426" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterInformationDialog::setId</definition>
+        <argsstring>(QString pID)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>QString</type>
+          <declname>pID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_1d7d7aa2535fd9a50f736ad8131e3747a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterInformationDialog::setQuality</definition>
+        <argsstring>(QString pQuality)</argsstring>
+        <name>setQuality</name>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterInformationDialog_16c4b577ea9b9df5f2dae17cb5326f61a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterInformationDialog::setNotes</definition>
+        <argsstring>(QString pNotes)</argsstring>
+        <name>setNotes</name>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan &lt;<ulink url="mailto:lynn.hazan@myrealbox.com">lynn.hazan@myrealbox.com</ulink>&gt; This class is the dialog used to gather cluster information. </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterinformationdialog.h" bodystart="35" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classClusterInformationDialog_1aec8e12d4d11104a9e417da1474658b3" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>ClusterInformationDialog</name></member>
+      <member refid="classClusterInformationDialog_16a0aaf362a83cfa934b1cfa4a0398c5e" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>getId</name></member>
+      <member refid="classClusterInformationDialog_19d0ab7b55e7c845e2aede587290e90e1" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>getNotes</name></member>
+      <member refid="classClusterInformationDialog_189cd821d6aeaa44fbb2fb0949e973a12" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>getQuality</name></member>
+      <member refid="classClusterInformationDialog_177b8f2811a6a31c0cb530e4e89c1ed15" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>getStructure</name></member>
+      <member refid="classClusterInformationDialog_10faeccc4339ded5492f487f4438e90a9" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>getType</name></member>
+      <member refid="classClusterInformationDialog_1755a21381454213f4f480fe9f50708e1" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>id</name></member>
+      <member refid="classClusterInformationDialog_14e5393b4841ae41e6cd7d7d7b7816559" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>layout</name></member>
+      <member refid="classClusterInformationDialog_1ee32f1889ebba83a58bd231452fbdd21" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>notes</name></member>
+      <member refid="classClusterInformationDialog_10371401a7e64b5e5035dd992ae9d0163" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>page</name></member>
+      <member refid="classClusterInformationDialog_1739a82c518f536a7e8f5b7e67dc86f5e" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>quality</name></member>
+      <member refid="classClusterInformationDialog_1968647de24575e6646ff774f7337f426" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>setId</name></member>
+      <member refid="classClusterInformationDialog_16c4b577ea9b9df5f2dae17cb5326f61a" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>setNotes</name></member>
+      <member refid="classClusterInformationDialog_1d7d7aa2535fd9a50f736ad8131e3747a" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>setQuality</name></member>
+      <member refid="classClusterInformationDialog_1246fca2671d2252204ae80ebee721b68" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>setStructure</name></member>
+      <member refid="classClusterInformationDialog_1aa4accdd97624199611602512915f9da" prot="public" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>setType</name></member>
+      <member refid="classClusterInformationDialog_11abb51d192a7ee94f8f5e56265b51d15" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>structure</name></member>
+      <member refid="classClusterInformationDialog_1ab34edeef264c2415006026fff04ba86" prot="private" virt="non-virtual"><scope>ClusterInformationDialog</scope><name>type</name></member>
+      <member refid="classClusterInformationDialog_16e7aadc692e67b996cd6c78c098e6969" prot="public" virt="virtual"><scope>ClusterInformationDialog</scope><name>~ClusterInformationDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefGeneralLayout" kind="class" prot="public">
+    <compoundname>PrefGeneralLayout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPrefGeneralLayout_1841daf1b93871c0163ddd82a16fb59bc" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefGeneralLayout::groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_12177e5e9120604494c9d0839862690f0" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefGeneralLayout::textLabel4</definition>
+        <argsstring></argsstring>
+        <name>textLabel4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1537a6dcee804e52bce6070f60df7adf6" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* PrefGeneralLayout::undoSpinBox</definition>
+        <argsstring></argsstring>
+        <name>undoSpinBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1e4b7c0e26e93444c334c7a05dae5fbc0" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefGeneralLayout::groupBox3</definition>
+        <argsstring></argsstring>
+        <name>groupBox3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_10d582f40d4e32c89288e43537267fcde" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefGeneralLayout::textLabel1</definition>
+        <argsstring></argsstring>
+        <name>textLabel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_11eba72f598d892a86b3ddfc7ee98dd89" prot="public" static="no" mutable="no">
+        <type>KColorButton *</type>
+        <definition>KColorButton* PrefGeneralLayout::backgroundColorButton</definition>
+        <argsstring></argsstring>
+        <name>backgroundColorButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1c08881bf9baaf2a2083ce5f000b45e68" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefGeneralLayout::groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1ca8189882005c9cc692bc8955c26f22d" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefGeneralLayout::textLabel3</definition>
+        <argsstring></argsstring>
+        <name>textLabel3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_148fb7ca9386e2f673ec495659fa360f9" prot="public" static="no" mutable="no">
+        <type>QComboBox *</type>
+        <definition>QComboBox* PrefGeneralLayout::crashRecoveryComboBox</definition>
+        <argsstring></argsstring>
+        <name>crashRecoveryComboBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_11146a79fd112d421051ddaf7df3f02f2" prot="public" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* PrefGeneralLayout::crashRecoveryCheckBox</definition>
+        <argsstring></argsstring>
+        <name>crashRecoveryCheckBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_141338b6e9cb47d64118a78cf294310d7" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefGeneralLayout::groupBox2_2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1cff6e2fef9b606382f77f6e3af9dae97" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefGeneralLayout::textLabel4_2</definition>
+        <argsstring></argsstring>
+        <name>textLabel4_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1656837173bddefba13c056a8df268939" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* PrefGeneralLayout::reclusteringExecutableLineEdit</definition>
+        <argsstring></argsstring>
+        <name>reclusteringExecutableLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_12e6899be579995555ae93695a494c251" prot="public" static="no" mutable="no">
+        <type>QPushButton *</type>
+        <definition>QPushButton* PrefGeneralLayout::reclusteringExecutableButton</definition>
+        <argsstring></argsstring>
+        <name>reclusteringExecutableButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_15450d500abd793cbb00e1875412ab0e0" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefGeneralLayout::textLabel1_2</definition>
+        <argsstring></argsstring>
+        <name>textLabel1_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_15ba0f9809a60754020fc949a4d9f1ab2" prot="public" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* PrefGeneralLayout::reclusteringArgsLineEdit</definition>
+        <argsstring></argsstring>
+        <name>reclusteringArgsLineEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPrefGeneralLayout_1cc79b2c85379423e36222365b70fee64" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* PrefGeneralLayout::PrefGeneralLayoutLayout</definition>
+        <argsstring></argsstring>
+        <name>PrefGeneralLayoutLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1911fe5199a4bd6137afdd7cd199f4f5a" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer1</definition>
+        <argsstring></argsstring>
+        <name>spacer1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1d833f89d3092135c3974b485cf523d26" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout18</definition>
+        <argsstring></argsstring>
+        <name>layout18</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1de15b70065ef118589bb892e1e4641a9" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer17</definition>
+        <argsstring></argsstring>
+        <name>spacer17</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1a2e8df23e2234f4c64844bcbaf0e0443" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout9</definition>
+        <argsstring></argsstring>
+        <name>layout9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1dc9d3498c7293980d7b345291dc81d3b" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer7</definition>
+        <argsstring></argsstring>
+        <name>spacer7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1a18fb0d64bc1598aebfb5134f19a4d54" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout45</definition>
+        <argsstring></argsstring>
+        <name>layout45</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="61" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_10258cbfccba598faf4c544d51583ec92" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer17_2</definition>
+        <argsstring></argsstring>
+        <name>spacer17_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1f5d28c95d242bba0d1b0df8b81a15925" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout16</definition>
+        <argsstring></argsstring>
+        <name>layout16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_16635a382de37c82eb00cd2d753cd4b53" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout17</definition>
+        <argsstring></argsstring>
+        <name>layout17</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="64" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1e497b4f15e0003f81c4c8fa795b30739" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer16</definition>
+        <argsstring></argsstring>
+        <name>spacer16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="65" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1fa4a32de98c7492d8c0f4bfa46734772" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout6</definition>
+        <argsstring></argsstring>
+        <name>layout6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_167c7b0f3a35405c41902158dd9ea4407" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer5</definition>
+        <argsstring></argsstring>
+        <name>spacer5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_12597b2ea7485b9454cc71ff79347ffb2" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout8</definition>
+        <argsstring></argsstring>
+        <name>layout8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1e6502d556ca38c86face0876f1bf10ee" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer6</definition>
+        <argsstring></argsstring>
+        <name>spacer6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_10f286992f20cdbd13de3dc7e2c6f55f6" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout33</definition>
+        <argsstring></argsstring>
+        <name>layout33</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_146212cff777873437e3aa10c6e0719a8" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefGeneralLayout::spacer17_3</definition>
+        <argsstring></argsstring>
+        <name>spacer17_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1d4d5ad5209cda37cc745202fd10399f6" prot="protected" static="no" mutable="no">
+        <type>QVBoxLayout *</type>
+        <definition>QVBoxLayout* PrefGeneralLayout::layout32</definition>
+        <argsstring></argsstring>
+        <name>layout32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1d61e80ab6ee4280b3b6733b6ebfc6c32" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout31</definition>
+        <argsstring></argsstring>
+        <name>layout31</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="73" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefGeneralLayout_1fd7910c1ea8d7e23024075beca60fd49" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefGeneralLayout::layout28</definition>
+        <argsstring></argsstring>
+        <name>layout28</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefGeneralLayout_1c860db56d1bdf518ad855098d7c48544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefGeneralLayout::PrefGeneralLayout</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags fl=0)</argsstring>
+        <name>PrefGeneralLayout</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>fl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.cpp" bodystart="31" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneralLayout_1e2d6a98dd8d931aefd8aa6572c7501f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefGeneralLayout::~PrefGeneralLayout</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefGeneralLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="35" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.cpp" bodystart="167" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classPrefGeneralLayout_18c287cd01dc0ede6b150e890f6c86330" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PrefGeneralLayout::languageChange</definition>
+        <argsstring>()</argsstring>
+        <name>languageChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.cpp" bodystart="176" bodyend="197"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" line="30" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h" bodystart="29" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classPrefGeneralLayout_11eba72f598d892a86b3ddfc7ee98dd89" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>backgroundColorButton</name></member>
+      <member refid="classPrefGeneralLayout_11146a79fd112d421051ddaf7df3f02f2" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>crashRecoveryCheckBox</name></member>
+      <member refid="classPrefGeneralLayout_148fb7ca9386e2f673ec495659fa360f9" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>crashRecoveryComboBox</name></member>
+      <member refid="classPrefGeneralLayout_1c08881bf9baaf2a2083ce5f000b45e68" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>groupBox1</name></member>
+      <member refid="classPrefGeneralLayout_1841daf1b93871c0163ddd82a16fb59bc" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>groupBox2</name></member>
+      <member refid="classPrefGeneralLayout_141338b6e9cb47d64118a78cf294310d7" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>groupBox2_2</name></member>
+      <member refid="classPrefGeneralLayout_1e4b7c0e26e93444c334c7a05dae5fbc0" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>groupBox3</name></member>
+      <member refid="classPrefGeneralLayout_18c287cd01dc0ede6b150e890f6c86330" prot="protected" virt="virtual"><scope>PrefGeneralLayout</scope><name>languageChange</name></member>
+      <member refid="classPrefGeneralLayout_1f5d28c95d242bba0d1b0df8b81a15925" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout16</name></member>
+      <member refid="classPrefGeneralLayout_16635a382de37c82eb00cd2d753cd4b53" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout17</name></member>
+      <member refid="classPrefGeneralLayout_1d833f89d3092135c3974b485cf523d26" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout18</name></member>
+      <member refid="classPrefGeneralLayout_1fd7910c1ea8d7e23024075beca60fd49" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout28</name></member>
+      <member refid="classPrefGeneralLayout_1d61e80ab6ee4280b3b6733b6ebfc6c32" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout31</name></member>
+      <member refid="classPrefGeneralLayout_1d4d5ad5209cda37cc745202fd10399f6" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout32</name></member>
+      <member refid="classPrefGeneralLayout_10f286992f20cdbd13de3dc7e2c6f55f6" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout33</name></member>
+      <member refid="classPrefGeneralLayout_1a18fb0d64bc1598aebfb5134f19a4d54" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout45</name></member>
+      <member refid="classPrefGeneralLayout_1fa4a32de98c7492d8c0f4bfa46734772" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout6</name></member>
+      <member refid="classPrefGeneralLayout_12597b2ea7485b9454cc71ff79347ffb2" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout8</name></member>
+      <member refid="classPrefGeneralLayout_1a2e8df23e2234f4c64844bcbaf0e0443" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>layout9</name></member>
+      <member refid="classPrefGeneralLayout_1c860db56d1bdf518ad855098d7c48544" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>PrefGeneralLayout</name></member>
+      <member refid="classPrefGeneralLayout_1cc79b2c85379423e36222365b70fee64" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>PrefGeneralLayoutLayout</name></member>
+      <member refid="classPrefGeneralLayout_15ba0f9809a60754020fc949a4d9f1ab2" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>reclusteringArgsLineEdit</name></member>
+      <member refid="classPrefGeneralLayout_12e6899be579995555ae93695a494c251" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>reclusteringExecutableButton</name></member>
+      <member refid="classPrefGeneralLayout_1656837173bddefba13c056a8df268939" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>reclusteringExecutableLineEdit</name></member>
+      <member refid="classPrefGeneralLayout_1911fe5199a4bd6137afdd7cd199f4f5a" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer1</name></member>
+      <member refid="classPrefGeneralLayout_1e497b4f15e0003f81c4c8fa795b30739" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer16</name></member>
+      <member refid="classPrefGeneralLayout_1de15b70065ef118589bb892e1e4641a9" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer17</name></member>
+      <member refid="classPrefGeneralLayout_10258cbfccba598faf4c544d51583ec92" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer17_2</name></member>
+      <member refid="classPrefGeneralLayout_146212cff777873437e3aa10c6e0719a8" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer17_3</name></member>
+      <member refid="classPrefGeneralLayout_167c7b0f3a35405c41902158dd9ea4407" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer5</name></member>
+      <member refid="classPrefGeneralLayout_1e6502d556ca38c86face0876f1bf10ee" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer6</name></member>
+      <member refid="classPrefGeneralLayout_1dc9d3498c7293980d7b345291dc81d3b" prot="protected" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>spacer7</name></member>
+      <member refid="classPrefGeneralLayout_10d582f40d4e32c89288e43537267fcde" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>textLabel1</name></member>
+      <member refid="classPrefGeneralLayout_15450d500abd793cbb00e1875412ab0e0" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>textLabel1_2</name></member>
+      <member refid="classPrefGeneralLayout_1ca8189882005c9cc692bc8955c26f22d" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>textLabel3</name></member>
+      <member refid="classPrefGeneralLayout_12177e5e9120604494c9d0839862690f0" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>textLabel4</name></member>
+      <member refid="classPrefGeneralLayout_1cff6e2fef9b606382f77f6e3af9dae97" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>textLabel4_2</name></member>
+      <member refid="classPrefGeneralLayout_1537a6dcee804e52bce6070f60df7adf6" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>undoSpinBox</name></member>
+      <member refid="classPrefGeneralLayout_1e2d6a98dd8d931aefd8aa6572c7501f2" prot="public" virt="non-virtual"><scope>PrefGeneralLayout</scope><name>~PrefGeneralLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

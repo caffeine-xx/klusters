@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classProcessListBoxItem" kind="class" prot="public">
+    <compoundname>ProcessListBoxItem</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b96" prot="public" static="no">
+        <name>Type</name>
+        <enumvalue id="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b96953e4f5707f0fffa497140e4f42cbc5f" prot="public">
+          <name>Diagnostic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b967293dcee4e04270111403c046403bd87" prot="public">
+          <name>Normal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b9654a487a6056c5de230555c8c64d31445" prot="public">
+          <name>Error</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classProcessListBoxItem_188732697e5fdca60edcd3a2ab741132c" prot="private" static="no" mutable="no">
+        <type>Type</type>
+        <definition>Type ProcessListBoxItem::t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classProcessListBoxItem_10390d65496421aee27a66156001ce679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessListBoxItem::ProcessListBoxItem</definition>
+        <argsstring>(const QString &amp;s, Type type)</argsstring>
+        <name>ProcessListBoxItem</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="33" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessListBoxItem_1a45d2b47cdb951bae6725025774c6bb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ProcessListBoxItem::isCustomItem</definition>
+        <argsstring>()</argsstring>
+        <name>isCustomItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessListBoxItem_14bf26d38cc2cfc5d2f427307e6112bdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor ProcessListBoxItem::color</definition>
+        <argsstring>()</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="46" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classProcessListBoxItem_1be3d796c159bf4077ed1a6517c4a4a13" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessListBoxItem::paint</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>paint</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="37" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="37" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classProcessListBoxItem_14bf26d38cc2cfc5d2f427307e6112bdf" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>color</name></member>
+      <member refid="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b96953e4f5707f0fffa497140e4f42cbc5f" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>Diagnostic</name></member>
+      <member refid="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b9654a487a6056c5de230555c8c64d31445" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>Error</name></member>
+      <member refid="classProcessListBoxItem_1a45d2b47cdb951bae6725025774c6bb9" prot="public" virt="virtual"><scope>ProcessListBoxItem</scope><name>isCustomItem</name></member>
+      <member refid="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b967293dcee4e04270111403c046403bd87" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>Normal</name></member>
+      <member refid="classProcessListBoxItem_1be3d796c159bf4077ed1a6517c4a4a13" prot="private" virt="virtual"><scope>ProcessListBoxItem</scope><name>paint</name></member>
+      <member refid="classProcessListBoxItem_10390d65496421aee27a66156001ce679" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>ProcessListBoxItem</name></member>
+      <member refid="classProcessListBoxItem_188732697e5fdca60edcd3a2ab741132c" prot="private" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>t</name></member>
+      <member refid="classProcessListBoxItem_158e46e5a63292a4dc02b5418f2d34b96" prot="public" virt="non-virtual"><scope>ProcessListBoxItem</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,6 @@
+base referer
+rect $classSaveThread.html 367,277 468,304
+rect $classProcessWidget.html 248,96 368,123
+rect $classKlustersDoc.html 125,5 227,32
+rect $classClusterPalette.html 28,96 143,123
+rect $classPrefDialog.html 392,96 483,123

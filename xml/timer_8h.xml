@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="timer_8h" kind="file">
+    <compoundname>timer.h</compoundname>
+    <includes local="no">sys/time.h</includes>
+    <includedby refid="clustersprovider_8cpp" local="yes">clustersprovider.cpp</includedby>
+    <includedby refid="clusterview_8cpp" local="yes">clusterview.cpp</includedby>
+    <includedby refid="data_8cpp" local="yes">data.cpp</includedby>
+    <includedby refid="errormatrixview_8cpp" local="yes">errormatrixview.cpp</includedby>
+    <includedby refid="eventsprovider_8cpp" local="yes">eventsprovider.cpp</includedby>
+    <includedby refid="klustersdoc_8cpp" local="yes">klustersdoc.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">main.cpp</includedby>
+    <includedby refid="savethread_8cpp" local="yes">savethread.cpp</includedby>
+    <includedby refid="traceview_8cpp" local="yes">traceview.cpp</includedby>
+    <incdepgraph>
+      <node id="2477">
+        <label>timer.h</label>
+        <link refid="timer.h"/>
+        <childnode refid="2478" relation="include">
+        </childnode>
+      </node>
+      <node id="2478">
+        <label>sys/time.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="variable" id="timer_8h_148fe32b9b09431ab2e484656dc262052" prot="public" static="yes" mutable="no">
+        <type>struct timeval</type>
+        <definition>struct timeval tv0</definition>
+        <argsstring></argsstring>
+        <name>tv0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="20" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="function" id="timer_8h_18b9d666eacb959ff45da1cbbefc353d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RestartTimer</definition>
+        <argsstring>()</argsstring>
+        <name>RestartTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="23" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="timer_8h_1c1db46eb4164980a035f9ebb380b2644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Timer</definition>
+        <argsstring>()</argsstring>
+        <name>Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="29" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="28" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="variable" id="timer_8h_148fe32b9b09431ab2e484656dc262052" prot="public" static="yes" mutable="no">
+        <type>struct timeval</type>
+        <definition>struct timeval tv0</definition>
+        <argsstring></argsstring>
+        <name>tv0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="20" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="timer_8h_18b9d666eacb959ff45da1cbbefc353d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RestartTimer</definition>
+        <argsstring>()</argsstring>
+        <name>RestartTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="23" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="timer_8h_1c1db46eb4164980a035f9ebb380b2644" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Timer</definition>
+        <argsstring>()</argsstring>
+        <name>Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h" line="29" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/timer.h" bodystart="28" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>timer.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lun<sp/>sep<sp/>22<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sys/time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tv0;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>RestartTimer()</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timezone<sp/>tz;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>gettimeofday(&amp;tv0,&amp;tz);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Timer()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timeval<sp/>tv;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">timezone<sp/>tz;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>gettimeofday(&amp;tv,&amp;tz);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>msec<sp/>=<sp/>static_cast&lt;int&gt;(tv.tv_usec/1000)/1000.0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>msec0<sp/>=<sp/>static_cast&lt;int&gt;(tv0.tv_usec/1000)/1000.0;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>time<sp/>=<sp/>(tv.tv_sec+msec)-(tv0.tv_sec+msec0);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>time;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/timer.h"/>
+  </compounddef>
+</doxygen>

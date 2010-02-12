@@ -1,0 +1,5 @@
+base referer
+rect $classViewWidget.html 28,277 129,304
+rect $classKlustersDoc.html 67,5 168,32
+rect $classKlustersApp.html 67,96 168,123
+rect $classTraceWidget.html 192,96 299,123

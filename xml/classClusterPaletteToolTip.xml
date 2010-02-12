@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterPaletteToolTip" kind="class" prot="public">
+    <compoundname>ClusterPaletteToolTip</compoundname>
+    <includes refid="clusterpalettetooltip_8h" local="no">clusterpalettetooltip.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterPaletteToolTip_168269af1ca94af017aa4aaaf4c648687" prot="private" static="no" mutable="no">
+        <type>QIconView *</type>
+        <definition>QIconView* ClusterPaletteToolTip::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterPaletteToolTip_1c519390505850f466faeb70f0b7e5b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPaletteToolTip::ClusterPaletteToolTip</definition>
+        <argsstring>(QIconView *, QToolTipGroup *=0)</argsstring>
+        <name>ClusterPaletteToolTip</name>
+        <param>
+          <type>QIconView *</type>
+          <defname>parentIconView</defname>
+        </param>
+        <param>
+          <type>QToolTipGroup *</type>
+          <defname>toolTipGroup</defname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteToolTip_1097e486a68003cc1bdf563f190a3f30a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ClusterPaletteToolTip::~ClusterPaletteToolTip</definition>
+        <argsstring>(void)</argsstring>
+        <name>~ClusterPaletteToolTip</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.cpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPaletteToolTip_102de582ef65c5edf52bf718d8a2d4332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPaletteToolTip::maybeTip</definition>
+        <argsstring>(const QPoint &amp;)</argsstring>
+        <name>maybeTip</name>
+        <param>
+          <type>const QPoint &amp;</type>
+          <defname>point</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.cpp" bodystart="32" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan &lt;<ulink url="mailto:lynn.hazan@myrealbox.com">lynn.hazan@myrealbox.com</ulink>&gt; This class represents the custom toolTip class to be used in the clusterpalette. </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterpalettetooltip.h" bodystart="31" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classClusterPaletteToolTip_1c519390505850f466faeb70f0b7e5b67" prot="public" virt="non-virtual"><scope>ClusterPaletteToolTip</scope><name>ClusterPaletteToolTip</name></member>
+      <member refid="classClusterPaletteToolTip_102de582ef65c5edf52bf718d8a2d4332" prot="public" virt="non-virtual"><scope>ClusterPaletteToolTip</scope><name>maybeTip</name></member>
+      <member refid="classClusterPaletteToolTip_168269af1ca94af017aa4aaaf4c648687" prot="private" virt="non-virtual"><scope>ClusterPaletteToolTip</scope><name>parent</name></member>
+      <member refid="classClusterPaletteToolTip_1097e486a68003cc1bdf563f190a3f30a" prot="public" virt="virtual"><scope>ClusterPaletteToolTip</scope><name>~ClusterPaletteToolTip</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classAutoSaveThread_1_1AutoSaveEvent" kind="class" prot="public">
+    <compoundname>AutoSaveThread::AutoSaveEvent</compoundname>
+    <includes refid="autosavethread_8h" local="no">autosavethread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAutoSaveThread_1_1AutoSaveEvent_137cb7112e381a96cf5dd4c16f5f3d590" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool AutoSaveThread::AutoSaveEvent::IOerror</definition>
+        <argsstring></argsstring>
+        <name>IOerror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classAutoSaveThread_1_1AutoSaveEvent_1c8dd513769ef140930655d13fb7215bd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classAutoSaveThread_1_1AutoSaveEvent" kindref="compound">AutoSaveEvent</ref> *</type>
+        <definition>AutoSaveEvent* AutoSaveThread::autoSaveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>AutoSaveThread::autoSaveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAutoSaveThread_1_1AutoSaveEvent_1eb30336a0957299d59f44ce7630c18e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoSaveThread::AutoSaveEvent::~AutoSaveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~AutoSaveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_1_1AutoSaveEvent_1c26ad1840c2fe4494e0d3485f80d3c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool AutoSaveThread::AutoSaveEvent::isIOerror</definition>
+        <argsstring>()</argsstring>
+        <name>isIOerror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_1_1AutoSaveEvent_1724e773216b60580dfa3aa4dabd02232" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoSaveThread::AutoSaveEvent::setIOerror</definition>
+        <argsstring>(bool status)</argsstring>
+        <name>setIOerror</name>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classAutoSaveThread_1_1AutoSaveEvent_1d298609ae88c09fdc462210bb183d718" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoSaveThread::AutoSaveEvent::AutoSaveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>AutoSaveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to inform the document object (<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>) that the thread has finished. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="63" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_1d298609ae88c09fdc462210bb183d718" prot="private" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>AutoSaveEvent</name></member>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_1c8dd513769ef140930655d13fb7215bd" prot="private" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>AutoSaveThread::autoSaveEvent</name></member>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_137cb7112e381a96cf5dd4c16f5f3d590" prot="private" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>IOerror</name></member>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_1c26ad1840c2fe4494e0d3485f80d3c2b" prot="public" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>isIOerror</name></member>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_1724e773216b60580dfa3aa4dabd02232" prot="public" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>setIOerror</name></member>
+      <member refid="classAutoSaveThread_1_1AutoSaveEvent_1eb30336a0957299d59f44ce7630c18e0" prot="public" virt="non-virtual"><scope>AutoSaveThread::AutoSaveEvent</scope><name>~AutoSaveEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,837 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClustersProvider" kind="class" prot="public">
+    <compoundname>ClustersProvider</compoundname>
+    <basecompoundref refid="classDataProvider" prot="public" virt="non-virtual">DataProvider</basecompoundref>
+    <includes refid="clustersprovider_8h" local="no">clustersprovider.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952" prot="public" static="no">
+        <name>loadReturnMessage</name>
+        <enumvalue id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952ae4b7150fce8255985e043123b6952eb" prot="public">
+          <name>OK</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952f4729ff2a29877c7be4ed0822069487e" prot="public">
+          <name>OPEN_ERROR</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952d89684bf96e86031702f5cda50edd75f" prot="public">
+          <name>MISSING_FILE</name>
+          <initializer>3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b595238ce714170a1c6633005bc5576f047e9" prot="public">
+          <name>COUNT_ERROR</name>
+          <initializer>4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b595272b0291d26113da0dc2b3e4b1c239623" prot="public">
+          <name>INCORRECT_CONTENT</name>
+          <initializer>5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Information retun after a call to openFile/saveDocument/createFeatureFile. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClustersProvider_15b09390569fe5a3781744a22830a229b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClustersProvider::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Provider&apos;s name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="129" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_1cd3a58e79341781c4b4ac4d59428046e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ClustersProvider::samplingRate</definition>
+        <argsstring></argsstring>
+        <name>samplingRate</name>
+        <briefdescription>
+<para>Sampling rate used to record the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="132" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_152451b72da22b92c996ae63f80ef80b7" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt; *</type>
+        <definition>QValueList&lt;int&gt;* ClustersProvider::clusterIds</definition>
+        <argsstring></argsstring>
+        <name>clusterIds</name>
+        <briefdescription>
+<para>List of the cluster ids to be used when looking up for the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="135" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_185ec3c2f4a7c33d2150c50ef9fd2e796" prot="private" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType ClustersProvider::fileMaxTime</definition>
+        <argsstring></argsstring>
+        <name>fileMaxTime</name>
+        <briefdescription>
+<para>The maximum time of the file in recording units. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_1b9c939134baf727a0cf2633ca73cf653" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ClustersProvider::clusterPosition</definition>
+        <argsstring></argsstring>
+        <name>clusterPosition</name>
+        <briefdescription>
+<para>Represents the percentage from the begining of the window where the clusters are display when browsing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="141" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_1299a851122f53d7533af6a2d9c3ce2e4" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; ClustersProvider::clusteringData</definition>
+        <argsstring></argsstring>
+        <name>clusteringData</name>
+        <briefdescription>
+<para>Reference on the object containing all the document information. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="144" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_1229ea2278cd1d48b3140d37449c88aac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ClustersProvider::nbOfDimensions</definition>
+        <argsstring></argsstring>
+        <name>nbOfDimensions</name>
+        <briefdescription>
+<para>Total number of dimensions of the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_134ac74b17fd364a00eea9353d1ca1301" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ClustersProvider::previousStartTime</definition>
+        <argsstring></argsstring>
+        <name>previousStartTime</name>
+        <briefdescription>
+<para>The start time in recording units for the previously requested data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClustersProvider_17cc3d7b6df69e92596d641a58a76fd5c" prot="private" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType ClustersProvider::dataFileMaxTime</definition>
+        <argsstring></argsstring>
+        <name>dataFileMaxTime</name>
+        <briefdescription>
+<para>The maximum time of the data file in recording units. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClustersProvider_1110deddefb7bd4722c77cf36f31b4b46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClustersProvider::ClustersProvider</definition>
+        <argsstring>(KURL fileUrl, int samplingRate, int currentSamplingRate, Data &amp;clusteringData, dataType dataFileMaxTime)</argsstring>
+        <name>ClustersProvider</name>
+        <param>
+          <type>KURL</type>
+          <declname>fileUrl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samplingRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentSamplingRate</declname>
+        </param>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>clusteringData</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>dataFileMaxTime</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the url of the cluster file containing the cluster ids. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>samplingRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate used to record the data (of the acquisition system). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentSamplingRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate of the current file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusteringData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object containing all the document data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataFileMaxTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum time of the data file in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="45" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_125616c8d04a028a863e533801b717710" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClustersProvider::~ClustersProvider</definition>
+        <argsstring>()</argsstring>
+        <name>~ClustersProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="69" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_173f86b1dda818e9a02e1a5faa2dea1b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::requestData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>requestData</name>
+        <reimplements refid="classDataProvider_10df9ff57ddcbad2ba07f62346a01f86c">requestData</reimplements>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the retrieve of the cluster information included in the time interval given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in miliseconds. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time interval from which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_1b2702a683bb72d1c7541309a871518cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::requestNextClusterData</definition>
+        <argsstring>(long startTime, long timeFrame, QValueList&lt; int &gt; selectedIds, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>requestNextClusterData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeFrame</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the first of the clusters included in the list <computeroutput>selectedIds</computeroutput> existing after the time <computeroutput>startTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>All the clusters included in the time interval given by <computeroutput>timeFrame</computeroutput> are retrieved. The time interval start time is computed in order to have the first cluster found located at <computeroutput>clusterPosition</computeroutput> percentage of the time interval. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time, in miliseconds, for the look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeFrame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time interval for which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of cluster ids to look up for. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time, in recording units, for the look up. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="146" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_1c93de2c06321ea2736c7eef5fb504542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::requestPreviousClusterData</definition>
+        <argsstring>(long startTime, long timeFrame, QValueList&lt; int &gt; selectedIds, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>requestPreviousClusterData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeFrame</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the first of the clusters included in the list <computeroutput>selectedIds</computeroutput> existing before the time <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>All the clusters included in the time interval given by <computeroutput>timeFrame</computeroutput> are retrieved. The time interval start time is computed in order to have the first cluster found located at <computeroutput>clusterPosition</computeroutput> percentage of the time interval. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time, in miliseconds, for the look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeFrame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time interval for which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of cluster ids to look up for. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time, in recording units, for the look up. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="306" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_14f19166ec886d0b357314f602a05ea02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::setClusterIdList</definition>
+        <argsstring>(QValueList&lt; int &gt; *list)</argsstring>
+        <name>setClusterIdList</name>
+        <param>
+          <type>QValueList&lt; int &gt; *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+<para>Sets the list of cluster Ids to be used when providing data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classClustersProvider_135fcb33fcdbc1593169e5d3f432ae1e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClustersProvider::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Returns the name of the provider which is the cluster file number. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>provider&apos;name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="93" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::dataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;data, QObject *initiator, QString providerName)</argsstring>
+        <name>dataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 line array containing the sample index of the peak index of each spike existing in the requested time frame with the corresponding cluster id. The first line contains the sample index and the second line the cluster id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="103" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp" bodystart="106" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::nextClusterDataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;data, QObject *initiator, QString providerName, long startingTime, long startingTimeInRecordingUnits)</argsstring>
+        <name>nextClusterDataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data for the next cluster have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 line array containing the sample index of the peak index of each spike existing in the requested time frame with the corresponding cluster id. The first line contains the sample index and the second line the cluster id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retrieved in miliseconds. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retrieved in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp" bodystart="121" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::previousClusterDataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;data, QObject *initiator, QString providerName, long startingTime, long startingTimeInRecordingUnits)</argsstring>
+        <name>previousClusterDataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data for the previous cluster have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>2 line array containing the sample index of the peak index of each spike existing in the requested time frame with the corresponding cluster id. The first line contains the sample index and the second line the cluster id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retrieved. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retrieved in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="123" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp" bodystart="138" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classClustersProvider_171a1bfb2fa1dac4d4af03df1b88b1b4e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClustersProvider::retrieveData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits)</argsstring>
+        <name>retrieveData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the peak index of each spike included in the time frame given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="163" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.cpp" bodystart="77" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="747">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="748" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="754">
+        <label>T</label>
+      </node>
+      <node id="752">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="753" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="749">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="750" relation="public-inheritance">
+        </childnode>
+        <childnode refid="751" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="750">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="751">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="752" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="755" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="753">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="754" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="755">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="751" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h" bodystart="36" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classClustersProvider_152451b72da22b92c996ae63f80ef80b7" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>clusterIds</name></member>
+      <member refid="classClustersProvider_1299a851122f53d7533af6a2d9c3ce2e4" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>clusteringData</name></member>
+      <member refid="classClustersProvider_1b9c939134baf727a0cf2633ca73cf653" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>clusterPosition</name></member>
+      <member refid="classClustersProvider_1110deddefb7bd4722c77cf36f31b4b46" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>ClustersProvider</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b595238ce714170a1c6633005bc5576f047e9" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>COUNT_ERROR</name></member>
+      <member refid="classClustersProvider_17cc3d7b6df69e92596d641a58a76fd5c" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>dataFileMaxTime</name></member>
+      <member refid="classDataProvider_1c0f46a1b6591e24fb57682372c0fb3b3" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>DataProvider</name></member>
+      <member refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>dataReady</name></member>
+      <member refid="classClustersProvider_185ec3c2f4a7c33d2150c50ef9fd2e796" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>fileMaxTime</name></member>
+      <member refid="classDataProvider_12fa94f4ef65e78995b0182cbe9a03b55" prot="protected" virt="non-virtual"><scope>ClustersProvider</scope><name>fileName</name></member>
+      <member refid="classClustersProvider_135fcb33fcdbc1593169e5d3f432ae1e6" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>getName</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b595272b0291d26113da0dc2b3e4b1c239623" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>INCORRECT_CONTENT</name></member>
+      <member refid="classDataProvider_15361517c17a7054ca22554d83f882d94" prot="public" virt="virtual"><scope>ClustersProvider</scope><name>isThreadsRunning</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>loadReturnMessage</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952d89684bf96e86031702f5cda50edd75f" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>MISSING_FILE</name></member>
+      <member refid="classClustersProvider_15b09390569fe5a3781744a22830a229b" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>name</name></member>
+      <member refid="classClustersProvider_1229ea2278cd1d48b3140d37449c88aac" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>nbOfDimensions</name></member>
+      <member refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>nextClusterDataReady</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952ae4b7150fce8255985e043123b6952eb" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>OK</name></member>
+      <member refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952f4729ff2a29877c7be4ed0822069487e" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>OPEN_ERROR</name></member>
+      <member refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>previousClusterDataReady</name></member>
+      <member refid="classClustersProvider_134ac74b17fd364a00eea9353d1ca1301" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>previousStartTime</name></member>
+      <member refid="classClustersProvider_173f86b1dda818e9a02e1a5faa2dea1b8" prot="public" virt="virtual"><scope>ClustersProvider</scope><name>requestData</name></member>
+      <member refid="classClustersProvider_1b2702a683bb72d1c7541309a871518cd" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>requestNextClusterData</name></member>
+      <member refid="classClustersProvider_1c93de2c06321ea2736c7eef5fb504542" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>requestPreviousClusterData</name></member>
+      <member refid="classClustersProvider_171a1bfb2fa1dac4d4af03df1b88b1b4e" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>retrieveData</name></member>
+      <member refid="classClustersProvider_1cd3a58e79341781c4b4ac4d59428046e" prot="private" virt="non-virtual"><scope>ClustersProvider</scope><name>samplingRate</name></member>
+      <member refid="classClustersProvider_14f19166ec886d0b357314f602a05ea02" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>setClusterIdList</name></member>
+      <member refid="classClustersProvider_125616c8d04a028a863e533801b717710" prot="public" virt="non-virtual"><scope>ClustersProvider</scope><name>~ClustersProvider</name></member>
+      <member refid="classDataProvider_1eaf1d12be2fa035dff39f34825a094d2" prot="public" virt="virtual"><scope>ClustersProvider</scope><name>~DataProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="structItemColors_1_1ItemColor" kind="struct" prot="private">
+    <compoundname>ItemColors::ItemColor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structItemColors_1_1ItemColor_14f5dd515ecc9a3f4b80729a2797ec1a9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ItemColors::ItemColor::itemId</definition>
+        <argsstring></argsstring>
+        <name>itemId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structItemColors_1_1ItemColor_1082b3c3a297259caf7d4968b555a260b" prot="public" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ItemColors::ItemColor::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structItemColors_1_1ItemColor_1a031f832c53a9243047e911d432291d7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ItemColors::ItemColor::isChanged</definition>
+        <argsstring></argsstring>
+        <name>isChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structItemColors_1_1ItemColor_12c92e10736df4c369920c2df1eb73bab" prot="public" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ItemColors::ItemColor::label</definition>
+        <argsstring></argsstring>
+        <name>label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structItemColors_1_1ItemColor_151bd84b83d2f4a397a4ac7f26c9b8f9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ItemColors::ItemColor::ItemColor</definition>
+        <argsstring>(int id, QColor c, QString l=&quot;&quot;)</argsstring>
+        <name>ItemColor</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>l</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="structItemColors_1_1ItemColor_14f92b657d4e0080cb8b5d8850169b2d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ItemColors::ItemColor::ItemColor</definition>
+        <argsstring>(const ItemColor &amp;origin)</argsstring>
+        <name>ItemColor</name>
+        <param>
+          <type>const ItemColor &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="61" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structItemColors_1_1ItemColor_18eed5ee07d976013ae3ee9687e933969" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ItemColors::ItemColor::~ItemColor</definition>
+        <argsstring>()</argsstring>
+        <name>~ItemColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing a color item. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h" bodystart="47" bodyend="63"/>
+    <listofallmembers>
+      <member refid="structItemColors_1_1ItemColor_1082b3c3a297259caf7d4968b555a260b" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>color</name></member>
+      <member refid="structItemColors_1_1ItemColor_1a031f832c53a9243047e911d432291d7" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>isChanged</name></member>
+      <member refid="structItemColors_1_1ItemColor_151bd84b83d2f4a397a4ac7f26c9b8f9f" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>ItemColor</name></member>
+      <member refid="structItemColors_1_1ItemColor_14f92b657d4e0080cb8b5d8850169b2d5" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>ItemColor</name></member>
+      <member refid="structItemColors_1_1ItemColor_14f5dd515ecc9a3f4b80729a2797ec1a9" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>itemId</name></member>
+      <member refid="structItemColors_1_1ItemColor_12c92e10736df4c369920c2df1eb73bab" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>label</name></member>
+      <member refid="structItemColors_1_1ItemColor_18eed5ee07d976013ae3ee9687e933969" prot="public" virt="non-virtual"><scope>ItemColors::ItemColor</scope><name>~ItemColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="errormatrixthread_8cpp" kind="file">
+    <compoundname>errormatrixthread.cpp</compoundname>
+    <includes refid="errormatrixthread_8h" local="yes">errormatrixthread.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <incdepgraph>
+      <node id="949">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="950" relation="include">
+        </childnode>
+        <childnode refid="951" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+      </node>
+      <node id="966">
+        <label>qregion.h</label>
+      </node>
+      <node id="967">
+        <label>qfile.h</label>
+      </node>
+      <node id="958">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="959" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+        <childnode refid="960" relation="include">
+        </childnode>
+      </node>
+      <node id="943">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="945">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+        <childnode refid="949" relation="include">
+        </childnode>
+      </node>
+      <node id="951">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="952" relation="include">
+        </childnode>
+        <childnode refid="953" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+      </node>
+      <node id="959">
+        <label>qstring.h</label>
+      </node>
+      <node id="960">
+        <label>stdlib.h</label>
+      </node>
+      <node id="970">
+        <label>kurl.h</label>
+      </node>
+      <node id="952">
+        <label>qrect.h</label>
+      </node>
+      <node id="971">
+        <label>stdexcept</label>
+      </node>
+      <node id="956">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="957" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+      </node>
+      <node id="948">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="946">
+        <label>qframe.h</label>
+      </node>
+      <node id="942">
+        <label>qcolor.h</label>
+      </node>
+      <node id="944">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="953">
+        <label>qpoint.h</label>
+      </node>
+      <node id="973">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant_8h-source"/>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+      </node>
+      <node id="962">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+      </node>
+      <node id="964">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="974">
+        <label>qapplication.h</label>
+      </node>
+      <node id="938">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+        <childnode refid="939" relation="include">
+        </childnode>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="973" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+      </node>
+      <node id="972">
+        <label>vector</label>
+      </node>
+      <node id="937">
+        <label>errormatrixthread.cpp</label>
+        <link refid="errormatrixthread.cpp"/>
+        <childnode refid="938" relation="include">
+        </childnode>
+        <childnode refid="974" relation="include">
+        </childnode>
+      </node>
+      <node id="950">
+        <label>qcursor.h</label>
+      </node>
+      <node id="939">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="940" relation="include">
+        </childnode>
+        <childnode refid="941" relation="include">
+        </childnode>
+        <childnode refid="942" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="944" relation="include">
+        </childnode>
+        <childnode refid="945" relation="include">
+        </childnode>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+      </node>
+      <node id="954">
+        <label>math.h</label>
+      </node>
+      <node id="940">
+        <label>qwidget.h</label>
+      </node>
+      <node id="955">
+        <label>iostream</label>
+      </node>
+      <node id="969">
+        <label>qthread.h</label>
+      </node>
+      <node id="965">
+        <label>qdict.h</label>
+      </node>
+      <node id="941">
+        <label>qmap.h</label>
+      </node>
+      <node id="968">
+        <label>qmutex.h</label>
+      </node>
+      <node id="947">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="957">
+        <label>cstring</label>
+      </node>
+      <node id="961">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="956" relation="include">
+        </childnode>
+        <childnode refid="962" relation="include">
+        </childnode>
+        <childnode refid="958" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+        <childnode refid="964" relation="include">
+        </childnode>
+        <childnode refid="944" relation="include">
+        </childnode>
+        <childnode refid="943" relation="include">
+        </childnode>
+        <childnode refid="965" relation="include">
+        </childnode>
+        <childnode refid="966" relation="include">
+        </childnode>
+        <childnode refid="941" relation="include">
+        </childnode>
+        <childnode refid="967" relation="include">
+        </childnode>
+        <childnode refid="968" relation="include">
+        </childnode>
+        <childnode refid="969" relation="include">
+        </childnode>
+        <childnode refid="970" relation="include">
+        </childnode>
+        <childnode refid="955" relation="include">
+        </childnode>
+        <childnode refid="971" relation="include">
+        </childnode>
+        <childnode refid="954" relation="include">
+        </childnode>
+        <childnode refid="972" relation="include">
+        </childnode>
+      </node>
+      <node id="963">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>errormatrixthread.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Jan<sp/>12<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;errormatrixthread.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//QT<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ErrorMatrixThread::run(){</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!haveToStopProcessing)<sp/>probabilities<sp/>=</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>assistant.<ref refid="classGroupingAssistant_1995b06011b4c35aa90f52c81039f78be" kindref="member">computeMeanProbabilities</ref>(data,clusterList,computedClusterList,ignoreClusterIndex);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/></highlight><highlight class="comment">//Send<sp/>an<sp/>event<sp/>to<sp/>the<sp/>ErrorMatrixView<sp/>to<sp/>let<sp/>it<sp/>know<sp/>that<sp/>the<sp/>computation<sp/>is<sp/>finish.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/>ErrorMatrixEvent*<sp/>event<sp/>=<sp/>getErrorMatrixEvent();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/>QApplication::postEvent(&amp;errorMatrixView,event);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.cpp"/>
+  </compounddef>
+</doxygen>

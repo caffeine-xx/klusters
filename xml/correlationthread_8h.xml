@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="correlationthread_8h" kind="file">
+    <compoundname>correlationthread.h</compoundname>
+    <includes refid="correlationview_8h" local="yes">correlationview.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes refid="pair_8h" local="yes">pair.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includedby refid="correlationthread_8cpp" local="yes">correlationthread.cpp</includedby>
+    <includedby refid="correlationview_8cpp" local="yes">correlationview.cpp</includedby>
+    <incdepgraph>
+      <node id="636">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="662">
+        <label>qtimer.h</label>
+      </node>
+      <node id="651">
+        <label>qregion.h</label>
+      </node>
+      <node id="653">
+        <label>qfile.h</label>
+      </node>
+      <node id="639">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+      </node>
+      <node id="649">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="631">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+        <childnode refid="635" relation="include">
+        </childnode>
+        <childnode refid="636" relation="include">
+        </childnode>
+      </node>
+      <node id="627">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="628" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+      </node>
+      <node id="640">
+        <label>qstring.h</label>
+      </node>
+      <node id="641">
+        <label>stdlib.h</label>
+      </node>
+      <node id="656">
+        <label>kurl.h</label>
+      </node>
+      <node id="628">
+        <label>qrect.h</label>
+      </node>
+      <node id="657">
+        <label>stdexcept</label>
+      </node>
+      <node id="643">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="644" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="635">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="633">
+        <label>qframe.h</label>
+      </node>
+      <node id="648">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="629">
+        <label>qpoint.h</label>
+      </node>
+      <node id="645">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="646" relation="include">
+        </childnode>
+      </node>
+      <node id="647">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="658">
+        <label>vector</label>
+      </node>
+      <node id="637">
+        <label>qcursor.h</label>
+      </node>
+      <node id="659">
+        <label>qpainter.h</label>
+      </node>
+      <node id="630">
+        <label>math.h</label>
+      </node>
+      <node id="625">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread.h"/>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="655" relation="include">
+        </childnode>
+      </node>
+      <node id="632">
+        <label>qwidget.h</label>
+      </node>
+      <node id="638">
+        <label>iostream</label>
+      </node>
+      <node id="655">
+        <label>qthread.h</label>
+      </node>
+      <node id="661">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="650">
+        <label>qdict.h</label>
+      </node>
+      <node id="626">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+        <childnode refid="659" relation="include">
+        </childnode>
+        <childnode refid="660" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+        <childnode refid="661" relation="include">
+        </childnode>
+        <childnode refid="662" relation="include">
+        </childnode>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+      </node>
+      <node id="652">
+        <label>qmap.h</label>
+      </node>
+      <node id="660">
+        <label>qstyle.h</label>
+      </node>
+      <node id="654">
+        <label>qmutex.h</label>
+      </node>
+      <node id="634">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="644">
+        <label>cstring</label>
+      </node>
+      <node id="642">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="643" relation="include">
+        </childnode>
+        <childnode refid="645" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+        <childnode refid="646" relation="include">
+        </childnode>
+        <childnode refid="647" relation="include">
+        </childnode>
+        <childnode refid="648" relation="include">
+        </childnode>
+        <childnode refid="649" relation="include">
+        </childnode>
+        <childnode refid="650" relation="include">
+        </childnode>
+        <childnode refid="651" relation="include">
+        </childnode>
+        <childnode refid="652" relation="include">
+        </childnode>
+        <childnode refid="653" relation="include">
+        </childnode>
+        <childnode refid="654" relation="include">
+        </childnode>
+        <childnode refid="655" relation="include">
+        </childnode>
+        <childnode refid="656" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+        <childnode refid="657" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="658" relation="include">
+        </childnode>
+      </node>
+      <node id="646">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classCorrelationThread" prot="public">CorrelationThread</innerclass>
+    <innerclass refid="classCorrelationThread_1_1CorrelationsEvent" prot="public">CorrelationThread::CorrelationsEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>correlationthread.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Fri<sp/>Nov<sp/>14<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CORRELATIONTHREAD_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CORRELATIONTHREAD_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;correlationview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pair.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classCorrelationThread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getCorrelations<sp/>of<sp/>CorrelationView<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>CorrelationThread,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>CorrelationThread<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>CorrelationThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>*<sp/>CorrelationView::getCorrelations(QValueList&lt;Pair&gt;*<sp/>pairsToCompute,QValueList&lt;int&gt;<sp/>clusterIds);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>(){};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;Pair&gt;*<sp/>triggeringPairs(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clusterPairs;};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>triggeringClusters(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clusterIds;};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classCorrelationThread_1d6f79da8448751efdd3d9298c10e6a50" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationThread_1d6f79da8448751efdd3d9298c10e6a50" kindref="member">stopProcessing</ref>(){haveToStopProcessing<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CorrelationsEvent;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">CorrelationsEvent;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>CorrelationsEvent*<sp/>getCorrelationsEvent(){</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>CorrelationsEvent(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="classCorrelationThread_1_1CorrelationsEvent" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCorrelationThread_1_1CorrelationsEvent" kindref="compound">CorrelationsEvent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getCorrelationsEvent<sp/>of<sp/>CorrelationThread<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>CorrelationsEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>CorrelationsEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>CorrelationsEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classCorrelationThread_1_1CorrelationsEvent" kindref="compound">CorrelationsEvent</ref>*<sp/>CorrelationThread::getCorrelationsEvent();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>*<sp/>parentThread(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;correlationThread;};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classCorrelationThread_1_1CorrelationsEvent" kindref="compound">CorrelationsEvent</ref>(){};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCorrelationThread_1_1CorrelationsEvent" kindref="compound">CorrelationsEvent</ref>(<ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>&amp;<sp/>thread):QCustomEvent(QEvent::User<sp/>+<sp/>300),correlationThread(thread){};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>&amp;<sp/>correlationThread;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>(<ref refid="classCorrelationView" kindref="compound">CorrelationView</ref>&amp;<sp/>view,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>d,QValueList&lt;Pair&gt;*<sp/>pairs,QValueList&lt;int&gt;<sp/>clusterIds):correlationView(view),data(d),haveToStopProcessing(false){</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>clusterPairs<sp/>=<sp/>pairs;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;clusterIds<sp/>=<sp/>clusterIds;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>start();</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCorrelationView" kindref="compound">CorrelationView</ref>&amp;<sp/>correlationView;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>data;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>QValueList&lt;Pair&gt;*<sp/>clusterPairs;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;<sp/>clusterIds;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>haveToStopProcessing;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h"/>
+  </compounddef>
+</doxygen>

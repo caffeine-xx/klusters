@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="minmaxthread_8h" kind="file">
+    <compoundname>minmaxthread.h</compoundname>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includedby refid="data_8cpp" local="yes">data.cpp</includedby>
+    <includedby refid="minmaxthread_8cpp" local="yes">minmaxthread.cpp</includedby>
+    <incdepgraph>
+      <node id="1932">
+        <label>qregion.h</label>
+      </node>
+      <node id="1934">
+        <label>qfile.h</label>
+      </node>
+      <node id="1925">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="1926" relation="include">
+        </childnode>
+        <childnode refid="1922" relation="include">
+        </childnode>
+        <childnode refid="1927" relation="include">
+        </childnode>
+      </node>
+      <node id="1930">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1926">
+        <label>qstring.h</label>
+      </node>
+      <node id="1927">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1937">
+        <label>kurl.h</label>
+      </node>
+      <node id="1938">
+        <label>stdexcept</label>
+      </node>
+      <node id="1920">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1921" relation="include">
+        </childnode>
+        <childnode refid="1922" relation="include">
+        </childnode>
+      </node>
+      <node id="1929">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1923">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="1920" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+      </node>
+      <node id="1928">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="1918">
+        <label>minmaxthread.h</label>
+        <link refid="minmaxthread.h"/>
+        <childnode refid="1919" relation="include">
+        </childnode>
+        <childnode refid="1936" relation="include">
+        </childnode>
+      </node>
+      <node id="1940">
+        <label>vector</label>
+      </node>
+      <node id="1939">
+        <label>math.h</label>
+      </node>
+      <node id="1922">
+        <label>iostream</label>
+      </node>
+      <node id="1936">
+        <label>qthread.h</label>
+      </node>
+      <node id="1931">
+        <label>qdict.h</label>
+      </node>
+      <node id="1933">
+        <label>qmap.h</label>
+      </node>
+      <node id="1935">
+        <label>qmutex.h</label>
+      </node>
+      <node id="1921">
+        <label>cstring</label>
+      </node>
+      <node id="1919">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="1920" relation="include">
+        </childnode>
+        <childnode refid="1923" relation="include">
+        </childnode>
+        <childnode refid="1925" relation="include">
+        </childnode>
+        <childnode refid="1924" relation="include">
+        </childnode>
+        <childnode refid="1928" relation="include">
+        </childnode>
+        <childnode refid="1929" relation="include">
+        </childnode>
+        <childnode refid="1930" relation="include">
+        </childnode>
+        <childnode refid="1931" relation="include">
+        </childnode>
+        <childnode refid="1932" relation="include">
+        </childnode>
+        <childnode refid="1933" relation="include">
+        </childnode>
+        <childnode refid="1934" relation="include">
+        </childnode>
+        <childnode refid="1935" relation="include">
+        </childnode>
+        <childnode refid="1936" relation="include">
+        </childnode>
+        <childnode refid="1937" relation="include">
+        </childnode>
+        <childnode refid="1922" relation="include">
+        </childnode>
+        <childnode refid="1938" relation="include">
+        </childnode>
+        <childnode refid="1939" relation="include">
+        </childnode>
+        <childnode refid="1940" relation="include">
+        </childnode>
+      </node>
+      <node id="1924">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMinMaxThread" prot="public">MinMaxThread</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minmaxthread.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Wed<sp/>Oct<sp/>22<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MINMAXTHREAD_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>MINMAXTHREAD_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classMinMaxThread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMinMaxThread" kindref="compound">MinMaxThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread<sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>minmaxCalculator<sp/>of<sp/>Data<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>MinMaxThread,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>MinMaxThread<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>MinMaxThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classMinMaxThread" kindref="compound">MinMaxThread</ref>*<sp/>Data::minMaxCalculator();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classMinMaxThread" kindref="compound">MinMaxThread</ref>(){cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;in<sp/>~MinMaxThread&quot;</highlight><highlight class="normal">&lt;&lt;endl;};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run(){data.<ref refid="classData_10a7f0270eb95e9b880a66406ff5b6e83" kindref="member">minMaxDimensionCalculation</ref>(modifiedClusters);};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setModifiedClusters(QValueList&lt;int&gt;<sp/>clusters){modifiedClusters<sp/>=<sp/>clusters;};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>data;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classMinMaxThread" kindref="compound">MinMaxThread</ref>(<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>d):data(d){};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;<sp/>modifiedClusters;<sp/><sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classCorrelationThread_1_1CorrelationsEvent" kind="class" prot="public">
+    <compoundname>CorrelationThread::CorrelationsEvent</compoundname>
+    <includes refid="correlationthread_8h" local="no">correlationthread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCorrelationThread_1_1CorrelationsEvent_1ac4bfda2b55a18d9aaf556794d64e700" prot="private" static="no" mutable="no">
+        <type><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> &amp;</type>
+        <definition>CorrelationThread&amp; CorrelationThread::CorrelationsEvent::correlationThread</definition>
+        <argsstring></argsstring>
+        <name>correlationThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classCorrelationThread_1_1CorrelationsEvent_1d6a876132393bba20eb3cb560aa61cb7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classCorrelationThread_1_1CorrelationsEvent" kindref="compound">CorrelationsEvent</ref> *</type>
+        <definition>CorrelationsEvent* CorrelationThread::getCorrelationsEvent</definition>
+        <argsstring>()</argsstring>
+        <name>CorrelationThread::getCorrelationsEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCorrelationThread_1_1CorrelationsEvent_1deb6511d4602e6ad0dedbb176afbc8ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> *</type>
+        <definition>CorrelationThread* CorrelationThread::CorrelationsEvent::parentThread</definition>
+        <argsstring>()</argsstring>
+        <name>parentThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationThread_1_1CorrelationsEvent_1055664434fd90d6af8e7dc170c805fab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CorrelationThread::CorrelationsEvent::~CorrelationsEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~CorrelationsEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCorrelationThread_1_1CorrelationsEvent_1498791e09637fd7e722384c2ffa0dd3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CorrelationThread::CorrelationsEvent::CorrelationsEvent</definition>
+        <argsstring>(CorrelationThread &amp;thread)</argsstring>
+        <name>CorrelationsEvent</name>
+        <param>
+          <type><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="73" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to send information to the <ref refid="classCorrelationView" kindref="compound">CorrelationView</ref> to inform it that the data requested have been collected. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="844">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="845" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="842">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="836">
+        <label>T</label>
+      </node>
+      <node id="827">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="828" relation="public-inheritance">
+        </childnode>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="843" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="834">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="835" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="845">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="828" relation="public-inheritance">
+        </childnode>
+        <childnode refid="831" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="838" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="829">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="848">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="840">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="839" relation="public-inheritance">
+        </childnode>
+        <childnode refid="833" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="826">
+        <label>CorrelationView</label>
+        <link refid="classCorrelationView"/>
+        <childnode refid="827" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="839">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="843">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="827" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="844" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="846" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="830">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="831" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="832" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="833" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="838" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="840" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="841" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="842" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="847">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="848" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="849">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="846" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="828">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="829" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="850">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="851" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="852" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="853" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="838">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="839" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="833">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="834" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="837" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="831">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="846">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="847" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="849" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="850" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="841" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="835">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="836" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="824">
+        <label>CorrelationThread::CorrelationsEvent</label>
+        <link refid="classCorrelationThread_1_1CorrelationsEvent"/>
+        <childnode refid="825" relation="usage">
+          <edgelabel>correlationThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="853">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="837">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="833" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="832">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="830" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="833" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="825">
+        <label>CorrelationThread</label>
+        <link refid="classCorrelationThread"/>
+        <childnode refid="826" relation="usage">
+          <edgelabel>correlationView</edgelabel>
+        </childnode>
+        <childnode refid="833" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationthread.h" bodystart="63" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classCorrelationThread_1_1CorrelationsEvent_1498791e09637fd7e722384c2ffa0dd3c" prot="private" virt="non-virtual"><scope>CorrelationThread::CorrelationsEvent</scope><name>CorrelationsEvent</name></member>
+      <member refid="classCorrelationThread_1_1CorrelationsEvent_1ac4bfda2b55a18d9aaf556794d64e700" prot="private" virt="non-virtual"><scope>CorrelationThread::CorrelationsEvent</scope><name>correlationThread</name></member>
+      <member refid="classCorrelationThread_1_1CorrelationsEvent_1d6a876132393bba20eb3cb560aa61cb7" prot="private" virt="non-virtual"><scope>CorrelationThread::CorrelationsEvent</scope><name>CorrelationThread::getCorrelationsEvent</name></member>
+      <member refid="classCorrelationThread_1_1CorrelationsEvent_1deb6511d4602e6ad0dedbb176afbc8ab" prot="public" virt="non-virtual"><scope>CorrelationThread::CorrelationsEvent</scope><name>parentThread</name></member>
+      <member refid="classCorrelationThread_1_1CorrelationsEvent_1055664434fd90d6af8e7dc170c805fab" prot="public" virt="non-virtual"><scope>CorrelationThread::CorrelationsEvent</scope><name>~CorrelationsEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

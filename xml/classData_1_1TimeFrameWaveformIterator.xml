@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1TimeFrameWaveformIterator" kind="class" prot="public">
+    <compoundname>Data::TimeFrameWaveformIterator</compoundname>
+    <basecompoundref refid="classData_1_1WaveformIterator" prot="public" virt="non-virtual">Data::WaveformIterator</basecompoundref>
+    <includes refid="data_8h" local="no">data.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classData_1_1TimeFrameWaveformIterator_10266b3606a4ce77f62d2a4e301918030" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classData_1_1TimeFrameWaveformIterator" kindref="compound">TimeFrameWaveformIterator</ref> *</type>
+        <definition>TimeFrameWaveformIterator* Data::timeFrameWaveformIterator</definition>
+        <argsstring>(dataType clusterId, dataType startTime, dataType endTime)</argsstring>
+        <name>Data::timeFrameWaveformIterator</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>endTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1303"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_162cf769198159f6ee0f452610ab7e3f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::TimeFrameWaveformIterator::~TimeFrameWaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~TimeFrameWaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1306" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1306" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_17d6496d9227cbac8860251acfa906171" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::TimeFrameWaveformIterator::nextSpike</definition>
+        <argsstring>()</argsstring>
+        <name>nextSpike</name>
+        <reimplements refid="classData_1_1WaveformIterator_1ab21dddf3ac8580e23dc97a4210a10a4">nextSpike</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1307" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1307" bodyend="1310"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_164bce63026db22d3ab2d3c8e7f59c087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::TimeFrameWaveformIterator::nextMeanValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextMeanValue</name>
+        <reimplements refid="classData_1_1WaveformIterator_10268ea19c4407afab87b0bb834ddacb6">nextMeanValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1311" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1311" bodyend="1314"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_1f623af41771232bbb4c277a47ec28745" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::TimeFrameWaveformIterator::nextStDeviationValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextStDeviationValue</name>
+        <reimplements refid="classData_1_1WaveformIterator_14c777259903b3c999c4af9c83357955a">nextStDeviationValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1315" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1315" bodyend="1318"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_15929ff0a1c8a0fe9bed523a381547db1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::TimeFrameWaveformIterator::nbOfSpikes</definition>
+        <argsstring>() const</argsstring>
+        <name>nbOfSpikes</name>
+        <reimplements refid="classData_1_1WaveformIterator_102bf0fded8b55ec2df65870e00e5d604">nbOfSpikes</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1319" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1319" bodyend="1321"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_1b885f84fe39fe3c88fd23388af1110f8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::TimeFrameWaveformIterator::TimeFrameWaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>TimeFrameWaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1324" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1324" bodyend="1324"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_119896149a3f704b8d80a487ec05efbbf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::TimeFrameWaveformIterator::TimeFrameWaveformIterator</definition>
+        <argsstring>(Waveforms *waveformsData)</argsstring>
+        <name>TimeFrameWaveformIterator</name>
+        <param>
+          <type>Waveforms *</type>
+          <declname>waveformsData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1325" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1325" bodyend="1325"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1TimeFrameWaveformIterator_1a1b99fbef215417932a1f24598ab7a63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::TimeFrameWaveformIterator::updateStatus</definition>
+        <argsstring>(dataType start, dataType end)</argsstring>
+        <name>updateStatus</name>
+        <param>
+          <type>dataType</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1326" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1326" bodyend="1331"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Returns an iterator on the latest waveform data stored by a request of a waveformTread for a given cluster. </para>    </briefdescription>
+    <detaileddescription>
+<para>The data correspond to the time frame display mode (ll the spikes in a given time frame are available). Caution: in Qt graphical coordinate system, the Y axis is inverted (increasing downwards), thus a point (x,y) as to be drawn and tested as (x,-y). The value returns by the iterator is the spike sample value taking the Qt graphical coordinate system into consideration, the ordinate coordinate is the opposite of the raw data. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="921">
+        <label>Data::WaveformIterator</label>
+        <link refid="classData_1_1WaveformIterator"/>
+      </node>
+      <node id="920">
+        <label>Data::TimeFrameWaveformIterator</label>
+        <link refid="classData_1_1TimeFrameWaveformIterator"/>
+        <childnode refid="921" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="923">
+        <label>Data::WaveformIterator</label>
+        <link refid="classData_1_1WaveformIterator"/>
+      </node>
+      <node id="922">
+        <label>Data::TimeFrameWaveformIterator</label>
+        <link refid="classData_1_1TimeFrameWaveformIterator"/>
+        <childnode refid="923" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1300" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1300" bodyend="1333"/>
+    <listofallmembers>
+      <member refid="classData_1_1WaveformIterator_102418425ef12a2a0a21a2b34ba9c486a" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>areSpikesAvailable</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_10266b3606a4ce77f62d2a4e301918030" prot="private" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>Data::timeFrameWaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_154c10b36926801e7abdb2f21f49db8b9" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>init</name></member>
+      <member refid="classData_1_1WaveformIterator_1904126344aa4080298a4d3feeb596219" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>isMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1f00a32b4f27646b83a6347e196f9fe5c" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>meanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_124a31d686416b03fa487f608e05b0691" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>meanIndex</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_15929ff0a1c8a0fe9bed523a381547db1" prot="public" virt="virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>nbOfSpikes</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_164bce63026db22d3ab2d3c8e7f59c087" prot="public" virt="virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>nextMeanValue</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_17d6496d9227cbac8860251acfa906171" prot="public" virt="virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>nextSpike</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_1f623af41771232bbb4c277a47ec28745" prot="public" virt="virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>nextStDeviationValue</name></member>
+      <member refid="classData_1_1WaveformIterator_14c875a47915da6eb8438431d9eae479c" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>setMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1d7b23ef0ea3c7985d868262fc442490f" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>setSpikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_110db8580537cf1fb4c2b05ade075f627" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>spikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_15aad50fd3a0c27ded4589a89a4db210a" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>spikesIndex</name></member>
+      <member refid="classData_1_1WaveformIterator_12980a4acae75a09db0786d745657752c" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>stDeviationIndex</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_1b885f84fe39fe3c88fd23388af1110f8" prot="private" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>TimeFrameWaveformIterator</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_119896149a3f704b8d80a487ec05efbbf" prot="private" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>TimeFrameWaveformIterator</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_1a1b99fbef215417932a1f24598ab7a63" prot="private" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>updateStatus</name></member>
+      <member refid="classData_1_1WaveformIterator_14e921373a8a4e8545062087a875b68f2" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_11971e5ee36997228eecd9057a7f46d8d" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_1066a811754b4e2672fd5e3180b7464a2" prot="protected" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>waveforms</name></member>
+      <member refid="classData_1_1TimeFrameWaveformIterator_162cf769198159f6ee0f452610ab7e3f9" prot="public" virt="non-virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>~TimeFrameWaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_1ef46e35187430bd5365ea8242a6478ac" prot="public" virt="virtual"><scope>Data::TimeFrameWaveformIterator</scope><name>~WaveformIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

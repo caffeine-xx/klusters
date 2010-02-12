@@ -1,0 +1,606 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classChannelColors" kind="class" prot="public">
+    <compoundname>ChannelColors</compoundname>
+    <includes refid="channelcolors_8h" local="no">channelcolors.h</includes>
+    <innerclass refid="structChannelColors_1_1ChannelColor" prot="private">ChannelColors::ChannelColor</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classChannelColors_1b5ae8c947ec54b5f0f404c499abb0c39" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; ChannelColor &gt;</type>
+        <definition>QPtrList&lt;ChannelColor&gt; ChannelColors::channelList</definition>
+        <argsstring></argsstring>
+        <name>channelList</name>
+        <briefdescription>
+<para>list of the ChannelColor contained in the class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classChannelColors_17eabe399d05f36c9821f31c1edbf38ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ChannelColors::ChannelColors</definition>
+        <argsstring>()</argsstring>
+        <name>ChannelColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1b1fc7f1df37c10404aa78b23b26904bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>ChannelColors::~ChannelColors</definition>
+        <argsstring>()</argsstring>
+        <name>~ChannelColors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1c142bb5472b62b7607fd27303a2d64a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ChannelColors::ChannelColors</definition>
+        <argsstring>(const ChannelColors &amp;channelcolors)</argsstring>
+        <name>ChannelColors</name>
+        <param>
+          <type>const <ref refid="classChannelColors" kindref="compound">ChannelColors</ref> &amp;</type>
+          <declname>channelcolors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="35" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_186a47dbfefe2fca4843dfa8e2ec36227" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelColors::removeAll</definition>
+        <argsstring>()</argsstring>
+        <name>removeAll</name>
+        <briefdescription>
+<para>Suppress all the elements of. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1b73b95f8d1942d66955e3223812aba9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::color</definition>
+        <argsstring>(int identifier)</argsstring>
+        <name>color</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+<para>Returns the color for a channel with a given id (<computeroutput>identifier</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the QColor for the given channel. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="91" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_15a422fe7502f2caa5b7f3b86fb0f344f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::groupColor</definition>
+        <argsstring>(int identifier)</argsstring>
+        <name>groupColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+<para>Returns the group color for a channel with a given id (<computeroutput>identifier</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the QColor for the group of the given channel. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="98" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="55" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_185750e13a17701e6642b1392ed429922" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::spikeGroupColor</definition>
+        <argsstring>(int identifier)</argsstring>
+        <name>spikeGroupColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+<para>Returns the spike group color for a channel with a given id (<computeroutput>identifier</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the QColor for the spike group of the given channel </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="105" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1c6a9c6a2ea3a703359be3cb5d9d5fa30" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ChannelColors::setColor</definition>
+        <argsstring>(int identifier, QColor color)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Sets the color for a channel with a given id to color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color to attribute to the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_17e122fa83493c6fd2d52fa0a6d95c916" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ChannelColors::setGroupColor</definition>
+        <argsstring>(int identifier, QColor color)</argsstring>
+        <name>setGroupColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Sets the group color for a channel with a given id to color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>group color to attribute to the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="79" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_169a7506b70f34091e2cc4edb77a28ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ChannelColors::setSpikeGroupColor</definition>
+        <argsstring>(int identifier, QColor color)</argsstring>
+        <name>setSpikeGroupColor</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Sets the spike group color for a channel with a given id to color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>spike group color to attribute to the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1ba0f430acbf54dceb0775ef29c3020ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ChannelColors::channelId</definition>
+        <argsstring>(int index)</argsstring>
+        <name>channelId</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Returns the channel id with a given position in the list (<computeroutput>index</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the index in the list of channels </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the channel id </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1db17548d7e2b46badc507f846ef500fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ChannelColors::contains</definition>
+        <argsstring>(int channelId)</argsstring>
+        <name>contains</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the channel Id exists false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the channel to check for existence </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the boolean value for the existance of the channel </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="141" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_12f4938f8a7ffa2aa694527b0c56ce53e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint</type>
+        <definition>virtual uint ChannelColors::numberOfChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>numberOfChannels</name>
+        <briefdescription>
+<para>Returns the number of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the number of channels in the list </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="147" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1a459f20b15c5877ea2c68a48a4cfdb53" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint</type>
+        <definition>uint ChannelColors::append</definition>
+        <argsstring>(int channelId, QColor color, QColor groupColor, QColor spikeGroupColor)</argsstring>
+        <name>append</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>groupColor</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>spikeGroupColor</declname>
+        </param>
+        <briefdescription>
+<para>Appends a channel to the list of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the group color of the channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spikeGroupColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the decteion group color of the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="157" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_146676d65b4f172c3809ee0378f9379bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>uint</type>
+        <definition>uint ChannelColors::append</definition>
+        <argsstring>(int channelId, QColor color)</argsstring>
+        <name>append</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. </para>        </briefdescription>
+        <detaileddescription>
+<para>It behaves essentially like the above function. Appends a channel to the list of channels with its groupColor and spikeGroupColor equal to its color. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="166" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1e8f4ba8681ff7116945b9ef0cf8a32d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ChannelColors::insert</definition>
+        <argsstring>(int channelId, int index, QColor color, QColor groupColor, QColor spikeGroupColor)</argsstring>
+        <name>insert</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>groupColor</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>spikeGroupColor</declname>
+        </param>
+        <briefdescription>
+<para>Inserts a channel at position <computeroutput>index</computeroutput> in the list of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index position where to insert the channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the color of the channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the group color of the channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>spikeGroupColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the decteion group color of the channel. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="176" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="111" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1965f3c495331288d7af32b6a8a8d25e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ChannelColors::remove</definition>
+        <argsstring>(int identifier)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>int</type>
+          <declname>identifier</declname>
+        </param>
+        <briefdescription>
+<para>Removes a channel, with a given id (<computeroutput>identifier</computeroutput>),from the list of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>identifier</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if successful,i.e. if identifier is in range, otherwise returns false. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="184" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="115" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classChannelColors_1bea0f886946e006309baa48cc367031e" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>ChannelColor *</type>
+        <definition>ChannelColors::ChannelColor * ChannelColors::channelColor</definition>
+        <argsstring>(int channelId) const </argsstring>
+        <name>channelColor</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the channel id <computeroutput>channelId</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the channelColor corresponding to the channel id or null if not found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="119" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelColors_1f3c6699182a8a9d191b6a8dddbae19da" prot="private" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>int</type>
+        <definition>int ChannelColors::channelColorIndex</definition>
+        <argsstring>(int channelId) const </argsstring>
+        <name>channelColorIndex</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the channel index of the channel id <computeroutput>channelId</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the channel id. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the index in the list corresponding to the channel id or -1 if not found. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.cpp" bodystart="131" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the list of the channels with their associated id, colors and colors status (i.e the color has been changed or no). </para>    </briefdescription>
+    <detaileddescription>
+<para>The list index is zero based. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="33" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="33" bodyend="186"/>
+    <listofallmembers>
+      <member refid="classChannelColors_1a459f20b15c5877ea2c68a48a4cfdb53" prot="public" virt="virtual"><scope>ChannelColors</scope><name>append</name></member>
+      <member refid="classChannelColors_146676d65b4f172c3809ee0378f9379bf" prot="public" virt="virtual"><scope>ChannelColors</scope><name>append</name></member>
+      <member refid="classChannelColors_1bea0f886946e006309baa48cc367031e" prot="private" virt="virtual"><scope>ChannelColors</scope><name>channelColor</name></member>
+      <member refid="classChannelColors_1f3c6699182a8a9d191b6a8dddbae19da" prot="private" virt="virtual"><scope>ChannelColors</scope><name>channelColorIndex</name></member>
+      <member refid="classChannelColors_17eabe399d05f36c9821f31c1edbf38ff" prot="public" virt="non-virtual"><scope>ChannelColors</scope><name>ChannelColors</name></member>
+      <member refid="classChannelColors_1c142bb5472b62b7607fd27303a2d64a8" prot="public" virt="non-virtual"><scope>ChannelColors</scope><name>ChannelColors</name></member>
+      <member refid="classChannelColors_1ba0f430acbf54dceb0775ef29c3020ab" prot="public" virt="virtual"><scope>ChannelColors</scope><name>channelId</name></member>
+      <member refid="classChannelColors_1b5ae8c947ec54b5f0f404c499abb0c39" prot="private" virt="non-virtual"><scope>ChannelColors</scope><name>channelList</name></member>
+      <member refid="classChannelColors_1b73b95f8d1942d66955e3223812aba9e" prot="public" virt="virtual"><scope>ChannelColors</scope><name>color</name></member>
+      <member refid="classChannelColors_1db17548d7e2b46badc507f846ef500fc" prot="public" virt="virtual"><scope>ChannelColors</scope><name>contains</name></member>
+      <member refid="classChannelColors_15a422fe7502f2caa5b7f3b86fb0f344f" prot="public" virt="virtual"><scope>ChannelColors</scope><name>groupColor</name></member>
+      <member refid="classChannelColors_1e8f4ba8681ff7116945b9ef0cf8a32d5" prot="public" virt="virtual"><scope>ChannelColors</scope><name>insert</name></member>
+      <member refid="classChannelColors_12f4938f8a7ffa2aa694527b0c56ce53e" prot="public" virt="virtual"><scope>ChannelColors</scope><name>numberOfChannels</name></member>
+      <member refid="classChannelColors_1965f3c495331288d7af32b6a8a8d25e2" prot="public" virt="virtual"><scope>ChannelColors</scope><name>remove</name></member>
+      <member refid="classChannelColors_186a47dbfefe2fca4843dfa8e2ec36227" prot="public" virt="non-virtual"><scope>ChannelColors</scope><name>removeAll</name></member>
+      <member refid="classChannelColors_1c6a9c6a2ea3a703359be3cb5d9d5fa30" prot="public" virt="virtual"><scope>ChannelColors</scope><name>setColor</name></member>
+      <member refid="classChannelColors_17e122fa83493c6fd2d52fa0a6d95c916" prot="public" virt="virtual"><scope>ChannelColors</scope><name>setGroupColor</name></member>
+      <member refid="classChannelColors_169a7506b70f34091e2cc4edb77a28ad3" prot="public" virt="virtual"><scope>ChannelColors</scope><name>setSpikeGroupColor</name></member>
+      <member refid="classChannelColors_185750e13a17701e6642b1392ed429922" prot="public" virt="virtual"><scope>ChannelColors</scope><name>spikeGroupColor</name></member>
+      <member refid="classChannelColors_1b1fc7f1df37c10404aa78b23b26904bb" prot="public" virt="virtual"><scope>ChannelColors</scope><name>~ChannelColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

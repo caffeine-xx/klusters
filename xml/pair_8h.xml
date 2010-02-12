@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="pair_8h" kind="file">
+    <compoundname>pair.h</compoundname>
+    <includes local="no">qstring.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdlib.h</includes>
+    <includedby refid="data_8h" local="yes">data.h</includedby>
+    <includedby refid="correlationview_8h" local="yes">correlationview.h</includedby>
+    <includedby refid="correlationthread_8h" local="yes">correlationthread.h</includedby>
+    <includedby refid="errormatrixview_8h" local="yes">errormatrixview.h</includedby>
+    <includedby refid="pair_8cpp" local="yes">pair.cpp</includedby>
+    <incdepgraph>
+      <node id="1948">
+        <label>pair.h</label>
+        <link refid="pair.h"/>
+        <childnode refid="1949" relation="include">
+        </childnode>
+        <childnode refid="1950" relation="include">
+        </childnode>
+        <childnode refid="1951" relation="include">
+        </childnode>
+      </node>
+      <node id="1949">
+        <label>qstring.h</label>
+      </node>
+      <node id="1951">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1950">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1952">
+        <label>pair.h</label>
+        <link refid="pair.h"/>
+        <childnode refid="1953" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1966" relation="include">
+        </childnode>
+      </node>
+      <node id="1959">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="1956" relation="include">
+        </childnode>
+      </node>
+      <node id="1958">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="1959" relation="include">
+        </childnode>
+      </node>
+      <node id="1955">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="1954" relation="include">
+        </childnode>
+        <childnode refid="1956" relation="include">
+        </childnode>
+      </node>
+      <node id="1964">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant_8h-source"/>
+        <childnode refid="1963" relation="include">
+        </childnode>
+      </node>
+      <node id="1956">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="1965">
+        <label>waveformthread.h</label>
+        <link refid="waveformthread_8h-source"/>
+      </node>
+      <node id="1962">
+        <label>minmaxthread.h</label>
+        <link refid="minmaxthread_8h-source"/>
+      </node>
+      <node id="1954">
+        <label>autosavethread.h</label>
+        <link refid="autosavethread_8h-source"/>
+      </node>
+      <node id="1963">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+      <node id="1957">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider_8h-source"/>
+        <childnode refid="1955" relation="include">
+        </childnode>
+      </node>
+      <node id="1966">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="1963" relation="include">
+        </childnode>
+      </node>
+      <node id="1961">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread_8h-source"/>
+      </node>
+      <node id="1960">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+      </node>
+      <node id="1953">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="1954" relation="include">
+        </childnode>
+        <childnode refid="1955" relation="include">
+        </childnode>
+        <childnode refid="1957" relation="include">
+        </childnode>
+        <childnode refid="1958" relation="include">
+        </childnode>
+        <childnode refid="1960" relation="include">
+        </childnode>
+        <childnode refid="1961" relation="include">
+        </childnode>
+        <childnode refid="1962" relation="include">
+        </childnode>
+        <childnode refid="1963" relation="include">
+        </childnode>
+        <childnode refid="1964" relation="include">
+        </childnode>
+        <childnode refid="1965" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPair" prot="public">Pair</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pair.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Nov<sp/>13<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PAIR_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PAIR_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classPair" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPair" kindref="compound">Pair</ref><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>(){x<sp/>=<sp/>0;<sp/>y<sp/>=<sp/>0;};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y):x(x),y(y){};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getX(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>getY(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>y;};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setX(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x){this-&gt;x<sp/>=<sp/>x;};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setY(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y){this-&gt;y<sp/>=<sp/>y;};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>toString(){</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/>QString<sp/>s<sp/>=<sp/>QString(</highlight><highlight class="stringliteral">&quot;%1-%2&quot;</highlight><highlight class="normal">).arg(x).arg(y);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>s;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator==(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>&amp;<sp/>p){</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(x<sp/>==<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref><sp/>&amp;&amp;<sp/>y<sp/>==<sp/>p.<ref refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" kindref="member">y</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&lt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>&amp;<sp/>p){</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x<sp/>&lt;<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>||<sp/>(x<sp/>==<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&lt;<sp/>p.<ref refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" kindref="member">y</ref>));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&lt;=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>&amp;<sp/>p){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x<sp/>&lt;<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>||<sp/>(x<sp/>==<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&lt;=<sp/>p.<ref refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" kindref="member">y</ref>));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&gt;(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>&amp;<sp/>p){</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x<sp/>&gt;<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>||<sp/>(x<sp/>==<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&gt;<sp/>p.<ref refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" kindref="member">y</ref>));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>operator<sp/>&gt;=(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPair" kindref="compound">Pair</ref>&amp;<sp/>p){</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>((x<sp/>&gt;<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>||<sp/>(x<sp/>==<sp/>p.<ref refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" kindref="member">x</ref>)<sp/>&amp;&amp;<sp/>(y<sp/>&gt;=<sp/>p.<ref refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" kindref="member">y</ref>));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classPair" kindref="compound">Pair</ref>(){};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h"/>
+  </compounddef>
+</doxygen>

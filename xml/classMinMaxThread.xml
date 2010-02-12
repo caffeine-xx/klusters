@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classMinMaxThread" kind="class" prot="public">
+    <compoundname>MinMaxThread</compoundname>
+    <includes refid="minmaxthread_8h" local="no">minmaxthread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMinMaxThread_167d105bb761fd71e6bd226dcf7f1a553" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; MinMaxThread::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMinMaxThread_10ba016e358823384e2343b4d18723627" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; MinMaxThread::modifiedClusters</definition>
+        <argsstring></argsstring>
+        <name>modifiedClusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMinMaxThread_17a03db236325b23b0d1db8fedb273c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classMinMaxThread" kindref="compound">MinMaxThread</ref> *</type>
+        <definition>MinMaxThread* Data::minMaxCalculator</definition>
+        <argsstring>()</argsstring>
+        <name>Data::minMaxCalculator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMinMaxThread_159a4ca7efbd72307959715b0ae4e8d27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinMaxThread::~MinMaxThread</definition>
+        <argsstring>()</argsstring>
+        <name>~MinMaxThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinMaxThread_1efecc2cb24f26d057b28a23f5b0d67d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MinMaxThread::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classMinMaxThread_1345538a536a9b2a35308449d8b2086db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MinMaxThread::setModifiedClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; clusters)</argsstring>
+        <name>setModifiedClusters</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>clusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMinMaxThread_1df02f5df271e4e9a630050870fa3dd40" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MinMaxThread::MinMaxThread</definition>
+        <argsstring>(Data &amp;d)</argsstring>
+        <name>MinMaxThread</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Thread used to compute the minimum and maximum values for each dimension (feature). </para>    </briefdescription>
+    <detaileddescription>
+<para>The thread calls the data object which will do the work. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1213">
+        <label>T</label>
+      </node>
+      <node id="1211">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1211" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1209" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1213" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1210" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/minmaxthread.h" bodystart="32" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classMinMaxThread_167d105bb761fd71e6bd226dcf7f1a553" prot="private" virt="non-virtual"><scope>MinMaxThread</scope><name>data</name></member>
+      <member refid="classMinMaxThread_17a03db236325b23b0d1db8fedb273c46" prot="public" virt="non-virtual"><scope>MinMaxThread</scope><name>Data::minMaxCalculator</name></member>
+      <member refid="classMinMaxThread_1df02f5df271e4e9a630050870fa3dd40" prot="private" virt="non-virtual"><scope>MinMaxThread</scope><name>MinMaxThread</name></member>
+      <member refid="classMinMaxThread_10ba016e358823384e2343b4d18723627" prot="private" virt="non-virtual"><scope>MinMaxThread</scope><name>modifiedClusters</name></member>
+      <member refid="classMinMaxThread_1efecc2cb24f26d057b28a23f5b0d67d8" prot="public" virt="non-virtual"><scope>MinMaxThread</scope><name>run</name></member>
+      <member refid="classMinMaxThread_1345538a536a9b2a35308449d8b2086db" prot="public" virt="non-virtual"><scope>MinMaxThread</scope><name>setModifiedClusters</name></member>
+      <member refid="classMinMaxThread_159a4ca7efbd72307959715b0ae4e8d27" prot="public" virt="non-virtual"><scope>MinMaxThread</scope><name>~MinMaxThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

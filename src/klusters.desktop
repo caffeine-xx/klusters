@@ -1,0 +1,12 @@
+# KDE Config File  
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=klusters -caption "%c" %i %m  
+Icon=klusters.png
+DocPath=klusters/index.html
+Comment=
+Comment[de]=
+Terminal=0
+Name=Klusters
+Name[de]=Klusters

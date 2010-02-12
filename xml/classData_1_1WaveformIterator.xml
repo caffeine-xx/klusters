@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1WaveformIterator" kind="class" prot="public">
+    <compoundname>Data::WaveformIterator</compoundname>
+    <derivedcompoundref refid="classData_1_1SampleWaveformIterator" prot="public" virt="non-virtual">Data::SampleWaveformIterator</derivedcompoundref>
+    <derivedcompoundref refid="classData_1_1TimeFrameWaveformIterator" prot="public" virt="non-virtual">Data::TimeFrameWaveformIterator</derivedcompoundref>
+    <includes refid="data_8h" local="no">data.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_1066a811754b4e2672fd5e3180b7464a2" prot="protected" static="no" mutable="no">
+        <type>Waveforms *</type>
+        <definition>Waveforms* Data::WaveformIterator::waveforms</definition>
+        <argsstring></argsstring>
+        <name>waveforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1171" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_15aad50fd3a0c27ded4589a89a4db210a" prot="protected" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformIterator::spikesIndex</definition>
+        <argsstring></argsstring>
+        <name>spikesIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1172" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_124a31d686416b03fa487f608e05b0691" prot="protected" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformIterator::meanIndex</definition>
+        <argsstring></argsstring>
+        <name>meanIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1173" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_12980a4acae75a09db0786d745657752c" prot="protected" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformIterator::stDeviationIndex</definition>
+        <argsstring></argsstring>
+        <name>stDeviationIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1174" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_110db8580537cf1fb4c2b05ade075f627" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Data::WaveformIterator::spikesAvailable</definition>
+        <argsstring></argsstring>
+        <name>spikesAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1175" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformIterator_1f00a32b4f27646b83a6347e196f9fe5c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Data::WaveformIterator::meanAvailable</definition>
+        <argsstring></argsstring>
+        <name>meanAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1176" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1WaveformIterator_1ef46e35187430bd5365ea8242a6478ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>virtual</type>
+        <definition>virtual Data::WaveformIterator::~WaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~WaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1145" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1145" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_1d7b23ef0ea3c7985d868262fc442490f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformIterator::setSpikesAvailable</definition>
+        <argsstring>(bool available)</argsstring>
+        <name>setSpikesAvailable</name>
+        <param>
+          <type>bool</type>
+          <declname>available</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1146" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1146" bodyend="1146"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_102418425ef12a2a0a21a2b34ba9c486a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::WaveformIterator::areSpikesAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>areSpikesAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1147" bodyend="1147"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_14c875a47915da6eb8438431d9eae479c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformIterator::setMeanAvailable</definition>
+        <argsstring>(bool available)</argsstring>
+        <name>setMeanAvailable</name>
+        <param>
+          <type>bool</type>
+          <declname>available</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1148" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1148" bodyend="1148"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_1904126344aa4080298a4d3feeb596219" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::WaveformIterator::isMeanAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>isMeanAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1149" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1149" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_1ab21dddf3ac8580e23dc97a4210a10a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>virtual dataType Data::WaveformIterator::nextSpike</definition>
+        <argsstring>()</argsstring>
+        <name>nextSpike</name>
+        <reimplementedby refid="classData_1_1TimeFrameWaveformIterator_17d6496d9227cbac8860251acfa906171">nextSpike</reimplementedby>
+        <reimplementedby refid="classData_1_1SampleWaveformIterator_137f62aef85c05adae40edcd2f8059ead">nextSpike</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1150" bodyend="1150"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_10268ea19c4407afab87b0bb834ddacb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>virtual dataType Data::WaveformIterator::nextMeanValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextMeanValue</name>
+        <reimplementedby refid="classData_1_1TimeFrameWaveformIterator_164bce63026db22d3ab2d3c8e7f59c087">nextMeanValue</reimplementedby>
+        <reimplementedby refid="classData_1_1SampleWaveformIterator_11a2487c41e5082dda5c3a0d274fb0bdd">nextMeanValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1151" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1151" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_14c777259903b3c999c4af9c83357955a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>virtual dataType Data::WaveformIterator::nextStDeviationValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextStDeviationValue</name>
+        <reimplementedby refid="classData_1_1TimeFrameWaveformIterator_1f623af41771232bbb4c277a47ec28745">nextStDeviationValue</reimplementedby>
+        <reimplementedby refid="classData_1_1SampleWaveformIterator_146a6452a4e19a39ec4163bf5ac0cf019">nextStDeviationValue</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1152" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1152" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_102bf0fded8b55ec2df65870e00e5d604" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>virtual dataType Data::WaveformIterator::nbOfSpikes</definition>
+        <argsstring>() const</argsstring>
+        <name>nbOfSpikes</name>
+        <reimplementedby refid="classData_1_1TimeFrameWaveformIterator_15929ff0a1c8a0fe9bed523a381547db1">nbOfSpikes</reimplementedby>
+        <reimplementedby refid="classData_1_1SampleWaveformIterator_10f15b1fd1572a151c8a9f83617058286">nbOfSpikes</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1153" bodyend="1153"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_14e921373a8a4e8545062087a875b68f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformIterator::WaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>WaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1155" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1155" bodyend="1155"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classData_1_1WaveformIterator_11971e5ee36997228eecd9057a7f46d8d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformIterator::WaveformIterator</definition>
+        <argsstring>(Waveforms *waveformsData)</argsstring>
+        <name>WaveformIterator</name>
+        <param>
+          <type>Waveforms *</type>
+          <declname>waveformsData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1158" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1158" bodyend="1161"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformIterator_154c10b36926801e7abdb2f21f49db8b9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformIterator::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1162" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1162" bodyend="1169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class a wrapper to waveform information (spikes, mean value and standard deviation). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="928">
+        <label>Data::SampleWaveformIterator</label>
+        <link refid="classData_1_1SampleWaveformIterator"/>
+        <childnode refid="927" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="927">
+        <label>Data::WaveformIterator</label>
+        <link refid="classData_1_1WaveformIterator"/>
+      </node>
+      <node id="929">
+        <label>Data::TimeFrameWaveformIterator</label>
+        <link refid="classData_1_1TimeFrameWaveformIterator"/>
+        <childnode refid="927" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1143" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1143" bodyend="1177"/>
+    <listofallmembers>
+      <member refid="classData_1_1WaveformIterator_102418425ef12a2a0a21a2b34ba9c486a" prot="public" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>areSpikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_154c10b36926801e7abdb2f21f49db8b9" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>init</name></member>
+      <member refid="classData_1_1WaveformIterator_1904126344aa4080298a4d3feeb596219" prot="public" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>isMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1f00a32b4f27646b83a6347e196f9fe5c" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>meanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_124a31d686416b03fa487f608e05b0691" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>meanIndex</name></member>
+      <member refid="classData_1_1WaveformIterator_102bf0fded8b55ec2df65870e00e5d604" prot="public" virt="virtual"><scope>Data::WaveformIterator</scope><name>nbOfSpikes</name></member>
+      <member refid="classData_1_1WaveformIterator_10268ea19c4407afab87b0bb834ddacb6" prot="public" virt="virtual"><scope>Data::WaveformIterator</scope><name>nextMeanValue</name></member>
+      <member refid="classData_1_1WaveformIterator_1ab21dddf3ac8580e23dc97a4210a10a4" prot="public" virt="virtual"><scope>Data::WaveformIterator</scope><name>nextSpike</name></member>
+      <member refid="classData_1_1WaveformIterator_14c777259903b3c999c4af9c83357955a" prot="public" virt="virtual"><scope>Data::WaveformIterator</scope><name>nextStDeviationValue</name></member>
+      <member refid="classData_1_1WaveformIterator_14c875a47915da6eb8438431d9eae479c" prot="public" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>setMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1d7b23ef0ea3c7985d868262fc442490f" prot="public" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>setSpikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_110db8580537cf1fb4c2b05ade075f627" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>spikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_15aad50fd3a0c27ded4589a89a4db210a" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>spikesIndex</name></member>
+      <member refid="classData_1_1WaveformIterator_12980a4acae75a09db0786d745657752c" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>stDeviationIndex</name></member>
+      <member refid="classData_1_1WaveformIterator_14e921373a8a4e8545062087a875b68f2" prot="public" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_11971e5ee36997228eecd9057a7f46d8d" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_1066a811754b4e2672fd5e3180b7464a2" prot="protected" virt="non-virtual"><scope>Data::WaveformIterator</scope><name>waveforms</name></member>
+      <member refid="classData_1_1WaveformIterator_1ef46e35187430bd5365ea8242a6478ac" prot="public" virt="virtual"><scope>Data::WaveformIterator</scope><name>~WaveformIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

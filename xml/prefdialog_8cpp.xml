@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefdialog_8cpp" kind="file">
+    <compoundname>prefdialog.cpp</compoundname>
+    <includes local="no">qlayout.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">qframe.h</includes>
+    <includes local="no">kcolorbutton.h</includes>
+    <includes local="no">kpushbutton.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes local="no">kiconloader.h</includes>
+    <includes local="no">kglobal.h</includes>
+    <includes local="no">klineedit.h</includes>
+    <includes local="no">kmessagebox.h</includes>
+    <includes refid="prefdialog_8h" local="yes">prefdialog.h</includes>
+    <includes refid="configuration_8h" local="yes">configuration.h</includes>
+    <includes refid="prefgeneral_8h" local="yes">prefgeneral.h</includes>
+    <includes refid="prefwaveformview_8h" local="yes">prefwaveformview.h</includes>
+    <includes refid="prefclusterview_8h" local="yes">prefclusterview.h</includes>
+    <includes refid="channellist_8h" local="yes">channellist.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="2041">
+        <label>kpushbutton.h</label>
+      </node>
+      <node id="2036">
+        <label>prefdialog.cpp</label>
+        <link refid="prefdialog.cpp"/>
+        <childnode refid="2037" relation="include">
+        </childnode>
+        <childnode refid="2038" relation="include">
+        </childnode>
+        <childnode refid="2039" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+        <childnode refid="2041" relation="include">
+        </childnode>
+        <childnode refid="2042" relation="include">
+        </childnode>
+        <childnode refid="2043" relation="include">
+        </childnode>
+        <childnode refid="2044" relation="include">
+        </childnode>
+        <childnode refid="2045" relation="include">
+        </childnode>
+        <childnode refid="2046" relation="include">
+        </childnode>
+        <childnode refid="2047" relation="include">
+        </childnode>
+        <childnode refid="2050" relation="include">
+        </childnode>
+        <childnode refid="2055" relation="include">
+        </childnode>
+        <childnode refid="2064" relation="include">
+        </childnode>
+        <childnode refid="2071" relation="include">
+        </childnode>
+        <childnode refid="2069" relation="include">
+        </childnode>
+        <childnode refid="2054" relation="include">
+        </childnode>
+      </node>
+      <node id="2050">
+        <label>configuration.h</label>
+        <link refid="configuration_8h-source"/>
+        <childnode refid="2051" relation="include">
+        </childnode>
+        <childnode refid="2052" relation="include">
+        </childnode>
+        <childnode refid="2053" relation="include">
+        </childnode>
+        <childnode refid="2054" relation="include">
+        </childnode>
+      </node>
+      <node id="2066">
+        <label>qiconview.h</label>
+      </node>
+      <node id="2062">
+        <label>prefgenerallayout.h</label>
+        <link refid="prefgenerallayout_8h-source"/>
+        <childnode refid="2063" relation="include">
+        </childnode>
+        <childnode refid="2048" relation="include">
+        </childnode>
+      </node>
+      <node id="2065">
+        <label>qbutton.h</label>
+      </node>
+      <node id="2051">
+        <label>qstring.h</label>
+      </node>
+      <node id="2047">
+        <label>prefdialog.h</label>
+        <link refid="prefdialog_8h-source"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2049" relation="include">
+        </childnode>
+      </node>
+      <node id="2043">
+        <label>kiconloader.h</label>
+      </node>
+      <node id="2058">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2068">
+        <label>prefwaveformviewlayout.h</label>
+        <link refid="prefwaveformviewlayout_8h-source"/>
+        <childnode refid="2063" relation="include">
+        </childnode>
+        <childnode refid="2048" relation="include">
+        </childnode>
+      </node>
+      <node id="2039">
+        <label>qframe.h</label>
+      </node>
+      <node id="2055">
+        <label>prefgeneral.h</label>
+        <link refid="prefgeneral_8h-source"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2056" relation="include">
+        </childnode>
+        <childnode refid="2057" relation="include">
+        </childnode>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2059" relation="include">
+        </childnode>
+        <childnode refid="2060" relation="include">
+        </childnode>
+        <childnode refid="2040" relation="include">
+        </childnode>
+        <childnode refid="2061" relation="include">
+        </childnode>
+        <childnode refid="2042" relation="include">
+        </childnode>
+        <childnode refid="2046" relation="include">
+        </childnode>
+        <childnode refid="2062" relation="include">
+        </childnode>
+      </node>
+      <node id="2053">
+        <label>qcolor.h</label>
+      </node>
+      <node id="2040">
+        <label>kcolorbutton.h</label>
+      </node>
+      <node id="2049">
+        <label>kdialogbase.h</label>
+      </node>
+      <node id="2059">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="2037">
+        <label>qlayout.h</label>
+      </node>
+      <node id="2042">
+        <label>klocale.h</label>
+      </node>
+      <node id="2045">
+        <label>klineedit.h</label>
+      </node>
+      <node id="2072">
+        <label>prefclusterviewlayout.h</label>
+        <link refid="prefclusterviewlayout_8h-source"/>
+        <childnode refid="2063" relation="include">
+        </childnode>
+        <childnode refid="2048" relation="include">
+        </childnode>
+      </node>
+      <node id="2070">
+        <label>qlistbox.h</label>
+      </node>
+      <node id="2061">
+        <label>kfiledialog.h</label>
+      </node>
+      <node id="2063">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2057">
+        <label>qcheckbox.h</label>
+      </node>
+      <node id="2044">
+        <label>kglobal.h</label>
+      </node>
+      <node id="2071">
+        <label>prefclusterview.h</label>
+        <link refid="prefclusterview_8h-source"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2072" relation="include">
+        </childnode>
+      </node>
+      <node id="2038">
+        <label>qlabel.h</label>
+      </node>
+      <node id="2052">
+        <label>qfont.h</label>
+      </node>
+      <node id="2048">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2060">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="2054">
+        <label>iostream</label>
+      </node>
+      <node id="2046">
+        <label>kmessagebox.h</label>
+      </node>
+      <node id="2069">
+        <label>channellist.h</label>
+        <link refid="channellist_8h-source"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2070" relation="include">
+        </childnode>
+      </node>
+      <node id="2056">
+        <label>qcombobox.h</label>
+      </node>
+      <node id="2067">
+        <label>qmap.h</label>
+      </node>
+      <node id="2064">
+        <label>prefwaveformview.h</label>
+        <link refid="prefwaveformview_8h-source"/>
+        <childnode refid="2048" relation="include">
+        </childnode>
+        <childnode refid="2065" relation="include">
+        </childnode>
+        <childnode refid="2066" relation="include">
+        </childnode>
+        <childnode refid="2058" relation="include">
+        </childnode>
+        <childnode refid="2067" relation="include">
+        </childnode>
+        <childnode refid="2041" relation="include">
+        </childnode>
+        <childnode refid="2068" relation="include">
+        </childnode>
+        <childnode refid="2069" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prefdialog.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Dec<sp/>12<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlayout.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>QVBoxLayout</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>QLabel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qframe.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>QFrame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kcolorbutton.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KColorButton</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kpushbutton.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KPushButton</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>i18n()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kiconloader.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KIconLoader</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kglobal.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KGlobal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klineedit.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KLineEdit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kmessagebox.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KMessageBox</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefdialog.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>class<sp/>PrefDialog</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;configuration.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>class<sp/>Configuration<sp/>and<sp/>Config()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefgeneral.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>class<sp/>PrefGeneral</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefwaveformview.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>class<sp/>PrefWaveformView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefclusterview.h&quot;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>class<sp/>PrefClusterView</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;channellist.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><ref refid="classPrefDialog_12047b7d07ccf44431803dff8b59ad972" kindref="member">PrefDialog::PrefDialog</ref>(QWidget<sp/>*parent,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbChannels,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/>WFlags<sp/>f)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/>:<sp/>KDialogBase(IconList,<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Preferences&quot;</highlight><highlight class="normal">),<sp/>Help|Default|Ok|Apply|Cancel,<sp/>Ok,<sp/>parent,<sp/>name,<sp/>f)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>setHelp(</highlight><highlight class="stringliteral">&quot;settings&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;klusters&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//adding<sp/>page<sp/>&quot;General<sp/>options&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QFrame<sp/>*frame<sp/>=<sp/>addPage(i18n(</highlight><highlight class="stringliteral">&quot;General&quot;</highlight><highlight class="normal">),<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Klusters<sp/>General<sp/>Configuration&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KGlobal::iconLoader()-&gt;loadIcon(</highlight><highlight class="stringliteral">&quot;kfm&quot;</highlight><highlight class="normal">,KIcon::Panel,0,</highlight><highlight class="keyword">false</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>QVBoxLayout<sp/>*frameLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QVBoxLayout(<sp/>frame,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>prefGeneral<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral" kindref="compound">PrefGeneral</ref>(frame);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>frameLayout-&gt;addWidget(prefGeneral);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//adding<sp/>page<sp/>&quot;Cluster<sp/>view<sp/>configuration&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>frame<sp/>=<sp/>addPage(i18n(</highlight><highlight class="stringliteral">&quot;Cluster<sp/>view&quot;</highlight><highlight class="normal">),<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Cluster<sp/>View<sp/>configuration&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KGlobal::iconLoader()-&gt;loadIcon(</highlight><highlight class="stringliteral">&quot;clusterview&quot;</highlight><highlight class="normal">,KIcon::User));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>frameLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QVBoxLayout(<sp/>frame,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>prefclusterView<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classPrefClusterView" kindref="compound">PrefClusterView</ref>(frame);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>frameLayout-&gt;addWidget(prefclusterView);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//adding<sp/>page<sp/>&quot;Waveform<sp/>view<sp/>configuration&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>frame<sp/>=<sp/>addPage(i18n(</highlight><highlight class="stringliteral">&quot;Waveform<sp/>view&quot;</highlight><highlight class="normal">),<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Waveform<sp/>View<sp/>configuration&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KGlobal::iconLoader()-&gt;loadIcon(</highlight><highlight class="stringliteral">&quot;waveformview&quot;</highlight><highlight class="normal">,KIcon::User));</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>frameLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QVBoxLayout(<sp/>frame,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>prefWaveformView<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classPrefWaveformView" kindref="compound">PrefWaveformView</ref>(frame,nbChannels);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>frameLayout-&gt;addWidget(prefWaveformView);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>connect<sp/>interactive<sp/>widgets<sp/>and<sp/>selfmade<sp/>signals<sp/>to<sp/>the<sp/>enableApply<sp/>slotDefault</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;crashRecoveryCheckBox,SIGNAL(clicked()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;crashRecoveryComboBox,SIGNAL(activated(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;undoSpinBox,SIGNAL(valueChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;backgroundColorButton,SIGNAL(changed(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor&amp;)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;reclusteringExecutableLineEdit,SIGNAL(textChanged(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//connect(prefGeneral,SIGNAL(reclusteringArgsUpdate()),this,SLOT(enableApply()));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefGeneral-&gt;reclusteringArgsLineEdit,SIGNAL(textChanged(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefclusterView-&gt;intervalSpinBox,SIGNAL(valueChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefWaveformView-&gt;gainSpinBox,SIGNAL(valueChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(prefWaveformView,SIGNAL(positionsChanged()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(enableApply()));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>applyEnable<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefDialog_1533723197454424489b5d228f5f5caa1" kindref="member">PrefDialog::updateDialog</ref>()<sp/>{<sp/><sp/></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_1023ef9d53c25acddb076c762c038b25c" kindref="member">setCrashRecovery</ref>(configuration().isCrashRecovery());</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_173303838adf8e2705e0336a22bf8491a" kindref="member">setCrashRecoveryIndex</ref>(configuration().crashRecoveryIntervalIndex());</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_1a3f425cf4ec0e02fa396d5da6ce14f38" kindref="member">setNbUndo</ref>(configuration().getNbUndo());</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_15442a06d79758266675e0843ed484373" kindref="member">setBackgroundColor</ref>(configuration().getBackgroundColor());</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" kindref="member">setReclusteringExecutable</ref>(configuration().getReclusteringExecutable());</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_15252892f22d9303c8dc6d5977ff33510" kindref="member">setReclusteringArguments</ref>(configuration().getReclusteringArguments());<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>prefclusterView-&gt;<ref refid="classPrefClusterView_1e1a0bf0a9315575e29b3faaf015e3ff0" kindref="member">setTimeInterval</ref>(configuration().getTimeInterval());</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>prefWaveformView-&gt;<ref refid="classPrefWaveformView_152846ce65739efd7a7c90d857ba54589" kindref="member">setGain</ref>(configuration().getGain());</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>enableButtonApply(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>disable<sp/>apply<sp/>button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>applyEnable<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefDialog_1953465d0d61f15b796dd0925a827acc4" kindref="member">PrefDialog::updateConfiguration</ref>(){</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_1764e1266ca470da4513c322145f1fbaa" kindref="member">setCrashRecovery</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_18b3a2299d11aef26665202d658664c17" kindref="member">isCrashRecovery</ref>());</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_1a6e17506c8d6d43ccc105b8db49de146" kindref="member">setCrashRecoveryIndex</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_162aece7a072e441693b787e838cc20e8" kindref="member">crashRecoveryIntervalIndex</ref>());</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_12d881e74e87c110b52611708a46e4b9c" kindref="member">setNbUndo</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_15257a5016c29970f93b142d992657a99" kindref="member">getNbUndo</ref>());</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_18ef935d533f578207fc59fc764de426d" kindref="member">setBackgroundColor</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_16ccb6d4e9c057b957eb8301f97ea5494" kindref="member">getBackgroundColor</ref>());<sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_122bf94e0450fd38908a020a3ec93003f" kindref="member">setReclusteringExecutable</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_134c1c148f9c0e05d9cf4095b0ece6ee6" kindref="member">getReclusteringExecutable</ref>());</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_193975179b0b9aa9577534ce8f0594d6d" kindref="member">setReclusteringArguments</ref>(prefGeneral-&gt;<ref refid="classPrefGeneral_1035cc882ccebdd57ca3ef9b132296a12" kindref="member">getReclusteringArguments</ref>());</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_1de8b2258641393f5d07a33400db7f188" kindref="member">setTimeInterval</ref>(prefclusterView-&gt;<ref refid="classPrefClusterView_18d1b2f2a1990bc3c9d5e6189ff8112eb" kindref="member">getTimeInterval</ref>());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_1c39959a2a38157fbc10819b64dc8bc2e" kindref="member">setGain</ref>(prefWaveformView-&gt;<ref refid="classPrefWaveformView_1f8cf9d3fde60a30c4b6ccdd5e1d685e6" kindref="member">getGain</ref>());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_12c446f312e2601d9364d32125a522ace" kindref="member">setNbChannels</ref>(prefWaveformView-&gt;<ref refid="classPrefWaveformView_1fe9f15fcf2c3149d3560c180291a7924" kindref="member">getNbChannels</ref>());</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/>configuration().<ref refid="classConfiguration_156d77986ca7c3a08575bc6218b2ce3b3" kindref="member">setChannelPositions</ref>(prefWaveformView-&gt;<ref refid="classPrefWaveformView_1b2f361020fa36ec044aabf155dcd87a6" kindref="member">getChannelPositions</ref>());<sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/>enableButtonApply(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>disable<sp/>apply<sp/>button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>applyEnable<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefDialog_1bfde2c51595dc9ade33f8692660e078c" kindref="member">PrefDialog::slotDefault</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(KMessageBox::warningContinueCancel(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>i18n(</highlight><highlight class="stringliteral">&quot;This<sp/>will<sp/>set<sp/>the<sp/>default<sp/>options<sp/>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;in<sp/>ALL<sp/>pages<sp/>of<sp/>the<sp/>preferences<sp/>dialog!<sp/>Do<sp/>you<sp/>wish<sp/>to<sp/>continue?&quot;</highlight><highlight class="normal">),<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Set<sp/>default<sp/>options?&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>i18n(</highlight><highlight class="stringliteral">&quot;Set<sp/>defaults&quot;</highlight><highlight class="normal">))==KMessageBox::Continue){</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_1023ef9d53c25acddb076c762c038b25c" kindref="member">setCrashRecovery</ref>(configuration().isCrashRecoveryDefault());</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_173303838adf8e2705e0336a22bf8491a" kindref="member">setCrashRecoveryIndex</ref>(configuration().crashRecoveryIntervalIndexDefault());</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_1a3f425cf4ec0e02fa396d5da6ce14f38" kindref="member">setNbUndo</ref>(configuration().getNbUndoDefault());</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_15442a06d79758266675e0843ed484373" kindref="member">setBackgroundColor</ref>(configuration().getBackgroundColorDefault());</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" kindref="member">setReclusteringExecutable</ref>(configuration().getReclusteringExecutableDefault());</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/>prefGeneral-&gt;<ref refid="classPrefGeneral_15252892f22d9303c8dc6d5977ff33510" kindref="member">setReclusteringArguments</ref>(configuration().getReclusteringArgumentsDefault());<sp/></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/>prefclusterView-&gt;<ref refid="classPrefClusterView_1e1a0bf0a9315575e29b3faaf015e3ff0" kindref="member">setTimeInterval</ref>(configuration().getTimeIntervalDefault());</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/>prefWaveformView-&gt;<ref refid="classPrefWaveformView_152846ce65739efd7a7c90d857ba54589" kindref="member">setGain</ref>(configuration().getGainDefault());</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/>prefWaveformView-&gt;<ref refid="classPrefWaveformView_1be0468403111fa19f3e32900dc534768" kindref="member">resetChannelList</ref>(configuration().getNbChannels());</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><ref refid="classPrefDialog_136e639fee3b394f6a7e1873fa6cc0587" kindref="member">enableApply</ref>();<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enable<sp/>apply<sp/>button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefDialog_124711e72b359a9f52c1dcba17b190b6a" kindref="member">PrefDialog::slotApply</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><ref refid="classPrefDialog_1953465d0d61f15b796dd0925a827acc4" kindref="member">updateConfiguration</ref>();<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>transfer<sp/>settings<sp/>to<sp/>configuration<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>emit<sp/><ref refid="classPrefDialog_1322d4dd7abc81941d15123eb3a362e74" kindref="member">settingsChanged</ref>();<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>apply<sp/>the<sp/>preferences<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/>enableButtonApply(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>disable<sp/>apply<sp/>button<sp/>again</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefDialog_136e639fee3b394f6a7e1873fa6cc0587" kindref="member">PrefDialog::enableApply</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>enableButtonApply(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enable<sp/>apply<sp/>button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>applyEnable<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefDialog::resetChannelList(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbChannels){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/>prefWaveformView-&gt;<ref refid="classPrefWaveformView_1be0468403111fa19f3e32900dc534768" kindref="member">resetChannelList</ref>(nbChannels);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefDialog::enableChannelSettings(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>state){</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/>prefWaveformView-&gt;<ref refid="classPrefWaveformView_19637bc4a721b589b97ca1880a733113b" kindref="member">enableChannelSettings</ref>(state);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp"/>
+  </compounddef>
+</doxygen>

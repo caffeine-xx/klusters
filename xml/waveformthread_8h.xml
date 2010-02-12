@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="waveformthread_8h" kind="file">
+    <compoundname>waveformthread.h</compoundname>
+    <includes refid="waveformview_8h" local="yes">waveformview.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includedby refid="waveformthread_8cpp" local="yes">waveformthread.cpp</includedby>
+    <includedby refid="waveformview_8cpp" local="yes">waveformview.cpp</includedby>
+    <incdepgraph>
+      <node id="2921">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="2919" relation="include">
+        </childnode>
+        <childnode refid="2908" relation="include">
+        </childnode>
+        <childnode refid="2922" relation="include">
+        </childnode>
+        <childnode refid="2914" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+      </node>
+      <node id="2934">
+        <label>qregion.h</label>
+      </node>
+      <node id="2936">
+        <label>qfile.h</label>
+      </node>
+      <node id="2929">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="2930" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+        <childnode refid="2931" relation="include">
+        </childnode>
+      </node>
+      <node id="2912">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="2918">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="2919" relation="include">
+        </childnode>
+        <childnode refid="2908" relation="include">
+        </childnode>
+        <childnode refid="2911" relation="include">
+        </childnode>
+        <childnode refid="2920" relation="include">
+        </childnode>
+        <childnode refid="2921" relation="include">
+        </childnode>
+      </node>
+      <node id="2914">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="2915" relation="include">
+        </childnode>
+        <childnode refid="2916" relation="include">
+        </childnode>
+        <childnode refid="2917" relation="include">
+        </childnode>
+      </node>
+      <node id="2930">
+        <label>qstring.h</label>
+      </node>
+      <node id="2931">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2939">
+        <label>kurl.h</label>
+      </node>
+      <node id="2915">
+        <label>qrect.h</label>
+      </node>
+      <node id="2940">
+        <label>stdexcept</label>
+      </node>
+      <node id="2925">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2926" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+      </node>
+      <node id="2920">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="2908">
+        <label>qframe.h</label>
+      </node>
+      <node id="2913">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2916">
+        <label>qpoint.h</label>
+      </node>
+      <node id="2907">
+        <label>waveformview.h</label>
+        <link refid="waveformview_8h-source"/>
+        <childnode refid="2908" relation="include">
+        </childnode>
+        <childnode refid="2909" relation="include">
+        </childnode>
+        <childnode refid="2910" relation="include">
+        </childnode>
+        <childnode refid="2911" relation="include">
+        </childnode>
+        <childnode refid="2912" relation="include">
+        </childnode>
+        <childnode refid="2913" relation="include">
+        </childnode>
+        <childnode refid="2914" relation="include">
+        </childnode>
+        <childnode refid="2918" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+      </node>
+      <node id="2927">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="2925" relation="include">
+        </childnode>
+        <childnode refid="2928" relation="include">
+        </childnode>
+      </node>
+      <node id="2932">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="2906">
+        <label>waveformthread.h</label>
+        <link refid="waveformthread.h"/>
+        <childnode refid="2907" relation="include">
+        </childnode>
+        <childnode refid="2924" relation="include">
+        </childnode>
+        <childnode refid="2938" relation="include">
+        </childnode>
+      </node>
+      <node id="2941">
+        <label>vector</label>
+      </node>
+      <node id="2922">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2909">
+        <label>qpainter.h</label>
+      </node>
+      <node id="2917">
+        <label>math.h</label>
+      </node>
+      <node id="2919">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2923">
+        <label>iostream</label>
+      </node>
+      <node id="2938">
+        <label>qthread.h</label>
+      </node>
+      <node id="2933">
+        <label>qdict.h</label>
+      </node>
+      <node id="2935">
+        <label>qmap.h</label>
+      </node>
+      <node id="2937">
+        <label>qmutex.h</label>
+      </node>
+      <node id="2910">
+        <label>qstyle.h</label>
+      </node>
+      <node id="2911">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2926">
+        <label>cstring</label>
+      </node>
+      <node id="2924">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="2925" relation="include">
+        </childnode>
+        <childnode refid="2927" relation="include">
+        </childnode>
+        <childnode refid="2929" relation="include">
+        </childnode>
+        <childnode refid="2928" relation="include">
+        </childnode>
+        <childnode refid="2932" relation="include">
+        </childnode>
+        <childnode refid="2913" relation="include">
+        </childnode>
+        <childnode refid="2912" relation="include">
+        </childnode>
+        <childnode refid="2933" relation="include">
+        </childnode>
+        <childnode refid="2934" relation="include">
+        </childnode>
+        <childnode refid="2935" relation="include">
+        </childnode>
+        <childnode refid="2936" relation="include">
+        </childnode>
+        <childnode refid="2937" relation="include">
+        </childnode>
+        <childnode refid="2938" relation="include">
+        </childnode>
+        <childnode refid="2939" relation="include">
+        </childnode>
+        <childnode refid="2923" relation="include">
+        </childnode>
+        <childnode refid="2940" relation="include">
+        </childnode>
+        <childnode refid="2917" relation="include">
+        </childnode>
+        <childnode refid="2941" relation="include">
+        </childnode>
+      </node>
+      <node id="2928">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classWaveformThread" prot="public">WaveformThread</innerclass>
+    <innerclass refid="classWaveformThread_1_1GetWaveformsEvent" prot="public">WaveformThread::GetWaveformsEvent</innerclass>
+    <innerclass refid="classWaveformThread_1_1NoWaveformDataEvent" prot="public">WaveformThread::NoWaveformDataEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>waveformthread.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Fri<sp/>Oct<sp/>24<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WAVEFORMTHREAD_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>WAVEFORMTHREAD_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;waveformview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="classWaveformThread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getWaveforms<sp/>of<sp/>WaveformView<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>WaveformThread,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>WaveformThread<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>WaveformThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>*<sp/>WaveformView::getWaveforms();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>(){};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getWaveformInformation(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,<ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getWaveformInformation(QValueList&lt;int&gt;<sp/>clusterIds,<ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getMean(QValueList&lt;int&gt;<sp/>clusterIds,<ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>getMean(<ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref><sp/>mode);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSingleTriggeringCluster(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>treatSingleCluster;};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>triggeringCluster(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clusterId;};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>triggeringClusters(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clusterIds;};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isMeanRequested(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><sp/>meanRequested;};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classWaveformThread_172393adc73ad43438c11c7fc9d622775" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread_172393adc73ad43438c11c7fc9d622775" kindref="member">stopProcessing</ref>(){haveToStopProcessing<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">GetWaveformsEvent;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">GetWaveformsEvent;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>GetWaveformsEvent*<sp/>getWaveformsEvent(){</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GetWaveformsEvent(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classWaveformThread_1_1GetWaveformsEvent" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWaveformThread_1_1GetWaveformsEvent" kindref="compound">GetWaveformsEvent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getWaveformsEvent<sp/>of<sp/>WaveformThread<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>GetWaveformsEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>GetWaveformsEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>GetWaveformsEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread_1_1GetWaveformsEvent" kindref="compound">GetWaveformsEvent</ref>*<sp/>WaveformThread::getWaveformsEvent();</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>*<sp/>parentThread(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;waveformThread;};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classWaveformThread_1_1GetWaveformsEvent" kindref="compound">GetWaveformsEvent</ref>(){};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformThread_1_1GetWaveformsEvent" kindref="compound">GetWaveformsEvent</ref>(<ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>&amp;<sp/>thread):QCustomEvent(QEvent::User<sp/>+<sp/>200),waveformThread(thread){};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>&amp;<sp/>waveformThread;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>*<sp/>noWaveformDataEvent(){</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classWaveformThread_1_1NoWaveformDataEvent" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getWaveformsEvent<sp/>of<sp/>WaveformThread<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>GetWaveformsEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>GetWaveformsEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>GetWaveformsEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>*<sp/>WaveformThread::noWaveformDataEvent();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>*<sp/>parentThread(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;waveformThread;};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>(){};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref>(<ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>&amp;<sp/>thread):QCustomEvent(QEvent::User<sp/>+<sp/>250),waveformThread(thread){};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>&amp;<sp/>waveformThread;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classWaveformThread" kindref="compound">WaveformThread</ref>(<ref refid="classWaveformView" kindref="compound">WaveformView</ref>&amp;<sp/>view,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>d):waveformView(view),meanRequested(false),data(d),haveToStopProcessing(false){};</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformView" kindref="compound">WaveformView</ref>&amp;<sp/>waveformView;<sp/></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;<sp/>clusterIds;</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>treatSingleCluster;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>meanRequested;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>data;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref><sp/>mode;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>haveToStopProcessing;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+base referer
+rect $classAutoSaveThread.html 580,552 716,579
+rect $classClusterPalette.html 296,552 411,579
+rect $classChannelColors.html 586,371 706,397
+rect $classData.html 716,280 770,307
+rect $classMinMaxThread.html 784,371 904,397
+rect $classClustersProvider.html 267,371 398,397
+rect $classSortableTable.html 686,173 800,200
+rect $classArray.html 683,96 803,123
+rect $classTracesProvider.html 6,371 126,397
+rect $classDataProvider.html 127,280 236,307
+rect $classItemColors.html 150,371 243,397

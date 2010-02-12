@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="zoomwindow_8h" kind="file">
+    <compoundname>zoomwindow.h</compoundname>
+    <includes local="no">qrect.h</includes>
+    <includes local="no">qpoint.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="baseframe_8h" local="yes">baseframe.h</includedby>
+    <includedby refid="clusterview_8h" local="yes">clusterview.h</includedby>
+    <includedby refid="correlationview_8h" local="yes">correlationview.h</includedby>
+    <includedby refid="waveformview_8h" local="yes">waveformview.h</includedby>
+    <includedby refid="zoomwindow_8cpp" local="yes">zoomwindow.cpp</includedby>
+    <incdepgraph>
+      <node id="3054">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow.h"/>
+        <childnode refid="3055" relation="include">
+        </childnode>
+        <childnode refid="3056" relation="include">
+        </childnode>
+        <childnode refid="3057" relation="include">
+        </childnode>
+      </node>
+      <node id="3055">
+        <label>qrect.h</label>
+      </node>
+      <node id="3056">
+        <label>qpoint.h</label>
+      </node>
+      <node id="3057">
+        <label>math.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3059">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="3060" relation="include">
+        </childnode>
+        <childnode refid="3071" relation="include">
+        </childnode>
+      </node>
+      <node id="3063">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="3064" relation="include">
+        </childnode>
+      </node>
+      <node id="3062">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="3063" relation="include">
+        </childnode>
+      </node>
+      <node id="3060">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="3061" relation="include">
+        </childnode>
+        <childnode refid="3062" relation="include">
+        </childnode>
+        <childnode refid="3065" relation="include">
+        </childnode>
+        <childnode refid="3067" relation="include">
+        </childnode>
+        <childnode refid="3069" relation="include">
+        </childnode>
+      </node>
+      <node id="3058">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow.h"/>
+        <childnode refid="3059" relation="include">
+        </childnode>
+        <childnode refid="3061" relation="include">
+        </childnode>
+        <childnode refid="3065" relation="include">
+        </childnode>
+        <childnode refid="3067" relation="include">
+        </childnode>
+      </node>
+      <node id="3072">
+        <label>tracewidget.h</label>
+        <link refid="tracewidget_8h-source"/>
+      </node>
+      <node id="3071">
+        <label>traceview.h</label>
+        <link refid="traceview_8h-source"/>
+        <childnode refid="3072" relation="include">
+        </childnode>
+      </node>
+      <node id="3067">
+        <label>waveformview.h</label>
+        <link refid="waveformview_8h-source"/>
+        <childnode refid="3068" relation="include">
+        </childnode>
+      </node>
+      <node id="3064">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="3068">
+        <label>waveformthread.h</label>
+        <link refid="waveformthread_8h-source"/>
+      </node>
+      <node id="3070">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+      <node id="3069">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="3070" relation="include">
+        </childnode>
+      </node>
+      <node id="3061">
+        <label>clusterview.h</label>
+        <link refid="clusterview_8h-source"/>
+      </node>
+      <node id="3066">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread_8h-source"/>
+      </node>
+      <node id="3065">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="3062" relation="include">
+        </childnode>
+        <childnode refid="3066" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classZoomWindow" prot="public">ZoomWindow</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>floatrect.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Aug<sp/>21<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FLOATRECT_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>FLOATRECT_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qrect.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpoint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="classZoomWindow" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classZoomWindow" kindref="compound">ZoomWindow</ref><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="classZoomWindow_13935a92cbd049d32a6ae96dba3653673" kindref="member">ZoomWindow</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QRect&amp;<sp/>rect);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="classZoomWindow_1ebd4f209291a4931c73c3bf3bdfbbb6a" kindref="member">~ZoomWindow</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><ref refid="classZoomWindow_10e0ccfd2b978a01ee0e19ef1cd2f77e9" kindref="member">operator QRect</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>centerX,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>centerY);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="classZoomWindow_17ff30a2fe474928de05df30ac4ffd4b0" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>factor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint&amp;<sp/>center){</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(factor,<sp/>center.x(),<sp/>center.y());</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstClickX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstClickY,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondClickX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondClickY);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classZoomWindow_16a25a932c8bf2f19193b076c6153b9b9" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(QPoint<sp/>firstPoint,<sp/>QPoint<sp/>secondPoint)<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" kindref="member">zoom</ref>(firstPoint.x(),<sp/>firstPoint.y(),<sp/>secondPoint.x(),<sp/>secondPoint.y());</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="100"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" kindref="member">correctWindow</ref>();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="107"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>left;</highlight></codeline>
+<codeline lineno="111"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>right;</highlight></codeline>
+<codeline lineno="115"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>bottom;</highlight></codeline>
+<codeline lineno="119"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>top;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialLeft;</highlight></codeline>
+<codeline lineno="129"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialRight;</highlight></codeline>
+<codeline lineno="133"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialBottom;</highlight></codeline>
+<codeline lineno="137"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>initialTop;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MIN_SCALE;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>MAX_SCALE;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="classZoomWindow_159e54a28b349f48f4a8599baf60516c7" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classZoomWindow_159e54a28b349f48f4a8599baf60516c7" kindref="member">reset</ref>(){</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/>left<sp/><sp/><sp/>=<sp/>initialLeft;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/>right<sp/><sp/>=<sp/>initialRight;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/>top<sp/><sp/><sp/><sp/>=<sp/>initialTop;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/>bottom<sp/>=<sp/>initialBottom;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h"/>
+  </compounddef>
+</doxygen>

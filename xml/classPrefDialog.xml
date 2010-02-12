@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefDialog" kind="class" prot="public">
+    <compoundname>PrefDialog</compoundname>
+    <includes refid="prefdialog_8h" local="no">prefdialog.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPrefDialog_1e209a27676371e4647310d0f9b3a250b" prot="private" static="no" mutable="no">
+        <type><ref refid="classPrefGeneral" kindref="compound">PrefGeneral</ref> *</type>
+        <definition>PrefGeneral* PrefDialog::prefGeneral</definition>
+        <argsstring></argsstring>
+        <name>prefGeneral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefDialog_1253c7f2e4349b93aaa3e638ad50d3127" prot="private" static="no" mutable="no">
+        <type><ref refid="classPrefWaveformView" kindref="compound">PrefWaveformView</ref> *</type>
+        <definition>PrefWaveformView* PrefDialog::prefWaveformView</definition>
+        <argsstring></argsstring>
+        <name>prefWaveformView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefDialog_105bafc7244b7978f78d65e3e4edde966" prot="private" static="no" mutable="no">
+        <type><ref refid="classPrefClusterView" kindref="compound">PrefClusterView</ref> *</type>
+        <definition>PrefClusterView* PrefDialog::prefclusterView</definition>
+        <argsstring></argsstring>
+        <name>prefclusterView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefDialog_1a6e39d98acdca69f4a69cf293b0d8922" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PrefDialog::applyEnable</definition>
+        <argsstring></argsstring>
+        <name>applyEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefDialog_12047b7d07ccf44431803dff8b59ad972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefDialog::PrefDialog</definition>
+        <argsstring>(QWidget *parent, int nbChannels=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>PrefDialog</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbChannels</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="48" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefDialog_1533723197454424489b5d228f5f5caa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::updateDialog</definition>
+        <argsstring>()</argsstring>
+        <name>updateDialog</name>
+        <briefdescription>
+<para>Transfers the settings from the configuration object to the dialog. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefDialog_1953465d0d61f15b796dd0925a827acc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::updateConfiguration</definition>
+        <argsstring>()</argsstring>
+        <name>updateConfiguration</name>
+        <briefdescription>
+<para>Transfers the settings from the dialog to the configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="105" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefDialog_1491cca7a9a8b66103f24efc3340ba73b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrefDialog::isApplyEnable</definition>
+        <argsstring>()</argsstring>
+        <name>isApplyEnable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefDialog_12e247c97f522eb2bcc12726dff915c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::resetChannelList</definition>
+        <argsstring>(int nbChannels)</argsstring>
+        <name>resetChannelList</name>
+        <param>
+          <type>int</type>
+          <declname>nbChannels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefDialog_1898f8d6ca8f6b85606bf57a192116604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::enableChannelSettings</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>enableChannelSettings</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="158" bodyend="160"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classPrefDialog_1bfde2c51595dc9ade33f8692660e078c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::slotDefault</definition>
+        <argsstring>()</argsstring>
+        <name>slotDefault</name>
+        <briefdescription>
+<para>Will be called when the &quot;Default&quot; button has been clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="122" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="slot" id="classPrefDialog_124711e72b359a9f52c1dcba17b190b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::slotApply</definition>
+        <argsstring>()</argsstring>
+        <name>slotApply</name>
+        <briefdescription>
+<para>Will be called when the &quot;Apply&quot; button has been clicked. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="142" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="slot" id="classPrefDialog_136e639fee3b394f6a7e1873fa6cc0587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::enableApply</definition>
+        <argsstring>()</argsstring>
+        <name>enableApply</name>
+        <briefdescription>
+<para>Will be called whenever a setting was changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.cpp" bodystart="149" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classPrefDialog_1322d4dd7abc81941d15123eb3a362e74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefDialog::settingsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>settingsChanged</name>
+        <briefdescription>
+<para>Will be emitted when the new settings should be applied. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.moc.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing the Klusters preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1230">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1229">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1230" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1231" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1232" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1232">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefdialog.h" bodystart="36" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classPrefDialog_1a6e39d98acdca69f4a69cf293b0d8922" prot="private" virt="non-virtual"><scope>PrefDialog</scope><name>applyEnable</name></member>
+      <member refid="classPrefDialog_136e639fee3b394f6a7e1873fa6cc0587" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>enableApply</name></member>
+      <member refid="classPrefDialog_1898f8d6ca8f6b85606bf57a192116604" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>enableChannelSettings</name></member>
+      <member refid="classPrefDialog_1491cca7a9a8b66103f24efc3340ba73b" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>isApplyEnable</name></member>
+      <member refid="classPrefDialog_105bafc7244b7978f78d65e3e4edde966" prot="private" virt="non-virtual"><scope>PrefDialog</scope><name>prefclusterView</name></member>
+      <member refid="classPrefDialog_12047b7d07ccf44431803dff8b59ad972" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>PrefDialog</name></member>
+      <member refid="classPrefDialog_1e209a27676371e4647310d0f9b3a250b" prot="private" virt="non-virtual"><scope>PrefDialog</scope><name>prefGeneral</name></member>
+      <member refid="classPrefDialog_1253c7f2e4349b93aaa3e638ad50d3127" prot="private" virt="non-virtual"><scope>PrefDialog</scope><name>prefWaveformView</name></member>
+      <member refid="classPrefDialog_12e247c97f522eb2bcc12726dff915c3a" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>resetChannelList</name></member>
+      <member refid="classPrefDialog_1322d4dd7abc81941d15123eb3a362e74" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>settingsChanged</name></member>
+      <member refid="classPrefDialog_124711e72b359a9f52c1dcba17b190b6a" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>slotApply</name></member>
+      <member refid="classPrefDialog_1bfde2c51595dc9ade33f8692660e078c" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>slotDefault</name></member>
+      <member refid="classPrefDialog_1953465d0d61f15b796dd0925a827acc4" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>updateConfiguration</name></member>
+      <member refid="classPrefDialog_1533723197454424489b5d228f5f5caa1" prot="public" virt="non-virtual"><scope>PrefDialog</scope><name>updateDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

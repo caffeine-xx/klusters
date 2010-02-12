@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classParameterXmlModifier" kind="class" prot="public">
+    <compoundname>ParameterXmlModifier</compoundname>
+    <includes refid="parameterxmlmodifier_8h" local="no">parameterxmlmodifier.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classParameterXmlModifier_1f0fe42d68fed2a7cc7a134855626aefc" prot="private" static="no" mutable="no">
+        <type>QDomDocument</type>
+        <definition>QDomDocument ParameterXmlModifier::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+<para>The session document. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="96" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParameterXmlModifier_1f3f81c31359c1d016e01b3b086c68858" prot="private" static="no" mutable="no">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::root</definition>
+        <argsstring></argsstring>
+        <name>root</name>
+        <briefdescription>
+<para>The root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="99" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParameterXmlModifier_1ad2ca15e0f40ae289923b028c4ce2bc4" prot="private" static="no" mutable="no">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::acquisitionSystem</definition>
+        <argsstring></argsstring>
+        <name>acquisitionSystem</name>
+        <briefdescription>
+<para>The acquisition system element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="102" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParameterXmlModifier_126d6806a2cdd3927502a4389f2e11012" prot="private" static="no" mutable="no">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::spikeDetection</definition>
+        <argsstring></argsstring>
+        <name>spikeDetection</name>
+        <briefdescription>
+<para>The spike description element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="105" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParameterXmlModifier_1a5a239acdc30fcd028d2faa74bc8de30" prot="private" static="no" mutable="no">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::units</definition>
+        <argsstring></argsstring>
+        <name>units</name>
+        <briefdescription>
+<para>The units element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="108" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classParameterXmlModifier_1abc2a5c032027ab4f3c4e56e8e688168" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ParameterXmlModifier::initialXmlDocument</definition>
+        <argsstring></argsstring>
+        <name>initialXmlDocument</name>
+        <briefdescription>
+<para>The parameter file as it has been loaded. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="111" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classParameterXmlModifier_198328a66182e517e598bcd28946b6a39" prot="private" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString ParameterXmlModifier::parameterVersion</definition>
+        <argsstring></argsstring>
+        <name>parameterVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classParameterXmlModifier_19198f7b68f1d444ab035bf243372c415" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParameterXmlModifier::ParameterXmlModifier</definition>
+        <argsstring>()</argsstring>
+        <name>ParameterXmlModifier</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_101e4d03234939070ee2f3cadf63583eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ParameterXmlModifier::~ParameterXmlModifier</definition>
+        <argsstring>()</argsstring>
+        <name>~ParameterXmlModifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_1ee9b3ef04ef94bfaa36cda67562573f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParameterXmlModifier::parseFile</definition>
+        <argsstring>(const KURL &amp;url)</argsstring>
+        <name>parseFile</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Opens and parses the file with the <computeroutput>url</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>url of the file to open. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the file was correctly parse, false othewise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="38" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_1d207c33da1c9e174b2426ff16ee9f6da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParameterXmlModifier::writeTofile</definition>
+        <argsstring>(const KURL &amp;url)</argsstring>
+        <name>writeTofile</name>
+        <param>
+          <type>const KURL &amp;</type>
+          <declname>url</declname>
+        </param>
+        <briefdescription>
+<para>Writes the modified xml tree to a parameter file given by <computeroutput>url</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>url</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>url of the file to write to. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the parameter file could be write to disk, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="63" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_1a76bc7f4586622faadae551bc199f4b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::findDirectChild</definition>
+        <argsstring>(QString childName)</argsstring>
+        <name>findDirectChild</name>
+        <param>
+          <type>QString</type>
+          <declname>childName</declname>
+        </param>
+        <briefdescription>
+<para>Finds the first child node with the tag name <computeroutput>childName</computeroutput> direct child of the root node. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>childName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the child node tag to look up. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the first node starting from root having <computeroutput>tagName</computeroutput> as tag name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="91" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_196fa653ad31be5b451fd3c6fe2c0527b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::findDirectChild</definition>
+        <argsstring>(QString childName, QDomNode ancestor)</argsstring>
+        <name>findDirectChild</name>
+        <param>
+          <type>QString</type>
+          <declname>childName</declname>
+        </param>
+        <param>
+          <type>QDomNode</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>Finds the first child node with the tag name <computeroutput>childName</computeroutput> direct child of the <computeroutput>ancestor</computeroutput> node. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>childName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of thechild node tag to look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ancestor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting node from which to look up for the node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the first node starting from <computeroutput>ancestor</computeroutput> having <computeroutput>tagName</computeroutput> as tag name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="104" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_1a1852f2c7a2278c87620c992896ef987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QDomNode</type>
+        <definition>QDomNode ParameterXmlModifier::findDirectChild</definition>
+        <argsstring>(QString childName, QString grandChildName, QString value, QDomNode ancestor)</argsstring>
+        <name>findDirectChild</name>
+        <param>
+          <type>QString</type>
+          <declname>childName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>grandChildName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>QDomNode</type>
+          <declname>ancestor</declname>
+        </param>
+        <briefdescription>
+<para>Finds the first child node with the tag name <computeroutput>childName</computeroutput> direct child of the <computeroutput>ancestor</computeroutput> node. </para>        </briefdescription>
+        <detaileddescription>
+<para>This node has to contain a direct child node with the tag name <computeroutput>grandChildName</computeroutput> with a text value of <computeroutput>value</computeroutput>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>childName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the child node tag to look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>grandChildName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the grandchild node tag to look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value of the textNode contained in <computeroutput>grandChildName</computeroutput>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ancestor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting node from which to look up for the child node. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the first child node corresponding to the criteria. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="117" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classParameterXmlModifier_10542a31c890c095a73d36b1c8bc8fc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ParameterXmlModifier::setClusterUserInformation</definition>
+        <argsstring>(int pGroup, QMap&lt; int, ClusterUserInformation &gt; &amp;clusterUserInformationMap)</argsstring>
+        <name>setClusterUserInformation</name>
+        <param>
+          <type>int</type>
+          <declname>pGroup</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, <ref refid="classClusterUserInformation" kindref="compound">ClusterUserInformation</ref> &gt; &amp;</type>
+          <declname>clusterUserInformationMap</declname>
+        </param>
+        <briefdescription>
+<para>Sets the map of cluster user information. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pGroup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the electrod group id for which the cluster user information have to be retrieved (corresponds to the currently opened cluster file). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterUserInformationMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given the cluster user information, the key is the cluster id and the value an instance of <ref refid="classClusterUserInformation" kindref="compound">ClusterUserInformation</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the modification succeded, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.cpp" bodystart="140" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class modifying the parameter xml file. </para>    </briefdescription>
+    <detaileddescription>
+<para>For the moment this class only adds the cluster user information (in the units section). <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/parameterxmlmodifier.h" bodystart="37" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classParameterXmlModifier_1ad2ca15e0f40ae289923b028c4ce2bc4" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>acquisitionSystem</name></member>
+      <member refid="classParameterXmlModifier_1f0fe42d68fed2a7cc7a134855626aefc" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>doc</name></member>
+      <member refid="classParameterXmlModifier_1a76bc7f4586622faadae551bc199f4b2" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>findDirectChild</name></member>
+      <member refid="classParameterXmlModifier_196fa653ad31be5b451fd3c6fe2c0527b" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>findDirectChild</name></member>
+      <member refid="classParameterXmlModifier_1a1852f2c7a2278c87620c992896ef987" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>findDirectChild</name></member>
+      <member refid="classParameterXmlModifier_1abc2a5c032027ab4f3c4e56e8e688168" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>initialXmlDocument</name></member>
+      <member refid="classParameterXmlModifier_198328a66182e517e598bcd28946b6a39" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>parameterVersion</name></member>
+      <member refid="classParameterXmlModifier_19198f7b68f1d444ab035bf243372c415" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>ParameterXmlModifier</name></member>
+      <member refid="classParameterXmlModifier_1ee9b3ef04ef94bfaa36cda67562573f3" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>parseFile</name></member>
+      <member refid="classParameterXmlModifier_1f3f81c31359c1d016e01b3b086c68858" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>root</name></member>
+      <member refid="classParameterXmlModifier_10542a31c890c095a73d36b1c8bc8fc99" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>setClusterUserInformation</name></member>
+      <member refid="classParameterXmlModifier_126d6806a2cdd3927502a4389f2e11012" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>spikeDetection</name></member>
+      <member refid="classParameterXmlModifier_1a5a239acdc30fcd028d2faa74bc8de30" prot="private" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>units</name></member>
+      <member refid="classParameterXmlModifier_1d207c33da1c9e174b2426ff16ee9f6da" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>writeTofile</name></member>
+      <member refid="classParameterXmlModifier_101e4d03234939070ee2f3cadf63583eb" prot="public" virt="non-virtual"><scope>ParameterXmlModifier</scope><name>~ParameterXmlModifier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

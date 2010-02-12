@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classProcessWidget" kind="class" prot="public">
+    <compoundname>ProcessWidget</compoundname>
+    <includes refid="processwidget_8h" local="no">processwidget.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classProcessWidget_13b1f7680bc682ff5bc0081a043d082b8" prot="private" static="no" mutable="no">
+        <type>KProcess *</type>
+        <definition>KProcess* ProcessWidget::childproc</definition>
+        <argsstring></argsstring>
+        <name>childproc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="137" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessWidget_132b9b58d9a72ff316df705dca0d3f673" prot="private" static="no" mutable="no">
+        <type><ref refid="classProcessLineMaker" kindref="compound">ProcessLineMaker</ref> *</type>
+        <definition>ProcessLineMaker* ProcessWidget::procLineMaker</definition>
+        <argsstring></argsstring>
+        <name>procLineMaker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classProcessWidget_19d88824c5f5fa6c7bd8911492425d3c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessWidget::ProcessWidget</definition>
+        <argsstring>(QWidget *parent, const char *name=0)</argsstring>
+        <name>ProcessWidget</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="45" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessWidget_169b8a69ebeba0b49ea17864aedc65107" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessWidget::~ProcessWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~ProcessWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessWidget_1b83ef679b004836c9c0f4b18b26c5fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ProcessWidget::isRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+<para>Returns whether a process is running in this view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessWidget_105b1ff1d417576b92f7b6dc824e2ac46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::hideWidget</definition>
+        <argsstring>()</argsstring>
+        <name>hideWidget</name>
+        <briefdescription>
+<para>The widget been hidden, updates its internal state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessWidget_108f53f6724e0adacaee1a2dcca03f1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::print</definition>
+        <argsstring>(KPrinter *printer, QString filePath)</argsstring>
+        <name>print</name>
+        <param>
+          <type>KPrinter *</type>
+          <declname>printer</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+<para>Prints the contents of the view. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>printer to print into. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path of the opened document. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="195" bodyend="236"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classProcessWidget_19e3c899c3eb14de51465608e22a1e070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ProcessWidget::startJob</definition>
+        <argsstring>(const QString &amp;dir, const QString &amp;command)</argsstring>
+        <name>startJob</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Starts the child process. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the could be started, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="94" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessWidget_1572f011eba9b8b804334562dd3d6cdc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::killJob</definition>
+        <argsstring>()</argsstring>
+        <name>killJob</name>
+        <briefdescription>
+<para>Kills the child processss. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="109" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessWidget_1e51d45fb2b93efd0262713ecc1444c71" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::insertStdoutLine</definition>
+        <argsstring>(const QString &amp;line)</argsstring>
+        <name>insertStdoutLine</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>Inserts one line from stdin into the listbox. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be overridden by subclasses to implement syntax highlighting. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="99" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="128" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessWidget_11eeae8ece5dfded17fd12b540eb1b873" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::insertStderrLine</definition>
+        <argsstring>(const QString &amp;line)</argsstring>
+        <name>insertStderrLine</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+<para>Inserts one line from stderr into the listbox. </para>        </briefdescription>
+        <detaileddescription>
+<para>This can be overridden by subclasses to implement syntax highlighting. By default, a ProcessListBoxItem is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="106" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="135" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classProcessWidget_10b1d41c54e87b604dc28ba3688ed7888" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::childFinished</definition>
+        <argsstring>(bool normal, int status)</argsstring>
+        <name>childFinished</name>
+        <param>
+          <type>bool</type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+<para>This is called when the child process exits. </para>        </briefdescription>
+        <detaileddescription>
+<para>The flag &apos;normal&apos; is true if the process exited normally (i.e. not by a signal or similar), otherwise the exit status can be taken from &apos;status&apos;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="142" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessWidget_1961710cd971c19c4461f21321170fb4d" prot="protected" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QSize</type>
+        <definition>QSize ProcessWidget::minimumSizeHint</definition>
+        <argsstring>() const</argsstring>
+        <name>minimumSizeHint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="123" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="164" bodyend="171"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classProcessWidget_11fb2a720d93bc13fe65c74b1da5a7129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::processExited</definition>
+        <argsstring>(KProcess *)</argsstring>
+        <name>processExited</name>
+        <param>
+          <type>KProcess *</type>
+          <defname>t0</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="118" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp" bodystart="118" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="signal" id="classProcessWidget_171b82c6817475fefe209904422f607d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::processOutputsFinished</definition>
+        <argsstring>()</argsstring>
+        <name>processOutputsFinished</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp" bodystart="131" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="signal" id="classProcessWidget_161137145fc8793b8a378d362da22cbdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::hidden</definition>
+        <argsstring>()</argsstring>
+        <name>hidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.moc.cpp" bodystart="137" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classProcessWidget_1ac01bfaca4899984fd4bfc5e2b4fbaee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::slotProcessExited</definition>
+        <argsstring>(KProcess *)</argsstring>
+        <name>slotProcessExited</name>
+        <param>
+          <type>KProcess *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="126" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessWidget_1c922af23fefdbd139391ccfa995154cc" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::slotOutputTreatmentOver</definition>
+        <argsstring>()</argsstring>
+        <name>slotOutputTreatmentOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="190" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classProcessWidget_1697d43b37a6be0796df51a157c9b62f6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessWidget::maybeScrollToBottom</definition>
+        <argsstring>()</argsstring>
+        <name>maybeScrollToBottom</name>
+        <briefdescription>
+<para>Should be called right after an insertItem(), will automatic scroll the listbox if it is already at the bottom to prevent automatic scrolling when the user has scrolled up. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>dirty hack to _actually_ scroll to the bottom </para>        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp" bodystart="173" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class launchs/stops external processes and displays their outputs. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Bernd Gehrmann, lynn hazan </para></simplesect>
+<simplesect kind="since"><para>klusters 1.2 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1248">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1247">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1248" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processwidget.h" bodystart="61" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classProcessWidget_10b1d41c54e87b604dc28ba3688ed7888" prot="protected" virt="virtual"><scope>ProcessWidget</scope><name>childFinished</name></member>
+      <member refid="classProcessWidget_13b1f7680bc682ff5bc0081a043d082b8" prot="private" virt="non-virtual"><scope>ProcessWidget</scope><name>childproc</name></member>
+      <member refid="classProcessWidget_161137145fc8793b8a378d362da22cbdb" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>hidden</name></member>
+      <member refid="classProcessWidget_105b1ff1d417576b92f7b6dc824e2ac46" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>hideWidget</name></member>
+      <member refid="classProcessWidget_11eeae8ece5dfded17fd12b540eb1b873" prot="public" virt="virtual"><scope>ProcessWidget</scope><name>insertStderrLine</name></member>
+      <member refid="classProcessWidget_1e51d45fb2b93efd0262713ecc1444c71" prot="public" virt="virtual"><scope>ProcessWidget</scope><name>insertStdoutLine</name></member>
+      <member refid="classProcessWidget_1b83ef679b004836c9c0f4b18b26c5fa0" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>isRunning</name></member>
+      <member refid="classProcessWidget_1572f011eba9b8b804334562dd3d6cdc4" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>killJob</name></member>
+      <member refid="classProcessWidget_1697d43b37a6be0796df51a157c9b62f6" prot="private" virt="non-virtual"><scope>ProcessWidget</scope><name>maybeScrollToBottom</name></member>
+      <member refid="classProcessWidget_1961710cd971c19c4461f21321170fb4d" prot="protected" virt="virtual"><scope>ProcessWidget</scope><name>minimumSizeHint</name></member>
+      <member refid="classProcessWidget_108f53f6724e0adacaee1a2dcca03f1cc" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>print</name></member>
+      <member refid="classProcessWidget_11fb2a720d93bc13fe65c74b1da5a7129" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>processExited</name></member>
+      <member refid="classProcessWidget_171b82c6817475fefe209904422f607d9" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>processOutputsFinished</name></member>
+      <member refid="classProcessWidget_19d88824c5f5fa6c7bd8911492425d3c3" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>ProcessWidget</name></member>
+      <member refid="classProcessWidget_132b9b58d9a72ff316df705dca0d3f673" prot="private" virt="non-virtual"><scope>ProcessWidget</scope><name>procLineMaker</name></member>
+      <member refid="classProcessWidget_1c922af23fefdbd139391ccfa995154cc" prot="protected" virt="non-virtual"><scope>ProcessWidget</scope><name>slotOutputTreatmentOver</name></member>
+      <member refid="classProcessWidget_1ac01bfaca4899984fd4bfc5e2b4fbaee" prot="protected" virt="non-virtual"><scope>ProcessWidget</scope><name>slotProcessExited</name></member>
+      <member refid="classProcessWidget_19e3c899c3eb14de51465608e22a1e070" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>startJob</name></member>
+      <member refid="classProcessWidget_169b8a69ebeba0b49ea17864aedc65107" prot="public" virt="non-virtual"><scope>ProcessWidget</scope><name>~ProcessWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

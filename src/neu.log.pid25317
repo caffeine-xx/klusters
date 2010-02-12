@@ -1,0 +1,444 @@
+==25317== Memcheck, a.k.a. Valgrind, a memory error detector for x86-linux.
+==25317== Copyright (C) 2002-2003, and GNU GPL'd, by Julian Seward.
+==25317== Using valgrind-2.0.0, a program supervision framework for x86-linux.
+==25317== Copyright (C) 2000-2003, and GNU GPL'd, by Julian Seward.
+==25317== 
+==25317== My PID = 25317, parent PID = 4552.  Prog and args are:
+==25317==    ./klusters
+==25317== 
+==25317== Command line:
+==25317==    ./klusters
+==25317== Startup, with flags:
+==25317==    --suppressions=/usr/lib/valgrind/default.supp
+==25317==    -v
+==25317==    --num-callers=10
+==25317==    --logfile=neu.log
+==25317==    --leak-check=yes
+==25317== Reading syms from /home/lynn/CMBN/Klusters/klusters/src/klusters
+==25317== Reading syms from /lib/ld-2.3.3.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/valgrind/vgskin_memcheck.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/valgrind/valgrind.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libxml2.so.2.6.7
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdeprint.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkparts.so.2.1.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkio.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdeui.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdesu.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdecore.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libDCOP.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libresolv.so.2
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libart_lgpl_2.so.2.3.16
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdefx.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/qt3/lib/libqt-mt.so.3.3.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXi.so.6.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXrandr.so.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXft.so.2.1.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libfontconfig.so.1.0.4
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libexpat.so.0.5.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libfreetype.so.6.3.5
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libdl.so.2
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libpng.so.3.1.2.5
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXext.so.6.4
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libX11.so.6.2
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libSM.so.6.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libICE.so.6.3
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/valgrind/libpthread.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXrender.so.1.2.2
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libidn.so.11.1.4
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libutil.so.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libfam.so.0.0.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libz.so.1.2.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libstdc++.so.5.0.5
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libm.so.6
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libgcc_s.so.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libc.so.6
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/X11R6/lib/libXcursor.so.1.0.2
+==25317==    object doesn't have any debug info
+==25317== Reading suppressions file: /usr/lib/valgrind/default.supp
+==25317== Estimated CPU clock rate is 3195 MHz
+==25317== REPLACING libc(__GI___errno_location) with libpthread(__errno_location)
+==25317== REPLACING libc(__GI___h_errno_location) with libpthread(__h_errno_location)
+==25317== REPLACING libc(__GI___res_state) with libpthread(__res_state)
+==25317== 
+==25317== TRANSLATE: 0x4173CB60 redirected to 0x415C8E4B
+==25317== Reading syms from /usr/X11R6/lib/X11/locale/lib/common/xlcDef.so.2
+==25317== Reading syms from /usr/X11R6/lib/X11/locale/lib/common/xlcUTF8Load.so.2
+==25317== Reading syms from /usr/X11R6/lib/X11/locale/lib/common/ximcp.so.2
+==25317== Reading syms from /opt/kde3/lib/kde3/plugins/styles/keramik.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/qt3/plugins/imageformats/libqjpeg.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libjpeg.so.62.0.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/qt3/plugins/imageformats/libqmng.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libmng.so.1.0.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/liblcms.so.1.0.12
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/kde3/kdeprint_cups.so
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdeprint_management.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libcups.so.2
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libssl.so.0.9.7
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /usr/lib/libcrypto.so.0.9.7
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /lib/libnsl.so.1
+==25317==    object doesn't have any debug info
+==25317== Reading syms from /opt/kde3/lib/libkdefakes.so.4.2.0
+==25317==    object doesn't have any debug info
+==25317== Conditional jump or move depends on uninitialised value(s)
+==25317==    at 0x8069A04: KlustersApp::eventFilter(QObject*, QEvent*) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x40F20BBD: QObject::activate_filters(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F20C9F: QObject::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F5579E: QWidget::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41048EEC: QStatusBar::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EBEFEE: QApplication::internalNotify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC0A08: QApplication::notify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BABCA3: KApplication::notify(QObject*, QEvent*) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x40F22E94: QObject::removeChild(QObject*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F23D29: QObject::~QObject() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== Syscall param writev(vector[...]) contains uninitialised or unaddressable byte(s)
+==25317==    at 0x40187AD1: vgAllRoadsLeadToRome_writev (in /usr/lib/valgrind/valgrind.so)
+==25317==    by 0x40187B0D: __writev (in /usr/lib/valgrind/valgrind.so)
+==25317==    by 0x414FAF9D: _X11TransSocketWritev (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414FA60E: _X11TransWritev (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414DDE79: _XSend (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414D1254: PutSubImage (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414D1672: XPutImage (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E752B7: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40B735E8: KIconLoader::loadIcon(QString const&, KIcon::Group, int, int, QString*, bool) const (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    Address 0x44705E63 is 5071 bytes inside a block of size 16384 alloc'd
+==25317==    at 0x4002B132: calloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x414CCCC2: XOpenDisplay (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E5D311: qt_init_internal(int*, char**, _XDisplay*, unsigned long, unsigned long) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E5DD85: qt_init(int*, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6877: QApplication::construct(int&, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6BDF: QApplication::QApplication(int&, char**, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BC258D: KApplication::KApplication(bool, bool) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x805F4E2: main (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x4173C961: __libc_start_main (in /lib/libc.so.6)
+==25317==    by 0x805F2D0: ??? (start.S:102)
+==25317== 
+==25317== Syscall param write(buf) contains uninitialised or unaddressable byte(s)
+==25317==    at 0x417D25C8: __GI___libc_write (in /lib/libc.so.6)
+==25317==    by 0x415B974D: _IceTransSocketWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B7A0E: _IceTransWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B17BA: _IceWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B1891: IceFlush (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415A3BD4: SmcSetProperties (in /usr/X11R6/lib/libSM.so.6.0)
+==25317==    by 0x40E4C6F8: sm_setProperty(char const*, char const*, int, SmPropValue*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4C8CE: sm_setProperty(QString const&, QString const&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4D8BD: sm_performSaveYourself(QSessionManagerData*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4E250: sm_saveYourselfCallback(_SmcConn*, void*, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    Address 0x4507A3CC is 12 bytes inside a block of size 1024 alloc'd
+==25317==    at 0x4002B132: calloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x415AE9BD: IceOpenConnection (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415A3EBE: SmcOpenConnection (in /usr/X11R6/lib/libSM.so.6.0)
+==25317==    by 0x40E4D1A0: QSessionManager::QSessionManager(QApplication*, QString&, QString&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC59AF: QApplication::initialize(int, char**) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC68A5: QApplication::construct(int&, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6BDF: QApplication::QApplication(int&, char**, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BC258D: KApplication::KApplication(bool, bool) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x805F4E2: main (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x4173C961: __libc_start_main (in /lib/libc.so.6)
+==25317== Reading syms from /usr/X11R6/lib/X11/locale/lib/common/xomGeneric.so.2
+==25317== 
+==25317== Conditional jump or move depends on uninitialised value(s)
+==25317==    at 0x410E79DA: QIconView::showEvent(QShowEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F55CC2: QWidget::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EBEFEE: QApplication::internalNotify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC0A08: QApplication::notify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BABCA3: KApplication::notify(QObject*, QEvent*) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x40F57B10: QWidget::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x4103C217: QScrollView::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F54F6B: QWidget::showChildren(bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F579F6: QWidget::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F54F6B: QWidget::showChildren(bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_setinheritsched
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_destroy
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_setinheritsched
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_destroy
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_setinheritsched
+==25317== valgrind's libpthread.so: IGNORED call to: pthread_attr_destroy
+==25317== valgrind's libpthread.so: KLUDGED call to: pthread_cond_destroy
+==25317== valgrind's libpthread.so: KLUDGED call to: pthread_cond_destroy
+==25317== valgrind's libpthread.so: KLUDGED call to: pthread_cond_destroy
+==25317== discard syms in /usr/lib/qt3/plugins/imageformats/libqmng.so due to munmap()
+==25317== discard syms in /usr/lib/libmng.so.1.0.0 due to munmap()
+==25317== discard syms in /usr/lib/liblcms.so.1.0.12 due to munmap()
+==25317== discard syms in /usr/lib/qt3/plugins/imageformats/libqjpeg.so due to munmap()
+==25317== discard syms in /usr/lib/libjpeg.so.62.0.0 due to munmap()
+==25317== discard syms in /opt/kde3/lib/kde3/plugins/styles/keramik.so due to munmap()
+==25317== TRANSLATE: 0x417F0200 redirected to 0x415C8F2F
+==25317== 
+==25317== ERROR SUMMARY: 47 errors from 4 contexts (suppressed: 2318 from 7)
+==25317== 
+==25317== 1 errors in context 1 of 4:
+==25317== Conditional jump or move depends on uninitialised value(s)
+==25317==    at 0x410E79DA: QIconView::showEvent(QShowEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F55CC2: QWidget::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EBEFEE: QApplication::internalNotify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC0A08: QApplication::notify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BABCA3: KApplication::notify(QObject*, QEvent*) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x40F57B10: QWidget::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x4103C217: QScrollView::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F54F6B: QWidget::showChildren(bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F579F6: QWidget::show() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F54F6B: QWidget::showChildren(bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== 3 errors in context 2 of 4:
+==25317== Syscall param writev(vector[...]) contains uninitialised or unaddressable byte(s)
+==25317==    at 0x40187AD1: vgAllRoadsLeadToRome_writev (in /usr/lib/valgrind/valgrind.so)
+==25317==    by 0x40187B0D: __writev (in /usr/lib/valgrind/valgrind.so)
+==25317==    by 0x414FAF9D: _X11TransSocketWritev (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414FA60E: _X11TransWritev (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414DDE79: _XSend (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414D1254: PutSubImage (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414D1672: XPutImage (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E752B7: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40B735E8: KIconLoader::loadIcon(QString const&, KIcon::Group, int, int, QString*, bool) const (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    Address 0x44705E63 is 5071 bytes inside a block of size 16384 alloc'd
+==25317==    at 0x4002B132: calloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x414CCCC2: XOpenDisplay (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E5D311: qt_init_internal(int*, char**, _XDisplay*, unsigned long, unsigned long) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E5DD85: qt_init(int*, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6877: QApplication::construct(int&, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6BDF: QApplication::QApplication(int&, char**, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BC258D: KApplication::KApplication(bool, bool) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x805F4E2: main (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x4173C961: __libc_start_main (in /lib/libc.so.6)
+==25317==    by 0x805F2D0: ??? (start.S:102)
+==25317== 
+==25317== 6 errors in context 3 of 4:
+==25317== Syscall param write(buf) contains uninitialised or unaddressable byte(s)
+==25317==    at 0x417D25C8: __GI___libc_write (in /lib/libc.so.6)
+==25317==    by 0x415B974D: _IceTransSocketWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B7A0E: _IceTransWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B17BA: _IceWrite (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415B1891: IceFlush (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415A3BD4: SmcSetProperties (in /usr/X11R6/lib/libSM.so.6.0)
+==25317==    by 0x40E4C6F8: sm_setProperty(char const*, char const*, int, SmPropValue*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4C8CE: sm_setProperty(QString const&, QString const&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4D8BD: sm_performSaveYourself(QSessionManagerData*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E4E250: sm_saveYourselfCallback(_SmcConn*, void*, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    Address 0x4507A3CC is 12 bytes inside a block of size 1024 alloc'd
+==25317==    at 0x4002B132: calloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x415AE9BD: IceOpenConnection (in /usr/X11R6/lib/libICE.so.6.3)
+==25317==    by 0x415A3EBE: SmcOpenConnection (in /usr/X11R6/lib/libSM.so.6.0)
+==25317==    by 0x40E4D1A0: QSessionManager::QSessionManager(QApplication*, QString&, QString&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC59AF: QApplication::initialize(int, char**) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC68A5: QApplication::construct(int&, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6BDF: QApplication::QApplication(int&, char**, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BC258D: KApplication::KApplication(bool, bool) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x805F4E2: main (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x4173C961: __libc_start_main (in /lib/libc.so.6)
+==25317== 
+==25317== 37 errors in context 4 of 4:
+==25317== Conditional jump or move depends on uninitialised value(s)
+==25317==    at 0x8069A04: KlustersApp::eventFilter(QObject*, QEvent*) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x40F20BBD: QObject::activate_filters(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F20C9F: QObject::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F5579E: QWidget::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41048EEC: QStatusBar::event(QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EBEFEE: QApplication::internalNotify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC0A08: QApplication::notify(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40BABCA3: KApplication::notify(QObject*, QEvent*) (in /opt/kde3/lib/libkdecore.so.4.2.0)
+==25317==    by 0x40F22E94: QObject::removeChild(QObject*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F23D29: QObject::~QObject() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+--25317-- 
+--25317-- supp:  139 *libc_write/libX11.so.6.2/*X11TransWrite(Param)
+--25317-- supp:   34 _S91_dlopening4
+--25317-- supp: 2078 _S91_dlopening2
+--25317-- supp:   17 _S91_dlopening1
+--25317-- supp:   40 __GI___libc_sigaction/__sigaction
+--25317-- supp:    6 __libc_sigaction/__GI___sigaction
+--25317-- supp:    4 __pthread_mutex_unlock/_IO_funlockfile
+==25317== 
+==25317== IN SUMMARY: 47 errors from 4 contexts (suppressed: 2318 from 7)
+==25317== 
+==25317== malloc/free: in use at exit: 2906982 bytes in 29323 blocks.
+==25317== malloc/free: 1738154 allocs, 1708831 frees, 399823781 bytes allocated.
+==25317== 
+==25317== searching for pointers to 29323 not-freed blocks.
+==25317== checked 31940280 bytes.
+==25317== 
+==25317== 
+==25317== 8 bytes in 1 blocks are definitely lost in loss record 12 of 146
+==25317==    at 0x4002B236: realloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x4151F125: add_codeset (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x4151FBEF: initialize (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x41521A63: _XlcCreateLC (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x4516832A: _XlcDefaultLoader (in /usr/X11R6/lib/X11/locale/lib/common/xlcDef.so.2)
+==25317==    by 0x41529C9C: _XlcDynamicLoad (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414F86D8: _XOpenLC (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414F882D: _XrmInitParseInfo (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414E261C: NewDatabase (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414E40CB: XrmGetStringDatabase (in /usr/X11R6/lib/libX11.so.6.2)
+==25317== 
+==25317== 
+==25317== 16 bytes in 2 blocks are definitely lost in loss record 34 of 146
+==25317==    at 0x4002AD93: __builtin_new (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x4002ADEA: operator new(unsigned) (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x80880DE: Data::duplicate(SortableTable*&, QMap<long, Data::ClusterInfo>*&) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x80C11DA: ClustersProvider::requestPreviousClusterData(long, long, QValueList<int>, QObject*, long) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x80CFD5A: TraceView::showPreviousCluster() (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x80FC516: TraceWidget::qt_invoke(int, QUObject*) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x40F2031D: QObject::activate_signal(QConnectionList*, QUObject*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F20AC5: QObject::activate_signal(int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x80F7E7B: KlustersView::previousCluster() (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x80FDC28: KlustersApp::qt_invoke(int, QUObject*) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317== 
+==25317== 
+==25317== 52 bytes in 1 blocks are possibly lost in loss record 61 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x413A5D68: XftDrawCreateBitmap (in /usr/X11R6/lib/libXft.so.2.1.1)
+==25317==    by 0x40E74F0C: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F356E5: QPixmap::createHeuristicMask(bool) const (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410DF3C1: QIconView::mask(QPixmap*) const (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410EA802: QIconViewItem::paintItem(QPainter*, QColorGroup const&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410E8049: QIconView::drawContents(QPainter*, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410382A2: QScrollView::drawContentsOffset(QPainter*, int, int, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41038AD3: QScrollView::viewportPaintEvent(QPaintEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== 
+==25317== 52 bytes in 1 blocks are possibly lost in loss record 62 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x413A5E18: XftDrawCreate (in /usr/X11R6/lib/libXft.so.2.1.1)
+==25317==    by 0x40E7A294: QPixmap::init(int, int, int, bool, QPixmap::Optimization) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F35948: QPixmap::QPixmap(int, int, int, bool, QPixmap::Optimization) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F35D58: QPixmap::resize(int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410EABA1: QIconViewItem::paintItem(QPainter*, QColorGroup const&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410E8049: QIconView::drawContents(QPainter*, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410382A2: QScrollView::drawContentsOffset(QPainter*, int, int, int, int, int, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41038AD3: QScrollView::viewportPaintEvent(QPaintEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410E2CC3: QIconView::eventFilter(QObject*, QEvent*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== 
+==25317== 52 bytes in 1 blocks are definitely lost in loss record 63 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x413A5D68: XftDrawCreateBitmap (in /usr/X11R6/lib/libXft.so.2.1.1)
+==25317==    by 0x40E74F0C: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40ECAC7E: QBitmap::operator=(QImage const&) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E75356: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F36947: QPixmap::QPixmap(char const**) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410F26FF: QIconView::QIconView(QWidget*, char const*, unsigned) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x807C9C2: ClusterPalette::ClusterPalette(QColor, QWidget*, char const*, unsigned) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317== 
+==25317== 
+==25317== 52 bytes in 1 blocks are definitely lost in loss record 64 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x413A5E18: XftDrawCreate (in /usr/X11R6/lib/libXft.so.2.1.1)
+==25317==    by 0x40E75240: QPixmap::convertFromImage(QImage const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F355B7: QPixmap::convertFromImage(QImage const&, QPixmap::ColorMode) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40F36947: QPixmap::QPixmap(char const**) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410F26FF: QIconView::QIconView(QWidget*, char const*, unsigned) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x807C9C2: ClusterPalette::ClusterPalette(QColor, QWidget*, char const*, unsigned) (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x80699C8: KlustersApp::initClusterPanel() (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x806E318: KlustersApp::KlustersApp() (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317==    by 0x805F550: main (in /home/lynn/CMBN/Klusters/klusters/src/klusters)
+==25317== 
+==25317== 
+==25317== 64 bytes in 4 blocks are definitely lost in loss record 73 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x413C1312: FcCharSetCreate (in /usr/lib/libfontconfig.so.1.0.4)
+==25317==    by 0x40EE488C: loadEngine(QFont::Script, QFontPrivate const*, QFontDef const&, QtFontFamily*, QtFontFoundry*, QtFontStyle*, QtFontSize*, QtFontEncoding*, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EEAC6C: QFontDatabase::findFont(QFont::Script, QFontPrivate const*, QFontDef const&, int) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E6FCE9: QFontPrivate::load(QFont::Script) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EDA292: QFontMetrics::height() const (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41048A49: QStatusBar::reformat() (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x410491B3: QStatusBar::setSizeGripEnabled(bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x41049780: QStatusBar::QStatusBar(QWidget*, char const*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40950B70: KStatusBar::KStatusBar(QWidget*, char const*) (in /opt/kde3/lib/libkdeui.so.4.2.0)
+==25317== 
+==25317== 
+==25317== 80 bytes in 1 blocks are possibly lost in loss record 75 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x4183F943: XcursorCursorsCreate (in /usr/X11R6/lib/libXcursor.so.1.0.2)
+==25317==    by 0x41840AB7: XcursorImagesLoadCursors (in /usr/X11R6/lib/libXcursor.so.1.0.2)
+==25317==    by 0x41840C01: XcursorImagesLoadCursor (in /usr/X11R6/lib/libXcursor.so.1.0.2)
+==25317==    by 0x41844237: XcursorTryShapeCursor (in /usr/X11R6/lib/libXcursor.so.1.0.2)
+==25317==    by 0x414BC1D2: XCreateGlyphCursor (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414BC9A8: XCreateFontCursor (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E66596: QCursor::update() const (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E666C7: QCursor::handle() const (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E8FE65: qt_x11_enforce_cursor(QWidget*) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== 
+==25317== 216 bytes in 1 blocks are definitely lost in loss record 89 of 146
+==25317==    at 0x4002ACB4: malloc (in /usr/lib/valgrind/vgskin_memcheck.so)
+==25317==    by 0x45E7C545: _XimOpenIM (in /usr/X11R6/lib/X11/locale/lib/common/ximcp.so.2)
+==25317==    by 0x4152989A: _XDynamicOpenIM (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x45E7C389: _XimRegisterIMInstantiateCallback (in /usr/X11R6/lib/X11/locale/lib/common/ximcp.so.2)
+==25317==    by 0x4152978C: _XDynamicRegisterIMInstantiateCallback (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x414F7B37: XRegisterIMInstantiateCallback (in /usr/X11R6/lib/libX11.so.6.2)
+==25317==    by 0x40E5C135: qt_init_internal(int*, char**, _XDisplay*, unsigned long, unsigned long) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40E5DD85: qt_init(int*, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6877: QApplication::construct(int&, char**, QApplication::Type) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317==    by 0x40EC6BDF: QApplication::QApplication(int&, char**, bool) (in /usr/lib/qt3/lib/libqt-mt.so.3.3.1)
+==25317== 
+==25317== LEAK SUMMARY:
+==25317==    definitely lost: 408 bytes in 10 blocks.
+==25317==    possibly lost:   184 bytes in 3 blocks.
+==25317==    still reachable: 2906190 bytes in 29309 blocks.
+==25317==         suppressed: 200 bytes in 1 blocks.
+==25317== Reachable blocks (those to which a pointer was found) are not shown.
+==25317== To see them, rerun with: --show-reachable=yes
+--25317--     TT/TC: 0 tc sectors discarded.
+--25317--            78539 chainings, 0 unchainings.
+--25317-- translate: new     106590 (1785224 -> 22614604; ratio 126:10)
+--25317--            discard 1787 (39441 -> 449016; ratio 113:10).
+--25317--  dispatch: 775650000 jumps (bb entries), of which 126530604 (16%) were unchained.
+--25317--            18682/12238649 major/minor sched events.  518965 tt_fast misses.
+--25317-- reg-alloc: 19397 t-req-spill, 4217951+138620 orig+spill uis, 551634 total-reg-r.
+--25317--    sanity: 17103 cheap, 685 expensive checks.
+--25317--    ccalls: 473866 C calls, 56% saves+restores avoided (1577940 bytes)
+--25317--            657620 args, avg 0.88 setup instrs each (151380 bytes)
+--25317--            0% clear the stack (1421598 bytes)
+--25317--            163149 retvals, 33% of reg-reg movs avoided (104606 bytes)

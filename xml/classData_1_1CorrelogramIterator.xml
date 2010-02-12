@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1CorrelogramIterator" kind="class" prot="public">
+    <compoundname>Data::CorrelogramIterator</compoundname>
+    <includes refid="data_8h" local="no">data.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_1a11ddfba9d559b7c335b124b352dcb5b" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>const Data&amp; Data::CorrelogramIterator::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+<para>Returns true if the iterator has reach the last spike for the cluster on which it iterates, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1430" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_13e7c61e24b6ed8f46b97c7bb377b43b4" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long Data::CorrelogramIterator::index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1431" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_1bde7e85a252d5f3f0d2ca62ae0ed3102" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long Data::CorrelogramIterator::lastIndex</definition>
+        <argsstring></argsstring>
+        <name>lastIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1432" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_148005471f5a280f6960b9957d51d9819" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Data::CorrelogramIterator::dataAvailable</definition>
+        <argsstring></argsstring>
+        <name>dataAvailable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1433" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_1eef2f380455f4d636ce58e1df5531525" prot="private" static="no" mutable="no">
+        <type>Data::Correlation *</type>
+        <definition>Data::Correlation* Data::CorrelogramIterator::correlation</definition>
+        <argsstring></argsstring>
+        <name>correlation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1434" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1434" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelogramIterator_176fc55e895d2176da7962a163b89e28f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Data::CorrelogramIterator::scale</definition>
+        <argsstring></argsstring>
+        <name>scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1435" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1435" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classData_1_1CorrelogramIterator_15809945914fad5cb3c1d24c7b6d1bf00" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classData_1_1CorrelogramIterator" kindref="compound">CorrelogramIterator</ref></type>
+        <definition>CorrelogramIterator Data::correlogramIterator</definition>
+        <argsstring>(Pair pair, ScaleMode scale, int binSize, int timeframe)</argsstring>
+        <name>Data::correlogramIterator</name>
+        <param>
+          <type><ref refid="classPair" kindref="compound">Pair</ref></type>
+          <declname>pair</declname>
+        </param>
+        <param>
+          <type><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">ScaleMode</ref></type>
+          <declname>scale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>binSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeframe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1375"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_1a4e3e95bdbeb7019b815e5db4302b058" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::CorrelogramIterator::~CorrelogramIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~CorrelogramIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1378" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1378" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_111016cf656f0c1f124f7bb2691d74a6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::CorrelogramIterator::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <briefdescription>
+<para>Returns the current value and increments the iterator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1380" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1380" bodyend="1384"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_1b2eccc91df3676d3b048658c02d4dc2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::CorrelogramIterator::hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <briefdescription>
+<para>Check if there is more values. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1386" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1386" bodyend="1386"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_1a98c006c41167c9148ce7ff5f1aab045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::CorrelogramIterator::isDataAvailable</definition>
+        <argsstring>()</argsstring>
+        <name>isDataAvailable</name>
+        <briefdescription>
+<para>Returns true if there is data corresponding to the parameters given in the iterator constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1390" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1390" bodyend="1390"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_1645ab6ddd7f2bcecab2c0f2490804841" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::CorrelogramIterator::getShoulder</definition>
+        <argsstring>() const</argsstring>
+        <name>getShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1392" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1392" bodyend="1392"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_11eb15e1b5816ec4d3ee786d95292a29c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::CorrelogramIterator::getScaledShoulder</definition>
+        <argsstring>() const</argsstring>
+        <name>getScaledShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1394" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1394" bodyend="1394"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_1e6296c71c47d623edeb6aec0363bf7e1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::CorrelogramIterator::getFiringRate</definition>
+        <argsstring>() const</argsstring>
+        <name>getFiringRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1396" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1396" bodyend="1396"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classData_1_1CorrelogramIterator_171b285ab7b6a0ac15d358c9aa338ec3d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::CorrelogramIterator::CorrelogramIterator</definition>
+        <argsstring>(const Data &amp;d, Pair pair, ScaleMode scaleMode, int binSize, int timeframe)</argsstring>
+        <name>CorrelogramIterator</name>
+        <param>
+          <type>const <ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="classPair" kindref="compound">Pair</ref></type>
+          <declname>pair</declname>
+        </param>
+        <param>
+          <type><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">ScaleMode</ref></type>
+          <declname>scaleMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>binSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeframe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1398" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1398" bodyend="1426"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Specialized iterator on the latest correlation data stored by a request of a correlationTread for a given pair of clusters. </para>    </briefdescription>
+    <detaileddescription>
+<para>The data correspond to the binSize and timeFrame specified by the correlationTread. Caution: in Qt graphical coordinate system, the Y axis is inverted (increasing downwards), thus a point (x,y) as to be drawn and tested as (x,-y). The value returns by the iterator is either the raw correlogram value or the values scaled either the maximum of the correlogram or the shoulder. The values return take the Qt graphical coordinate system into consideration, the ordinate coordinate is the opposite of the raw data. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="907">
+        <label>T</label>
+      </node>
+      <node id="905">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="906" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="904">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="905" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="908" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="906">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="907" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="903">
+        <label>Data::CorrelogramIterator</label>
+        <link refid="classData_1_1CorrelogramIterator"/>
+        <childnode refid="904" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="908">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="904" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1372" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1372" bodyend="1436"/>
+    <listofallmembers>
+      <member refid="classData_1_1CorrelogramIterator_1eef2f380455f4d636ce58e1df5531525" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>correlation</name></member>
+      <member refid="classData_1_1CorrelogramIterator_171b285ab7b6a0ac15d358c9aa338ec3d" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>CorrelogramIterator</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1a11ddfba9d559b7c335b124b352dcb5b" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>data</name></member>
+      <member refid="classData_1_1CorrelogramIterator_15809945914fad5cb3c1d24c7b6d1bf00" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>Data::correlogramIterator</name></member>
+      <member refid="classData_1_1CorrelogramIterator_148005471f5a280f6960b9957d51d9819" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>dataAvailable</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1e6296c71c47d623edeb6aec0363bf7e1" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>getFiringRate</name></member>
+      <member refid="classData_1_1CorrelogramIterator_11eb15e1b5816ec4d3ee786d95292a29c" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>getScaledShoulder</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1645ab6ddd7f2bcecab2c0f2490804841" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>getShoulder</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1b2eccc91df3676d3b048658c02d4dc2d" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>hasNext</name></member>
+      <member refid="classData_1_1CorrelogramIterator_13e7c61e24b6ed8f46b97c7bb377b43b4" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>index</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1a98c006c41167c9148ce7ff5f1aab045" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>isDataAvailable</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1bde7e85a252d5f3f0d2ca62ae0ed3102" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>lastIndex</name></member>
+      <member refid="classData_1_1CorrelogramIterator_111016cf656f0c1f124f7bb2691d74a6b" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>next</name></member>
+      <member refid="classData_1_1CorrelogramIterator_176fc55e895d2176da7962a163b89e28f" prot="private" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>scale</name></member>
+      <member refid="classData_1_1CorrelogramIterator_1a4e3e95bdbeb7019b815e5db4302b058" prot="public" virt="non-virtual"><scope>Data::CorrelogramIterator</scope><name>~CorrelogramIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

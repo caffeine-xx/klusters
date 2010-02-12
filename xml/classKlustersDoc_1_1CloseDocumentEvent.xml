@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classKlustersDoc_1_1CloseDocumentEvent" kind="class" prot="public">
+    <compoundname>KlustersDoc::CloseDocumentEvent</compoundname>
+    <includes refid="klustersdoc_8h" local="no">klustersdoc.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classKlustersDoc_1_1CloseDocumentEvent_1d9d3b3624166eb8e920d663f47c390fb" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString KlustersDoc::CloseDocumentEvent::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="290" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classKlustersDoc_1_1CloseDocumentEvent_106a2880b2271742c16568efa90a6ab72" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classKlustersDoc_1_1CloseDocumentEvent" kindref="compound">CloseDocumentEvent</ref> *</type>
+        <definition>CloseDocumentEvent* KlustersDoc::getCloseDocumentEvent</definition>
+        <argsstring>(QString origin)</argsstring>
+        <name>KlustersDoc::getCloseDocumentEvent</name>
+        <param>
+          <type>QString</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="281"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKlustersDoc_1_1CloseDocumentEvent_13dcd438bf437f4ec0240a460f54a3074" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString KlustersDoc::CloseDocumentEvent::methodOfOrigin</definition>
+        <argsstring>()</argsstring>
+        <name>methodOfOrigin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="284" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" bodystart="284" bodyend="284"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersDoc_1_1CloseDocumentEvent_1c2df47e12dde637717ae78444be78041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersDoc::CloseDocumentEvent::~CloseDocumentEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~CloseDocumentEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="285" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" bodystart="285" bodyend="285"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classKlustersDoc_1_1CloseDocumentEvent_12ca4efc202655396efab4d94cba0dc16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersDoc::CloseDocumentEvent::CloseDocumentEvent</definition>
+        <argsstring>(QString origin)</argsstring>
+        <name>CloseDocumentEvent</name>
+        <param>
+          <type>QString</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="288" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" bodystart="288" bodyend="288"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to send information to the main window to inform it that the document could not be closed has there still have thread running. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" line="278" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersdoc.h" bodystart="278" bodyend="291"/>
+    <listofallmembers>
+      <member refid="classKlustersDoc_1_1CloseDocumentEvent_12ca4efc202655396efab4d94cba0dc16" prot="private" virt="non-virtual"><scope>KlustersDoc::CloseDocumentEvent</scope><name>CloseDocumentEvent</name></member>
+      <member refid="classKlustersDoc_1_1CloseDocumentEvent_106a2880b2271742c16568efa90a6ab72" prot="private" virt="non-virtual"><scope>KlustersDoc::CloseDocumentEvent</scope><name>KlustersDoc::getCloseDocumentEvent</name></member>
+      <member refid="classKlustersDoc_1_1CloseDocumentEvent_13dcd438bf437f4ec0240a460f54a3074" prot="public" virt="non-virtual"><scope>KlustersDoc::CloseDocumentEvent</scope><name>methodOfOrigin</name></member>
+      <member refid="classKlustersDoc_1_1CloseDocumentEvent_1d9d3b3624166eb8e920d663f47c390fb" prot="private" virt="non-virtual"><scope>KlustersDoc::CloseDocumentEvent</scope><name>origin</name></member>
+      <member refid="classKlustersDoc_1_1CloseDocumentEvent_1c2df47e12dde637717ae78444be78041" prot="public" virt="non-virtual"><scope>KlustersDoc::CloseDocumentEvent</scope><name>~CloseDocumentEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

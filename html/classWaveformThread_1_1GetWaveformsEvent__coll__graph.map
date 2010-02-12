@@ -1,0 +1,8 @@
+base referer
+rect $classWaveformThread.html 79,368 218,395
+rect $classWaveformView.html 303,278 426,304
+rect $classViewWidget.html 202,187 303,214
+rect $classKlustersView.html 136,278 243,304
+rect $classBaseFrame.html 224,96 320,123
+rect $classKlustersDoc.html 99,96 200,123
+rect $classData.html 67,6 120,32

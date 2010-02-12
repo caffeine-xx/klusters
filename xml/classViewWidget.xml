@@ -1,0 +1,1168 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classViewWidget" kind="class" prot="public">
+    <compoundname>ViewWidget</compoundname>
+    <basecompoundref refid="classBaseFrame" prot="public" virt="non-virtual">BaseFrame</basecompoundref>
+    <derivedcompoundref refid="classClusterView" prot="public" virt="non-virtual">ClusterView</derivedcompoundref>
+    <derivedcompoundref refid="classCorrelationView" prot="public" virt="non-virtual">CorrelationView</derivedcompoundref>
+    <derivedcompoundref refid="classErrorMatrixView" prot="public" virt="non-virtual">ErrorMatrixView</derivedcompoundref>
+    <derivedcompoundref refid="classWaveformView" prot="public" virt="non-virtual">WaveformView</derivedcompoundref>
+    <includes refid="viewwidget_8h" local="no">viewwidget.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classViewWidget_1036ea6a786cc1753484f10fc445f889f" prot="public" static="no">
+        <name>@2</name>
+        <enumvalue id="classViewWidget_1036ea6a786cc1753484f10fc445f889f07b03c1319e024f327c9817eb6b029ba" prot="public">
+          <name>DELETE_NOISE</name>
+          <initializer> ZOOM+1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classViewWidget_1036ea6a786cc1753484f10fc445f889f531ac6e4c2710a204fc01fc902469bcd" prot="public">
+          <name>DELETE_ARTEFACT</name>
+          <initializer> ZOOM+2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classViewWidget_1036ea6a786cc1753484f10fc445f889fef0a4da74dd881e94fe07b9b3d1bf83a" prot="public">
+          <name>NEW_CLUSTER</name>
+          <initializer> ZOOM+3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classViewWidget_1036ea6a786cc1753484f10fc445f889fc7cda1ba26c6de6294f2cd188b6d0e33" prot="public">
+          <name>NEW_CLUSTERS</name>
+          <initializer> ZOOM+4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classViewWidget_1036ea6a786cc1753484f10fc445f889f6f501aff76320842235887eb153f07a3" prot="public">
+          <name>SELECT_TIME</name>
+          <initializer> ZOOM+5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enum to be use as a Mode. </para>        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem>
+<para>DELETE_NOISE Enumeration indicating that the user is in a mode enabling him to delete noisy spikes. </para></listitem>
+<listitem>
+<para>DELETE_ARTEFACT Enumeration indicating that the user is in a mode enabling him to delete artefact spikes. </para></listitem>
+<listitem>
+<para>NEW_CLUSTER Enumeration indicating that the user is in a mode enabling him to create a new cluster. </para></listitem>
+<listitem>
+<para>NEW_CLUSTERS Enumeration indicating that the user is in a mode enabling him to create new clusters. </para></listitem>
+<listitem>
+<para>SELECT_TIME Enumeration indicating that the user is in a mode enabling him to select a time window which will be display in a <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para></listitem>
+</itemizedlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classViewWidget_1091c72490041f8e45689b1dc4d693d5e" prot="public" static="no" mutable="no">
+        <type>QPixmap</type>
+        <definition>QPixmap ViewWidget::doublebuffer</definition>
+        <argsstring></argsstring>
+        <name>doublebuffer</name>
+        <briefdescription>
+<para>Buffer to enable smooth updating, obtain flicker-free drawing. </para>        </briefdescription>
+        <detaileddescription>
+<para>Prevent from unnecessary redrawing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="189" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classViewWidget_166610cd0dfae797713df3acb439033cc" prot="public" static="no" mutable="no">
+        <type><ref refid="classKlustersView" kindref="compound">KlustersView</ref> &amp;</type>
+        <definition>KlustersView&amp; ViewWidget::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+<para>Reference on the view containing this widget. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="192" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" prot="public" static="no" mutable="no">
+        <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> &amp;</type>
+        <definition>KlustersDoc&amp; ViewWidget::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+<para>The document containing the data the widget is representing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="195" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classViewWidget_1bccba002ff28008b32f8082553f6fca8" prot="public" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ViewWidget::clusterUpdateList</definition>
+        <argsstring></argsstring>
+        <name>clusterUpdateList</name>
+        <briefdescription>
+<para>List of clusters to update when the view will become the active one. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="198" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" prot="public" static="no" mutable="no">
+        <type>KStatusBar *</type>
+        <definition>KStatusBar* ViewWidget::statusBar</definition>
+        <argsstring></argsstring>
+        <name>statusBar</name>
+        <briefdescription>
+<para>Pointer to the status bar of the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="201" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classViewWidget_186837c742daf2ccd927c6d9511287f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ViewWidget::ViewWidget</definition>
+        <argsstring>(KlustersDoc &amp;doc, KlustersView &amp;view, QColor backgroundColor, KStatusBar *statusBar, QWidget *parent=0, const char *name=0, int minSize=500, int maxSize=4000, int windowTopLeft=-500, int windowBottomRight=1001, int border=0, int Xborder=0, int Yborder=0)</argsstring>
+        <name>ViewWidget</name>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersView" kindref="compound">KlustersView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+          <defval>500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+          <defval>4000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowTopLeft</declname>
+          <defval>-500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowBottomRight</declname>
+          <defval>1001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>border</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Xborder</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Yborder</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Constructs the view. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>doc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the document instance the view represents. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>view</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the global view including this view of the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backgroundColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color used as background. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statusBar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference to the application status bar. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parent QWidget. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the widget (can be used for introspection). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minumum size of the view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum size of the view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>windowTopLeft</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top-left corner of the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>windowBottomRight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bottom-right corner of the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>border</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of the border between the frame and the contents. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Xborder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>border on the left and right sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Yborder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>border on the top and bottom sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.cpp" bodystart="23" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classViewWidget_1283c1ee4a0e61803161713b7b3538b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ViewWidget::~ViewWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~ViewWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classViewWidget_1238b02bc4888a936feb5c24133596911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::updatedDimensions</definition>
+        <argsstring>(int dimensionX, int dimensionY)</argsstring>
+        <name>updatedDimensions</name>
+        <reimplementedby refid="classClusterView_16ffcd1d8fe34d114476adee218d09669">updatedDimensions</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>dimensionX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dimensionY</declname>
+        </param>
+        <briefdescription>
+<para>Takes into account the update of the dimension used to present the clusters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dimensionX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimensionY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="92" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1334a7e900904d2db053455f9c8b5e6fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::singleColorUpdate</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>singleColorUpdate</name>
+        <reimplementedby refid="classWaveformView_1d458ee0391b5f3963ce273002d018e89">singleColorUpdate</reimplementedby>
+        <reimplementedby refid="classCorrelationView_11cce3f7197c35df432ade45c99d30576">singleColorUpdate</reimplementedby>
+        <reimplementedby refid="classClusterView_1348b0efa3792a84bb90dea04f1f6240d">singleColorUpdate</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the view only for one cluster for which the color has been changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id for which the color have changed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="98" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_16183b4a8e96fe2bf13fdacaf892678b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::addClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addClusterToView</name>
+        <reimplementedby refid="classWaveformView_1b2178befa4ebaa4bad4a8485ca061c81">addClusterToView</reimplementedby>
+        <reimplementedby refid="classCorrelationView_15f9ce44825e70860badcb3a24728c445">addClusterToView</reimplementedby>
+        <reimplementedby refid="classClusterView_127737e7d724d8b7d40e28d6b608a3be8">addClusterToView</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds an additional cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="106" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_103c155399b7f12e5aea1e090a40581be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::removeClusterFromView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>removeClusterFromView</name>
+        <reimplementedby refid="classWaveformView_1950d13da5d849f790ffbe12e1edbebad">removeClusterFromView</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1fb43ce4935ec46dbaceb05a52443b07e">removeClusterFromView</reimplementedby>
+        <reimplementedby refid="classClusterView_17bcacb8fd83e248eae0433b84d70b793">removeClusterFromView</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Removes a cluster from those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to remove. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1a1ca23c8b1d3bb088b4f0ca0ad696b2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::addNewClusterToView</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplementedby refid="classWaveformView_1692ee48dd0b0c618df287c4946397ea6">addNewClusterToView</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1c79adac747e0f7f01b1a83117c0567cc">addNewClusterToView</reimplementedby>
+        <reimplementedby refid="classClusterView_177c9f49e4c78824e0e3e420053768e0c">addNewClusterToView</reimplementedby>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes of the new cluster are coming. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="122" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1d872c228588cb0a372f1f2f33709d58f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::addNewClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplementedby refid="classWaveformView_17297eb125ee936ce7af048dcc64a47f4">addNewClusterToView</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1dd4cde7293319e5e65c1fc8b486e2f97">addNewClusterToView</reimplementedby>
+        <reimplementedby refid="classClusterView_14ec27011a9dfdd473196c1465a8b7776">addNewClusterToView</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="130" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_13e0ee079110b4369f0524cc3491f93d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::spikesRemovedFromClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, bool active)</argsstring>
+        <name>spikesRemovedFromClusters</name>
+        <reimplementedby refid="classWaveformView_1a532692a9e1ca9fb770fed7c23debe38">spikesRemovedFromClusters</reimplementedby>
+        <reimplementedby refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d">spikesRemovedFromClusters</reimplementedby>
+        <reimplementedby refid="classClusterView_1fe0231d2fb10929704c69e586a939213">spikesRemovedFromClusters</reimplementedby>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the removal of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes have been taken. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1ac959304564cbc8836998950f1a717ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::spikesAddedToCluster</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>spikesAddedToCluster</name>
+        <reimplementedby refid="classWaveformView_1cb7017405c897a3e6619ca2f5a77eebb">spikesAddedToCluster</reimplementedby>
+        <reimplementedby refid="classCorrelationView_10a11205d646f343e86cfa8f2a03f02f5">spikesAddedToCluster</reimplementedby>
+        <reimplementedby refid="classClusterView_111c8df88a2f4aeb7e06d0a72d6459421">spikesAddedToCluster</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the addition of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to which the spikes have been added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="146" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_15dd5db4d43d33a65b403400e46f4b891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::emptySelection</definition>
+        <argsstring>()</argsstring>
+        <name>emptySelection</name>
+        <reimplementedby refid="classClusterView_18fb4f8b2704c0af4ef5860737fdd9c3b">emptySelection</reimplementedby>
+        <briefdescription>
+<para>Method called when no spikes have been found in a polygon of selection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="150" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_17406b5a4d71f7ef3ade9ac29850d2037" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::updateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active, bool isModifiedByDeletion)</argsstring>
+        <name>updateClusters</name>
+        <reimplementedby refid="classWaveformView_1ad146ed85385b25ed0f011cd63af179b">updateClusters</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011">updateClusters</reimplementedby>
+        <reimplementedby refid="classClusterView_1b371d2d9b80836569432b24f83e24acb">updateClusters</reimplementedby>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isModifiedByDeletion</declname>
+        </param>
+        <briefdescription>
+<para>Updates the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isModifiedByDeletion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the clusters of <computeroutput>modifiedClusters</computeroutput> have been modified by the deletion of spikes (moved to cluster 0 or 1, cluster of artefact abd cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="161" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_133078af928133ca135553b75c5d55300" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::undoUpdateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active)</argsstring>
+        <name>undoUpdateClusters</name>
+        <reimplementedby refid="classWaveformView_1c81b131be5778fe83c330ce5f6f8fdfc">undoUpdateClusters</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7">undoUpdateClusters</reimplementedby>
+        <reimplementedby refid="classClusterView_1644f18a1ee8b7fdf3b9eb1cf5ae66091">undoUpdateClusters</reimplementedby>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is called only during an undo otherwise the updateClusters is call. There are 2 functions in order to reduce the number of clusters to draw whenever possible. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="171" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1c9f9f10cbb4a62e7155322472679411b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool ViewWidget::isThreadsRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadsRunning</name>
+        <reimplementedby refid="classWaveformView_147ef80336653077fd80c8c29e2870bbc">isThreadsRunning</reimplementedby>
+        <reimplementedby refid="classErrorMatrixView_13fa450bd9e0ac2a7b6d9e89854aaf3b9">isThreadsRunning</reimplementedby>
+        <reimplementedby refid="classCorrelationView_17c3b1d86f16ff64063e15d6e3862e609">isThreadsRunning</reimplementedby>
+        <briefdescription>
+<para>Enables the caller to know if there is any thread running launch by the viewWidget. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="174" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="174" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="slot" id="classViewWidget_1460212eda79f47409f01478b771d7895" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ViewWidget::print</definition>
+        <argsstring>(QPainter &amp;printPainter, QPaintDeviceMetrics &amp;metrics, bool whiteBackground)</argsstring>
+        <name>print</name>
+        <reimplementedby refid="classWaveformView_1be060383727a599f7390b14cdd13354a">print</reimplementedby>
+        <reimplementedby refid="classErrorMatrixView_138a7990d11741fb42db186e607dcb386">print</reimplementedby>
+        <reimplementedby refid="classCorrelationView_1f1d272cec32ff777bb932da221ffe5cd">print</reimplementedby>
+        <reimplementedby refid="classClusterView_18a48d3dce82af1ac56f934b886a3bd81">print</reimplementedby>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>printPainter</declname>
+        </param>
+        <param>
+          <type>QPaintDeviceMetrics &amp;</type>
+          <declname>metrics</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>whiteBackground</declname>
+        </param>
+        <briefdescription>
+<para>Prints the currently display information on a printer via the painter <computeroutput>printPainter</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printPainter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on a printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>metrics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object providing information about the printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whiteBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the printed background has to be white, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="181" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="181" bodyend="181"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for the most of the views of the application (<ref refid="classClusterView" kindref="compound">ClusterView</ref>, <ref refid="classWaveformView" kindref="compound">WaveformView</ref>, <ref refid="classCorrelationView" kindref="compound">CorrelationView</ref> and <ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>). </para>    </briefdescription>
+    <detaileddescription>
+<para>This class defineds the views common signal and slot communication with <ref refid="classKlustersView" kindref="compound">KlustersView</ref>. Thoses communication enable the views to be update themselves when the clusters have been changed. <ref refid="classViewWidget" kindref="compound">ViewWidget</ref> also contains the zoom feature of the views. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1328">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1331">
+        <label>CorrelationView</label>
+        <link refid="classCorrelationView"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1329">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+      </node>
+      <node id="1330">
+        <label>ClusterView</label>
+        <link refid="classClusterView"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1333">
+        <label>WaveformView</label>
+        <link refid="classWaveformView"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1332">
+        <label>ErrorMatrixView</label>
+        <link refid="classErrorMatrixView"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1351">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1352" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1349">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1343">
+        <label>T</label>
+      </node>
+      <node id="1334">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1335" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1350" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1341">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1342" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1358">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1352">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1335" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1338" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1345" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1336">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1355">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1347">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1346" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1340" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1350">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1334" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1351" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1353" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="1337">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1338" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1339" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1340" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1345" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1347" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1348" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1349" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1354">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1356">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1353" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1335">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1336" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1357">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1358" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1359" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1360" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1346" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1359">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1340">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1341" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1338">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1353">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1354" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1356" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1357" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1348" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1342">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1343" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1360">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1344">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1340" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1339">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1337" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1340" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.h" bodystart="43" bodyend="203"/>
+    <listofallmembers>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>@0</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>@2</name></member>
+      <member refid="classViewWidget_16183b4a8e96fe2bf13fdacaf892678b4" prot="public" virt="virtual"><scope>ViewWidget</scope><name>addClusterToView</name></member>
+      <member refid="classViewWidget_1a1ca23c8b1d3bb088b4f0ca0ad696b2b" prot="public" virt="virtual"><scope>ViewWidget</scope><name>addNewClusterToView</name></member>
+      <member refid="classViewWidget_1d872c228588cb0a372f1f2f33709d58f" prot="public" virt="virtual"><scope>ViewWidget</scope><name>addNewClusterToView</name></member>
+      <member refid="classBaseFrame_1042d27fb77a59e37912653348f9883f3" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>BaseFrame</name></member>
+      <member refid="classBaseFrame_15b689b1ba4f8873b318778079c6786c4" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>BORDER</name></member>
+      <member refid="classBaseFrame_1ebb3ce33f4a37c3eb2ee72474050fa37" prot="public" virt="virtual"><scope>ViewWidget</scope><name>changeBackgroundColor</name></member>
+      <member refid="classViewWidget_1bccba002ff28008b32f8082553f6fca8" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>clusterUpdateList</name></member>
+      <member refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>colorLegend</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f531ac6e4c2710a204fc01fc902469bcd" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>DELETE_ARTEFACT</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f07b03c1319e024f327c9817eb6b029ba" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>DELETE_NOISE</name></member>
+      <member refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>doc</name></member>
+      <member refid="classBaseFrame_1b053dfe22801668fd82f1f5f34f32263" prot="public" virt="virtual"><scope>ViewWidget</scope><name>dockBeingClosed</name></member>
+      <member refid="classViewWidget_1091c72490041f8e45689b1dc4d693d5e" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>doublebuffer</name></member>
+      <member refid="classBaseFrame_12b5d68358bfcc4ecdd0c3e6a3da82ac6" prot="protected" virt="pure-virtual"><scope>ViewWidget</scope><name>drawContents</name></member>
+      <member refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>drawContentsMode</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>DrawContentsMode</name></member>
+      <member refid="classBaseFrame_1c1183e155932c92026c2e8e9553905ea" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>drawRubber</name></member>
+      <member refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>drawRubberBand</name></member>
+      <member refid="classViewWidget_15dd5db4d43d33a65b403400e46f4b891" prot="public" virt="virtual"><scope>ViewWidget</scope><name>emptySelection</name></member>
+      <member refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>firstClick</name></member>
+      <member refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>isDoubleClick</name></member>
+      <member refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>isRubberBandToBeDrawn</name></member>
+      <member refid="classViewWidget_1c9f9f10cbb4a62e7155322472679411b" prot="public" virt="virtual"><scope>ViewWidget</scope><name>isThreadsRunning</name></member>
+      <member refid="classBaseFrame_1992b1cb3328945272b015bd3f6d1f7cb" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>MAX_SIZE</name></member>
+      <member refid="classBaseFrame_190d22b4bd74df6e61a7824951000e5e8" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>MIN_SIZE</name></member>
+      <member refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>mode</name></member>
+      <member refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>Mode</name></member>
+      <member refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b" prot="protected" virt="virtual"><scope>ViewWidget</scope><name>mouseDoubleClickEvent</name></member>
+      <member refid="classBaseFrame_1e0bc9fac62c249065e52f3d393e84cf7" prot="protected" virt="virtual"><scope>ViewWidget</scope><name>mouseMoveEvent</name></member>
+      <member refid="classBaseFrame_1154d190f81125058199ed6770c5152b6" prot="protected" virt="virtual"><scope>ViewWidget</scope><name>mousePressEvent</name></member>
+      <member refid="classBaseFrame_17b6086bb37e3ad0c56a8b8eb166b3d9e" prot="protected" virt="virtual"><scope>ViewWidget</scope><name>mouseReleaseEvent</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fef0a4da74dd881e94fe07b9b3d1bf83a" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>NEW_CLUSTER</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fc7cda1ba26c6de6294f2cd188b6d0e33" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>NEW_CLUSTERS</name></member>
+      <member refid="classBaseFrame_1a470ad78b538adc53ffeabee229c4c9e" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>oldSize</name></member>
+      <member refid="classBaseFrame_1eb86348c3d22a2271be7a269aa891d72" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>parentDockBeingClosed</name></member>
+      <member refid="classViewWidget_1460212eda79f47409f01478b771d7895" prot="public" virt="virtual"><scope>ViewWidget</scope><name>print</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db8231288ec4453e28f207d42383a741213f2fb" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>REDRAW</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312d65241269619717949ae60374a711daf" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>REFRESH</name></member>
+      <member refid="classViewWidget_103c155399b7f12e5aea1e090a40581be" prot="public" virt="virtual"><scope>ViewWidget</scope><name>removeClusterFromView</name></member>
+      <member refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63" prot="protected" virt="virtual"><scope>ViewWidget</scope><name>resizeEvent</name></member>
+      <member refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>rubber</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f6f501aff76320842235887eb153f07a3" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>SELECT_TIME</name></member>
+      <member refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>setBorders</name></member>
+      <member refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3" prot="public" virt="virtual"><scope>ViewWidget</scope><name>setMode</name></member>
+      <member refid="classViewWidget_1334a7e900904d2db053455f9c8b5e6fc" prot="public" virt="virtual"><scope>ViewWidget</scope><name>singleColorUpdate</name></member>
+      <member refid="classViewWidget_1ac959304564cbc8836998950f1a717ed" prot="public" virt="virtual"><scope>ViewWidget</scope><name>spikesAddedToCluster</name></member>
+      <member refid="classViewWidget_13e0ee079110b4369f0524cc3491f93d6" prot="public" virt="virtual"><scope>ViewWidget</scope><name>spikesRemovedFromClusters</name></member>
+      <member refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>statusBar</name></member>
+      <member refid="classViewWidget_133078af928133ca135553b75c5d55300" prot="public" virt="virtual"><scope>ViewWidget</scope><name>undoUpdateClusters</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db823129813ffc0ade2d4aced59cfdabd1459d9" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>UPDATE</name></member>
+      <member refid="classViewWidget_17406b5a4d71f7ef3ade9ac29850d2037" prot="public" virt="virtual"><scope>ViewWidget</scope><name>updateClusters</name></member>
+      <member refid="classViewWidget_1238b02bc4888a936feb5c24133596911" prot="public" virt="virtual"><scope>ViewWidget</scope><name>updatedDimensions</name></member>
+      <member refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b" prot="public" virt="virtual"><scope>ViewWidget</scope><name>updateDrawing</name></member>
+      <member refid="classViewWidget_166610cd0dfae797713df3acb439033cc" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>view</name></member>
+      <member refid="classBaseFrame_16b8a18a51e085c5d68e1812ea7b603ea" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>viewport</name></member>
+      <member refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_1bc359186819f10c30a5ae505d6f1920d" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>viewportToWorldHeight</name></member>
+      <member refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>viewportToWorldWidth</name></member>
+      <member refid="classViewWidget_186837c742daf2ccd927c6d9511287f50" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>ViewWidget</name></member>
+      <member refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>wholeHeightRectangle</name></member>
+      <member refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2" prot="public" virt="virtual"><scope>ViewWidget</scope><name>willBeKilled</name></member>
+      <member refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>window</name></member>
+      <member refid="classBaseFrame_195b3b1ec4173a584b33d403909f25d94" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>WINDOW_BOTTOM_RIGHT</name></member>
+      <member refid="classBaseFrame_18dac5dc5940d0ba950367a6209baf1d9" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>WINDOW_TOP_LEFT</name></member>
+      <member refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_12b63b89729e706626167a7dc7020a3aa" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_1282acf96cb3e2cf1889da54236d1623e" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewportAbscissa</name></member>
+      <member refid="classBaseFrame_1af257590f63f103f946f599add211cd5" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewportHeight</name></member>
+      <member refid="classBaseFrame_1a66187fbc3b1a9978f7604a17a04071b" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewportOrdinate</name></member>
+      <member refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>worldToViewportWidth</name></member>
+      <member refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>Xborder</name></member>
+      <member refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>Yborder</name></member>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2d75fd832d6a47113cab9b9dc548971d6" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>ZOOM</name></member>
+      <member refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" prot="protected" virt="non-virtual"><scope>ViewWidget</scope><name>zoomCursor</name></member>
+      <member refid="classBaseFrame_16f5fb51668be38012d5eb0aa7b8b3cbe" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>~BaseFrame</name></member>
+      <member refid="classViewWidget_1283c1ee4a0e61803161713b7b3538b82" prot="public" virt="non-virtual"><scope>ViewWidget</scope><name>~ViewWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1WaveformStatus" kind="class" prot="private">
+    <compoundname>Data::WaveformStatus</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1WaveformStatus_1a8af37b473c6ca918bde84e31dbe145b" prot="private" static="no" mutable="no">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::sample</definition>
+        <argsstring></argsstring>
+        <name>sample</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="725" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformStatus_1faebf402039547083be001d37ad3c38a" prot="private" static="no" mutable="no">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::timeFrame</definition>
+        <argsstring></argsstring>
+        <name>timeFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="726" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformStatus_1e6eeb4fe443d75358085ecee950e86a7" prot="private" static="no" mutable="no">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::sampleMean</definition>
+        <argsstring></argsstring>
+        <name>sampleMean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="727" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformStatus_16053cfc78b892bfee72f32b79ff1b9f0" prot="private" static="no" mutable="no">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::timeFrameMean</definition>
+        <argsstring></argsstring>
+        <name>timeFrameMean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="728" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformStatus_144d5fa534d6e4f4a62ad790f947836eb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Data::WaveformStatus::clusterModified</definition>
+        <argsstring></argsstring>
+        <name>clusterModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="729" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1e8788acc3d2facb092ac048d67e588ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformStatus::WaveformStatus</definition>
+        <argsstring>(Status sample=NOT_AVAILABLE, Status timeFrame=NOT_AVAILABLE, Status sampleMean=NOT_AVAILABLE, Status timeFrameMean=NOT_AVAILABLE)</argsstring>
+        <name>WaveformStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>sample</declname>
+          <defval>NOT_AVAILABLE</defval>
+        </param>
+        <param>
+          <type>Status</type>
+          <declname>timeFrame</declname>
+          <defval>NOT_AVAILABLE</defval>
+        </param>
+        <param>
+          <type>Status</type>
+          <declname>sampleMean</declname>
+          <defval>NOT_AVAILABLE</defval>
+        </param>
+        <param>
+          <type>Status</type>
+          <declname>timeFrameMean</declname>
+          <defval>NOT_AVAILABLE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="705" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="704" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1dc90c21e97e318e654d11d8066b7bdc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformStatus::WaveformStatus</definition>
+        <argsstring>(const WaveformStatus &amp;s)</argsstring>
+        <name>WaveformStatus</name>
+        <param>
+          <type>const WaveformStatus &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="708" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="708" bodyend="708"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1cbc267c85cfacaffa5a0c4a8a3ddbf68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformStatus::~WaveformStatus</definition>
+        <argsstring>()</argsstring>
+        <name>~WaveformStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="709" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="709" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_18cc0cec3a800f175d470446f8e4d7930" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformStatus::setSampleStatus</definition>
+        <argsstring>(Status status)</argsstring>
+        <name>setSampleStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="710" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="710" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_18bd49b037bb2a9ae3f7ed4ab30b89755" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::sampleStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>sampleStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="711" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="711" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1cba82748df38f5b9e55c4f2818a10c25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformStatus::setTimeFrameStatus</definition>
+        <argsstring>(Status status)</argsstring>
+        <name>setTimeFrameStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="712" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="712" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1593074856845ff98d809094a1fff0816" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::timeFrameStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>timeFrameStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="713" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="713" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_16eb1ffcab44e109024e233ea48ab0273" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformStatus::setSampleMeanStatus</definition>
+        <argsstring>(Status status)</argsstring>
+        <name>setSampleMeanStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="714" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="714" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1628ef8683397706240680374ec39bffe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::sampleMeanStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>sampleMeanStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="715" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="715" bodyend="715"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_136cee6a4eb60af017381c173e4c3c44d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformStatus::setTimeFrameMeanStatus</definition>
+        <argsstring>(Status status)</argsstring>
+        <name>setTimeFrameMeanStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="716" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="716" bodyend="716"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_122654fba586f98a9a68740a6637c48ca" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::WaveformStatus::timeFrameMeanStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>timeFrameMeanStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="717" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="717" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1735083e737d8d4330686a832ae4ebdf4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::WaveformStatus::isInProcess</definition>
+        <argsstring>() const</argsstring>
+        <name>isInProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="718" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="718" bodyend="721"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_1e42285d23afcdad18daef9ffbc22bef9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformStatus::setClusterModified</definition>
+        <argsstring>(bool modified)</argsstring>
+        <name>setClusterModified</name>
+        <param>
+          <type>bool</type>
+          <declname>modified</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="722" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="722" bodyend="722"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformStatus_18f2384f5f7093dab8176ee62b2590eec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::WaveformStatus::isClusterModified</definition>
+        <argsstring>() const</argsstring>
+        <name>isClusterModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="723" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="723" bodyend="723"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="702" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="702" bodyend="730"/>
+    <listofallmembers>
+      <member refid="classData_1_1WaveformStatus_144d5fa534d6e4f4a62ad790f947836eb" prot="private" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>clusterModified</name></member>
+      <member refid="classData_1_1WaveformStatus_18f2384f5f7093dab8176ee62b2590eec" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>isClusterModified</name></member>
+      <member refid="classData_1_1WaveformStatus_1735083e737d8d4330686a832ae4ebdf4" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>isInProcess</name></member>
+      <member refid="classData_1_1WaveformStatus_1a8af37b473c6ca918bde84e31dbe145b" prot="private" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>sample</name></member>
+      <member refid="classData_1_1WaveformStatus_1e6eeb4fe443d75358085ecee950e86a7" prot="private" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>sampleMean</name></member>
+      <member refid="classData_1_1WaveformStatus_1628ef8683397706240680374ec39bffe" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>sampleMeanStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_18bd49b037bb2a9ae3f7ed4ab30b89755" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>sampleStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1e42285d23afcdad18daef9ffbc22bef9" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>setClusterModified</name></member>
+      <member refid="classData_1_1WaveformStatus_16eb1ffcab44e109024e233ea48ab0273" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>setSampleMeanStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_18cc0cec3a800f175d470446f8e4d7930" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>setSampleStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_136cee6a4eb60af017381c173e4c3c44d" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>setTimeFrameMeanStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1cba82748df38f5b9e55c4f2818a10c25" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>setTimeFrameStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1faebf402039547083be001d37ad3c38a" prot="private" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>timeFrame</name></member>
+      <member refid="classData_1_1WaveformStatus_16053cfc78b892bfee72f32b79ff1b9f0" prot="private" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>timeFrameMean</name></member>
+      <member refid="classData_1_1WaveformStatus_122654fba586f98a9a68740a6637c48ca" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>timeFrameMeanStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1593074856845ff98d809094a1fff0816" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>timeFrameStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1e8788acc3d2facb092ac048d67e588ae" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>WaveformStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1dc90c21e97e318e654d11d8066b7bdc3" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>WaveformStatus</name></member>
+      <member refid="classData_1_1WaveformStatus_1cbc267c85cfacaffa5a0c4a8a3ddbf68" prot="public" virt="non-virtual"><scope>Data::WaveformStatus</scope><name>~WaveformStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

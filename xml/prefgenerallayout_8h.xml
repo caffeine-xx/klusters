@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefgenerallayout_8h" kind="file">
+    <compoundname>prefgenerallayout.h</compoundname>
+    <includes local="no">qvariant.h</includes>
+    <includes local="no">qwidget.h</includes>
+    <includedby refid="prefgeneral_8h" local="no">prefgeneral.h</includedby>
+    <includedby refid="prefgenerallayout_8cpp" local="yes">prefgenerallayout.cpp</includedby>
+    <includedby refid="prefgenerallayout_8moc" local="yes">prefgenerallayout.moc</includedby>
+    <incdepgraph>
+      <node id="2153">
+        <label>prefgenerallayout.h</label>
+        <link refid="prefgenerallayout.h"/>
+        <childnode refid="2154" relation="include">
+        </childnode>
+        <childnode refid="2155" relation="include">
+        </childnode>
+      </node>
+      <node id="2154">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2155">
+        <label>qwidget.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2156">
+        <label>prefgenerallayout.h</label>
+        <link refid="prefgenerallayout.h"/>
+        <childnode refid="2157" relation="include">
+        </childnode>
+      </node>
+      <node id="2157">
+        <label>prefgeneral.h</label>
+        <link refid="prefgeneral_8h-source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPrefGeneralLayout" prot="public">PrefGeneralLayout</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Form<sp/>interface<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;./prefgenerallayout.ui&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>sam<sp/>sep<sp/>1<sp/>20:00:24<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>User<sp/>Interface<sp/>Compiler<sp/>($Id:<sp/>qt/main.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Aug<sp/>31<sp/>2005<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PREFGENERALLAYOUT_H</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PREFGENERALLAYOUT_H</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvariant.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QVBoxLayout;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QHBoxLayout;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QGridLayout;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QSpacerItem;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">KColorButton;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QGroupBox;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QLabel;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QSpinBox;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QComboBox;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QCheckBox;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QLineEdit;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QPushButton;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PrefGeneralLayout<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefGeneralLayout(<sp/>QWidget*<sp/>parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name<sp/>=<sp/>0,<sp/>WFlags<sp/>fl<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>~PrefGeneralLayout();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>QGroupBox*<sp/>groupBox2;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel4;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpinBox*<sp/>undoSpinBox;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QGroupBox*<sp/>groupBox3;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel1;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>KColorButton*<sp/>backgroundColorButton;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QGroupBox*<sp/>groupBox1;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel3;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>QComboBox*<sp/>crashRecoveryComboBox;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QCheckBox*<sp/>crashRecoveryCheckBox;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>QGroupBox*<sp/>groupBox2_2;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel4_2;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QLineEdit*<sp/>reclusteringExecutableLineEdit;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>QPushButton*<sp/>reclusteringExecutableButton;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel1_2;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QLineEdit*<sp/>reclusteringArgsLineEdit;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout*<sp/>PrefGeneralLayoutLayout;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer1;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout18;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer17;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout9;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer7;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout45;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer17_2;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout16;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout17;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer16;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout6;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer5;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout8;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer6;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout33;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer17_3;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>QVBoxLayout*<sp/>layout32;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout31;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout28;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>languageChange();</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PREFGENERALLAYOUT_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgenerallayout.h"/>
+  </compounddef>
+</doxygen>

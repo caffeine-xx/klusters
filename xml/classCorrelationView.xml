@@ -1,0 +1,1873 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classCorrelationView" kind="class" prot="public">
+    <compoundname>CorrelationView</compoundname>
+    <basecompoundref refid="classViewWidget" prot="public" virt="non-virtual">ViewWidget</basecompoundref>
+    <includes refid="correlationview_8h" local="no">correlationview.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classCorrelationView_17481693c50111f26a9943c545b60d0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class CorrelationThread</definition>
+        <argsstring></argsstring>
+        <name>CorrelationThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCorrelationView_1c09d2c92eae2f82f02ebf538afc8e932" prot="private" static="no" mutable="no">
+        <type><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref></type>
+        <definition>Data::ScaleMode CorrelationView::scaleMode</definition>
+        <argsstring></argsstring>
+        <name>scaleMode</name>
+        <briefdescription>
+<para>Type of scale used, raw, scale by the maximum, or scale by the shoulder. </para>        </briefdescription>
+        <detaileddescription>
+<para>The default is raw mode. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="269" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1743c716007ce3df8864e45ec636ad804" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; <ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> &gt;</type>
+        <definition>QPtrList&lt;CorrelationThread&gt; CorrelationView::threadsToBeKill</definition>
+        <argsstring></argsstring>
+        <name>threadsToBeKill</name>
+        <briefdescription>
+<para>List of pointers on the threads which have to be suppress when this object is destroy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="301" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_18faaabbf82efd356f71ac2242bda8d5c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CorrelationView::dataReady</definition>
+        <argsstring></argsstring>
+        <name>dataReady</name>
+        <briefdescription>
+<para>True if the correlation information needed to draw the correlograms are available. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="304" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_19e00e85b8efed383d735cdb40618cdec" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; <ref refid="classPair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>QValueList&lt;Pair&gt; CorrelationView::pairs</definition>
+        <argsstring></argsstring>
+        <name>pairs</name>
+        <briefdescription>
+<para>List of pairs of clusters for which a correlogram has to be drawn. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="307" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_12285f8be8ff9790e421387cf328501e3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::binSize</definition>
+        <argsstring></argsstring>
+        <name>binSize</name>
+        <briefdescription>
+<para>size of the bins to use in the correlograms, given in miliseconds </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="310" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_17e81793791d354e9136ce193ebcf63df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::timeWindow</definition>
+        <argsstring></argsstring>
+        <name>timeWindow</name>
+        <briefdescription>
+<para>Time frame use to compute the correlograms, given in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="313" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_149430d738bccb03db013f69b33ff7513" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CorrelationView::abscissaMin</definition>
+        <argsstring></argsstring>
+        <name>abscissaMin</name>
+        <briefdescription>
+<para>Minimal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="316" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_145115d1f2954cc9b40633b65d23b3586" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CorrelationView::abscissaMax</definition>
+        <argsstring></argsstring>
+        <name>abscissaMax</name>
+        <briefdescription>
+<para>Maximal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="319" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1ed07b03e69f459f61661619f9b341a57" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CorrelationView::ordinateMin</definition>
+        <argsstring></argsstring>
+        <name>ordinateMin</name>
+        <briefdescription>
+<para>Minimal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="322" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1cd5808caa5ddc7666ef6c0975b856932" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long CorrelationView::ordinateMax</definition>
+        <argsstring></argsstring>
+        <name>ordinateMax</name>
+        <briefdescription>
+<para>Maximal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="325" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1382f06e96282b4dc5c5ca689a24b2411" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint CorrelationView::widthBorder</definition>
+        <argsstring></argsstring>
+        <name>widthBorder</name>
+        <briefdescription>
+<para>The width border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="328" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_18ccdcc165cc0a3c26e1d9b3b3bde15f5" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint CorrelationView::heightBorder</definition>
+        <argsstring></argsstring>
+        <name>heightBorder</name>
+        <briefdescription>
+<para>The height border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="331" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_173c56bc22e515772fdae445e34ab645a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::binWidth</definition>
+        <argsstring></argsstring>
+        <name>binWidth</name>
+        <briefdescription>
+<para>The width of a bins. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="334" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_10253effb7d2923fb869a2b8e92f8d70e" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint CorrelationView::Xspace</definition>
+        <argsstring></argsstring>
+        <name>Xspace</name>
+        <briefdescription>
+<para>Abscissa space between two correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="337" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_101ae91f8d3f042eac6bc82a30c9c7a1b" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint CorrelationView::Yspace</definition>
+        <argsstring></argsstring>
+        <name>Yspace</name>
+        <briefdescription>
+<para>Ordinate space between two correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="340" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_157e16a54333b0543031f6e160bf8e52f" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint CorrelationView::YsizeForMaxAmp</definition>
+        <argsstring></argsstring>
+        <name>YsizeForMaxAmp</name>
+        <briefdescription>
+<para>Size in pixels corresponding to the maximale value of a correlogram. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="343" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_112b0356b2b5f8ab39706138609d6ba03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CorrelationView::Yfactor</definition>
+        <argsstring></argsstring>
+        <name>Yfactor</name>
+        <briefdescription>
+<para>Factor use to calculate the ordinate value to been drawn. </para>        </briefdescription>
+        <detaileddescription>
+<para>The factor equals YsizeForMaxAmp multipled by a zoom factor. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="348" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1208c11091c119e55f4cd6e314aaa2ea9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <briefdescription>
+<para>The delta between the starting abscisses of two correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="351" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_12237268465c4f398cfa371d315617b1b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::nbBins</definition>
+        <argsstring></argsstring>
+        <name>nbBins</name>
+        <briefdescription>
+<para>Number of bins per correlogram (2k + 1). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="354" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_15b9d2cbab80ba34b8e1d6c2c6404b52e" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; <ref refid="classPair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>QValueList&lt;Pair&gt; CorrelationView::pairUpdateList</definition>
+        <argsstring></argsstring>
+        <name>pairUpdateList</name>
+        <briefdescription>
+<para>List of pairs corresponding to clusters to update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="357" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_18573c66d89de6321b07c761a3a4e2f16" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CorrelationView::shoulderLine</definition>
+        <argsstring></argsstring>
+        <name>shoulderLine</name>
+        <briefdescription>
+<para>Boolean indicating if a shoulder line has to be drawn on the correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="360" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_115effdb642e81981605b593aa599ea32" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float CorrelationView::tickMarkStep</definition>
+        <argsstring></argsstring>
+        <name>tickMarkStep</name>
+        <briefdescription>
+<para>Step in pixels between two tick marks. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="363" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1519489e16229e3117bb3deba3a3f7672" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::nbTickMarks</definition>
+        <argsstring></argsstring>
+        <name>nbTickMarks</name>
+        <briefdescription>
+<para>Number of tick marks in a time window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="366" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1c0a31741128cf1faa6f9f727bdcb6fa9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int CorrelationView::tickMarkZero</definition>
+        <argsstring></argsstring>
+        <name>tickMarkZero</name>
+        <briefdescription>
+<para>Abscissa of the tick mark for the center bin (time = 0). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="369" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_19907b92fd2e64e9910557047176a80ce" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, QString &gt;</type>
+        <definition>QMap&lt;int,QString&gt; CorrelationView::firingRates</definition>
+        <argsstring></argsstring>
+        <name>firingRates</name>
+        <briefdescription>
+<para>Map of firing rate for the autocorrelograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="372" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_14a0721ae1538ed7ddbd3048f0d350617" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CorrelationView::isZoomed</definition>
+        <argsstring></argsstring>
+        <name>isZoomed</name>
+        <briefdescription>
+<para>True if the view has been zoomed, false ohterwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="375" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_1ea30793722511c05a46a14068b1091dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CorrelationView::goingToDie</definition>
+        <argsstring></argsstring>
+        <name>goingToDie</name>
+        <briefdescription>
+<para>True if the widget is about to be deleted, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="378" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_124ca2718be579304568b83b58ffa0398" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CorrelationView::printState</definition>
+        <argsstring></argsstring>
+        <name>printState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="389" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_17702d64f83d4695e717a6910e3f876e0" prot="private" static="no" mutable="no">
+        <type>QRegion</type>
+        <definition>QRegion CorrelationView::printRegion</definition>
+        <argsstring></argsstring>
+        <name>printRegion</name>
+        <briefdescription>
+<para>The region representing the area to print. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="392" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classCorrelationView_121dda7325af66668aa0c642e7cedfb59" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int CorrelationView::XMARGIN</definition>
+        <argsstring></argsstring>
+        <name>XMARGIN</name>
+        <briefdescription>
+<para>Border on the left and right sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="382" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCorrelationView_15efe16be3b93277500fea65ffeaedede" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int CorrelationView::YMARGIN</definition>
+        <argsstring></argsstring>
+        <name>YMARGIN</name>
+        <briefdescription>
+<para>Border on the top and bottom sides inside the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="386" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCorrelationView_17f42c98b5c52c057e74793f464e7ff15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CorrelationView::CorrelationView</definition>
+        <argsstring>(KlustersDoc &amp;doc, KlustersView &amp;view, QColor backgroundColor, KStatusBar *statusBar, QWidget *parent=0, Data::ScaleMode scale=Data::MAX, int binSize=0, int correlationTimeFrame=0, bool shoulderLine=false, const char *name=0, int minSize=50, int maxSize=4000, int windowTopLeft=-500, int windowBottomRight=1001, int border=0)</argsstring>
+        <name>CorrelationView</name>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersView" kindref="compound">KlustersView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref></type>
+          <declname>scale</declname>
+          <defval>Data::MAX</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>binSize</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>correlationTimeFrame</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>shoulderLine</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+          <defval>4000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowTopLeft</declname>
+          <defval>-500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowBottomRight</declname>
+          <defval>1001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>border</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="44" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1d9a43cfdf2c9c80e35d4f7978b930116" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CorrelationView::~CorrelationView</definition>
+        <argsstring>()</argsstring>
+        <name>~CorrelationView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_169e2da1530baf98d91c23cb7d511b57e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::willBeKilled</definition>
+        <argsstring>()</argsstring>
+        <name>willBeKilled</name>
+        <reimplements refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2">willBeKilled</reimplements>
+        <briefdescription>
+<para>Signals that the widget is about to be deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="713" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1919f04d67c875c4f27210c035cccc97e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CorrelationView::getBinSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getBinSize</name>
+        <briefdescription>
+<para>Returns the size of the bins to use in the correlograms, given in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>size of the bins. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1522c6c097b8401d0763f5db92412d599" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CorrelationView::getTimeWindow</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeWindow</name>
+        <briefdescription>
+<para>Returns the time frame use to compute the correlograms, given in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>time frame. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="76" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1dce85995e8e6af8e9b28b37c99923357" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref></type>
+        <definition>Data::ScaleMode CorrelationView::getScaleMode</definition>
+        <argsstring>() const</argsstring>
+        <name>getScaleMode</name>
+        <briefdescription>
+<para>Returns the type of scale used to present the correlation data. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>type of scale. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="81" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1521f25c5078f2b103bd67fb1e2dbc06d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CorrelationView::isShoulderLine</definition>
+        <argsstring>() const</argsstring>
+        <name>isShoulderLine</name>
+        <briefdescription>
+<para>Returns a boolean indicating if a doted line is drawn at the shoulder level of the correlograms. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if a line is drawn, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classCorrelationView_11cce3f7197c35df432ade45c99d30576" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::singleColorUpdate</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>singleColorUpdate</name>
+        <reimplements refid="classViewWidget_1334a7e900904d2db053455f9c8b5e6fc">singleColorUpdate</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the view only for one cluster for which the color has been changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id for which the color have changed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="95" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="127" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_15f9ce44825e70860badcb3a24728c445" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::addClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addClusterToView</name>
+        <reimplements refid="classViewWidget_16183b4a8e96fe2bf13fdacaf892678b4">addClusterToView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Draws an additional cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="103" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="150" bodyend="161"/>
+        <referencedby refid="classCorrelationView_1dd4cde7293319e5e65c1fc8b486e2f97" compoundref="correlationview_8h" startline="127" endline="127">addNewClusterToView</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1fb43ce4935ec46dbaceb05a52443b07e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::removeClusterFromView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>removeClusterFromView</name>
+        <reimplements refid="classViewWidget_103c155399b7f12e5aea1e090a40581be">removeClusterFromView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Removes a cluster from those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>Which impose to redraw everything <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to remove. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="110" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="164" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1c79adac747e0f7f01b1a83117c0567cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::addNewClusterToView</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplements refid="classViewWidget_1a1ca23c8b1d3bb088b4f0ca0ad696b2b">addNewClusterToView</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes of the new cluster are coming. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="179" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1dd4cde7293319e5e65c1fc8b486e2f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::addNewClusterToView</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>addNewClusterToView</name>
+        <reimplements refid="classViewWidget_1d872c228588cb0a372f1f2f33709d58f">addNewClusterToView</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Adds a newly created cluster to those already shown. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="127" bodyend="127"/>
+        <references refid="classCorrelationView_15f9ce44825e70860badcb3a24728c445" compoundref="correlationview_8cpp" startline="150" endline="161">addClusterToView</references>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::spikesRemovedFromClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, bool active)</argsstring>
+        <name>spikesRemovedFromClusters</name>
+        <reimplements refid="classViewWidget_13e0ee079110b4369f0524cc3491f93d6">spikesRemovedFromClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the removal of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes have been taken. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="135" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="191" bodyend="203"/>
+        <referencedby refid="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7" compoundref="correlationview_8h" startline="187" endline="189">undoUpdateClusters</referencedby>
+        <referencedby refid="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011" compoundref="correlationview_8h" startline="200" endline="202">updateClusters</referencedby>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_10a11205d646f343e86cfa8f2a03f02f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::spikesAddedToCluster</definition>
+        <argsstring>(int clusterId, bool active)</argsstring>
+        <name>spikesAddedToCluster</name>
+        <reimplements refid="classViewWidget_1ac959304564cbc8836998950f1a717ed">spikesAddedToCluster</reimplements>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the content of the widget due to the addition of spikes in a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster Id to which the spikes have been added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="143" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="206" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1e6f8d4998da52fdf2b4054427a264f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setMode</definition>
+        <argsstring>(BaseFrame::Mode selectedMode)</argsstring>
+        <name>setMode</name>
+        <reimplements refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3">setMode</reimplements>
+        <param>
+          <type><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref></type>
+          <declname>selectedMode</declname>
+        </param>
+        <briefdescription>
+<para>Changes the current mode, call by a selection of a tool. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new mode of drawing (selection or zoom) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="148" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_188bdc6e9498d5324791454edfdc36389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setNoScale</definition>
+        <argsstring>()</argsstring>
+        <name>setNoScale</name>
+        <briefdescription>
+<para>Sets the mode of presentation to raw mode, meaning that the value of each bin in a correlogram will be the computed value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="830" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_180c165487dae96ceb19793e6df720d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setMaximumScale</definition>
+        <argsstring>()</argsstring>
+        <name>setMaximumScale</name>
+        <briefdescription>
+<para>Sets the mode of presentation to raw mode, meaning that the value of each bin in a correlogram will be the computed value scale by the maximum value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="158" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="843" bodyend="854"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_16b9bc79cb045ce69cc9e2c390e4064d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setShoulderScale</definition>
+        <argsstring>()</argsstring>
+        <name>setShoulderScale</name>
+        <briefdescription>
+<para>Sets the mode of presentation to raw mode, meaning that the value of each bin in a correlogram will be the computed value scale by the shoulder value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="163" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="856" bodyend="867"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_126ebf78ff31269ad6e682f72df11d8f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setBinSizeAndTimeWindow</definition>
+        <argsstring>(int size, int width)</argsstring>
+        <name>setBinSizeAndTimeWindow</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+<para>Changes the size of the bins and the size of the time frame used to compute the correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="166" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="508" bodyend="535"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_18ba3b6609970462121ad122d40813a81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::increaseAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>increaseAmplitude</name>
+        <briefdescription>
+<para>Increase of the amplitude of the correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="170" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="869" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1c0bdd9a8e7cbbd058255d832a7999bcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::decreaseAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>decreaseAmplitude</name>
+        <briefdescription>
+<para>Decrease of the amplitude of the correlograms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="174" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="881" bodyend="891"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_17c3b1d86f16ff64063e15d6e3862e609" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool CorrelationView::isThreadsRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadsRunning</name>
+        <reimplements refid="classViewWidget_1c9f9f10cbb4a62e7155322472679411b">isThreadsRunning</reimplements>
+        <briefdescription>
+<para>Enables the caller to know if there is any thread running launch by the view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="177" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::undoUpdateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active)</argsstring>
+        <name>undoUpdateClusters</name>
+        <reimplements refid="classViewWidget_133078af928133ca135553b75c5d55300">undoUpdateClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Update the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method is call only during an undo otherwise the updateClusters is call. There are 2 functions in order to reduce the number of clusters to draw whenever possible. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="187" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="187" bodyend="189"/>
+        <references refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" compoundref="correlationview_8cpp" startline="191" endline="203">spikesRemovedFromClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::updateClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;modifiedClusters, bool active, bool isModifiedByDeletion)</argsstring>
+        <name>updateClusters</name>
+        <reimplements refid="classViewWidget_17406b5a4d71f7ef3ade9ac29850d2037">updateClusters</reimplements>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isModifiedByDeletion</declname>
+        </param>
+        <briefdescription>
+<para>Update the clusters which have been modified by the suppression of spikes (used to create a new cluster or simply move to the cluster of noise or artefact). </para>        </briefdescription>
+        <detaileddescription>
+<para>This method aims to reduce the number of clusters to draw. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which spikes were taken from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isModifiedByDeletion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the clusters of <computeroutput>modifiedClusters</computeroutput> have been modified by the deletion of spikes (moved to cluster 0 or 1, cluster of artefact and cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="200" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="200" bodyend="202"/>
+        <references refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" compoundref="correlationview_8cpp" startline="191" endline="203">spikesRemovedFromClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_190c5f935b3726b8f874076d4025f72aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::setShoulderLine</definition>
+        <argsstring>(bool b)</argsstring>
+        <name>setShoulderLine</name>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Update the presentation of a doted line at the shoulder level. </para>        </briefdescription>
+        <detaileddescription>
+<para>If <computeroutput>b</computeroutput> is true a line will be drawn, none will be drawn otherwise. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>b</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>boolean indicating if a shoulder line has to be drawn. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="209" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="893" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1d985304283252bf8614e1ea1d69699c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::updateDrawing</definition>
+        <argsstring>()</argsstring>
+        <name>updateDrawing</name>
+        <reimplements refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b">updateDrawing</reimplements>
+        <briefdescription>
+<para>Update the information presented in the view if need it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="212" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="632" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1b852d62de09b4379aff3dd34003996d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::clustersRenumbered</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>clustersRenumbered</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Update the information presented in the view after a renumbering if need it. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="218" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="640" bodyend="650"/>
+      </memberdef>
+      <memberdef kind="slot" id="classCorrelationView_1f1d272cec32ff777bb932da221ffe5cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::print</definition>
+        <argsstring>(QPainter &amp;printPainter, QPaintDeviceMetrics &amp;metrics, bool whiteBackground)</argsstring>
+        <name>print</name>
+        <reimplements refid="classViewWidget_1460212eda79f47409f01478b771d7895">print</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>printPainter</declname>
+        </param>
+        <param>
+          <type>QPaintDeviceMetrics &amp;</type>
+          <declname>metrics</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>whiteBackground</declname>
+        </param>
+        <briefdescription>
+<para>Prints the currently display information on a printer via the painter <computeroutput>printPainter</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printPainter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on a printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>metrics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object providing information about the printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whiteBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the printed background has to be white, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="225" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="767" bodyend="827"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classCorrelationView_110d889c2c1c57551160d930aed9aae4e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::drawContents</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>drawContents</name>
+        <reimplements refid="classBaseFrame_12b5d68358bfcc4ecdd0c3e6a3da82ac6">drawContents</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Draws the contents of the frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter used to draw the contents </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="232" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="220" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_18fc5bd0976048ca1a31f15d028b29d69" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::customEvent</definition>
+        <argsstring>(QCustomEvent *event)</argsstring>
+        <name>customEvent</name>
+        <param>
+          <type>QCustomEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Treat the events sent by the <ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> instances. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>custom event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="237" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="322" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1835c3c83e1e08f48c0e18b97abef5783" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::mouseDoubleClickEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseDoubleClickEvent</name>
+        <reimplements refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b">mouseDoubleClickEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a double click. </para>        </briefdescription>
+        <detaileddescription>
+<para>The correlograms are retrieve in case the data have changed (an other view has changed its parameters) as all the views are sharing the same data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="244" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="652" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_10eee46fa511153bbaf8b666476edf3d1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::mouseReleaseEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseReleaseEvent</name>
+        <reimplements refid="classBaseFrame_17b6086bb37e3ad0c56a8b8eb166b3d9e">mouseReleaseEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse click. </para>        </briefdescription>
+        <detaileddescription>
+<para>The correlograms are retrieve in case the data have changed (an other view has chaneg its parameters. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse release event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="250" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="672" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1326c57c1a7dfcd992eb4f28688c1fc5d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::resizeEvent</definition>
+        <argsstring>(QResizeEvent *event)</argsstring>
+        <name>resizeEvent</name>
+        <reimplements refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63">resizeEvent</reimplements>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a resize event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The correlograms are retrieve in case the data have changed (an other view has changed its parameters) as all the views are sharing the same data. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resize event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="257" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="694" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_13e14f0f760a9020f6f5854a0e614d857" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void CorrelationView::mouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseMoveEvent</name>
+        <reimplements refid="classBaseFrame_1e0bc9fac62c249065e52f3d393e84cf7">mouseMoveEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse move event. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time is display in the status bar. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse move event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="263" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="722" bodyend="765"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classCorrelationView_1468c4b83f5e0685889478661b73ba291" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref> *</type>
+        <definition>CorrelationThread * CorrelationView::getCorrelations</definition>
+        <argsstring>(QValueList&lt; Pair &gt; *pairsToCompute, QValueList&lt; int &gt; clusterIds)</argsstring>
+        <name>getCorrelations</name>
+        <param>
+          <type>QValueList&lt; <ref refid="classPair" kindref="compound">Pair</ref> &gt; *</type>
+          <declname>pairsToCompute</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>clusterIds</declname>
+        </param>
+        <briefdescription>
+<para>Creates a thread which will get the correlations information for the pairs of clusters contained in <computeroutput>pairsToCompute</computeroutput> due to the clusters in <computeroutput>clusterIds</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pairsToCompute</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>couple of clusters for which a correlogram has to be obtained. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>clusters for which the correlograms will be computed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="276" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_101d54e8d51d5ac3d09c9af0d7a051934" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::drawCorrelograms</definition>
+        <argsstring>(QPainter &amp;painter, QValueList&lt; Pair &gt; &amp;pairList)</argsstring>
+        <name>drawCorrelograms</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; <ref refid="classPair" kindref="compound">Pair</ref> &gt; &amp;</type>
+          <declname>pairList</declname>
+        </param>
+        <briefdescription>
+<para>Draws the correlograms of the pair of clusters in the list <computeroutput>pairList</computeroutput> on the given painter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the correlograms. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pairList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of pair of clusters for which a correlogram has to be drawn. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="283" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="365" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1030a159ae61ff8cadf553894732e002d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::updateWindow</definition>
+        <argsstring>()</argsstring>
+        <name>updateWindow</name>
+        <briefdescription>
+<para>Updates the dimension of the window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="286" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="352" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_15172083478e2f6aca46b3f3703ba63d3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::askForCorrelograms</definition>
+        <argsstring>()</argsstring>
+        <name>askForCorrelograms</name>
+        <briefdescription>
+<para>Asks the correlograms for all the clusters currently shown by launching a <ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="291" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="288" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="classCorrelationView_1f9ef09d85a8744692f5e39188659f600" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CorrelationView::drawClusterIds</definition>
+        <argsstring>(QPainter &amp;painter)</argsstring>
+        <name>drawClusterIds</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+<para>Draws the clusters identifiers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the information. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="296" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.cpp" bodystart="537" bodyend="630"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>View displaying auto- and cross-correlations of all selected clusters. </para>    </briefdescription>
+    <detaileddescription>
+<para>Using the text boxes in the Parameter Bar, the user can modified the bin size and duration used to compute the correlograms. All modification request is sent directly to the <ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> object and the view is automatically updated via <ref refid="classKlustersView" kindref="compound">KlustersView</ref> when the correlograms have been changed. If the view is active, it is also automatically updated when clusers are changed. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="855">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="856" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>CorrelationView</label>
+        <link refid="classCorrelationView"/>
+        <childnode refid="855" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="856">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="875">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="876" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="873">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="867">
+        <label>T</label>
+      </node>
+      <node id="858">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="859" relation="public-inheritance">
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="874" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="865">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="866" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="882">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="876">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="859" relation="public-inheritance">
+        </childnode>
+        <childnode refid="862" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="869" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="860">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="879">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="871">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="870" relation="public-inheritance">
+        </childnode>
+        <childnode refid="864" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="857">
+        <label>CorrelationView</label>
+        <link refid="classCorrelationView"/>
+        <childnode refid="858" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="872">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="870">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="874">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="858" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="875" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="877" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="861">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="862" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="863" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="864" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="869" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="871" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="872" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="873" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="878">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="879" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="880">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="877" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="859">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="860" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="881">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="882" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="883" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="884" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="869">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="870" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="883">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="864">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="865" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="868" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="862">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="877">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="878" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="880" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="881" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="872" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="866">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="867" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="884">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="868">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="864" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="863">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="861" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="864" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h" bodystart="52" bodyend="394"/>
+    <listofallmembers>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>@0</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>@2</name></member>
+      <member refid="classCorrelationView_145115d1f2954cc9b40633b65d23b3586" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>abscissaMax</name></member>
+      <member refid="classCorrelationView_149430d738bccb03db013f69b33ff7513" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>abscissaMin</name></member>
+      <member refid="classCorrelationView_15f9ce44825e70860badcb3a24728c445" prot="public" virt="virtual"><scope>CorrelationView</scope><name>addClusterToView</name></member>
+      <member refid="classCorrelationView_1c79adac747e0f7f01b1a83117c0567cc" prot="public" virt="virtual"><scope>CorrelationView</scope><name>addNewClusterToView</name></member>
+      <member refid="classCorrelationView_1dd4cde7293319e5e65c1fc8b486e2f97" prot="public" virt="virtual"><scope>CorrelationView</scope><name>addNewClusterToView</name></member>
+      <member refid="classCorrelationView_15172083478e2f6aca46b3f3703ba63d3" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>askForCorrelograms</name></member>
+      <member refid="classBaseFrame_1042d27fb77a59e37912653348f9883f3" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>BaseFrame</name></member>
+      <member refid="classCorrelationView_12285f8be8ff9790e421387cf328501e3" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>binSize</name></member>
+      <member refid="classCorrelationView_173c56bc22e515772fdae445e34ab645a" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>binWidth</name></member>
+      <member refid="classBaseFrame_15b689b1ba4f8873b318778079c6786c4" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>BORDER</name></member>
+      <member refid="classBaseFrame_1ebb3ce33f4a37c3eb2ee72474050fa37" prot="public" virt="virtual"><scope>CorrelationView</scope><name>changeBackgroundColor</name></member>
+      <member refid="classCorrelationView_1b852d62de09b4379aff3dd34003996d4" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>clustersRenumbered</name></member>
+      <member refid="classViewWidget_1bccba002ff28008b32f8082553f6fca8" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>clusterUpdateList</name></member>
+      <member refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>colorLegend</name></member>
+      <member refid="classCorrelationView_17481693c50111f26a9943c545b60d0d0" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>CorrelationThread</name></member>
+      <member refid="classCorrelationView_17f42c98b5c52c057e74793f464e7ff15" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>CorrelationView</name></member>
+      <member refid="classCorrelationView_18fc5bd0976048ca1a31f15d028b29d69" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>customEvent</name></member>
+      <member refid="classCorrelationView_18faaabbf82efd356f71ac2242bda8d5c" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>dataReady</name></member>
+      <member refid="classCorrelationView_1c0bdd9a8e7cbbd058255d832a7999bcf" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>decreaseAmplitude</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f531ac6e4c2710a204fc01fc902469bcd" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>DELETE_ARTEFACT</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f07b03c1319e024f327c9817eb6b029ba" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>DELETE_NOISE</name></member>
+      <member refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>doc</name></member>
+      <member refid="classBaseFrame_1b053dfe22801668fd82f1f5f34f32263" prot="public" virt="virtual"><scope>CorrelationView</scope><name>dockBeingClosed</name></member>
+      <member refid="classViewWidget_1091c72490041f8e45689b1dc4d693d5e" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>doublebuffer</name></member>
+      <member refid="classCorrelationView_1f9ef09d85a8744692f5e39188659f600" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>drawClusterIds</name></member>
+      <member refid="classCorrelationView_110d889c2c1c57551160d930aed9aae4e" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>drawContents</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>DrawContentsMode</name></member>
+      <member refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>drawContentsMode</name></member>
+      <member refid="classCorrelationView_101d54e8d51d5ac3d09c9af0d7a051934" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>drawCorrelograms</name></member>
+      <member refid="classBaseFrame_1c1183e155932c92026c2e8e9553905ea" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>drawRubber</name></member>
+      <member refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>drawRubberBand</name></member>
+      <member refid="classViewWidget_15dd5db4d43d33a65b403400e46f4b891" prot="public" virt="virtual"><scope>CorrelationView</scope><name>emptySelection</name></member>
+      <member refid="classCorrelationView_19907b92fd2e64e9910557047176a80ce" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>firingRates</name></member>
+      <member refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>firstClick</name></member>
+      <member refid="classCorrelationView_1919f04d67c875c4f27210c035cccc97e" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>getBinSize</name></member>
+      <member refid="classCorrelationView_1468c4b83f5e0685889478661b73ba291" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>getCorrelations</name></member>
+      <member refid="classCorrelationView_1dce85995e8e6af8e9b28b37c99923357" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>getScaleMode</name></member>
+      <member refid="classCorrelationView_1522c6c097b8401d0763f5db92412d599" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>getTimeWindow</name></member>
+      <member refid="classCorrelationView_1ea30793722511c05a46a14068b1091dd" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>goingToDie</name></member>
+      <member refid="classCorrelationView_18ccdcc165cc0a3c26e1d9b3b3bde15f5" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>heightBorder</name></member>
+      <member refid="classCorrelationView_18ba3b6609970462121ad122d40813a81" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>increaseAmplitude</name></member>
+      <member refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>isDoubleClick</name></member>
+      <member refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>isRubberBandToBeDrawn</name></member>
+      <member refid="classCorrelationView_1521f25c5078f2b103bd67fb1e2dbc06d" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>isShoulderLine</name></member>
+      <member refid="classCorrelationView_17c3b1d86f16ff64063e15d6e3862e609" prot="public" virt="virtual"><scope>CorrelationView</scope><name>isThreadsRunning</name></member>
+      <member refid="classCorrelationView_14a0721ae1538ed7ddbd3048f0d350617" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>isZoomed</name></member>
+      <member refid="classBaseFrame_1992b1cb3328945272b015bd3f6d1f7cb" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>MAX_SIZE</name></member>
+      <member refid="classBaseFrame_190d22b4bd74df6e61a7824951000e5e8" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>MIN_SIZE</name></member>
+      <member refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>Mode</name></member>
+      <member refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>mode</name></member>
+      <member refid="classCorrelationView_1835c3c83e1e08f48c0e18b97abef5783" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>mouseDoubleClickEvent</name></member>
+      <member refid="classCorrelationView_13e14f0f760a9020f6f5854a0e614d857" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>mouseMoveEvent</name></member>
+      <member refid="classBaseFrame_1154d190f81125058199ed6770c5152b6" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>mousePressEvent</name></member>
+      <member refid="classCorrelationView_10eee46fa511153bbaf8b666476edf3d1" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>mouseReleaseEvent</name></member>
+      <member refid="classCorrelationView_12237268465c4f398cfa371d315617b1b" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>nbBins</name></member>
+      <member refid="classCorrelationView_1519489e16229e3117bb3deba3a3f7672" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>nbTickMarks</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fef0a4da74dd881e94fe07b9b3d1bf83a" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>NEW_CLUSTER</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fc7cda1ba26c6de6294f2cd188b6d0e33" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>NEW_CLUSTERS</name></member>
+      <member refid="classBaseFrame_1a470ad78b538adc53ffeabee229c4c9e" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>oldSize</name></member>
+      <member refid="classCorrelationView_1cd5808caa5ddc7666ef6c0975b856932" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>ordinateMax</name></member>
+      <member refid="classCorrelationView_1ed07b03e69f459f61661619f9b341a57" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>ordinateMin</name></member>
+      <member refid="classCorrelationView_19e00e85b8efed383d735cdb40618cdec" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>pairs</name></member>
+      <member refid="classCorrelationView_15b9d2cbab80ba34b8e1d6c2c6404b52e" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>pairUpdateList</name></member>
+      <member refid="classBaseFrame_1eb86348c3d22a2271be7a269aa891d72" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>parentDockBeingClosed</name></member>
+      <member refid="classCorrelationView_1f1d272cec32ff777bb932da221ffe5cd" prot="public" virt="virtual"><scope>CorrelationView</scope><name>print</name></member>
+      <member refid="classCorrelationView_17702d64f83d4695e717a6910e3f876e0" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>printRegion</name></member>
+      <member refid="classCorrelationView_124ca2718be579304568b83b58ffa0398" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>printState</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db8231288ec4453e28f207d42383a741213f2fb" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>REDRAW</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312d65241269619717949ae60374a711daf" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>REFRESH</name></member>
+      <member refid="classCorrelationView_1fb43ce4935ec46dbaceb05a52443b07e" prot="public" virt="virtual"><scope>CorrelationView</scope><name>removeClusterFromView</name></member>
+      <member refid="classCorrelationView_1326c57c1a7dfcd992eb4f28688c1fc5d" prot="protected" virt="virtual"><scope>CorrelationView</scope><name>resizeEvent</name></member>
+      <member refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>rubber</name></member>
+      <member refid="classCorrelationView_1c09d2c92eae2f82f02ebf538afc8e932" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>scaleMode</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f6f501aff76320842235887eb153f07a3" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>SELECT_TIME</name></member>
+      <member refid="classCorrelationView_126ebf78ff31269ad6e682f72df11d8f9" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setBinSizeAndTimeWindow</name></member>
+      <member refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setBorders</name></member>
+      <member refid="classCorrelationView_180c165487dae96ceb19793e6df720d5f" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setMaximumScale</name></member>
+      <member refid="classCorrelationView_1e6f8d4998da52fdf2b4054427a264f5c" prot="public" virt="virtual"><scope>CorrelationView</scope><name>setMode</name></member>
+      <member refid="classCorrelationView_188bdc6e9498d5324791454edfdc36389" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setNoScale</name></member>
+      <member refid="classCorrelationView_190c5f935b3726b8f874076d4025f72aa" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setShoulderLine</name></member>
+      <member refid="classCorrelationView_16b9bc79cb045ce69cc9e2c390e4064d6" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>setShoulderScale</name></member>
+      <member refid="classCorrelationView_1208c11091c119e55f4cd6e314aaa2ea9" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>shift</name></member>
+      <member refid="classCorrelationView_18573c66d89de6321b07c761a3a4e2f16" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>shoulderLine</name></member>
+      <member refid="classCorrelationView_11cce3f7197c35df432ade45c99d30576" prot="public" virt="virtual"><scope>CorrelationView</scope><name>singleColorUpdate</name></member>
+      <member refid="classCorrelationView_10a11205d646f343e86cfa8f2a03f02f5" prot="public" virt="virtual"><scope>CorrelationView</scope><name>spikesAddedToCluster</name></member>
+      <member refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" prot="public" virt="virtual"><scope>CorrelationView</scope><name>spikesRemovedFromClusters</name></member>
+      <member refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>statusBar</name></member>
+      <member refid="classCorrelationView_1743c716007ce3df8864e45ec636ad804" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>threadsToBeKill</name></member>
+      <member refid="classCorrelationView_115effdb642e81981605b593aa599ea32" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>tickMarkStep</name></member>
+      <member refid="classCorrelationView_1c0a31741128cf1faa6f9f727bdcb6fa9" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>tickMarkZero</name></member>
+      <member refid="classCorrelationView_17e81793791d354e9136ce193ebcf63df" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>timeWindow</name></member>
+      <member refid="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7" prot="public" virt="virtual"><scope>CorrelationView</scope><name>undoUpdateClusters</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db823129813ffc0ade2d4aced59cfdabd1459d9" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>UPDATE</name></member>
+      <member refid="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011" prot="public" virt="virtual"><scope>CorrelationView</scope><name>updateClusters</name></member>
+      <member refid="classViewWidget_1238b02bc4888a936feb5c24133596911" prot="public" virt="virtual"><scope>CorrelationView</scope><name>updatedDimensions</name></member>
+      <member refid="classCorrelationView_1d985304283252bf8614e1ea1d69699c8" prot="public" virt="virtual"><scope>CorrelationView</scope><name>updateDrawing</name></member>
+      <member refid="classCorrelationView_1030a159ae61ff8cadf553894732e002d" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>updateWindow</name></member>
+      <member refid="classViewWidget_166610cd0dfae797713df3acb439033cc" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>view</name></member>
+      <member refid="classBaseFrame_16b8a18a51e085c5d68e1812ea7b603ea" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>viewport</name></member>
+      <member refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_1bc359186819f10c30a5ae505d6f1920d" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>viewportToWorldHeight</name></member>
+      <member refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>viewportToWorldWidth</name></member>
+      <member refid="classViewWidget_186837c742daf2ccd927c6d9511287f50" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>ViewWidget</name></member>
+      <member refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>wholeHeightRectangle</name></member>
+      <member refid="classCorrelationView_1382f06e96282b4dc5c5ca689a24b2411" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>widthBorder</name></member>
+      <member refid="classCorrelationView_169e2da1530baf98d91c23cb7d511b57e" prot="public" virt="virtual"><scope>CorrelationView</scope><name>willBeKilled</name></member>
+      <member refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>window</name></member>
+      <member refid="classBaseFrame_195b3b1ec4173a584b33d403909f25d94" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>WINDOW_BOTTOM_RIGHT</name></member>
+      <member refid="classBaseFrame_18dac5dc5940d0ba950367a6209baf1d9" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>WINDOW_TOP_LEFT</name></member>
+      <member refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_12b63b89729e706626167a7dc7020a3aa" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_1282acf96cb3e2cf1889da54236d1623e" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewportAbscissa</name></member>
+      <member refid="classBaseFrame_1af257590f63f103f946f599add211cd5" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewportHeight</name></member>
+      <member refid="classBaseFrame_1a66187fbc3b1a9978f7604a17a04071b" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewportOrdinate</name></member>
+      <member refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>worldToViewportWidth</name></member>
+      <member refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>Xborder</name></member>
+      <member refid="classCorrelationView_121dda7325af66668aa0c642e7cedfb59" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>XMARGIN</name></member>
+      <member refid="classCorrelationView_10253effb7d2923fb869a2b8e92f8d70e" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>Xspace</name></member>
+      <member refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>Yborder</name></member>
+      <member refid="classCorrelationView_112b0356b2b5f8ab39706138609d6ba03" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>Yfactor</name></member>
+      <member refid="classCorrelationView_15efe16be3b93277500fea65ffeaedede" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>YMARGIN</name></member>
+      <member refid="classCorrelationView_157e16a54333b0543031f6e160bf8e52f" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>YsizeForMaxAmp</name></member>
+      <member refid="classCorrelationView_101ae91f8d3f042eac6bc82a30c9c7a1b" prot="private" virt="non-virtual"><scope>CorrelationView</scope><name>Yspace</name></member>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2d75fd832d6a47113cab9b9dc548971d6" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>ZOOM</name></member>
+      <member refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" prot="protected" virt="non-virtual"><scope>CorrelationView</scope><name>zoomCursor</name></member>
+      <member refid="classBaseFrame_16f5fb51668be38012d5eb0aa7b8b3cbe" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>~BaseFrame</name></member>
+      <member refid="classCorrelationView_1d9a43cfdf2c9c80e35d4f7978b930116" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>~CorrelationView</name></member>
+      <member refid="classViewWidget_1283c1ee4a0e61803161713b7b3538b82" prot="public" virt="non-virtual"><scope>CorrelationView</scope><name>~ViewWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

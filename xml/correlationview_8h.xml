@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="correlationview_8h" kind="file">
+    <compoundname>correlationview.h</compoundname>
+    <includes refid="zoomwindow_8h" local="yes">zoomwindow.h</includes>
+    <includes refid="viewwidget_8h" local="yes">viewwidget.h</includes>
+    <includes refid="pair_8h" local="yes">pair.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes local="no">qframe.h</includes>
+    <includes local="no">qpainter.h</includes>
+    <includes local="no">qstyle.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes local="no">qpointarray.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includes local="no">qvaluelist.h</includes>
+    <includes local="no">qptrlist.h</includes>
+    <includedby refid="klustersview_8h" local="yes">klustersview.h</includedby>
+    <includedby refid="correlationthread_8h" local="yes">correlationthread.h</includedby>
+    <includedby refid="correlationview_8cpp" local="yes">correlationview.cpp</includedby>
+    <includedby refid="correlationview_8moc_8cpp" local="yes">correlationview.moc.cpp</includedby>
+    <incdepgraph>
+      <node id="735">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="731" relation="include">
+        </childnode>
+        <childnode refid="732" relation="include">
+        </childnode>
+        <childnode refid="736" relation="include">
+        </childnode>
+        <childnode refid="726" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="761">
+        <label>qtimer.h</label>
+      </node>
+      <node id="750">
+        <label>qregion.h</label>
+      </node>
+      <node id="752">
+        <label>qfile.h</label>
+      </node>
+      <node id="738">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="739" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+        <childnode refid="740" relation="include">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="730">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="731" relation="include">
+        </childnode>
+        <childnode refid="732" relation="include">
+        </childnode>
+        <childnode refid="733" relation="include">
+        </childnode>
+        <childnode refid="734" relation="include">
+        </childnode>
+        <childnode refid="735" relation="include">
+        </childnode>
+      </node>
+      <node id="726">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="727" relation="include">
+        </childnode>
+        <childnode refid="728" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+      </node>
+      <node id="739">
+        <label>qstring.h</label>
+      </node>
+      <node id="740">
+        <label>stdlib.h</label>
+      </node>
+      <node id="755">
+        <label>kurl.h</label>
+      </node>
+      <node id="727">
+        <label>qrect.h</label>
+      </node>
+      <node id="756">
+        <label>stdexcept</label>
+      </node>
+      <node id="742">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="743" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+      </node>
+      <node id="734">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="732">
+        <label>qframe.h</label>
+      </node>
+      <node id="747">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="728">
+        <label>qpoint.h</label>
+      </node>
+      <node id="744">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="742" relation="include">
+        </childnode>
+        <childnode refid="745" relation="include">
+        </childnode>
+      </node>
+      <node id="746">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="757">
+        <label>vector</label>
+      </node>
+      <node id="736">
+        <label>qcursor.h</label>
+      </node>
+      <node id="758">
+        <label>qpainter.h</label>
+      </node>
+      <node id="729">
+        <label>math.h</label>
+      </node>
+      <node id="731">
+        <label>qwidget.h</label>
+      </node>
+      <node id="737">
+        <label>iostream</label>
+      </node>
+      <node id="754">
+        <label>qthread.h</label>
+      </node>
+      <node id="760">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="749">
+        <label>qdict.h</label>
+      </node>
+      <node id="725">
+        <label>correlationview.h</label>
+        <link refid="correlationview.h"/>
+        <childnode refid="726" relation="include">
+        </childnode>
+        <childnode refid="730" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+        <childnode refid="741" relation="include">
+        </childnode>
+        <childnode refid="732" relation="include">
+        </childnode>
+        <childnode refid="758" relation="include">
+        </childnode>
+        <childnode refid="759" relation="include">
+        </childnode>
+        <childnode refid="733" relation="include">
+        </childnode>
+        <childnode refid="760" relation="include">
+        </childnode>
+        <childnode refid="761" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+      </node>
+      <node id="751">
+        <label>qmap.h</label>
+      </node>
+      <node id="759">
+        <label>qstyle.h</label>
+      </node>
+      <node id="753">
+        <label>qmutex.h</label>
+      </node>
+      <node id="733">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="743">
+        <label>cstring</label>
+      </node>
+      <node id="741">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="742" relation="include">
+        </childnode>
+        <childnode refid="744" relation="include">
+        </childnode>
+        <childnode refid="738" relation="include">
+        </childnode>
+        <childnode refid="745" relation="include">
+        </childnode>
+        <childnode refid="746" relation="include">
+        </childnode>
+        <childnode refid="747" relation="include">
+        </childnode>
+        <childnode refid="748" relation="include">
+        </childnode>
+        <childnode refid="749" relation="include">
+        </childnode>
+        <childnode refid="750" relation="include">
+        </childnode>
+        <childnode refid="751" relation="include">
+        </childnode>
+        <childnode refid="752" relation="include">
+        </childnode>
+        <childnode refid="753" relation="include">
+        </childnode>
+        <childnode refid="754" relation="include">
+        </childnode>
+        <childnode refid="755" relation="include">
+        </childnode>
+        <childnode refid="737" relation="include">
+        </childnode>
+        <childnode refid="756" relation="include">
+        </childnode>
+        <childnode refid="729" relation="include">
+        </childnode>
+        <childnode refid="757" relation="include">
+        </childnode>
+      </node>
+      <node id="745">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="764">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="765" relation="include">
+        </childnode>
+      </node>
+      <node id="763">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="764" relation="include">
+        </childnode>
+      </node>
+      <node id="765">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="766">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread_8h-source"/>
+      </node>
+      <node id="762">
+        <label>correlationview.h</label>
+        <link refid="correlationview.h"/>
+        <childnode refid="763" relation="include">
+        </childnode>
+        <childnode refid="766" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classCorrelationView" prot="public">CorrelationView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>correlationview.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Fri<sp/>Sep<sp/>26<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CORRELATIONVIEW_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CORRELATIONVIEW_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;zoomwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;viewwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pair.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qframe.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstyle.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpointarray.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvaluelist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersView" kindref="compound">KlustersView</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classCorrelationView" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCorrelationView" kindref="compound">CorrelationView</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classViewWidget" kindref="compound">ViewWidget</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classCorrelationView" kindref="compound">CorrelationView</ref>(<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>&amp;<sp/><ref refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" kindref="member">doc</ref>,<ref refid="classKlustersView" kindref="compound">KlustersView</ref>&amp;<sp/><ref refid="classViewWidget_166610cd0dfae797713df3acb439033cc" kindref="member">view</ref>,QColor<sp/>backgroundColor,KStatusBar<sp/>*<sp/><ref refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" kindref="member">statusBar</ref>,<sp/>QWidget*<sp/>parent=0,<sp/><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref><sp/>scale<sp/>=<sp/>Data::MAX,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>binSize<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>correlationTimeFrame<sp/>=<sp/>0,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>shoulderLine<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name=0,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize<sp/>=<sp/>50,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>=<sp/>4000,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>=<sp/>-500,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight<sp/>=<sp/>1001,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classCorrelationView" kindref="compound">CorrelationView</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_169e2da1530baf98d91c23cb7d511b57e" kindref="member">willBeKilled</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classCorrelationView_1919f04d67c875c4f27210c035cccc97e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1919f04d67c875c4f27210c035cccc97e" kindref="member">getBinSize</ref>()</highlight><highlight class="keyword">const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>binSize;};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76" refid="classCorrelationView_1522c6c097b8401d0763f5db92412d599" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1522c6c097b8401d0763f5db92412d599" kindref="member">getTimeWindow</ref>()</highlight><highlight class="keyword">const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>timeWindow;};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="classCorrelationView_1dce85995e8e6af8e9b28b37c99923357" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref><sp/><ref refid="classCorrelationView_1dce85995e8e6af8e9b28b37c99923357" kindref="member">getScaleMode</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>scaleMode;};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="87" refid="classCorrelationView_1521f25c5078f2b103bd67fb1e2dbc06d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1521f25c5078f2b103bd67fb1e2dbc06d" kindref="member">isShoulderLine</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>shoulderLine;};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_11cce3f7197c35df432ade45c99d30576" kindref="member">singleColorUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_15f9ce44825e70860badcb3a24728c445" kindref="member">addClusterToView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1fb43ce4935ec46dbaceb05a52443b07e" kindref="member">removeClusterFromView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1c79adac747e0f7f01b1a83117c0567cc" kindref="member">addNewClusterToView</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classCorrelationView_1dd4cde7293319e5e65c1fc8b486e2f97" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1c79adac747e0f7f01b1a83117c0567cc" kindref="member">addNewClusterToView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){<ref refid="classCorrelationView_15f9ce44825e70860badcb3a24728c445" kindref="member">addClusterToView</ref>(clusterId,active);};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" kindref="member">spikesRemovedFromClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_10a11205d646f343e86cfa8f2a03f02f5" kindref="member">spikesAddedToCluster</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="classCorrelationView_1e6f8d4998da52fdf2b4054427a264f5c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1e6f8d4998da52fdf2b4054427a264f5c" kindref="member">setMode</ref>(<ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref><sp/>selectedMode){};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_188bdc6e9498d5324791454edfdc36389" kindref="member">setNoScale</ref>();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_180c165487dae96ceb19793e6df720d5f" kindref="member">setMaximumScale</ref>();</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_16b9bc79cb045ce69cc9e2c390e4064d6" kindref="member">setShoulderScale</ref>();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_126ebf78ff31269ad6e682f72df11d8f9" kindref="member">setBinSizeAndTimeWindow</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_18ba3b6609970462121ad122d40813a81" kindref="member">increaseAmplitude</ref>();</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1c0bdd9a8e7cbbd058255d832a7999bcf" kindref="member">decreaseAmplitude</ref>();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_17c3b1d86f16ff64063e15d6e3862e609" kindref="member">isThreadsRunning</ref>();</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1a3d8ac9e33e3986499fcc65dc58797f7" kindref="member">undoUpdateClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>modifiedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" kindref="member">spikesRemovedFromClusters</ref>(modifiedClusters,active);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1b40bea7225ae9804d61f7964e90a4011" kindref="member">updateClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>modifiedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isModifiedByDeletion){</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classCorrelationView_11adc1f05348a92fb51476da561fc0c9d" kindref="member">spikesRemovedFromClusters</ref>(modifiedClusters,active);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_190c5f935b3726b8f874076d4025f72aa" kindref="member">setShoulderLine</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>b);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1d985304283252bf8614e1ea1d69699c8" kindref="member">updateDrawing</ref>();</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1b852d62de09b4379aff3dd34003996d4" kindref="member">clustersRenumbered</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1f1d272cec32ff777bb932da221ffe5cd" kindref="member">print</ref>(QPainter&amp;<sp/>printPainter,QPaintDeviceMetrics&amp;<sp/>metrics,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>whiteBackground);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_110d889c2c1c57551160d930aed9aae4e" kindref="member">drawContents</ref>(QPainter<sp/>*p);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_18fc5bd0976048ca1a31f15d028b29d69" kindref="member">customEvent</ref><sp/>(QCustomEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1835c3c83e1e08f48c0e18b97abef5783" kindref="member">mouseDoubleClickEvent</ref><sp/>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_10eee46fa511153bbaf8b666476edf3d1" kindref="member">mouseReleaseEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_1326c57c1a7dfcd992eb4f28688c1fc5d" kindref="member">resizeEvent</ref>(QResizeEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classCorrelationView_13e14f0f760a9020f6f5854a0e614d857" kindref="member">mouseMoveEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><ref refid="classData_17c467cbdd19a0b0ccde482baed716155" kindref="member">Data::ScaleMode</ref><sp/>scaleMode;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>*<sp/>getCorrelations(QValueList&lt;Pair&gt;*<sp/>pairsToCompute,QValueList&lt;int&gt;<sp/>clusterIds);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawCorrelograms(QPainter&amp;<sp/>painter,QValueList&lt;Pair&gt;&amp;<sp/>pairList);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>updateWindow();</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>askForCorrelograms();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawClusterIds(QPainter&amp;<sp/>painter);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/></highlight><highlight class="comment">//Members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/>QPtrList&lt;CorrelationThread&gt;<sp/>threadsToBeKill;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>dataReady;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/>QValueList&lt;Pair&gt;<sp/>pairs;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>binSize;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeWindow;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMin;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMax;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMin;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMax;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/>uint<sp/>widthBorder;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/>uint<sp/>heightBorder;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>binWidth;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/>uint<sp/>Xspace;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/>uint<sp/>Yspace;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/>uint<sp/>YsizeForMaxAmp;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>Yfactor;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shift;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbBins;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/>QValueList&lt;Pair&gt;<sp/>pairUpdateList;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>shoulderLine;</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>tickMarkStep;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbTickMarks;</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tickMarkZero;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/>QMap&lt;int,QString&gt;<sp/>firingRates;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isZoomed;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>goingToDie;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMARGIN;</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>YMARGIN;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/></highlight><highlight class="comment">/*True<sp/>if<sp/>the<sp/>view<sp/>is<sp/>currently<sp/>been<sp/>printed,<sp/>false<sp/>otherwise.**/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>printState;</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/>QRegion<sp/>printRegion;</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="394"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/correlationview.h"/>
+  </compounddef>
+</doxygen>

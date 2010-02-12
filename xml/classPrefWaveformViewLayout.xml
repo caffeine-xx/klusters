@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefWaveformViewLayout" kind="class" prot="public">
+    <compoundname>PrefWaveformViewLayout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_19dbc3fb626de92bf9a19021944ed31a6" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefWaveformViewLayout::groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1a729521a5ca2a6afa864348f5a2c9f7b" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefWaveformViewLayout::textLabel4_2</definition>
+        <argsstring></argsstring>
+        <name>textLabel4_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="35" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1b3e216ad43086213c519dcaae118e539" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* PrefWaveformViewLayout::gainSpinBox</definition>
+        <argsstring></argsstring>
+        <name>gainSpinBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_185fd07b4215c5e65d401650fc12bf58c" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefWaveformViewLayout::groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1ee135cb1ac6a25856a9d5ce9297cac77" prot="public" static="no" mutable="no">
+        <type><ref refid="classChannelList" kindref="compound">ChannelList</ref> *</type>
+        <definition>ChannelList* PrefWaveformViewLayout::channelList</definition>
+        <argsstring></argsstring>
+        <name>channelList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_132830ab512723f8519142f51bb1feecb" prot="public" static="no" mutable="no">
+        <type>KPushButton *</type>
+        <definition>KPushButton* PrefWaveformViewLayout::saveButton</definition>
+        <argsstring></argsstring>
+        <name>saveButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_141cbbb7044f881c0f9580412f95a8c19" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefWaveformViewLayout::textLabel1</definition>
+        <argsstring></argsstring>
+        <name>textLabel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_131cd9fb477d218c75bd6b57c04f0e9d3" prot="public" static="no" mutable="no">
+        <type>KPushButton *</type>
+        <definition>KPushButton* PrefWaveformViewLayout::loadButton</definition>
+        <argsstring></argsstring>
+        <name>loadButton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_14669eb0988c17566bff2a1b1508df32f" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* PrefWaveformViewLayout::PrefWaveformViewLayoutLayout</definition>
+        <argsstring></argsstring>
+        <name>PrefWaveformViewLayoutLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1532a3bbdba323cee5ab97fec75481864" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer1</definition>
+        <argsstring></argsstring>
+        <name>spacer1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_16a13fee444e12b9ca15b2965e141ab64" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefWaveformViewLayout::layout14</definition>
+        <argsstring></argsstring>
+        <name>layout14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_157d660508ebf8bbf4745b7f9c6dce8b1" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer16</definition>
+        <argsstring></argsstring>
+        <name>spacer16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_11b50e8f6aa747ee904177414db00948c" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefWaveformViewLayout::layout40</definition>
+        <argsstring></argsstring>
+        <name>layout40</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_12cc962e20c054cdad8297cdf22dc476b" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer7_2</definition>
+        <argsstring></argsstring>
+        <name>spacer7_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1de8b05c14a174dec278163a8c9b92251" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefWaveformViewLayout::layout53</definition>
+        <argsstring></argsstring>
+        <name>layout53</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1a3207d3c14d55677692bd23267ca69aa" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer17</definition>
+        <argsstring></argsstring>
+        <name>spacer17</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1bc8208dfb574304ec48d29622693ad81" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* PrefWaveformViewLayout::layout52</definition>
+        <argsstring></argsstring>
+        <name>layout52</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1e3d5b9d16fb4202132d722cecec49e55" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer9_2</definition>
+        <argsstring></argsstring>
+        <name>spacer9_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_16d9f9c9bfda558efeac2d03c1fcd5724" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer14_3</definition>
+        <argsstring></argsstring>
+        <name>spacer14_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_111daa7bb5c2bebee30c1121d57f48fe4" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer8</definition>
+        <argsstring></argsstring>
+        <name>spacer8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1ac0fecc6e4df12bf455fd4b78993d67b" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer20_2_2</definition>
+        <argsstring></argsstring>
+        <name>spacer20_2_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_13ac855b3b23a702a424f30e80c60cac9" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer20_2</definition>
+        <argsstring></argsstring>
+        <name>spacer20_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_16185cc2c30511230aeb11c5ba220afd3" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer9</definition>
+        <argsstring></argsstring>
+        <name>spacer9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_12cbf1fa8e61de8451a001f75cce546ef" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer20</definition>
+        <argsstring></argsstring>
+        <name>spacer20</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformViewLayout_1967a3f73496c08ac829882611a691ada" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefWaveformViewLayout::spacer14</definition>
+        <argsstring></argsstring>
+        <name>spacer14</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefWaveformViewLayout_167f205a4887913622671876537ef4130" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefWaveformViewLayout::PrefWaveformViewLayout</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags fl=0)</argsstring>
+        <name>PrefWaveformViewLayout</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>fl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="31" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.cpp" bodystart="29" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformViewLayout_1ba689b58da2a1608d3e21f2499b28246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefWaveformViewLayout::~PrefWaveformViewLayout</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefWaveformViewLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.cpp" bodystart="123" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classPrefWaveformViewLayout_194c7cdaa96f25860d73039b48fd1dc2c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PrefWaveformViewLayout::languageChange</definition>
+        <argsstring>()</argsstring>
+        <name>languageChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.cpp" bodystart="132" bodyend="143"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1241">
+        <label>ChannelList</label>
+        <link refid="classChannelList"/>
+      </node>
+      <node id="1240">
+        <label>PrefWaveformViewLayout</label>
+        <childnode refid="1241" relation="usage">
+          <edgelabel>channelList</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" line="27" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformviewlayout.h" bodystart="26" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classPrefWaveformViewLayout_1ee135cb1ac6a25856a9d5ce9297cac77" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>channelList</name></member>
+      <member refid="classPrefWaveformViewLayout_1b3e216ad43086213c519dcaae118e539" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>gainSpinBox</name></member>
+      <member refid="classPrefWaveformViewLayout_19dbc3fb626de92bf9a19021944ed31a6" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>groupBox1</name></member>
+      <member refid="classPrefWaveformViewLayout_185fd07b4215c5e65d401650fc12bf58c" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>groupBox2</name></member>
+      <member refid="classPrefWaveformViewLayout_194c7cdaa96f25860d73039b48fd1dc2c" prot="protected" virt="virtual"><scope>PrefWaveformViewLayout</scope><name>languageChange</name></member>
+      <member refid="classPrefWaveformViewLayout_16a13fee444e12b9ca15b2965e141ab64" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>layout14</name></member>
+      <member refid="classPrefWaveformViewLayout_11b50e8f6aa747ee904177414db00948c" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>layout40</name></member>
+      <member refid="classPrefWaveformViewLayout_1bc8208dfb574304ec48d29622693ad81" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>layout52</name></member>
+      <member refid="classPrefWaveformViewLayout_1de8b05c14a174dec278163a8c9b92251" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>layout53</name></member>
+      <member refid="classPrefWaveformViewLayout_131cd9fb477d218c75bd6b57c04f0e9d3" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>loadButton</name></member>
+      <member refid="classPrefWaveformViewLayout_167f205a4887913622671876537ef4130" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>PrefWaveformViewLayout</name></member>
+      <member refid="classPrefWaveformViewLayout_14669eb0988c17566bff2a1b1508df32f" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>PrefWaveformViewLayoutLayout</name></member>
+      <member refid="classPrefWaveformViewLayout_132830ab512723f8519142f51bb1feecb" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>saveButton</name></member>
+      <member refid="classPrefWaveformViewLayout_1532a3bbdba323cee5ab97fec75481864" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer1</name></member>
+      <member refid="classPrefWaveformViewLayout_1967a3f73496c08ac829882611a691ada" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer14</name></member>
+      <member refid="classPrefWaveformViewLayout_16d9f9c9bfda558efeac2d03c1fcd5724" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer14_3</name></member>
+      <member refid="classPrefWaveformViewLayout_157d660508ebf8bbf4745b7f9c6dce8b1" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer16</name></member>
+      <member refid="classPrefWaveformViewLayout_1a3207d3c14d55677692bd23267ca69aa" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer17</name></member>
+      <member refid="classPrefWaveformViewLayout_12cbf1fa8e61de8451a001f75cce546ef" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer20</name></member>
+      <member refid="classPrefWaveformViewLayout_13ac855b3b23a702a424f30e80c60cac9" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer20_2</name></member>
+      <member refid="classPrefWaveformViewLayout_1ac0fecc6e4df12bf455fd4b78993d67b" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer20_2_2</name></member>
+      <member refid="classPrefWaveformViewLayout_12cc962e20c054cdad8297cdf22dc476b" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer7_2</name></member>
+      <member refid="classPrefWaveformViewLayout_111daa7bb5c2bebee30c1121d57f48fe4" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer8</name></member>
+      <member refid="classPrefWaveformViewLayout_16185cc2c30511230aeb11c5ba220afd3" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer9</name></member>
+      <member refid="classPrefWaveformViewLayout_1e3d5b9d16fb4202132d722cecec49e55" prot="protected" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>spacer9_2</name></member>
+      <member refid="classPrefWaveformViewLayout_141cbbb7044f881c0f9580412f95a8c19" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>textLabel1</name></member>
+      <member refid="classPrefWaveformViewLayout_1a729521a5ca2a6afa864348f5a2c9f7b" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>textLabel4_2</name></member>
+      <member refid="classPrefWaveformViewLayout_1ba689b58da2a1608d3e21f2499b28246" prot="public" virt="non-virtual"><scope>PrefWaveformViewLayout</scope><name>~PrefWaveformViewLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

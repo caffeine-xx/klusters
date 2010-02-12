@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classSaveThread_1_1SaveDoneEvent" kind="class" prot="public">
+    <compoundname>SaveThread::SaveDoneEvent</compoundname>
+    <includes refid="savethread_8h" local="no">savethread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classSaveThread_1_1SaveDoneEvent_1de788a565deb1306fd2355ba5f5ef7a9" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classSaveThread" kindref="compound">SaveThread</ref> &amp;</type>
+        <definition>const SaveThread&amp; SaveThread::SaveDoneEvent::saveThread</definition>
+        <argsstring></argsstring>
+        <name>saveThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="82" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSaveThread_1_1SaveDoneEvent_1c54d56661d862d15126c794fc84b937a" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString SaveThread::SaveDoneEvent::tempCluFile</definition>
+        <argsstring></argsstring>
+        <name>tempCluFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classSaveThread_1_1SaveDoneEvent_15326cb3b1d12ee9f4fea2749bdc8a7d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool SaveThread::SaveDoneEvent::saveOk</definition>
+        <argsstring></argsstring>
+        <name>saveOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classSaveThread_1_1SaveDoneEvent_159ff84d6a4e57963f70118b96d815a64" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref> *</type>
+        <definition>SaveDoneEvent* SaveThread::saveDoneEvent</definition>
+        <argsstring>(bool status)</argsstring>
+        <name>SaveThread::saveDoneEvent</name>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_13a9fbb7d1ff959efec1b5ddc8a8d6618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SaveThread::SaveDoneEvent::isItSaveAs</definition>
+        <argsstring>()</argsstring>
+        <name>isItSaveAs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="73" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="73" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_15b83275d1b1854e24302160c432a0264" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SaveThread::SaveDoneEvent::setTemporaryFile</definition>
+        <argsstring>(QString tmpFile)</argsstring>
+        <name>setTemporaryFile</name>
+        <param>
+          <type>QString</type>
+          <declname>tmpFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_1fbf32d3b58cbda8aebdd6d0a7869929a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString SaveThread::SaveDoneEvent::temporaryFile</definition>
+        <argsstring>()</argsstring>
+        <name>temporaryFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_166d02337bea86e29e8208743146f8fd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SaveThread::SaveDoneEvent::isSaveOk</definition>
+        <argsstring>()</argsstring>
+        <name>isSaveOk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="76" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_17aa0f65b93ef2c07df2e6e3706354e33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SaveThread::SaveDoneEvent::~SaveDoneEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~SaveDoneEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSaveThread_1_1SaveDoneEvent_1416a10ebc0de044fd03ed31001ae343b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SaveThread::SaveDoneEvent::SaveDoneEvent</definition>
+        <argsstring>(const SaveThread &amp;thread, bool status)</argsstring>
+        <name>SaveDoneEvent</name>
+        <param>
+          <type>const <ref refid="classSaveThread" kindref="compound">SaveThread</ref> &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to send information to the application object (<ref refid="classKlustersApp" kindref="compound">KlustersApp</ref>) concerning the save process. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1286">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1280">
+        <label>T</label>
+      </node>
+      <node id="1278">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1289">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1284">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1277" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1274" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1283">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1274">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1275" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1276" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1277" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1282" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1284" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1285" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1286" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1289" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1273">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1274" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1287" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1291" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1293" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1277">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1278" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1281" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1275">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1287">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1288" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1274" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1273" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1290" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1285" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1280" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1272">
+        <label>SaveThread::SaveDoneEvent</label>
+        <link refid="classSaveThread_1_1SaveDoneEvent"/>
+        <childnode refid="1273" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1293">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1281">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1277" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1276">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1274" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1277" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/savethread.h" bodystart="67" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classSaveThread_1_1SaveDoneEvent_13a9fbb7d1ff959efec1b5ddc8a8d6618" prot="public" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>isItSaveAs</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_166d02337bea86e29e8208743146f8fd7" prot="public" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>isSaveOk</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_1416a10ebc0de044fd03ed31001ae343b" prot="private" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>SaveDoneEvent</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_15326cb3b1d12ee9f4fea2749bdc8a7d2" prot="private" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>saveOk</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_1de788a565deb1306fd2355ba5f5ef7a9" prot="private" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>saveThread</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_159ff84d6a4e57963f70118b96d815a64" prot="private" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>SaveThread::saveDoneEvent</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_15b83275d1b1854e24302160c432a0264" prot="public" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>setTemporaryFile</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_1c54d56661d862d15126c794fc84b937a" prot="private" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>tempCluFile</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_1fbf32d3b58cbda8aebdd6d0a7869929a" prot="public" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>temporaryFile</name></member>
+      <member refid="classSaveThread_1_1SaveDoneEvent_17aa0f65b93ef2c07df2e6e3706354e33" prot="public" virt="non-virtual"><scope>SaveThread::SaveDoneEvent</scope><name>~SaveDoneEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

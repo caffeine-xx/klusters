@@ -1,0 +1,1582 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classEventsProvider" kind="class" prot="public">
+    <compoundname>EventsProvider</compoundname>
+    <basecompoundref refid="classDataProvider" prot="public" virt="non-virtual">DataProvider</basecompoundref>
+    <includes refid="eventsprovider_8h" local="no">eventsprovider.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90" prot="public" static="no">
+        <name>loadReturnMessage</name>
+        <enumvalue id="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90eb90dd1c21ecd19ebdeccdcb015f4763" prot="public">
+          <name>OK</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a9078870f1032b99e753d22a1606bb8b8b8" prot="public">
+          <name>OPEN_ERROR</name>
+          <initializer>1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90ed569b0b9efe5fe97b9778f8047e30b2" prot="public">
+          <name>INCORRECT_CONTENT</name>
+          <initializer>2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90edc8ea6212963bcafc5d3e8349fa4707" prot="public">
+          <name>COUNT_ERROR</name>
+          <initializer>3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Information retun after a call to loadFile/saveDocument/createFeatureFile. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classEventsProvider_12dfcc8e5e428e1db2cce2ca770b7a53e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString EventsProvider::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+<para>Provider&apos;s name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="237" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1e1bfa00c5c2f7670c0cc0e4e70578b30" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EventsProvider::currentSamplingRate</definition>
+        <argsstring></argsstring>
+        <name>currentSamplingRate</name>
+        <briefdescription>
+<para>Sampling rate used in the current file containing the data in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="240" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_10bb9ed218a216afbdb2a6fba34aece82" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt;</type>
+        <definition>Array&lt;double&gt; EventsProvider::timeStamps</definition>
+        <argsstring></argsstring>
+        <name>timeStamps</name>
+        <briefdescription>
+<para>A 1 line array containing the event times. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="243" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_10fb0652f8b73449ebfc352471dc64ac7" prot="private" static="no" mutable="no">
+        <type><ref refid="classpArray" kindref="compound">pArray</ref>&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &gt;</type>
+        <definition>pArray&lt;EventDescription&gt; EventsProvider::events</definition>
+        <argsstring></argsstring>
+        <name>events</name>
+        <briefdescription>
+<para>A 1 line array containing the event ids. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="246" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_112e448d01766fea0107fd91a6b6d5798" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt;</type>
+        <definition>Array&lt;double&gt; EventsProvider::timeStampsUndo</definition>
+        <argsstring></argsstring>
+        <name>timeStampsUndo</name>
+        <briefdescription>
+<para>A 1 line array containing the event times for an undo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="249" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1453f5fe306d9e0535841deb84263a672" prot="private" static="no" mutable="no">
+        <type><ref refid="classpArray" kindref="compound">pArray</ref>&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &gt;</type>
+        <definition>pArray&lt;EventDescription&gt; EventsProvider::eventsUndo</definition>
+        <argsstring></argsstring>
+        <name>eventsUndo</name>
+        <briefdescription>
+<para>A 1 line array containing the event ids for an undo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="252" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_199c27c48f3533d271a7a99e75511639a" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt;</type>
+        <definition>Array&lt;double&gt; EventsProvider::timeStampsRedo</definition>
+        <argsstring></argsstring>
+        <name>timeStampsRedo</name>
+        <briefdescription>
+<para>A 1 line array containing the event times for an redo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="255" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_17c6ace06cb5beab3b6eb944f04b686ca" prot="private" static="no" mutable="no">
+        <type><ref refid="classpArray" kindref="compound">pArray</ref>&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &gt;</type>
+        <definition>pArray&lt;EventDescription&gt; EventsProvider::eventsRedo</definition>
+        <argsstring></argsstring>
+        <name>eventsRedo</name>
+        <briefdescription>
+<para>A 1 line array containing the event ids for an redo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="258" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1a9de83ac3054a898babda581914d5f4d" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::previousStartTime</definition>
+        <argsstring></argsstring>
+        <name>previousStartTime</name>
+        <briefdescription>
+<para>The start time for the previously requested data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="261" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1aa85934cd8bfc9727bd54b6c3270e5eb" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::previousEndTime</definition>
+        <argsstring></argsstring>
+        <name>previousEndTime</name>
+        <briefdescription>
+<para>The end time for the previously requested data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="264" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_147184c8ea807474492b9a08957c0a431" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::previousStartIndex</definition>
+        <argsstring></argsstring>
+        <name>previousStartIndex</name>
+        <briefdescription>
+<para>The start index for the previously requested data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="267" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1a42bd87ff760d91cdc77e3d51f1b5ba0" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::previousEndIndex</definition>
+        <argsstring></argsstring>
+        <name>previousEndIndex</name>
+        <briefdescription>
+<para>The end index for the previously requested data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="270" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1c0388b0fbf4512f8898100a5cd55781c" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::nbEvents</definition>
+        <argsstring></argsstring>
+        <name>nbEvents</name>
+        <briefdescription>
+<para>Number of events in the event file the provider provides the data for. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="273" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_17afb96fb886cc6ae7c6cbcc6e4759c7e" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref>, int &gt;</type>
+        <definition>QMap&lt;EventDescription,int&gt; EventsProvider::eventIds</definition>
+        <argsstring></argsstring>
+        <name>eventIds</name>
+        <briefdescription>
+<para>Map given a map between the event description and an numeric identifier. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="276" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_14c76bbdb5cd08c5c018e8c85a19fc673" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &gt;</type>
+        <definition>QMap&lt;int,EventDescription&gt; EventsProvider::idsDescriptions</definition>
+        <argsstring></argsstring>
+        <name>idsDescriptions</name>
+        <briefdescription>
+<para>Map given a map between an numeric identifier and the event description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="279" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_14a09b606ee0067ec844a6d970331a19b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int EventsProvider::descriptionLength</definition>
+        <argsstring></argsstring>
+        <name>descriptionLength</name>
+        <briefdescription>
+<para>The value to use as the length for the event descriptions in the event palette. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="282" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_14176a332c83d2a7a896b38db5f0cf0da" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long EventsProvider::fileMaxTime</definition>
+        <argsstring></argsstring>
+        <name>fileMaxTime</name>
+        <briefdescription>
+<para>The maximum time, in miliseconds, contained in the file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="285" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_195a6dc968b4b76b49feb7171dc90333f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float EventsProvider::eventPosition</definition>
+        <argsstring></argsstring>
+        <name>eventPosition</name>
+        <briefdescription>
+<para>Represents the percentage from the begining of the window where the events are display when browsing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="288" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_12f1f043f926dbc36312c75e89ebdeedf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool EventsProvider::modified</definition>
+        <argsstring></argsstring>
+        <name>modified</name>
+        <briefdescription>
+<para>Flag to keep track of event modifications. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="291" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1ce8f6e44fd6290f225c50d25e007177c" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref>, int &gt;</type>
+        <definition>QMap&lt;EventDescription,int&gt; EventsProvider::eventDescriptionCounter</definition>
+        <argsstring></argsstring>
+        <name>eventDescriptionCounter</name>
+        <briefdescription>
+<para>Counter for each type of event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="294" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_1b8349ae4dcbd55a81bcad9fb8b8526d9" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref>, int &gt;</type>
+        <definition>QMap&lt;EventDescription,int&gt; EventsProvider::eventDescriptionCounterUndo</definition>
+        <argsstring></argsstring>
+        <name>eventDescriptionCounterUndo</name>
+        <briefdescription>
+<para>Counter for each type of event for an undo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="297" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classEventsProvider_149b3f4df198c96eaafa299212b0a9da0" prot="private" static="no" mutable="no">
+        <type>QMap&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref>, int &gt;</type>
+        <definition>QMap&lt;EventDescription,int&gt; EventsProvider::eventDescriptionCounterRedo</definition>
+        <argsstring></argsstring>
+        <name>eventDescriptionCounterRedo</name>
+        <briefdescription>
+<para>Counter for each type of event for an rdo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="300" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEventsProvider_1f5a5408a39df110a761c0a05010c138f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EventsProvider::EventsProvider</definition>
+        <argsstring>(KURL fileUrl, int currentSamplingRate, int position=25)</argsstring>
+        <name>EventsProvider</name>
+        <param>
+          <type>KURL</type>
+          <declname>fileUrl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>currentSamplingRate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+          <defval>25</defval>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the url of the event file containing the event ids. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>currentSamplingRate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate of the current file. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>represents the percentage from the begining of the window where the events are display when browsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="42" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1d90b4f1f76bdedc990d1ab7db93c2445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>EventsProvider::~EventsProvider</definition>
+        <argsstring>()</argsstring>
+        <name>~EventsProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1d6dec09f16591b2f53cbddbdc96babb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void EventsProvider::requestData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits=0)</argsstring>
+        <name>requestData</name>
+        <reimplements refid="classDataProvider_10df9ff57ddcbad2ba07f62346a01f86c">requestData</reimplements>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Triggers the retrieve of the events included in the time interval given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in miliseconds. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time interval from which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="222" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_13c5819196ba81514cdf34eec143ee34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::requestNextEventData</definition>
+        <argsstring>(long startTime, long timeFrame, QValueList&lt; int &gt; selectedIds, QObject *initiator)</argsstring>
+        <name>requestNextEventData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeFrame</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the first of the events included in the list <computeroutput>selectedIds</computeroutput> existing after the time <computeroutput>startTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>All the events included in the time interval given by <computeroutput>timeFrame</computeroutput> are retrieved. The time interval start time is computed in order to have the first event found located at <computeroutput>eventPosition</computeroutput> percentage of the time interval. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time for the look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeFrame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time interval for which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of event ids to look up for. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="383" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1e0c949e211c42562429ca95b9a260499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::requestPreviousEventData</definition>
+        <argsstring>(long endTime, long timeFrame, QValueList&lt; int &gt; selectedIds, QObject *initiator)</argsstring>
+        <name>requestPreviousEventData</name>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeFrame</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <briefdescription>
+<para>Looks up for the first of the events included in the list <computeroutput>selectedIds</computeroutput> existing before the time <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>All the events included in the time interval given by <computeroutput>timeFrame</computeroutput> are retrieved. The time interval start time is computed in order to have the first event found located at <computeroutput>eventPosition</computeroutput> percentage of the time interval. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time for the look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeFrame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time interval for which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of event ids to look up for. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="594" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1cceb976433725bd97a19f3c546fa7cfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EventsProvider::loadData</definition>
+        <argsstring>()</argsstring>
+        <name>loadData</name>
+        <briefdescription>
+<para>Loads the event ids and the corresponding spike time. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>an loadReturnMessage enum giving the load status </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="97" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="65" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_19f02275111e4072e7cbd095a7d4191d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int EventsProvider::getNbEvents</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbEvents</name>
+        <briefdescription>
+<para>Returns the number of events in the event file the provider provides the data for. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of events. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="102" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_19fcb77e64326554bc9adefdc7a6eb9d6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QMap&lt; <ref refid="classEventDescription" kindref="compound">EventDescription</ref>, int &gt;</type>
+        <definition>QMap&lt;EventDescription,int&gt; EventsProvider::eventDescriptionIdMap</definition>
+        <argsstring>() const</argsstring>
+        <name>eventDescriptionIdMap</name>
+        <briefdescription>
+<para>Returns map between the description of the events and an numeric identifier. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>map for the event descriptions. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="106" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_10b33e8e7f42dbecd9e8c56fc4329531e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QMap&lt; int, <ref refid="classEventDescription" kindref="compound">EventDescription</ref> &gt;</type>
+        <definition>QMap&lt;int,EventDescription&gt; EventsProvider::eventIdDescriptionMap</definition>
+        <argsstring>() const</argsstring>
+        <name>eventIdDescriptionMap</name>
+        <briefdescription>
+<para>Returns map between the a numeric identifier and the description of the events. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>map for the event ids. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="110" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_19dfb521f56c0d4627d01c40b50133c87" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString EventsProvider::getName</definition>
+        <argsstring>() const</argsstring>
+        <name>getName</name>
+        <briefdescription>
+<para>Returns the name of the provider which is the event file number. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>provider&apos;name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_155715274fc885148869b6bf4792cc4c8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int EventsProvider::getDescriptionLength</definition>
+        <argsstring>() const</argsstring>
+        <name>getDescriptionLength</name>
+        <briefdescription>
+<para>Returns the value to use as the length for the event descriptions in the event palette. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>length. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1c67590bd2d844fa2f63c1db62b105900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::setEventPosition</definition>
+        <argsstring>(int position)</argsstring>
+        <name>setEventPosition</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+<para>Sets the position where the events are display when browsing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>percentage from the begining of the window. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="125" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1467a0837455cab20b9ffe80aefed2495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::modifiedEvent</definition>
+        <argsstring>(int selectedEventId, double time, double newTime)</argsstring>
+        <name>modifiedEvent</name>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+<para>Updates the provider data to take into account the modification of an event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new time of the modified event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="132" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="802" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_19653a7e52887010e832669bc532fd485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::removeEvent</definition>
+        <argsstring>(int selectedEventId, double time)</argsstring>
+        <name>removeEvent</name>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Updates the provider data to take into account the deletion of an event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the deleted event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the deleted event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1118" bodyend="1168"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1da7ddce431ab341fd442edd8a3656d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::addEvent</definition>
+        <argsstring>(QString eventDescriptionToAdd, double time)</argsstring>
+        <name>addEvent</name>
+        <param>
+          <type>QString</type>
+          <declname>eventDescriptionToAdd</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Updates the provider data to take into account the addition of an event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventDescriptionToAdd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time of the added event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="144" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1170" bodyend="1233"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_133b3b25df10d7f1cd1056e4a5cd89606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::undo</definition>
+        <argsstring>()</argsstring>
+        <name>undo</name>
+        <briefdescription>
+<para>Reverts the last user action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="988" bodyend="1039"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1699d0aa9a45ee2f51fb2d955fcfd52ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::redo</definition>
+        <argsstring>()</argsstring>
+        <name>redo</name>
+        <briefdescription>
+<para>Reverts the last undo action. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1041" bodyend="1092"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_13c2a61d9efc69320fc9aa7e5b42e6a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::clearUndoRedoData</definition>
+        <argsstring>()</argsstring>
+        <name>clearUndoRedoData</name>
+        <briefdescription>
+<para>Empties the undo and redo state of the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1094" bodyend="1104"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_16f55d7200cc8ab7b038123309805fbb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int EventsProvider::save</definition>
+        <argsstring>(QFile *eventFile)</argsstring>
+        <name>save</name>
+        <param>
+          <type>QFile *</type>
+          <declname>eventFile</declname>
+        </param>
+        <briefdescription>
+<para>Saves the data to disk. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>file where to save the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the output file status. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="159" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1106" bodyend="1115"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1eff38c275b0ab413a0a54ecaa61e066d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EventsProvider::isModified</definition>
+        <argsstring>() const</argsstring>
+        <name>isModified</name>
+        <briefdescription>
+<para>Tells if the event file has been modified at least since the last save. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true if the file has been modified, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="164" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1c929d39f562537cd44d7413739673376" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::initializeEmptyProvider</definition>
+        <argsstring>()</argsstring>
+        <name>initializeEmptyProvider</name>
+        <briefdescription>
+<para>Initializes the provider as it is the provider of a new empty event file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Default description length is 2 characters </para>        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="167" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="206" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1e3d90fb5b11664b6c5c3ae59cbe03700" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::updateSamplingRate</definition>
+        <argsstring>(int rate)</argsstring>
+        <name>updateSamplingRate</name>
+        <param>
+          <type>int</type>
+          <declname>rate</declname>
+        </param>
+        <briefdescription>
+<para>Updates the sampling rate for the current document. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>sampling rate. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="172" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="172" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1db689c023b77cb984bbc2ac07ccae257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::renameEvent</definition>
+        <argsstring>(int selectedEventId, QString newEventDescription, double time)</argsstring>
+        <name>renameEvent</name>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>newEventDescription</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Updates the provider data to take into account the renaming of an event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the event to rename. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newEventDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new name for the event to rename. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time of the event to rename. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="188" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1343" bodyend="1382"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classEventsProvider_1e48e4f307cc9fbbb278b1c776f897a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::dataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;times, Array&lt; int &gt; &amp;ids, QObject *initiator, QString providerName)</argsstring>
+        <name>dataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt; &amp;</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the time (in recording samples) of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ids</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the identifiers of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="197" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.moc.cpp" bodystart="124" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEventsProvider_1543c534fb1baf205ef89cb37df7a212a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::nextEventDataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;times, Array&lt; int &gt; &amp;ids, QObject *initiator, QString providerName, long startingTime)</argsstring>
+        <name>nextEventDataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt; &amp;</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTime</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data for the next event have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the time (in recording samples) of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ids</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the identifiers of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retreived. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="206" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.moc.cpp" bodystart="140" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEventsProvider_1ce6a554d8f1d5c68dca9487d47f497a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::previousEventDataReady</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;times, Array&lt; int &gt; &amp;ids, QObject *initiator, QString providerName, long startingTime)</argsstring>
+        <name>previousEventDataReady</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>times</declname>
+        </param>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt; &amp;</type>
+          <declname>ids</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startingTime</declname>
+        </param>
+        <briefdescription>
+<para>Signals that the data for the previous event have been retrieved. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>times</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the time (in recording samples) of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ids</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>1 line array containing the identifiers of each event existing in the requested time frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the instance providing the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startingTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time from which the data have been retreived. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="215" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.moc.cpp" bodystart="157" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEventsProvider_13780ad0f0a5cb7514a2903e2ef51d599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::newEventDescriptionCreated</definition>
+        <argsstring>(QString providerName, QMap&lt; int, int &gt; oldNewEventIds, QMap&lt; int, int &gt; newOldEventIds, QString eventDescriptionAdded)</argsstring>
+        <name>newEventDescriptionCreated</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt;</type>
+          <declname>oldNewEventIds</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt;</type>
+          <declname>newOldEventIds</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>eventDescriptionAdded</declname>
+        </param>
+        <briefdescription>
+<para>Signals that a new event description has been created. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>provider identifier. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oldNewEventIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the previous eventIds and the new ones. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newOldEventIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the new eventIds and the previous ones. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventDescriptionAdded</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new event description added. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="223" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.moc.cpp" bodystart="174" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="signal" id="classEventsProvider_1e22f5448150f167a147c16a27ef61c95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::eventDescriptionRemoved</definition>
+        <argsstring>(QString providerName, QMap&lt; int, int &gt; oldNewEventIds, QMap&lt; int, int &gt; newOldEventIds, int eventIdToRemove, QString eventDescriptionToRemove)</argsstring>
+        <name>eventDescriptionRemoved</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt;</type>
+          <declname>oldNewEventIds</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt;</type>
+          <declname>newOldEventIds</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>eventIdToRemove</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>eventDescriptionToRemove</declname>
+        </param>
+        <briefdescription>
+<para>Signals that an event description has been removed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>provider identifier. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oldNewEventIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the previous eventIds and the new ones. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newOldEventIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the new eventIds and the previous ones. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventIdToRemove</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>removed event id. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventDescriptionToRemove</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>removed event description. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="232" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.moc.cpp" bodystart="190" bodyend="204"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classEventsProvider_1617cb82d3803d9ba9030347c6289c473" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::retrieveData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator)</argsstring>
+        <name>retrieveData</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the peak index of each spike included in the time frame given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time frame from which to retrieve the data, given in milisecond. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="309" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="226" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_13d77dfab8d35d8af24f835d20ef7c3aa" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long</type>
+        <definition>long EventsProvider::findIndex</definition>
+        <argsstring>(double eventTime, int eventId=-1)</argsstring>
+        <name>findIndex</name>
+        <param>
+          <type>double</type>
+          <declname>eventTime</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>eventId</declname>
+          <defval>-1</defval>
+        </param>
+        <briefdescription>
+<para>Finds the event index corresponding to the given time and event id. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time to look up. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the event to look up. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="315" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="875" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1865eb1568f3e2204e647a9c736eec1f9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::addEventDescription</definition>
+        <argsstring>(QString eventDescriptionToAdd)</argsstring>
+        <name>addEventDescription</name>
+        <param>
+          <type>QString</type>
+          <declname>eventDescriptionToAdd</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new description event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventDescriptionToAdd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>event description to add. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="320" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1235" bodyend="1287"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventsProvider_1e3b51567cb72bac559e3d8ce6aa9668e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void EventsProvider::removeEventDescription</definition>
+        <argsstring>(QString eventDescriptionToRemove)</argsstring>
+        <name>removeEventDescription</name>
+        <param>
+          <type>QString</type>
+          <declname>eventDescriptionToRemove</declname>
+        </param>
+        <briefdescription>
+<para>removes a description event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventDescriptionToRemove</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>event description to remove. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="325" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.cpp" bodystart="1289" bodyend="1341"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The class provides event data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1048">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1047">
+        <label>EventsProvider</label>
+        <link refid="classEventsProvider"/>
+        <childnode refid="1048" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1053">
+        <label>T</label>
+      </node>
+      <node id="1051">
+        <label>Array&lt; double &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1052" relation="template-instance">
+          <edgelabel>&lt; double &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>pArray&lt; T &gt;</label>
+        <link refid="classpArray"/>
+        <childnode refid="1052" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>Array&lt; EventDescription &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+        <childnode refid="1052" relation="template-instance">
+          <edgelabel>&lt; EventDescription &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1052">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>EventsProvider</label>
+        <link refid="classEventsProvider"/>
+        <childnode refid="1050" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1051" relation="usage">
+          <edgelabel>timeStampsUndo
+timeStamps
+timeStampsRedo</edgelabel>
+        </childnode>
+        <childnode refid="1054" relation="usage">
+          <edgelabel>eventsUndo
+eventsRedo
+events</edgelabel>
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>pArray&lt; EventDescription &gt;</label>
+        <link refid="classpArray"/>
+        <childnode refid="1055" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1057" relation="template-instance">
+          <edgelabel>&lt; EventDescription &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>EventDescription</label>
+        <link refid="classEventDescription"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="50" bodyend="326"/>
+    <listofallmembers>
+      <member refid="classEventsProvider_1da7ddce431ab341fd442edd8a3656d49" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>addEvent</name></member>
+      <member refid="classEventsProvider_1865eb1568f3e2204e647a9c736eec1f9" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>addEventDescription</name></member>
+      <member refid="classEventsProvider_13c2a61d9efc69320fc9aa7e5b42e6a72" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>clearUndoRedoData</name></member>
+      <member refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90edc8ea6212963bcafc5d3e8349fa4707" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>COUNT_ERROR</name></member>
+      <member refid="classEventsProvider_1e1bfa00c5c2f7670c0cc0e4e70578b30" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>currentSamplingRate</name></member>
+      <member refid="classDataProvider_1c0f46a1b6591e24fb57682372c0fb3b3" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>DataProvider</name></member>
+      <member refid="classEventsProvider_1e48e4f307cc9fbbb278b1c776f897a17" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>dataReady</name></member>
+      <member refid="classEventsProvider_14a09b606ee0067ec844a6d970331a19b" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>descriptionLength</name></member>
+      <member refid="classEventsProvider_1ce8f6e44fd6290f225c50d25e007177c" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventDescriptionCounter</name></member>
+      <member refid="classEventsProvider_149b3f4df198c96eaafa299212b0a9da0" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventDescriptionCounterRedo</name></member>
+      <member refid="classEventsProvider_1b8349ae4dcbd55a81bcad9fb8b8526d9" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventDescriptionCounterUndo</name></member>
+      <member refid="classEventsProvider_19fcb77e64326554bc9adefdc7a6eb9d6" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>eventDescriptionIdMap</name></member>
+      <member refid="classEventsProvider_1e22f5448150f167a147c16a27ef61c95" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>eventDescriptionRemoved</name></member>
+      <member refid="classEventsProvider_10b33e8e7f42dbecd9e8c56fc4329531e" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>eventIdDescriptionMap</name></member>
+      <member refid="classEventsProvider_17afb96fb886cc6ae7c6cbcc6e4759c7e" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventIds</name></member>
+      <member refid="classEventsProvider_195a6dc968b4b76b49feb7171dc90333f" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventPosition</name></member>
+      <member refid="classEventsProvider_10fb0652f8b73449ebfc352471dc64ac7" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>events</name></member>
+      <member refid="classEventsProvider_1f5a5408a39df110a761c0a05010c138f" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>EventsProvider</name></member>
+      <member refid="classEventsProvider_17c6ace06cb5beab3b6eb944f04b686ca" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventsRedo</name></member>
+      <member refid="classEventsProvider_1453f5fe306d9e0535841deb84263a672" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>eventsUndo</name></member>
+      <member refid="classEventsProvider_14176a332c83d2a7a896b38db5f0cf0da" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>fileMaxTime</name></member>
+      <member refid="classDataProvider_12fa94f4ef65e78995b0182cbe9a03b55" prot="protected" virt="non-virtual"><scope>EventsProvider</scope><name>fileName</name></member>
+      <member refid="classEventsProvider_13d77dfab8d35d8af24f835d20ef7c3aa" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>findIndex</name></member>
+      <member refid="classEventsProvider_155715274fc885148869b6bf4792cc4c8" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>getDescriptionLength</name></member>
+      <member refid="classEventsProvider_19dfb521f56c0d4627d01c40b50133c87" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>getName</name></member>
+      <member refid="classEventsProvider_19f02275111e4072e7cbd095a7d4191d1" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>getNbEvents</name></member>
+      <member refid="classEventsProvider_14c76bbdb5cd08c5c018e8c85a19fc673" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>idsDescriptions</name></member>
+      <member refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90ed569b0b9efe5fe97b9778f8047e30b2" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>INCORRECT_CONTENT</name></member>
+      <member refid="classEventsProvider_1c929d39f562537cd44d7413739673376" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>initializeEmptyProvider</name></member>
+      <member refid="classEventsProvider_1eff38c275b0ab413a0a54ecaa61e066d" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>isModified</name></member>
+      <member refid="classDataProvider_15361517c17a7054ca22554d83f882d94" prot="public" virt="virtual"><scope>EventsProvider</scope><name>isThreadsRunning</name></member>
+      <member refid="classEventsProvider_1cceb976433725bd97a19f3c546fa7cfd" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>loadData</name></member>
+      <member refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>loadReturnMessage</name></member>
+      <member refid="classEventsProvider_12f1f043f926dbc36312c75e89ebdeedf" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>modified</name></member>
+      <member refid="classEventsProvider_1467a0837455cab20b9ffe80aefed2495" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>modifiedEvent</name></member>
+      <member refid="classEventsProvider_12dfcc8e5e428e1db2cce2ca770b7a53e" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>name</name></member>
+      <member refid="classEventsProvider_1c0388b0fbf4512f8898100a5cd55781c" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>nbEvents</name></member>
+      <member refid="classEventsProvider_13780ad0f0a5cb7514a2903e2ef51d599" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>newEventDescriptionCreated</name></member>
+      <member refid="classEventsProvider_1543c534fb1baf205ef89cb37df7a212a" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>nextEventDataReady</name></member>
+      <member refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a90eb90dd1c21ecd19ebdeccdcb015f4763" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>OK</name></member>
+      <member refid="classEventsProvider_1650a3830f7fd1b0393a6c21043b98a9078870f1032b99e753d22a1606bb8b8b8" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>OPEN_ERROR</name></member>
+      <member refid="classEventsProvider_1a42bd87ff760d91cdc77e3d51f1b5ba0" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>previousEndIndex</name></member>
+      <member refid="classEventsProvider_1aa85934cd8bfc9727bd54b6c3270e5eb" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>previousEndTime</name></member>
+      <member refid="classEventsProvider_1ce6a554d8f1d5c68dca9487d47f497a8" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>previousEventDataReady</name></member>
+      <member refid="classEventsProvider_147184c8ea807474492b9a08957c0a431" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>previousStartIndex</name></member>
+      <member refid="classEventsProvider_1a9de83ac3054a898babda581914d5f4d" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>previousStartTime</name></member>
+      <member refid="classEventsProvider_1699d0aa9a45ee2f51fb2d955fcfd52ce" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>redo</name></member>
+      <member refid="classEventsProvider_19653a7e52887010e832669bc532fd485" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>removeEvent</name></member>
+      <member refid="classEventsProvider_1e3b51567cb72bac559e3d8ce6aa9668e" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>removeEventDescription</name></member>
+      <member refid="classEventsProvider_1db689c023b77cb984bbc2ac07ccae257" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>renameEvent</name></member>
+      <member refid="classEventsProvider_1d6dec09f16591b2f53cbddbdc96babb1" prot="public" virt="virtual"><scope>EventsProvider</scope><name>requestData</name></member>
+      <member refid="classEventsProvider_13c5819196ba81514cdf34eec143ee34e" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>requestNextEventData</name></member>
+      <member refid="classEventsProvider_1e0c949e211c42562429ca95b9a260499" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>requestPreviousEventData</name></member>
+      <member refid="classEventsProvider_1617cb82d3803d9ba9030347c6289c473" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>retrieveData</name></member>
+      <member refid="classEventsProvider_16f55d7200cc8ab7b038123309805fbb0" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>save</name></member>
+      <member refid="classEventsProvider_1c67590bd2d844fa2f63c1db62b105900" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>setEventPosition</name></member>
+      <member refid="classEventsProvider_10bb9ed218a216afbdb2a6fba34aece82" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>timeStamps</name></member>
+      <member refid="classEventsProvider_199c27c48f3533d271a7a99e75511639a" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>timeStampsRedo</name></member>
+      <member refid="classEventsProvider_112e448d01766fea0107fd91a6b6d5798" prot="private" virt="non-virtual"><scope>EventsProvider</scope><name>timeStampsUndo</name></member>
+      <member refid="classEventsProvider_133b3b25df10d7f1cd1056e4a5cd89606" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>undo</name></member>
+      <member refid="classEventsProvider_1e3d90fb5b11664b6c5c3ae59cbe03700" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>updateSamplingRate</name></member>
+      <member refid="classDataProvider_1eaf1d12be2fa035dff39f34825a094d2" prot="public" virt="virtual"><scope>EventsProvider</scope><name>~DataProvider</name></member>
+      <member refid="classEventsProvider_1d90b4f1f76bdedc990d1ab7db93c2445" prot="public" virt="non-virtual"><scope>EventsProvider</scope><name>~EventsProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

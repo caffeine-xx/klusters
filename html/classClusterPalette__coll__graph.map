@@ -1,0 +1,9 @@
+base referer
+rect $classKlustersDoc.html 380,187 482,213
+rect $classAutoSaveThread.html 506,277 642,304
+rect $classChannelColors.html 164,96 284,123
+rect $classData.html 606,5 659,32
+rect $classClustersProvider.html 618,96 748,123
+rect $classTracesProvider.html 823,96 943,123
+rect $classDataProvider.html 747,5 856,32
+rect $classItemColors.html 322,96 415,123

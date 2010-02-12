@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="errormatrixview_8moc_8cpp" kind="file">
+    <compoundname>errormatrixview.moc.cpp</compoundname>
+    <includes refid="errormatrixview_8h" local="yes">errormatrixview.h</includes>
+    <includes local="no">qmetaobject.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">private/qucomextra_p.h</includes>
+    <incdepgraph>
+      <node id="1111">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1108" relation="include">
+        </childnode>
+        <childnode refid="1112" relation="include">
+        </childnode>
+        <childnode refid="1113" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+      </node>
+      <node id="1125">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="1120">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="1121" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+        <childnode refid="1122" relation="include">
+        </childnode>
+      </node>
+      <node id="1105">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1107">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1108" relation="include">
+        </childnode>
+        <childnode refid="1109" relation="include">
+        </childnode>
+        <childnode refid="1110" relation="include">
+        </childnode>
+        <childnode refid="1111" relation="include">
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="1114" relation="include">
+        </childnode>
+        <childnode refid="1115" relation="include">
+        </childnode>
+        <childnode refid="1116" relation="include">
+        </childnode>
+      </node>
+      <node id="1121">
+        <label>qstring.h</label>
+      </node>
+      <node id="1122">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1114">
+        <label>qrect.h</label>
+      </node>
+      <node id="1118">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1119" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+      </node>
+      <node id="1110">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="1108">
+        <label>qframe.h</label>
+      </node>
+      <node id="1104">
+        <label>qcolor.h</label>
+      </node>
+      <node id="1106">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1115">
+        <label>qpoint.h</label>
+      </node>
+      <node id="1124">
+        <label>qapplication.h</label>
+      </node>
+      <node id="1112">
+        <label>qcursor.h</label>
+      </node>
+      <node id="1101">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+        <childnode refid="1105" relation="include">
+        </childnode>
+        <childnode refid="1106" relation="include">
+        </childnode>
+        <childnode refid="1107" relation="include">
+        </childnode>
+        <childnode refid="1118" relation="include">
+        </childnode>
+        <childnode refid="1120" relation="include">
+        </childnode>
+      </node>
+      <node id="1116">
+        <label>math.h</label>
+      </node>
+      <node id="1102">
+        <label>qwidget.h</label>
+      </node>
+      <node id="1117">
+        <label>iostream</label>
+      </node>
+      <node id="1123">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="1100">
+        <label>errormatrixview.moc.cpp</label>
+        <link refid="errormatrixview.moc.cpp"/>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1123" relation="include">
+        </childnode>
+        <childnode refid="1124" relation="include">
+        </childnode>
+        <childnode refid="1125" relation="include">
+        </childnode>
+      </node>
+      <node id="1103">
+        <label>qmap.h</label>
+      </node>
+      <node id="1109">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="1119">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="errormatrixview_8moc_8cpp_156060340ecb08bdcb113f626c790ed87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ErrorMatrixView</definition>
+        <argsstring>(&quot;ErrorMatrixView&quot;,&amp;ErrorMatrixView::staticMetaObject)</argsstring>
+        <name>cleanUp_ErrorMatrixView</name>
+        <param>
+          <type>&quot;ErrorMatrixView&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ErrorMatrixView::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="errormatrixview_8moc_8cpp_156060340ecb08bdcb113f626c790ed87" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ErrorMatrixView</definition>
+        <argsstring>(&quot;ErrorMatrixView&quot;,&amp;ErrorMatrixView::staticMetaObject)</argsstring>
+        <name>cleanUp_ErrorMatrixView</name>
+        <param>
+          <type>&quot;ErrorMatrixView&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ErrorMatrixView::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>ErrorMatrixView<sp/>meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;errormatrixview.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>Sat<sp/>Sep<sp/>1<sp/>20:01:55<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>Qt<sp/>MOC<sp/>($Id:<sp/>qt/moc_yacc.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Oct<sp/>19<sp/>16:22<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_NO_COMPAT</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;errormatrixview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmetaobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;private/qucomextra_p.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)<sp/>||<sp/>(Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>26)</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>3.3.7.<sp/>It&quot;</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ErrorMatrixView::className()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QMetaObject<sp/>*ErrorMatrixView::metaObj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QMetaObjectCleanUp<sp/>cleanUp_ErrorMatrixView(<sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal">,<sp/>&amp;ErrorMatrixView::staticMetaObject<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ErrorMatrixView::tr(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::DefaultCodec<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromLatin1(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ErrorMatrixView::trUtf8(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::UnicodeUTF8<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromUtf8(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMetaObject*<sp/>ErrorMatrixView::staticMetaObject()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>metaObj<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaObject*<sp/>parentObject<sp/>=<sp/>ViewWidget::staticMetaObject();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/>0,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::Out<sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;isThreadsRunning&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_0<sp/>};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;updateMatrixContents&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>0<sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_2[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;groupedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;newClusterId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;clustersGrouped&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_2<sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_3[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deletedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;destinationCluster&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_3<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;clustersDeleted&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_3<sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_4[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;fromClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;destinationClusterId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;emptiedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_4<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;removeSpikesFromClusters&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_4<sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_5[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;fromClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clusterId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;emptiedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_5<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;newClusterAdded&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_5<sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_6[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;fromToNewClusterIds&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QMap&lt;int,int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;emptiedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_6<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;newClustersAdded&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_6<sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_7[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clustersToRecluster&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_7<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;newClustersAdded&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_7<sp/>};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_8[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clusterIdsOldNew&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QMap&lt;int,int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_8<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;renumber&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_8<sp/>};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_9[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clusterIdsNewOld&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QMap&lt;int,int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_9<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;undoRenumbering&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_9<sp/>};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_10[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;updatedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_10<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;undoAdditionModification&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_10<sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_11[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_11<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;undoAddition&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_11<sp/>};</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_12[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;updatedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_12<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;undoModification&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_12<sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_13[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clusterIdsOldNew&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QMap&lt;int,int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_13<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;redoRenumbering&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_13<sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_14[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;modifiedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;isModifiedByDeletion&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deletedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_14<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;redoAdditionModification&quot;</highlight><highlight class="normal">,<sp/>4,<sp/>param_slot_14<sp/>};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_15[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deletedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_15<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;redoAddition&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_15<sp/>};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_16[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;updatedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;isModifiedByDeletion&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deletedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_16<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;redoModification&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_16<sp/>};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_17[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;deletedClusters&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_17<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;redoDeletion&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_17<sp/>};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_18[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;printPainter&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QPainter&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;metrics&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QPaintDeviceMetrics&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;whiteBackground&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_bool,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_18<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;print&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_18<sp/>};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>slot_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;isThreadsRunning()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;updateMatrixContents()&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clustersGrouped(QValueList&lt;int&gt;&amp;,int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_2,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;clustersDeleted(QValueList&lt;int&gt;&amp;,int)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_3,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;removeSpikesFromClusters(QValueList&lt;int&gt;&amp;,int,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_4,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;newClusterAdded(QValueList&lt;int&gt;&amp;,int,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_5,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;newClustersAdded(QMap&lt;int,int&gt;&amp;,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_6,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;newClustersAdded(QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_7,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;renumber(QMap&lt;int,int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_8,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;undoRenumbering(QMap&lt;int,int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_9,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;undoAdditionModification(QValueList&lt;int&gt;&amp;,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_10,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;undoAddition(QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_11,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;undoModification(QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_12,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoRenumbering(QMap&lt;int,int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_13,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoAdditionModification(QValueList&lt;int&gt;&amp;,QValueList&lt;int&gt;&amp;,bool,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_14,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoAddition(QValueList&lt;int&gt;&amp;,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_15,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoModification(QValueList&lt;int&gt;&amp;,bool,QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_16,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;redoDeletion(QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_17,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;print(QPainter&amp;,QPaintDeviceMetrics&amp;,bool)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_18,<sp/>QMetaData::Public<sp/>}</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>metaObj<sp/>=<sp/>QMetaObject::new_metaobject(</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal">,<sp/>parentObject,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>slot_tbl,<sp/>19,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">#endif<sp/></highlight><highlight class="comment">//<sp/>QT_NO_PROPERTIES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>cleanUp_ErrorMatrixView.setMetaObject(<sp/>metaObj<sp/>);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ErrorMatrixView::qt_cast(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>clname<sp/>)</highlight></codeline>
+<codeline lineno="179"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!qstrcmp(<sp/>clname,<sp/></highlight><highlight class="stringliteral">&quot;ErrorMatrixView&quot;</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ViewWidget::qt_cast(<sp/>clname<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ErrorMatrixView::qt_invoke(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="186"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;slotOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>static_QUType_bool.set(_o,<ref refid="classErrorMatrixView_13fa450bd9e0ac2a7b6d9e89854aaf3b9" kindref="member">isThreadsRunning</ref>());<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/><ref refid="classErrorMatrixView_195bbcba77f32f6253f9d70f989c4afdb" kindref="member">updateMatrixContents</ref>();<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/><ref refid="classErrorMatrixView_1be3e01992541a5adc96bbc6dbd54dbd1" kindref="member">clustersGrouped</ref>((QValueList&lt;int&gt;&amp;)*((QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1)),(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+2));<sp/>break;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>3:<sp/><ref refid="classErrorMatrixView_1b2b1bd0d12fa78b9d24438fd683ec58d" kindref="member">clustersDeleted</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+2));<sp/>break;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>4:<sp/><ref refid="classErrorMatrixView_18f3ec2d125523a383b2a744c970a001f" kindref="member">removeSpikesFromClusters</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+2),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+3)));<sp/>break;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>5:<sp/><ref refid="classErrorMatrixView_1200d21282cb7cbd54d6e841bc1271e32" kindref="member">newClusterAdded</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)static_QUType_int.get(_o+2),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+3)));<sp/>break;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>6:<sp/><ref refid="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" kindref="member">newClustersAdded</ref>((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)));<sp/>break;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>7:<sp/><ref refid="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" kindref="member">newClustersAdded</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>8:<sp/><ref refid="classErrorMatrixView_12f84c47e90fd2d6725a292521768631c" kindref="member">renumber</ref>((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>9:<sp/><ref refid="classErrorMatrixView_169b1ae818a8104a13154ea79529c6ad9" kindref="member">undoRenumbering</ref>((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>10:<sp/><ref refid="classErrorMatrixView_1b5450c1a803893d54a708771ec9b600c" kindref="member">undoAdditionModification</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)));<sp/>break;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>11:<sp/><ref refid="classErrorMatrixView_16e0559b8888f3e0e2c3353b9cf28ec95" kindref="member">undoAddition</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>12:<sp/><ref refid="classErrorMatrixView_13ed3cac1cb79ffba02d9a4c9c75f34b9" kindref="member">undoModification</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>13:<sp/><ref refid="classErrorMatrixView_13207f1a1d5724f6869aa10e641ed2fe4" kindref="member">redoRenumbering</ref>((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>14:<sp/><ref refid="classErrorMatrixView_15d7b4bbb266d3af918c912d0ee37b7c6" kindref="member">redoAdditionModification</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)),(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)static_QUType_bool.get(_o+3),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+4)));<sp/>break;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>15:<sp/><ref refid="classErrorMatrixView_1817a9cbb4b65621f7613f1d034e24be0" kindref="member">redoAddition</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)));<sp/>break;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>16:<sp/><ref refid="classErrorMatrixView_16a89bb07d7a1314431956527e9359931" kindref="member">redoModification</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)),(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)static_QUType_bool.get(_o+2),(QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+3)));<sp/>break;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>17:<sp/><ref refid="classErrorMatrixView_14bbf5248d4b4999c40359c9d1d5d3571" kindref="member">redoDeletion</ref>((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>18:<sp/><ref refid="classErrorMatrixView_138a7990d11741fb42db186e607dcb386" kindref="member">print</ref>((QPainter&amp;)*((QPainter*)static_QUType_ptr.get(_o+1)),(QPaintDeviceMetrics&amp;)*((QPaintDeviceMetrics*)static_QUType_ptr.get(_o+2)),(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">)static_QUType_bool.get(_o+3));<sp/>break;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>default:</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/><ref refid="classViewWidget" kindref="compound">ViewWidget</ref>::qt_invoke(<sp/>_id,<sp/>_o<sp/>);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>TRUE;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>::qt_emit(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ViewWidget::qt_emit(_id,_o);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="218"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ErrorMatrixView::qt_property(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,<sp/>QVariant*<sp/>v)</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ViewWidget::qt_property(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>f,<sp/>v);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ErrorMatrixView::qt_static_property(<sp/>QObject*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/>QVariant*<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_PROPERTIES</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.moc.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="errormatrixthread_8h" kind="file">
+    <compoundname>errormatrixthread.h</compoundname>
+    <includes refid="errormatrixview_8h" local="yes">errormatrixview.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes refid="array_8h" local="yes">array.h</includes>
+    <includes refid="groupingassistant_8h" local="yes">groupingassistant.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includedby refid="errormatrixthread_8cpp" local="yes">errormatrixthread.cpp</includedby>
+    <includedby refid="errormatrixview_8cpp" local="yes">errormatrixview.cpp</includedby>
+    <incdepgraph>
+      <node id="987">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="1004">
+        <label>qregion.h</label>
+      </node>
+      <node id="1005">
+        <label>qfile.h</label>
+      </node>
+      <node id="996">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="998" relation="include">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="983">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="997">
+        <label>qstring.h</label>
+      </node>
+      <node id="998">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1008">
+        <label>kurl.h</label>
+      </node>
+      <node id="990">
+        <label>qrect.h</label>
+      </node>
+      <node id="1009">
+        <label>stdexcept</label>
+      </node>
+      <node id="994">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="995" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="984">
+        <label>qframe.h</label>
+      </node>
+      <node id="980">
+        <label>qcolor.h</label>
+      </node>
+      <node id="982">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="991">
+        <label>qpoint.h</label>
+      </node>
+      <node id="1011">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant_8h-source"/>
+        <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="976">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread.h"/>
+        <childnode refid="977" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="1011" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>vector</label>
+      </node>
+      <node id="988">
+        <label>qcursor.h</label>
+      </node>
+      <node id="977">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="992">
+        <label>math.h</label>
+      </node>
+      <node id="978">
+        <label>qwidget.h</label>
+      </node>
+      <node id="993">
+        <label>iostream</label>
+      </node>
+      <node id="1007">
+        <label>qthread.h</label>
+      </node>
+      <node id="1003">
+        <label>qdict.h</label>
+      </node>
+      <node id="979">
+        <label>qmap.h</label>
+      </node>
+      <node id="1006">
+        <label>qmutex.h</label>
+      </node>
+      <node id="985">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="995">
+        <label>cstring</label>
+      </node>
+      <node id="999">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="1000" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+        <childnode refid="1005" relation="include">
+        </childnode>
+        <childnode refid="1006" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+        <childnode refid="1008" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="1009" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="1010" relation="include">
+        </childnode>
+      </node>
+      <node id="1001">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classErrorMatrixThread" prot="public">ErrorMatrixThread</innerclass>
+    <innerclass refid="classErrorMatrixThread_1_1ErrorMatrixEvent" prot="public">ErrorMatrixThread::ErrorMatrixEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>errormatrixthread.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Jan<sp/>12<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ERRORMATRIXTHREAD_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ERRORMATRIXTHREAD_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;errormatrixview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;array.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;groupingassistant.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classErrorMatrixThread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread<sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>computeMatrix<sp/>of<sp/>ErrorMatrixView<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>ErrorMatrixThread,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>ErrorMatrixThread<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>ErrorMatrixThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>*<sp/>ErrorMatrixView::computeMatrix();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>(){};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>*<sp/>getProbabilities(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>probabilities;};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>getClusterList(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>clusterList;};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>getComputedClusterList(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>computedClusterList;};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>getIgnoreClusterIndex(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ignoreClusterIndex;};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="51" refid="classErrorMatrixThread_15a0dc607bc355fd64ad76b0f62d46e98" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixThread_15a0dc607bc355fd64ad76b0f62d46e98" kindref="member">stopProcessing</ref>(){</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/>haveToStopProcessing<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>assistant.<ref refid="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" kindref="member">stopComputing</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ErrorMatrixEvent;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ErrorMatrixEvent;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ErrorMatrixEvent*<sp/>getErrorMatrixEvent(){</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ErrorMatrixEvent(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="classErrorMatrixThread_1_1ErrorMatrixEvent" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getErrorMatrixEvent<sp/>of<sp/>ErrorMatrixThread<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>ErrorMatrixEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>ErrorMatrixEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>ErrorMatrixEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref>*<sp/>ErrorMatrixThread::getErrorMatrixEvent();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>*<sp/>parentThread(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>&amp;errorMatrixThread;};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref>(){};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref>(<ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>&amp;<sp/>thread):QCustomEvent(QEvent::User<sp/>+<sp/>600),errorMatrixThread(thread){};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>&amp;<sp/>errorMatrixThread;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref>(<ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>&amp;<sp/>view,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>d):errorMatrixView(view),data(d),haveToStopProcessing(false){</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/>start();<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref>&amp;<sp/>errorMatrixView;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>data;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>*<sp/>probabilities;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>clusterList;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>computedClusterList;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/>ignoreClusterIndex;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>haveToStopProcessing;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref><sp/>assistant;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h"/>
+  </compounddef>
+</doxygen>

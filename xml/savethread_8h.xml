@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="savethread_8h" kind="file">
+    <compoundname>savethread.h</compoundname>
+    <includes refid="klustersdoc_8h" local="yes">klustersdoc.h</includes>
+    <includes refid="klusters_8h" local="yes">klusters.h</includes>
+    <includes local="no">qthread.h</includes>
+    <includes local="no">kio/netaccess.h</includes>
+    <includedby refid="klusters_8cpp" local="yes">klusters.cpp</includedby>
+    <includedby refid="savethread_8cpp" local="yes">savethread.cpp</includedby>
+    <incdepgraph>
+      <node id="2433">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2434" relation="include">
+        </childnode>
+        <childnode refid="2435" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+      </node>
+      <node id="2441">
+        <label>qtimer.h</label>
+      </node>
+      <node id="2397">
+        <label>qregion.h</label>
+      </node>
+      <node id="2422">
+        <label>kapp.h</label>
+      </node>
+      <node id="2399">
+        <label>qfile.h</label>
+      </node>
+      <node id="2393">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2394" relation="include">
+        </childnode>
+      </node>
+      <node id="2416">
+        <label>qstrlist.h</label>
+      </node>
+      <node id="2415">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="2416" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2417" relation="include">
+        </childnode>
+        <childnode refid="2418" relation="include">
+        </childnode>
+        <childnode refid="2419" relation="include">
+        </childnode>
+        <childnode refid="2420" relation="include">
+        </childnode>
+        <childnode refid="2421" relation="include">
+        </childnode>
+        <childnode refid="2422" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2423" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2424" relation="include">
+        </childnode>
+        <childnode refid="2425" relation="include">
+        </childnode>
+        <childnode refid="2426" relation="include">
+        </childnode>
+      </node>
+      <node id="2412">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+      </node>
+      <node id="2426">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="2427" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2428" relation="include">
+        </childnode>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2429" relation="include">
+        </childnode>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2430" relation="include">
+        </childnode>
+        <childnode refid="2437" relation="include">
+        </childnode>
+      </node>
+      <node id="2409">
+        <label>qiconview.h</label>
+      </node>
+      <node id="2386">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="2430">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+        <childnode refid="2428" relation="include">
+        </childnode>
+        <childnode refid="2433" relation="include">
+        </childnode>
+      </node>
+      <node id="2435">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2403" relation="include">
+        </childnode>
+      </node>
+      <node id="2378">
+        <label>qstring.h</label>
+      </node>
+      <node id="2394">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2377">
+        <label>qobject.h</label>
+      </node>
+      <node id="2413">
+        <label>channelcolors.h</label>
+        <link refid="channelcolors_8h-source"/>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+      </node>
+      <node id="2382">
+        <label>kurl.h</label>
+      </node>
+      <node id="2436">
+        <label>qrect.h</label>
+      </node>
+      <node id="2402">
+        <label>stdexcept</label>
+      </node>
+      <node id="2376">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2405" relation="include">
+        </childnode>
+        <childnode refid="2411" relation="include">
+        </childnode>
+        <childnode refid="2413" relation="include">
+        </childnode>
+        <childnode refid="2414" relation="include">
+        </childnode>
+      </node>
+      <node id="2417">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2388">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2389" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+      </node>
+      <node id="2431">
+        <label>qframe.h</label>
+      </node>
+      <node id="2428">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="2385">
+        <label>qcolor.h</label>
+      </node>
+      <node id="2379">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2380">
+        <label>qpoint.h</label>
+      </node>
+      <node id="2391">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+      </node>
+      <node id="2375">
+        <label>savethread.h</label>
+        <link refid="savethread.h"/>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2415" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
+        </childnode>
+      </node>
+      <node id="2395">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="2425">
+        <label>klocale.h</label>
+      </node>
+      <node id="2410">
+        <label>qtooltip.h</label>
+      </node>
+      <node id="2427">
+        <label>kprinter.h</label>
+      </node>
+      <node id="2414">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider_8h-source"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2377" relation="include">
+        </childnode>
+      </node>
+      <node id="2411">
+        <label>tracesprovider.h</label>
+        <link refid="tracesprovider_8h-source"/>
+        <childnode refid="2412" relation="include">
+        </childnode>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2377" relation="include">
+        </childnode>
+      </node>
+      <node id="2404">
+        <label>vector</label>
+      </node>
+      <node id="2406">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2384">
+        <label>itemcolors.h</label>
+        <link refid="itemcolors_8h-source"/>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+      </node>
+      <node id="2434">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2383">
+        <label>kdockwidget.h</label>
+      </node>
+      <node id="2424">
+        <label>kdeprint/kprintdialogpage.h</label>
+      </node>
+      <node id="2421">
+        <label>qcheckbox.h</label>
+      </node>
+      <node id="2438">
+        <label>qpainter.h</label>
+      </node>
+      <node id="2420">
+        <label>qlabel.h</label>
+      </node>
+      <node id="2403">
+        <label>math.h</label>
+      </node>
+      <node id="2407">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2419">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="2390">
+        <label>iostream</label>
+      </node>
+      <node id="2429">
+        <label>qvaluevector.h</label>
+      </node>
+      <node id="2401">
+        <label>qthread.h</label>
+      </node>
+      <node id="2418">
+        <label>qvalidator.h</label>
+      </node>
+      <node id="2381">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="2442">
+        <label>kio/netaccess.h</label>
+      </node>
+      <node id="2405">
+        <label>clusterPalette.h</label>
+        <link refid="clusterPalette_8h-source"/>
+        <childnode refid="2406" relation="include">
+        </childnode>
+        <childnode refid="2407" relation="include">
+        </childnode>
+        <childnode refid="2408" relation="include">
+        </childnode>
+        <childnode refid="2409" relation="include">
+        </childnode>
+        <childnode refid="2410" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+      </node>
+      <node id="2423">
+        <label>kaction.h</label>
+      </node>
+      <node id="2440">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="2396">
+        <label>qdict.h</label>
+      </node>
+      <node id="2437">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="2435" relation="include">
+        </childnode>
+        <childnode refid="2430" relation="include">
+        </childnode>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2431" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2439" relation="include">
+        </childnode>
+        <childnode refid="2432" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2398">
+        <label>qmap.h</label>
+      </node>
+      <node id="2439">
+        <label>qstyle.h</label>
+      </node>
+      <node id="2400">
+        <label>qmutex.h</label>
+      </node>
+      <node id="2432">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2389">
+        <label>cstring</label>
+      </node>
+      <node id="2408">
+        <label>qvbox.h</label>
+      </node>
+      <node id="2387">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2391" relation="include">
+        </childnode>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
+        <childnode refid="2397" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2399" relation="include">
+        </childnode>
+        <childnode refid="2400" relation="include">
+        </childnode>
+        <childnode refid="2401" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2402" relation="include">
+        </childnode>
+        <childnode refid="2403" relation="include">
+        </childnode>
+        <childnode refid="2404" relation="include">
+        </childnode>
+      </node>
+      <node id="2392">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classSaveThread" prot="public">SaveThread</innerclass>
+    <innerclass refid="classSaveThread_1_1SaveDoneEvent" prot="public">SaveThread::SaveDoneEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>savethread.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Fri<sp/>Oct<sp/>17<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>SAVETHREAD_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>SAVETHREAD_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;klustersdoc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;klusters.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qthread.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kio/netaccess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classSaveThread" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSaveThread" kindref="compound">SaveThread</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QThread{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classSaveThread" kindref="compound">SaveThread</ref>(<ref refid="classKlustersApp" kindref="compound">KlustersApp</ref>*<sp/>parent):doc(0L),parent(parent),isSaveAs(</highlight><highlight class="keyword">false</highlight><highlight class="normal">){};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classSaveThread" kindref="compound">SaveThread</ref>(){cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;in<sp/>~SaveThread&quot;</highlight><highlight class="normal">&lt;&lt;endl;};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classSaveThread_1db01fc3e53e273f01605bb81851d771a" kindref="member">save</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>KURL&amp;<sp/>url,<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>*<sp/>doc,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSaveAs=</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>*<sp/>saveDoneEvent(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status){</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>(*</highlight><highlight class="keyword">this</highlight><highlight class="normal">,status);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="classSaveThread_1_1SaveDoneEvent" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>saveDoneEvent<sp/>of<sp/>SaveThread<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>SaveDoneEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>saveDoneEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>saveDoneEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>*<sp/>SaveThread::saveDoneEvent(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isItSaveAs(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>saveThread.<ref refid="classSaveThread_16950df16376ba9e90da3de96845f763e" kindref="member">isSaveAs</ref>;};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setTemporaryFile(QString<sp/>tmpFile){tempCluFile<sp/>=<sp/>tmpFile;};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/>temporaryFile(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tempCluFile;};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSaveOk(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>saveOk;};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~<ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>(){};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classSaveThread_1_1SaveDoneEvent" kindref="compound">SaveDoneEvent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classSaveThread" kindref="compound">SaveThread</ref>&amp;<sp/>thread,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status):QCustomEvent(QEvent::User<sp/>+<sp/>100),saveThread(thread),saveOk(status){};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classSaveThread" kindref="compound">SaveThread</ref>&amp;<sp/>saveThread;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>tempCluFile;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>saveOk;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>*<sp/>doc;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><ref refid="classKlustersApp" kindref="compound">KlustersApp</ref>*<sp/>parent;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>KURL<sp/>url;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isSaveAs;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/savethread.h"/>
+  </compounddef>
+</doxygen>

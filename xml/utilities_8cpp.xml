@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="utilities_8cpp" kind="file">
+    <compoundname>utilities.cpp</compoundname>
+    <includes refid="utilities_8h" local="yes">utilities.h</includes>
+    <includes local="no">kurl.h</includes>
+    <includes local="no">kprocess.h</includes>
+    <includes local="no">kio/netaccess.h</includes>
+    <includes local="no">ktempfile.h</includes>
+    <incdepgraph>
+      <node id="2760">
+        <label>utilities.cpp</label>
+        <link refid="utilities.cpp"/>
+        <childnode refid="2761" relation="include">
+        </childnode>
+        <childnode refid="2768" relation="include">
+        </childnode>
+        <childnode refid="2769" relation="include">
+        </childnode>
+        <childnode refid="2770" relation="include">
+        </childnode>
+        <childnode refid="2771" relation="include">
+        </childnode>
+      </node>
+      <node id="2764">
+        <label>qfile.h</label>
+      </node>
+      <node id="2762">
+        <label>qstring.h</label>
+      </node>
+      <node id="2768">
+        <label>kurl.h</label>
+      </node>
+      <node id="2767">
+        <label>fstream</label>
+      </node>
+      <node id="2761">
+        <label>utilities.h</label>
+        <link refid="utilities_8h-source"/>
+        <childnode refid="2762" relation="include">
+        </childnode>
+        <childnode refid="2763" relation="include">
+        </childnode>
+        <childnode refid="2764" relation="include">
+        </childnode>
+        <childnode refid="2765" relation="include">
+        </childnode>
+        <childnode refid="2766" relation="include">
+        </childnode>
+        <childnode refid="2767" relation="include">
+        </childnode>
+      </node>
+      <node id="2771">
+        <label>ktempfile.h</label>
+      </node>
+      <node id="2766">
+        <label>iostream</label>
+      </node>
+      <node id="2769">
+        <label>kprocess.h</label>
+      </node>
+      <node id="2765">
+        <label>qfileinfo.h</label>
+      </node>
+      <node id="2770">
+        <label>kio/netaccess.h</label>
+      </node>
+      <node id="2763">
+        <label>qstringlist.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/>lynn@myrealbox.com<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>distributed<sp/>in<sp/>the<sp/>hope<sp/>that<sp/>it<sp/>will<sp/>be<sp/>useful,<sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>but<sp/>WITHOUT<sp/>ANY<sp/>WARRANTY;<sp/>without<sp/>even<sp/>the<sp/>implied<sp/>warranty<sp/>of<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>MERCHANTABILITY<sp/>or<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>See<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>for<sp/>more<sp/>details.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/>You<sp/>should<sp/>have<sp/>received<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/><sp/>along<sp/>with<sp/>this<sp/>program;<sp/>if<sp/>not,<sp/>write<sp/>to<sp/>the<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Free<sp/>Software<sp/>Foundation,<sp/>Inc.,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/>59<sp/>Temple<sp/>Place<sp/>-<sp/>Suite<sp/>330,<sp/>Boston,<sp/>MA<sp/><sp/>02111-1307,<sp/>USA.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utilities.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kurl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kprocess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kio/netaccess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ktempfile.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classUtilities_1bf3d501b91ff27c14b3d23330ee49ab6" kindref="member">Utilities::getNbLines</ref>(QString<sp/>path){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbLines<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/>KProcess<sp/>childproc;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>shellToUse<sp/>=<sp/>getenv(</highlight><highlight class="stringliteral">&quot;SHELL&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(shellToUse<sp/>!=<sp/>NULL)<sp/>childproc.setUseShell(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,shellToUse);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>childproc.setUseShell(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/>KTempFile<sp/>counterFile<sp/>=<sp/>KTempFile();</highlight><highlight class="comment">//make<sp/>a<sp/>unique<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/>childproc<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;wc<sp/>-l<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;path&lt;&lt;</highlight><highlight class="stringliteral">&quot;<sp/>&gt;<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;counterFile.name();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/>childproc.start(KProcess::DontCare);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/>sleep(1);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/>QFileInfo<sp/>fi(counterFile.name());</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!fi.exists()){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>sleep(1);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/>}<sp/></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/>QFile<sp/>tmpFile(counterFile.name());</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>status<sp/>=<sp/>tmpFile.open(IO_ReadOnly);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>number<sp/>of<sp/>lines<sp/>could<sp/>not<sp/>be<sp/>determined,<sp/>stop<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!status)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbLines;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/></highlight><highlight class="comment">//Create<sp/>a<sp/>reader<sp/>on<sp/>the<sp/>temp<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/>QTextStream<sp/>fileStream(&amp;tmpFile);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/>QString<sp/>infoLine<sp/>=<sp/>fileStream.readLine();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/>QString<sp/>info;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(infoLine<sp/>!=<sp/>NULL){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>info<sp/>=<sp/>infoLine.stripWhiteSpace();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>QStringList<sp/>parts<sp/>=<sp/>QStringList::split(</highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal">,<sp/>info);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>nbLines<sp/>=<sp/>parts[0].toLong();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>tmpFile.close();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;nbLines<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;nbLines&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/></highlight><highlight class="comment">//Remove<sp/>the<sp/>temporary<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/>KProcess<sp/>childproc2;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/>childproc2.setUseShell(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/>childproc2<sp/>&lt;&lt;</highlight><highlight class="stringliteral">&quot;rm<sp/>-f<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;counterFile.name();</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>res<sp/>=<sp/>childproc2.start(KProcess::DontCare);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/></highlight><highlight class="comment">//If<sp/>the<sp/>number<sp/>of<sp/>lines<sp/>could<sp/>not<sp/>be<sp/>determined,<sp/>try<sp/>again</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(infoLine<sp/>==<sp/>NULL<sp/>||<sp/>info<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/>cout&lt;&lt;</highlight><highlight class="stringliteral">&quot;infoLine<sp/>==<sp/>NULL<sp/>||<sp/>info<sp/>==<sp/>&apos;&apos;&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classUtilities_1bf3d501b91ff27c14b3d23330ee49ab6" kindref="member">getNbLines</ref>(path);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nbLines;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classUtilities_1ac87c2cd1387a63c1be999eda5b65d6e" kindref="member">Utilities::createBackup</ref>(QString<sp/>path){</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/>QFile<sp/>original(path);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/>QFile<sp/>backup(path+</highlight><highlight class="stringliteral">&quot;~&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/>original.open(IO_ReadOnly);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/>backup.open(IO_WriteOnly);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/>backup.writeBlock(original.readAll());</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/>original.close();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/>backup.close();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.cpp"/>
+  </compounddef>
+</doxygen>

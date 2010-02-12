@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefclusterviewlayout_8cpp" kind="file">
+    <compoundname>prefclusterviewlayout.cpp</compoundname>
+    <includes local="no">kdialog.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes refid="prefclusterviewlayout_8h" local="yes">prefclusterviewlayout.h</includes>
+    <includes local="no">qvariant.h</includes>
+    <includes local="no">qpushbutton.h</includes>
+    <includes local="no">qgroupbox.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">qspinbox.h</includes>
+    <includes local="no">qlayout.h</includes>
+    <includes local="no">qtooltip.h</includes>
+    <includes local="no">qwhatsthis.h</includes>
+    <includes refid="prefclusterviewlayout_8moc" local="yes">prefclusterviewlayout.moc</includes>
+    <incdepgraph>
+      <node id="2018">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2021">
+        <label>qwhatsthis.h</label>
+      </node>
+      <node id="2009">
+        <label>prefclusterviewlayout.cpp</label>
+        <link refid="prefclusterviewlayout.cpp"/>
+        <childnode refid="2010" relation="include">
+        </childnode>
+        <childnode refid="2011" relation="include">
+        </childnode>
+        <childnode refid="2012" relation="include">
+        </childnode>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2015" relation="include">
+        </childnode>
+        <childnode refid="2016" relation="include">
+        </childnode>
+        <childnode refid="2017" relation="include">
+        </childnode>
+        <childnode refid="2018" relation="include">
+        </childnode>
+        <childnode refid="2019" relation="include">
+        </childnode>
+        <childnode refid="2020" relation="include">
+        </childnode>
+        <childnode refid="2021" relation="include">
+        </childnode>
+      </node>
+      <node id="2015">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="2019">
+        <label>qlayout.h</label>
+      </node>
+      <node id="2011">
+        <label>klocale.h</label>
+      </node>
+      <node id="2020">
+        <label>qtooltip.h</label>
+      </node>
+      <node id="2012">
+        <label>prefclusterviewlayout.h</label>
+        <link refid="prefclusterviewlayout_8h-source"/>
+        <childnode refid="2013" relation="include">
+        </childnode>
+        <childnode refid="2014" relation="include">
+        </childnode>
+      </node>
+      <node id="2013">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2017">
+        <label>qlabel.h</label>
+      </node>
+      <node id="2014">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2010">
+        <label>kdialog.h</label>
+      </node>
+      <node id="2016">
+        <label>qgroupbox.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;kdialog.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Form<sp/>implementation<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;./prefclusterviewlayout.ui&apos;</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**<sp/>Created:<sp/>sam<sp/>sep<sp/>1<sp/>20:01:18<sp/>2007</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>User<sp/>Interface<sp/>Compiler<sp/>($Id:<sp/>qt/main.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Aug<sp/>31<sp/>2005<sp/>$)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefclusterviewlayout.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvariant.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpushbutton.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qgroupbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qspinbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlayout.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtooltip.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwhatsthis.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/><sp/>Constructs<sp/>a<sp/>PrefClusterViewLayout<sp/>as<sp/>a<sp/>child<sp/>of<sp/>&apos;parent&apos;,<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/><sp/>name<sp/>&apos;name&apos;<sp/>and<sp/>widget<sp/>flags<sp/>set<sp/>to<sp/>&apos;f&apos;.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PrefClusterViewLayout::PrefClusterViewLayout(<sp/>QWidget*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/>WFlags<sp/>fl<sp/>)</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QWidget(<sp/>parent,<sp/>name,<sp/>fl<sp/>)</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!name<sp/>)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>setName(<sp/></highlight><highlight class="stringliteral">&quot;PrefClusterViewLayout&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefClusterViewLayoutLayout<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>1,<sp/>1,<sp/>11,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;PrefClusterViewLayoutLayout&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer21<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>20,<sp/>40,<sp/>QSizePolicy::Minimum,<sp/>QSizePolicy::Expanding<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefClusterViewLayoutLayout-&gt;addItem(<sp/>spacer21,<sp/>1,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>layout57<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGridLayout(<sp/>0,<sp/>1,<sp/>1,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout57&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer18<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>16,<sp/>20,<sp/>QSizePolicy::Fixed,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>layout57-&gt;addItem(<sp/>spacer18,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QGroupBox(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;groupBox3&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3-&gt;setSizePolicy(<sp/>QSizePolicy(<sp/>(QSizePolicy::SizeType)5,<sp/>(QSizePolicy::SizeType)0,<sp/>0,<sp/>0,<sp/>groupBox3-&gt;sizePolicy().hasHeightForWidth()<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3-&gt;setMinimumSize(<sp/>QSize(<sp/>320,<sp/>70<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>QWidget*<sp/>privateLayoutWidget<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QWidget(<sp/>groupBox3,<sp/></highlight><highlight class="stringliteral">&quot;layout55&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>privateLayoutWidget-&gt;setGeometry(<sp/>QRect(<sp/>13,<sp/>28,<sp/>305,<sp/>29<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>layout55<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QHBoxLayout(<sp/>privateLayoutWidget,<sp/>0,<sp/>6,<sp/></highlight><highlight class="stringliteral">&quot;layout55&quot;</highlight><highlight class="normal">);<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel6<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QLabel(<sp/>privateLayoutWidget,<sp/></highlight><highlight class="stringliteral">&quot;textLabel6&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel6-&gt;setMinimumSize(<sp/>QSize(<sp/>0,<sp/>15<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>layout55-&gt;addWidget(<sp/>textLabel6<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpinBox(<sp/>privateLayoutWidget,<sp/></highlight><highlight class="stringliteral">&quot;intervalSpinBox&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox-&gt;setMinimumSize(<sp/>QSize(<sp/>60,<sp/>0<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox-&gt;setWrapping(<sp/>TRUE<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox-&gt;setMaxValue(<sp/>6000<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox-&gt;setMinValue(<sp/>60<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>intervalSpinBox-&gt;setLineStep(<sp/>60<sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>layout55-&gt;addWidget(<sp/>intervalSpinBox<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>spacer19<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>QSpacerItem(<sp/>60,<sp/>21,<sp/>QSizePolicy::Expanding,<sp/>QSizePolicy::Minimum<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>layout55-&gt;addItem(<sp/>spacer19<sp/>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>layout57-&gt;addWidget(<sp/>groupBox3,<sp/>0,<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefClusterViewLayoutLayout-&gt;addLayout(<sp/>layout57,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>languageChange();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>resize(<sp/>QSize(377,<sp/>155).expandedTo(minimumSizeHint())<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>clearWState(<sp/>WState_Polished<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/><sp/>Destroys<sp/>the<sp/>object<sp/>and<sp/>frees<sp/>any<sp/>allocated<sp/>resources</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">PrefClusterViewLayout::~PrefClusterViewLayout()</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>need<sp/>to<sp/>delete<sp/>child<sp/>widgets,<sp/>Qt<sp/>does<sp/>it<sp/>all<sp/>for<sp/>us</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/><sp/>Sets<sp/>the<sp/>strings<sp/>of<sp/>the<sp/>subwidgets<sp/>using<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/><sp/>language.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefClusterViewLayout::languageChange()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>setCaption(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;ClusterView&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>groupBox3-&gt;setTitle(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Time<sp/>lines&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>textLabel6-&gt;setText(<sp/>tr2i18n(<sp/></highlight><highlight class="stringliteral">&quot;Time<sp/>interval<sp/>(in<sp/>seconds)&quot;</highlight><highlight class="normal"><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefclusterviewlayout.moc&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.cpp"/>
+  </compounddef>
+</doxygen>

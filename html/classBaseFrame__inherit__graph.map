@@ -1,0 +1,7 @@
+base referer
+rect $classTraceView.html 106,80 196,107
+rect $classViewWidget.html 220,80 322,107
+rect $classClusterView.html 6,155 107,182
+rect $classCorrelationView.html 131,155 259,182
+rect $classErrorMatrixView.html 283,155 411,182
+rect $classWaveformView.html 435,155 558,182

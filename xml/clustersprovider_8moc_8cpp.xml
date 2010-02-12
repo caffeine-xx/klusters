@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="clustersprovider_8moc_8cpp" kind="file">
+    <compoundname>clustersprovider.moc.cpp</compoundname>
+    <includes refid="clustersprovider_8h" local="yes">clustersprovider.h</includes>
+    <includes local="no">qmetaobject.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">private/qucomextra_p.h</includes>
+    <includes local="no">qobjectdefs.h</includes>
+    <includes local="no">qsignalslotimp.h</includes>
+    <incdepgraph>
+      <node id="435">
+        <label>qsignalslotimp.h</label>
+      </node>
+      <node id="423">
+        <label>qregion.h</label>
+      </node>
+      <node id="433">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="425">
+        <label>qfile.h</label>
+      </node>
+      <node id="416">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="417" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="418" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+      </node>
+      <node id="434">
+        <label>qobjectdefs.h</label>
+      </node>
+      <node id="421">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="417">
+        <label>qstring.h</label>
+      </node>
+      <node id="418">
+        <label>stdlib.h</label>
+      </node>
+      <node id="408">
+        <label>qobject.h</label>
+      </node>
+      <node id="409">
+        <label>kurl.h</label>
+      </node>
+      <node id="428">
+        <label>stdexcept</label>
+      </node>
+      <node id="410">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>clustersprovider.moc.cpp</label>
+        <link refid="clustersprovider.moc.cpp"/>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="431" relation="include">
+        </childnode>
+        <childnode refid="432" relation="include">
+        </childnode>
+        <childnode refid="433" relation="include">
+        </childnode>
+        <childnode refid="434" relation="include">
+        </childnode>
+        <childnode refid="435" relation="include">
+        </childnode>
+      </node>
+      <node id="420">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="415">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+      </node>
+      <node id="419">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="432">
+        <label>qapplication.h</label>
+      </node>
+      <node id="406">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider_8h-source"/>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="414" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+      </node>
+      <node id="430">
+        <label>vector</label>
+      </node>
+      <node id="429">
+        <label>math.h</label>
+      </node>
+      <node id="412">
+        <label>iostream</label>
+      </node>
+      <node id="427">
+        <label>qthread.h</label>
+      </node>
+      <node id="431">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="422">
+        <label>qdict.h</label>
+      </node>
+      <node id="424">
+        <label>qmap.h</label>
+      </node>
+      <node id="426">
+        <label>qmutex.h</label>
+      </node>
+      <node id="411">
+        <label>cstring</label>
+      </node>
+      <node id="414">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="410" relation="include">
+        </childnode>
+        <childnode refid="415" relation="include">
+        </childnode>
+        <childnode refid="416" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+        <childnode refid="419" relation="include">
+        </childnode>
+        <childnode refid="420" relation="include">
+        </childnode>
+        <childnode refid="421" relation="include">
+        </childnode>
+        <childnode refid="422" relation="include">
+        </childnode>
+        <childnode refid="423" relation="include">
+        </childnode>
+        <childnode refid="424" relation="include">
+        </childnode>
+        <childnode refid="425" relation="include">
+        </childnode>
+        <childnode refid="426" relation="include">
+        </childnode>
+        <childnode refid="427" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="428" relation="include">
+        </childnode>
+        <childnode refid="429" relation="include">
+        </childnode>
+        <childnode refid="430" relation="include">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="clustersprovider_8moc_8cpp_1fc8da5d342c3fea86fb609fac082643a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ClustersProvider</definition>
+        <argsstring>(&quot;ClustersProvider&quot;,&amp;ClustersProvider::staticMetaObject)</argsstring>
+        <name>cleanUp_ClustersProvider</name>
+        <param>
+          <type>&quot;ClustersProvider&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ClustersProvider::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="clustersprovider_8moc_8cpp_1fc8da5d342c3fea86fb609fac082643a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_ClustersProvider</definition>
+        <argsstring>(&quot;ClustersProvider&quot;,&amp;ClustersProvider::staticMetaObject)</argsstring>
+        <name>cleanUp_ClustersProvider</name>
+        <param>
+          <type>&quot;ClustersProvider&quot;</type>
+        </param>
+        <param>
+          <type>&amp;ClustersProvider::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>ClustersProvider<sp/>meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;clustersprovider.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>Sat<sp/>Sep<sp/>1<sp/>20:02:06<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>Qt<sp/>MOC<sp/>($Id:<sp/>qt/moc_yacc.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Oct<sp/>19<sp/>16:22<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_NO_COMPAT</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;clustersprovider.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmetaobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;private/qucomextra_p.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)<sp/>||<sp/>(Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>26)</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>3.3.7.<sp/>It&quot;</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ClustersProvider::className()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QMetaObject<sp/>*ClustersProvider::metaObj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QMetaObjectCleanUp<sp/>cleanUp_ClustersProvider(<sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal">,<sp/>&amp;ClustersProvider::staticMetaObject<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ClustersProvider::tr(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::DefaultCodec<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromLatin1(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>ClustersProvider::trUtf8(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::UnicodeUTF8<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromUtf8(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMetaObject*<sp/>ClustersProvider::staticMetaObject()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>metaObj<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaObject*<sp/>parentObject<sp/>=<sp/>DataProvider::staticMetaObject();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;dataReady&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_signal_0<sp/>};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_1[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTimeInRecordingUnits&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;nextClusterDataReady&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_signal_1<sp/>};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_2[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTimeInRecordingUnits&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;previousClusterDataReady&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_signal_2<sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>signal_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dataReady(Array&lt;dataType&gt;&amp;,QObject*,QString)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;nextClusterDataReady(Array&lt;dataType&gt;&amp;,QObject*,QString,long,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;previousClusterDataReady(Array&lt;dataType&gt;&amp;,QObject*,QString,long,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_2,<sp/>QMetaData::Public<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>metaObj<sp/>=<sp/>QMetaObject::new_metaobject(</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal">,<sp/>parentObject,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>signal_tbl,<sp/>3,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">#endif<sp/></highlight><highlight class="comment">//<sp/>QT_NO_PROPERTIES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>cleanUp_ClustersProvider.setMetaObject(<sp/>metaObj<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ClustersProvider::qt_cast(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>clname<sp/>)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!qstrcmp(<sp/>clname,<sp/></highlight><highlight class="stringliteral">&quot;ClustersProvider&quot;</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DataProvider::qt_cast(<sp/>clname<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobjectdefs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qsignalslotimp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>dataReady</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">ClustersProvider::dataReady</ref>(<sp/><ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>t0,<sp/>QObject*<sp/>t1,<sp/>QString<sp/>t2<sp/>)</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[4];</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,&amp;t0);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+2,t1);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+3,t2);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>nextClusterDataReady</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">ClustersProvider::nextClusterDataReady</ref>(<sp/><ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>t0,<sp/>QObject*<sp/>t1,<sp/>QString<sp/>t2,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t3,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t4<sp/>)</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[6];</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,&amp;t0);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+2,t1);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+3,t2);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+4,&amp;t3);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+5,&amp;t4);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>previousClusterDataReady</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" kindref="member">ClustersProvider::previousClusterDataReady</ref>(<sp/><ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>t0,<sp/>QObject*<sp/>t1,<sp/>QString<sp/>t2,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t3,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t4<sp/>)</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[6];</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,&amp;t0);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+2,t1);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+3,t2);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+4,&amp;t3);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+5,&amp;t4);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ClustersProvider::qt_invoke(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DataProvider::qt_invoke(_id,_o);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ClustersProvider::qt_emit(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;signalOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">dataReady</ref>((<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;)*((<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3));<sp/>break;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>1:<sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+4))),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>2:<sp/><ref refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" kindref="member">previousClusterDataReady</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+4))),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>default:</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/><ref refid="classDataProvider" kindref="compound">DataProvider</ref>::qt_emit(_id,_o);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>TRUE;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="171"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ClustersProvider::qt_property(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,<sp/>QVariant*<sp/>v)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DataProvider::qt_property(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>f,<sp/>v);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ClustersProvider::qt_static_property(<sp/>QObject*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/>QVariant*<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_PROPERTIES</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.moc.cpp"/>
+  </compounddef>
+</doxygen>

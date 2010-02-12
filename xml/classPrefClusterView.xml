@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefClusterView" kind="class" prot="public">
+    <compoundname>PrefClusterView</compoundname>
+    <includes refid="prefclusterview_8h" local="no">prefclusterview.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefClusterView_16a429d6baf734503ed59f6d8b12aefba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefClusterView::PrefClusterView</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>PrefClusterView</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.cpp" bodystart="21" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefClusterView_1520395ba49fe118dbe68415e4ab20126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefClusterView::~PrefClusterView</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefClusterView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.cpp" bodystart="23" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefClusterView_1e1a0bf0a9315575e29b3faaf015e3ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefClusterView::setTimeInterval</definition>
+        <argsstring>(int time)</argsstring>
+        <name>setTimeInterval</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Sets the time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time <computeroutput>time</computeroutput> is in second. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.cpp" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefClusterView_18d1b2f2a1990bc3c9d5e6189ff8112eb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PrefClusterView::getTimeInterval</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeInterval</name>
+        <briefdescription>
+<para>Returns the time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time is in second. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.cpp" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing the Cluster View configuration page of the Klusters preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterview.h" bodystart="34" bodyend="48"/>
+    <listofallmembers>
+      <member refid="classPrefClusterView_18d1b2f2a1990bc3c9d5e6189ff8112eb" prot="public" virt="non-virtual"><scope>PrefClusterView</scope><name>getTimeInterval</name></member>
+      <member refid="classPrefClusterView_16a429d6baf734503ed59f6d8b12aefba" prot="public" virt="non-virtual"><scope>PrefClusterView</scope><name>PrefClusterView</name></member>
+      <member refid="classPrefClusterView_1e1a0bf0a9315575e29b3faaf015e3ff0" prot="public" virt="non-virtual"><scope>PrefClusterView</scope><name>setTimeInterval</name></member>
+      <member refid="classPrefClusterView_1520395ba49fe118dbe68415e4ab20126" prot="public" virt="non-virtual"><scope>PrefClusterView</scope><name>~PrefClusterView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

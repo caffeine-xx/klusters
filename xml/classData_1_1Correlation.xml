@@ -1,0 +1,541 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1Correlation" kind="class" prot="private">
+    <compoundname>Data::Correlation</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1Correlation_1e00902dec1a7df5b8664e7096f2d6f81" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; Data::Correlation::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="968" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_1c2eedf4f0f04750b27ffc4dacfec47d2" prot="private" static="no" mutable="no">
+        <type>uint *</type>
+        <definition>uint* Data::Correlation::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="969" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_199da689f0311cecf86845db90e030d37" prot="private" static="no" mutable="no">
+        <type>Status</type>
+        <definition>Status Data::Correlation::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="970" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="970" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_18e175e0766d3127d9c6401666d3611a4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Data::Correlation::binSize</definition>
+        <argsstring></argsstring>
+        <name>binSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="971" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_1c8c5137b187c95851ae69c77c486bc1f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Data::Correlation::timeFrame</definition>
+        <argsstring></argsstring>
+        <name>timeFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="972" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_1ba8bbff5cf94f474fef8801eae3c029e" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Data::Correlation::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="973" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_1b11dd03ea868fa302d99fb59764e77d1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Data::Correlation::asymptote</definition>
+        <argsstring></argsstring>
+        <name>asymptote</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="974" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="974" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_19f319dba6dbf1d286de8d073ccb98901" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Data::Correlation::nbBins</definition>
+        <argsstring></argsstring>
+        <name>nbBins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="975" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="975" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1Correlation_19999dca75f7d00999b2aa1ab0887b907" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Data::Correlation::firingRate</definition>
+        <argsstring></argsstring>
+        <name>firingRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="976" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="976" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1Correlation_12348efe9908bd8a1091fe6587836a1f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::Correlation::Correlation</definition>
+        <argsstring>(Data &amp;d)</argsstring>
+        <name>Correlation</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="922" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="922" bodyend="924"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1ea1fa286f0138ac814929705211d1fda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::Correlation::Correlation</definition>
+        <argsstring>(Data &amp;d, int size, int timeWindow)</argsstring>
+        <name>Correlation</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="925" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="925" bodyend="931"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1fb20de1655be98eb71791525f74913be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::Correlation::~Correlation</definition>
+        <argsstring>()</argsstring>
+        <name>~Correlation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="932" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="932" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_189d84950eda689901515567ff9fe31f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="935" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="935" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1e25ccb5842775076dbb50e20e5479299" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setStatus</definition>
+        <argsstring>(Status s)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>Status</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="945" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="945" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1626444bde0a132b0c4c070a8445c2d24" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::Correlation::getStatus</definition>
+        <argsstring>() const</argsstring>
+        <name>getStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="946" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="946" bodyend="946"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_15f61ba0d297f996fc61ede893fba9a46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Status</type>
+        <definition>Status Data::Correlation::getStatus</definition>
+        <argsstring>(int size, int timeWindow) const </argsstring>
+        <name>getStatus</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="947" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="947" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_10ff35d5e9aa757a1b604dd8a77c40503" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Data::Correlation::getBinSize</definition>
+        <argsstring>() const</argsstring>
+        <name>getBinSize</name>
+        <briefdescription>
+<para>Returns the size of a bin in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="952" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="952" bodyend="952"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1b64cdca8490925702c66379b593d0815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setBinSize</definition>
+        <argsstring>(int size)</argsstring>
+        <name>setBinSize</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="953" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="953" bodyend="953"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1d3afca18402ed148d4b4d9ff41bce08c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Data::Correlation::getTimeWindow</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeWindow</name>
+        <briefdescription>
+<para>Returns the size of the time window in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="955" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="955" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1e2805eb9940cd2c30e72e55161690372" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setTimeWindow</definition>
+        <argsstring>(int timeWindow)</argsstring>
+        <name>setTimeWindow</name>
+        <param>
+          <type>int</type>
+          <declname>timeWindow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="956" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="956" bodyend="956"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1d1379b6bbb8474ee5d58ed5a140e87d2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Data::Correlation::getMaximum</definition>
+        <argsstring>() const</argsstring>
+        <name>getMaximum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="957" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="957" bodyend="957"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1c797942f4f22cb226b52275c78c8dfd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setMaximum</definition>
+        <argsstring>(uint m)</argsstring>
+        <name>setMaximum</name>
+        <param>
+          <type>uint</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="958" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="958" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_16c99dea6ad2351960dd2405745c7ca0f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::Correlation::getShoulder</definition>
+        <argsstring>() const</argsstring>
+        <name>getShoulder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="959" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="959" bodyend="959"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_17ba0739a139b727e1d51882f98cf7fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setShoulder</definition>
+        <argsstring>(float s)</argsstring>
+        <name>setShoulder</name>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="960" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="960" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1d445856e79ceea689797c67b47ddb63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::calculateCorrelation</definition>
+        <argsstring>(SortableTable &amp;spikesOfCluster1, SortableTable &amp;spikesOfCluster2, double binSizeInRU, double timeWindowInRU, int halfBins, bool autoCorrelogram)</argsstring>
+        <name>calculateCorrelation</name>
+        <param>
+          <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>spikesOfCluster1</declname>
+        </param>
+        <param>
+          <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>spikesOfCluster2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>binSizeInRU</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>timeWindowInRU</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>halfBins</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoCorrelogram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="961" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.cpp" bodystart="3205" bodyend="3356"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1c16a4800f7faf8f4d71d181ebc11b026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Data::Correlation::getNbBins</definition>
+        <argsstring>()</argsstring>
+        <name>getNbBins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="962" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="962" bodyend="962"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1ec9e0eba7928afcef72732a7ae89c34e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::Correlation::setNbBins</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbBins</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="963" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="963" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1a5ed602beb5a33dd30606e98921646d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Data::Correlation::getValue</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getValue</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="964" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="964" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1Correlation_1774dc0a48d2837d6455d87ecd6f8d867" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Data::Correlation::getFiringRate</definition>
+        <argsstring>() const</argsstring>
+        <name>getFiringRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="965" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="965" bodyend="965"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents correlation data for a pair of clusters. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="898">
+        <label>T</label>
+      </node>
+      <node id="896">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="897" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="895">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="896" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="899" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="897">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="898" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="899">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="895" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="894">
+        <label>Data::Correlation</label>
+        <childnode refid="895" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="919" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="919" bodyend="977"/>
+    <listofallmembers>
+      <member refid="classData_1_1Correlation_1b11dd03ea868fa302d99fb59764e77d1" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>asymptote</name></member>
+      <member refid="classData_1_1Correlation_18e175e0766d3127d9c6401666d3611a4" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>binSize</name></member>
+      <member refid="classData_1_1Correlation_1d445856e79ceea689797c67b47ddb63c" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>calculateCorrelation</name></member>
+      <member refid="classData_1_1Correlation_12348efe9908bd8a1091fe6587836a1f2" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>Correlation</name></member>
+      <member refid="classData_1_1Correlation_1ea1fa286f0138ac814929705211d1fda" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>Correlation</name></member>
+      <member refid="classData_1_1Correlation_1e00902dec1a7df5b8664e7096f2d6f81" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>data</name></member>
+      <member refid="classData_1_1Correlation_19999dca75f7d00999b2aa1ab0887b907" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>firingRate</name></member>
+      <member refid="classData_1_1Correlation_10ff35d5e9aa757a1b604dd8a77c40503" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getBinSize</name></member>
+      <member refid="classData_1_1Correlation_1774dc0a48d2837d6455d87ecd6f8d867" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getFiringRate</name></member>
+      <member refid="classData_1_1Correlation_1d1379b6bbb8474ee5d58ed5a140e87d2" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getMaximum</name></member>
+      <member refid="classData_1_1Correlation_1c16a4800f7faf8f4d71d181ebc11b026" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getNbBins</name></member>
+      <member refid="classData_1_1Correlation_16c99dea6ad2351960dd2405745c7ca0f" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getShoulder</name></member>
+      <member refid="classData_1_1Correlation_1626444bde0a132b0c4c070a8445c2d24" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getStatus</name></member>
+      <member refid="classData_1_1Correlation_15f61ba0d297f996fc61ede893fba9a46" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getStatus</name></member>
+      <member refid="classData_1_1Correlation_1d3afca18402ed148d4b4d9ff41bce08c" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getTimeWindow</name></member>
+      <member refid="classData_1_1Correlation_1a5ed602beb5a33dd30606e98921646d4" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>getValue</name></member>
+      <member refid="classData_1_1Correlation_1ba8bbff5cf94f474fef8801eae3c029e" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>max</name></member>
+      <member refid="classData_1_1Correlation_19f319dba6dbf1d286de8d073ccb98901" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>nbBins</name></member>
+      <member refid="classData_1_1Correlation_189d84950eda689901515567ff9fe31f7" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>reset</name></member>
+      <member refid="classData_1_1Correlation_1b64cdca8490925702c66379b593d0815" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setBinSize</name></member>
+      <member refid="classData_1_1Correlation_1c797942f4f22cb226b52275c78c8dfd7" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setMaximum</name></member>
+      <member refid="classData_1_1Correlation_1ec9e0eba7928afcef72732a7ae89c34e" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setNbBins</name></member>
+      <member refid="classData_1_1Correlation_17ba0739a139b727e1d51882f98cf7fc2" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setShoulder</name></member>
+      <member refid="classData_1_1Correlation_1e25ccb5842775076dbb50e20e5479299" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setStatus</name></member>
+      <member refid="classData_1_1Correlation_1e2805eb9940cd2c30e72e55161690372" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>setTimeWindow</name></member>
+      <member refid="classData_1_1Correlation_199da689f0311cecf86845db90e030d37" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>status</name></member>
+      <member refid="classData_1_1Correlation_1c8c5137b187c95851ae69c77c486bc1f" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>timeFrame</name></member>
+      <member refid="classData_1_1Correlation_1c2eedf4f0f04750b27ffc4dacfec47d2" prot="private" virt="non-virtual"><scope>Data::Correlation</scope><name>values</name></member>
+      <member refid="classData_1_1Correlation_1fb20de1655be98eb71791525f74913be" prot="public" virt="non-virtual"><scope>Data::Correlation</scope><name>~Correlation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

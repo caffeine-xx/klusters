@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="baseframe_8h" kind="file">
+    <compoundname>baseframe.h</compoundname>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">qframe.h</includes>
+    <includes local="no">qcursor.h</includes>
+    <includes refid="zoomwindow_8h" local="yes">zoomwindow.h</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="baseframe_8cpp" local="yes">baseframe.cpp</includedby>
+    <includedby refid="baseframe_8moc_8cpp" local="yes">baseframe.moc.cpp</includedby>
+    <includedby refid="viewwidget_8h" local="yes">viewwidget.h</includedby>
+    <includedby refid="traceview_8h" local="yes">traceview.h</includedby>
+    <incdepgraph>
+      <node id="132">
+        <label>baseframe.h</label>
+        <link refid="baseframe.h"/>
+        <childnode refid="133" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+        <childnode refid="136" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>qrect.h</label>
+      </node>
+      <node id="134">
+        <label>qframe.h</label>
+      </node>
+      <node id="138">
+        <label>qpoint.h</label>
+      </node>
+      <node id="135">
+        <label>qcursor.h</label>
+      </node>
+      <node id="139">
+        <label>math.h</label>
+      </node>
+      <node id="133">
+        <label>qwidget.h</label>
+      </node>
+      <node id="140">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="141">
+        <label>baseframe.h</label>
+        <link refid="baseframe.h"/>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="146" relation="include">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="145" relation="include">
+        </childnode>
+      </node>
+      <node id="142">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>tracewidget.h</label>
+        <link refid="tracewidget_8h-source"/>
+      </node>
+      <node id="153">
+        <label>traceview.h</label>
+        <link refid="traceview_8h-source"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>waveformview.h</label>
+        <link refid="waveformview_8h-source"/>
+        <childnode refid="150" relation="include">
+        </childnode>
+      </node>
+      <node id="146">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="150">
+        <label>waveformthread.h</label>
+        <link refid="waveformthread_8h-source"/>
+      </node>
+      <node id="152">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+      <node id="151">
+        <label>errormatrixview.h</label>
+        <link refid="errormatrixview_8h-source"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>clusterview.h</label>
+        <link refid="clusterview_8h-source"/>
+      </node>
+      <node id="148">
+        <label>correlationthread.h</label>
+        <link refid="correlationthread_8h-source"/>
+      </node>
+      <node id="147">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classBaseFrame" prot="public">BaseFrame</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>baseframe.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Wed<sp/>Feb<sp/>18<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BASEFRAME_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>BASEFRAME_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qframe.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcursor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;zoomwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="classBaseFrame" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classBaseFrame" kindref="compound">BaseFrame</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QFrame<sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">Mode</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{ZOOM<sp/>=<sp/>1};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="classBaseFrame_1042d27fb77a59e37912653348f9883f3" kindref="member">BaseFrame</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" kindref="member">Xborder</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" kindref="member">Yborder</ref>,QWidget*<sp/>parent=0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name=0,QColor<sp/>backgroundColor<sp/>=<sp/>Qt::black,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize<sp/>=<sp/>500,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>=<sp/>4000,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>=<sp/>-500,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight<sp/>=<sp/>1001,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classBaseFrame" kindref="compound">BaseFrame</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="84" refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2" kindref="member">willBeKilled</ref>(){};</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" kindref="member">setBorders</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>y){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" kindref="member">Xborder</ref><sp/>=<sp/>x;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" kindref="member">Yborder</ref><sp/>=<sp/>y;<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b" kindref="member">updateDrawing</ref>(){};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/***If<sp/>the<sp/>frame<sp/>is<sp/>contained<sp/>in<sp/>a<sp/>dockWidget,<sp/>this<sp/>slot<sp/>can<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/>*<sp/>when<sp/>the<sp/>enclosing<sp/>dockwidget<sp/>is<sp/>being<sp/>closed.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/>*<sp/>Emits<sp/>the<sp/>parentDockBeingClosed<sp/>signal.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dockBeingClosed(){emit<sp/>parentDockBeingClosed(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/***Changes<sp/>the<sp/>color<sp/>of<sp/>the<sp/>background.*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeBackgroundColor(QColor<sp/>color);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3" kindref="member">setMode</ref>(<ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref><sp/>selectedMode){<ref refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" kindref="member">mode</ref><sp/>=<sp/>selectedMode;};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/***Signals<sp/>that<sp/>the<sp/>enclosing<sp/>dockwidget<sp/>is<sp/>being<sp/>closed</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@param<sp/>viewWidget<sp/>pointer<sp/>on<sp/>the<sp/>the<sp/>current<sp/>object.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>parentDockBeingClosed(QWidget*<sp/>viewWidget);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12b5d68358bfcc4ecdd0c3e6a3da82ac6" kindref="member">drawContents</ref>(QPainter*<sp/>p)=0;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63" kindref="member">resizeEvent</ref>(QResizeEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1154d190f81125058199ed6770c5152b6" kindref="member">mousePressEvent</ref>(QMouseEvent*<sp/>event);<sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_17b6086bb37e3ad0c56a8b8eb166b3d9e" kindref="member">mouseReleaseEvent</ref>(QMouseEvent*<sp/>event);<sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1e0bc9fac62c249065e52f3d393e84cf7" kindref="member">mouseMoveEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b" kindref="member">mouseDoubleClickEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/>QPoint<sp/><ref refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" kindref="member">viewportToWorld</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>vy);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="classBaseFrame_1bc359186819f10c30a5ae505d6f1920d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QPoint<sp/><ref refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" kindref="member">viewportToWorld</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint&amp;<sp/>point){</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" kindref="member">viewportToWorld</ref>(point.x(),<sp/>point.y());</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>QPoint<sp/><ref refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" kindref="member">worldToViewport</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>wx,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>wy);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="classBaseFrame_12b63b89729e706626167a7dc7020a3aa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QPoint<sp/><ref refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" kindref="member">worldToViewport</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QPoint&amp;<sp/>point){</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" kindref="member">worldToViewport</ref>(point.x(),<sp/>point.y());</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1282acf96cb3e2cf1889da54236d1623e" kindref="member">worldToViewportAbscissa</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>wx);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1a66187fbc3b1a9978f7604a17a04071b" kindref="member">worldToViewportOrdinate</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>wy);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="classBaseFrame_1c1183e155932c92026c2e8e9553905ea" kindref="member">drawRubber</ref>();</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" kindref="member">worldToViewportWidth</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>width){</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>widthRatio<sp/>=<sp/>(static_cast&lt;float&gt;(viewport.width())/static_cast&lt;float&gt;(((QRect)<ref refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" kindref="member">window</ref>).width()));</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static_cast&lt;long&gt;(width<sp/>*<sp/>widthRatio);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="classBaseFrame_1af257590f63f103f946f599add211cd5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1af257590f63f103f946f599add211cd5" kindref="member">worldToViewportHeight</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>height){</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>heightRatio<sp/>=<sp/>(static_cast&lt;float&gt;(viewport.height())/static_cast&lt;float&gt;(((QRect)<ref refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" kindref="member">window</ref>).height()));</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static_cast&lt;long&gt;(height<sp/>*<sp/>heightRatio);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" kindref="member">viewportToWorldWidth</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>width){</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>widthRatio<sp/>=<sp/>(static_cast&lt;float&gt;(((QRect)<ref refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" kindref="member">window</ref>).width())/static_cast&lt;float&gt;(viewport.width()));</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static_cast&lt;long&gt;(width<sp/>*<sp/>widthRatio);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" kindref="member">viewportToWorldHeight</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>height){</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>heightRatio<sp/>=<sp/>(static_cast&lt;float&gt;(((QRect)<ref refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" kindref="member">window</ref>).height())/static_cast&lt;float&gt;(viewport.height()));</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>static_cast&lt;long&gt;(height<sp/>*<sp/>heightRatio);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" kindref="member">drawRubberBand</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>draw,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>vertical<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" kindref="member">isRubberBandToBeDrawn</ref><sp/>=<sp/>draw;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" kindref="member">wholeHeightRectangle</ref><sp/>=<sp/>vertical;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="comment">//Members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" kindref="member">DrawContentsMode</ref>{REFRESH=1,<sp/>UPDATE=2,REDRAW=3};</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MIN_SIZE;<sp/></highlight><highlight class="comment">//Default<sp/>500</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>MAX_SIZE;<sp/></highlight><highlight class="comment">//Default<sp/>4000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>BORDER;<sp/></highlight><highlight class="comment">//Default<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WINDOW_TOP_LEFT;<sp/></highlight><highlight class="comment">//Default<sp/>-500</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WINDOW_BOTTOM_RIGHT;<sp/></highlight><highlight class="comment">//Default<sp/>1001</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/>QSize<sp/>oldSize;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>QRect<sp/>viewport;</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classZoomWindow" kindref="compound">ZoomWindow</ref><sp/><ref refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" kindref="member">window</ref>;</highlight></codeline>
+<codeline lineno="282" refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" refkind="member"><highlight class="normal"><sp/><sp/>QPoint<sp/><ref refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" kindref="member">firstClick</ref>;</highlight></codeline>
+<codeline lineno="286" refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" kindref="member">isDoubleClick</ref>;</highlight></codeline>
+<codeline lineno="290" refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" refkind="member"><highlight class="normal"><sp/><sp/>QRect*<sp/><ref refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" kindref="member">rubber</ref>;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" kindref="member">DrawContentsMode</ref><sp/><ref refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" kindref="member">drawContentsMode</ref>;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">Mode</ref><sp/><ref refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" kindref="member">mode</ref>;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" refkind="member"><highlight class="normal"><sp/><sp/>QCursor<sp/><ref refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" kindref="member">zoomCursor</ref>;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305" refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" kindref="member">Xborder</ref>;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" kindref="member">Yborder</ref>;</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" kindref="member">isRubberBandToBeDrawn</ref>;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" kindref="member">wholeHeightRectangle</ref>;</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" refkind="member"><highlight class="normal"><sp/><sp/>QColor<sp/><ref refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" kindref="member">colorLegend</ref>;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="322"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/baseframe.h"/>
+  </compounddef>
+</doxygen>

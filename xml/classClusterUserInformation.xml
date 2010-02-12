@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterUserInformation" kind="class" prot="public">
+    <compoundname>ClusterUserInformation</compoundname>
+    <includes refid="clusteruserinformation_8h" local="no">clusteruserinformation.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterUserInformation_1ede3001cbf65149fe5f21bb9e3be9c70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ClusterUserInformation::group</definition>
+        <argsstring></argsstring>
+        <name>group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_12b5db3fb20a5a275da3dafaafbcad2a3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ClusterUserInformation::cluster</definition>
+        <argsstring></argsstring>
+        <name>cluster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_1ecdf3a8372fa38564d7a50576406980f" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::structure</definition>
+        <argsstring></argsstring>
+        <name>structure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_1ded3ffce71cc4fdbebb342e7c465ec66" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_17c1144f746b734ca13bec0b35e21fb1b" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Isolation Distance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_10e0a435cf4c8bdb3c48a045df77864e2" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::quality</definition>
+        <argsstring></argsstring>
+        <name>quality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterUserInformation_1e6e29c25c1f3d9d36df481fea3d0097e" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::notes</definition>
+        <argsstring></argsstring>
+        <name>notes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterUserInformation_1e778fb0e06bf175e83992a1594d0ce7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClusterUserInformation::ClusterUserInformation</definition>
+        <argsstring>(int pGroup=0, int pCluster=0, QString pStructure=&quot;&quot;, QString pType=&quot;&quot;, QString pID=&quot;&quot;, QString pQuality=&quot;&quot;, QString pNotes=&quot;&quot;)</argsstring>
+        <name>ClusterUserInformation</name>
+        <param>
+          <type>int</type>
+          <declname>pGroup</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pCluster</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pID</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="30" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1f70dae495dfbbe9ed62d86de1f2d9a2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ClusterUserInformation::~ClusterUserInformation</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterUserInformation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_106b3ae87330bacc967e2747778e2872f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ClusterUserInformation::getGroup</definition>
+        <argsstring>() const</argsstring>
+        <name>getGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_13f60ca09ed07f1157740214ce35de6a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ClusterUserInformation::getCluster</definition>
+        <argsstring>() const</argsstring>
+        <name>getCluster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="35" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_15e19b94aecc283a66ed5571ccbcd3aa9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::getStructure</definition>
+        <argsstring>() const</argsstring>
+        <name>getStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1f1356b991ec311513c4c104643072842" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1158c59384e683d2423f5afe257232adc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1d7c7249b8e0f799a483b3870458ce22e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::getQuality</definition>
+        <argsstring>() const</argsstring>
+        <name>getQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1f653336a6c9fa37e4e4afb4776a9cd4f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ClusterUserInformation::getNotes</definition>
+        <argsstring>() const</argsstring>
+        <name>getNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1ddf37a39d874d9d848b3ace340e8b563" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setGroup</definition>
+        <argsstring>(int pGroup)</argsstring>
+        <name>setGroup</name>
+        <param>
+          <type>int</type>
+          <declname>pGroup</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_15651c6db325e23bbf6f4513cb0b6eaf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setCluster</definition>
+        <argsstring>(int pCluster)</argsstring>
+        <name>setCluster</name>
+        <param>
+          <type>int</type>
+          <declname>pCluster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1c8004cd9ad518d9bec19c76504ef1782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setStructure</definition>
+        <argsstring>(QString pStructure)</argsstring>
+        <name>setStructure</name>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1250cb473d444b5a5edd53353e77b4bcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setType</definition>
+        <argsstring>(QString pType)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_186f7b9973d1523bf15312b7ad7df0240" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setId</definition>
+        <argsstring>(QString pId)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>QString</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_1fd7fce4abc38d972738e17adda3c98d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setQuality</definition>
+        <argsstring>(QString pQuality)</argsstring>
+        <name>setQuality</name>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterUserInformation_126fd6feea5d77bf987f3724d2c9acc86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterUserInformation::setNotes</definition>
+        <argsstring>(QString pNotes)</argsstring>
+        <name>setNotes</name>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan &lt;<ulink url="mailto:lynn.hazan@myrealbox.com">lynn.hazan@myrealbox.com</ulink>&gt; This class contains the information manually entered by the user about a cluster. </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" line="28" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusteruserinformation.h" bodystart="28" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classClusterUserInformation_12b5db3fb20a5a275da3dafaafbcad2a3" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>cluster</name></member>
+      <member refid="classClusterUserInformation_1e778fb0e06bf175e83992a1594d0ce7e" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>ClusterUserInformation</name></member>
+      <member refid="classClusterUserInformation_13f60ca09ed07f1157740214ce35de6a9" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getCluster</name></member>
+      <member refid="classClusterUserInformation_106b3ae87330bacc967e2747778e2872f" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getGroup</name></member>
+      <member refid="classClusterUserInformation_1158c59384e683d2423f5afe257232adc" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getId</name></member>
+      <member refid="classClusterUserInformation_1f653336a6c9fa37e4e4afb4776a9cd4f" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getNotes</name></member>
+      <member refid="classClusterUserInformation_1d7c7249b8e0f799a483b3870458ce22e" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getQuality</name></member>
+      <member refid="classClusterUserInformation_15e19b94aecc283a66ed5571ccbcd3aa9" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getStructure</name></member>
+      <member refid="classClusterUserInformation_1f1356b991ec311513c4c104643072842" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>getType</name></member>
+      <member refid="classClusterUserInformation_1ede3001cbf65149fe5f21bb9e3be9c70" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>group</name></member>
+      <member refid="classClusterUserInformation_17c1144f746b734ca13bec0b35e21fb1b" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>ID</name></member>
+      <member refid="classClusterUserInformation_1e6e29c25c1f3d9d36df481fea3d0097e" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>notes</name></member>
+      <member refid="classClusterUserInformation_10e0a435cf4c8bdb3c48a045df77864e2" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>quality</name></member>
+      <member refid="classClusterUserInformation_15651c6db325e23bbf6f4513cb0b6eaf8" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setCluster</name></member>
+      <member refid="classClusterUserInformation_1ddf37a39d874d9d848b3ace340e8b563" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setGroup</name></member>
+      <member refid="classClusterUserInformation_186f7b9973d1523bf15312b7ad7df0240" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setId</name></member>
+      <member refid="classClusterUserInformation_126fd6feea5d77bf987f3724d2c9acc86" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setNotes</name></member>
+      <member refid="classClusterUserInformation_1fd7fce4abc38d972738e17adda3c98d0" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setQuality</name></member>
+      <member refid="classClusterUserInformation_1c8004cd9ad518d9bec19c76504ef1782" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setStructure</name></member>
+      <member refid="classClusterUserInformation_1250cb473d444b5a5edd53353e77b4bcc" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>setType</name></member>
+      <member refid="classClusterUserInformation_1ecdf3a8372fa38564d7a50576406980f" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>structure</name></member>
+      <member refid="classClusterUserInformation_1ded3ffce71cc4fdbebb342e7c465ec66" prot="private" virt="non-virtual"><scope>ClusterUserInformation</scope><name>type</name></member>
+      <member refid="classClusterUserInformation_1f70dae495dfbbe9ed62d86de1f2d9a2e" prot="public" virt="non-virtual"><scope>ClusterUserInformation</scope><name>~ClusterUserInformation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

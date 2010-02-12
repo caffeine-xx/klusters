@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="viewwidget_8cpp" kind="file">
+    <compoundname>viewwidget.cpp</compoundname>
+    <includes refid="viewwidget_8h" local="yes">viewwidget.h</includes>
+    <includes refid="klustersview_8h" local="yes">klustersview.h</includes>
+    <incdepgraph>
+      <node id="2787">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="2783" relation="include">
+        </childnode>
+        <childnode refid="2784" relation="include">
+        </childnode>
+        <childnode refid="2788" relation="include">
+        </childnode>
+        <childnode refid="2789" relation="include">
+        </childnode>
+        <childnode refid="2793" relation="include">
+        </childnode>
+      </node>
+      <node id="2824">
+        <label>qtimer.h</label>
+      </node>
+      <node id="2812">
+        <label>qregion.h</label>
+      </node>
+      <node id="2814">
+        <label>qfile.h</label>
+      </node>
+      <node id="2807">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="2808" relation="include">
+        </childnode>
+        <childnode refid="2793" relation="include">
+        </childnode>
+        <childnode refid="2809" relation="include">
+        </childnode>
+      </node>
+      <node id="2794">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="2795" relation="include">
+        </childnode>
+        <childnode refid="2796" relation="include">
+        </childnode>
+        <childnode refid="2786" relation="include">
+        </childnode>
+        <childnode refid="2783" relation="include">
+        </childnode>
+        <childnode refid="2797" relation="include">
+        </childnode>
+        <childnode refid="2798" relation="include">
+        </childnode>
+        <childnode refid="2802" relation="include">
+        </childnode>
+        <childnode refid="2782" relation="include">
+        </childnode>
+        <childnode refid="2820" relation="include">
+        </childnode>
+      </node>
+      <node id="2801">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="2782">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="2783" relation="include">
+        </childnode>
+        <childnode refid="2784" relation="include">
+        </childnode>
+        <childnode refid="2785" relation="include">
+        </childnode>
+        <childnode refid="2786" relation="include">
+        </childnode>
+        <childnode refid="2787" relation="include">
+        </childnode>
+      </node>
+      <node id="2789">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="2790" relation="include">
+        </childnode>
+        <childnode refid="2791" relation="include">
+        </childnode>
+        <childnode refid="2792" relation="include">
+        </childnode>
+      </node>
+      <node id="2808">
+        <label>qstring.h</label>
+      </node>
+      <node id="2809">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2817">
+        <label>kurl.h</label>
+      </node>
+      <node id="2790">
+        <label>qrect.h</label>
+      </node>
+      <node id="2818">
+        <label>stdexcept</label>
+      </node>
+      <node id="2803">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2804" relation="include">
+        </childnode>
+        <childnode refid="2793" relation="include">
+        </childnode>
+      </node>
+      <node id="2786">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="2784">
+        <label>qframe.h</label>
+      </node>
+      <node id="2800">
+        <label>qcolor.h</label>
+      </node>
+      <node id="2799">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2791">
+        <label>qpoint.h</label>
+      </node>
+      <node id="2805">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="2803" relation="include">
+        </childnode>
+        <childnode refid="2806" relation="include">
+        </childnode>
+      </node>
+      <node id="2810">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="2795">
+        <label>kprinter.h</label>
+      </node>
+      <node id="2819">
+        <label>vector</label>
+      </node>
+      <node id="2798">
+        <label>itemcolors.h</label>
+        <link refid="itemcolors_8h-source"/>
+        <childnode refid="2799" relation="include">
+        </childnode>
+        <childnode refid="2800" relation="include">
+        </childnode>
+        <childnode refid="2801" relation="include">
+        </childnode>
+      </node>
+      <node id="2781">
+        <label>viewwidget.cpp</label>
+        <link refid="viewwidget.cpp"/>
+        <childnode refid="2782" relation="include">
+        </childnode>
+        <childnode refid="2794" relation="include">
+        </childnode>
+      </node>
+      <node id="2796">
+        <label>kdockwidget.h</label>
+      </node>
+      <node id="2788">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2821">
+        <label>qpainter.h</label>
+      </node>
+      <node id="2792">
+        <label>math.h</label>
+      </node>
+      <node id="2783">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2793">
+        <label>iostream</label>
+      </node>
+      <node id="2797">
+        <label>qvaluevector.h</label>
+      </node>
+      <node id="2816">
+        <label>qthread.h</label>
+      </node>
+      <node id="2823">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="2811">
+        <label>qdict.h</label>
+      </node>
+      <node id="2820">
+        <label>correlationview.h</label>
+        <link refid="correlationview_8h-source"/>
+        <childnode refid="2789" relation="include">
+        </childnode>
+        <childnode refid="2782" relation="include">
+        </childnode>
+        <childnode refid="2807" relation="include">
+        </childnode>
+        <childnode refid="2802" relation="include">
+        </childnode>
+        <childnode refid="2784" relation="include">
+        </childnode>
+        <childnode refid="2821" relation="include">
+        </childnode>
+        <childnode refid="2822" relation="include">
+        </childnode>
+        <childnode refid="2785" relation="include">
+        </childnode>
+        <childnode refid="2823" relation="include">
+        </childnode>
+        <childnode refid="2824" relation="include">
+        </childnode>
+        <childnode refid="2801" relation="include">
+        </childnode>
+        <childnode refid="2799" relation="include">
+        </childnode>
+      </node>
+      <node id="2813">
+        <label>qmap.h</label>
+      </node>
+      <node id="2822">
+        <label>qstyle.h</label>
+      </node>
+      <node id="2815">
+        <label>qmutex.h</label>
+      </node>
+      <node id="2785">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2804">
+        <label>cstring</label>
+      </node>
+      <node id="2802">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="2803" relation="include">
+        </childnode>
+        <childnode refid="2805" relation="include">
+        </childnode>
+        <childnode refid="2807" relation="include">
+        </childnode>
+        <childnode refid="2806" relation="include">
+        </childnode>
+        <childnode refid="2810" relation="include">
+        </childnode>
+        <childnode refid="2799" relation="include">
+        </childnode>
+        <childnode refid="2801" relation="include">
+        </childnode>
+        <childnode refid="2811" relation="include">
+        </childnode>
+        <childnode refid="2812" relation="include">
+        </childnode>
+        <childnode refid="2813" relation="include">
+        </childnode>
+        <childnode refid="2814" relation="include">
+        </childnode>
+        <childnode refid="2815" relation="include">
+        </childnode>
+        <childnode refid="2816" relation="include">
+        </childnode>
+        <childnode refid="2817" relation="include">
+        </childnode>
+        <childnode refid="2793" relation="include">
+        </childnode>
+        <childnode refid="2818" relation="include">
+        </childnode>
+        <childnode refid="2792" relation="include">
+        </childnode>
+        <childnode refid="2819" relation="include">
+        </childnode>
+      </node>
+      <node id="2806">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>viewwidget.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Sep<sp/>25<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;viewwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;klustersview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="classViewWidget_186837c742daf2ccd927c6d9511287f50" kindref="member">ViewWidget::ViewWidget</ref>(<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>&amp;<sp/>doc,<ref refid="classKlustersView" kindref="compound">KlustersView</ref>&amp;<sp/>view,QColor<sp/>backgroundColor,KStatusBar*<sp/>statusBar,QWidget*<sp/>parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Xborder,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Yborder):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="classBaseFrame" kindref="compound">BaseFrame</ref>(Xborder,Yborder,parent,name,backgroundColor,minSize,maxSize,windowTopLeft,windowBottomRight,border),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">doublebuffer(),view(view),doc(doc),statusBar(statusBar){</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">ViewWidget::~ViewWidget(){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/>cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;in<sp/>~ViewWidget():<sp/>&quot;</highlight><highlight class="normal">&lt;&lt;endl;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/viewwidget.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="structChannelColors_1_1ChannelColor" kind="struct" prot="private">
+    <compoundname>ChannelColors::ChannelColor</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structChannelColors_1_1ChannelColor_184f604dd891eb4a1b047f46a0e056d83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ChannelColors::ChannelColor::channelId</definition>
+        <argsstring></argsstring>
+        <name>channelId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structChannelColors_1_1ChannelColor_12179eb03f98d5382dcf351bb35a74f1b" prot="public" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::ChannelColor::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structChannelColors_1_1ChannelColor_1d85cfc2db49778edb707bb610b6864db" prot="public" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::ChannelColor::groupColor</definition>
+        <argsstring></argsstring>
+        <name>groupColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structChannelColors_1_1ChannelColor_1e2314060b1b3c528c829ca47863c07c8" prot="public" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ChannelColors::ChannelColor::spikeGroupColor</definition>
+        <argsstring></argsstring>
+        <name>spikeGroupColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structChannelColors_1_1ChannelColor_10a890a797c61574e0a288e074a8d66fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ChannelColors::ChannelColor::ChannelColor</definition>
+        <argsstring>(int id, QColor c, QColor gc, QColor gdc)</argsstring>
+        <name>ChannelColor</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>gc</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>gdc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="50" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structChannelColors_1_1ChannelColor_1396999427ad26509b41c74d042008c8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ChannelColors::ChannelColor::ChannelColor</definition>
+        <argsstring>(const ChannelColor &amp;origin)</argsstring>
+        <name>ChannelColor</name>
+        <param>
+          <type>const ChannelColor &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="57" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structChannelColors_1_1ChannelColor_12d9fb8a75132da853cb73a0769e4fb77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ChannelColors::ChannelColor::~ChannelColor</definition>
+        <argsstring>()</argsstring>
+        <name>~ChannelColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing a color channel. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channelcolors.h" bodystart="44" bodyend="60"/>
+    <listofallmembers>
+      <member refid="structChannelColors_1_1ChannelColor_10a890a797c61574e0a288e074a8d66fb" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>ChannelColor</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_1396999427ad26509b41c74d042008c8c" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>ChannelColor</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_184f604dd891eb4a1b047f46a0e056d83" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>channelId</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_12179eb03f98d5382dcf351bb35a74f1b" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>color</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_1d85cfc2db49778edb707bb610b6864db" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>groupColor</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_1e2314060b1b3c528c829ca47863c07c8" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>spikeGroupColor</name></member>
+      <member refid="structChannelColors_1_1ChannelColor_12d9fb8a75132da853cb73a0769e4fb77" prot="public" virt="non-virtual"><scope>ChannelColors::ChannelColor</scope><name>~ChannelColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

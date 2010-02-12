@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classKlustersXmlReader" kind="class" prot="public">
+    <compoundname>KlustersXmlReader</compoundname>
+    <includes refid="klustersxmlreader_8h" local="no">klustersxmlreader.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f553" prot="public" static="no">
+        <name>fileType</name>
+        <enumvalue id="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f5534d6fd6b7199ab1d51635f29e790f7318" prot="public">
+          <name>PARAMETER</name>
+          <initializer>0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Type of xml file supported by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classKlustersXmlReader_1098c3dc1680eef95ce5dfc3ee5fcfb66" prot="private" static="no" mutable="no">
+        <type>xmlDocPtr</type>
+        <definition>xmlDocPtr KlustersXmlReader::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="132" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classKlustersXmlReader_1d27652093037e5c538ad66375325f2af" prot="private" static="no" mutable="no">
+        <type><ref refid="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f553" kindref="member">fileType</ref></type>
+        <definition>fileType KlustersXmlReader::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="133" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classKlustersXmlReader_137bc08bbaff6e1652e1019846aea3101" prot="private" static="no" mutable="no">
+        <type>xmlXPathContextPtr</type>
+        <definition>xmlXPathContextPtr KlustersXmlReader::xpathContex</definition>
+        <argsstring></argsstring>
+        <name>xpathContex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classKlustersXmlReader_1a263f6d95549a00080849cd9835c5a72" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString KlustersXmlReader::readVersion</definition>
+        <argsstring></argsstring>
+        <name>readVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="135" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKlustersXmlReader_1f111737e62886ddfca6c7aa75a820423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KlustersXmlReader::KlustersXmlReader</definition>
+        <argsstring>()</argsstring>
+        <name>KlustersXmlReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="37" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_1114559eef11785ea032d17e7c93ea2ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>KlustersXmlReader::~KlustersXmlReader</definition>
+        <argsstring>()</argsstring>
+        <name>~KlustersXmlReader</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="39" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_1f1c83d6e527cef2fd0cebf9f41ef426c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool KlustersXmlReader::parseFile</definition>
+        <argsstring>(const QFile &amp;file, fileType type)</argsstring>
+        <name>parseFile</name>
+        <param>
+          <type>const QFile &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f553" kindref="member">fileType</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Opens and parses the file with the <computeroutput>url</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>qfile representing the file to open. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of the xml file to open. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the file was coorectly parse, false othewise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="42" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_115badaa4c6ebd596d15dae903ce9ad0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void KlustersXmlReader::closeFile</definition>
+        <argsstring>()</argsstring>
+        <name>closeFile</name>
+        <briefdescription>
+<para>Close the currently open file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_1351a9934bb1599df22cf5e9532cb1e43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getResolution</definition>
+        <argsstring>() const</argsstring>
+        <name>getResolution</name>
+        <briefdescription>
+<para>Returns the resolution in bits. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>resolution. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="83" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_1a9ee5e74870a19a59ed6a06f29c94877" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getNbChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbChannels</name>
+        <briefdescription>
+<para>Returns the number of total of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>number of channels. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="105" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_14c0121c8c32c72d0ba70b5c2c57f879b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt; int &gt; KlustersXmlReader::getNbChannelsByGroup</definition>
+        <argsstring>(int electrodeGroupID) const</argsstring>
+        <name>getNbChannelsByGroup</name>
+        <param>
+          <type>int</type>
+          <declname>electrodeGroupID</declname>
+        </param>
+        <briefdescription>
+<para>Returns the list of channels for the given group <computeroutput>electrodeGroupID</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>electrodeGroupID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the electrode group currently opened. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of channels. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="79" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="128" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_151ee30050331b6b0f29a664333baa48d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getSamplingRate</definition>
+        <argsstring>() const</argsstring>
+        <name>getSamplingRate</name>
+        <briefdescription>
+<para>Returns the sampling rate of the system in hertz. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>sampling rate in hertz. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="85" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="174" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_19b3fe8d2f53fa5cf2405e10eb323a4c6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getNbSamples</definition>
+        <argsstring>(int electrodeGroupID) const</argsstring>
+        <name>getNbSamples</name>
+        <param>
+          <type>int</type>
+          <declname>electrodeGroupID</declname>
+        </param>
+        <briefdescription>
+<para>Returns the number of samples in a spike for the given group <computeroutput>electrodeGroupID</computeroutput>, or zero if the element could not be found in the file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>electrodeGroupID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the electrode group currently opened. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of samples. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="196" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_17cd9ef6dcce948e7f92cd5b546ca2a94" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getPeakSampleIndex</definition>
+        <argsstring>(int electrodeGroupID) const</argsstring>
+        <name>getPeakSampleIndex</name>
+        <param>
+          <type>int</type>
+          <declname>electrodeGroupID</declname>
+        </param>
+        <briefdescription>
+<para>Returns the sample index corresponding to the peak of the spike for the given group <computeroutput>electrodeGroupID</computeroutput>, or zero if the element could not be found in the file. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>electrodeGroupID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the electrode group currently opened. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>index. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="99" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="232" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_17efbc3776fabd83b126c6aa70652359f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getNbFeatures</definition>
+        <argsstring>(int electrodeGroupID) const</argsstring>
+        <name>getNbFeatures</name>
+        <param>
+          <type>int</type>
+          <declname>electrodeGroupID</declname>
+        </param>
+        <briefdescription>
+<para>Returns the number of features used in the spike detection for the given group <computeroutput>electrodeGroupID</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>electrodeGroupID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the electrode group currently opened. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>number of features. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="105" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="267" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_17cf1cdcd65a04ccd98c7a47a0e279feb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getVoltageRange</definition>
+        <argsstring>() const</argsstring>
+        <name>getVoltageRange</name>
+        <briefdescription>
+<para>Returns the voltage range of the acquisition system in volts, or zero if the element could not be found in the file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="110" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="303" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_18b27e29d7b49de0466ef69f08103826e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getAmplification</definition>
+        <argsstring>() const</argsstring>
+        <name>getAmplification</name>
+        <briefdescription>
+<para>Returns the amplification of the acquisition system, or zero if the element could not be found in the file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="326" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_153f101ab15add69915e45e079cfb6e7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int KlustersXmlReader::getOffset</definition>
+        <argsstring>() const</argsstring>
+        <name>getOffset</name>
+        <briefdescription>
+<para>Returns the offset store in the session file, or zero if the element could not be found in the file. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>offset. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="122" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="349" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersXmlReader_136fb2a96ae95ffdd6d68974793f1e4c5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void KlustersXmlReader::getClusterUserInformation</definition>
+        <argsstring>(int pGroup, QMap&lt; int, ClusterUserInformation &gt; &amp;clusterUserInformationMap) const</argsstring>
+        <name>getClusterUserInformation</name>
+        <param>
+          <type>int</type>
+          <declname>pGroup</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, <ref refid="classClusterUserInformation" kindref="compound">ClusterUserInformation</ref> &gt; &amp;</type>
+          <declname>clusterUserInformationMap</declname>
+        </param>
+        <briefdescription>
+<para>Gets the map of cluster user information. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pGroup</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the electrod group id for which the cluster user information have to be retrieved (corresponds to the currently opened cluster file). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterUserInformationMap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given the cluster user information, the key is the cluster id and the value an instance of <ref refid="classClusterUserInformation" kindref="compound">ClusterUserInformation</ref>. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="128" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.cpp" bodystart="372" bodyend="460"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class reading the parameter xml file. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klustersxmlreader.h" bodystart="43" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classKlustersXmlReader_115badaa4c6ebd596d15dae903ce9ad0c" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>closeFile</name></member>
+      <member refid="classKlustersXmlReader_1098c3dc1680eef95ce5dfc3ee5fcfb66" prot="private" virt="non-virtual"><scope>KlustersXmlReader</scope><name>doc</name></member>
+      <member refid="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f553" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>fileType</name></member>
+      <member refid="classKlustersXmlReader_18b27e29d7b49de0466ef69f08103826e" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getAmplification</name></member>
+      <member refid="classKlustersXmlReader_136fb2a96ae95ffdd6d68974793f1e4c5" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getClusterUserInformation</name></member>
+      <member refid="classKlustersXmlReader_1a9ee5e74870a19a59ed6a06f29c94877" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getNbChannels</name></member>
+      <member refid="classKlustersXmlReader_14c0121c8c32c72d0ba70b5c2c57f879b" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getNbChannelsByGroup</name></member>
+      <member refid="classKlustersXmlReader_17efbc3776fabd83b126c6aa70652359f" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getNbFeatures</name></member>
+      <member refid="classKlustersXmlReader_19b3fe8d2f53fa5cf2405e10eb323a4c6" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getNbSamples</name></member>
+      <member refid="classKlustersXmlReader_153f101ab15add69915e45e079cfb6e7f" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getOffset</name></member>
+      <member refid="classKlustersXmlReader_17cd9ef6dcce948e7f92cd5b546ca2a94" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getPeakSampleIndex</name></member>
+      <member refid="classKlustersXmlReader_1351a9934bb1599df22cf5e9532cb1e43" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getResolution</name></member>
+      <member refid="classKlustersXmlReader_151ee30050331b6b0f29a664333baa48d" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getSamplingRate</name></member>
+      <member refid="classKlustersXmlReader_17cf1cdcd65a04ccd98c7a47a0e279feb" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>getVoltageRange</name></member>
+      <member refid="classKlustersXmlReader_1f111737e62886ddfca6c7aa75a820423" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>KlustersXmlReader</name></member>
+      <member refid="classKlustersXmlReader_1820c12bb0f52eb16ef702dc8f4d2f5534d6fd6b7199ab1d51635f29e790f7318" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>PARAMETER</name></member>
+      <member refid="classKlustersXmlReader_1f1c83d6e527cef2fd0cebf9f41ef426c" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>parseFile</name></member>
+      <member refid="classKlustersXmlReader_1a263f6d95549a00080849cd9835c5a72" prot="private" virt="non-virtual"><scope>KlustersXmlReader</scope><name>readVersion</name></member>
+      <member refid="classKlustersXmlReader_1d27652093037e5c538ad66375325f2af" prot="private" virt="non-virtual"><scope>KlustersXmlReader</scope><name>type</name></member>
+      <member refid="classKlustersXmlReader_137bc08bbaff6e1652e1019846aea3101" prot="private" virt="non-virtual"><scope>KlustersXmlReader</scope><name>xpathContex</name></member>
+      <member refid="classKlustersXmlReader_1114559eef11785ea032d17e7c93ea2ed" prot="public" virt="non-virtual"><scope>KlustersXmlReader</scope><name>~KlustersXmlReader</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

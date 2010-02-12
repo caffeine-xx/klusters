@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classEventDescription" kind="class" prot="public">
+    <compoundname>EventDescription</compoundname>
+    <includes refid="eventsprovider_8h" local="no">eventsprovider.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classEventDescription_1ef396c67809c50ac638e95852c223500" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EventDescription::EventDescription</definition>
+        <argsstring>()</argsstring>
+        <name>EventDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classEventDescription_13b9691e17786f63e7e5df71ff160dd1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EventDescription::EventDescription</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>EventDescription</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to compare strings in case-insensitive maner. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/eventsprovider.h" bodystart="40" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classEventDescription_1ef396c67809c50ac638e95852c223500" prot="public" virt="non-virtual"><scope>EventDescription</scope><name>EventDescription</name></member>
+      <member refid="classEventDescription_13b9691e17786f63e7e5df71ff160dd1f" prot="public" virt="non-virtual"><scope>EventDescription</scope><name>EventDescription</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

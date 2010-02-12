@@ -1,0 +1,1502 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="namespaceklusters" kind="namespace">
+    <compoundname>klusters</compoundname>
+      <sectiondef kind="">
+      <memberdef kind="variable" id="namespaceklusters_117430359bee8a24b92e1cc041a70de7d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <initializer> &quot;version&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d1975c27d519d23bc30dc0fc9a784888" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PARAMETERS</definition>
+        <argsstring></argsstring>
+        <name>PARAMETERS</name>
+        <initializer> &quot;parameters&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1c902d6b2973e34f57474aade6f7082da" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CREATOR</definition>
+        <argsstring></argsstring>
+        <name>CREATOR</name>
+        <initializer> &quot;creator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d2cfb37869139805833c8dbfa4e9969f" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ACQUISITION</definition>
+        <argsstring></argsstring>
+        <name>ACQUISITION</name>
+        <initializer> &quot;acquisitionSystem&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1fd32fc052c357e47d2c650134a24c98e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATES</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATES</name>
+        <initializer> &quot;samplingRates&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1a387f48e343a03c77ba425b00218be2d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SPIKE</definition>
+        <argsstring></argsstring>
+        <name>SPIKE</name>
+        <initializer> &quot;spikeDetection&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_127a4ddd77f054e24599c3ef4fcd4b680" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNITS</definition>
+        <argsstring></argsstring>
+        <name>UNITS</name>
+        <initializer> &quot;units&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_17ab1852f3b6111a7bdac1650235bcad4" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::BITS</definition>
+        <argsstring></argsstring>
+        <name>BITS</name>
+        <initializer> &quot;nBits&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="31"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_18ad65dccba933eed935c39cdac5c1165" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>NB_CHANNELS</name>
+        <initializer> &quot;nChannels&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_13987fe6fc4ac3cafaca8ac88692f2a90" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATE</name>
+        <initializer> &quot;samplingRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_195da54c05b025c54b655a061fcec2f69" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VOLTAGE_RANGE</definition>
+        <argsstring></argsstring>
+        <name>VOLTAGE_RANGE</name>
+        <initializer> &quot;voltageRange&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1e7d6329bcb1a85d20acc11bc54089c33" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::AMPLIFICATION</definition>
+        <argsstring></argsstring>
+        <name>AMPLIFICATION</name>
+        <initializer> &quot;amplification&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f288015f479f50b921505194f4d3c993" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::OFFSET</definition>
+        <argsstring></argsstring>
+        <name>OFFSET</name>
+        <initializer> &quot;offset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1875a7395d27a94eea92b2fc0835d123a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::LFP_SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>LFP_SAMPLING_RATE</name>
+        <initializer> &quot;lfpSamplingRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="39"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15dafa4af52d118a895d1a5b42f9c2550" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_SAMPLES</definition>
+        <argsstring></argsstring>
+        <name>NB_SAMPLES</name>
+        <initializer> &quot;nSamples&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_19b0b0cfe5ef08de057a2a5d14f8ac39e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PEAK_SAMPLE_INDEX</definition>
+        <argsstring></argsstring>
+        <name>PEAK_SAMPLE_INDEX</name>
+        <initializer> &quot;peakSampleIndex&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f2f6134235c9cd30d8b242718121bdea" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL_GROUPS</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL_GROUPS</name>
+        <initializer> &quot;channelGroups&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14cb3c659fbb0d70cad08d2f718a3f1f7" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::GROUP</definition>
+        <argsstring></argsstring>
+        <name>GROUP</name>
+        <initializer> &quot;group&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15c1a2e8b06644e8b0581d2b8c6aa0c31" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>CHANNELS</name>
+        <initializer> &quot;channels&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15131fbd3ab73dffd465d46b9c7bdce7a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL</name>
+        <initializer> &quot;channel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="47"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1cbb53b8a8b34fb47f1b7011ae0a39511" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_FEATURES</definition>
+        <argsstring></argsstring>
+        <name>NB_FEATURES</name>
+        <initializer> &quot;nFeatures&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_149c9d4ba76beb51c0be6bee513f97763" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNIT</definition>
+        <argsstring></argsstring>
+        <name>UNIT</name>
+        <initializer> &quot;unit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="51"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1230cc028c55953617ea440ab6fed2828" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CLUSTER</definition>
+        <argsstring></argsstring>
+        <name>CLUSTER</name>
+        <initializer> &quot;cluster&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1933c2478e50b1982e4c80d3241ebcd1e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::STRUCTURE</definition>
+        <argsstring></argsstring>
+        <name>STRUCTURE</name>
+        <initializer> &quot;structure&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14215a3a6d2867fb8c59bc5a17745884b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <initializer> &quot;type&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="54"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f76abbde206398c9b7361a5806bb620d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ISOLATION_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>ISOLATION_DISTANCE</name>
+        <initializer> &quot;isolationDistance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1661a7a02706a63c7eac767f2f6b11e6b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::QUALITY</definition>
+        <argsstring></argsstring>
+        <name>QUALITY</name>
+        <initializer> &quot;quality&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_12562d5f78e4255a6d453525f4f76501b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NOTES</definition>
+        <argsstring></argsstring>
+        <name>NOTES</name>
+        <initializer> &quot;notes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_117430359bee8a24b92e1cc041a70de7d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <briefdescription>
+<para>Tag for the version attribute of the root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d1975c27d519d23bc30dc0fc9a784888" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PARAMETERS</definition>
+        <argsstring></argsstring>
+        <name>PARAMETERS</name>
+        <briefdescription>
+<para>Tag for the parameter file root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1c902d6b2973e34f57474aade6f7082da" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CREATOR</definition>
+        <argsstring></argsstring>
+        <name>CREATOR</name>
+        <briefdescription>
+<para>Tag for the creator attribut of the parameter file root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="37"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d2cfb37869139805833c8dbfa4e9969f" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ACQUISITION</definition>
+        <argsstring></argsstring>
+        <name>ACQUISITION</name>
+        <briefdescription>
+<para>Tag for the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1fd32fc052c357e47d2c650134a24c98e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATES</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATES</name>
+        <briefdescription>
+<para>Tag for the samplingRate element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1a387f48e343a03c77ba425b00218be2d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SPIKE</definition>
+        <argsstring></argsstring>
+        <name>SPIKE</name>
+        <briefdescription>
+<para>Tag for the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_127a4ddd77f054e24599c3ef4fcd4b680" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNITS</definition>
+        <argsstring></argsstring>
+        <name>UNITS</name>
+        <briefdescription>
+<para>Tag for the units element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_17ab1852f3b6111a7bdac1650235bcad4" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::BITS</definition>
+        <argsstring></argsstring>
+        <name>BITS</name>
+        <briefdescription>
+<para>Tag for the bits element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_18ad65dccba933eed935c39cdac5c1165" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>NB_CHANNELS</name>
+        <briefdescription>
+<para>Tag for the nbChannels element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_13987fe6fc4ac3cafaca8ac88692f2a90" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATE</name>
+        <briefdescription>
+<para>Tag for the samplingRate element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="54"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_195da54c05b025c54b655a061fcec2f69" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VOLTAGE_RANGE</definition>
+        <argsstring></argsstring>
+        <name>VOLTAGE_RANGE</name>
+        <briefdescription>
+<para>Tag for the voltageRange element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1e7d6329bcb1a85d20acc11bc54089c33" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::AMPLIFICATION</definition>
+        <argsstring></argsstring>
+        <name>AMPLIFICATION</name>
+        <briefdescription>
+<para>Tag for the amplification element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="58"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f288015f479f50b921505194f4d3c993" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::OFFSET</definition>
+        <argsstring></argsstring>
+        <name>OFFSET</name>
+        <briefdescription>
+<para>Tag for the offset element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="60"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15dafa4af52d118a895d1a5b42f9c2550" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_SAMPLES</definition>
+        <argsstring></argsstring>
+        <name>NB_SAMPLES</name>
+        <briefdescription>
+<para>Tag for the nbSamples element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_19b0b0cfe5ef08de057a2a5d14f8ac39e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PEAK_SAMPLE_INDEX</definition>
+        <argsstring></argsstring>
+        <name>PEAK_SAMPLE_INDEX</name>
+        <briefdescription>
+<para>Tag for the peakSAmpleIndex element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="67"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f2f6134235c9cd30d8b242718121bdea" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL_GROUPS</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL_GROUPS</name>
+        <briefdescription>
+<para>Tag for the channelGroups element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="69"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14cb3c659fbb0d70cad08d2f718a3f1f7" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::GROUP</definition>
+        <argsstring></argsstring>
+        <name>GROUP</name>
+        <briefdescription>
+<para>Tag for the groups element included in the channelGroups element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="71"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15c1a2e8b06644e8b0581d2b8c6aa0c31" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>CHANNELS</name>
+        <briefdescription>
+<para>Tag for the channels element included in the GROUP element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="73"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15131fbd3ab73dffd465d46b9c7bdce7a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL</name>
+        <briefdescription>
+<para>Tag for the channel element included in the CHANNELS element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="75"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1cbb53b8a8b34fb47f1b7011ae0a39511" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_FEATURES</definition>
+        <argsstring></argsstring>
+        <name>NB_FEATURES</name>
+        <briefdescription>
+<para>Tag for the nbFatures element included in the GROUP element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="77"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_149c9d4ba76beb51c0be6bee513f97763" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNIT</definition>
+        <argsstring></argsstring>
+        <name>UNIT</name>
+        <briefdescription>
+<para>Tag for the unit element included in the units element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="81"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1230cc028c55953617ea440ab6fed2828" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CLUSTER</definition>
+        <argsstring></argsstring>
+        <name>CLUSTER</name>
+        <briefdescription>
+<para>Tag for the cluster element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1933c2478e50b1982e4c80d3241ebcd1e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::STRUCTURE</definition>
+        <argsstring></argsstring>
+        <name>STRUCTURE</name>
+        <briefdescription>
+<para>Tag for the structure element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="85"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14215a3a6d2867fb8c59bc5a17745884b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <briefdescription>
+<para>Tag for the type element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="87"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f76abbde206398c9b7361a5806bb620d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ISOLATION_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>ISOLATION_DISTANCE</name>
+        <briefdescription>
+<para>Tag for the isolationDistance element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="89"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1661a7a02706a63c7eac767f2f6b11e6b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::QUALITY</definition>
+        <argsstring></argsstring>
+        <name>QUALITY</name>
+        <briefdescription>
+<para>Tag for the quality element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="91"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_12562d5f78e4255a6d453525f4f76501b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NOTES</definition>
+        <argsstring></argsstring>
+        <name>NOTES</name>
+        <briefdescription>
+<para>Tag for the notes element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="93"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="variable" id="namespaceklusters_1d2cfb37869139805833c8dbfa4e9969f" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ACQUISITION</definition>
+        <argsstring></argsstring>
+        <name>ACQUISITION</name>
+        <briefdescription>
+<para>Tag for the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="40"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d2cfb37869139805833c8dbfa4e9969f" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ACQUISITION</definition>
+        <argsstring></argsstring>
+        <name>ACQUISITION</name>
+        <initializer> &quot;acquisitionSystem&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="25"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1e7d6329bcb1a85d20acc11bc54089c33" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::AMPLIFICATION</definition>
+        <argsstring></argsstring>
+        <name>AMPLIFICATION</name>
+        <briefdescription>
+<para>Tag for the amplification element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="58"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1e7d6329bcb1a85d20acc11bc54089c33" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::AMPLIFICATION</definition>
+        <argsstring></argsstring>
+        <name>AMPLIFICATION</name>
+        <initializer> &quot;amplification&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_17ab1852f3b6111a7bdac1650235bcad4" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::BITS</definition>
+        <argsstring></argsstring>
+        <name>BITS</name>
+        <briefdescription>
+<para>Tag for the bits element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_17ab1852f3b6111a7bdac1650235bcad4" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::BITS</definition>
+        <argsstring></argsstring>
+        <name>BITS</name>
+        <initializer> &quot;nBits&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="31"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15131fbd3ab73dffd465d46b9c7bdce7a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL</name>
+        <briefdescription>
+<para>Tag for the channel element included in the CHANNELS element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="75"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15131fbd3ab73dffd465d46b9c7bdce7a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL</name>
+        <initializer> &quot;channel&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="47"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f2f6134235c9cd30d8b242718121bdea" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL_GROUPS</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL_GROUPS</name>
+        <briefdescription>
+<para>Tag for the channelGroups element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="69"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f2f6134235c9cd30d8b242718121bdea" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNEL_GROUPS</definition>
+        <argsstring></argsstring>
+        <name>CHANNEL_GROUPS</name>
+        <initializer> &quot;channelGroups&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15c1a2e8b06644e8b0581d2b8c6aa0c31" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>CHANNELS</name>
+        <briefdescription>
+<para>Tag for the channels element included in the GROUP element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="73"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15c1a2e8b06644e8b0581d2b8c6aa0c31" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>CHANNELS</name>
+        <initializer> &quot;channels&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1230cc028c55953617ea440ab6fed2828" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CLUSTER</definition>
+        <argsstring></argsstring>
+        <name>CLUSTER</name>
+        <briefdescription>
+<para>Tag for the cluster element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="83"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1230cc028c55953617ea440ab6fed2828" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CLUSTER</definition>
+        <argsstring></argsstring>
+        <name>CLUSTER</name>
+        <initializer> &quot;cluster&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1c902d6b2973e34f57474aade6f7082da" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CREATOR</definition>
+        <argsstring></argsstring>
+        <name>CREATOR</name>
+        <briefdescription>
+<para>Tag for the creator attribut of the parameter file root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="37"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1c902d6b2973e34f57474aade6f7082da" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::CREATOR</definition>
+        <argsstring></argsstring>
+        <name>CREATOR</name>
+        <initializer> &quot;creator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="23"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14cb3c659fbb0d70cad08d2f718a3f1f7" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::GROUP</definition>
+        <argsstring></argsstring>
+        <name>GROUP</name>
+        <briefdescription>
+<para>Tag for the groups element included in the channelGroups element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="71"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14cb3c659fbb0d70cad08d2f718a3f1f7" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::GROUP</definition>
+        <argsstring></argsstring>
+        <name>GROUP</name>
+        <initializer> &quot;group&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="45"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f76abbde206398c9b7361a5806bb620d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ISOLATION_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>ISOLATION_DISTANCE</name>
+        <briefdescription>
+<para>Tag for the isolationDistance element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="89"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f76abbde206398c9b7361a5806bb620d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::ISOLATION_DISTANCE</definition>
+        <argsstring></argsstring>
+        <name>ISOLATION_DISTANCE</name>
+        <initializer> &quot;isolationDistance&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="55"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1875a7395d27a94eea92b2fc0835d123a" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::LFP_SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>LFP_SAMPLING_RATE</name>
+        <initializer> &quot;lfpSamplingRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="39"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_18ad65dccba933eed935c39cdac5c1165" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>NB_CHANNELS</name>
+        <briefdescription>
+<para>Tag for the nbChannels element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="52"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_18ad65dccba933eed935c39cdac5c1165" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_CHANNELS</definition>
+        <argsstring></argsstring>
+        <name>NB_CHANNELS</name>
+        <initializer> &quot;nChannels&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="32"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1cbb53b8a8b34fb47f1b7011ae0a39511" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_FEATURES</definition>
+        <argsstring></argsstring>
+        <name>NB_FEATURES</name>
+        <briefdescription>
+<para>Tag for the nbFatures element included in the GROUP element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="77"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1cbb53b8a8b34fb47f1b7011ae0a39511" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_FEATURES</definition>
+        <argsstring></argsstring>
+        <name>NB_FEATURES</name>
+        <initializer> &quot;nFeatures&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15dafa4af52d118a895d1a5b42f9c2550" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_SAMPLES</definition>
+        <argsstring></argsstring>
+        <name>NB_SAMPLES</name>
+        <briefdescription>
+<para>Tag for the nbSamples element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="65"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_15dafa4af52d118a895d1a5b42f9c2550" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NB_SAMPLES</definition>
+        <argsstring></argsstring>
+        <name>NB_SAMPLES</name>
+        <initializer> &quot;nSamples&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_12562d5f78e4255a6d453525f4f76501b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NOTES</definition>
+        <argsstring></argsstring>
+        <name>NOTES</name>
+        <briefdescription>
+<para>Tag for the notes element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="93"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_12562d5f78e4255a6d453525f4f76501b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::NOTES</definition>
+        <argsstring></argsstring>
+        <name>NOTES</name>
+        <initializer> &quot;notes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f288015f479f50b921505194f4d3c993" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::OFFSET</definition>
+        <argsstring></argsstring>
+        <name>OFFSET</name>
+        <briefdescription>
+<para>Tag for the offset element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="60"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1f288015f479f50b921505194f4d3c993" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::OFFSET</definition>
+        <argsstring></argsstring>
+        <name>OFFSET</name>
+        <initializer> &quot;offset&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="36"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d1975c27d519d23bc30dc0fc9a784888" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PARAMETERS</definition>
+        <argsstring></argsstring>
+        <name>PARAMETERS</name>
+        <briefdescription>
+<para>Tag for the parameter file root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1d1975c27d519d23bc30dc0fc9a784888" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PARAMETERS</definition>
+        <argsstring></argsstring>
+        <name>PARAMETERS</name>
+        <initializer> &quot;parameters&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="22"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_19b0b0cfe5ef08de057a2a5d14f8ac39e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PEAK_SAMPLE_INDEX</definition>
+        <argsstring></argsstring>
+        <name>PEAK_SAMPLE_INDEX</name>
+        <briefdescription>
+<para>Tag for the peakSAmpleIndex element included in the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="67"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_19b0b0cfe5ef08de057a2a5d14f8ac39e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::PEAK_SAMPLE_INDEX</definition>
+        <argsstring></argsstring>
+        <name>PEAK_SAMPLE_INDEX</name>
+        <initializer> &quot;peakSampleIndex&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="43"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1661a7a02706a63c7eac767f2f6b11e6b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::QUALITY</definition>
+        <argsstring></argsstring>
+        <name>QUALITY</name>
+        <briefdescription>
+<para>Tag for the quality element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="91"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1661a7a02706a63c7eac767f2f6b11e6b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::QUALITY</definition>
+        <argsstring></argsstring>
+        <name>QUALITY</name>
+        <initializer> &quot;quality&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_13987fe6fc4ac3cafaca8ac88692f2a90" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATE</name>
+        <briefdescription>
+<para>Tag for the samplingRate element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="54"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_13987fe6fc4ac3cafaca8ac88692f2a90" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATE</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATE</name>
+        <initializer> &quot;samplingRate&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1fd32fc052c357e47d2c650134a24c98e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATES</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATES</name>
+        <briefdescription>
+<para>Tag for the samplingRate element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1fd32fc052c357e47d2c650134a24c98e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SAMPLING_RATES</definition>
+        <argsstring></argsstring>
+        <name>SAMPLING_RATES</name>
+        <initializer> &quot;samplingRates&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1a387f48e343a03c77ba425b00218be2d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SPIKE</definition>
+        <argsstring></argsstring>
+        <name>SPIKE</name>
+        <briefdescription>
+<para>Tag for the spike element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="44"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1a387f48e343a03c77ba425b00218be2d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::SPIKE</definition>
+        <argsstring></argsstring>
+        <name>SPIKE</name>
+        <initializer> &quot;spikeDetection&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1933c2478e50b1982e4c80d3241ebcd1e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::STRUCTURE</definition>
+        <argsstring></argsstring>
+        <name>STRUCTURE</name>
+        <briefdescription>
+<para>Tag for the structure element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="85"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_1933c2478e50b1982e4c80d3241ebcd1e" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::STRUCTURE</definition>
+        <argsstring></argsstring>
+        <name>STRUCTURE</name>
+        <initializer> &quot;structure&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="53"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14215a3a6d2867fb8c59bc5a17745884b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <briefdescription>
+<para>Tag for the type element included in the unit element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="87"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_14215a3a6d2867fb8c59bc5a17745884b" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::TYPE</definition>
+        <argsstring></argsstring>
+        <name>TYPE</name>
+        <initializer> &quot;type&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="54"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_149c9d4ba76beb51c0be6bee513f97763" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNIT</definition>
+        <argsstring></argsstring>
+        <name>UNIT</name>
+        <briefdescription>
+<para>Tag for the unit element included in the units element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="81"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_149c9d4ba76beb51c0be6bee513f97763" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNIT</definition>
+        <argsstring></argsstring>
+        <name>UNIT</name>
+        <initializer> &quot;unit&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="51"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_127a4ddd77f054e24599c3ef4fcd4b680" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNITS</definition>
+        <argsstring></argsstring>
+        <name>UNITS</name>
+        <briefdescription>
+<para>Tag for the units element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="46"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_127a4ddd77f054e24599c3ef4fcd4b680" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::UNITS</definition>
+        <argsstring></argsstring>
+        <name>UNITS</name>
+        <initializer> &quot;units&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_117430359bee8a24b92e1cc041a70de7d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <briefdescription>
+<para>Tag for the version attribute of the root element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="33"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_117430359bee8a24b92e1cc041a70de7d" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VERSION</definition>
+        <argsstring></argsstring>
+        <name>VERSION</name>
+        <initializer> &quot;version&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="21"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_195da54c05b025c54b655a061fcec2f69" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VOLTAGE_RANGE</definition>
+        <argsstring></argsstring>
+        <name>VOLTAGE_RANGE</name>
+        <briefdescription>
+<para>Tag for the voltageRange element included in the acquisition element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.h" line="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceklusters_195da54c05b025c54b655a061fcec2f69" prot="public" static="no" mutable="no">
+        <type>const QString</type>
+        <definition>const QString klusters::VOLTAGE_RANGE</definition>
+        <argsstring></argsstring>
+        <name>VOLTAGE_RANGE</name>
+        <initializer> &quot;voltageRange&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class contains the XML tags used in the paaramter files. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/tags.cpp" line="20"/>
+  </compounddef>
+</doxygen>

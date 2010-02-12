@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="processwidget_8cpp" kind="file">
+    <compoundname>processwidget.cpp</compoundname>
+    <includes refid="processwidget_8h" local="yes">processwidget.h</includes>
+    <includes refid="processlinemaker_8h" local="yes">processlinemaker.h</includes>
+    <includes local="no">qdir.h</includes>
+    <includes local="no">qpainter.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">qcursor.h</includes>
+    <includes local="no">kdeversion.h</includes>
+    <includes local="no">kdebug.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes local="no">kprocess.h</includes>
+    <includes local="no">qpaintdevicemetrics.h</includes>
+    <incdepgraph>
+      <node id="2283">
+        <label>qpaintdevicemetrics.h</label>
+      </node>
+      <node id="2267">
+        <label>processwidget.h</label>
+        <link refid="processwidget_8h-source"/>
+        <childnode refid="2268" relation="include">
+        </childnode>
+        <childnode refid="2269" relation="include">
+        </childnode>
+        <childnode refid="2270" relation="include">
+        </childnode>
+      </node>
+      <node id="2272">
+        <label>qstring.h</label>
+      </node>
+      <node id="2273">
+        <label>qobject.h</label>
+      </node>
+      <node id="2280">
+        <label>kdebug.h</label>
+      </node>
+      <node id="2270">
+        <label>qcolor.h</label>
+      </node>
+      <node id="2275">
+        <label>qdir.h</label>
+      </node>
+      <node id="2277">
+        <label>qapplication.h</label>
+      </node>
+      <node id="2281">
+        <label>klocale.h</label>
+      </node>
+      <node id="2279">
+        <label>kdeversion.h</label>
+      </node>
+      <node id="2269">
+        <label>kprinter.h</label>
+      </node>
+      <node id="2278">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2276">
+        <label>qpainter.h</label>
+      </node>
+      <node id="2266">
+        <label>processwidget.cpp</label>
+        <link refid="processwidget.cpp"/>
+        <childnode refid="2267" relation="include">
+        </childnode>
+        <childnode refid="2271" relation="include">
+        </childnode>
+        <childnode refid="2275" relation="include">
+        </childnode>
+        <childnode refid="2276" relation="include">
+        </childnode>
+        <childnode refid="2277" relation="include">
+        </childnode>
+        <childnode refid="2278" relation="include">
+        </childnode>
+        <childnode refid="2279" relation="include">
+        </childnode>
+        <childnode refid="2280" relation="include">
+        </childnode>
+        <childnode refid="2281" relation="include">
+        </childnode>
+        <childnode refid="2282" relation="include">
+        </childnode>
+        <childnode refid="2283" relation="include">
+        </childnode>
+      </node>
+      <node id="2274">
+        <label>iostream</label>
+      </node>
+      <node id="2282">
+        <label>kprocess.h</label>
+      </node>
+      <node id="2271">
+        <label>processlinemaker.h</label>
+        <link refid="processlinemaker_8h-source"/>
+        <childnode refid="2272" relation="include">
+        </childnode>
+        <childnode refid="2273" relation="include">
+        </childnode>
+        <childnode refid="2274" relation="include">
+        </childnode>
+      </node>
+      <node id="2268">
+        <label>klistbox.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>processwidget.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/>Copyright<sp/>(C)<sp/>1999-2001<sp/>by<sp/>Bernd<sp/>Gehrmann<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/>bernd@kdevelop.org<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;processwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;processlinemaker.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qdir.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcursor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kdeversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kdebug.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kprocess.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpaintdevicemetrics.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">ProcessListBoxItem::ProcessListBoxItem(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;s,<sp/>Type<sp/>type)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>QListBoxText(s),<sp/>t(type){}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessListBoxItem::paint(QPainter*<sp/>p)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>p-&gt;setPen((t==Error)?<sp/>Qt::darkRed<sp/>:</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(t==Diagnostic)?<sp/>Qt::black<sp/>:<sp/>Qt::darkBlue);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QListBoxText::paint(p);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">ProcessWidget::ProcessWidget(QWidget<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>KListBox(parent,<sp/>name)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">{<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//No<sp/>selection<sp/>will<sp/>be<sp/>possible</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>setSelectionMode(QListBox::NoSelection);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>setFocusPolicy(QWidget::NoFocus);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QPalette<sp/>pal<sp/>=<sp/>palette();</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>pal.setColor(QColorGroup::HighlightedText,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pal.color(QPalette::Normal,<sp/>QColorGroup::Text));</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>pal.setColor(QColorGroup::Highlight,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pal.color(QPalette::Normal,<sp/>QColorGroup::Mid));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>setPalette(pal);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>setCursor(QCursor(Qt::ArrowCursor));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Create<sp/>the<sp/>process</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>childproc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>KProcess();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>shellToUse<sp/>=<sp/>getenv(</highlight><highlight class="stringliteral">&quot;SHELL&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(shellToUse<sp/>!=<sp/>NULL)<sp/>childproc-&gt;setUseShell(</highlight><highlight class="keyword">true</highlight><highlight class="normal">,shellToUse);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>childproc-&gt;setUseShell(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>procLineMaker<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classProcessLineMaker" kindref="compound">ProcessLineMaker</ref>(<sp/>childproc<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(<sp/>procLineMaker,<sp/>SIGNAL(receivedStdoutLine(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)),</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(insertStdoutLine(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)<sp/>));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(<sp/>procLineMaker,<sp/>SIGNAL(receivedStderrLine(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)),</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(insertStderrLine(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString&amp;)<sp/>));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(<sp/>procLineMaker,<sp/>SIGNAL(outputTreatmentOver()),</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(slotOutputTreatmentOver()));</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SIGNAL(hidden()),</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>procLineMaker,<sp/>SLOT(slotWidgetHidden()));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(childproc,<sp/>SIGNAL(processExited(KProcess*)),</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SLOT(slotProcessExited(KProcess*)<sp/>))<sp/>;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>connect(</highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>SIGNAL(processExited(KProcess*)),</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>procLineMaker,<sp/>SLOT(slotProcessExited()))<sp/>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">ProcessWidget::~ProcessWidget()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>childproc;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal"><sp/>procLineMaker;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_19e3c899c3eb14de51465608e22a1e070" kindref="member">ProcessWidget::startJob</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;dir,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;command)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>procLineMaker-&gt;<ref refid="classProcessLineMaker_12925c8bf4b8b5e9d5e385b66485563e4" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>clear();</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>insertItem(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ProcessListBoxItem(command,<sp/>ProcessListBoxItem::Diagnostic));</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>childproc-&gt;clearArguments();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!dir.isNull())<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>QDir::setCurrent(dir);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>*childproc<sp/>&lt;&lt;<sp/>command;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>childproc-&gt;start(KProcess::NotifyOnExit,<sp/>KProcess::AllOutput);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_1572f011eba9b8b804334562dd3d6cdc4" kindref="member">ProcessWidget::killJob</ref>()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>childproc-&gt;kill();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>procLineMaker-&gt;<ref refid="classProcessLineMaker_18ca1dc8789f0e3e3c992d3dc8ec2c594" kindref="member">processKilled</ref>();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_1b83ef679b004836c9c0f4b18b26c5fa0" kindref="member">ProcessWidget::isRunning</ref>()</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>childproc-&gt;isRunning();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::slotProcessExited(KProcess*<sp/>)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>processExited(childproc);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_1e51d45fb2b93efd0262713ecc1444c71" kindref="member">ProcessWidget::insertStdoutLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;line)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>insertItem(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ProcessListBoxItem(line.stripWhiteSpace(),</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProcessListBoxItem::Normal));</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_11eeae8ece5dfded17fd12b540eb1b873" kindref="member">ProcessWidget::insertStderrLine</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>&amp;line)</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>insertItem(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ProcessListBoxItem(line.stripWhiteSpace(),</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProcessListBoxItem::Error));</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_10b1d41c54e87b604dc28ba3688ed7888" kindref="member">ProcessWidget::childFinished</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>normal,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>status)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>s;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>ProcessListBoxItem::Type<sp/>t;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(normal)<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(status)<sp/>{</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>i18n(</highlight><highlight class="stringliteral">&quot;***<sp/>Exited<sp/>with<sp/>status:<sp/>%1<sp/>***&quot;</highlight><highlight class="normal">).arg(status);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>ProcessListBoxItem::Error;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>i18n(</highlight><highlight class="stringliteral">&quot;***<sp/>Exited<sp/>normally<sp/>***&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>ProcessListBoxItem::Diagnostic;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s<sp/>=<sp/>i18n(</highlight><highlight class="stringliteral">&quot;***<sp/>Process<sp/>aborted<sp/>***&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t<sp/>=<sp/>ProcessListBoxItem::Error;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>insertItem(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ProcessListBoxItem(s,<sp/>t));</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">QSize<sp/>ProcessWidget::minimumSizeHint()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="165"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>I&apos;m<sp/>not<sp/>sure<sp/>about<sp/>this,<sp/>but<sp/>when<sp/>I<sp/>don&apos;t<sp/>use<sp/>override<sp/>minimumSizeHint(),</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>the<sp/>initial<sp/>size<sp/>in<sp/>clearly<sp/>too<sp/>small</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QSize(<sp/>QListBox::sizeHint().width(),</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(fontMetrics().lineSpacing()+2)*4<sp/>);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::maybeScrollToBottom()</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>verticalScrollBar()-&gt;value()<sp/>==<sp/>verticalScrollBar()-&gt;maxValue()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>qApp-&gt;processEvents();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>verticalScrollBar()-&gt;setValue(<sp/>verticalScrollBar()-&gt;maxValue()<sp/>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>qApp-&gt;processEvents();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>verticalScrollBar()-&gt;setValue(<sp/>verticalScrollBar()-&gt;maxValue()<sp/>);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="182"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_105b1ff1d417576b92f7b6dc824e2ac46" kindref="member">ProcessWidget::hideWidget</ref>(){</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(childproc-&gt;isRunning())<sp/>childproc-&gt;suspend();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/>emit<sp/>hidden();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ProcessWidget::slotOutputTreatmentOver(){</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><ref refid="classProcessWidget_10b1d41c54e87b604dc28ba3688ed7888" kindref="member">childFinished</ref>(childproc-&gt;normalExit(),<sp/>childproc-&gt;exitStatus());</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/>emit<sp/>processOutputsFinished();</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classProcessWidget_108f53f6724e0adacaee1a2dcca03f1cc" kindref="member">ProcessWidget::print</ref>(KPrinter*<sp/>printer,QString<sp/>filePath){</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/>QPainter<sp/>printPainter;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/>QPaintDeviceMetrics<sp/>metrics(printer);</highlight><highlight class="comment">//<sp/>need<sp/>width/height<sp/>of<sp/>printer<sp/>surface</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>Margin<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>yPos<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>y-position<sp/>for<sp/>each<sp/>line</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/>printPainter.begin(printer);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/>QRect<sp/>textRec<sp/>=<sp/>QRect(printPainter.viewport().left()<sp/>+<sp/>5<sp/>,printPainter.viewport().height()<sp/>-<sp/>20,printPainter.viewport().width()<sp/>-<sp/>5,20);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>QFont<sp/>f(</highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,8);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/>printPainter.setFont(f);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/>QFontMetrics<sp/>fontMetrics<sp/>=<sp/>printPainter.fontMetrics();</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i&lt;<sp/>numRows();<sp/>i++){</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>no<sp/>more<sp/>room<sp/>on<sp/>the<sp/>current<sp/>page<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(Margin<sp/>+<sp/>yPos<sp/>&gt;<sp/>metrics.height()<sp/>-<sp/>Margin)<sp/>{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>printPainter.setPen(black);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>printPainter.drawText(Margin,Margin<sp/>+<sp/>yPos<sp/>+<sp/>fontMetrics.lineSpacing(),metrics.width(),fontMetrics.lineSpacing(),</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Qt::AlignAuto<sp/>|<sp/>Qt::AlignVCenter,QString(</highlight><highlight class="stringliteral">&quot;File:<sp/>%1&quot;</highlight><highlight class="normal">).arg(filePath));</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>printer-&gt;newPage();<sp/><sp/></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>yPos<sp/>=<sp/>0;<sp/><sp/></highlight><highlight class="comment">//<sp/>back<sp/>to<sp/>top<sp/>of<sp/>page</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Draw<sp/>text</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/>ProcessListBoxItem*<sp/>boxItem<sp/>=<sp/>static_cast&lt;ProcessListBoxItem*&gt;(item(i));</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/>printPainter.setPen(boxItem-&gt;color());</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/>printPainter.drawText(Margin,Margin<sp/>+<sp/>yPos,</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>metrics.width(),fontMetrics.lineSpacing(),</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ExpandTabs<sp/>|<sp/>DontClip,<sp/>boxItem-&gt;text());</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/>yPos<sp/>=<sp/>yPos<sp/>+<sp/>fontMetrics.lineSpacing();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/>}</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/></highlight><highlight class="comment">//Print<sp/>the<sp/>name<sp/>of<sp/>the<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/>printPainter.resetXForm();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/>printPainter.setPen(black);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/>printPainter.drawText(textRec,Qt::AlignAuto<sp/>|<sp/>Qt::AlignVCenter,QString(</highlight><highlight class="stringliteral">&quot;File:<sp/>%1&quot;</highlight><highlight class="normal">).arg(filePath));</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/>printPainter.end();</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/processwidget.cpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classClusterPalette" kind="class" prot="public">
+    <compoundname>ClusterPalette</compoundname>
+    <includes refid="clusterPalette_8h" local="no">clusterPalette.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcb" prot="public" static="no">
+        <name>Mode</name>
+        <enumvalue id="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcbebdceda12c2154ee35da5eb79501d74a" prot="public">
+          <name>IMMEDIATE</name>
+          <initializer> 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcb361ec9f78e9ef89d115caeb7a84fa690" prot="public">
+          <name>DELAY</name>
+          <initializer> 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="66" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classClusterPalette_1e63b462d4fd68f58fae41c04c46823b0" prot="private" static="no" mutable="no">
+        <type>QIconView *</type>
+        <definition>QIconView* ClusterPalette::iconView</definition>
+        <argsstring></argsstring>
+        <name>iconView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="144" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_1d5bc286ddd4fdc4059ccd3f5be425473" prot="private" static="no" mutable="no">
+        <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> *</type>
+        <definition>KlustersDoc* ClusterPalette::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="145" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_1977ca680c73575a16126ba70a39a9328" prot="private" static="no" mutable="no">
+        <type>Mode</type>
+        <definition>Mode ClusterPalette::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_14a3b05c72b9d878ebf57843d15260cee" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClusterPalette::isInSelectItems</definition>
+        <argsstring></argsstring>
+        <name>isInSelectItems</name>
+        <briefdescription>
+<para>Prevent from emitting signal while globaly selecting items. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="150" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_1047580af956428044ce123b3e4a5e52a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClusterPalette::isUpToDate</definition>
+        <argsstring></argsstring>
+        <name>isUpToDate</name>
+        <briefdescription>
+<para>Prevent from emitting a signal of update if the selection had not changed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_1274c9b04a620e749f6e932f8f9bb327c" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ClusterPalette::backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <briefdescription>
+<para>Current palette background Color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="156" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_125cf48341c174e7c0a8645251c50bddc" prot="private" static="no" mutable="no">
+        <type>KStatusBar *</type>
+        <definition>KStatusBar* ClusterPalette::statusBar</definition>
+        <argsstring></argsstring>
+        <name>statusBar</name>
+        <briefdescription>
+<para>Pointer to the status bar of the application. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="159" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classClusterPalette_1546bdedf5c1740f1eae2ba2471095dd1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ClusterPalette::isInUserClusterInfoMode</definition>
+        <argsstring></argsstring>
+        <name>isInUserClusterInfoMode</name>
+        <briefdescription>
+<para>Allows to update correctly the cluster text. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="162" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classClusterPalette_1b6ecea444a4dbe8d1959e2a26b78e944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPalette::ClusterPalette</definition>
+        <argsstring>(QColor backgroundColor, QWidget *parent=0, KStatusBar *statusBar=0, const char *name=0, WFlags fl=0)</argsstring>
+        <name>ClusterPalette</name>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>fl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>backgroundColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>backgroundColor of the cluster palette. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parent QWidget. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statusBar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference to the application status bar. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the widget (can be used for introspection). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wflags</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>common QWidget flags. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="48" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1388640bbd487cc31dcc6685cc693e943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ClusterPalette::~ClusterPalette</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterPalette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1f873f3be830cedd156aa32c94c785459" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::createClusterList</definition>
+        <argsstring>(KlustersDoc *doc)</argsstring>
+        <name>createClusterList</name>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="101" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_13fa83e0c47a4dc0706ea738255b21b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::updateClusterList</definition>
+        <argsstring>()</argsstring>
+        <name>updateClusterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="108" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_199fe87a450eeb1bf711bdd4c0a1788db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::selectItems</definition>
+        <argsstring>(QValueList&lt; int &gt; selectedClusters)</argsstring>
+        <name>selectItems</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedClusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="373" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1e8060c1b87ef4e31a3cddfc3c4eda2c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ClusterPalette::setImmediateMode</definition>
+        <argsstring>()</argsstring>
+        <name>setImmediateMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1fca5c6351577c255be5bbda24a1e455a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void ClusterPalette::setDelayMode</definition>
+        <argsstring>()</argsstring>
+        <name>setDelayMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="72" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_14e4c8c8703cbdd6ca1d21d9a38633913" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="73" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="398" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1854edfe1e16d18265ae1d7b9d3f33341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt; int &gt; ClusterPalette::selectedClusters</definition>
+        <argsstring>()</argsstring>
+        <name>selectedClusters</name>
+        <briefdescription>
+<para>Returns the list of selected clusters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="260" bodyend="279"/>
+        <referencedby refid="classClusterPalette_1a6dd26806594f9612cfdca379d275788" compoundref="clusterPalette_8h" startline="86" endline="112">changeBackgroundColor</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1ad74cfaeda2eff134a2360422871eab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::hideUserClusterInformation</definition>
+        <argsstring>()</argsstring>
+        <name>hideUserClusterInformation</name>
+        <briefdescription>
+<para>Hides the user cluster information, that is show the normal cluster palette. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="78" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="456" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1813476b16575f955fa592018338db3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::showUserClusterInformation</definition>
+        <argsstring>(int electrodeGroupId)</argsstring>
+        <name>showUserClusterInformation</name>
+        <param>
+          <type>int</type>
+          <declname>electrodeGroupId</declname>
+        </param>
+        <briefdescription>
+<para>Shows the user cluster information, that is show a modified cluster palette presenting the cluster ids and the user cluster information. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>electrodeGroupId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the current electrode group. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="406" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="classClusterPalette_1a6dd26806594f9612cfdca379d275788" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::changeBackgroundColor</definition>
+        <argsstring>(QColor color)</argsstring>
+        <name>changeBackgroundColor</name>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>updates the background color of the palette. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="86" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="86" bodyend="112"/>
+        <references refid="classClusterPalette_1854edfe1e16d18265ae1d7b9d3f33341" compoundref="clusterPalette_8cpp" startline="260" endline="279">selectedClusters</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classClusterPalette_15ec01e26b788d3f2ef129f6578a429a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::changeColor</definition>
+        <argsstring>(QIconViewItem *item)</argsstring>
+        <name>changeColor</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="327" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_164d302313408e7474e0903d7afcd9d90" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::moveClustersToNoise</definition>
+        <argsstring>()</argsstring>
+        <name>moveClustersToNoise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="116" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="302" bodyend="309"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_1e63d7dffd4157185d31f8f7a70a12914" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::moveClustersToArtefact</definition>
+        <argsstring>()</argsstring>
+        <name>moveClustersToArtefact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="117" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="311" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_1fd3737e3b81a50e49208999af0df21fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::groupClusters</definition>
+        <argsstring>()</argsstring>
+        <name>groupClusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="118" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="293" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_14275cdc26dafafb880f132eb548eba8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::updateClusters</definition>
+        <argsstring>()</argsstring>
+        <name>updateClusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="319" bodyend="324"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classClusterPalette_144bd6e80167465a0f28c726bfb4f489f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::slotRightPressed</definition>
+        <argsstring>(QIconViewItem *item)</argsstring>
+        <name>slotRightPressed</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>The right click on a cluster icon bring a dialog allowing the user to enter information on the cluster (structure, type, isolation distance, quality and notes). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="125" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="162" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_1ff222642b34dfcdb9d0e86e0e1c8c6df" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::slotMousePressed</definition>
+        <argsstring>(int button, QIconViewItem *item)</argsstring>
+        <name>slotMousePressed</name>
+        <param>
+          <type>int</type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="126" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="252" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_192ea1da5a40c14ebb9452f94d8fab62b" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::slotClickRedraw</definition>
+        <argsstring>()</argsstring>
+        <name>slotClickRedraw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="281" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_195435c9aa7ad377d3feb772a7f73b782" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::languageChange</definition>
+        <argsstring>()</argsstring>
+        <name>languageChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="128" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="slot" id="classClusterPalette_10245e11b74a08765dd59be96046de85f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::slotOnItem</definition>
+        <argsstring>(QIconViewItem *item)</argsstring>
+        <name>slotOnItem</name>
+        <param>
+          <type>QIconViewItem *</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+<para>When moving the mouse over an cluster icon, the statusBar is updated with the information the user might could provided (structure, type, isolation distance, quality and notes). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="133" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.cpp" bodystart="227" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classClusterPalette_1a65cfb705a393124d623355722f8e2f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::singleChangeColor</definition>
+        <argsstring>(int selectedCluster)</argsstring>
+        <name>singleChangeColor</name>
+        <param>
+          <type>int</type>
+          <declname>selectedCluster</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="136" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.moc.cpp" bodystart="138" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClusterPalette_189fa20b29d75f836b6ee0415ce8e3c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::updateShownClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; selectedClusters)</argsstring>
+        <name>updateShownClusters</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedClusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="137" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.moc.cpp" bodystart="147" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClusterPalette_19d54d1ad155fb9ba29e617c9be0db6c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::groupClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; selectedClusters)</argsstring>
+        <name>groupClusters</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedClusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.moc.cpp" bodystart="160" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClusterPalette_1df3087942a7694135c13dee4333f8cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::moveClustersToNoise</definition>
+        <argsstring>(QValueList&lt; int &gt; selectedClusters)</argsstring>
+        <name>moveClustersToNoise</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedClusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="139" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.moc.cpp" bodystart="173" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="signal" id="classClusterPalette_1d4db436a9932e768c87942b112e8ee50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ClusterPalette::moveClustersToArtefact</definition>
+        <argsstring>(QValueList&lt; int &gt; selectedClusters)</argsstring>
+        <name>moveClustersToArtefact</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>selectedClusters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="140" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.moc.cpp" bodystart="186" bodyend="196"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the Cluster Panel of the application. </para>    </briefdescription>
+    <detaileddescription>
+<para>It receives the user selections and triggers the actions which have to be done. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="741">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="736">
+        <label>T</label>
+      </node>
+      <node id="734">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+        <childnode refid="733" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="729">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="730" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="739">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="730">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="731" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="733" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="738" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="729" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="741" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="738">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="733">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="734" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="731">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="735">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="736" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="737">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="733" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="732">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="730" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="733" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/clusterPalette.h" bodystart="46" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classClusterPalette_1274c9b04a620e749f6e932f8f9bb327c" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>backgroundColor</name></member>
+      <member refid="classClusterPalette_1a6dd26806594f9612cfdca379d275788" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>changeBackgroundColor</name></member>
+      <member refid="classClusterPalette_15ec01e26b788d3f2ef129f6578a429a1" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>changeColor</name></member>
+      <member refid="classClusterPalette_1b6ecea444a4dbe8d1959e2a26b78e944" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>ClusterPalette</name></member>
+      <member refid="classClusterPalette_1f873f3be830cedd156aa32c94c785459" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>createClusterList</name></member>
+      <member refid="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcb361ec9f78e9ef89d115caeb7a84fa690" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>DELAY</name></member>
+      <member refid="classClusterPalette_1d5bc286ddd4fdc4059ccd3f5be425473" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>doc</name></member>
+      <member refid="classClusterPalette_1fd3737e3b81a50e49208999af0df21fa" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>groupClusters</name></member>
+      <member refid="classClusterPalette_19d54d1ad155fb9ba29e617c9be0db6c5" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>groupClusters</name></member>
+      <member refid="classClusterPalette_1ad74cfaeda2eff134a2360422871eab9" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>hideUserClusterInformation</name></member>
+      <member refid="classClusterPalette_1e63b462d4fd68f58fae41c04c46823b0" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>iconView</name></member>
+      <member refid="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcbebdceda12c2154ee35da5eb79501d74a" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>IMMEDIATE</name></member>
+      <member refid="classClusterPalette_14a3b05c72b9d878ebf57843d15260cee" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>isInSelectItems</name></member>
+      <member refid="classClusterPalette_1546bdedf5c1740f1eae2ba2471095dd1" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>isInUserClusterInfoMode</name></member>
+      <member refid="classClusterPalette_1047580af956428044ce123b3e4a5e52a" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>isUpToDate</name></member>
+      <member refid="classClusterPalette_195435c9aa7ad377d3feb772a7f73b782" prot="protected" virt="virtual"><scope>ClusterPalette</scope><name>languageChange</name></member>
+      <member refid="classClusterPalette_1977ca680c73575a16126ba70a39a9328" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>mode</name></member>
+      <member refid="classClusterPalette_13fb8e02ac9ef29066071a3537d252bcb" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>Mode</name></member>
+      <member refid="classClusterPalette_1e63d7dffd4157185d31f8f7a70a12914" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>moveClustersToArtefact</name></member>
+      <member refid="classClusterPalette_1d4db436a9932e768c87942b112e8ee50" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>moveClustersToArtefact</name></member>
+      <member refid="classClusterPalette_164d302313408e7474e0903d7afcd9d90" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>moveClustersToNoise</name></member>
+      <member refid="classClusterPalette_1df3087942a7694135c13dee4333f8cac" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>moveClustersToNoise</name></member>
+      <member refid="classClusterPalette_14e4c8c8703cbdd6ca1d21d9a38633913" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>reset</name></member>
+      <member refid="classClusterPalette_1854edfe1e16d18265ae1d7b9d3f33341" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>selectedClusters</name></member>
+      <member refid="classClusterPalette_199fe87a450eeb1bf711bdd4c0a1788db" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>selectItems</name></member>
+      <member refid="classClusterPalette_1fca5c6351577c255be5bbda24a1e455a" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>setDelayMode</name></member>
+      <member refid="classClusterPalette_1e8060c1b87ef4e31a3cddfc3c4eda2c0" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>setImmediateMode</name></member>
+      <member refid="classClusterPalette_1813476b16575f955fa592018338db3d7" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>showUserClusterInformation</name></member>
+      <member refid="classClusterPalette_1a65cfb705a393124d623355722f8e2f3" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>singleChangeColor</name></member>
+      <member refid="classClusterPalette_192ea1da5a40c14ebb9452f94d8fab62b" prot="protected" virt="virtual"><scope>ClusterPalette</scope><name>slotClickRedraw</name></member>
+      <member refid="classClusterPalette_1ff222642b34dfcdb9d0e86e0e1c8c6df" prot="protected" virt="virtual"><scope>ClusterPalette</scope><name>slotMousePressed</name></member>
+      <member refid="classClusterPalette_10245e11b74a08765dd59be96046de85f" prot="protected" virt="virtual"><scope>ClusterPalette</scope><name>slotOnItem</name></member>
+      <member refid="classClusterPalette_144bd6e80167465a0f28c726bfb4f489f" prot="protected" virt="virtual"><scope>ClusterPalette</scope><name>slotRightPressed</name></member>
+      <member refid="classClusterPalette_125cf48341c174e7c0a8645251c50bddc" prot="private" virt="non-virtual"><scope>ClusterPalette</scope><name>statusBar</name></member>
+      <member refid="classClusterPalette_13fa83e0c47a4dc0706ea738255b21b6a" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>updateClusterList</name></member>
+      <member refid="classClusterPalette_14275cdc26dafafb880f132eb548eba8b" prot="public" virt="virtual"><scope>ClusterPalette</scope><name>updateClusters</name></member>
+      <member refid="classClusterPalette_189fa20b29d75f836b6ee0415ce8e3c98" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>updateShownClusters</name></member>
+      <member refid="classClusterPalette_1388640bbd487cc31dcc6685cc693e943" prot="public" virt="non-virtual"><scope>ClusterPalette</scope><name>~ClusterPalette</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

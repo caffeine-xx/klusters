@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="itemcolors_8h" kind="file">
+    <compoundname>itemcolors.h</compoundname>
+    <includes local="no">qptrlist.h</includes>
+    <includes local="no">qcolor.h</includes>
+    <includes local="no">qvaluelist.h</includes>
+    <includedby refid="klustersdoc_8h" local="yes">klustersdoc.h</includedby>
+    <includedby refid="clusterPalette_8cpp" local="yes">clusterPalette.cpp</includedby>
+    <includedby refid="klustersview_8h" local="yes">klustersview.h</includedby>
+    <includedby refid="clusterview_8cpp" local="yes">clusterview.cpp</includedby>
+    <includedby refid="correlationview_8cpp" local="yes">correlationview.cpp</includedby>
+    <includedby refid="itemcolors_8cpp" local="yes">itemcolors.cpp</includedby>
+    <includedby refid="traceview_8cpp" local="yes">traceview.cpp</includedby>
+    <includedby refid="waveformview_8cpp" local="yes">waveformview.cpp</includedby>
+    <incdepgraph>
+      <node id="1242">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1241">
+        <label>qcolor.h</label>
+      </node>
+      <node id="1240">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1239">
+        <label>itemcolors.h</label>
+        <link refid="itemcolors.h"/>
+        <childnode refid="1240" relation="include">
+        </childnode>
+        <childnode refid="1241" relation="include">
+        </childnode>
+        <childnode refid="1242" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1248">
+        <label>klusters.h</label>
+        <link refid="klusters_8h-source"/>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1247">
+        <label>klustersview.h</label>
+        <link refid="klustersview_8h-source"/>
+        <childnode refid="1248" relation="include">
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="1245" relation="include">
+        </childnode>
+        <childnode refid="1246" relation="include">
+        </childnode>
+      </node>
+      <node id="1246">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="1245">
+        <label>autosavethread.h</label>
+        <link refid="autosavethread_8h-source"/>
+      </node>
+      <node id="1243">
+        <label>itemcolors.h</label>
+        <link refid="itemcolors.h"/>
+        <childnode refid="1244" relation="include">
+        </childnode>
+        <childnode refid="1247" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classItemColors" prot="public">ItemColors</innerclass>
+    <innerclass refid="structItemColors_1_1ItemColor" prot="private">ItemColors::ItemColor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>itemcolors.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Tue<sp/>Sep<sp/>16<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ITEMCOLORS_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>ITEMCOLORS_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>Qt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qcolor.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvaluelist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classItemColors" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classItemColors" kindref="compound">ItemColors</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>SelectionMode<sp/>{BY_INDEX=0,BY_ITEM_NUMBER=1};</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><ref refid="classItemColors" kindref="compound">ItemColors</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>~<ref refid="classItemColors" kindref="compound">ItemColors</ref>();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><ref refid="classItemColors" kindref="compound">ItemColors</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classItemColors" kindref="compound">ItemColors</ref>&amp;<sp/>itemcolors);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ItemColor{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" kindref="member">itemId</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isChanged;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>label;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>ItemColor(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>QColor<sp/>c,QString<sp/>l<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" kindref="member">itemId</ref><sp/>=<sp/>id;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref><sp/>=<sp/>c;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>isChanged<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(l<sp/>==<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)<sp/>label<sp/>=<sp/>QString(</highlight><highlight class="stringliteral">&quot;%1&quot;</highlight><highlight class="normal">).arg(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>label<sp/>=<sp/>l;<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>ItemColor(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ItemColor&amp;<sp/>origin):<ref refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" kindref="member">itemId</ref>(origin.itemId),</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>(origin.color),isChanged(origin.isChanged),label(origin.label){};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>~ItemColor(){};</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/>QPtrList&lt;ItemColor&gt;<sp/>itemList;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>colorChanged;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>ItemColor*<sp/>itemColor(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" kindref="member">itemId</ref>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemColorIndex(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="classItemColors_1b1078b093e8bdda2525ae8de310d7386" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1b1078b093e8bdda2525ae8de310d7386" kindref="member">removeAll</ref>(){itemList.clear();};</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>identifier,<sp/>SelectionMode<sp/>mode<sp/>=<sp/>BY_ITEM_NUMBER);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1cd8b2f4b4ab0f6f59bb9d7173bb2f3d7" kindref="member">setColor</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>identifier,<sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>,<sp/>SelectionMode<sp/>mode<sp/>=<sp/>BY_ITEM_NUMBER);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItemColors_11e843f3a9dc5e7473aa6e60668776259" kindref="member">itemId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classItemColors_1720e7e7ceaeb086314bffb0b633d73e3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1720e7e7ceaeb086314bffb0b633d73e3" kindref="member">itemIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId)</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemColorIndex(itemId);};</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classItemColors_1d6106a973d0d779f1d90a3d6413c3750" kindref="member">itemLabel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classItemColors_175f3487df5bc1abc46df29698381e485" kindref="member">itemLabelById</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1c14bf1392ed92cd06510247b7c579de2" kindref="member">contains</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1d1205053a2109dd30dec9d91a4ac1cd0" kindref="member">isColorChanged</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>identifier,<sp/>SelectionMode<sp/>mode<sp/>=<sp/>BY_ITEM_NUMBER);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_14992dcd7a41b0b186c50c1dae6223d7e" kindref="member">setColorChanged</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>identifier,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>changed,<sp/>SelectionMode<sp/>mode<sp/>=<sp/>BY_ITEM_NUMBER);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="classItemColors_1da9479be1e644aef36e058fa859f5183" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="classItemColors_1da9479be1e644aef36e058fa859f5183" kindref="member">numberOfItems</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>itemList.count();};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classItemColors_1d1205053a2109dd30dec9d91a4ac1cd0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1d1205053a2109dd30dec9d91a4ac1cd0" kindref="member">isColorChanged</ref>()</highlight><highlight class="keyword">const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>colorChanged;};</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="classItemColors_1447b7f891e318023c45acf552e90817b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_14992dcd7a41b0b186c50c1dae6223d7e" kindref="member">setColorChanged</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>changed){colorChanged<sp/>=<sp/>changed;};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="classItemColors_1ad18853c399635eba74382945cbe0955" kindref="member">append</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId,<sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>uint<sp/><ref refid="classItemColors_1ad18853c399635eba74382945cbe0955" kindref="member">append</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId,QString<sp/>label,QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1fe00eda17d35be0d60bce0b6a78c7488" kindref="member">insert</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId,<sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_1fe00eda17d35be0d60bce0b6a78c7488" kindref="member">insert</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>itemId,QString<sp/>label,<sp/>QColor<sp/><ref refid="classItemColors_15331e934e03ba6a5bb2cae1eae5d75bc" kindref="member">color</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classItemColors_12ab1cc59206fd12f4a4cf7d88a823f66" kindref="member">remove</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>identifier,<sp/>SelectionMode<sp/>mode<sp/>=<sp/>BY_ITEM_NUMBER);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;<sp/><ref refid="classItemColors_1c192b8cf920d42a4a9385ea5b900a267" kindref="member">colorChangedItemList</ref>();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_17e0a91ad96e51d9e59b0cd4b2f1f67dd" kindref="member">resetAllColorStatus</ref>();</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_13f93c952e7bf8cae24e2a05a71452bf4" kindref="member">changeItemId</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>newItemId);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classItemColors_17ec5592ee1998122b19bffcf9f2c0089" kindref="member">changeItemLabel</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,QString<sp/>newItemLabel);</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="250"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/itemcolors.h"/>
+  </compounddef>
+</doxygen>

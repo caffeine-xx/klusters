@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classAutoSaveThread" kind="class" prot="public">
+    <compoundname>AutoSaveThread</compoundname>
+    <includes refid="autosavethread_8h" local="no">autosavethread.h</includes>
+    <innerclass refid="classAutoSaveThread_1_1AutoSaveEvent" prot="public">AutoSaveThread::AutoSaveEvent</innerclass>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classAutoSaveThread_1547c5bc7a7bc5eff68c71bdbe66cfc82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class AutoSaveEvent</definition>
+        <argsstring></argsstring>
+        <name>AutoSaveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classAutoSaveThread_1e4811515ba99f20512234a356c9daa3d" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; AutoSaveThread::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="79" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAutoSaveThread_1a6eee731b42fd7a0bd2b9d725610c10e" prot="private" static="no" mutable="no">
+        <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> *</type>
+        <definition>KlustersDoc* AutoSaveThread::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classAutoSaveThread_17e32882c4ac9fd9d76d175471459f141" prot="private" static="no" mutable="no">
+        <type>KURL</type>
+        <definition>KURL AutoSaveThread::autoSaveUrl</definition>
+        <argsstring></argsstring>
+        <name>autoSaveUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classAutoSaveThread_193af611fd64ad5d6d53643002cde3cb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoSaveThread::~AutoSaveThread</definition>
+        <argsstring>()</argsstring>
+        <name>~AutoSaveThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_106a78aaa4eabf9d4450afe3fb5761761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>AutoSaveThread::AutoSaveThread</definition>
+        <argsstring>(Data &amp;d, KlustersDoc *doc, KURL saveTmpUrl)</argsstring>
+        <name>AutoSaveThread</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> *</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>KURL</type>
+          <declname>saveTmpUrl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="42" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_1cba4bcfed57cdefe1ebceea71ad4f9a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoSaveThread::removeTmpFile</definition>
+        <argsstring>()</argsstring>
+        <name>removeTmpFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_11cfb8fb6389b95950c8e5b49222cfbd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void AutoSaveThread::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.cpp" bodystart="34" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classAutoSaveThread_134053fc7ca1b5c3d9b27ba77a1d5ad4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classAutoSaveThread_1_1AutoSaveEvent" kindref="compound">AutoSaveEvent</ref> *</type>
+        <definition>AutoSaveEvent* AutoSaveThread::autoSaveEvent</definition>
+        <argsstring>()</argsstring>
+        <name>autoSaveEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="55" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Thread used to save automatically the document on a defined schedule. </para>    </briefdescription>
+    <detaileddescription>
+<para>The thread calls the <ref refid="classData" kindref="compound">Data</ref> object which will do the work. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="708">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="702">
+        <label>T</label>
+      </node>
+      <node id="700">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="701" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="706">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+        <childnode refid="699" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="707">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="697" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="705">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="697">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="698" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="696" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="699" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="704" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="706" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="707" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="708" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="704">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="700" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="703" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="698">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="701">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="702" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="703">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="699" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="696">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="697" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="699" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/autosavethread.h" bodystart="37" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classAutoSaveThread_1547c5bc7a7bc5eff68c71bdbe66cfc82" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>AutoSaveEvent</name></member>
+      <member refid="classAutoSaveThread_134053fc7ca1b5c3d9b27ba77a1d5ad4f" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>autoSaveEvent</name></member>
+      <member refid="classAutoSaveThread_106a78aaa4eabf9d4450afe3fb5761761" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>AutoSaveThread</name></member>
+      <member refid="classAutoSaveThread_17e32882c4ac9fd9d76d175471459f141" prot="private" virt="non-virtual"><scope>AutoSaveThread</scope><name>autoSaveUrl</name></member>
+      <member refid="classAutoSaveThread_1e4811515ba99f20512234a356c9daa3d" prot="private" virt="non-virtual"><scope>AutoSaveThread</scope><name>data</name></member>
+      <member refid="classAutoSaveThread_1a6eee731b42fd7a0bd2b9d725610c10e" prot="private" virt="non-virtual"><scope>AutoSaveThread</scope><name>doc</name></member>
+      <member refid="classAutoSaveThread_1cba4bcfed57cdefe1ebceea71ad4f9a1" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>removeTmpFile</name></member>
+      <member refid="classAutoSaveThread_11cfb8fb6389b95950c8e5b49222cfbd0" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>run</name></member>
+      <member refid="classAutoSaveThread_193af611fd64ad5d6d53643002cde3cb9" prot="public" virt="non-virtual"><scope>AutoSaveThread</scope><name>~AutoSaveThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

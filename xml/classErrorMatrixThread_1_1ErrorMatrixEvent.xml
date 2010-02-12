@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classErrorMatrixThread_1_1ErrorMatrixEvent" kind="class" prot="public">
+    <compoundname>ErrorMatrixThread::ErrorMatrixEvent</compoundname>
+    <includes refid="errormatrixthread_8h" local="no">errormatrixthread.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classErrorMatrixThread_1_1ErrorMatrixEvent_19d82ec33e362f2584ae7fbb118a1a8d2" prot="private" static="no" mutable="no">
+        <type><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> &amp;</type>
+        <definition>ErrorMatrixThread&amp; ErrorMatrixThread::ErrorMatrixEvent::errorMatrixThread</definition>
+        <argsstring></argsstring>
+        <name>errorMatrixThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classErrorMatrixThread_1_1ErrorMatrixEvent_1d8a9babe6954e255a0be7e980f882758" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref> *</type>
+        <definition>ErrorMatrixEvent* ErrorMatrixThread::getErrorMatrixEvent</definition>
+        <argsstring>()</argsstring>
+        <name>ErrorMatrixThread::getErrorMatrixEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classErrorMatrixThread_1_1ErrorMatrixEvent_1b700ce1f0ed2b179ffd34e4bbc071a05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> *</type>
+        <definition>ErrorMatrixThread* ErrorMatrixThread::ErrorMatrixEvent::parentThread</definition>
+        <argsstring>()</argsstring>
+        <name>parentThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_1_1ErrorMatrixEvent_1c05cbf7a9b225e7101d6b741cb48ca22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixThread::ErrorMatrixEvent::~ErrorMatrixEvent</definition>
+        <argsstring>()</argsstring>
+        <name>~ErrorMatrixEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classErrorMatrixThread_1_1ErrorMatrixEvent_107b248ae12dddf58c8f2c8467587ed16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixThread::ErrorMatrixEvent::ErrorMatrixEvent</definition>
+        <argsstring>(ErrorMatrixThread &amp;thread)</argsstring>
+        <name>ErrorMatrixEvent</name>
+        <param>
+          <type><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> &amp;</type>
+          <declname>thread</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="78" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Internal class use to send information to the <ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref> to inform it that the matrix has been computed. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="since"><para>klusters 1.1 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1002">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1003" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="983">
+        <label>T</label>
+      </node>
+      <node id="990">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1001" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="985">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="986" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1009">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1003">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="991" relation="public-inheritance">
+        </childnode>
+        <childnode refid="994" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="996" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="992">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1006">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="981">
+        <label>Array&lt; double &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="982" relation="template-instance">
+          <edgelabel>&lt; double &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="998">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="999">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="997">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1001">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="990" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1002" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1004" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="993">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="994" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="995" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="996" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="998" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1000" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1006" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1007">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1004" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="991">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="992" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="982">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="983" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1009" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1010" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1011" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="996">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="997" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="987">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="985" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="988" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="994">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1004">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1005" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1007" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1008" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="999" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="986">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="983" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="989">
+        <label>ErrorMatrixView</label>
+        <link refid="classErrorMatrixView"/>
+        <childnode refid="990" relation="public-inheritance">
+        </childnode>
+        <childnode refid="981" relation="usage">
+          <edgelabel>probabilities</edgelabel>
+        </childnode>
+      </node>
+      <node id="979">
+        <label>ErrorMatrixThread::ErrorMatrixEvent</label>
+        <link refid="classErrorMatrixThread_1_1ErrorMatrixEvent"/>
+        <childnode refid="980" relation="usage">
+          <edgelabel>errorMatrixThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="984">
+        <label>GroupingAssistant</label>
+        <link refid="classGroupingAssistant"/>
+        <childnode refid="981" relation="usage">
+          <edgelabel>means
+covariances</edgelabel>
+        </childnode>
+        <childnode refid="985" relation="usage">
+          <edgelabel>spikesByCluster</edgelabel>
+        </childnode>
+      </node>
+      <node id="1011">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="988">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="987" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="980">
+        <label>ErrorMatrixThread</label>
+        <link refid="classErrorMatrixThread"/>
+        <childnode refid="981" relation="usage">
+          <edgelabel>probabilities</edgelabel>
+        </childnode>
+        <childnode refid="984" relation="usage">
+          <edgelabel>assistant</edgelabel>
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="989" relation="usage">
+          <edgelabel>errorMatrixView</edgelabel>
+        </childnode>
+      </node>
+      <node id="995">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="993" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="987" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="68" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classErrorMatrixThread_1_1ErrorMatrixEvent_107b248ae12dddf58c8f2c8467587ed16" prot="private" virt="non-virtual"><scope>ErrorMatrixThread::ErrorMatrixEvent</scope><name>ErrorMatrixEvent</name></member>
+      <member refid="classErrorMatrixThread_1_1ErrorMatrixEvent_19d82ec33e362f2584ae7fbb118a1a8d2" prot="private" virt="non-virtual"><scope>ErrorMatrixThread::ErrorMatrixEvent</scope><name>errorMatrixThread</name></member>
+      <member refid="classErrorMatrixThread_1_1ErrorMatrixEvent_1d8a9babe6954e255a0be7e980f882758" prot="private" virt="non-virtual"><scope>ErrorMatrixThread::ErrorMatrixEvent</scope><name>ErrorMatrixThread::getErrorMatrixEvent</name></member>
+      <member refid="classErrorMatrixThread_1_1ErrorMatrixEvent_1b700ce1f0ed2b179ffd34e4bbc071a05" prot="public" virt="non-virtual"><scope>ErrorMatrixThread::ErrorMatrixEvent</scope><name>parentThread</name></member>
+      <member refid="classErrorMatrixThread_1_1ErrorMatrixEvent_1c05cbf7a9b225e7101d6b741cb48ca22" prot="public" virt="non-virtual"><scope>ErrorMatrixThread::ErrorMatrixEvent</scope><name>~ErrorMatrixEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,3082 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classTraceWidget" kind="class" prot="public">
+    <compoundname>TraceWidget</compoundname>
+    <includes refid="tracewidget_8h" local="no">tracewidget.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTraceWidget_1e9b20cb3e157277619512b642cbfe41b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long TraceWidget::timeWindow</definition>
+        <argsstring></argsstring>
+        <name>timeWindow</name>
+        <briefdescription>
+<para>Amount of time used when looking for the traces. </para>        </briefdescription>
+        <detaileddescription>
+<para>This amount is in miliseconds and the default is 1000. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="574" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_17055c63c84840a1106238a0d55a3a2e5" prot="private" static="no" mutable="no">
+        <type><ref refid="classTraceView" kindref="compound">TraceView</ref></type>
+        <definition>TraceView TraceWidget::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+<para><ref refid="classTraceView" kindref="compound">TraceView</ref> used to actually display the traces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="577" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1d67ceed2adfad1b1947cd161979449fb" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long TraceWidget::startTime</definition>
+        <argsstring></argsstring>
+        <name>startTime</name>
+        <briefdescription>
+<para>Starting time when looking for the traces. </para>        </briefdescription>
+        <detaileddescription>
+<para>This amount is in miliseconds and the default is 0. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="582" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_103f17df9dacb6eb1cd79df8a9f1f67a2" prot="private" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* TraceWidget::startMinute</definition>
+        <argsstring></argsstring>
+        <name>startMinute</name>
+        <briefdescription>
+<para>Spine box enabling to choose the start time in minutes used to display the traces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="586" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_10601d0c76d934bade74c05970730ad1e" prot="private" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* TraceWidget::startSecond</definition>
+        <argsstring></argsstring>
+        <name>startSecond</name>
+        <briefdescription>
+<para>Spine box enabling to choose the start time in seconds used to display the traces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="590" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_199ddadcc0281f0f00bfb0eda148a9655" prot="private" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* TraceWidget::startMilisecond</definition>
+        <argsstring></argsstring>
+        <name>startMilisecond</name>
+        <briefdescription>
+<para>Spine box enabling to choose the start time in miliseconds used to display the traces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="594" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1a28215d98fc5b3c73c864671142b5fe9" prot="private" static="no" mutable="no">
+        <type>QLineEdit *</type>
+        <definition>QLineEdit* TraceWidget::duration</definition>
+        <argsstring></argsstring>
+        <name>duration</name>
+        <briefdescription>
+<para>Small box where the user can enter the width of the time frame to use to display the traces. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="598" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1a004edcf72c98ece248c49ba11164872" prot="private" static="no" mutable="no">
+        <type>QIntValidator</type>
+        <definition>QIntValidator TraceWidget::validator</definition>
+        <argsstring></argsstring>
+        <name>validator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="602" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_11cd1d91da59420fe00be0efa3a7186c6" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* TraceWidget::durationLabel</definition>
+        <argsstring></argsstring>
+        <name>durationLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="604" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1a56ee808d51ba87e61c3af48d08ab06e" prot="private" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* TraceWidget::startLabel</definition>
+        <argsstring></argsstring>
+        <name>startLabel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="605" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1dd89ff8f5e5c4fceb17d587f99b7022f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TraceWidget::isInit</definition>
+        <argsstring></argsstring>
+        <name>isInit</name>
+        <briefdescription>
+<para>Boolean used to prevent the trigger of changes during initialization. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="608" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_10de66afac737295f47019709b0032f83" prot="private" static="no" mutable="no">
+        <type>QScrollBar *</type>
+        <definition>QScrollBar* TraceWidget::scrollBar</definition>
+        <argsstring></argsstring>
+        <name>scrollBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="610" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="610" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_12f7dc26a279018c67eac1b81cd8a2f11" prot="private" static="no" mutable="no">
+        <type>long long</type>
+        <definition>long long TraceWidget::recordingLength</definition>
+        <argsstring></argsstring>
+        <name>recordingLength</name>
+        <briefdescription>
+<para>Length of the recording in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="613" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="613" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1eb4a2a75a8ba4952ebb6940b2f57130e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long TraceWidget::lineStep</definition>
+        <argsstring></argsstring>
+        <name>lineStep</name>
+        <briefdescription>
+<para>ScrollBar line step size in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="616" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="616" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1ce9141458e4876458faf82eedda22e6e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long TraceWidget::pageStep</definition>
+        <argsstring></argsstring>
+        <name>pageStep</name>
+        <briefdescription>
+<para>ScrollBar page step size in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="619" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_1006bb97319d06c96bc50653fee81eddb" prot="private" static="no" mutable="no">
+        <type>QHBox *</type>
+        <definition>QHBox* TraceWidget::selectionWidgets</definition>
+        <argsstring></argsstring>
+        <name>selectionWidgets</name>
+        <briefdescription>
+<para>Container for the selection widget. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="622" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="622" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_101c2c576bb95cc1df46472db4b6a2adb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TraceWidget::minutePart</definition>
+        <argsstring></argsstring>
+        <name>minutePart</name>
+        <briefdescription>
+<para>When converting the recording length in minutes, seconds and miliseconds this represents the number of minutes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="625" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="625" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_15c8b461d766d1c8273e1372b13a3dba3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TraceWidget::secondPart</definition>
+        <argsstring></argsstring>
+        <name>secondPart</name>
+        <briefdescription>
+<para>When converting the recording length in minutes, seconds and miliseconds this represents the number of seconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="628" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_159df38538a551e175ee923459d2fa2db" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int TraceWidget::milisecondPart</definition>
+        <argsstring></argsstring>
+        <name>milisecondPart</name>
+        <briefdescription>
+<para>When converting the recording length in minutes, seconds and miliseconds this represents the number of miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="631" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="631" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTraceWidget_14bbeee34a26f03ecdba33aa5e88cb2dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TraceWidget::updateView</definition>
+        <argsstring></argsstring>
+        <name>updateView</name>
+        <briefdescription>
+<para>True if the <ref refid="classTraceView" kindref="compound">TraceView</ref> has to be updated, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="634" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classTraceWidget_17e8a2e8c70e9c30a0da7eb3d813517f8" prot="private" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString TraceWidget::INITIAL_TRACES_TIME_WINDOW</definition>
+        <argsstring></argsstring>
+        <name>INITIAL_TRACES_TIME_WINDOW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="600" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classTraceWidget_1b50e20ff6e32561871e5aaba5b0fdd98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TraceWidget::TraceWidget</definition>
+        <argsstring>(long startTime, long duration, bool greyScale, TracesProvider &amp;tracesProvider, bool multiColumns, bool verticalLines, bool raster, bool waveforms, bool labelsDisplay, QValueList&lt; int &gt; &amp;channelsToDisplay, int gain, int acquisitionGain, ChannelColors *channelColors, QMap&lt; int, QValueList&lt; int &gt; &gt; *groupsChannels, QMap&lt; int, int &gt; *channelsGroups, QValueList&lt; int &gt; &amp;channelOffsets, QValueList&lt; int &gt; &amp;gains, const QValueList&lt; int &gt; &amp;skippedChannels, QWidget *parent=0, const char *name=0, QColor backgroundColor=Qt::black, KStatusBar *statusBar=0L, int minSize=0, int maxSize=4000, int windowTopLeft=-500, int windowBottomRight=1001, int border=0)</argsstring>
+        <name>TraceWidget</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>duration</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>greyScale</declname>
+        </param>
+        <param>
+          <type><ref refid="classTracesProvider" kindref="compound">TracesProvider</ref> &amp;</type>
+          <declname>tracesProvider</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>multiColumns</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verticalLines</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>raster</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waveforms</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>labelsDisplay</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>channelsToDisplay</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>acquisitionGain</declname>
+        </param>
+        <param>
+          <type><ref refid="classChannelColors" kindref="compound">ChannelColors</ref> *</type>
+          <declname>channelColors</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, QValueList&lt; int &gt; &gt; *</type>
+          <declname>groupsChannels</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt; *</type>
+          <declname>channelsGroups</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>channelOffsets</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>gains</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>skippedChannels</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+          <defval>Qt::black</defval>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+          <defval>0L</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+          <defval>4000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowTopLeft</declname>
+          <defval>-500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowBottomRight</declname>
+          <defval>1001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>border</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time in miliseconds. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time window in miliseconds. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>greyScale</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if all the channels are display either in a gradation of grey false if they are display in color. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tracesProvider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference on the provider of the channels data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>multiColumns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the traces are displayed on multiple columns, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>verticalLines</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if vertical lines are displayed to show the clusters, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>raster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a raster is drawn to show the clusters, false otherwise </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>waveforms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if waveforms are drawn on top of the traces, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>labelsDisplay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if labels are drawn next to the traces, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channelsToDisplay</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference on the list of channel to be shown at the opening of the view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial gain use to draw the traces in the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>acquisitionGain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>acquisition gain. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channelColors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer on the list of colors for the channels. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>groupsChannels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer on the map given the list of channels for each group. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channelsGroups</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer on the map given to which group each channel belongs. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channelOffsets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference on the list containing the offset for each channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gains</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference on the list of the exponents used to compute the drawing gain for each channel. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>skippedChannels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of skipped channels. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the parent QWidget. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name of the widget (can be used for introspection). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>backgroundColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>color used as background. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>statusBar</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a reference to the application status bar. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minumum size of the view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximum size of the view. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>windowTopLeft</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the top-left corner of the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>windowBottomRight</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>bottom-right corner of the window (QRect corresponding to the part of the drawing which will actually be drawn onto the widget). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>border</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>size of the border between the frame and the contents. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="30" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classTraceWidget_1c2a5170dc19d735ad902ac434c9503d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TraceWidget::~TraceWidget</definition>
+        <argsstring>()</argsstring>
+        <name>~TraceWidget</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="63" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classTraceWidget_18f26f46916c73e28e3fa46d62a561fd2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long TraceWidget::timeFrameWidth</definition>
+        <argsstring>() const</argsstring>
+        <name>timeFrameWidth</name>
+        <briefdescription>
+<para>Returns the time amount, in milisecond, of the time frame used by the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="98" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="98" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classTraceWidget_15f7034d8ed97e0cdea8b0f819497bd40" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>long TraceWidget::timeFrameStart</definition>
+        <argsstring>() const</argsstring>
+        <name>timeFrameStart</name>
+        <briefdescription>
+<para>Returns the start time of the time frame used by the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="104" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="104" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classTraceWidget_16245719838a11243d06a420839192ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::installEventFilter</definition>
+        <argsstring>(const QObject *filterObject)</argsstring>
+        <name>installEventFilter</name>
+        <param>
+          <type>const QObject *</type>
+          <declname>filterObject</declname>
+        </param>
+        <briefdescription>
+<para>Installs the event filter on the view contained in the widget. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="109" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="109" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classTraceWidget_1cd5458a21208e3f76579dfed9076af0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::changeBackgroundColor</definition>
+        <argsstring>(QColor color)</argsstring>
+        <name>changeBackgroundColor</name>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="117" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_11fa59c875f93e8eff216e098d5b368d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setGreyScale</definition>
+        <argsstring>(bool grey)</argsstring>
+        <name>setGreyScale</name>
+        <param>
+          <type>bool</type>
+          <declname>grey</declname>
+        </param>
+        <briefdescription>
+<para>All the channels are now display either in a gradation of grey or in color. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>grey</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the channels have to be displayed in grey false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="122" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_137c7e2a0863ccddb96b93e49bc71e9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::moveToTime</definition>
+        <argsstring>(long time)</argsstring>
+        <name>moveToTime</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Display the traces starting at the given time in miliseconds. </para>        </briefdescription>
+        <detaileddescription>
+<para>The selection widgets are updated accordingly. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time to display the traces. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="442" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1c2bad42f9c0a9276580cdd7411bcfc2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setMultiColumns</definition>
+        <argsstring>(bool multiple)</argsstring>
+        <name>setMultiColumns</name>
+        <param>
+          <type>bool</type>
+          <declname>multiple</declname>
+        </param>
+        <briefdescription>
+<para>Sets the mode of presentation to single or multiple columns. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>multiple</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the traces are presented on multiple columns, false if they are presented on a single column. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="133" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="133" bodyend="133"/>
+        <references refid="classTraceView_1759186f2afec53e33fe8b29a259e475b" compoundref="traceview_8cpp" startline="547" endline="554">TraceView::setMultiColumns</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ca0b36157988c62c8738de687315a039" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setClusterVerticalLines</definition>
+        <argsstring>(bool lines)</argsstring>
+        <name>setClusterVerticalLines</name>
+        <param>
+          <type>bool</type>
+          <declname>lines</declname>
+        </param>
+        <briefdescription>
+<para>Displays or hides vertical lines to show the clusters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lines</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the vertical lines are drawn for each cluster, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="138" bodyend="138"/>
+        <references refid="classTraceView_17943208b4827f2af154416001d983bea" compoundref="traceview_8cpp" startline="556" endline="562">TraceView::setClusterVerticalLines</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_13dfd3c15803a31bb1a88026dc7687de6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setClusterRaster</definition>
+        <argsstring>(bool raster)</argsstring>
+        <name>setClusterRaster</name>
+        <param>
+          <type>bool</type>
+          <declname>raster</declname>
+        </param>
+        <briefdescription>
+<para>Displays or hides a raster to show the clusters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>raster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if a raster is drawn, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="143" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="143" bodyend="143"/>
+        <references refid="classTraceView_1d6c11753beebcf5cfd1412106b9594c3" compoundref="traceview_8cpp" startline="564" endline="570">TraceView::setClusterRaster</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_12df1df25d13a8e6b65bc0dddc9e8a3c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setClusterWaveforms</definition>
+        <argsstring>(bool waveforms)</argsstring>
+        <name>setClusterWaveforms</name>
+        <param>
+          <type>bool</type>
+          <declname>waveforms</declname>
+        </param>
+        <briefdescription>
+<para>Displays or hides the cluster waveforms on top of the traces. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>waveforms</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the waveforms are drawn, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="148" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="148" bodyend="148"/>
+        <references refid="classTraceView_1e4e7720b743a457d10ca9be9b97bdf92" compoundref="traceview_8cpp" startline="572" endline="578">TraceView::setClusterWaveforms</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ac82a0211d883937da1fdb4459096dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotChannelsSelected</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;selectedIds)</argsstring>
+        <name>slotChannelsSelected</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+<para>Informs listener that the channels <computeroutput>selectedIds</computeroutput> have been selected. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>the</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of channels selected by the user in a view. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="153" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="153" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1de33f68230594ffbbdb74d434a73988f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TraceWidget::setMode</definition>
+        <argsstring>(BaseFrame::Mode selectedMode, bool active)</argsstring>
+        <name>setMode</name>
+        <param>
+          <type><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref></type>
+          <declname>selectedMode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Change the current mode, call by a selection of a tool. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedMode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new mode of drawing. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="159" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="159" bodyend="159"/>
+        <references refid="classTraceView_1261b891ab9784b0e893b67d0cba4c816" compoundref="traceview_8h" startline="199" endline="247">TraceView::setMode</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_132f3223cad09a473e1b8cd467414b0e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showChannels</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;channelsToShow)</argsstring>
+        <name>showChannels</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>channelsToShow</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of channels shown with <computeroutput>channelsToShow</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelsToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of channels to be shown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="165" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="165" bodyend="167"/>
+        <references refid="classTraceView_1acd0592f3fd9725b8460e1c9617ef549" compoundref="traceview_8cpp" startline="615" endline="637">TraceView::showChannels</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_13517239e13cff267e7d19467f6d0348f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showClusters</definition>
+        <argsstring>(QString name, QValueList&lt; int &gt; &amp;clustersToShow)</argsstring>
+        <name>showClusters</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToShow</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of clusters shown with <computeroutput>clustersToShow</computeroutput> for the cluster provider identified by <computeroutput>name</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the cluster provider containing the clusters to show. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clustersToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of clusters to be shown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="175" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="175" bodyend="177"/>
+        <references refid="classTraceView_11f56cb8787db3d5a73aa9d426a6d2ecd" compoundref="traceview_8cpp" startline="3386" endline="3416">TraceView::showClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_186e04d75e207507102a78562c9600f9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showEvents</definition>
+        <argsstring>(QString name, QValueList&lt; int &gt; &amp;eventsToShow)</argsstring>
+        <name>showEvents</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>eventsToShow</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of events shown with <computeroutput>eventsToShow</computeroutput> for the event provider identified by <computeroutput>name</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the events to show. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventsToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of events to be shown. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="185" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="185" bodyend="187"/>
+        <references refid="classTraceView_1b1be7029208deced848dd5a00e069238" compoundref="traceview_8cpp" startline="3563" endline="3592">TraceView::showEvents</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1bf6b8c96f354de2bcbc75f1f569089d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::channelColorUpdate</definition>
+        <argsstring>(int channelId, bool active)</argsstring>
+        <name>channelColorUpdate</name>
+        <param>
+          <type>int</type>
+          <declname>channelId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Changes the color of a channel. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the channel to redraw. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="193" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="193" bodyend="193"/>
+        <references refid="classTraceView_17b7f551c7d27a1462fb9ab11a62b7091" compoundref="traceview_8cpp" startline="3934" endline="3954">TraceView::channelColorUpdate</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_10b5d7c9897e2dd2ef38a61bcf87c1574" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::clusterColorUpdate</definition>
+        <argsstring>(QString name, int clusterId, bool active)</argsstring>
+        <name>clusterColorUpdate</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Changes the color of a cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the cluster provider containing the updated cluster. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the cluster to redraw. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="200" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="200" bodyend="200"/>
+        <references refid="classTraceView_1f5af8811703eb4d91598b7cc59de5077" compoundref="traceview_8cpp" startline="3435" endline="3441">TraceView::clusterColorUpdate</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1d44507213e582ac1330950e5b7cecfc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::eventColorUpdate</definition>
+        <argsstring>(QString name, int eventId, bool active)</argsstring>
+        <name>eventColorUpdate</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>eventId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Changes the color of a event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the updated event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the event to redraw. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="207" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="207" bodyend="207"/>
+        <references refid="classTraceView_14b1905ab18ff46db2d8d4d1f23991843" compoundref="traceview_8cpp" startline="3622" endline="3627">TraceView::eventColorUpdate</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_10e8f031c8eb133e7bfd13cd5846e846e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::groupColorUpdate</definition>
+        <argsstring>(int groupId, bool active)</argsstring>
+        <name>groupColorUpdate</name>
+        <param>
+          <type>int</type>
+          <declname>groupId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Changes the color of a group of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>groupId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the group for which the color have been changed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="213" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="213" bodyend="213"/>
+        <references refid="classTraceView_1784b87fcb2a70296f02c7188e4364492" compoundref="traceview_8h" startline="173" endline="177">TraceView::groupColorUpdate</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_15c0752514a4c21db6afb09a176f5696d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::increaseAllChannelsAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>increaseAllChannelsAmplitude</name>
+        <briefdescription>
+<para>Triggers the increase of the amplitude of all the channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="217" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="217" bodyend="217"/>
+        <references refid="classTraceView_1521f5624dc65f250b1ec00be11c61e37" compoundref="traceview_8cpp" startline="730" endline="744">TraceView::increaseAllAmplitude</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1fef9831b3df19d3e41cb24e822272213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::decreaseAllChannelsAmplitude</definition>
+        <argsstring>()</argsstring>
+        <name>decreaseAllChannelsAmplitude</name>
+        <briefdescription>
+<para>Triggers the decrease of the amplitude of all the channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="221" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="221" bodyend="221"/>
+        <references refid="classTraceView_1cbd3d6444c81ec515d87c381e077d1ea" compoundref="traceview_8cpp" startline="747" endline="761">TraceView::decreaseAllAmplitude</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ab335626fc554d93855fa11dc7bac6a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::increaseSelectedChannelsAmplitude</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;channelIds)</argsstring>
+        <name>increaseSelectedChannelsAmplitude</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>channelIds</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the increase of the amplitude of the selected channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ids of the channels for which the amplitude has to be increased. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="226" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="226" bodyend="226"/>
+        <references refid="classTraceView_1c52681dfe798393bc5d5186bf97a05ed" compoundref="traceview_8cpp" startline="763" endline="777">TraceView::increaseSelectedChannelsAmplitude</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1c7aef903b1d6fd2afe563504a70eaae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::decreaseSelectedChannelsAmplitude</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;channelIds)</argsstring>
+        <name>decreaseSelectedChannelsAmplitude</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>channelIds</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the decrease of the amplitude of the selected channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>channelIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ids of the channels for which the amplitude has to be decreased. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="231" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="231" bodyend="231"/>
+        <references refid="classTraceView_150e36ea51a5bd89c335f2e13be17b2a7" compoundref="traceview_8cpp" startline="779" endline="793">TraceView::decreaseSelectedChannelsAmplitude</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_11df17e9057fbeea4f2ec1e9fb767a6e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::setGains</definition>
+        <argsstring>(int gain, int acquisitionGain)</argsstring>
+        <name>setGains</name>
+        <param>
+          <type>int</type>
+          <declname>gain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>acquisitionGain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the unit gain and the acquisition system gain. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial gain use to draw the traces in the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>acquisitionGain</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>acquisition gain. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="237" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="237" bodyend="237"/>
+        <references refid="classTraceView_142febc88cac5ee6029aa303cdca2e02a" compoundref="traceview_8cpp" startline="678" endline="700">TraceView::setGains</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_15f24a62ba53589c1cb838baa4d1293d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateDrawing</definition>
+        <argsstring>()</argsstring>
+        <name>updateDrawing</name>
+        <briefdescription>
+<para>Update the information presented in the view if need it. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="240" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="240" bodyend="240"/>
+        <references refid="classTraceView_129d2a7ffadad0c851ba1046e5e5c90e5" compoundref="traceview_8h" startline="180" endline="187">TraceView::updateDrawing</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1c84014a559c34920a4996a926260ed49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateContents</definition>
+        <argsstring>()</argsstring>
+        <name>updateContents</name>
+        <briefdescription>
+<para>Update the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="243" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="243" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1bc6355f560e9bd1bd6f759dba6ae7b26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::groupsModified</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>groupsModified</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Triggers the update of the display due to a change in the display groups. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="248" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="248" bodyend="248"/>
+        <references refid="classTraceView_14c4a3549aa763d828f299293cd103439" compoundref="traceview_8cpp" startline="670" endline="676">TraceView::groupsModified</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_17d2850c97653176d90c5b5814285386c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::selectChannels</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;selectedIds)</argsstring>
+        <name>selectChannels</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+<para>Selects the channels in the <ref refid="classTraceView" kindref="compound">TraceView</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ids of the selected channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="253" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="253" bodyend="253"/>
+        <references refid="classTraceView_1de78893d26bacd552e16ca361a4ae2cf" compoundref="traceview_8cpp" startline="2940" endline="2971">TraceView::selectChannels</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_15aabcad62fc6e46a201971fdd3139c25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::resetOffsets</definition>
+        <argsstring>(const QMap&lt; int, int &gt; &amp;selectedChannelDefaultOffsets)</argsstring>
+        <name>resetOffsets</name>
+        <param>
+          <type>const QMap&lt; int, int &gt; &amp;</type>
+          <declname>selectedChannelDefaultOffsets</declname>
+        </param>
+        <briefdescription>
+<para>Resets the offset of the selected channels to the default values. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedChannelDefaultOffsets</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given the default offsets for the selected channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="258" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="258" bodyend="258"/>
+        <references refid="classTraceView_133725c681f33249a2f3123c321ccbb80" compoundref="traceview_8cpp" startline="588" endline="596">TraceView::resetOffsets</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ffdce068158627a523ec6dbd41c829fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::resetGains</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;selectedChannels)</argsstring>
+        <name>resetGains</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>selectedChannels</declname>
+        </param>
+        <briefdescription>
+<para>Resets the gain of the selected channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>selectedChannels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ids of the selected channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="263" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="263" bodyend="263"/>
+        <references refid="classTraceView_1803bd6e2132568020a5ef2dba539af46" compoundref="traceview_8cpp" startline="599" endline="613">TraceView::resetGains</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1cc3c94695108c1bd2e2334f94b4dbe70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::drawTraces</definition>
+        <argsstring>()</argsstring>
+        <name>drawTraces</name>
+        <briefdescription>
+<para>Informs the view to update the traces for the current time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="266" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="266" bodyend="266"/>
+        <references refid="classTraceView_19f7957aa400f6d89f046b738b5355cfa" compoundref="traceview_8cpp" startline="350" endline="416">TraceView::displayTimeFrame</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1724a55f81c7f99f744ffbeaf9fe43e4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Informs the view to reset its state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="269" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="269" bodyend="269"/>
+        <references refid="classTraceView_1e1590eb0f76bba3290d2aadf147b3557" compoundref="traceview_8cpp" startline="2974" endline="2997">TraceView::reset</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_10e8af727e710797baae58187c5b16480" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showLabels</definition>
+        <argsstring>(bool show)</argsstring>
+        <name>showLabels</name>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+<para>Informs the view to show or hide the labels display next to the traces. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>show</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the labels have to be shown, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="274" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="274" bodyend="274"/>
+        <references refid="classTraceView_1ef31aa94de61b33418ff3ce65519fdd1" compoundref="traceview_8cpp" startline="418" endline="435">TraceView::showHideLabels</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1d1c39916587b8db09e500f756d5fb5d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotSetStartAndDuration</definition>
+        <argsstring>(long time, long duration)</argsstring>
+        <name>slotSetStartAndDuration</name>
+        <param>
+          <type>long</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>duration</declname>
+        </param>
+        <briefdescription>
+<para>Displays the traces starting at the given time <computeroutput>time</computeroutput> in miliseconds and for the given duration <computeroutput>duration</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The selection widgets are updated accordingly. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time to display the traces. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>duration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>amount of time for which to display the traces. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="281" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="473" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1e30fb396ed2a526fec0b41338e6bbb7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showCalibration</definition>
+        <argsstring>(bool show, bool active)</argsstring>
+        <name>showCalibration</name>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Shows or hides the calibration bar. </para>        </briefdescription>
+        <detaileddescription>
+<para>This bar is meaningful only when all the channels have the same amplification. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>show</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the bar has to be shown false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="288" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="288" bodyend="288"/>
+        <references refid="classTraceView_15b176cb94e4edbe6de0571c925072ea2" compoundref="traceview_8h" startline="276" endline="280">TraceView::showCalibration</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1d989b83f81235c6df2a17e6fc2978028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::samplingRateModified</definition>
+        <argsstring>(long long length)</argsstring>
+        <name>samplingRateModified</name>
+        <param>
+          <type>long long</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+<para>Updates the different time selection widgets due to a modification of the sampling rate for the document. </para>        </briefdescription>
+        <detaileddescription>
+<para>Informs the view to update the traces. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the newly computed length of the document. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="295" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="151" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1917be5d92aad1b3ef7ff82ad483ad3b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::addClusterProvider</definition>
+        <argsstring>(ClustersProvider *clustersProvider, QString name, ItemColors *clusterColors, bool active, QValueList&lt; int &gt; &amp;clustersToShow, QMap&lt; int, QValueList&lt; int &gt; &gt; *displayGroupsClusterFile, QMap&lt; int, int &gt; *channelsSpikeGroups, int nbSamplesBefore, int nbSamplesAfter, const QValueList&lt; int &gt; &amp;clustersToSkip)</argsstring>
+        <name>addClusterProvider</name>
+        <param>
+          <type><ref refid="classClustersProvider" kindref="compound">ClustersProvider</ref> *</type>
+          <declname>clustersProvider</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classItemColors" kindref="compound">ItemColors</ref> *</type>
+          <declname>clusterColors</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToShow</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, QValueList&lt; int &gt; &gt; *</type>
+          <declname>displayGroupsClusterFile</declname>
+        </param>
+        <param>
+          <type>QMap&lt; int, int &gt; *</type>
+          <declname>channelsSpikeGroups</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbSamplesBefore</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbSamplesAfter</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToSkip</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new provider of cluster data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clustersProvider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>provider of cluster data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the cluster provider. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterColors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of colors for the clusters. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clustersToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters to be shown. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>displayGroupsClusterFile</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the anatomatical groups and the cluster files. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>channelsSpikeGroups</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map between the channel ids and the spike group ids. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbSamplesBefore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples before the sample of the peak are contained in the waveform of a spike. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbSamplesAfter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples after the sample of the peak are contained in the waveform of a spike. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clustersToSkip</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters to not use while browsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="311" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="309" bodyend="314"/>
+        <references refid="classTraceView_124e676e17e88878b88e382f23fcf8d26" compoundref="traceview_8cpp" startline="3336" endline="3371">TraceView::addClusterProvider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_102e4eae09c132dbdb5b28f4671be9c46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::removeClusterProvider</definition>
+        <argsstring>(QString name, bool active)</argsstring>
+        <name>removeClusterProvider</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Removes a provider of cluster data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the cluster provider. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="320" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="320" bodyend="322"/>
+        <references refid="classTraceView_1c0a337309aef21c7973117204745a08b" compoundref="traceview_8cpp" startline="3373" endline="3383">TraceView::removeClusterProvider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_12e8e19cd02495a0f3cf3c1b9360125c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::addEventProvider</definition>
+        <argsstring>(EventsProvider *eventsProvider, QString name, ItemColors *eventColors, bool active, QValueList&lt; int &gt; &amp;eventsToShow, const QValueList&lt; int &gt; &amp;eventsToNotBrowse)</argsstring>
+        <name>addEventProvider</name>
+        <param>
+          <type><ref refid="classEventsProvider" kindref="compound">EventsProvider</ref> *</type>
+          <declname>eventsProvider</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classItemColors" kindref="compound">ItemColors</ref> *</type>
+          <declname>eventColors</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>eventsToShow</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>eventsToNotBrowse</declname>
+        </param>
+        <briefdescription>
+<para>Adds a new provider of event data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>eventsProvider</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>provider of event data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventColors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of colors for the events. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventsToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters to be shown. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventsToNotBrowse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of events to not use while browsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="333" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="332" bodyend="335"/>
+        <references refid="classTraceView_12a33dd682edbab311d67deda5253a8a6" compoundref="traceview_8cpp" startline="3520" endline="3550">TraceView::addEventProvider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ffa0f1edd0c8eff94837e40e7355b310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::removeEventProvider</definition>
+        <argsstring>(QString name, bool active)</argsstring>
+        <name>removeEventProvider</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Removes a provider of event data. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="342" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="342" bodyend="344"/>
+        <references refid="classTraceView_15b1294c7ecf948fe3f3c1c71ea9e9a3a" compoundref="traceview_8cpp" startline="3552" endline="3561">TraceView::removeEventProvider</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_114120575465ad55deeeff9cbe93af5d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::print</definition>
+        <argsstring>(QPainter &amp;printPainter, QPaintDeviceMetrics &amp;metrics, QString filePath, bool whiteBackground)</argsstring>
+        <name>print</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>printPainter</declname>
+        </param>
+        <param>
+          <type>QPaintDeviceMetrics &amp;</type>
+          <declname>metrics</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>filePath</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>whiteBackground</declname>
+        </param>
+        <briefdescription>
+<para>Prints the current information drawn in the traceView. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printPainter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on a printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>metrics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object providing information about the printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>path of the opened document. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whiteBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the printed background has to be white, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="352" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="352" bodyend="367"/>
+        <references refid="classTraceView_17214244826f6a7c4d4b60219a43b7c60" compoundref="traceview_8cpp" startline="3453" endline="3516">TraceView::print</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_11a9df873ea776894269b5b8ab4c4d71c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showNextCluster</definition>
+        <argsstring>()</argsstring>
+        <name>showNextCluster</name>
+        <briefdescription>
+<para>Retrieves the next cluster. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="370" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="370" bodyend="370"/>
+        <references refid="classTraceView_11079f060958e7b60d315120abb9ecc41" compoundref="traceview_8cpp" startline="3990" endline="4034">TraceView::showNextCluster</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_123ed27e8c52d639895694b431d49c4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showPreviousCluster</definition>
+        <argsstring>()</argsstring>
+        <name>showPreviousCluster</name>
+        <briefdescription>
+<para>Retrieves the previous cluster. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="373" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="373" bodyend="373"/>
+        <references refid="classTraceView_1e3b6b42d339ec0ba5d1678f477c1ef8b" compoundref="traceview_8cpp" startline="4036" endline="4081">TraceView::showPreviousCluster</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_11309a9c5bc7b7461c13bee0a05b86552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showNextEvent</definition>
+        <argsstring>()</argsstring>
+        <name>showNextEvent</name>
+        <briefdescription>
+<para>Retrieves the next event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="376" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="376" bodyend="376"/>
+        <references refid="classTraceView_198cea56712568cbbfb84869406eb1e0c" compoundref="traceview_8cpp" startline="3629" endline="3673">TraceView::showNextEvent</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1068d07c3bde4b7072059b8c4301b386b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::showPreviousEvent</definition>
+        <argsstring>()</argsstring>
+        <name>showPreviousEvent</name>
+        <briefdescription>
+<para>Retrieves the previous event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="379" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="379" bodyend="379"/>
+        <references refid="classTraceView_19a4e4ef79aba3d485089c0b5dc29b95e" compoundref="traceview_8cpp" startline="3675" endline="3719">TraceView::showPreviousEvent</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_10d12b73589b89ee21fdeb6b02e250c87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotEventModified</definition>
+        <argsstring>(QString providerName, int selectedEventId, double time, double newTime)</argsstring>
+        <name>slotEventModified</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been modified. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new time of the modified event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="387" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="387" bodyend="389"/>
+        <references refid="classTraceWidget_18d1a0b7bab31e304e0d539ef7c199672" compoundref="tracewidget_8moc_8cpp" startline="469" endline="482">eventModified</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_14f0daf58c07be92a9acd0ba5a83a49a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotEventRemoved</definition>
+        <argsstring>(QString providerName, int selectedEventId, double time)</argsstring>
+        <name>slotEventRemoved</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been removed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the removed event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="396" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="396" bodyend="398"/>
+        <references refid="classTraceWidget_11ab7898ca132b2d5d7b29a2ddf54d61e" compoundref="tracewidget_8moc_8cpp" startline="485" endline="497">eventRemoved</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateEvents</definition>
+        <argsstring>(bool active, QString providerName, double time, double newTime)</argsstring>
+        <name>updateEvents</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+<para>Updates the traceView if concerned by the modification of the event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new time of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="406" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="406" bodyend="411"/>
+        <references refid="classTraceView_155428d02398ab02597a5721da780c502" compoundref="traceview_8h" startline="370" endline="373">TraceView::updateEvents</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1291d9965739e3153f0c2e20ef0e96506" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::removeEvent</definition>
+        <argsstring>()</argsstring>
+        <name>removeEvent</name>
+        <briefdescription>
+<para>Deletes the selected event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="415" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="415" bodyend="415"/>
+        <references refid="classTraceView_1313dc0bc4af37a5ab6e16a99a0ae8b25" compoundref="traceview_8cpp" startline="3956" endline="3987">TraceView::removeEvent</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_16a14a0cfd637844755f4bc1a4dacef54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateEvents</definition>
+        <argsstring>(bool active, QString providerName, double time)</argsstring>
+        <name>updateEvents</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Updates the traceView if concerned by the modification of the event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="422" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="422" bodyend="425"/>
+        <references refid="classTraceView_155428d02398ab02597a5721da780c502" compoundref="traceview_8h" startline="370" endline="373">TraceView::updateEvents</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_185a6a4bc37aba744d4bfbb9b2dc74bb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::eventToAddProperties</definition>
+        <argsstring>(QString providerName, QString eventDescription)</argsstring>
+        <name>eventToAddProperties</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>eventDescription</declname>
+        </param>
+        <briefdescription>
+<para>Informs the traceView of the properties for the next event to be added. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider which will contain the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of the next event to be created. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="431" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="431" bodyend="433"/>
+        <references refid="classTraceView_1d9156ab617b02c8f187e458b938fed83" compoundref="traceview_8h" startline="500" endline="507">TraceView::eventToAddProperties</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1d65594d2892d609c74b0b8ecd7f334ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotEventAdded</definition>
+        <argsstring>(QString providerName, QString addedEventDescription, double time)</argsstring>
+        <name>slotEventAdded</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>addedEventDescription</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been added. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addedEventDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time of the added event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="440" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="440" bodyend="442"/>
+        <references refid="classTraceWidget_1dac1706bdb1d8da252abd1da2dc73854" compoundref="tracewidget_8moc_8cpp" startline="500" endline="512">eventAdded</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1e70bd1cc94de4c31f1209cf132b9b9ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateEvents</definition>
+        <argsstring>(QString providerName, QValueList&lt; int &gt; &amp;eventsToShow, bool active)</argsstring>
+        <name>updateEvents</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>eventsToShow</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the event data provided by <computeroutput>providerName</computeroutput> due to the addition of an event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventsToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of events to be shown. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="449" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="449" bodyend="451"/>
+        <references refid="classTraceView_155428d02398ab02597a5721da780c502" compoundref="traceview_8h" startline="370" endline="373">TraceView::updateEvents</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1f90dfdba437c499ada80c361b477cd46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateWaveformInformation</definition>
+        <argsstring>(int nbSamplesBefore, int nbSamplesAfter, bool active)</argsstring>
+        <name>updateWaveformInformation</name>
+        <param>
+          <type>int</type>
+          <declname>nbSamplesBefore</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbSamplesAfter</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the description of a spike waveform. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbSamplesBefore</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples contained in the waveform of a spike before the sample of the peak. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbSamplesAfter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of samples contained in the waveform of a spike after the sample of the peak. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="458" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="458" bodyend="460"/>
+        <references refid="classTraceView_1426c5ea3b1f31c871c5bc0ab46647b85" compoundref="traceview_8cpp" startline="3443" endline="3451">TraceView::updateWaveformInformation</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_113c030f5be9354e56d8f580f12fd16b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateClusterData</definition>
+        <argsstring>(bool active)</argsstring>
+        <name>updateClusterData</name>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the cluster information presented on the display. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="465" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="465" bodyend="465"/>
+        <references refid="classTraceView_10bf137a71c4604245dad3c58a2f2a0be" compoundref="traceview_8cpp" startline="311" endline="348">TraceView::updateClusterData</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_16aee61c22cbc43a29019ec003f69b289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateNoneBrowsingEventList</definition>
+        <argsstring>(QString providerName, const QValueList&lt; int &gt; &amp;eventsToNotBrowse)</argsstring>
+        <name>updateNoneBrowsingEventList</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>eventsToNotBrowse</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of events to not use while browsing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>eventsToNotBrowse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of events to not use while browsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="471" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="471" bodyend="473"/>
+        <references refid="classTraceView_1dfeda22e2719ea704e5780c720986ba3" compoundref="traceview_8cpp" startline="3613" endline="3620">TraceView::updateNoneBrowsingEventList</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_11f7b99b8d7a3dc892218a21e6ecea537" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateNoneBrowsingClusterList</definition>
+        <argsstring>(QString providerName, const QValueList&lt; int &gt; &amp;clustersToNotBrowse)</argsstring>
+        <name>updateNoneBrowsingClusterList</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToNotBrowse</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of clusters to not use while browsing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clustersToNotBrowse</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of clusters to not use while browsing. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="479" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="479" bodyend="481"/>
+        <references refid="classTraceView_1ec505e9903c276ee3bb8e49396cee513" compoundref="traceview_8cpp" startline="3418" endline="3425">TraceView::updateNoneBrowsingClusterList</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_172fbe7c32880265badaa8f943e8e702a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void TraceWidget::dockBeingClosed</definition>
+        <argsstring>()</argsstring>
+        <name>dockBeingClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="487" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="487" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_18550f7b6cd52825d3f8cca90993495c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateClusters</definition>
+        <argsstring>(QString name, QValueList&lt; int &gt; &amp;clustersToShow, ItemColors *clusterColors, bool active)</argsstring>
+        <name>updateClusters</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToShow</declname>
+        </param>
+        <param>
+          <type><ref refid="classItemColors" kindref="compound">ItemColors</ref> *</type>
+          <declname>clusterColors</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>active</declname>
+        </param>
+        <briefdescription>
+<para>Updates the display due to modification of clusters provided by the cluster provider identified by <computeroutput>name</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the cluster provider containing the clusters to show. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clustersToShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new list of clusters to be shown. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterColors</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of colors for the clusters. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>active</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the view is the active one, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="496" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="496" bodyend="498"/>
+        <references refid="classTraceView_1e80a78c501f0d18730cfde3d6988254b" compoundref="traceview_8cpp" startline="4204" endline="4209">TraceView::updateClusters</references>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1cfadbd7b5d0f9231d8d28f6003c40902" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateSkipStatus</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;skippedChannels)</argsstring>
+        <name>updateSkipStatus</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>skippedChannels</declname>
+        </param>
+        <briefdescription>
+<para>Updates the list of skipped channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>skippedChannels</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of skipped channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="503" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="503" bodyend="503"/>
+        <references refid="classTraceView_12b8bb8cff8bd1ac6e5173a94eb36fce7" compoundref="traceview_8cpp" startline="3427" endline="3433">TraceView::skipStatusChanged</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classTraceWidget_119bce654bd9fc8cf6d7c3cd5eae69076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::channelsSelected</definition>
+        <argsstring>(const QValueList&lt; int &gt; &amp;selectedIds)</argsstring>
+        <name>channelsSelected</name>
+        <param>
+          <type>const QValueList&lt; int &gt; &amp;</type>
+          <declname>selectedIds</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="506" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="442" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="signal" id="classTraceWidget_1751e6ef64462695ca4dd2e68badde8ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::updateStartAndDuration</definition>
+        <argsstring>(long startTime, long timeWindow)</argsstring>
+        <name>updateStartAndDuration</name>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>timeWindow</declname>
+        </param>
+        <briefdescription>
+<para>Informs that the starting time and/or the timeWindow have changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>starting time. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>timeWindow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time window. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="512" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="455" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="signal" id="classTraceWidget_18d1a0b7bab31e304e0d539ef7c199672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::eventModified</definition>
+        <argsstring>(QString providerName, int selectedEventId, double time, double newTime)</argsstring>
+        <name>eventModified</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>newTime</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been modified. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the modified event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>new time of the modified event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="520" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="469" bodyend="482"/>
+        <referencedby refid="classTraceWidget_10d12b73589b89ee21fdeb6b02e250c87" compoundref="tracewidget_8h" startline="387" endline="389">slotEventModified</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classTraceWidget_11ab7898ca132b2d5d7b29a2ddf54d61e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::eventRemoved</definition>
+        <argsstring>(QString providerName, int selectedEventId, double time)</argsstring>
+        <name>eventRemoved</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>selectedEventId</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been removed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>selectedEventId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>id of the removed event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial time of the removed event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="527" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="485" bodyend="497"/>
+        <referencedby refid="classTraceWidget_14f0daf58c07be92a9acd0ba5a83a49a5" compoundref="tracewidget_8h" startline="396" endline="398">slotEventRemoved</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classTraceWidget_1dac1706bdb1d8da252abd1da2dc73854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::eventAdded</definition>
+        <argsstring>(QString providerName, QString addedEventDescription, double time)</argsstring>
+        <name>eventAdded</name>
+        <param>
+          <type>QString</type>
+          <declname>providerName</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>addedEventDescription</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Informs that an event has been added. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>providerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name use to identified the event provider containing the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>addedEventDescription</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>description of the added event. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>time of the added event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="534" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="500" bodyend="512"/>
+        <referencedby refid="classTraceWidget_1d65594d2892d609c74b0b8ecd7f334ac" compoundref="tracewidget_8h" startline="440" endline="442">slotEventAdded</referencedby>
+      </memberdef>
+      <memberdef kind="signal" id="classTraceWidget_1f2690d16fcbb1688882927e3b7056dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::parentDockBeingClosed</definition>
+        <argsstring>(QWidget *viewWidget)</argsstring>
+        <name>parentDockBeingClosed</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>viewWidget</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="539" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.moc.cpp" bodystart="515" bodyend="525"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classTraceWidget_13c1aee2f245120fa6be62594e6d0b5c5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::keyPressEvent</definition>
+        <argsstring>(QKeyEvent *event)</argsstring>
+        <name>keyPressEvent</name>
+        <param>
+          <type>QKeyEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a key press event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>key press event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="546" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="161" bodyend="174"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classTraceWidget_187a87e76e64161de4fa91839428c66f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::initSelectionWidgets</definition>
+        <argsstring>()</argsstring>
+        <name>initSelectionWidgets</name>
+        <briefdescription>
+<para>Initializes the different time selection widgets. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="552" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="77" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classTraceWidget_13d1eb3909fe104f284ac407b8e495919" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::correctStartTime</definition>
+        <argsstring>()</argsstring>
+        <name>correctStartTime</name>
+        <briefdescription>
+<para>Corrects the new start time which became inferior to the recordingLength due to a change in one of the selection widgets. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="641" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="221" bodyend="278"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classTraceWidget_1a053e0e4828c1d9d85bdaaf8e5e12460" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotStartMinuteTimeUpdated</definition>
+        <argsstring>(int start)</argsstring>
+        <name>slotStartMinuteTimeUpdated</name>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>Informs the view to present the traces for an updated time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="556" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="280" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1ef8edf99a5be4bec6fe62065053ecb40" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotStartSecondTimeUpdated</definition>
+        <argsstring>(int start)</argsstring>
+        <name>slotStartSecondTimeUpdated</name>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>Informs the view to present the traces for an updated time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="559" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="306" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_12d40a2bffb625620aa8f7611e03cce9b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotStartMilisecondTimeUpdated</definition>
+        <argsstring>(int start)</argsstring>
+        <name>slotStartMilisecondTimeUpdated</name>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+<para>Informs the view to present the traces for an updated time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="562" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="348" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_150bdc36b0fa56ee0fadb1ef7494af471" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotDurationUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>slotDurationUpdated</name>
+        <briefdescription>
+<para>Update the selection widgets and informs view to present the traces for an updated time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="565" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="176" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="slot" id="classTraceWidget_1365f01d24730acf37223a26baafaaa3c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceWidget::slotScrollBarUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>slotScrollBarUpdated</name>
+        <briefdescription>
+<para>Update the selection widgets and informs view to present the traces for an updated time frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="568" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.cpp" bodystart="401" bodyend="440"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class containing the <ref refid="classTraceView" kindref="compound">TraceView</ref> and all the widgets used to select the position in the file. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1319">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1320" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1320">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1321" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1323" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1324" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1322">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1325">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1321">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1322" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1324">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1325" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1323">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h" bodystart="50" bodyend="643"/>
+    <listofallmembers>
+      <member refid="classTraceWidget_1917be5d92aad1b3ef7ff82ad483ad3b7" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>addClusterProvider</name></member>
+      <member refid="classTraceWidget_12e8e19cd02495a0f3cf3c1b9360125c9" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>addEventProvider</name></member>
+      <member refid="classTraceWidget_1cd5458a21208e3f76579dfed9076af0a" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>changeBackgroundColor</name></member>
+      <member refid="classTraceWidget_1bf6b8c96f354de2bcbc75f1f569089d7" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>channelColorUpdate</name></member>
+      <member refid="classTraceWidget_119bce654bd9fc8cf6d7c3cd5eae69076" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>channelsSelected</name></member>
+      <member refid="classTraceWidget_10b5d7c9897e2dd2ef38a61bcf87c1574" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>clusterColorUpdate</name></member>
+      <member refid="classTraceWidget_13d1eb3909fe104f284ac407b8e495919" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>correctStartTime</name></member>
+      <member refid="classTraceWidget_1fef9831b3df19d3e41cb24e822272213" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>decreaseAllChannelsAmplitude</name></member>
+      <member refid="classTraceWidget_1c7aef903b1d6fd2afe563504a70eaae4" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>decreaseSelectedChannelsAmplitude</name></member>
+      <member refid="classTraceWidget_172fbe7c32880265badaa8f943e8e702a" prot="public" virt="virtual"><scope>TraceWidget</scope><name>dockBeingClosed</name></member>
+      <member refid="classTraceWidget_1cc3c94695108c1bd2e2334f94b4dbe70" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>drawTraces</name></member>
+      <member refid="classTraceWidget_1a28215d98fc5b3c73c864671142b5fe9" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>duration</name></member>
+      <member refid="classTraceWidget_11cd1d91da59420fe00be0efa3a7186c6" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>durationLabel</name></member>
+      <member refid="classTraceWidget_1dac1706bdb1d8da252abd1da2dc73854" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>eventAdded</name></member>
+      <member refid="classTraceWidget_1d44507213e582ac1330950e5b7cecfc7" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>eventColorUpdate</name></member>
+      <member refid="classTraceWidget_18d1a0b7bab31e304e0d539ef7c199672" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>eventModified</name></member>
+      <member refid="classTraceWidget_11ab7898ca132b2d5d7b29a2ddf54d61e" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>eventRemoved</name></member>
+      <member refid="classTraceWidget_185a6a4bc37aba744d4bfbb9b2dc74bb8" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>eventToAddProperties</name></member>
+      <member refid="classTraceWidget_10e8f031c8eb133e7bfd13cd5846e846e" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>groupColorUpdate</name></member>
+      <member refid="classTraceWidget_1bc6355f560e9bd1bd6f759dba6ae7b26" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>groupsModified</name></member>
+      <member refid="classTraceWidget_15c0752514a4c21db6afb09a176f5696d" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>increaseAllChannelsAmplitude</name></member>
+      <member refid="classTraceWidget_1ab335626fc554d93855fa11dc7bac6a8" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>increaseSelectedChannelsAmplitude</name></member>
+      <member refid="classTraceWidget_17e8a2e8c70e9c30a0da7eb3d813517f8" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>INITIAL_TRACES_TIME_WINDOW</name></member>
+      <member refid="classTraceWidget_187a87e76e64161de4fa91839428c66f5" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>initSelectionWidgets</name></member>
+      <member refid="classTraceWidget_16245719838a11243d06a420839192ed5" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>installEventFilter</name></member>
+      <member refid="classTraceWidget_1dd89ff8f5e5c4fceb17d587f99b7022f" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>isInit</name></member>
+      <member refid="classTraceWidget_13c1aee2f245120fa6be62594e6d0b5c5" prot="protected" virt="non-virtual"><scope>TraceWidget</scope><name>keyPressEvent</name></member>
+      <member refid="classTraceWidget_1eb4a2a75a8ba4952ebb6940b2f57130e" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>lineStep</name></member>
+      <member refid="classTraceWidget_159df38538a551e175ee923459d2fa2db" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>milisecondPart</name></member>
+      <member refid="classTraceWidget_101c2c576bb95cc1df46472db4b6a2adb" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>minutePart</name></member>
+      <member refid="classTraceWidget_137c7e2a0863ccddb96b93e49bc71e9c0" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>moveToTime</name></member>
+      <member refid="classTraceWidget_1ce9141458e4876458faf82eedda22e6e" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>pageStep</name></member>
+      <member refid="classTraceWidget_1f2690d16fcbb1688882927e3b7056dec" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>parentDockBeingClosed</name></member>
+      <member refid="classTraceWidget_114120575465ad55deeeff9cbe93af5d9" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>print</name></member>
+      <member refid="classTraceWidget_12f7dc26a279018c67eac1b81cd8a2f11" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>recordingLength</name></member>
+      <member refid="classTraceWidget_102e4eae09c132dbdb5b28f4671be9c46" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>removeClusterProvider</name></member>
+      <member refid="classTraceWidget_1291d9965739e3153f0c2e20ef0e96506" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>removeEvent</name></member>
+      <member refid="classTraceWidget_1ffa0f1edd0c8eff94837e40e7355b310" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>removeEventProvider</name></member>
+      <member refid="classTraceWidget_1724a55f81c7f99f744ffbeaf9fe43e4f" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>reset</name></member>
+      <member refid="classTraceWidget_1ffdce068158627a523ec6dbd41c829fd" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>resetGains</name></member>
+      <member refid="classTraceWidget_15aabcad62fc6e46a201971fdd3139c25" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>resetOffsets</name></member>
+      <member refid="classTraceWidget_1d989b83f81235c6df2a17e6fc2978028" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>samplingRateModified</name></member>
+      <member refid="classTraceWidget_10de66afac737295f47019709b0032f83" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>scrollBar</name></member>
+      <member refid="classTraceWidget_15c8b461d766d1c8273e1372b13a3dba3" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>secondPart</name></member>
+      <member refid="classTraceWidget_17d2850c97653176d90c5b5814285386c" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>selectChannels</name></member>
+      <member refid="classTraceWidget_1006bb97319d06c96bc50653fee81eddb" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>selectionWidgets</name></member>
+      <member refid="classTraceWidget_13dfd3c15803a31bb1a88026dc7687de6" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setClusterRaster</name></member>
+      <member refid="classTraceWidget_1ca0b36157988c62c8738de687315a039" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setClusterVerticalLines</name></member>
+      <member refid="classTraceWidget_12df1df25d13a8e6b65bc0dddc9e8a3c2" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setClusterWaveforms</name></member>
+      <member refid="classTraceWidget_11df17e9057fbeea4f2ec1e9fb767a6e2" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setGains</name></member>
+      <member refid="classTraceWidget_11fa59c875f93e8eff216e098d5b368d0" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setGreyScale</name></member>
+      <member refid="classTraceWidget_1de33f68230594ffbbdb74d434a73988f" prot="public" virt="virtual"><scope>TraceWidget</scope><name>setMode</name></member>
+      <member refid="classTraceWidget_1c2bad42f9c0a9276580cdd7411bcfc2e" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>setMultiColumns</name></member>
+      <member refid="classTraceWidget_1e30fb396ed2a526fec0b41338e6bbb7c" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showCalibration</name></member>
+      <member refid="classTraceWidget_132f3223cad09a473e1b8cd467414b0e4" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showChannels</name></member>
+      <member refid="classTraceWidget_13517239e13cff267e7d19467f6d0348f" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showClusters</name></member>
+      <member refid="classTraceWidget_186e04d75e207507102a78562c9600f9a" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showEvents</name></member>
+      <member refid="classTraceWidget_10e8af727e710797baae58187c5b16480" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showLabels</name></member>
+      <member refid="classTraceWidget_11a9df873ea776894269b5b8ab4c4d71c" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showNextCluster</name></member>
+      <member refid="classTraceWidget_11309a9c5bc7b7461c13bee0a05b86552" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showNextEvent</name></member>
+      <member refid="classTraceWidget_123ed27e8c52d639895694b431d49c4e3" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showPreviousCluster</name></member>
+      <member refid="classTraceWidget_1068d07c3bde4b7072059b8c4301b386b" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>showPreviousEvent</name></member>
+      <member refid="classTraceWidget_1ac82a0211d883937da1fdb4459096dc8" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>slotChannelsSelected</name></member>
+      <member refid="classTraceWidget_150bdc36b0fa56ee0fadb1ef7494af471" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>slotDurationUpdated</name></member>
+      <member refid="classTraceWidget_1d65594d2892d609c74b0b8ecd7f334ac" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>slotEventAdded</name></member>
+      <member refid="classTraceWidget_10d12b73589b89ee21fdeb6b02e250c87" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>slotEventModified</name></member>
+      <member refid="classTraceWidget_14f0daf58c07be92a9acd0ba5a83a49a5" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>slotEventRemoved</name></member>
+      <member refid="classTraceWidget_1365f01d24730acf37223a26baafaaa3c" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>slotScrollBarUpdated</name></member>
+      <member refid="classTraceWidget_1d1c39916587b8db09e500f756d5fb5d2" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>slotSetStartAndDuration</name></member>
+      <member refid="classTraceWidget_12d40a2bffb625620aa8f7611e03cce9b" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>slotStartMilisecondTimeUpdated</name></member>
+      <member refid="classTraceWidget_1a053e0e4828c1d9d85bdaaf8e5e12460" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>slotStartMinuteTimeUpdated</name></member>
+      <member refid="classTraceWidget_1ef8edf99a5be4bec6fe62065053ecb40" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>slotStartSecondTimeUpdated</name></member>
+      <member refid="classTraceWidget_1a56ee808d51ba87e61c3af48d08ab06e" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>startLabel</name></member>
+      <member refid="classTraceWidget_199ddadcc0281f0f00bfb0eda148a9655" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>startMilisecond</name></member>
+      <member refid="classTraceWidget_103f17df9dacb6eb1cd79df8a9f1f67a2" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>startMinute</name></member>
+      <member refid="classTraceWidget_10601d0c76d934bade74c05970730ad1e" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>startSecond</name></member>
+      <member refid="classTraceWidget_1d67ceed2adfad1b1947cd161979449fb" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>startTime</name></member>
+      <member refid="classTraceWidget_15f7034d8ed97e0cdea8b0f819497bd40" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>timeFrameStart</name></member>
+      <member refid="classTraceWidget_18f26f46916c73e28e3fa46d62a561fd2" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>timeFrameWidth</name></member>
+      <member refid="classTraceWidget_1e9b20cb3e157277619512b642cbfe41b" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>timeWindow</name></member>
+      <member refid="classTraceWidget_1b50e20ff6e32561871e5aaba5b0fdd98" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>TraceWidget</name></member>
+      <member refid="classTraceWidget_113c030f5be9354e56d8f580f12fd16b9" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateClusterData</name></member>
+      <member refid="classTraceWidget_18550f7b6cd52825d3f8cca90993495c3" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateClusters</name></member>
+      <member refid="classTraceWidget_1c84014a559c34920a4996a926260ed49" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateContents</name></member>
+      <member refid="classTraceWidget_15f24a62ba53589c1cb838baa4d1293d4" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateDrawing</name></member>
+      <member refid="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateEvents</name></member>
+      <member refid="classTraceWidget_16a14a0cfd637844755f4bc1a4dacef54" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateEvents</name></member>
+      <member refid="classTraceWidget_1e70bd1cc94de4c31f1209cf132b9b9ed" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateEvents</name></member>
+      <member refid="classTraceWidget_11f7b99b8d7a3dc892218a21e6ecea537" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateNoneBrowsingClusterList</name></member>
+      <member refid="classTraceWidget_16aee61c22cbc43a29019ec003f69b289" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateNoneBrowsingEventList</name></member>
+      <member refid="classTraceWidget_1cfadbd7b5d0f9231d8d28f6003c40902" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateSkipStatus</name></member>
+      <member refid="classTraceWidget_1751e6ef64462695ca4dd2e68badde8ea" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateStartAndDuration</name></member>
+      <member refid="classTraceWidget_14bbeee34a26f03ecdba33aa5e88cb2dd" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>updateView</name></member>
+      <member refid="classTraceWidget_1f90dfdba437c499ada80c361b477cd46" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>updateWaveformInformation</name></member>
+      <member refid="classTraceWidget_1a004edcf72c98ece248c49ba11164872" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>validator</name></member>
+      <member refid="classTraceWidget_17055c63c84840a1106238a0d55a3a2e5" prot="private" virt="non-virtual"><scope>TraceWidget</scope><name>view</name></member>
+      <member refid="classTraceWidget_1c2a5170dc19d735ad902ac434c9503d2" prot="public" virt="non-virtual"><scope>TraceWidget</scope><name>~TraceWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

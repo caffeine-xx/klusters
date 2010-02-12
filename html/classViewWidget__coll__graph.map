@@ -1,0 +1,14 @@
+base referer
+rect $classKlustersView.html 471,459 578,486
+rect $classBaseFrame.html 636,278 732,304
+rect $classZoomWindow.html 627,187 742,214
+rect $classKlustersDoc.html 344,187 446,214
+rect $classAutoSaveThread.html 56,278 192,304
+rect $classClusterPalette.html 423,278 538,304
+rect $classKlustersApp.html 355,368 456,395
+rect $classChannelColors.html 222,96 342,123
+rect $classData.html 106,6 159,32
+rect $classClustersProvider.html 67,96 198,123
+rect $classTracesProvider.html 366,96 486,123
+rect $classItemColors.html 510,96 603,123
+rect $classTraceWidget.html 694,368 800,395

@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefWaveformView" kind="class" prot="public">
+    <compoundname>PrefWaveformView</compoundname>
+    <includes refid="prefwaveformview_8h" local="no">prefwaveformview.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPrefWaveformView_111e3174051b774bb8ee025c7ca06a336" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; PrefWaveformView::channelPositions</definition>
+        <argsstring></argsstring>
+        <name>channelPositions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefWaveformView_13defbf99a4a3ff86dc56ac3299fda7c2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PrefWaveformView::nbChannels</definition>
+        <argsstring></argsstring>
+        <name>nbChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="82" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefWaveformView_107963ff256cd1a8a13578394e4180c3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefWaveformView::PrefWaveformView</definition>
+        <argsstring>(QWidget *parent=0, int nbChannels=0, const char *name=0)</argsstring>
+        <name>PrefWaveformView</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbChannels</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="32" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_12c67e7ddab03fab01f28475e740737d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefWaveformView::~PrefWaveformView</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefWaveformView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="46" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_152846ce65739efd7a7c90d857ba54589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::setGain</definition>
+        <argsstring>(int gain)</argsstring>
+        <name>setGain</name>
+        <param>
+          <type>int</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_1f8cf9d3fde60a30c4b6ccdd5e1d685e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PrefWaveformView::getGain</definition>
+        <argsstring>() const</argsstring>
+        <name>getGain</name>
+        <briefdescription>
+<para>Returns the gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_154c584d2dc7105f9edb1ad17dd4c4b31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::setNbChannels</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbChannels</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of channels contained in the document. </para>        </briefdescription>
+        <detaileddescription>
+<para>This will be used to fill the channelView. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_1fe9f15fcf2c3149d3560c180291a7924" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int PrefWaveformView::getNbChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbChannels</name>
+        <briefdescription>
+<para>Returns the number of channels contained in the document. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_1c1f13bc6bdc657619d3a7b1b7f8cfeee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::initializeChannelList</definition>
+        <argsstring>()</argsstring>
+        <name>initializeChannelList</name>
+        <briefdescription>
+<para>Initialize the channel view with the number of current channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Initialize the position of the channels. </para>        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="49" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_1be0468403111fa19f3e32900dc534768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::resetChannelList</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>resetChannelList</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Reinitialize the channel view with <computeroutput>nb</computeroutput> as the number of channels. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of channels. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Initialize the position of the channels. </para>        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="65" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="58" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_1b2f361020fa36ec044aabf155dcd87a6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; PrefWaveformView::getChannelPositions</definition>
+        <argsstring>() const</argsstring>
+        <name>getChannelPositions</name>
+        <briefdescription>
+<para>Returns the positions of the channels to use in the waveform vies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefWaveformView_19637bc4a721b589b97ca1880a733113b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::enableChannelSettings</definition>
+        <argsstring>(bool state)</argsstring>
+        <name>enableChannelSettings</name>
+        <param>
+          <type>bool</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="70" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="70" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classPrefWaveformView_1acae8c9e96ad1d39a8df2a256889c734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::positionsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>positionsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="78" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.moc.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classPrefWaveformView_10926a61f4e059e8036db66f655d2fe53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::saveChannelOrder</definition>
+        <argsstring>()</argsstring>
+        <name>saveChannelOrder</name>
+        <briefdescription>
+<para>Saves the order of the channels to a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="75" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="slot" id="classPrefWaveformView_121499b47c5a6b78f99bedd2c2c3d6475" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::loadChannelOrder</definition>
+        <argsstring>()</argsstring>
+        <name>loadChannelOrder</name>
+        <briefdescription>
+<para>Loads the order of the channels from a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="103" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="slot" id="classPrefWaveformView_1e8e8e262d026cdb83e40dc83e24fdd48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefWaveformView::updateChannelPositions</definition>
+        <argsstring>()</argsstring>
+        <name>updateChannelPositions</name>
+        <briefdescription>
+<para>Update the channelPositions due to a change of in the channel positions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="93" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.cpp" bodystart="173" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing the Waveform View configuration page of the Klusters preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefwaveformview.h" bodystart="40" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classPrefWaveformView_111e3174051b774bb8ee025c7ca06a336" prot="private" virt="non-virtual"><scope>PrefWaveformView</scope><name>channelPositions</name></member>
+      <member refid="classPrefWaveformView_19637bc4a721b589b97ca1880a733113b" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>enableChannelSettings</name></member>
+      <member refid="classPrefWaveformView_1b2f361020fa36ec044aabf155dcd87a6" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>getChannelPositions</name></member>
+      <member refid="classPrefWaveformView_1f8cf9d3fde60a30c4b6ccdd5e1d685e6" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>getGain</name></member>
+      <member refid="classPrefWaveformView_1fe9f15fcf2c3149d3560c180291a7924" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>getNbChannels</name></member>
+      <member refid="classPrefWaveformView_1c1f13bc6bdc657619d3a7b1b7f8cfeee" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>initializeChannelList</name></member>
+      <member refid="classPrefWaveformView_121499b47c5a6b78f99bedd2c2c3d6475" prot="private" virt="non-virtual"><scope>PrefWaveformView</scope><name>loadChannelOrder</name></member>
+      <member refid="classPrefWaveformView_13defbf99a4a3ff86dc56ac3299fda7c2" prot="private" virt="non-virtual"><scope>PrefWaveformView</scope><name>nbChannels</name></member>
+      <member refid="classPrefWaveformView_1acae8c9e96ad1d39a8df2a256889c734" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>positionsChanged</name></member>
+      <member refid="classPrefWaveformView_107963ff256cd1a8a13578394e4180c3c" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>PrefWaveformView</name></member>
+      <member refid="classPrefWaveformView_1be0468403111fa19f3e32900dc534768" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>resetChannelList</name></member>
+      <member refid="classPrefWaveformView_10926a61f4e059e8036db66f655d2fe53" prot="private" virt="non-virtual"><scope>PrefWaveformView</scope><name>saveChannelOrder</name></member>
+      <member refid="classPrefWaveformView_152846ce65739efd7a7c90d857ba54589" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>setGain</name></member>
+      <member refid="classPrefWaveformView_154c584d2dc7105f9edb1ad17dd4c4b31" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>setNbChannels</name></member>
+      <member refid="classPrefWaveformView_1e8e8e262d026cdb83e40dc83e24fdd48" prot="private" virt="non-virtual"><scope>PrefWaveformView</scope><name>updateChannelPositions</name></member>
+      <member refid="classPrefWaveformView_12c67e7ddab03fab01f28475e740737d6" prot="public" virt="non-virtual"><scope>PrefWaveformView</scope><name>~PrefWaveformView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

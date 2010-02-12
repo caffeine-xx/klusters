@@ -1,0 +1,797 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classConfiguration" kind="class" prot="public">
+    <compoundname>Configuration</compoundname>
+    <includes refid="configuration_8h" local="no">configuration.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classConfiguration_16eb9ef7d2a7fc0b491c2ad6a8a074806" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Configuration::crashRecovery</definition>
+        <argsstring></argsstring>
+        <name>crashRecovery</name>
+        <briefdescription>
+<para>Boolean indicating if a crash and recovery is ask. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="161" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1b497e73d81ed38f96f927ca3758814dd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Configuration::crashRecoveryIndex</definition>
+        <argsstring></argsstring>
+        <name>crashRecoveryIndex</name>
+        <briefdescription>
+<para>Index of a dropdown list giving the time-interval between 2 autosave for a crashRecovery. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="163" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1d831a25cb368434e2867c0f7b9366cb3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Configuration::gain</definition>
+        <argsstring></argsstring>
+        <name>gain</name>
+        <briefdescription>
+<para>Initial gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="165" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_115f8c8daec6bc898d06b3082b426a97b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Configuration::timeInterval</definition>
+        <argsstring></argsstring>
+        <name>timeInterval</name>
+        <briefdescription>
+<para>Time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="167" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_18c223c1f93c464036504aec62e322884" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Configuration::nbUndo</definition>
+        <argsstring></argsstring>
+        <name>nbUndo</name>
+        <briefdescription>
+<para>Number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="169" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1f456ad1223b598d8433acaa3f034eda7" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; Configuration::channelPositions</definition>
+        <argsstring></argsstring>
+        <name>channelPositions</name>
+        <briefdescription>
+<para>Positions of the channels in the waveform view. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="171" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1dbdcca3693cb461d8a233b46b207f4d6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Configuration::nbChannels</definition>
+        <argsstring></argsstring>
+        <name>nbChannels</name>
+        <briefdescription>
+<para>Number of channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="173" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_143e04db61c3e0cf6583d92472c063b3f" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor Configuration::backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <briefdescription>
+<para>Background color of the views. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="175" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1de77e47d91fa3170d95ab72fd676e27c" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Configuration::reclusteringExecutable</definition>
+        <argsstring></argsstring>
+        <name>reclusteringExecutable</name>
+        <briefdescription>
+<para>Path to the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="177" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_106434785d64e5ed6048e66e0f772e25d" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Configuration::reclusteringArgs</definition>
+        <argsstring></argsstring>
+        <name>reclusteringArgs</name>
+        <briefdescription>
+<para>Arguments for the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="179" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classConfiguration_1efd6af6c82feb4d15cd985adfc4590c5" prot="private" static="yes" mutable="no">
+        <type>const bool</type>
+        <definition>const bool Configuration::crashRecoveryDefault</definition>
+        <argsstring></argsstring>
+        <name>crashRecoveryDefault</name>
+        <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="181" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_156436a7bc5b74ff9e257a8a67af88662" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Configuration::crashRecoveryIndexDefault</definition>
+        <argsstring></argsstring>
+        <name>crashRecoveryIndexDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="182" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1dd59e8dd63a5064ed78415074945957e" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Configuration::gainDefault</definition>
+        <argsstring></argsstring>
+        <name>gainDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="183" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1b2384ee70e6f1f861e06d7b1b126bf4e" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Configuration::timeIntervalDefault</definition>
+        <argsstring></argsstring>
+        <name>timeIntervalDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="184" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_183132d5b374179b68880e8a94444e121" prot="private" static="yes" mutable="no">
+        <type>const int</type>
+        <definition>const int Configuration::nbUndoDefault</definition>
+        <argsstring></argsstring>
+        <name>nbUndoDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="185" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1d176849524ddc23bb1615c255e646523" prot="private" static="yes" mutable="no">
+        <type>const QColor</type>
+        <definition>const QColor Configuration::backgroundColorDefault</definition>
+        <argsstring></argsstring>
+        <name>backgroundColorDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="186" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_12fe749e1da7ea774f17cb2cce8d0f58d" prot="private" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString Configuration::reclusteringExecutableDefault</definition>
+        <argsstring></argsstring>
+        <name>reclusteringExecutableDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="187" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classConfiguration_1ff96fa0050edcaff336802cf35f1cda6" prot="private" static="yes" mutable="no">
+        <type>const QString</type>
+        <definition>const QString Configuration::reclusteringArgsDefault</definition>
+        <argsstring></argsstring>
+        <name>reclusteringArgsDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="188" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classConfiguration_1995f21643ada0d57a8ae542c508e2dec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::read</definition>
+        <argsstring>()</argsstring>
+        <name>read</name>
+        <briefdescription>
+<para>Reads the configuration data from the application config file. </para>        </briefdescription>
+        <detaileddescription>
+<para>If a property does not already exist in the config file it will be set to a default value. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="44" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a75c026a728e50c5c9608083190b7a8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::write</definition>
+        <argsstring>() const</argsstring>
+        <name>write</name>
+        <briefdescription>
+<para>Writes the configuration data to the application config file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="65" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1764e1266ca470da4513c322145f1fbaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setCrashRecovery</definition>
+        <argsstring>(bool use)</argsstring>
+        <name>setCrashRecovery</name>
+        <param>
+          <type>bool</type>
+          <declname>use</declname>
+        </param>
+        <briefdescription>
+<para>Sets the use of a crash and recovery autosave. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1a6e17506c8d6d43ccc105b8db49de146" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setCrashRecoveryIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>setCrashRecoveryIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Sets the time interval between 2 crash and recovery autosave. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1c39959a2a38157fbc10819b64dc8bc2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setGain</definition>
+        <argsstring>(int gain)</argsstring>
+        <name>setGain</name>
+        <param>
+          <type>int</type>
+          <declname>gain</declname>
+        </param>
+        <briefdescription>
+<para>Sets the gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1de8b2258641393f5d07a33400db7f188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setTimeInterval</definition>
+        <argsstring>(int time)</argsstring>
+        <name>setTimeInterval</name>
+        <param>
+          <type>int</type>
+          <declname>time</declname>
+        </param>
+        <briefdescription>
+<para>Sets the time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time <computeroutput>time</computeroutput> is in second. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_12d881e74e87c110b52611708a46e4b9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setNbUndo</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbUndo</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_156d77986ca7c3a08575bc6218b2ce3b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setChannelPositions</definition>
+        <argsstring>(QValueList&lt; int &gt; positions)</argsstring>
+        <name>setChannelPositions</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>positions</declname>
+        </param>
+        <briefdescription>
+<para>Sets the positions of the channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_12c446f312e2601d9364d32125a522ace" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setNbChannels</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbChannels</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_18ef935d533f578207fc59fc764de426d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setBackgroundColor</definition>
+        <argsstring>(QColor color)</argsstring>
+        <name>setBackgroundColor</name>
+        <param>
+          <type>QColor</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Sets the background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_122bf94e0450fd38908a020a3ec93003f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setReclusteringExecutable</definition>
+        <argsstring>(QString executable)</argsstring>
+        <name>setReclusteringExecutable</name>
+        <param>
+          <type>QString</type>
+          <declname>executable</declname>
+        </param>
+        <briefdescription>
+<para>Sets the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_193975179b0b9aa9577534ce8f0594d6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Configuration::setReclusteringArguments</definition>
+        <argsstring>(QString arguments)</argsstring>
+        <name>setReclusteringArguments</name>
+        <param>
+          <type>QString</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+<para>Sets the arguments for the reclustering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="80" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1c54c2694c995c1f5919d4d579ad2b57c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Configuration::isCrashRecovery</definition>
+        <argsstring>() const</argsstring>
+        <name>isCrashRecovery</name>
+        <briefdescription>
+<para>Returns true if a crash and recovery autosave is performed, false othewise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1aed803db445e9a07323e0bfa030b2d77" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::crashRecoveryInterval</definition>
+        <argsstring>() const</argsstring>
+        <name>crashRecoveryInterval</name>
+        <briefdescription>
+<para>Returns the time interval between 2 crash and recovery autosave in minutes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="86" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="86" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1df1bbd437574b23e3b0cf400cc23d8e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::crashRecoveryIntervalIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>crashRecoveryIntervalIndex</name>
+        <briefdescription>
+<para>Returns the index corresponding to the time interval between 2 crash and recovery autosave in minutes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="105" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1ff4be7ee2b641a6d88d2a916aa78c18e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getGain</definition>
+        <argsstring>() const</argsstring>
+        <name>getGain</name>
+        <briefdescription>
+<para>Returns the gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="108" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1881f6c0739dd99bd30c08c8a3e74ce46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getTimeInterval</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeInterval</name>
+        <briefdescription>
+<para>Returns the time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time is in second. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="112" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_17f8531c4000c0293f78c8caa3124342a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getNbUndo</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbUndo</name>
+        <briefdescription>
+<para>Returns the number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_167a1e103437a36d02d14117acc07312b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt; *</type>
+        <definition>QValueList&lt;int&gt;* Configuration::getChannelPositions</definition>
+        <argsstring>()</argsstring>
+        <name>getChannelPositions</name>
+        <briefdescription>
+<para>Returns the positions of the channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="118" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1defd81e491a839f802cebab1fa2c0e2d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getNbChannels</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbChannels</name>
+        <briefdescription>
+<para>Returns the number of channels. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="121" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1efbbe89bf667275f75a4a4149a9dbf34" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor Configuration::getBackgroundColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getBackgroundColor</name>
+        <briefdescription>
+<para>Returns the background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="124" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1c24486902200d3707e63b92be9194ee3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Configuration::getReclusteringExecutable</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringExecutable</name>
+        <briefdescription>
+<para>Returns the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1bdd4795cdfe8dfccd037cd311cf2d5f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Configuration::getReclusteringArguments</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringArguments</name>
+        <briefdescription>
+<para>Returns the arguments for the reclustering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="130" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1f240551c920b066da94c6e5e907879b4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Configuration::isCrashRecoveryDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>isCrashRecoveryDefault</name>
+        <briefdescription>
+<para>Returns the default value for the crash and recovery mechanism. </para>        </briefdescription>
+        <detaileddescription>
+<para>True if a crash and recovery autosave is performed, false othewise. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="134" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1d13c5c9d5aca331095b96418e160404a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::crashRecoveryIntervalIndexDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>crashRecoveryIntervalIndexDefault</name>
+        <briefdescription>
+<para>Returns the index corresponding to the default time interval between 2 crash and recovery autosave in minutes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="138" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1e40d85c7e2dd9f1b4aa7e1e437375c60" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getGainDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getGainDefault</name>
+        <briefdescription>
+<para>Returns the default gain used to display the waveforms. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="141" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1e5798d1652e87e9f468657926b74256c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getTimeIntervalDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getTimeIntervalDefault</name>
+        <briefdescription>
+<para>Returns the default time interval between 2 lines drawn in the cluster views when the time dimension in selected. </para>        </briefdescription>
+        <detaileddescription>
+<para>The time is in second. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="145" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1bdcd0bfb31033aea1f54ea172deae440" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Configuration::getNbUndoDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbUndoDefault</name>
+        <briefdescription>
+<para>Returns the default number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="148" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="148" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_10c49646a311b35b3ee5df2b927482f72" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor Configuration::getBackgroundColorDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getBackgroundColorDefault</name>
+        <briefdescription>
+<para>Returns the the default background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="151" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="151" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_14e0ce12a2af7244bd91c2a0ecdd82b92" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Configuration::getReclusteringExecutableDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringExecutableDefault</name>
+        <briefdescription>
+<para>Returns the default reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="154" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="154" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1d9e20c0afaa18e15a2fb3a36267c339e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Configuration::getReclusteringArgumentsDefault</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringArgumentsDefault</name>
+        <briefdescription>
+<para>Returns the default arguments for the reclustering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="157" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classConfiguration_128c07d03b4552a0aee7f6914356a63a4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Configuration::Configuration</definition>
+        <argsstring>()</argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="190" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classConfiguration_1e80cd9f977e9fe557b021d459b389c20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Configuration::Configuration</definition>
+        <argsstring>(const Configuration &amp;)</argsstring>
+        <name>Configuration</name>
+        <param>
+          <type>const <ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="191"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classConfiguration_164389e63464ed34e4164d3ff62f25e79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration&amp; configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <briefdescription>
+<para>Returns a reference to the application configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="193" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is the one and only configuration object. </para>    </briefdescription>
+    <detaileddescription>
+<para>The member functions <ref refid="classConfiguration_1995f21643ada0d57a8ae542c508e2dec" kindref="member">read()</ref> and <ref refid="classConfiguration_1a75c026a728e50c5c9608083190b7a8e" kindref="member">write()</ref> can be used to load and save the properties to the application configuration file. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.h" bodystart="37" bodyend="194"/>
+    <listofallmembers>
+      <member refid="classConfiguration_143e04db61c3e0cf6583d92472c063b3f" prot="private" virt="non-virtual"><scope>Configuration</scope><name>backgroundColor</name></member>
+      <member refid="classConfiguration_1d176849524ddc23bb1615c255e646523" prot="private" virt="non-virtual"><scope>Configuration</scope><name>backgroundColorDefault</name></member>
+      <member refid="classConfiguration_1f456ad1223b598d8433acaa3f034eda7" prot="private" virt="non-virtual"><scope>Configuration</scope><name>channelPositions</name></member>
+      <member refid="classConfiguration_128c07d03b4552a0aee7f6914356a63a4" prot="private" virt="non-virtual"><scope>Configuration</scope><name>Configuration</name></member>
+      <member refid="classConfiguration_1e80cd9f977e9fe557b021d459b389c20" prot="private" virt="non-virtual"><scope>Configuration</scope><name>Configuration</name></member>
+      <member refid="classConfiguration_164389e63464ed34e4164d3ff62f25e79" prot="private" virt="non-virtual"><scope>Configuration</scope><name>configuration</name></member>
+      <member refid="classConfiguration_16eb9ef7d2a7fc0b491c2ad6a8a074806" prot="private" virt="non-virtual"><scope>Configuration</scope><name>crashRecovery</name></member>
+      <member refid="classConfiguration_1efd6af6c82feb4d15cd985adfc4590c5" prot="private" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryDefault</name></member>
+      <member refid="classConfiguration_1b497e73d81ed38f96f927ca3758814dd" prot="private" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryIndex</name></member>
+      <member refid="classConfiguration_156436a7bc5b74ff9e257a8a67af88662" prot="private" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryIndexDefault</name></member>
+      <member refid="classConfiguration_1aed803db445e9a07323e0bfa030b2d77" prot="public" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryInterval</name></member>
+      <member refid="classConfiguration_1df1bbd437574b23e3b0cf400cc23d8e3" prot="public" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryIntervalIndex</name></member>
+      <member refid="classConfiguration_1d13c5c9d5aca331095b96418e160404a" prot="public" virt="non-virtual"><scope>Configuration</scope><name>crashRecoveryIntervalIndexDefault</name></member>
+      <member refid="classConfiguration_1d831a25cb368434e2867c0f7b9366cb3" prot="private" virt="non-virtual"><scope>Configuration</scope><name>gain</name></member>
+      <member refid="classConfiguration_1dd59e8dd63a5064ed78415074945957e" prot="private" virt="non-virtual"><scope>Configuration</scope><name>gainDefault</name></member>
+      <member refid="classConfiguration_1efbbe89bf667275f75a4a4149a9dbf34" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getBackgroundColor</name></member>
+      <member refid="classConfiguration_10c49646a311b35b3ee5df2b927482f72" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getBackgroundColorDefault</name></member>
+      <member refid="classConfiguration_167a1e103437a36d02d14117acc07312b" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getChannelPositions</name></member>
+      <member refid="classConfiguration_1ff4be7ee2b641a6d88d2a916aa78c18e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getGain</name></member>
+      <member refid="classConfiguration_1e40d85c7e2dd9f1b4aa7e1e437375c60" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getGainDefault</name></member>
+      <member refid="classConfiguration_1defd81e491a839f802cebab1fa2c0e2d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getNbChannels</name></member>
+      <member refid="classConfiguration_17f8531c4000c0293f78c8caa3124342a" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getNbUndo</name></member>
+      <member refid="classConfiguration_1bdcd0bfb31033aea1f54ea172deae440" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getNbUndoDefault</name></member>
+      <member refid="classConfiguration_1bdd4795cdfe8dfccd037cd311cf2d5f1" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getReclusteringArguments</name></member>
+      <member refid="classConfiguration_1d9e20c0afaa18e15a2fb3a36267c339e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getReclusteringArgumentsDefault</name></member>
+      <member refid="classConfiguration_1c24486902200d3707e63b92be9194ee3" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getReclusteringExecutable</name></member>
+      <member refid="classConfiguration_14e0ce12a2af7244bd91c2a0ecdd82b92" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getReclusteringExecutableDefault</name></member>
+      <member refid="classConfiguration_1881f6c0739dd99bd30c08c8a3e74ce46" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getTimeInterval</name></member>
+      <member refid="classConfiguration_1e5798d1652e87e9f468657926b74256c" prot="public" virt="non-virtual"><scope>Configuration</scope><name>getTimeIntervalDefault</name></member>
+      <member refid="classConfiguration_1c54c2694c995c1f5919d4d579ad2b57c" prot="public" virt="non-virtual"><scope>Configuration</scope><name>isCrashRecovery</name></member>
+      <member refid="classConfiguration_1f240551c920b066da94c6e5e907879b4" prot="public" virt="non-virtual"><scope>Configuration</scope><name>isCrashRecoveryDefault</name></member>
+      <member refid="classConfiguration_1dbdcca3693cb461d8a233b46b207f4d6" prot="private" virt="non-virtual"><scope>Configuration</scope><name>nbChannels</name></member>
+      <member refid="classConfiguration_18c223c1f93c464036504aec62e322884" prot="private" virt="non-virtual"><scope>Configuration</scope><name>nbUndo</name></member>
+      <member refid="classConfiguration_183132d5b374179b68880e8a94444e121" prot="private" virt="non-virtual"><scope>Configuration</scope><name>nbUndoDefault</name></member>
+      <member refid="classConfiguration_1995f21643ada0d57a8ae542c508e2dec" prot="public" virt="non-virtual"><scope>Configuration</scope><name>read</name></member>
+      <member refid="classConfiguration_106434785d64e5ed6048e66e0f772e25d" prot="private" virt="non-virtual"><scope>Configuration</scope><name>reclusteringArgs</name></member>
+      <member refid="classConfiguration_1ff96fa0050edcaff336802cf35f1cda6" prot="private" virt="non-virtual"><scope>Configuration</scope><name>reclusteringArgsDefault</name></member>
+      <member refid="classConfiguration_1de77e47d91fa3170d95ab72fd676e27c" prot="private" virt="non-virtual"><scope>Configuration</scope><name>reclusteringExecutable</name></member>
+      <member refid="classConfiguration_12fe749e1da7ea774f17cb2cce8d0f58d" prot="private" virt="non-virtual"><scope>Configuration</scope><name>reclusteringExecutableDefault</name></member>
+      <member refid="classConfiguration_18ef935d533f578207fc59fc764de426d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setBackgroundColor</name></member>
+      <member refid="classConfiguration_156d77986ca7c3a08575bc6218b2ce3b3" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setChannelPositions</name></member>
+      <member refid="classConfiguration_1764e1266ca470da4513c322145f1fbaa" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setCrashRecovery</name></member>
+      <member refid="classConfiguration_1a6e17506c8d6d43ccc105b8db49de146" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setCrashRecoveryIndex</name></member>
+      <member refid="classConfiguration_1c39959a2a38157fbc10819b64dc8bc2e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setGain</name></member>
+      <member refid="classConfiguration_12c446f312e2601d9364d32125a522ace" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setNbChannels</name></member>
+      <member refid="classConfiguration_12d881e74e87c110b52611708a46e4b9c" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setNbUndo</name></member>
+      <member refid="classConfiguration_193975179b0b9aa9577534ce8f0594d6d" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setReclusteringArguments</name></member>
+      <member refid="classConfiguration_122bf94e0450fd38908a020a3ec93003f" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setReclusteringExecutable</name></member>
+      <member refid="classConfiguration_1de8b2258641393f5d07a33400db7f188" prot="public" virt="non-virtual"><scope>Configuration</scope><name>setTimeInterval</name></member>
+      <member refid="classConfiguration_115f8c8daec6bc898d06b3082b426a97b" prot="private" virt="non-virtual"><scope>Configuration</scope><name>timeInterval</name></member>
+      <member refid="classConfiguration_1b2384ee70e6f1f861e06d7b1b126bf4e" prot="private" virt="non-virtual"><scope>Configuration</scope><name>timeIntervalDefault</name></member>
+      <member refid="classConfiguration_1a75c026a728e50c5c9608083190b7a8e" prot="public" virt="non-virtual"><scope>Configuration</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

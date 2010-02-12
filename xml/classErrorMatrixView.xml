@@ -1,0 +1,1791 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classErrorMatrixView" kind="class" prot="public">
+    <compoundname>ErrorMatrixView</compoundname>
+    <basecompoundref refid="classViewWidget" prot="public" virt="non-virtual">ViewWidget</basecompoundref>
+    <includes refid="errormatrixview_8h" local="no">errormatrixview.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classErrorMatrixView_1b5f8bfc8963455e3bd9f599e03941427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ErrorMatrixThread</definition>
+        <argsstring></argsstring>
+        <name>ErrorMatrixThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classErrorMatrixView_11ca0a1e1ea9fa6a18aa6625d44cb8b79" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, QColor &gt;</type>
+        <definition>QMap&lt;int,QColor&gt; ErrorMatrixView::colorMap</definition>
+        <argsstring></argsstring>
+        <name>colorMap</name>
+        <briefdescription>
+<para>Color map use to represent the probabilities of the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="215" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1146589f34818ee986024dc0d7d417489" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixView::clusterList</definition>
+        <argsstring></argsstring>
+        <name>clusterList</name>
+        <briefdescription>
+<para>List of the clusters present in the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="217" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_12ed1f6a3b6cde9db7d91be8528fadbc8" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixView::computedClusterList</definition>
+        <argsstring></argsstring>
+        <name>computedClusterList</name>
+        <briefdescription>
+<para>List of the clusters present in the error matrix which have a probability calculated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="219" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1bab48be2c5b729fdbbf517ad5d0c1fb1" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixView::ignoreClusterIndex</definition>
+        <argsstring></argsstring>
+        <name>ignoreClusterIndex</name>
+        <briefdescription>
+<para>List of the clusters present in the error matrix which do not have a probability calculated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="221" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1c55edcdfd852f19a25aa6b79d1fd2c32" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; *</type>
+        <definition>Array&lt;double&gt;* ErrorMatrixView::probabilities</definition>
+        <argsstring></argsstring>
+        <name>probabilities</name>
+        <briefdescription>
+<para>Error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="223" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1b4b2fd4db4d0749d5bbf83ebbac2c673" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixView::modifiedClusterList</definition>
+        <argsstring></argsstring>
+        <name>modifiedClusterList</name>
+        <briefdescription>
+<para>List of the clusters which have been modified since the last computation of the errror matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="225" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_11f450faa30713765796333399b412b35" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, QValueList&lt; int &gt; &gt;</type>
+        <definition>QMap&lt;int, QValueList&lt;int&gt; &gt; ErrorMatrixView::deletedMap</definition>
+        <argsstring></argsstring>
+        <name>deletedMap</name>
+        <briefdescription>
+<para>Map of the clusters deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="228" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_11d4264e5c47c14f179c688c22b5f005b" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ErrorMatrixView::abscissaMin</definition>
+        <argsstring></argsstring>
+        <name>abscissaMin</name>
+        <briefdescription>
+<para>Minimal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="231" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1e93b05c2e8d7b605e7e83d01ea6ac102" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ErrorMatrixView::abscissaMax</definition>
+        <argsstring></argsstring>
+        <name>abscissaMax</name>
+        <briefdescription>
+<para>Maximal abscissa in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="234" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1564ff2ef1d3e5d083a55a77331801fec" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ErrorMatrixView::ordinateMin</definition>
+        <argsstring></argsstring>
+        <name>ordinateMin</name>
+        <briefdescription>
+<para>Minimal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="237" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1eef769d58055304ae534b3f501262e6e" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long ErrorMatrixView::ordinateMax</definition>
+        <argsstring></argsstring>
+        <name>ordinateMax</name>
+        <briefdescription>
+<para>Maximal ordinate in window coordinate. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="240" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1aa529169785de1471e8259f1d967f1e9" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ErrorMatrixView::widthBorder</definition>
+        <argsstring></argsstring>
+        <name>widthBorder</name>
+        <briefdescription>
+<para>The width border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="243" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_10e396198c8e812c403f93f6ee1df4b00" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint ErrorMatrixView::heightBorder</definition>
+        <argsstring></argsstring>
+        <name>heightBorder</name>
+        <briefdescription>
+<para>The height border. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="246" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_133faf56bd4e8096556621492e628c90f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::cellWidth</definition>
+        <argsstring></argsstring>
+        <name>cellWidth</name>
+        <briefdescription>
+<para>The width of a cell of the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="249" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1bc54ffac9d94ad6502f6d87e4d698e81" prot="private" static="no" mutable="no">
+        <type>QPtrList&lt; <ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> &gt;</type>
+        <definition>QPtrList&lt;ErrorMatrixThread&gt; ErrorMatrixView::threadsToBeKill</definition>
+        <argsstring></argsstring>
+        <name>threadsToBeKill</name>
+        <briefdescription>
+<para>List of pointers on the threads which have to be suppress when this object is destroy. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="252" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1a4809b5fe165f645e19de57e2e897586" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::dataReady</definition>
+        <argsstring></argsstring>
+        <name>dataReady</name>
+        <briefdescription>
+<para>True if the probabilities are available. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="255" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_10d218fa220b68da6594602500ccf791b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::nbColors</definition>
+        <argsstring></argsstring>
+        <name>nbColors</name>
+        <briefdescription>
+<para>Number of colors used for the errror matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="258" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1675f306a381130bce7d442f8d0f01c8e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ErrorMatrixView::cutoffProbability</definition>
+        <argsstring></argsstring>
+        <name>cutoffProbability</name>
+        <briefdescription>
+<para>Highest probability for which there will be a distinct color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="261" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1b9d27895062149d5674bd31e84e6533a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::init</definition>
+        <argsstring></argsstring>
+        <name>init</name>
+        <briefdescription>
+<para>True if it is the first computation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="264" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_14f925f16f3d52b8910d72a532ec10b25" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::hasBeenRenumbered</definition>
+        <argsstring></argsstring>
+        <name>hasBeenRenumbered</name>
+        <briefdescription>
+<para>True if the clusters have been renumbered, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="267" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1cf69127c560b2a5773a5c01a9d17db24" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::nbActions</definition>
+        <argsstring></argsstring>
+        <name>nbActions</name>
+        <briefdescription>
+<para>Number of action made between 2 update of the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="270" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_14c8f99425422feff3db409ac8a370248" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::nbRedo</definition>
+        <argsstring></argsstring>
+        <name>nbRedo</name>
+        <briefdescription>
+<para>Number of redo action possible (equals to the number of undo action made after the update of the matrix). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="274" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_1ab9f815c375f0800b05289a9dfc91de9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::isNotUpToDate</definition>
+        <argsstring></argsstring>
+        <name>isNotUpToDate</name>
+        <briefdescription>
+<para>True if the matrix is not up to date due to an action made before the update of the matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="277" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_125fb310caf620a74c7072945451ad9d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::nbPreviousUndo</definition>
+        <argsstring></argsstring>
+        <name>nbPreviousUndo</name>
+        <briefdescription>
+<para>Number of undo action possible (equals to the number of action made before the update of the matrix). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="281" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_10cec18324a2117804fe65029c8d164d2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ErrorMatrixView::nbPreviousRedo</definition>
+        <argsstring></argsstring>
+        <name>nbPreviousRedo</name>
+        <briefdescription>
+<para>Number of redo action possible (equals to the number of undo action made before the update of the matrix). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="285" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_170b5ee2e154a5cf908555cabc9fbd622" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::goingToDie</definition>
+        <argsstring></argsstring>
+        <name>goingToDie</name>
+        <briefdescription>
+<para>True if the widget is about to be deleted, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="288" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_17f2dac4bdd604b52778cc40533b88c9c" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; <ref refid="classPair" kindref="compound">Pair</ref> &gt;</type>
+        <definition>QValueList&lt;Pair&gt; ErrorMatrixView::selectedPairs</definition>
+        <argsstring></argsstring>
+        <name>selectedPairs</name>
+        <briefdescription>
+<para>List of the selected pairs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="291" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixView_156df559d417750079aaa4a708d6a323c" prot="private" static="no" mutable="no">
+        <type>QMap&lt; int, bool &gt;</type>
+        <definition>QMap&lt;int,bool&gt; ErrorMatrixView::renumbering</definition>
+        <argsstring></argsstring>
+        <name>renumbering</name>
+        <briefdescription>
+<para>Map keepipng track of the renumbering done on the data. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="294" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classErrorMatrixView_1f419982fd014876aa5ef94cb57775a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixView::ErrorMatrixView</definition>
+        <argsstring>(KlustersDoc &amp;doc, KlustersView &amp;view, QColor backgroundColor, KStatusBar *statusBar, QWidget *parent=0, const char *name=0, int minSize=50, int maxSize=4000, int windowTopLeft=-500, int windowBottomRight=1001, int border=0)</argsstring>
+        <name>ErrorMatrixView</name>
+        <param>
+          <type><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref> &amp;</type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type><ref refid="classKlustersView" kindref="compound">KlustersView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type>QColor</type>
+          <declname>backgroundColor</declname>
+        </param>
+        <param>
+          <type>KStatusBar *</type>
+          <declname>statusBar</declname>
+        </param>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+          <defval>50</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxSize</declname>
+          <defval>4000</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowTopLeft</declname>
+          <defval>-500</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>windowBottomRight</declname>
+          <defval>1001</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>border</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="35" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_1ade3ece97a41ab86a601b0f49e92790c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixView::~ErrorMatrixView</definition>
+        <argsstring>()</argsstring>
+        <name>~ErrorMatrixView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="55" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_1be7fdec65331be47d4bfca91637cc256" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::willBeKilled</definition>
+        <argsstring>()</argsstring>
+        <name>willBeKilled</name>
+        <reimplements refid="classBaseFrame_1ae11d84b7ca8f1867c8115388c35b5f2">willBeKilled</reimplements>
+        <briefdescription>
+<para>Signals that the widget is about to be deleted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="802" bodyend="809"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classErrorMatrixView_13fa450bd9e0ac2a7b6d9e89854aaf3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ErrorMatrixView::isThreadsRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadsRunning</name>
+        <reimplements refid="classViewWidget_1c9f9f10cbb4a62e7155322472679411b">isThreadsRunning</reimplements>
+        <briefdescription>
+<para>Enables the caller to know if there is any thread running launch by the Widget. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_195bbcba77f32f6253f9d70f989c4afdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::updateMatrixContents</definition>
+        <argsstring>()</argsstring>
+        <name>updateMatrixContents</name>
+        <briefdescription>
+<para>Update the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="105" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_1be3e01992541a5adc96bbc6dbd54dbd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::clustersGrouped</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;groupedClusters, int newClusterId)</argsstring>
+        <name>clustersGrouped</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>groupedClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newClusterId</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the rearrangement of clusters have modified clusters presented in the matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>groupedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters having been grouped. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newClusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the id of the cluster created by the grouping of those specified in <computeroutput>groupedClusters</computeroutput> </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="78" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="364" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_1b2b1bd0d12fa78b9d24438fd683ec58d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::clustersDeleted</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;deletedClusters, int destinationCluster)</argsstring>
+        <name>clustersDeleted</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>deletedClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destinationCluster</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the deletion of clusters have impacted clusters presented in the matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deletedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters having been deleted </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationCluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster with which the clusters in <computeroutput>deletedClusters</computeroutput> are merge (cluster 0 or 1 cluster of artefact and cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="86" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="384" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_18f3ec2d125523a383b2a744c970a001f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::removeSpikesFromClusters</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, int destinationClusterId, QValueList&lt; int &gt; &amp;emptiedClusters)</argsstring>
+        <name>removeSpikesFromClusters</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destinationClusterId</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>emptiedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if spikes have been removed from clusters presented in the matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes have been taken. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>destinationClusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster id to which the spikes have been added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>emptiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list clusters numbers which became empty because all their spikes were put in the new one. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="95" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="404" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_1200d21282cb7cbd54d6e841bc1271e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::newClusterAdded</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;fromClusters, int clusterId, QValueList&lt; int &gt; &amp;emptiedClusters)</argsstring>
+        <name>newClusterAdded</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>fromClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>emptiedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the clusters presented in the matrix have been modified to create the new cluster. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters from which the spikes of the new cluster are coming. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>cluster to add to the clusters already drawn </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>emptiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list clusters numbers which became empty because all their spikes were put in the new one. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="104" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="424" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::newClustersAdded</definition>
+        <argsstring>(QMap&lt; int, int &gt; &amp;fromToNewClusterIds, QValueList&lt; int &gt; &amp;emptiedClusters)</argsstring>
+        <name>newClustersAdded</name>
+        <param>
+          <type>QMap&lt; int, int &gt; &amp;</type>
+          <declname>fromToNewClusterIds</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>emptiedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the clusters presented in the matrix have been modified to create the new clusters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fromToNewClusterIds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map where the keys are ids of the clusters which really contained spikes in the region and the values are the ids of the newly created clusters. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>emptiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list clusters numbers which became empty because all their spikes were put in the new one. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="113" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="444" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_19f9593e1cc36644c3f648dd511e77e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::newClustersAdded</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;clustersToRecluster)</argsstring>
+        <name>newClustersAdded</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clustersToRecluster</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the clusters presented in the matrix have been modified to create the new clusters. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clustersToRecluster</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters automatically reclustered. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="461" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_12f84c47e90fd2d6725a292521768631c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::renumber</definition>
+        <argsstring>(QMap&lt; int, int &gt; &amp;clusterIdsOldNew)</argsstring>
+        <name>renumber</name>
+        <param>
+          <type>QMap&lt; int, int &gt; &amp;</type>
+          <declname>clusterIdsOldNew</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border due to an renumbering of the cluster ids. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIdsOldNew</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given for each old clusterId the new clusterId. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="126" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="476" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_169b1ae818a8104a13154ea79529c6ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::undoRenumbering</definition>
+        <argsstring>(QMap&lt; int, int &gt; &amp;clusterIdsNewOld)</argsstring>
+        <name>undoRenumbering</name>
+        <param>
+          <type>QMap&lt; int, int &gt; &amp;</type>
+          <declname>clusterIdsNewOld</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing due to the reversion of the last renumbering action. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIdsNewOld</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given for each new clusterId the old clusterId. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="131" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="483" bodyend="510"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_1b5450c1a803893d54a708771ec9b600c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::undoAdditionModification</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;addedClusters, QValueList&lt; int &gt; &amp;updatedClusters)</argsstring>
+        <name>undoAdditionModification</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>addedClusters</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>updatedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing due to reversion of the last user action. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were added. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>updatedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were modified. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="137" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="512" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_16e0559b8888f3e0e2c3353b9cf28ec95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::undoAddition</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;addedClusters)</argsstring>
+        <name>undoAddition</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>addedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing due to reversion of the last user action. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were added. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="142" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="554" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_13ed3cac1cb79ffba02d9a4c9c75f34b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::undoModification</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;updatedClusters)</argsstring>
+        <name>undoModification</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>updatedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing due to reversion of the last user action. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>updatedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were modified. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="591" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_13207f1a1d5724f6869aa10e641ed2fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::redoRenumbering</definition>
+        <argsstring>(QMap&lt; int, int &gt; &amp;clusterIdsOldNew)</argsstring>
+        <name>redoRenumbering</name>
+        <param>
+          <type>QMap&lt; int, int &gt; &amp;</type>
+          <declname>clusterIdsOldNew</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusterIdsOldNew</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>map given for each old clusterId the new clusterId. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="152" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="631" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_15d7b4bbb266d3af918c912d0ee37b7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::redoAdditionModification</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;addedClusters, QValueList&lt; int &gt; &amp;modifiedClusters, bool isModifiedByDeletion, QValueList&lt; int &gt; &amp;deletedClusters)</argsstring>
+        <name>redoAdditionModification</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>addedClusters</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>modifiedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isModifiedByDeletion</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>deletedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the reversion of the last undo action has modified any of the clusters presented in the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>modifiedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were modified </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isModifiedByDeletion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the clusters of <computeroutput>updatedClusters</computeroutput> have been modified by the deletion of spikes (moved to cluster 0 or 1, cluster of artefact and cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deletedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were deleted. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="162" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="660" bodyend="695"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_1817a9cbb4b65621f7613f1d034e24be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::redoAddition</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;addedClusters, QValueList&lt; int &gt; &amp;deletedClusters)</argsstring>
+        <name>redoAddition</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>addedClusters</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>deletedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the reversion of the last undo action has modified any of the clusters presented in the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>addedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were added </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deletedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were deleted. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="169" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="698" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_16a89bb07d7a1314431956527e9359931" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::redoModification</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;updatedClusters, bool isModifiedByDeletion, QValueList&lt; int &gt; &amp;deletedClusters)</argsstring>
+        <name>redoModification</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>updatedClusters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isModifiedByDeletion</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>deletedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the reversion of the last undo action has modified any of the clusters presented in the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>updatedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were modified </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>isModifiedByDeletion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the clusters of <computeroutput>updatedClusters</computeroutput> have been modified by the deletion of spikes (moved to cluster 0 or 1, cluster of artefact and cluster of noise respectively). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>deletedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were deleted. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="178" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="731" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_14bbf5248d4b4999c40359c9d1d5d3571" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::redoDeletion</definition>
+        <argsstring>(QValueList&lt; int &gt; &amp;deletedClusters)</argsstring>
+        <name>redoDeletion</name>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>deletedClusters</declname>
+        </param>
+        <briefdescription>
+<para>Updates the error matrix drawing by adding a red border if the reversion of the last undo action has modified any of the clusters presented in the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>deletedClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of clusters which were deleted. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="184" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="770" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="slot" id="classErrorMatrixView_138a7990d11741fb42db186e607dcb386" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::print</definition>
+        <argsstring>(QPainter &amp;printPainter, QPaintDeviceMetrics &amp;metrics, bool whiteBackground)</argsstring>
+        <name>print</name>
+        <reimplements refid="classViewWidget_1460212eda79f47409f01478b771d7895">print</reimplements>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>printPainter</declname>
+        </param>
+        <param>
+          <type>QPaintDeviceMetrics &amp;</type>
+          <declname>metrics</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>whiteBackground</declname>
+        </param>
+        <briefdescription>
+<para>Prints the currently display information on a printer via the painter <computeroutput>printPainter</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>printPainter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on a printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>metrics</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object providing information about the printer. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>whiteBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the printed background has to be white, false otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="191" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="811" bodyend="864"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classErrorMatrixView_149882967374ab5a4731805f0025248e8" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::drawContents</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>drawContents</name>
+        <reimplements refid="classBaseFrame_12b5d68358bfcc4ecdd0c3e6a3da82ac6">drawContents</reimplements>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Draws the contents of the frame. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter used to draw the contents </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="198" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="150" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_10a45bd29e0fec237388d46d316f37e59" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::customEvent</definition>
+        <argsstring>(QCustomEvent *event)</argsstring>
+        <name>customEvent</name>
+        <param>
+          <type>QCustomEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>Treat the events sent by the groupAssistantThread instances. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="201" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="72" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_15918a9b5165b23dac19c3fd0f4cc48f3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::resizeEvent</definition>
+        <argsstring>(QResizeEvent *event)</argsstring>
+        <name>resizeEvent</name>
+        <reimplements refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63">resizeEvent</reimplements>
+        <param>
+          <type>QResizeEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a resize event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resize event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="203" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="203" bodyend="206"/>
+        <references refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63" compoundref="baseframe_8cpp" startline="203" endline="205">BaseFrame::resizeEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_121e97b064d9a688e057de77949a4144e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mousePressEvent</name>
+        <reimplements refid="classBaseFrame_1154d190f81125058199ed6770c5152b6">mousePressEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse click. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse release event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="208" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_1aaaa6d453f04fba350ee12b41c2f445d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::mouseReleaseEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseReleaseEvent</name>
+        <reimplements refid="classBaseFrame_17b6086bb37e3ad0c56a8b8eb166b3d9e">mouseReleaseEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse release. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="209" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="300" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_18638881f0a749ff652986be3065b1e3d" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::mouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseMoveEvent</name>
+        <reimplements refid="classBaseFrame_1e0bc9fac62c249065e52f3d393e84cf7">mouseMoveEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a mouse move. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="210" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="281" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_1e0336730047333d04393848bcd120d69" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::mouseDoubleClickEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseDoubleClickEvent</name>
+        <reimplements refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b">mouseDoubleClickEvent</reimplements>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+<para>The view responds to a double click. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>event</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mouse event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="211" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classErrorMatrixView_11ccd9c66203c1f3242dff29f67d4a5ad" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> *</type>
+        <definition>ErrorMatrixThread * ErrorMatrixView::computeMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>computeMatrix</name>
+        <briefdescription>
+<para>Launches a <ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> to comput the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="299" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_10993aadfc91c360360ac2faf294a8368" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::updateWindow</definition>
+        <argsstring>()</argsstring>
+        <name>updateWindow</name>
+        <briefdescription>
+<para>Updates the dimensions of the window. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="302" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="133" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_122944dfdccdc25d30ef12ebec7b2c83b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::drawMatrix</definition>
+        <argsstring>(QPainter &amp;painter)</argsstring>
+        <name>drawMatrix</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+<para>Draws the error matrix on the given painter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the error matrix </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="308" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="233" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_1a463f89f877e7d671593343518591544" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::drawClusterIds</definition>
+        <argsstring>(QPainter &amp;painter)</argsstring>
+        <name>drawClusterIds</name>
+        <param>
+          <type>QPainter &amp;</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+<para>Draws the clusters identifiers. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>painter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>painter on which to draw the information </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="313" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="202" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixView_18f708e8bc6c3b0cc052f6a2547ff2f21" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixView::initializeColorMap</definition>
+        <argsstring>()</argsstring>
+        <name>initializeColorMap</name>
+        <briefdescription>
+<para>Initialize the internal colorMap use to represents the probabilities of the error matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="316" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.cpp" bodystart="272" bodyend="279"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>View displaying the Error Matrix. </para>    </briefdescription>
+    <detaileddescription>
+<para>Each element in the matrix indicates how likely it is that the two clusters corresponding to the row and column of the element contain spikes from the same neuron. This view is part of the Grouping Assistant View which contains also a <ref refid="classClusterView" kindref="compound">ClusterView</ref>, a <ref refid="classWaveformView" kindref="compound">WaveformView</ref> and a <ref refid="classCorrelationView" kindref="compound">CorrelationView</ref>. A click on one of the elements of the matrix display the corresponding clusters in the others views. This view is not automatically updated when the clusters are changed. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+<simplesect kind="since"><para>klusters 1.1 </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1013">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1014" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1014">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+      </node>
+      <node id="1012">
+        <label>ErrorMatrixView</label>
+        <link refid="classErrorMatrixView"/>
+        <childnode refid="1013" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1033">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1034" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1025">
+        <label>T</label>
+      </node>
+      <node id="1016">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1023">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1024" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1040">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1034">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1017" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1020" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1027" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1018">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1037">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1043">
+        <label>Array&lt; double &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1044" relation="template-instance">
+          <edgelabel>&lt; double &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1029">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1028" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1028">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1032">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1016" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="1019">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1020" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1021" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1027" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1029" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1030" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1036">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1037" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1038">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1017">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1018" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1025" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1039">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1040" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1041" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1042" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1028" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1041">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1022">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1023" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1026" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1020">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1035">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1036" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1038" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1039" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1030" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1025" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1015">
+        <label>ErrorMatrixView</label>
+        <link refid="classErrorMatrixView"/>
+        <childnode refid="1016" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1043" relation="usage">
+          <edgelabel>probabilities</edgelabel>
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1026">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1021">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1019" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1022" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixview.h" bodystart="51" bodyend="317"/>
+    <listofallmembers>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>@0</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>@2</name></member>
+      <member refid="classErrorMatrixView_1e93b05c2e8d7b605e7e83d01ea6ac102" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>abscissaMax</name></member>
+      <member refid="classErrorMatrixView_11d4264e5c47c14f179c688c22b5f005b" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>abscissaMin</name></member>
+      <member refid="classViewWidget_16183b4a8e96fe2bf13fdacaf892678b4" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>addClusterToView</name></member>
+      <member refid="classViewWidget_1a1ca23c8b1d3bb088b4f0ca0ad696b2b" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>addNewClusterToView</name></member>
+      <member refid="classViewWidget_1d872c228588cb0a372f1f2f33709d58f" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>addNewClusterToView</name></member>
+      <member refid="classBaseFrame_1042d27fb77a59e37912653348f9883f3" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>BaseFrame</name></member>
+      <member refid="classBaseFrame_15b689b1ba4f8873b318778079c6786c4" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>BORDER</name></member>
+      <member refid="classErrorMatrixView_133faf56bd4e8096556621492e628c90f" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>cellWidth</name></member>
+      <member refid="classBaseFrame_1ebb3ce33f4a37c3eb2ee72474050fa37" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>changeBackgroundColor</name></member>
+      <member refid="classErrorMatrixView_1146589f34818ee986024dc0d7d417489" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>clusterList</name></member>
+      <member refid="classErrorMatrixView_1b2b1bd0d12fa78b9d24438fd683ec58d" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>clustersDeleted</name></member>
+      <member refid="classErrorMatrixView_1be3e01992541a5adc96bbc6dbd54dbd1" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>clustersGrouped</name></member>
+      <member refid="classViewWidget_1bccba002ff28008b32f8082553f6fca8" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>clusterUpdateList</name></member>
+      <member refid="classBaseFrame_146ae781de9307957e8a1eb0a5f5a64c6" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>colorLegend</name></member>
+      <member refid="classErrorMatrixView_11ca0a1e1ea9fa6a18aa6625d44cb8b79" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>colorMap</name></member>
+      <member refid="classErrorMatrixView_12ed1f6a3b6cde9db7d91be8528fadbc8" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>computedClusterList</name></member>
+      <member refid="classErrorMatrixView_11ccd9c66203c1f3242dff29f67d4a5ad" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>computeMatrix</name></member>
+      <member refid="classErrorMatrixView_10a45bd29e0fec237388d46d316f37e59" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>customEvent</name></member>
+      <member refid="classErrorMatrixView_1675f306a381130bce7d442f8d0f01c8e" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>cutoffProbability</name></member>
+      <member refid="classErrorMatrixView_1a4809b5fe165f645e19de57e2e897586" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>dataReady</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f531ac6e4c2710a204fc01fc902469bcd" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>DELETE_ARTEFACT</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f07b03c1319e024f327c9817eb6b029ba" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>DELETE_NOISE</name></member>
+      <member refid="classErrorMatrixView_11f450faa30713765796333399b412b35" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>deletedMap</name></member>
+      <member refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>doc</name></member>
+      <member refid="classBaseFrame_1b053dfe22801668fd82f1f5f34f32263" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>dockBeingClosed</name></member>
+      <member refid="classViewWidget_1091c72490041f8e45689b1dc4d693d5e" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>doublebuffer</name></member>
+      <member refid="classErrorMatrixView_1a463f89f877e7d671593343518591544" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>drawClusterIds</name></member>
+      <member refid="classErrorMatrixView_149882967374ab5a4731805f0025248e8" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>drawContents</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>DrawContentsMode</name></member>
+      <member refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>drawContentsMode</name></member>
+      <member refid="classErrorMatrixView_122944dfdccdc25d30ef12ebec7b2c83b" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>drawMatrix</name></member>
+      <member refid="classBaseFrame_1c1183e155932c92026c2e8e9553905ea" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>drawRubber</name></member>
+      <member refid="classBaseFrame_1a1c10be0c7c3b6c76c3dc3156d267e70" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>drawRubberBand</name></member>
+      <member refid="classViewWidget_15dd5db4d43d33a65b403400e46f4b891" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>emptySelection</name></member>
+      <member refid="classErrorMatrixView_1b5f8bfc8963455e3bd9f599e03941427" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ErrorMatrixThread</name></member>
+      <member refid="classErrorMatrixView_1f419982fd014876aa5ef94cb57775a26" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ErrorMatrixView</name></member>
+      <member refid="classBaseFrame_12aa532f84a5f6f97c2fe4b51c0a51ce1" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>firstClick</name></member>
+      <member refid="classErrorMatrixView_170b5ee2e154a5cf908555cabc9fbd622" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>goingToDie</name></member>
+      <member refid="classErrorMatrixView_14f925f16f3d52b8910d72a532ec10b25" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>hasBeenRenumbered</name></member>
+      <member refid="classErrorMatrixView_10e396198c8e812c403f93f6ee1df4b00" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>heightBorder</name></member>
+      <member refid="classErrorMatrixView_1bab48be2c5b729fdbbf517ad5d0c1fb1" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ignoreClusterIndex</name></member>
+      <member refid="classErrorMatrixView_1b9d27895062149d5674bd31e84e6533a" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>init</name></member>
+      <member refid="classErrorMatrixView_18f708e8bc6c3b0cc052f6a2547ff2f21" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>initializeColorMap</name></member>
+      <member refid="classBaseFrame_1c9c373aa1730932c563bc99779dc600f" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>isDoubleClick</name></member>
+      <member refid="classErrorMatrixView_1ab9f815c375f0800b05289a9dfc91de9" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>isNotUpToDate</name></member>
+      <member refid="classBaseFrame_1fc0aaeb9c105479f46868dc9d4b01a6e" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>isRubberBandToBeDrawn</name></member>
+      <member refid="classErrorMatrixView_13fa450bd9e0ac2a7b6d9e89854aaf3b9" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>isThreadsRunning</name></member>
+      <member refid="classBaseFrame_1992b1cb3328945272b015bd3f6d1f7cb" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>MAX_SIZE</name></member>
+      <member refid="classBaseFrame_190d22b4bd74df6e61a7824951000e5e8" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>MIN_SIZE</name></member>
+      <member refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>Mode</name></member>
+      <member refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>mode</name></member>
+      <member refid="classErrorMatrixView_1b4b2fd4db4d0749d5bbf83ebbac2c673" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>modifiedClusterList</name></member>
+      <member refid="classErrorMatrixView_1e0336730047333d04393848bcd120d69" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>mouseDoubleClickEvent</name></member>
+      <member refid="classErrorMatrixView_18638881f0a749ff652986be3065b1e3d" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>mouseMoveEvent</name></member>
+      <member refid="classErrorMatrixView_121e97b064d9a688e057de77949a4144e" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>mousePressEvent</name></member>
+      <member refid="classErrorMatrixView_1aaaa6d453f04fba350ee12b41c2f445d" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>mouseReleaseEvent</name></member>
+      <member refid="classErrorMatrixView_1cf69127c560b2a5773a5c01a9d17db24" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>nbActions</name></member>
+      <member refid="classErrorMatrixView_10d218fa220b68da6594602500ccf791b" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>nbColors</name></member>
+      <member refid="classErrorMatrixView_10cec18324a2117804fe65029c8d164d2" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>nbPreviousRedo</name></member>
+      <member refid="classErrorMatrixView_125fb310caf620a74c7072945451ad9d4" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>nbPreviousUndo</name></member>
+      <member refid="classErrorMatrixView_14c8f99425422feff3db409ac8a370248" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>nbRedo</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fef0a4da74dd881e94fe07b9b3d1bf83a" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>NEW_CLUSTER</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889fc7cda1ba26c6de6294f2cd188b6d0e33" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>NEW_CLUSTERS</name></member>
+      <member refid="classErrorMatrixView_1200d21282cb7cbd54d6e841bc1271e32" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>newClusterAdded</name></member>
+      <member refid="classErrorMatrixView_124c27c88a90d54981101097e4f60462a" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>newClustersAdded</name></member>
+      <member refid="classErrorMatrixView_19f9593e1cc36644c3f648dd511e77e89" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>newClustersAdded</name></member>
+      <member refid="classBaseFrame_1a470ad78b538adc53ffeabee229c4c9e" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>oldSize</name></member>
+      <member refid="classErrorMatrixView_1eef769d58055304ae534b3f501262e6e" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ordinateMax</name></member>
+      <member refid="classErrorMatrixView_1564ff2ef1d3e5d083a55a77331801fec" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ordinateMin</name></member>
+      <member refid="classBaseFrame_1eb86348c3d22a2271be7a269aa891d72" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>parentDockBeingClosed</name></member>
+      <member refid="classErrorMatrixView_138a7990d11741fb42db186e607dcb386" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>print</name></member>
+      <member refid="classErrorMatrixView_1c55edcdfd852f19a25aa6b79d1fd2c32" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>probabilities</name></member>
+      <member refid="classErrorMatrixView_1817a9cbb4b65621f7613f1d034e24be0" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>redoAddition</name></member>
+      <member refid="classErrorMatrixView_15d7b4bbb266d3af918c912d0ee37b7c6" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>redoAdditionModification</name></member>
+      <member refid="classErrorMatrixView_14bbf5248d4b4999c40359c9d1d5d3571" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>redoDeletion</name></member>
+      <member refid="classErrorMatrixView_16a89bb07d7a1314431956527e9359931" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>redoModification</name></member>
+      <member refid="classErrorMatrixView_13207f1a1d5724f6869aa10e641ed2fe4" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>redoRenumbering</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db8231288ec4453e28f207d42383a741213f2fb" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>REDRAW</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db82312d65241269619717949ae60374a711daf" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>REFRESH</name></member>
+      <member refid="classViewWidget_103c155399b7f12e5aea1e090a40581be" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>removeClusterFromView</name></member>
+      <member refid="classErrorMatrixView_18f3ec2d125523a383b2a744c970a001f" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>removeSpikesFromClusters</name></member>
+      <member refid="classErrorMatrixView_12f84c47e90fd2d6725a292521768631c" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>renumber</name></member>
+      <member refid="classErrorMatrixView_156df559d417750079aaa4a708d6a323c" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>renumbering</name></member>
+      <member refid="classErrorMatrixView_15918a9b5165b23dac19c3fd0f4cc48f3" prot="protected" virt="virtual"><scope>ErrorMatrixView</scope><name>resizeEvent</name></member>
+      <member refid="classBaseFrame_13af90d61c65b68208c68adb5dd895549" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>rubber</name></member>
+      <member refid="classViewWidget_1036ea6a786cc1753484f10fc445f889f6f501aff76320842235887eb153f07a3" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>SELECT_TIME</name></member>
+      <member refid="classErrorMatrixView_17f2dac4bdd604b52778cc40533b88c9c" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>selectedPairs</name></member>
+      <member refid="classBaseFrame_18293d6698f18deef9410ea9805c06112" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>setBorders</name></member>
+      <member refid="classBaseFrame_1ed169686b843e124a5ac901ac735ccd3" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>setMode</name></member>
+      <member refid="classViewWidget_1334a7e900904d2db053455f9c8b5e6fc" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>singleColorUpdate</name></member>
+      <member refid="classViewWidget_1ac959304564cbc8836998950f1a717ed" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>spikesAddedToCluster</name></member>
+      <member refid="classViewWidget_13e0ee079110b4369f0524cc3491f93d6" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>spikesRemovedFromClusters</name></member>
+      <member refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>statusBar</name></member>
+      <member refid="classErrorMatrixView_1bc54ffac9d94ad6502f6d87e4d698e81" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>threadsToBeKill</name></member>
+      <member refid="classErrorMatrixView_16e0559b8888f3e0e2c3353b9cf28ec95" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>undoAddition</name></member>
+      <member refid="classErrorMatrixView_1b5450c1a803893d54a708771ec9b600c" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>undoAdditionModification</name></member>
+      <member refid="classErrorMatrixView_13ed3cac1cb79ffba02d9a4c9c75f34b9" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>undoModification</name></member>
+      <member refid="classErrorMatrixView_169b1ae818a8104a13154ea79529c6ad9" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>undoRenumbering</name></member>
+      <member refid="classViewWidget_133078af928133ca135553b75c5d55300" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>undoUpdateClusters</name></member>
+      <member refid="classBaseFrame_121ad37725f0a1d7cc7e391961db823129813ffc0ade2d4aced59cfdabd1459d9" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>UPDATE</name></member>
+      <member refid="classViewWidget_17406b5a4d71f7ef3ade9ac29850d2037" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>updateClusters</name></member>
+      <member refid="classViewWidget_1238b02bc4888a936feb5c24133596911" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>updatedDimensions</name></member>
+      <member refid="classBaseFrame_1a93e1824a7160bbae2933e64f4e8ba9b" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>updateDrawing</name></member>
+      <member refid="classErrorMatrixView_195bbcba77f32f6253f9d70f989c4afdb" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>updateMatrixContents</name></member>
+      <member refid="classErrorMatrixView_10993aadfc91c360360ac2faf294a8368" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>updateWindow</name></member>
+      <member refid="classViewWidget_166610cd0dfae797713df3acb439033cc" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>view</name></member>
+      <member refid="classBaseFrame_16b8a18a51e085c5d68e1812ea7b603ea" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>viewport</name></member>
+      <member refid="classBaseFrame_11d2cf80aab1a6867fd30f61cb53f4dc5" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_1bc359186819f10c30a5ae505d6f1920d" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>viewportToWorld</name></member>
+      <member refid="classBaseFrame_18a56e7d97d02b9906e63526db945ebed" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>viewportToWorldHeight</name></member>
+      <member refid="classBaseFrame_1d637eb7a91439ee66bacb4efd6445572" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>viewportToWorldWidth</name></member>
+      <member refid="classViewWidget_186837c742daf2ccd927c6d9511287f50" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ViewWidget</name></member>
+      <member refid="classBaseFrame_1b96c798f9995cdf917d56ebda2fdfd3e" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>wholeHeightRectangle</name></member>
+      <member refid="classErrorMatrixView_1aa529169785de1471e8259f1d967f1e9" prot="private" virt="non-virtual"><scope>ErrorMatrixView</scope><name>widthBorder</name></member>
+      <member refid="classErrorMatrixView_1be7fdec65331be47d4bfca91637cc256" prot="public" virt="virtual"><scope>ErrorMatrixView</scope><name>willBeKilled</name></member>
+      <member refid="classBaseFrame_15b9fe7f64b7737c193c4427a5ab8c271" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>window</name></member>
+      <member refid="classBaseFrame_195b3b1ec4173a584b33d403909f25d94" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>WINDOW_BOTTOM_RIGHT</name></member>
+      <member refid="classBaseFrame_18dac5dc5940d0ba950367a6209baf1d9" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>WINDOW_TOP_LEFT</name></member>
+      <member refid="classBaseFrame_12b50027b15770de7f37b59917152c69b" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_12b63b89729e706626167a7dc7020a3aa" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewport</name></member>
+      <member refid="classBaseFrame_1282acf96cb3e2cf1889da54236d1623e" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewportAbscissa</name></member>
+      <member refid="classBaseFrame_1af257590f63f103f946f599add211cd5" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewportHeight</name></member>
+      <member refid="classBaseFrame_1a66187fbc3b1a9978f7604a17a04071b" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewportOrdinate</name></member>
+      <member refid="classBaseFrame_1f7ebfc8274c67f570b5051977cefe9b2" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>worldToViewportWidth</name></member>
+      <member refid="classBaseFrame_1a2261962eadacd199a841dc92d05e540" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>Xborder</name></member>
+      <member refid="classBaseFrame_12b9fdad548fa78d7970f729483a6f519" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>Yborder</name></member>
+      <member refid="classBaseFrame_18a859cb9dade3f3b205b35e6ec3181a2d75fd832d6a47113cab9b9dc548971d6" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>ZOOM</name></member>
+      <member refid="classBaseFrame_1a6054da9012b308d2c041ec63df5b5cd" prot="protected" virt="non-virtual"><scope>ErrorMatrixView</scope><name>zoomCursor</name></member>
+      <member refid="classBaseFrame_16f5fb51668be38012d5eb0aa7b8b3cbe" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>~BaseFrame</name></member>
+      <member refid="classErrorMatrixView_1ade3ece97a41ab86a601b0f49e92790c" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>~ErrorMatrixView</name></member>
+      <member refid="classViewWidget_1283c1ee4a0e61803161713b7b3538b82" prot="public" virt="non-virtual"><scope>ErrorMatrixView</scope><name>~ViewWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

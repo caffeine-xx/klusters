@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classChannelList" kind="class" prot="public">
+    <compoundname>ChannelList</compoundname>
+    <includes refid="channellist_8h" local="no">channellist.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classChannelList_165934c1c36d20f825cf2ff434bc2b7bc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ChannelList::dragging</definition>
+        <argsstring></argsstring>
+        <name>dragging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classChannelList_1b4392bb95f466df41f3530032b26ae28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ChannelList::ChannelList</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags f=0)</argsstring>
+        <name>ChannelList</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>f</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_181b445b8f9306a3b8c4f99a472e3104d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ChannelList::~ChannelList</definition>
+        <argsstring>()</argsstring>
+        <name>~ChannelList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="37" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_1c10babfa05ef3cddcfec5fb012da2efa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::dragEnterEvent</definition>
+        <argsstring>(QDragEnterEvent *event)</argsstring>
+        <name>dragEnterEvent</name>
+        <param>
+          <type>QDragEnterEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_1e37c33ef53c91bbedae3a0b7b9aa3c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::dropEvent</definition>
+        <argsstring>(QDropEvent *event)</argsstring>
+        <name>dropEvent</name>
+        <param>
+          <type>QDropEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="46" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_13db7a0a27de8f8f15a3526f3a9c0fbba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::mousePressEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mousePressEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_1269c24ed06a35446a9ade0c45e72dd54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::mouseMoveEvent</definition>
+        <argsstring>(QMouseEvent *event)</argsstring>
+        <name>mouseMoveEvent</name>
+        <param>
+          <type>QMouseEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="68" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classChannelList_15b1e9aaac149a8fc21407cab99080b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::contentsDragMoveEvent</definition>
+        <argsstring>(QDragMoveEvent *event)</argsstring>
+        <name>contentsDragMoveEvent</name>
+        <param>
+          <type>QDragMoveEvent *</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.cpp" bodystart="76" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classChannelList_1ad85d46a4a8020b729b1926478a741f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ChannelList::positionsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>positionsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.moc.cpp" bodystart="80" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="classChannelList" kindref="compound">ChannelList</ref> widget provides a list of selectable, read-only items to be used to configure the order in which individual electrodes are displayed in the <ref refid="classWaveformView" kindref="compound">WaveformView</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/channellist.h" bodystart="38" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classChannelList_1b4392bb95f466df41f3530032b26ae28" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>ChannelList</name></member>
+      <member refid="classChannelList_15b1e9aaac149a8fc21407cab99080b35" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>contentsDragMoveEvent</name></member>
+      <member refid="classChannelList_1c10babfa05ef3cddcfec5fb012da2efa" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>dragEnterEvent</name></member>
+      <member refid="classChannelList_165934c1c36d20f825cf2ff434bc2b7bc" prot="private" virt="non-virtual"><scope>ChannelList</scope><name>dragging</name></member>
+      <member refid="classChannelList_1e37c33ef53c91bbedae3a0b7b9aa3c57" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>dropEvent</name></member>
+      <member refid="classChannelList_1269c24ed06a35446a9ade0c45e72dd54" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>mouseMoveEvent</name></member>
+      <member refid="classChannelList_13db7a0a27de8f8f15a3526f3a9c0fbba" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>mousePressEvent</name></member>
+      <member refid="classChannelList_1ad85d46a4a8020b729b1926478a741f3" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>positionsChanged</name></member>
+      <member refid="classChannelList_181b445b8f9306a3b8c4f99a472e3104d" prot="public" virt="non-virtual"><scope>ChannelList</scope><name>~ChannelList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

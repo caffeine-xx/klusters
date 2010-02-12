@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1ClusterInfo" kind="class" prot="private">
+    <compoundname>Data::ClusterInfo</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_1a1835e5fe1297ca16a9b754a1e334708" prot="private" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType Data::ClusterInfo::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="642" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_1f483cfb456cda9302d77322aaa20bcdb" prot="private" static="no" mutable="no">
+        <type>dataType</type>
+        <definition>dataType Data::ClusterInfo::spikeNb</definition>
+        <argsstring></argsstring>
+        <name>spikeNb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="643" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_183b12840af0657cba400989803e175e8" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::structure</definition>
+        <argsstring></argsstring>
+        <name>structure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="645" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_1bc4cbb2eaa7e6700f60f692d56b7a1d5" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="646" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_10c5d2ab3af93f8a04667e9493d638922" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Isolation Distance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="648" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_1458be849608f35b3d76c77c84a7cb1e0" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::quality</definition>
+        <argsstring></argsstring>
+        <name>quality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="649" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1ClusterInfo_16809cfda68e33455ba4ea208c9f99b81" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::notes</definition>
+        <argsstring></argsstring>
+        <name>notes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="650" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1f11e1891c8c9e7474629b4ce5e0c4ceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::ClusterInfo::ClusterInfo</definition>
+        <argsstring>(QString pStructure=&quot;&quot;, QString pType=&quot;&quot;, QString pID=&quot;&quot;, QString pQuality=&quot;&quot;, QString pNotes=&quot;&quot;)</argsstring>
+        <name>ClusterInfo</name>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pID</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="621" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="621" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1fa1bcfff1f4742860948b941ab0ef753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::ClusterInfo::ClusterInfo</definition>
+        <argsstring>(dataType position, dataType nb, QString pStructure=&quot;&quot;, QString pType=&quot;&quot;, QString pID=&quot;&quot;, QString pQuality=&quot;&quot;, QString pNotes=&quot;&quot;)</argsstring>
+        <name>ClusterInfo</name>
+        <param>
+          <type>dataType</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nb</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pID</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="622" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="622" bodyend="622"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1d081cb873f97fed4cde83c4e5887b6ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::ClusterInfo::~ClusterInfo</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="623" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="623" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1b88f640f320b1abf12930eb192fdf873" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::ClusterInfo::firstSpikePosition</definition>
+        <argsstring>() const</argsstring>
+        <name>firstSpikePosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="624" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="624" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1434ce01a48bafd174a1505c59274c5c2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::ClusterInfo::nbSpikes</definition>
+        <argsstring>() const</argsstring>
+        <name>nbSpikes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="625" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="625" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1815e484e4240fbb077817a065b8d57b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setNbSpikes</definition>
+        <argsstring>(dataType nbSpikes)</argsstring>
+        <name>setNbSpikes</name>
+        <param>
+          <type>dataType</type>
+          <declname>nbSpikes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="626" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="626" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_11d5bab4d3867a45e931bd3277a1a0ed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setFirstSpikePosition</definition>
+        <argsstring>(dataType position)</argsstring>
+        <name>setFirstSpikePosition</name>
+        <param>
+          <type>dataType</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="627" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="627" bodyend="627"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_178260fec192c516c05a11f529fa62b23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::getStructure</definition>
+        <argsstring>() const</argsstring>
+        <name>getStructure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="629" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="629" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_12a4d8a38562dd06fb23a0919b67a6391" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::getType</definition>
+        <argsstring>() const</argsstring>
+        <name>getType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="630" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="630" bodyend="630"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1c4b8a4ebcfd7c3c38b40406d00e7df6a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::getId</definition>
+        <argsstring>() const</argsstring>
+        <name>getId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="631" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="631" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1bd5ef8178c5322b4d97721b3116dd940" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::getQuality</definition>
+        <argsstring>() const</argsstring>
+        <name>getQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="632" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="632" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_17a2f6df26c3ac7a324b26568ad1de280" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Data::ClusterInfo::getNotes</definition>
+        <argsstring>() const</argsstring>
+        <name>getNotes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="633" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="633" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1c363adc3e0392fb4e888cc1f76866faf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setStructure</definition>
+        <argsstring>(QString pStructure)</argsstring>
+        <name>setStructure</name>
+        <param>
+          <type>QString</type>
+          <declname>pStructure</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="635" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="635" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1a3b9189b1f8a55a334074d4cde98d5d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setType</definition>
+        <argsstring>(QString pType)</argsstring>
+        <name>setType</name>
+        <param>
+          <type>QString</type>
+          <declname>pType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="636" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="636" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_137db044a453763ec02a95795780ad28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setId</definition>
+        <argsstring>(QString pId)</argsstring>
+        <name>setId</name>
+        <param>
+          <type>QString</type>
+          <declname>pId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="637" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="637" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1d1a2e0e2e8a317791722597420fa1b82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setQuality</definition>
+        <argsstring>(QString pQuality)</argsstring>
+        <name>setQuality</name>
+        <param>
+          <type>QString</type>
+          <declname>pQuality</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="638" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="638" bodyend="638"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1ClusterInfo_1ab9238038175e0a9545a64a146723d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::ClusterInfo::setNotes</definition>
+        <argsstring>(QString pNotes)</argsstring>
+        <name>setNotes</name>
+        <param>
+          <type>QString</type>
+          <declname>pNotes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="639" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="639" bodyend="639"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents information on a cluster: the index of the first spike of a given cluster number in spikesByCluster the number of spikes of the cluster and optionnally information added by the user: the structure where the cluster is located the type of the unit the isolation distance the quality notes. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="618" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="618" bodyend="651"/>
+    <listofallmembers>
+      <member refid="classData_1_1ClusterInfo_1f11e1891c8c9e7474629b4ce5e0c4ceb" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>ClusterInfo</name></member>
+      <member refid="classData_1_1ClusterInfo_1fa1bcfff1f4742860948b941ab0ef753" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>ClusterInfo</name></member>
+      <member refid="classData_1_1ClusterInfo_1b88f640f320b1abf12930eb192fdf873" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>firstSpikePosition</name></member>
+      <member refid="classData_1_1ClusterInfo_1c4b8a4ebcfd7c3c38b40406d00e7df6a" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>getId</name></member>
+      <member refid="classData_1_1ClusterInfo_17a2f6df26c3ac7a324b26568ad1de280" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>getNotes</name></member>
+      <member refid="classData_1_1ClusterInfo_1bd5ef8178c5322b4d97721b3116dd940" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>getQuality</name></member>
+      <member refid="classData_1_1ClusterInfo_178260fec192c516c05a11f529fa62b23" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>getStructure</name></member>
+      <member refid="classData_1_1ClusterInfo_12a4d8a38562dd06fb23a0919b67a6391" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>getType</name></member>
+      <member refid="classData_1_1ClusterInfo_10c5d2ab3af93f8a04667e9493d638922" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>ID</name></member>
+      <member refid="classData_1_1ClusterInfo_1434ce01a48bafd174a1505c59274c5c2" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>nbSpikes</name></member>
+      <member refid="classData_1_1ClusterInfo_16809cfda68e33455ba4ea208c9f99b81" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>notes</name></member>
+      <member refid="classData_1_1ClusterInfo_1a1835e5fe1297ca16a9b754a1e334708" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>position</name></member>
+      <member refid="classData_1_1ClusterInfo_1458be849608f35b3d76c77c84a7cb1e0" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>quality</name></member>
+      <member refid="classData_1_1ClusterInfo_11d5bab4d3867a45e931bd3277a1a0ed4" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setFirstSpikePosition</name></member>
+      <member refid="classData_1_1ClusterInfo_137db044a453763ec02a95795780ad28c" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setId</name></member>
+      <member refid="classData_1_1ClusterInfo_1815e484e4240fbb077817a065b8d57b6" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setNbSpikes</name></member>
+      <member refid="classData_1_1ClusterInfo_1ab9238038175e0a9545a64a146723d20" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setNotes</name></member>
+      <member refid="classData_1_1ClusterInfo_1d1a2e0e2e8a317791722597420fa1b82" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setQuality</name></member>
+      <member refid="classData_1_1ClusterInfo_1c363adc3e0392fb4e888cc1f76866faf" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setStructure</name></member>
+      <member refid="classData_1_1ClusterInfo_1a3b9189b1f8a55a334074d4cde98d5d3" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>setType</name></member>
+      <member refid="classData_1_1ClusterInfo_1f483cfb456cda9302d77322aaa20bcdb" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>spikeNb</name></member>
+      <member refid="classData_1_1ClusterInfo_183b12840af0657cba400989803e175e8" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>structure</name></member>
+      <member refid="classData_1_1ClusterInfo_1bc4cbb2eaa7e6700f60f692d56b7a1d5" prot="private" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>type</name></member>
+      <member refid="classData_1_1ClusterInfo_1d081cb873f97fed4cde83c4e5887b6ee" prot="public" virt="non-virtual"><scope>Data::ClusterInfo</scope><name>~ClusterInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

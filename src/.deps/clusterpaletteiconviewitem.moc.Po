@@ -1,0 +1,2 @@
+clusterpaletteiconviewitem.moc.o clusterpaletteiconviewitem.moc.o:  \
+ clusterpaletteiconviewitem.moc.cpp

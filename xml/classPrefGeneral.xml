@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefGeneral" kind="class" prot="public">
+    <compoundname>PrefGeneral</compoundname>
+    <includes refid="prefgeneral_8h" local="no">prefgeneral.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefGeneral_1da0d6aa35e38fe6afe3bbd6a9db72910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefGeneral::PrefGeneral</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>PrefGeneral</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="26" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_1ebcf2b49582e709d709497d632aff0ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefGeneral::~PrefGeneral</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefGeneral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="34" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_1023ef9d53c25acddb076c762c038b25c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setCrashRecovery</definition>
+        <argsstring>(bool use)</argsstring>
+        <name>setCrashRecovery</name>
+        <param>
+          <type>bool</type>
+          <declname>use</declname>
+        </param>
+        <briefdescription>
+<para>Sets the use of a crash and recovery autosave. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_173303838adf8e2705e0336a22bf8491a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setCrashRecoveryIndex</definition>
+        <argsstring>(int index)</argsstring>
+        <name>setCrashRecoveryIndex</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+<para>Sets the index of time interval between 2 crash and recovery autosave. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_1a3f425cf4ec0e02fa396d5da6ce14f38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setNbUndo</definition>
+        <argsstring>(int nb)</argsstring>
+        <name>setNbUndo</name>
+        <param>
+          <type>int</type>
+          <declname>nb</declname>
+        </param>
+        <briefdescription>
+<para>Sets the number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="56" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_15442a06d79758266675e0843ed484373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setBackgroundColor</definition>
+        <argsstring>(const QColor &amp;color)</argsstring>
+        <name>setBackgroundColor</name>
+        <param>
+          <type>const QColor &amp;</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>Sets the background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setReclusteringExecutable</definition>
+        <argsstring>(QString executable)</argsstring>
+        <name>setReclusteringExecutable</name>
+        <param>
+          <type>QString</type>
+          <declname>executable</declname>
+        </param>
+        <briefdescription>
+<para>Sets the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="62" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_15252892f22d9303c8dc6d5977ff33510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::setReclusteringArguments</definition>
+        <argsstring>(QString arguments)</argsstring>
+        <name>setReclusteringArguments</name>
+        <param>
+          <type>QString</type>
+          <declname>arguments</declname>
+        </param>
+        <briefdescription>
+<para>Sets the arguments for the reclustering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="65" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_18b3a2299d11aef26665202d658664c17" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool PrefGeneral::isCrashRecovery</definition>
+        <argsstring>() const</argsstring>
+        <name>isCrashRecovery</name>
+        <briefdescription>
+<para>Returns true if a crash and recovery autosave is performed, false othewise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_162aece7a072e441693b787e838cc20e8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PrefGeneral::crashRecoveryIntervalIndex</definition>
+        <argsstring>() const</argsstring>
+        <name>crashRecoveryIntervalIndex</name>
+        <briefdescription>
+<para>Returns the index of the time interval between 2 crash and recovery autosave in minutes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_15257a5016c29970f93b142d992657a99" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PrefGeneral::getNbUndo</definition>
+        <argsstring>() const</argsstring>
+        <name>getNbUndo</name>
+        <briefdescription>
+<para>Returns the number of step in the undo/redo mechanism. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_16ccb6d4e9c057b957eb8301f97ea5494" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor PrefGeneral::getBackgroundColor</definition>
+        <argsstring>() const</argsstring>
+        <name>getBackgroundColor</name>
+        <briefdescription>
+<para>Returns the background color. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_134c1c148f9c0e05d9cf4095b0ece6ee6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PrefGeneral::getReclusteringExecutable</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringExecutable</name>
+        <briefdescription>
+<para>Returns the reclustering executable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="80" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefGeneral_1035cc882ccebdd57ca3ef9b132296a12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString PrefGeneral::getReclusteringArguments</definition>
+        <argsstring>() const</argsstring>
+        <name>getReclusteringArguments</name>
+        <briefdescription>
+<para>Returns the arguments for the reclustering. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="63" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="classPrefGeneral_1fb8148594521d8fe1c84d4b442316f61" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::updateCrashRecoveryTimeInterval</definition>
+        <argsstring>(int state)</argsstring>
+        <name>updateCrashRecoveryTimeInterval</name>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="86" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="slot" id="classPrefGeneral_1ca7cc456fe6d6d3d87660f018c6d481e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PrefGeneral::updateReclusteringExecutable</definition>
+        <argsstring>()</argsstring>
+        <name>updateReclusteringExecutable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp" bodystart="70" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class representing the Klusters General <ref refid="classConfiguration" kindref="compound">Configuration</ref> page of the Klusters preferences dialog. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.h" bodystart="43" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classPrefGeneral_162aece7a072e441693b787e838cc20e8" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>crashRecoveryIntervalIndex</name></member>
+      <member refid="classPrefGeneral_16ccb6d4e9c057b957eb8301f97ea5494" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>getBackgroundColor</name></member>
+      <member refid="classPrefGeneral_15257a5016c29970f93b142d992657a99" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>getNbUndo</name></member>
+      <member refid="classPrefGeneral_1035cc882ccebdd57ca3ef9b132296a12" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>getReclusteringArguments</name></member>
+      <member refid="classPrefGeneral_134c1c148f9c0e05d9cf4095b0ece6ee6" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>getReclusteringExecutable</name></member>
+      <member refid="classPrefGeneral_18b3a2299d11aef26665202d658664c17" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>isCrashRecovery</name></member>
+      <member refid="classPrefGeneral_1da0d6aa35e38fe6afe3bbd6a9db72910" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>PrefGeneral</name></member>
+      <member refid="classPrefGeneral_15442a06d79758266675e0843ed484373" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setBackgroundColor</name></member>
+      <member refid="classPrefGeneral_1023ef9d53c25acddb076c762c038b25c" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setCrashRecovery</name></member>
+      <member refid="classPrefGeneral_173303838adf8e2705e0336a22bf8491a" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setCrashRecoveryIndex</name></member>
+      <member refid="classPrefGeneral_1a3f425cf4ec0e02fa396d5da6ce14f38" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setNbUndo</name></member>
+      <member refid="classPrefGeneral_15252892f22d9303c8dc6d5977ff33510" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setReclusteringArguments</name></member>
+      <member refid="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>setReclusteringExecutable</name></member>
+      <member refid="classPrefGeneral_1fb8148594521d8fe1c84d4b442316f61" prot="private" virt="non-virtual"><scope>PrefGeneral</scope><name>updateCrashRecoveryTimeInterval</name></member>
+      <member refid="classPrefGeneral_1ca7cc456fe6d6d3d87660f018c6d481e" prot="private" virt="non-virtual"><scope>PrefGeneral</scope><name>updateReclusteringExecutable</name></member>
+      <member refid="classPrefGeneral_1ebcf2b49582e709d709497d632aff0ef" prot="public" virt="non-virtual"><scope>PrefGeneral</scope><name>~PrefGeneral</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefgeneral_8cpp" kind="file">
+    <compoundname>prefgeneral.cpp</compoundname>
+    <includes refid="prefgeneral_8h" local="yes">prefgeneral.h</includes>
+    <includes local="no">qiconset.h</includes>
+    <includes local="no">kiconloader.h</includes>
+    <incdepgraph>
+      <node id="2086">
+        <label>prefgeneral.cpp</label>
+        <link refid="prefgeneral.cpp"/>
+        <childnode refid="2087" relation="include">
+        </childnode>
+        <childnode refid="2100" relation="include">
+        </childnode>
+        <childnode refid="2101" relation="include">
+        </childnode>
+      </node>
+      <node id="2098">
+        <label>prefgenerallayout.h</label>
+        <link refid="prefgenerallayout_8h-source"/>
+        <childnode refid="2099" relation="include">
+        </childnode>
+        <childnode refid="2088" relation="include">
+        </childnode>
+      </node>
+      <node id="2101">
+        <label>kiconloader.h</label>
+      </node>
+      <node id="2091">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2100">
+        <label>qiconset.h</label>
+      </node>
+      <node id="2087">
+        <label>prefgeneral.h</label>
+        <link refid="prefgeneral_8h-source"/>
+        <childnode refid="2088" relation="include">
+        </childnode>
+        <childnode refid="2089" relation="include">
+        </childnode>
+        <childnode refid="2090" relation="include">
+        </childnode>
+        <childnode refid="2091" relation="include">
+        </childnode>
+        <childnode refid="2092" relation="include">
+        </childnode>
+        <childnode refid="2093" relation="include">
+        </childnode>
+        <childnode refid="2094" relation="include">
+        </childnode>
+        <childnode refid="2095" relation="include">
+        </childnode>
+        <childnode refid="2096" relation="include">
+        </childnode>
+        <childnode refid="2097" relation="include">
+        </childnode>
+        <childnode refid="2098" relation="include">
+        </childnode>
+      </node>
+      <node id="2094">
+        <label>kcolorbutton.h</label>
+      </node>
+      <node id="2092">
+        <label>qpushbutton.h</label>
+      </node>
+      <node id="2096">
+        <label>klocale.h</label>
+      </node>
+      <node id="2095">
+        <label>kfiledialog.h</label>
+      </node>
+      <node id="2099">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2090">
+        <label>qcheckbox.h</label>
+      </node>
+      <node id="2088">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2093">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="2097">
+        <label>kmessagebox.h</label>
+      </node>
+      <node id="2089">
+        <label>qcombobox.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prefgeneral.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Dec<sp/>11<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//Application<sp/>specific<sp/>includes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;prefgeneral.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//QT<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qiconset.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kiconloader.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">PrefGeneral::PrefGeneral(QWidget<sp/>*parent,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/>)<sp/>:<sp/>PrefGeneralLayout(parent,name)<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/>connect(crashRecoveryCheckBox,SIGNAL(stateChanged(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(updateCrashRecoveryTimeInterval(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)));</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/>connect(reclusteringExecutableButton,SIGNAL(clicked()),</highlight><highlight class="keyword">this</highlight><highlight class="normal">,SLOT(updateReclusteringExecutable()));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Set<sp/>an<sp/>icon<sp/>on<sp/>the<sp/>reclusteringExecutableButton<sp/>button</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>KIconLoader*<sp/>loader<sp/>=<sp/>KGlobal::iconLoader();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>reclusteringExecutableButton-&gt;setIconSet(QIconSet(loader-&gt;loadIcon(</highlight><highlight class="stringliteral">&quot;fileopen&quot;</highlight><highlight class="normal">,<sp/>KIcon::Small)));<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">PrefGeneral::~PrefGeneral(){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_1023ef9d53c25acddb076c762c038b25c" kindref="member">PrefGeneral::setCrashRecovery</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>use){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/>crashRecoveryCheckBox-&gt;setChecked(use);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(use)<sp/>updateCrashRecoveryTimeInterval(QButton::On);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>updateCrashRecoveryTimeInterval(QButton::Off);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_173303838adf8e2705e0336a22bf8491a" kindref="member">PrefGeneral::setCrashRecoveryIndex</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index){crashRecoveryComboBox-&gt;setCurrentItem(index);}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_1a3f425cf4ec0e02fa396d5da6ce14f38" kindref="member">PrefGeneral::setNbUndo</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nb){undoSpinBox-&gt;setValue(nb);}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_15442a06d79758266675e0843ed484373" kindref="member">PrefGeneral::setBackgroundColor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor&amp;<sp/>color)<sp/>{backgroundColorButton-&gt;setColor(color);}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" kindref="member">PrefGeneral::setReclusteringExecutable</ref>(QString<sp/>executable)<sp/>{reclusteringExecutableLineEdit-&gt;setText(executable);}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_15252892f22d9303c8dc6d5977ff33510" kindref="member">PrefGeneral::setReclusteringArguments</ref>(QString<sp/>arguments)<sp/>{reclusteringArgsLineEdit-&gt;setText(arguments);}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_18b3a2299d11aef26665202d658664c17" kindref="member">PrefGeneral::isCrashRecovery</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecoveryCheckBox-&gt;isChecked();}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_162aece7a072e441693b787e838cc20e8" kindref="member">PrefGeneral::crashRecoveryIntervalIndex</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crashRecoveryComboBox-&gt;currentItem();}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classPrefGeneral_15257a5016c29970f93b142d992657a99" kindref="member">PrefGeneral::getNbUndo</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>undoSpinBox-&gt;value();}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">QColor<sp/><ref refid="classPrefGeneral_16ccb6d4e9c057b957eb8301f97ea5494" kindref="member">PrefGeneral::getBackgroundColor</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>backgroundColorButton-&gt;color();}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">QString<sp/><ref refid="classPrefGeneral_134c1c148f9c0e05d9cf4095b0ece6ee6" kindref="member">PrefGeneral::getReclusteringExecutable</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringExecutableLineEdit-&gt;text();}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">QString<sp/><ref refid="classPrefGeneral_1035cc882ccebdd57ca3ef9b132296a12" kindref="member">PrefGeneral::getReclusteringArguments</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reclusteringArgsLineEdit-&gt;text();}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefGeneral::updateCrashRecoveryTimeInterval(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>state){</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(state<sp/>==<sp/>QButton::On)<sp/>crashRecoveryComboBox-&gt;setEnabled(</highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(state<sp/>==<sp/>QButton::Off)<sp/>crashRecoveryComboBox-&gt;setEnabled(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PrefGeneral::updateReclusteringExecutable(){</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/>QString<sp/>executable<sp/>=<sp/>KFileDialog::getOpenFileName(QString::null,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QString::null,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>i18n(</highlight><highlight class="stringliteral">&quot;Select<sp/>the<sp/>Reclustering<sp/>executable...&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><ref refid="classPrefGeneral_19e086dee4e9144adbb96906a73f62926" kindref="member">setReclusteringExecutable</ref>(executable);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefgeneral.cpp"/>
+  </compounddef>
+</doxygen>

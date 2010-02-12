@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classWaveformThread" kind="class" prot="public">
+    <compoundname>WaveformThread</compoundname>
+    <includes refid="waveformthread_8h" local="no">waveformthread.h</includes>
+    <innerclass refid="classWaveformThread_1_1GetWaveformsEvent" prot="public">WaveformThread::GetWaveformsEvent</innerclass>
+    <innerclass refid="classWaveformThread_1_1NoWaveformDataEvent" prot="public">WaveformThread::NoWaveformDataEvent</innerclass>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classWaveformThread_1a7dd60c9c88bbbc6f0ee30c834e32b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class GetWaveformsEvent</definition>
+        <argsstring></argsstring>
+        <name>GetWaveformsEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="61" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classWaveformThread_15e3aaed01978ba3ee69d7ff8a5585974" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class NoWaveformDataEvent</definition>
+        <argsstring></argsstring>
+        <name>NoWaveformDataEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classWaveformThread_12e371d15a973137dc32b1f4e7022fa83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classWaveformThread" kindref="compound">WaveformThread</ref> *</type>
+        <definition>WaveformThread* WaveformView::getWaveforms</definition>
+        <argsstring>()</argsstring>
+        <name>WaveformView::getWaveforms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classWaveformThread_123e8ac68611cfb6a4d691c14fc0e5511" prot="private" static="no" mutable="no">
+        <type><ref refid="classWaveformView" kindref="compound">WaveformView</ref> &amp;</type>
+        <definition>WaveformView&amp; WaveformThread::waveformView</definition>
+        <argsstring></argsstring>
+        <name>waveformView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_17120ef80bcabc0b158504da82037d621" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int WaveformThread::clusterId</definition>
+        <argsstring></argsstring>
+        <name>clusterId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="120" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_1e06a69e3b98be23502530cf31a950684" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; WaveformThread::clusterIds</definition>
+        <argsstring></argsstring>
+        <name>clusterIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="121" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_144838c833b2ceff5214c4caa11d6f641" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformThread::treatSingleCluster</definition>
+        <argsstring></argsstring>
+        <name>treatSingleCluster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="122" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_1ec41cd9e9912091bc5fd08c7008ca73e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformThread::meanRequested</definition>
+        <argsstring></argsstring>
+        <name>meanRequested</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="123" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_10d81a20fdb0abcca1039edb749c385b8" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; WaveformThread::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="124" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_14c12515c63485c70fa139a3f181925fd" prot="private" static="no" mutable="no">
+        <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref></type>
+        <definition>WaveformView::PresentationMode WaveformThread::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="125" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classWaveformThread_1caf99dce52ab776d3386bc06d9fec25a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WaveformThread::haveToStopProcessing</definition>
+        <argsstring></argsstring>
+        <name>haveToStopProcessing</name>
+        <briefdescription>
+<para>True if the thread has to stop processing, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="127" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classWaveformThread_179798cec0bbebb645d83c8b77252686f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WaveformThread::~WaveformThread</definition>
+        <argsstring>()</argsstring>
+        <name>~WaveformThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_164bd1145918c25f5866a3ddc88f189d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::getWaveformInformation</definition>
+        <argsstring>(int clusterId, WaveformView::PresentationMode mode)</argsstring>
+        <name>getWaveformInformation</name>
+        <param>
+          <type>int</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.cpp" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1cc680b488c72eba3c725409340b8316e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::getWaveformInformation</definition>
+        <argsstring>(QValueList&lt; int &gt; clusterIds, WaveformView::PresentationMode mode)</argsstring>
+        <name>getWaveformInformation</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>clusterIds</declname>
+        </param>
+        <param>
+          <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.cpp" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1cd99c883f36b3482255647e5e73b8d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::getMean</definition>
+        <argsstring>(QValueList&lt; int &gt; clusterIds, WaveformView::PresentationMode mode)</argsstring>
+        <name>getMean</name>
+        <param>
+          <type>QValueList&lt; int &gt;</type>
+          <declname>clusterIds</declname>
+        </param>
+        <param>
+          <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.cpp" bodystart="361" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1cfb8a31d5cc5698ae3bebe458187df6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::getMean</definition>
+        <argsstring>(WaveformView::PresentationMode mode)</argsstring>
+        <name>getMean</name>
+        <param>
+          <type><ref refid="classWaveformView_12de039cfeb8d46fa258d6dcf960ded62" kindref="member">WaveformView::PresentationMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Gets the mean and standard deviation for the cluster or the clusters set previously. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="50" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.cpp" bodystart="355" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_16038b0759da2bb6f7509bc3c3e65369c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WaveformThread::isSingleTriggeringCluster</definition>
+        <argsstring>()</argsstring>
+        <name>isSingleTriggeringCluster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_130601dfbf075ec6c6b3affaaccf28433" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int WaveformThread::triggeringCluster</definition>
+        <argsstring>()</argsstring>
+        <name>triggeringCluster</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1e1033f8da9b06d6ed475b225f87c9b2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; WaveformThread::triggeringClusters</definition>
+        <argsstring>()</argsstring>
+        <name>triggeringClusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1db3d88a8fba1af0aa46be83bf86a724f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool WaveformThread::isMeanRequested</definition>
+        <argsstring>()</argsstring>
+        <name>isMeanRequested</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_172393adc73ad43438c11c7fc9d622775" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::stopProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>stopProcessing</name>
+        <briefdescription>
+<para>Asks the thread to stop his work as soon as possible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1029f16d7482041bc91d5b37b25673119" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classWaveformThread_1_1GetWaveformsEvent" kindref="compound">GetWaveformsEvent</ref> *</type>
+        <definition>GetWaveformsEvent* WaveformThread::getWaveformsEvent</definition>
+        <argsstring>()</argsstring>
+        <name>getWaveformsEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classWaveformThread_1ca492ddcc114041b0e3e8c644a67852c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classWaveformThread_1_1NoWaveformDataEvent" kindref="compound">NoWaveformDataEvent</ref> *</type>
+        <definition>NoWaveformDataEvent* WaveformThread::noWaveformDataEvent</definition>
+        <argsstring>()</argsstring>
+        <name>noWaveformDataEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="89" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classWaveformThread_19c6552397fe447be71bc7b81408c37a1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void WaveformThread::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="114" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.cpp" bodystart="43" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classWaveformThread_16edcf239881d71a135006d71aeb06506" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>WaveformThread::WaveformThread</definition>
+        <argsstring>(WaveformView &amp;view, Data &amp;d)</argsstring>
+        <name>WaveformThread</name>
+        <param>
+          <type><ref refid="classWaveformView" kindref="compound">WaveformView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="117" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="117" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Thread used to retrieve the waveforms and compute the means and standard deviations which will be displayed in the <ref refid="classWaveformView" kindref="compound">WaveformView</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>No heavy computation is done is this class, the thread calls the <ref refid="classData" kindref="compound">Data</ref> object which will do the work. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1381">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="1382" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1379">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="1373">
+        <label>T</label>
+      </node>
+      <node id="1364">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="1365" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1380" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="1371">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1372" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1388">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="1382">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="1365" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1368" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="1375" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="1366">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="1362">
+        <label>WaveformThread</label>
+        <link refid="classWaveformThread"/>
+        <childnode refid="1363" relation="usage">
+          <edgelabel>waveformView</edgelabel>
+        </childnode>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1385">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="1377">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="1378">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="1376">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="1380">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1364" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="1381" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="1383" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="1367">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="1368" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="1369" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="1375" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="1377" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="1378" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="1379" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="1384">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="1385" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="1386">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1383" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1365">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="1366" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="1387">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="1388" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="1389" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="1390" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="1375">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1389">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="1370">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="1371" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="1374" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="1363">
+        <label>WaveformView</label>
+        <link refid="classWaveformView"/>
+        <childnode refid="1364" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1368">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="1383">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="1384" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1386" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="1387" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="1378" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="1372">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1373" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1390">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="1374">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1369">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="1367" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" line="35" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/waveformthread.h" bodystart="35" bodyend="128"/>
+    <listofallmembers>
+      <member refid="classWaveformThread_17120ef80bcabc0b158504da82037d621" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>clusterId</name></member>
+      <member refid="classWaveformThread_1e06a69e3b98be23502530cf31a950684" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>clusterIds</name></member>
+      <member refid="classWaveformThread_10d81a20fdb0abcca1039edb749c385b8" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>data</name></member>
+      <member refid="classWaveformThread_1cd99c883f36b3482255647e5e73b8d61" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>getMean</name></member>
+      <member refid="classWaveformThread_1cfb8a31d5cc5698ae3bebe458187df6b" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>getMean</name></member>
+      <member refid="classWaveformThread_164bd1145918c25f5866a3ddc88f189d6" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>getWaveformInformation</name></member>
+      <member refid="classWaveformThread_1cc680b488c72eba3c725409340b8316e" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>getWaveformInformation</name></member>
+      <member refid="classWaveformThread_1a7dd60c9c88bbbc6f0ee30c834e32b52" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>GetWaveformsEvent</name></member>
+      <member refid="classWaveformThread_1029f16d7482041bc91d5b37b25673119" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>getWaveformsEvent</name></member>
+      <member refid="classWaveformThread_1caf99dce52ab776d3386bc06d9fec25a" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>haveToStopProcessing</name></member>
+      <member refid="classWaveformThread_1db3d88a8fba1af0aa46be83bf86a724f" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>isMeanRequested</name></member>
+      <member refid="classWaveformThread_16038b0759da2bb6f7509bc3c3e65369c" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>isSingleTriggeringCluster</name></member>
+      <member refid="classWaveformThread_1ec41cd9e9912091bc5fd08c7008ca73e" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>meanRequested</name></member>
+      <member refid="classWaveformThread_14c12515c63485c70fa139a3f181925fd" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>mode</name></member>
+      <member refid="classWaveformThread_15e3aaed01978ba3ee69d7ff8a5585974" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>NoWaveformDataEvent</name></member>
+      <member refid="classWaveformThread_1ca492ddcc114041b0e3e8c644a67852c" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>noWaveformDataEvent</name></member>
+      <member refid="classWaveformThread_19c6552397fe447be71bc7b81408c37a1" prot="protected" virt="non-virtual"><scope>WaveformThread</scope><name>run</name></member>
+      <member refid="classWaveformThread_172393adc73ad43438c11c7fc9d622775" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>stopProcessing</name></member>
+      <member refid="classWaveformThread_144838c833b2ceff5214c4caa11d6f641" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>treatSingleCluster</name></member>
+      <member refid="classWaveformThread_130601dfbf075ec6c6b3affaaccf28433" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>triggeringCluster</name></member>
+      <member refid="classWaveformThread_1e1033f8da9b06d6ed475b225f87c9b2c" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>triggeringClusters</name></member>
+      <member refid="classWaveformThread_16edcf239881d71a135006d71aeb06506" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>WaveformThread</name></member>
+      <member refid="classWaveformThread_123e8ac68611cfb6a4d691c14fc0e5511" prot="private" virt="non-virtual"><scope>WaveformThread</scope><name>waveformView</name></member>
+      <member refid="classWaveformThread_12e371d15a973137dc32b1f4e7022fa83" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>WaveformView::getWaveforms</name></member>
+      <member refid="classWaveformThread_179798cec0bbebb645d83c8b77252686f" prot="public" virt="non-virtual"><scope>WaveformThread</scope><name>~WaveformThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

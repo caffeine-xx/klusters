@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classSortableTable" kind="class" prot="public">
+    <compoundname>SortableTable</compoundname>
+    <basecompoundref refid="classArray" prot="public" virt="non-virtual">Array&lt; T &gt;</basecompoundref>
+    <includes refid="sortabletable_8h" local="no">sortabletable.h</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classSortableTable_1a7d044ebda4654911775ef9c2acc794a" prot="private" static="yes" mutable="no">
+        <type>const dataType</type>
+        <definition>const dataType SortableTable::kSMALL_ENOUGH</definition>
+        <argsstring></argsstring>
+        <name>kSMALL_ENOUGH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classSortableTable_1a6441e224a19364911f533067175c782" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SortableTable::SortableTable</definition>
+        <argsstring>()</argsstring>
+        <name>SortableTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_19055f5a006a5bea0a36a5a5bec5ce214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>SortableTable::~SortableTable</definition>
+        <argsstring>()</argsstring>
+        <name>~SortableTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="33" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_18d7a1f98f90aa527436728d18314dd34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::setSize</definition>
+        <argsstring>(dataType nbOfColumns, bool twoRows=true)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type>dataType</type>
+          <declname>nbOfColumns</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>twoRows</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>Sets the dimensions of the table, by default it will be a two row table. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbOfColumns</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>numbero f column for the table. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>twoRows</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if the table has to be a two row table, false if it has to be a one row table, the default is true. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_15cd21d363af6217044506050ae4fb631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SortableTable::SortableTable</definition>
+        <argsstring>(const SortableTable &amp;currentSortableTable)</argsstring>
+        <name>SortableTable</name>
+        <param>
+          <type>const <ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>currentSortableTable</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::sort</definition>
+        <argsstring>(dataType rowToSort)</argsstring>
+        <name>sort</name>
+        <param>
+          <type>dataType</type>
+          <declname>rowToSort</declname>
+        </param>
+        <briefdescription>
+<para>Sorts the two row table using <computeroutput>rowToSort</computeroutput> as the row to sort (row numbering start at 1). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_1b5290c54d264027a2325fd52271af5f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::sort</definition>
+        <argsstring>()</argsstring>
+        <name>sort</name>
+        <briefdescription>
+<para>Sorts the one row table. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_19e0b1abed52e808d7f645a4506efff34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::subset</definition>
+        <argsstring>(SortableTable &amp;subsetTable, dataType row, dataType startColumn, dataType endColumn)</argsstring>
+        <name>subset</name>
+        <param>
+          <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>subsetTable</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>startColumn</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>endColumn</declname>
+        </param>
+        <briefdescription>
+<para>Returns a subset of the table, the data from one row (<computeroutput>row</computeroutput>) contained between <computeroutput>startColumn</computeroutput> and <computeroutput>endColumn</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The data are store in a one row table. If <computeroutput>row</computeroutput> equals 2 but the table is a one row table, nothing is done. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>subsetTable</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>an empty table where the data will be store. The size of this table will become (1,<computeroutput>startColumn</computeroutput> - <computeroutput>endColumn</computeroutput>). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>row</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the row to get the data from. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startColumn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first column from where to get the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endColumn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>last column from where to get the data. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="71" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="33" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classSortableTable_13b28ff382efb414251bcf9a4cf9e0679" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::setSize</definition>
+        <argsstring>(dataType nbOfRows, dataType nbOfColumns)</argsstring>
+        <name>setSize</name>
+        <reimplements refid="classArray_109210c530a317d5c6d6f8006d2df55e6">setSize</reimplements>
+        <param>
+          <type>dataType</type>
+          <declname>nbOfRows</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbOfColumns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="75" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_14d6898b7588faf7d6a47de2a96f5fb33" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::SelectionSort</definition>
+        <argsstring>(dataType rowToSort, dataType secondRow, dataType left, dataType right)</argsstring>
+        <name>SelectionSort</name>
+        <param>
+          <type>dataType</type>
+          <declname>rowToSort</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>secondRow</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="41" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_15c269573fc40c7cfe772c61cce066f0c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType SortableTable::Partition</definition>
+        <argsstring>(dataType rowToSort, dataType secondRow, dataType left, dataType right)</argsstring>
+        <name>Partition</name>
+        <param>
+          <type>dataType</type>
+          <declname>rowToSort</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>secondRow</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="85" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="55" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_1e659b5701959c1baae95127e106edd8d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::Quicksort</definition>
+        <argsstring>(dataType rowToSort, dataType secondRow, dataType left, dataType right)</argsstring>
+        <name>Quicksort</name>
+        <param>
+          <type>dataType</type>
+          <declname>rowToSort</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>secondRow</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="86" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="81" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_10bd2c43d9d1d75fd38418a98f7fbc9a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::SelectionSort</definition>
+        <argsstring>(dataType left, dataType right)</argsstring>
+        <name>SelectionSort</name>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="92" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_1fa515cdc97024f82cbc3627c3d00c826" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType SortableTable::Partition</definition>
+        <argsstring>(dataType left, dataType right)</argsstring>
+        <name>Partition</name>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="89" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="103" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classSortableTable_19c873a718210329cc9f0e3013610f4b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SortableTable::Quicksort</definition>
+        <argsstring>(dataType left, dataType right)</argsstring>
+        <name>Quicksort</name>
+        <param>
+          <type>dataType</type>
+          <declname>left</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>right</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.cpp" bodystart="126" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is a one or two line <ref refid="classArray" kindref="compound">Array</ref> of dataType with a sort feature on one of the lines. </para>    </briefdescription>
+    <detaileddescription>
+<para>The sort is an implementation of the quick sort algorithm. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="1294">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1298">
+        <label>T</label>
+      </node>
+      <node id="1296">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1297" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1297">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1298" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" line="29" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/sortabletable.h" bodystart="29" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classArray_1e2cc2a9a3218834ff71f023903e9fdbc" prot="protected" virt="non-virtual"><scope>SortableTable</scope><name>array</name></member>
+      <member refid="classArray_1858c11d8580f0dbd55ae3ce7b2373c7f" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>Array</name></member>
+      <member refid="classArray_10a7e67e48d2bf8ebb26f743cfc3b50fc" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>Array</name></member>
+      <member refid="classArray_132ea3e37fa1d0559201c40a4e006c0d9" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>copyAndPrependColumn</name></member>
+      <member refid="classArray_119bcb349c3fccf22dfdbdf5076cb9a78" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>copySubset</name></member>
+      <member refid="classArray_12c6b0b43b54141d99bf184a7bab00bb3" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>copySubset</name></member>
+      <member refid="classArray_15720d22bba044d2ad5d83ada79243b54" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>fillWithZeros</name></member>
+      <member refid="classSortableTable_1a7d044ebda4654911775ef9c2acc794a" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>kSMALL_ENOUGH</name></member>
+      <member refid="classArray_10327789f5c397680a6ae8c72913465ee" prot="protected" virt="non-virtual"><scope>SortableTable</scope><name>nbColumns</name></member>
+      <member refid="classArray_1bf8d9f719e657139795c7804422c70fc" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>nbOfColumns</name></member>
+      <member refid="classArray_1d55af2bb256e18c4554faea8d8abce42" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>nbOfRows</name></member>
+      <member refid="classArray_11d10cb71d33f6278f2ebad5b063f521a" prot="protected" virt="non-virtual"><scope>SortableTable</scope><name>nbRows</name></member>
+      <member refid="classArray_10f2072faaac6dd6d5dfe27b80bb71b12" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>operator()</name></member>
+      <member refid="classArray_110bb4f5caa5b050f58fb4867eb45eb06" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>operator()</name></member>
+      <member refid="classArray_189229b69e79a04295a9b24e208ee46fd" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>operator=</name></member>
+      <member refid="classArray_1e5e7f655a73a01c40f36b62d27e33f7a" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>operator[]</name></member>
+      <member refid="classSortableTable_15c269573fc40c7cfe772c61cce066f0c" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>Partition</name></member>
+      <member refid="classSortableTable_1fa515cdc97024f82cbc3627c3d00c826" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>Partition</name></member>
+      <member refid="classSortableTable_1e659b5701959c1baae95127e106edd8d" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>Quicksort</name></member>
+      <member refid="classSortableTable_19c873a718210329cc9f0e3013610f4b1" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>Quicksort</name></member>
+      <member refid="classSortableTable_14d6898b7588faf7d6a47de2a96f5fb33" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>SelectionSort</name></member>
+      <member refid="classSortableTable_10bd2c43d9d1d75fd38418a98f7fbc9a0" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>SelectionSort</name></member>
+      <member refid="classSortableTable_18d7a1f98f90aa527436728d18314dd34" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>setSize</name></member>
+      <member refid="classSortableTable_13b28ff382efb414251bcf9a4cf9e0679" prot="private" virt="non-virtual"><scope>SortableTable</scope><name>setSize</name></member>
+      <member refid="classSortableTable_176a0af93508e5afdb13a14fd8cc690f4" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>sort</name></member>
+      <member refid="classSortableTable_1b5290c54d264027a2325fd52271af5f2" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>sort</name></member>
+      <member refid="classSortableTable_1a6441e224a19364911f533067175c782" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>SortableTable</name></member>
+      <member refid="classSortableTable_15cd21d363af6217044506050ae4fb631" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>SortableTable</name></member>
+      <member refid="classSortableTable_19e0b1abed52e808d7f645a4506efff34" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>subset</name></member>
+      <member refid="classArray_132ccb701314abd4cc8775f188bfa6892" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>~Array</name></member>
+      <member refid="classSortableTable_19055f5a006a5bea0a36a5a5bec5ce214" prot="public" virt="non-virtual"><scope>SortableTable</scope><name>~SortableTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classGroupingAssistant" kind="class" prot="public">
+    <compoundname>GroupingAssistant</compoundname>
+    <includes refid="groupingassistant_8h" local="no">groupingassistant.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGroupingAssistant_1cc97d1e4e10e475840d0fa0b6ec3fa83" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt;</type>
+        <definition>Array&lt;double&gt; GroupingAssistant::covariances</definition>
+        <argsstring></argsstring>
+        <name>covariances</name>
+        <briefdescription>
+<para><ref refid="classArray" kindref="compound">Array</ref> containing the covariances of the clusters computed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="64" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_1b509f8b13328422185406c0a6bf1e391" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt;</type>
+        <definition>Array&lt;double&gt; GroupingAssistant::means</definition>
+        <argsstring></argsstring>
+        <name>means</name>
+        <briefdescription>
+<para><ref refid="classArray" kindref="compound">Array</ref> containing the means of the clusters computed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_1e84c858be50897bf43b094de3b6872e4" prot="private" static="no" mutable="no">
+        <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> *</type>
+        <definition>SortableTable* GroupingAssistant::spikesByCluster</definition>
+        <argsstring></argsstring>
+        <name>spikesByCluster</name>
+        <briefdescription>
+<para>Copy of the <para>Data::spikesByCluster</para> , a two line array which contains sorted by cluster numbers: the row index of the spike in features array. </para>        </briefdescription>
+        <detaileddescription>
+<para>the id of the cluster. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_14362842376674f430c4f553f3b669f21" prot="private" static="no" mutable="no">
+        <type>Data::ClusterInfoMap *</type>
+        <definition>Data::ClusterInfoMap* GroupingAssistant::clusterInfoMap</definition>
+        <argsstring></argsstring>
+        <name>clusterInfoMap</name>
+        <briefdescription>
+<para>Copy of the <para>Data::clusterInfoMap</para> , contains ClusterInfo(s) key: cluster number value: a ClusterInfo (which gives: the index of the first spike in spikesByCluster and the number of spikes for a given cluster). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="81" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_1b549313d20ae74d1236f9e7ab5301e12" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GroupingAssistant::existCluster1</definition>
+        <argsstring></argsstring>
+        <name>existCluster1</name>
+        <briefdescription>
+<para>True if the cluster 1 is among the clusters to compute, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_1867027e64317f570c547fcaa078eaa43" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int GroupingAssistant::initIndex</definition>
+        <argsstring></argsstring>
+        <name>initIndex</name>
+        <briefdescription>
+<para>Index of the first cluster while looping on all the clusters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGroupingAssistant_1957cc4a053afca44769a17b11b9b1b52" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GroupingAssistant::haveToStopComputing</definition>
+        <argsstring></argsstring>
+        <name>haveToStopComputing</name>
+        <briefdescription>
+<para>True if has been asked to stop the computation, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGroupingAssistant_1b2ed225f06f08050ed6086fe84d8fd06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupingAssistant::GroupingAssistant</definition>
+        <argsstring>()</argsstring>
+        <name>GroupingAssistant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="32" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classGroupingAssistant_14ab69acf91bcb659327ec1d545e25a6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GroupingAssistant::~GroupingAssistant</definition>
+        <argsstring>()</argsstring>
+        <name>~GroupingAssistant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="34" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classGroupingAssistant_1995b06011b4c35aa90f52c81039f78be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; *</type>
+        <definition>Array&lt; double &gt; * GroupingAssistant::computeMeanProbabilities</definition>
+        <argsstring>(Data &amp;clusteringData, QValueList&lt; int &gt; &amp;clusterList, QValueList&lt; int &gt; &amp;computedClusterList, QValueList&lt; int &gt; &amp;ignoreClusterIndex)</argsstring>
+        <name>computeMeanProbabilities</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>clusteringData</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clusterList</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>computedClusterList</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>ignoreClusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Evaluates the fit of the CEM algorithm by computing the probability of missclassification. </para>        </briefdescription>
+        <detaileddescription>
+<para>Computes the mean probabilities that spike of cluster c1 actually belongs to c2. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusteringData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object containing all the document data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output paramater to return the list of clusters computed sorted like in the return array. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computedClusterList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output paramater to return the list of actually computed clusters sorted like in the return array. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ignoreClusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of the indexes of the clusters which where not computed, either because they do not have enough spikes or their determinant could not be calculated (their covariance matrix is not positive definite.) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nbSpikes x nbClusters array giving the posterior probabilities of belonging to each cluster of Fet2, for each point of Fet1. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="37" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GroupingAssistant::stopComputing</definition>
+        <argsstring>()</argsstring>
+        <name>stopComputing</name>
+        <briefdescription>
+<para>Asks the <ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref> to stop his work as soon as possible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="60" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="60" bodyend="60"/>
+        <referencedby refid="classErrorMatrixThread_15a0dc607bc355fd64ad76b0f62d46e98" compoundref="errormatrixthread_8h" startline="51" endline="54">ErrorMatrixThread::stopProcessing</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classGroupingAssistant_1f02fdcdab8846043cf3e37935e896ebf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; *</type>
+        <definition>Array&lt; double &gt; * GroupingAssistant::computeProbabilities</definition>
+        <argsstring>(Data &amp;clusteringData, QValueList&lt; int &gt; &amp;clusterList, QValueList&lt; int &gt; &amp;computedClusterList, QValueList&lt; int &gt; &amp;ignoreClusterIndex)</argsstring>
+        <name>computeProbabilities</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>clusteringData</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>clusterList</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>computedClusterList</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>ignoreClusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Computes an array giving the posterior probabilities of belonging to each cluster, for each spike. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>clusteringData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object containing all the document data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output paramater to return the list of clusters computed sorted like in the return array. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>computedClusterList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>output paramater to return the list of actually computed clusters sorted like in the return array. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ignoreClusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of the indexes of the clusters which where not computed, either because they do not have enough spikes or their determinant could not be calculated (their covariance matrix is not positive definite.) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nbSpikes x nbClusters array giving the posterior probabilities of belonging to each cluster of Fet2, for each point of Fet1. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="106" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="97" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classGroupingAssistant_143ed047fd26f613652ffdd22acb89b53" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GroupingAssistant::cholesky</definition>
+        <argsstring>(Array&lt; double &gt; &amp;out, int nbDimensions, int clusterIndex)</argsstring>
+        <name>cholesky</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbDimensions</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Computes a Cholesky Decomposition. </para>        </briefdescription>
+        <detaileddescription>
+<para>The part of the covariances array for the cluster <computeroutput>clusterIndex</computeroutput>, provides the upper triangle of input matrix (in(clusterIndex,i*dimension + j) &gt;0 if j&gt;=i) which is the top half of a symmetric matrix. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>out</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>provides lower triange of output matrix (out(i,j) &gt;0 if j&lt;=i) such that out&apos; * out = in. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbDimensions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of dimensions. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>index of the current cluster. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>0 if OK, 1 if matrix is not positive definite. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="282" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="classGroupingAssistant_10e2a90ad29024f3cc29db08a8a78a496" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GroupingAssistant::meanCovarianceComputation</definition>
+        <argsstring>(int nbClusters, int nbDimensions, dataType nbSpikes, Data &amp;clusteringData, QValueList&lt; int &gt; &amp;ignoreClusterIndex)</argsstring>
+        <name>meanCovarianceComputation</name>
+        <param>
+          <type>int</type>
+          <declname>nbClusters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nbDimensions</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbSpikes</declname>
+        </param>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>clusteringData</declname>
+        </param>
+        <param>
+          <type>QValueList&lt; int &gt; &amp;</type>
+          <declname>ignoreClusterIndex</declname>
+        </param>
+        <briefdescription>
+<para>Computes the means and the covariances. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nbClusters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of clusters. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbDimensions</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>number of dimensions. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nbSpikes</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>total number of spikes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>clusteringData</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>object containing all the document data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ignoreClusterIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>list of the indexes of the clusters which where not computed, either because they do not have enough spikes or their determinant could not be calculated (their covariance matrix is not positive definite.) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="129" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.cpp" bodystart="304" bodyend="375"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Evaluates the fit of the CEM algorithm by computing the probability of missclassification. </para>    </briefdescription>
+    <detaileddescription>
+<para>All the features are use, all PCs except the time. Classifies points in the features as belonging to a mixture of Gaussians which are specified by the example data features and list of clusters. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+<simplesect kind="since"><para>klusters 1.1 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="1062">
+        <label>T</label>
+      </node>
+      <node id="1063">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="1064" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>Array&lt; double &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1061" relation="template-instance">
+          <edgelabel>&lt; double &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1061">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1062" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1062" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>GroupingAssistant</label>
+        <link refid="classGroupingAssistant"/>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>means
+covariances</edgelabel>
+        </childnode>
+        <childnode refid="1063" relation="usage">
+          <edgelabel>spikesByCluster</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h" bodystart="37" bodyend="131"/>
+    <listofallmembers>
+      <member refid="classGroupingAssistant_143ed047fd26f613652ffdd22acb89b53" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>cholesky</name></member>
+      <member refid="classGroupingAssistant_14362842376674f430c4f553f3b669f21" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>clusterInfoMap</name></member>
+      <member refid="classGroupingAssistant_1995b06011b4c35aa90f52c81039f78be" prot="public" virt="non-virtual"><scope>GroupingAssistant</scope><name>computeMeanProbabilities</name></member>
+      <member refid="classGroupingAssistant_1f02fdcdab8846043cf3e37935e896ebf" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>computeProbabilities</name></member>
+      <member refid="classGroupingAssistant_1cc97d1e4e10e475840d0fa0b6ec3fa83" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>covariances</name></member>
+      <member refid="classGroupingAssistant_1b549313d20ae74d1236f9e7ab5301e12" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>existCluster1</name></member>
+      <member refid="classGroupingAssistant_1b2ed225f06f08050ed6086fe84d8fd06" prot="public" virt="non-virtual"><scope>GroupingAssistant</scope><name>GroupingAssistant</name></member>
+      <member refid="classGroupingAssistant_1957cc4a053afca44769a17b11b9b1b52" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>haveToStopComputing</name></member>
+      <member refid="classGroupingAssistant_1867027e64317f570c547fcaa078eaa43" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>initIndex</name></member>
+      <member refid="classGroupingAssistant_10e2a90ad29024f3cc29db08a8a78a496" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>meanCovarianceComputation</name></member>
+      <member refid="classGroupingAssistant_1b509f8b13328422185406c0a6bf1e391" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>means</name></member>
+      <member refid="classGroupingAssistant_1e84c858be50897bf43b094de3b6872e4" prot="private" virt="non-virtual"><scope>GroupingAssistant</scope><name>spikesByCluster</name></member>
+      <member refid="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" prot="public" virt="non-virtual"><scope>GroupingAssistant</scope><name>stopComputing</name></member>
+      <member refid="classGroupingAssistant_14ab69acf91bcb659327ec1d545e25a6b" prot="public" virt="non-virtual"><scope>GroupingAssistant</scope><name>~GroupingAssistant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="structTraceView_1_1EventData" kind="struct" prot="private">
+    <compoundname>TraceView::EventData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structTraceView_1_1EventData_18bdc034a239c80d0faed7631cfcaf0f2" prot="public" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt;</type>
+        <definition>Array&lt;dataType&gt; TraceView::EventData::times</definition>
+        <argsstring></argsstring>
+        <name>times</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="925" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structTraceView_1_1EventData_1833d0f9297597fe58bdad88e205eb832" prot="public" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt;</type>
+        <definition>Array&lt;int&gt; TraceView::EventData::ids</definition>
+        <argsstring></argsstring>
+        <name>ids</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="926" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structTraceView_1_1EventData_15fb80823deedebf7308e75a16972b539" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TraceView::EventData::ready</definition>
+        <argsstring></argsstring>
+        <name>ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="927" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="927" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structTraceView_1_1EventData_150291f2eee1a653921c2b203c9a04b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::EventData::EventData</definition>
+        <argsstring>(Array&lt; int &gt; d, Array&lt; dataType &gt; t, bool status)</argsstring>
+        <name>EventData</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="929" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="929" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_193048ee1daad6d5691c5edff9934a979" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::EventData::EventData</definition>
+        <argsstring>()</argsstring>
+        <name>EventData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="934" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="934" bodyend="936"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_1e3c22180c111373ab03161f59675dd24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceView::EventData::setStatus</definition>
+        <argsstring>(bool status)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="937" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="937" bodyend="937"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_1b091051b6d3c3b747dfa522939ace4a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceView::EventData::setData</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;t, Array&lt; int &gt; &amp;d)</argsstring>
+        <name>setData</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="938" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="938" bodyend="941"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_1bf67bc5e1ddbe75a1f062e65f196a5ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TraceView::EventData::status</definition>
+        <argsstring>()</argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="942" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="942" bodyend="942"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_1fb3512f2e58aefe8a2c31ca34ed0ac1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; int &gt; &amp;</type>
+        <definition>Array&lt;int&gt;&amp; TraceView::EventData::getIds</definition>
+        <argsstring>()</argsstring>
+        <name>getIds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="943" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="943" bodyend="943"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_1c475501f97db5a91d1e5f90c9597ebc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+        <definition>Array&lt;dataType&gt;&amp; TraceView::EventData::getTimes</definition>
+        <argsstring>()</argsstring>
+        <name>getTimes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="944" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="944" bodyend="944"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1EventData_11cdb82f802d36d9200936acd113ae24b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::EventData::~EventData</definition>
+        <argsstring>()</argsstring>
+        <name>~EventData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="946" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="946" bodyend="946"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing event data, actual data and status. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1315">
+        <label>Array&lt; int &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1316" relation="template-instance">
+          <edgelabel>&lt; int &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="1317">
+        <label>T</label>
+      </node>
+      <node id="1314">
+        <label>TraceView::EventData</label>
+        <childnode refid="1315" relation="usage">
+          <edgelabel>ids</edgelabel>
+        </childnode>
+      </node>
+      <node id="1316">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="1317" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="924" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="924" bodyend="947"/>
+    <listofallmembers>
+      <member refid="structTraceView_1_1EventData_150291f2eee1a653921c2b203c9a04b90" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>EventData</name></member>
+      <member refid="structTraceView_1_1EventData_193048ee1daad6d5691c5edff9934a979" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>EventData</name></member>
+      <member refid="structTraceView_1_1EventData_1fb3512f2e58aefe8a2c31ca34ed0ac1a" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>getIds</name></member>
+      <member refid="structTraceView_1_1EventData_1c475501f97db5a91d1e5f90c9597ebc6" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>getTimes</name></member>
+      <member refid="structTraceView_1_1EventData_1833d0f9297597fe58bdad88e205eb832" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>ids</name></member>
+      <member refid="structTraceView_1_1EventData_15fb80823deedebf7308e75a16972b539" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>ready</name></member>
+      <member refid="structTraceView_1_1EventData_1b091051b6d3c3b747dfa522939ace4a4" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>setData</name></member>
+      <member refid="structTraceView_1_1EventData_1e3c22180c111373ab03161f59675dd24" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>setStatus</name></member>
+      <member refid="structTraceView_1_1EventData_1bf67bc5e1ddbe75a1f062e65f196a5ff" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>status</name></member>
+      <member refid="structTraceView_1_1EventData_18bdc034a239c80d0faed7631cfcaf0f2" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>times</name></member>
+      <member refid="structTraceView_1_1EventData_11cdb82f802d36d9200936acd113ae24b" prot="public" virt="non-virtual"><scope>TraceView::EventData</scope><name>~EventData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

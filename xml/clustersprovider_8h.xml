@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="clustersprovider_8h" kind="file">
+    <compoundname>clustersprovider.h</compoundname>
+    <includes refid="dataprovider_8h" local="no">dataprovider.h</includes>
+    <includes refid="array_8h" local="no">array.h</includes>
+    <includes refid="types_8h" local="no">types.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes local="no">qptrlist.h</includes>
+    <includes local="no">qobject.h</includes>
+    <includedby refid="klustersdoc_8h" local="yes">klustersdoc.h</includedby>
+    <includedby refid="clustersprovider_8cpp" local="yes">clustersprovider.cpp</includedby>
+    <includedby refid="clustersprovider_8moc_8cpp" local="yes">clustersprovider.moc.cpp</includedby>
+    <includedby refid="traceview_8cpp" local="yes">traceview.cpp</includedby>
+    <incdepgraph>
+      <node id="393">
+        <label>qregion.h</label>
+      </node>
+      <node id="395">
+        <label>qfile.h</label>
+      </node>
+      <node id="386">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="378" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+      <node id="391">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="387">
+        <label>qstring.h</label>
+      </node>
+      <node id="388">
+        <label>stdlib.h</label>
+      </node>
+      <node id="378">
+        <label>qobject.h</label>
+      </node>
+      <node id="379">
+        <label>kurl.h</label>
+      </node>
+      <node id="398">
+        <label>stdexcept</label>
+      </node>
+      <node id="380">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="381" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="385">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="389">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="376">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider.h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="378" relation="include">
+        </childnode>
+      </node>
+      <node id="400">
+        <label>vector</label>
+      </node>
+      <node id="399">
+        <label>math.h</label>
+      </node>
+      <node id="382">
+        <label>iostream</label>
+      </node>
+      <node id="397">
+        <label>qthread.h</label>
+      </node>
+      <node id="392">
+        <label>qdict.h</label>
+      </node>
+      <node id="394">
+        <label>qmap.h</label>
+      </node>
+      <node id="396">
+        <label>qmutex.h</label>
+      </node>
+      <node id="381">
+        <label>cstring</label>
+      </node>
+      <node id="384">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="380" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="379" relation="include">
+        </childnode>
+        <childnode refid="382" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="402">
+        <label>klustersdoc.h</label>
+        <link refid="klustersdoc_8h-source"/>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>savethread.h</label>
+        <link refid="savethread_8h-source"/>
+      </node>
+      <node id="403">
+        <label>autosavethread.h</label>
+        <link refid="autosavethread_8h-source"/>
+      </node>
+      <node id="401">
+        <label>clustersprovider.h</label>
+        <link refid="clustersprovider.h"/>
+        <childnode refid="402" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classClustersProvider" prot="public">ClustersProvider</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>clustersprovider.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Wed<sp/>Apr<sp/>14<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan.myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CLUSTERSPROVIDER_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CLUSTERSPROVIDER_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;dataprovider.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;types.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qptrlist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classClustersProvider" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classClustersProvider" kindref="compound">ClustersProvider</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classDataProvider" kindref="compound">DataProvider</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1750cf0d5b282870d2615e0ba0d2b5952" kindref="member">loadReturnMessage</ref><sp/>{OK=0,OPEN_ERROR=1,MISSING_FILE=3,COUNT_ERROR=4,INCORRECT_CONTENT=5};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><ref refid="classClustersProvider_1110deddefb7bd4722c77cf36f31b4b46" kindref="member">ClustersProvider</ref>(KURL<sp/>fileUrl,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samplingRate,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>currentSamplingRate,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData,dataType<sp/>dataFileMaxTime);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classClustersProvider" kindref="compound">ClustersProvider</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_173f86b1dda818e9a02e1a5faa2dea1b8" kindref="member">requestData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1b2702a683bb72d1c7541309a871518cd" kindref="member">requestNextClusterData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c93de2c06321ea2736c7eef5fb504542" kindref="member">requestPreviousClusterData</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeFrame,QValueList&lt;int&gt;<sp/>selectedIds,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="87" refid="classClustersProvider_14f19166ec886d0b357314f602a05ea02" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_14f19166ec886d0b357314f602a05ea02" kindref="member">setClusterIdList</ref>(QValueList&lt;int&gt;*<sp/>list){clusterIds<sp/>=<sp/>list;};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="93" refid="classClustersProvider_135fcb33fcdbc1593169e5d3f432ae1e6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QString<sp/><ref refid="classClustersProvider_135fcb33fcdbc1593169e5d3f432ae1e6" kindref="member">getName</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>name;}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c9f1bda729996243a19f0b1c28df5c25" kindref="member">dataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>data,QObject*<sp/>initiator,QString<sp/>providerName);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1db0635699e54ca968a4f158c16df2d51" kindref="member">nextClusterDataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>data,QObject*<sp/>initiator,QString<sp/>providerName,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClustersProvider_1c99e4ca824d9f5b6dafc396f0c20507b" kindref="member">previousClusterDataReady</ref>(<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;<sp/>data,QObject*<sp/>initiator,QString<sp/>providerName,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startingTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>QString<sp/>name;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>samplingRate;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>QValueList&lt;int&gt;*<sp/>clusterIds;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>dataType<sp/>fileMaxTime;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>clusterPosition;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbOfDimensions;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>previousStartTime;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>dataType<sp/>dataFileMaxTime;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>retrieveData(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>endTime,QObject*<sp/>initiator,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTimeInRecordingUnits);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clustersprovider.h"/>
+  </compounddef>
+</doxygen>

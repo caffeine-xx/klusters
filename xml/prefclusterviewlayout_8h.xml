@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="prefclusterviewlayout_8h" kind="file">
+    <compoundname>prefclusterviewlayout.h</compoundname>
+    <includes local="no">qvariant.h</includes>
+    <includes local="no">qwidget.h</includes>
+    <includedby refid="prefclusterview_8h" local="no">prefclusterview.h</includedby>
+    <includedby refid="prefclusterviewlayout_8cpp" local="yes">prefclusterviewlayout.cpp</includedby>
+    <includedby refid="prefclusterviewlayout_8moc" local="yes">prefclusterviewlayout.moc</includedby>
+    <incdepgraph>
+      <node id="2023">
+        <label>prefclusterviewlayout.h</label>
+        <link refid="prefclusterviewlayout.h"/>
+        <childnode refid="2024" relation="include">
+        </childnode>
+        <childnode refid="2025" relation="include">
+        </childnode>
+      </node>
+      <node id="2024">
+        <label>qvariant.h</label>
+      </node>
+      <node id="2025">
+        <label>qwidget.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2026">
+        <label>prefclusterviewlayout.h</label>
+        <link refid="prefclusterviewlayout.h"/>
+        <childnode refid="2027" relation="include">
+        </childnode>
+      </node>
+      <node id="2027">
+        <label>prefclusterview.h</label>
+        <link refid="prefclusterview_8h-source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPrefClusterViewLayout" prot="public">PrefClusterViewLayout</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>Form<sp/>interface<sp/>generated<sp/>from<sp/>reading<sp/>ui<sp/>file<sp/>&apos;./prefclusterviewlayout.ui&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>sam<sp/>sep<sp/>1<sp/>20:00:24<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>User<sp/>Interface<sp/>Compiler<sp/>($Id:<sp/>qt/main.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Aug<sp/>31<sp/>2005<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PREFCLUSTERVIEWLAYOUT_H</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>PREFCLUSTERVIEWLAYOUT_H</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvariant.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QVBoxLayout;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QHBoxLayout;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QGridLayout;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QSpacerItem;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QGroupBox;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QLabel;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QSpinBox;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">PrefClusterViewLayout<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QWidget</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>PrefClusterViewLayout(<sp/>QWidget*<sp/>parent<sp/>=<sp/>0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name<sp/>=<sp/>0,<sp/>WFlags<sp/>fl<sp/>=<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>~PrefClusterViewLayout();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QGroupBox*<sp/>groupBox3;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QLabel*<sp/>textLabel6;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpinBox*<sp/>intervalSpinBox;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout*<sp/>PrefClusterViewLayoutLayout;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer21;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QGridLayout*<sp/>layout57;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer18;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>QHBoxLayout*<sp/>layout55;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QSpacerItem*<sp/>spacer19;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>languageChange();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>PREFCLUSTERVIEWLAYOUT_H</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h"/>
+  </compounddef>
+</doxygen>

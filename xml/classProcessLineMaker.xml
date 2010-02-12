@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classProcessLineMaker" kind="class" prot="public">
+    <compoundname>ProcessLineMaker</compoundname>
+    <includes refid="processlinemaker_8h" local="no">processlinemaker.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classProcessLineMaker_16112430e4d87ab701a53b5297d432db7" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ProcessLineMaker::stdoutbuf</definition>
+        <argsstring></argsstring>
+        <name>stdoutbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="87" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_1acfa313cda7f2e4c1238a4f94a085ea3" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ProcessLineMaker::stderrbuf</definition>
+        <argsstring></argsstring>
+        <name>stderrbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_1de29061d5b0057a125b245dbd848d194" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ProcessLineMaker::lineOut</definition>
+        <argsstring></argsstring>
+        <name>lineOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="89" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_13691d7661d60aada55d723842272c20f" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString ProcessLineMaker::lineErr</definition>
+        <argsstring></argsstring>
+        <name>lineErr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="90" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_1a6635e6baffa5a1999a36fea7c940b8a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProcessLineMaker::counterOut</definition>
+        <argsstring></argsstring>
+        <name>counterOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="91" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_177e3cb91a82ccd1a6a8dc0ecf003b134" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ProcessLineMaker::counterErr</definition>
+        <argsstring></argsstring>
+        <name>counterErr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_115f0f7cfca7a00939f42fedb34df3874" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProcessLineMaker::isProcessKilled</definition>
+        <argsstring></argsstring>
+        <name>isProcessKilled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="93" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_18a163f2b2ea7a187b070a83b26472bcb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProcessLineMaker::isWidgetHidden</definition>
+        <argsstring></argsstring>
+        <name>isWidgetHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="94" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classProcessLineMaker_1571ec07cef240ab69dc4ad9759762593" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ProcessLineMaker::processExited</definition>
+        <argsstring></argsstring>
+        <name>processExited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="95" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classProcessLineMaker_1cd4b1841f5dfd6ce502f59b8b3fae441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessLineMaker::ProcessLineMaker</definition>
+        <argsstring>()</argsstring>
+        <name>ProcessLineMaker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.cpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessLineMaker_1512ff11b2856017a5d978c8e430e48fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ProcessLineMaker::ProcessLineMaker</definition>
+        <argsstring>(const KProcess *)</argsstring>
+        <name>ProcessLineMaker</name>
+        <param>
+          <type>const KProcess *</type>
+          <defname>proc</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.cpp" bodystart="21" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessLineMaker_18ca1dc8789f0e3e3c992d3dc8ec2c594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::processKilled</definition>
+        <argsstring>()</argsstring>
+        <name>processKilled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="53" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classProcessLineMaker_12925c8bf4b8b5e9d5e385b66485563e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="54" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="54" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="classProcessLineMaker_183063048a65d83fca9d4419333bac15b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotReceivedStdout</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>slotReceivedStdout</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.cpp" bodystart="31" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessLineMaker_1da71536a376d4eb997e6a47cb1c35b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotReceivedStderr</definition>
+        <argsstring>(const QString &amp;s)</argsstring>
+        <name>slotReceivedStderr</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="64" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.cpp" bodystart="61" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessLineMaker_19c8857f8902ff441fd756cb8ccc10c21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotWidgetHidden</definition>
+        <argsstring>()</argsstring>
+        <name>slotWidgetHidden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="65" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessLineMaker_12e13d2df3d683b6849117b14debfba36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotProcessExited</definition>
+        <argsstring>()</argsstring>
+        <name>slotProcessExited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="67" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classProcessLineMaker_10d49498d2e773fbbcf326a2b5137368a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotReceivedStdout</definition>
+        <argsstring>(KProcess *process, char *buffer, int buflen)</argsstring>
+        <name>slotReceivedStdout</name>
+        <param>
+          <type>KProcess *</type>
+          <declname>process</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="74" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="classProcessLineMaker_197146e0a70b8d4f2c410ffbf7e3fd330" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::slotReceivedStderr</definition>
+        <argsstring>(KProcess *process, char *buffer, int buflen)</argsstring>
+        <name>slotReceivedStderr</name>
+        <param>
+          <type>KProcess *</type>
+          <declname>process</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buflen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="77" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="77" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="classProcessLineMaker_16b147d4c3bbb025fcbe00386af6a0d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::receivedStdoutLine</definition>
+        <argsstring>(const QString &amp;line)</argsstring>
+        <name>receivedStdoutLine</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="82" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.moc.cpp" bodystart="120" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="signal" id="classProcessLineMaker_1855f0d89f85a7c884a07e65377fddede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::receivedStderrLine</definition>
+        <argsstring>(const QString &amp;line)</argsstring>
+        <name>receivedStderrLine</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="83" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.moc.cpp" bodystart="126" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="signal" id="classProcessLineMaker_17606767131eabf97a2c863424bdf6d80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ProcessLineMaker::outputTreatmentOver</definition>
+        <argsstring>()</argsstring>
+        <name>outputTreatmentOver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.moc.cpp" bodystart="132" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class receives the outputs of external processes launched by <ref refid="classProcessWidget" kindref="compound">ProcessWidget</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>It converts them in QString and forwards them to <ref refid="classProcessWidget" kindref="compound">ProcessWidget</ref> to be displayed. <simplesect kind="author"><para>John Firebaugh, Lynn Hazan </para></simplesect>
+<simplesect kind="since"><para>klusters 1.2 </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/processlinemaker.h" bodystart="46" bodyend="96"/>
+    <listofallmembers>
+      <member refid="classProcessLineMaker_177e3cb91a82ccd1a6a8dc0ecf003b134" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>counterErr</name></member>
+      <member refid="classProcessLineMaker_1a6635e6baffa5a1999a36fea7c940b8a" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>counterOut</name></member>
+      <member refid="classProcessLineMaker_115f0f7cfca7a00939f42fedb34df3874" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>isProcessKilled</name></member>
+      <member refid="classProcessLineMaker_18a163f2b2ea7a187b070a83b26472bcb" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>isWidgetHidden</name></member>
+      <member refid="classProcessLineMaker_13691d7661d60aada55d723842272c20f" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>lineErr</name></member>
+      <member refid="classProcessLineMaker_1de29061d5b0057a125b245dbd848d194" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>lineOut</name></member>
+      <member refid="classProcessLineMaker_17606767131eabf97a2c863424bdf6d80" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>outputTreatmentOver</name></member>
+      <member refid="classProcessLineMaker_1571ec07cef240ab69dc4ad9759762593" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>processExited</name></member>
+      <member refid="classProcessLineMaker_18ca1dc8789f0e3e3c992d3dc8ec2c594" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>processKilled</name></member>
+      <member refid="classProcessLineMaker_1cd4b1841f5dfd6ce502f59b8b3fae441" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>ProcessLineMaker</name></member>
+      <member refid="classProcessLineMaker_1512ff11b2856017a5d978c8e430e48fc" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>ProcessLineMaker</name></member>
+      <member refid="classProcessLineMaker_1855f0d89f85a7c884a07e65377fddede" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>receivedStderrLine</name></member>
+      <member refid="classProcessLineMaker_16b147d4c3bbb025fcbe00386af6a0d01" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>receivedStdoutLine</name></member>
+      <member refid="classProcessLineMaker_12925c8bf4b8b5e9d5e385b66485563e4" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>reset</name></member>
+      <member refid="classProcessLineMaker_12e13d2df3d683b6849117b14debfba36" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotProcessExited</name></member>
+      <member refid="classProcessLineMaker_1da71536a376d4eb997e6a47cb1c35b0c" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotReceivedStderr</name></member>
+      <member refid="classProcessLineMaker_197146e0a70b8d4f2c410ffbf7e3fd330" prot="protected" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotReceivedStderr</name></member>
+      <member refid="classProcessLineMaker_183063048a65d83fca9d4419333bac15b" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotReceivedStdout</name></member>
+      <member refid="classProcessLineMaker_10d49498d2e773fbbcf326a2b5137368a" prot="protected" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotReceivedStdout</name></member>
+      <member refid="classProcessLineMaker_19c8857f8902ff441fd756cb8ccc10c21" prot="public" virt="non-virtual"><scope>ProcessLineMaker</scope><name>slotWidgetHidden</name></member>
+      <member refid="classProcessLineMaker_1acfa313cda7f2e4c1238a4f94a085ea3" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>stderrbuf</name></member>
+      <member refid="classProcessLineMaker_16112430e4d87ab701a53b5297d432db7" prot="private" virt="non-virtual"><scope>ProcessLineMaker</scope><name>stdoutbuf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

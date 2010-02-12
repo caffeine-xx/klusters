@@ -1,0 +1,5 @@
+base referer
+rect $classDataProvider.html 5,56 115,83
+rect $classClustersProvider.html 164,6 295,32
+rect $classEventsProvider.html 168,56 291,83
+rect $classTracesProvider.html 169,107 289,134

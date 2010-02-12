@@ -1,0 +1,580 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classErrorMatrixThread" kind="class" prot="public">
+    <compoundname>ErrorMatrixThread</compoundname>
+    <includes refid="errormatrixthread_8h" local="no">errormatrixthread.h</includes>
+    <innerclass refid="classErrorMatrixThread_1_1ErrorMatrixEvent" prot="public">ErrorMatrixThread::ErrorMatrixEvent</innerclass>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classErrorMatrixThread_106549a6592efce18fca24e42e54146be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ErrorMatrixEvent</definition>
+        <argsstring></argsstring>
+        <name>ErrorMatrixEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="57" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="friend" id="classErrorMatrixThread_1b9c19911c5f1df60a892c8bf8e790119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classErrorMatrixThread" kindref="compound">ErrorMatrixThread</ref> *</type>
+        <definition>ErrorMatrixThread* ErrorMatrixView::computeMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>ErrorMatrixView::computeMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="42"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classErrorMatrixThread_1d50916ecf02157216a56efd9fb619692" prot="private" static="no" mutable="no">
+        <type><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref> &amp;</type>
+        <definition>ErrorMatrixView&amp; ErrorMatrixThread::errorMatrixView</definition>
+        <argsstring></argsstring>
+        <name>errorMatrixView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_193c1053a28eb2cab90554ae500f1c1e2" prot="private" static="no" mutable="no">
+        <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+        <definition>Data&amp; ErrorMatrixThread::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="93" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_1454d5a850fae90086502a5c44f62cffc" prot="private" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; *</type>
+        <definition>Array&lt;double&gt;* ErrorMatrixThread::probabilities</definition>
+        <argsstring></argsstring>
+        <name>probabilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="94" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_16a573947fe47614fe5f0cac69cf1c9af" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::clusterList</definition>
+        <argsstring></argsstring>
+        <name>clusterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="95" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_1363c26ab3c51e3a4377b3366c0f5f9ed" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::computedClusterList</definition>
+        <argsstring></argsstring>
+        <name>computedClusterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="96" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_1eba9178d0991a978d8a5f4a817b2ef22" prot="private" static="no" mutable="no">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::ignoreClusterIndex</definition>
+        <argsstring></argsstring>
+        <name>ignoreClusterIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="97" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_192f886fb326839b184fa557ec3b69391" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ErrorMatrixThread::haveToStopProcessing</definition>
+        <argsstring></argsstring>
+        <name>haveToStopProcessing</name>
+        <briefdescription>
+<para>True if the thread has to stop processing, false otherwise. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="99" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classErrorMatrixThread_14bd6dc359ec446ac7cfd37557a00c2d0" prot="private" static="no" mutable="no">
+        <type><ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref></type>
+        <definition>GroupingAssistant ErrorMatrixThread::assistant</definition>
+        <argsstring></argsstring>
+        <name>assistant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="100" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classErrorMatrixThread_1eab8c3e7cc50a6bd1470dfa7e6dae971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixThread::~ErrorMatrixThread</definition>
+        <argsstring>()</argsstring>
+        <name>~ErrorMatrixThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="44" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_13b7618bab79ada20d430688fbd0f6009" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; double &gt; *</type>
+        <definition>Array&lt;double&gt;* ErrorMatrixThread::getProbabilities</definition>
+        <argsstring>()</argsstring>
+        <name>getProbabilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_126129dc8616bde1d36f8a013211d6015" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::getClusterList</definition>
+        <argsstring>()</argsstring>
+        <name>getClusterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="46" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_1308ff2068b632eaeb6ce4359f9d21e2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::getComputedClusterList</definition>
+        <argsstring>()</argsstring>
+        <name>getComputedClusterList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="47" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_1eb8ab08fab225e145b197ebd06ba78df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QValueList&lt; int &gt;</type>
+        <definition>QValueList&lt;int&gt; ErrorMatrixThread::getIgnoreClusterIndex</definition>
+        <argsstring>()</argsstring>
+        <name>getIgnoreClusterIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_15a0dc607bc355fd64ad76b0f62d46e98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixThread::stopProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>stopProcessing</name>
+        <briefdescription>
+<para>Asks the thread to stop his work as soon as possible. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="51" bodyend="54"/>
+        <references refid="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" compoundref="groupingassistant_8h" startline="60" endline="60">GroupingAssistant::stopComputing</references>
+      </memberdef>
+      <memberdef kind="function" id="classErrorMatrixThread_1cd36cf8de427af54c29fff22f62ad122" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classErrorMatrixThread_1_1ErrorMatrixEvent" kindref="compound">ErrorMatrixEvent</ref> *</type>
+        <definition>ErrorMatrixEvent* ErrorMatrixThread::getErrorMatrixEvent</definition>
+        <argsstring>()</argsstring>
+        <name>getErrorMatrixEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="59" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="59" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classErrorMatrixThread_1326b1fb6fc3b4fd19e16b28ab699eb26" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ErrorMatrixThread::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="84" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.cpp" bodystart="23" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classErrorMatrixThread_1129bee0a793393c6db760bf056d4a68f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ErrorMatrixThread::ErrorMatrixThread</definition>
+        <argsstring>(ErrorMatrixView &amp;view, Data &amp;d)</argsstring>
+        <name>ErrorMatrixThread</name>
+        <param>
+          <type><ref refid="classErrorMatrixView" kindref="compound">ErrorMatrixView</ref> &amp;</type>
+          <declname>view</declname>
+        </param>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="88" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="88" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Thread used to compute the Error Matrix. </para>    </briefdescription>
+    <detaileddescription>
+<para>Each element in the matrix indicates how likely it is that the two clusters corresponding to the row and column of the element contain spikes from the same neuron. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+<simplesect kind="since"><para>klusters 1.1 </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="968">
+        <label>TraceWidget</label>
+        <link refid="classTraceWidget"/>
+        <childnode refid="969" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="966">
+        <label>ItemColors</label>
+        <link refid="classItemColors"/>
+      </node>
+      <node id="949">
+        <label>T</label>
+      </node>
+      <node id="956">
+        <label>ViewWidget</label>
+        <link refid="classViewWidget"/>
+        <childnode refid="957" relation="public-inheritance">
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="967" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+      </node>
+      <node id="951">
+        <label>SortableTable</label>
+        <link refid="classSortableTable"/>
+        <childnode refid="952" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="975">
+        <label>PrefClusterView</label>
+        <link refid="classPrefClusterView"/>
+      </node>
+      <node id="969">
+        <label>TraceView</label>
+        <link refid="classTraceView"/>
+        <childnode refid="957" relation="public-inheritance">
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>channelColors</edgelabel>
+        </childnode>
+        <childnode refid="962" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>ZoomWindow</label>
+        <link refid="classZoomWindow"/>
+      </node>
+      <node id="972">
+        <label>ProcessLineMaker</label>
+        <link refid="classProcessLineMaker"/>
+      </node>
+      <node id="947">
+        <label>Array&lt; double &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="948" relation="template-instance">
+          <edgelabel>&lt; double &gt;</edgelabel>
+        </childnode>
+      </node>
+      <node id="964">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="963" relation="public-inheritance">
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+      </node>
+      <node id="965">
+        <label>ClusterPalette</label>
+        <link refid="classClusterPalette"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="963">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="967">
+        <label>KlustersView</label>
+        <link refid="classKlustersView"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="956" relation="usage">
+          <edgelabel>currentViewWidget</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>traceWidget</edgelabel>
+        </childnode>
+        <childnode refid="970" relation="usage">
+          <edgelabel>mainWindow</edgelabel>
+        </childnode>
+      </node>
+      <node id="959">
+        <label>KlustersDoc</label>
+        <link refid="classKlustersDoc"/>
+        <childnode refid="960" relation="usage">
+          <edgelabel>channelColorList</edgelabel>
+        </childnode>
+        <childnode refid="961" relation="usage">
+          <edgelabel>autoSaveThread</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>clusteringData</edgelabel>
+        </childnode>
+        <childnode refid="962" relation="usage">
+          <edgelabel>tracesProvider</edgelabel>
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>clustersProvider</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+        <childnode refid="966" relation="usage">
+          <edgelabel>clusterColorList</edgelabel>
+        </childnode>
+      </node>
+      <node id="971">
+        <label>ProcessWidget</label>
+        <link refid="classProcessWidget"/>
+        <childnode refid="972" relation="usage">
+          <edgelabel>procLineMaker</edgelabel>
+        </childnode>
+      </node>
+      <node id="973">
+        <label>SaveThread</label>
+        <link refid="classSaveThread"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="970" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="957">
+        <label>BaseFrame</label>
+        <link refid="classBaseFrame"/>
+        <childnode refid="958" relation="usage">
+          <edgelabel>window</edgelabel>
+        </childnode>
+      </node>
+      <node id="948">
+        <label>Array&lt; T &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="949" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="974">
+        <label>PrefDialog</label>
+        <link refid="classPrefDialog"/>
+        <childnode refid="975" relation="usage">
+          <edgelabel>prefclusterView</edgelabel>
+        </childnode>
+        <childnode refid="976" relation="usage">
+          <edgelabel>prefWaveformView</edgelabel>
+        </childnode>
+        <childnode refid="977" relation="usage">
+          <edgelabel>prefGeneral</edgelabel>
+        </childnode>
+      </node>
+      <node id="962">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="963" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="976">
+        <label>PrefWaveformView</label>
+        <link refid="classPrefWaveformView"/>
+      </node>
+      <node id="953">
+        <label>Data</label>
+        <link refid="classData"/>
+        <childnode refid="951" relation="usage">
+          <edgelabel>reclusteringSpikesByCluster
+spikesByCluster</edgelabel>
+        </childnode>
+        <childnode refid="954" relation="usage">
+          <edgelabel>minMaxThread</edgelabel>
+        </childnode>
+      </node>
+      <node id="960">
+        <label>ChannelColors</label>
+        <link refid="classChannelColors"/>
+      </node>
+      <node id="970">
+        <label>KlustersApp</label>
+        <link refid="classKlustersApp"/>
+        <childnode refid="971" relation="usage">
+          <edgelabel>processWidget</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="973" relation="usage">
+          <edgelabel>saveThread</edgelabel>
+        </childnode>
+        <childnode refid="974" relation="usage">
+          <edgelabel>prefDialog</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>clusterPalette</edgelabel>
+        </childnode>
+      </node>
+      <node id="952">
+        <label>Array&lt; long &gt;</label>
+        <link refid="classArray"/>
+        <childnode refid="949" relation="usage">
+          <edgelabel>array</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>ErrorMatrixView</label>
+        <link refid="classErrorMatrixView"/>
+        <childnode refid="956" relation="public-inheritance">
+        </childnode>
+        <childnode refid="947" relation="usage">
+          <edgelabel>probabilities</edgelabel>
+        </childnode>
+      </node>
+      <node id="950">
+        <label>GroupingAssistant</label>
+        <link refid="classGroupingAssistant"/>
+        <childnode refid="947" relation="usage">
+          <edgelabel>means
+covariances</edgelabel>
+        </childnode>
+        <childnode refid="951" relation="usage">
+          <edgelabel>spikesByCluster</edgelabel>
+        </childnode>
+      </node>
+      <node id="977">
+        <label>PrefGeneral</label>
+        <link refid="classPrefGeneral"/>
+      </node>
+      <node id="954">
+        <label>MinMaxThread</label>
+        <link refid="classMinMaxThread"/>
+        <childnode refid="953" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="946">
+        <label>ErrorMatrixThread</label>
+        <link refid="classErrorMatrixThread"/>
+        <childnode refid="947" relation="usage">
+          <edgelabel>probabilities</edgelabel>
+        </childnode>
+        <childnode refid="950" relation="usage">
+          <edgelabel>assistant</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+        <childnode refid="955" relation="usage">
+          <edgelabel>errorMatrixView</edgelabel>
+        </childnode>
+      </node>
+      <node id="961">
+        <label>AutoSaveThread</label>
+        <link refid="classAutoSaveThread"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="953" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/errormatrixthread.h" bodystart="37" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classErrorMatrixThread_14bd6dc359ec446ac7cfd37557a00c2d0" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>assistant</name></member>
+      <member refid="classErrorMatrixThread_16a573947fe47614fe5f0cac69cf1c9af" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>clusterList</name></member>
+      <member refid="classErrorMatrixThread_1363c26ab3c51e3a4377b3366c0f5f9ed" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>computedClusterList</name></member>
+      <member refid="classErrorMatrixThread_193c1053a28eb2cab90554ae500f1c1e2" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>data</name></member>
+      <member refid="classErrorMatrixThread_106549a6592efce18fca24e42e54146be" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>ErrorMatrixEvent</name></member>
+      <member refid="classErrorMatrixThread_1129bee0a793393c6db760bf056d4a68f" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>ErrorMatrixThread</name></member>
+      <member refid="classErrorMatrixThread_1d50916ecf02157216a56efd9fb619692" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>errorMatrixView</name></member>
+      <member refid="classErrorMatrixThread_1b9c19911c5f1df60a892c8bf8e790119" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>ErrorMatrixView::computeMatrix</name></member>
+      <member refid="classErrorMatrixThread_126129dc8616bde1d36f8a013211d6015" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>getClusterList</name></member>
+      <member refid="classErrorMatrixThread_1308ff2068b632eaeb6ce4359f9d21e2a" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>getComputedClusterList</name></member>
+      <member refid="classErrorMatrixThread_1cd36cf8de427af54c29fff22f62ad122" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>getErrorMatrixEvent</name></member>
+      <member refid="classErrorMatrixThread_1eb8ab08fab225e145b197ebd06ba78df" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>getIgnoreClusterIndex</name></member>
+      <member refid="classErrorMatrixThread_13b7618bab79ada20d430688fbd0f6009" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>getProbabilities</name></member>
+      <member refid="classErrorMatrixThread_192f886fb326839b184fa557ec3b69391" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>haveToStopProcessing</name></member>
+      <member refid="classErrorMatrixThread_1eba9178d0991a978d8a5f4a817b2ef22" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>ignoreClusterIndex</name></member>
+      <member refid="classErrorMatrixThread_1454d5a850fae90086502a5c44f62cffc" prot="private" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>probabilities</name></member>
+      <member refid="classErrorMatrixThread_1326b1fb6fc3b4fd19e16b28ab699eb26" prot="protected" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>run</name></member>
+      <member refid="classErrorMatrixThread_15a0dc607bc355fd64ad76b0f62d46e98" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>stopProcessing</name></member>
+      <member refid="classErrorMatrixThread_1eab8c3e7cc50a6bd1470dfa7e6dae971" prot="public" virt="non-virtual"><scope>ErrorMatrixThread</scope><name>~ErrorMatrixThread</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

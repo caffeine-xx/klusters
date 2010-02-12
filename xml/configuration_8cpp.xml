@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="configuration_8cpp" kind="file">
+    <compoundname>configuration.cpp</compoundname>
+    <includes local="no">kapplication.h</includes>
+    <includes local="no">kconfig.h</includes>
+    <includes local="no">klocale.h</includes>
+    <includes refid="configuration_8h" local="yes">configuration.h</includes>
+    <incdepgraph>
+      <node id="570">
+        <label>configuration.h</label>
+        <link refid="configuration_8h-source"/>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+        <childnode refid="574" relation="include">
+        </childnode>
+      </node>
+      <node id="571">
+        <label>qstring.h</label>
+      </node>
+      <node id="573">
+        <label>qcolor.h</label>
+      </node>
+      <node id="569">
+        <label>klocale.h</label>
+      </node>
+      <node id="567">
+        <label>kapplication.h</label>
+      </node>
+      <node id="568">
+        <label>kconfig.h</label>
+      </node>
+      <node id="572">
+        <label>qfont.h</label>
+      </node>
+      <node id="574">
+        <label>iostream</label>
+      </node>
+      <node id="566">
+        <label>configuration.cpp</label>
+        <link refid="configuration.cpp"/>
+        <childnode refid="567" relation="include">
+        </childnode>
+        <childnode refid="568" relation="include">
+        </childnode>
+        <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="570" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="configuration_8cpp_164389e63464ed34e4164d3ff62f25e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration&amp; configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <briefdescription>
+<para>Returns a reference to the application configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" line="85" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="configuration_8cpp_164389e63464ed34e4164d3ff62f25e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classConfiguration" kindref="compound">Configuration</ref> &amp;</type>
+        <definition>Configuration&amp; configuration</definition>
+        <argsstring>()</argsstring>
+        <name>configuration</name>
+        <briefdescription>
+<para>Returns a reference to the application configuration object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" line="85" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp" bodystart="85" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configuration.cpp<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Dec<sp/>12<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kapplication.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>&apos;kapp&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kconfig.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>KConfig</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;klocale.h&gt;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>i18n()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;configuration.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Configuration::crashRecoveryDefault<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>Configuration::crashRecoveryIndexDefault<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>Configuration::gainDefault<sp/>=<sp/>200;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>Configuration::timeIntervalDefault<sp/>=<sp/>60;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>Configuration::nbUndoDefault<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>Configuration::backgroundColorDefault<sp/>=<sp/>QColor(Qt::black);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>Configuration::reclusteringExecutableDefault<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;KlustaKwik&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>Configuration::reclusteringArgsDefault<sp/>=</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;%fileBaseName<sp/>%electrodeGroupID<sp/>-MinClusters<sp/>2<sp/>-MaxClusters<sp/>12<sp/>-UseFeatures<sp/>%features&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">Configuration::Configuration():nbChannels(0)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>read();<sp/></highlight><highlight class="comment">//<sp/>read<sp/>the<sp/>settings<sp/>or<sp/>set<sp/>them<sp/>to<sp/>the<sp/>default<sp/>values</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1995f21643ada0d57a8ae542c508e2dec" kindref="member">Configuration::read</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>KConfig*<sp/>conf<sp/>=<sp/>kapp-&gt;config();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//read<sp/>general<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;General&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecovery<sp/>=<sp/>conf-&gt;readBoolEntry(</highlight><highlight class="stringliteral">&quot;crashRecovery&quot;</highlight><highlight class="normal">,crashRecoveryDefault);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>crashRecoveryIndex<sp/>=<sp/>conf-&gt;readNumEntry(</highlight><highlight class="stringliteral">&quot;crashRecoveryIndex&quot;</highlight><highlight class="normal">,crashRecoveryIndexDefault);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>nbUndo<sp/>=<sp/>conf-&gt;readNumEntry(</highlight><highlight class="stringliteral">&quot;nbUndo&quot;</highlight><highlight class="normal">,nbUndoDefault);<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>backgroundColor<sp/>=<sp/>conf-&gt;readColorEntry(</highlight><highlight class="stringliteral">&quot;backgroundColor&quot;</highlight><highlight class="normal">,&amp;backgroundColorDefault);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringExecutable<sp/>=<sp/>conf-&gt;readEntry(</highlight><highlight class="stringliteral">&quot;reclusteringExecutable&quot;</highlight><highlight class="normal">,reclusteringExecutableDefault);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>reclusteringArgs<sp/>=<sp/>conf-&gt;readEntry(</highlight><highlight class="stringliteral">&quot;reclusteringArgs&quot;</highlight><highlight class="normal">,reclusteringArgsDefault);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//read<sp/>cluster<sp/>view<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;clusterView&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>timeInterval<sp/>=<sp/>conf-&gt;readNumEntry(</highlight><highlight class="stringliteral">&quot;timeInterval&quot;</highlight><highlight class="normal">,timeIntervalDefault);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//read<sp/>waveform<sp/>view<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;waveformView&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>gain<sp/>=<sp/>conf-&gt;readNumEntry(</highlight><highlight class="stringliteral">&quot;gain&quot;</highlight><highlight class="normal">,gainDefault);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classConfiguration_1a75c026a728e50c5c9608083190b7a8e" kindref="member">Configuration::write</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/><sp/></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>KConfig*<sp/>conf<sp/>=<sp/>kapp-&gt;config();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//write<sp/>general<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;General&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;crashRecovery&quot;</highlight><highlight class="normal">,crashRecovery);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;crashRecoveryIndex&quot;</highlight><highlight class="normal">,crashRecoveryIndex);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;nbUndo&quot;</highlight><highlight class="normal">,nbUndo);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;backgroundColor&quot;</highlight><highlight class="normal">,backgroundColor);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;reclusteringExecutable&quot;</highlight><highlight class="normal">,reclusteringExecutable);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;reclusteringArgs&quot;</highlight><highlight class="normal">,reclusteringArgs);<sp/></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//write<sp/>cluster<sp/>view<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;clusterView&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;timeInterval&quot;</highlight><highlight class="normal">,timeInterval);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//write<sp/>waveform<sp/>view<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;setGroup(</highlight><highlight class="stringliteral">&quot;waveformView&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>conf-&gt;writeEntry(</highlight><highlight class="stringliteral">&quot;gain&quot;</highlight><highlight class="normal">,gain);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><ref refid="classConfiguration" kindref="compound">Configuration</ref>&amp;<sp/>configuration()<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//The<sp/>C++<sp/>standard<sp/>requires<sp/>that<sp/>static<sp/>variables<sp/>in<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//have<sp/>to<sp/>be<sp/>created<sp/>upon<sp/>first<sp/>call<sp/>of<sp/>the<sp/>function.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classConfiguration" kindref="compound">Configuration</ref><sp/>conf;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>conf;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/configuration.cpp"/>
+  </compounddef>
+</doxygen>

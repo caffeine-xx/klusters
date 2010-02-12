@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="groupingassistant_8h" kind="file">
+    <compoundname>groupingassistant.h</compoundname>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includes refid="array_8h" local="yes">array.h</includes>
+    <includes refid="types_8h" local="yes">types.h</includes>
+    <includedby refid="errormatrixthread_8h" local="yes">errormatrixthread.h</includedby>
+    <includedby refid="errormatrixview_8cpp" local="yes">errormatrixview.cpp</includedby>
+    <includedby refid="groupingassistant_8cpp" local="yes">groupingassistant.cpp</includedby>
+    <incdepgraph>
+      <node id="1221">
+        <label>qregion.h</label>
+      </node>
+      <node id="1223">
+        <label>qfile.h</label>
+      </node>
+      <node id="1214">
+        <label>pair.h</label>
+        <link refid="pair_8h-source"/>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="1215">
+        <label>qstring.h</label>
+      </node>
+      <node id="1216">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1226">
+        <label>kurl.h</label>
+      </node>
+      <node id="1227">
+        <label>stdexcept</label>
+      </node>
+      <node id="1209">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="1210" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="1207">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant.h"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>sortabletable.h</label>
+        <link refid="sortabletable_8h-source"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>clusteruserinformation.h</label>
+        <link refid="clusteruserinformation_8h-source"/>
+      </node>
+      <node id="1229">
+        <label>vector</label>
+      </node>
+      <node id="1228">
+        <label>math.h</label>
+      </node>
+      <node id="1211">
+        <label>iostream</label>
+      </node>
+      <node id="1225">
+        <label>qthread.h</label>
+      </node>
+      <node id="1220">
+        <label>qdict.h</label>
+      </node>
+      <node id="1222">
+        <label>qmap.h</label>
+      </node>
+      <node id="1224">
+        <label>qmutex.h</label>
+      </node>
+      <node id="1210">
+        <label>cstring</label>
+      </node>
+      <node id="1208">
+        <label>data.h</label>
+        <link refid="data_8h-source"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1227" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
+        </childnode>
+        <childnode refid="1229" relation="include">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1230">
+        <label>groupingassistant.h</label>
+        <link refid="groupingassistant.h"/>
+        <childnode refid="1231" relation="include">
+        </childnode>
+      </node>
+      <node id="1231">
+        <label>errormatrixthread.h</label>
+        <link refid="errormatrixthread_8h-source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classGroupingAssistant" prot="public">GroupingAssistant</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>groupingassistant.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Mon<sp/>Dec<sp/>22<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan@myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GROUPINGASSISTANT_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>GROUPINGASSISTANT_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;data.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;array.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classGroupingAssistant" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classGroupingAssistant" kindref="compound">GroupingAssistant</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>*<sp/><ref refid="classGroupingAssistant_1995b06011b4c35aa90f52c81039f78be" kindref="member">computeMeanProbabilities</ref>(<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData,QValueList&lt;int&gt;&amp;<sp/>clusterList,QValueList&lt;int&gt;&amp;<sp/>computedClusterList,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;&amp;<sp/>ignoreClusterIndex);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classGroupingAssistant_1b7f001302469b9e2dda79e9dc460263f" kindref="member">stopComputing</ref>(){haveToStopComputing<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref><sp/>covariances;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref><sp/>means;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><ref refid="classSortableTable" kindref="compound">SortableTable</ref>*<sp/>spikesByCluster;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>Data::ClusterInfoMap*<sp/>clusterInfoMap;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>existCluster1;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>initIndex;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>haveToStopComputing;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>*<sp/>computeProbabilities(<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData,QValueList&lt;int&gt;&amp;<sp/>clusterList,QValueList&lt;int&gt;&amp;<sp/>computedClusterList,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;&amp;<sp/>ignoreClusterIndex);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cholesky(<ref refid="classArray" kindref="compound">Array&lt;double&gt;</ref>&amp;<sp/>out,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbDimensions,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterIndex);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>meanCovarianceComputation(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbClusters,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbDimensions,dataType<sp/>nbSpikes,<ref refid="classData" kindref="compound">Data</ref>&amp;<sp/>clusteringData,QValueList&lt;int&gt;&amp;<sp/>ignoreClusterIndex);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/groupingassistant.h"/>
+  </compounddef>
+</doxygen>

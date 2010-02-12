@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPair" kind="class" prot="public">
+    <compoundname>Pair</compoundname>
+    <includes refid="pair_8h" local="no">pair.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPair_178a4a1c2db4c08e96fac539262a34e4a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pair::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="68" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Pair::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPair_14fb07d03544cf10b760bf13488ba6aac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pair::Pair</definition>
+        <argsstring>()</argsstring>
+        <name>Pair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_15b84498997bf1cb50f789d68ac111502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pair::Pair</definition>
+        <argsstring>(int x, int y)</argsstring>
+        <name>Pair</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1c44502ea261a3bd0e8013e86fb7469fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pair::getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_12f4041994f035147c8ba71fd92612eb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Pair::getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_15e32eee29b0357660842630f2522cc89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pair::setX</definition>
+        <argsstring>(int x)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1b560bca37464691a602475cbad11094b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Pair::setY</definition>
+        <argsstring>(int y)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="43" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1cca3d16d65572c8bde1042948f98bd0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Pair::toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1a5f6e1ce72f3ddd942880c8c781db555" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pair::operator==</definition>
+        <argsstring>(const Pair &amp;p)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classPair" kindref="compound">Pair</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="49" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_119d20729c2ed72d4d1787aaf70fef2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pair::operator&lt;</definition>
+        <argsstring>(const Pair &amp;p)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const <ref refid="classPair" kindref="compound">Pair</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="52" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1277c1622d5e8fc430d000051e2a87f48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pair::operator&lt;=</definition>
+        <argsstring>(const Pair &amp;p)</argsstring>
+        <name>operator&lt;=</name>
+        <param>
+          <type>const <ref refid="classPair" kindref="compound">Pair</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1352d9a7d8980959f332ccc6b125b45e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pair::operator&gt;</definition>
+        <argsstring>(const Pair &amp;p)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const <ref refid="classPair" kindref="compound">Pair</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_116c045f703e5444587254df00d6dc667" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Pair::operator&gt;=</definition>
+        <argsstring>(const Pair &amp;p)</argsstring>
+        <name>operator&gt;=</name>
+        <param>
+          <type>const <ref refid="classPair" kindref="compound">Pair</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="61" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classPair_1d2f530bffb1add2147da7dd6cfc3f54d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Pair::~Pair</definition>
+        <argsstring>()</argsstring>
+        <name>~Pair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="65" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="65" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class used to represent the clusters corresponding to a given correlogram. </para>    </briefdescription>
+    <detaileddescription>
+<para>This class is used in <ref refid="classCorrelationView" kindref="compound">CorrelationView</ref> and <ref refid="classCorrelationThread" kindref="compound">CorrelationThread</ref>. <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/pair.h" line="36" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/pair.h" bodystart="36" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classPair_1c44502ea261a3bd0e8013e86fb7469fe" prot="public" virt="non-virtual"><scope>Pair</scope><name>getX</name></member>
+      <member refid="classPair_12f4041994f035147c8ba71fd92612eb9" prot="public" virt="non-virtual"><scope>Pair</scope><name>getY</name></member>
+      <member refid="classPair_119d20729c2ed72d4d1787aaf70fef2c7" prot="public" virt="non-virtual"><scope>Pair</scope><name>operator&lt;</name></member>
+      <member refid="classPair_1277c1622d5e8fc430d000051e2a87f48" prot="public" virt="non-virtual"><scope>Pair</scope><name>operator&lt;=</name></member>
+      <member refid="classPair_1a5f6e1ce72f3ddd942880c8c781db555" prot="public" virt="non-virtual"><scope>Pair</scope><name>operator==</name></member>
+      <member refid="classPair_1352d9a7d8980959f332ccc6b125b45e4" prot="public" virt="non-virtual"><scope>Pair</scope><name>operator&gt;</name></member>
+      <member refid="classPair_116c045f703e5444587254df00d6dc667" prot="public" virt="non-virtual"><scope>Pair</scope><name>operator&gt;=</name></member>
+      <member refid="classPair_14fb07d03544cf10b760bf13488ba6aac" prot="public" virt="non-virtual"><scope>Pair</scope><name>Pair</name></member>
+      <member refid="classPair_15b84498997bf1cb50f789d68ac111502" prot="public" virt="non-virtual"><scope>Pair</scope><name>Pair</name></member>
+      <member refid="classPair_15e32eee29b0357660842630f2522cc89" prot="public" virt="non-virtual"><scope>Pair</scope><name>setX</name></member>
+      <member refid="classPair_1b560bca37464691a602475cbad11094b" prot="public" virt="non-virtual"><scope>Pair</scope><name>setY</name></member>
+      <member refid="classPair_1cca3d16d65572c8bde1042948f98bd0c" prot="public" virt="non-virtual"><scope>Pair</scope><name>toString</name></member>
+      <member refid="classPair_178a4a1c2db4c08e96fac539262a34e4a" prot="private" virt="non-virtual"><scope>Pair</scope><name>x</name></member>
+      <member refid="classPair_1c769dc346c8e2523ac1e4b4dbc47c4dc" prot="private" virt="non-virtual"><scope>Pair</scope><name>y</name></member>
+      <member refid="classPair_1d2f530bffb1add2147da7dd6cfc3f54d" prot="public" virt="non-virtual"><scope>Pair</scope><name>~Pair</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

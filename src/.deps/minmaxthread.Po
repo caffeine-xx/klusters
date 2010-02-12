@@ -1,0 +1,3 @@
+minmaxthread.o minmaxthread.o: minmaxthread.cpp minmaxthread.h
+
+minmaxthread.h:

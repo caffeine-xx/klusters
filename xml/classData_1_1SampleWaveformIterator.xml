@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1SampleWaveformIterator" kind="class" prot="public">
+    <compoundname>Data::SampleWaveformIterator</compoundname>
+    <basecompoundref refid="classData_1_1WaveformIterator" prot="public" virt="non-virtual">Data::WaveformIterator</basecompoundref>
+    <includes refid="data_8h" local="no">data.h</includes>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classData_1_1SampleWaveformIterator_143790ef5cc2a0be69f1df77ae3f21024" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classData_1_1SampleWaveformIterator" kindref="compound">SampleWaveformIterator</ref> *</type>
+        <definition>SampleWaveformIterator* Data::sampleWaveformIterator</definition>
+        <argsstring>(dataType clusterId, dataType nbSampleSpikes)</argsstring>
+        <name>Data::sampleWaveformIterator</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbSampleSpikes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1226"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_1837c44ef5d684bc304f054919d0be840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::SampleWaveformIterator::~SampleWaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~SampleWaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1229" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1229" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_137f62aef85c05adae40edcd2f8059ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::SampleWaveformIterator::nextSpike</definition>
+        <argsstring>()</argsstring>
+        <name>nextSpike</name>
+        <reimplements refid="classData_1_1WaveformIterator_1ab21dddf3ac8580e23dc97a4210a10a4">nextSpike</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1230" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1230" bodyend="1233"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_11a2487c41e5082dda5c3a0d274fb0bdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::SampleWaveformIterator::nextMeanValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextMeanValue</name>
+        <reimplements refid="classData_1_1WaveformIterator_10268ea19c4407afab87b0bb834ddacb6">nextMeanValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1234" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1234" bodyend="1237"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_146a6452a4e19a39ec4163bf5ac0cf019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::SampleWaveformIterator::nextStDeviationValue</definition>
+        <argsstring>()</argsstring>
+        <name>nextStDeviationValue</name>
+        <reimplements refid="classData_1_1WaveformIterator_14c777259903b3c999c4af9c83357955a">nextStDeviationValue</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1238" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1238" bodyend="1241"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_10f15b1fd1572a151c8a9f83617058286" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>dataType</type>
+        <definition>dataType Data::SampleWaveformIterator::nbOfSpikes</definition>
+        <argsstring>() const</argsstring>
+        <name>nbOfSpikes</name>
+        <reimplements refid="classData_1_1WaveformIterator_102bf0fded8b55ec2df65870e00e5d604">nbOfSpikes</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1242" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1242" bodyend="1244"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_1fce6f1c0bc6d708bc54eb411bd61d89d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::SampleWaveformIterator::SampleWaveformIterator</definition>
+        <argsstring>()</argsstring>
+        <name>SampleWaveformIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1246" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1246" bodyend="1246"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_1de753e2139185c828170a1ec0c7d6578" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::SampleWaveformIterator::SampleWaveformIterator</definition>
+        <argsstring>(Waveforms *waveformsData)</argsstring>
+        <name>SampleWaveformIterator</name>
+        <param>
+          <type>Waveforms *</type>
+          <declname>waveformsData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1247" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1247" bodyend="1247"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1SampleWaveformIterator_148598421f4c7a3646c5afa3f132cefc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::SampleWaveformIterator::updateStatus</definition>
+        <argsstring>(dataType nbSampleSpikes)</argsstring>
+        <name>updateStatus</name>
+        <param>
+          <type>dataType</type>
+          <declname>nbSampleSpikes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1248" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1248" bodyend="1253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Returns an iterator on the latest waveform data stored by a request of a waveformTread for a given cluster. </para>    </briefdescription>
+    <detaileddescription>
+<para>The data correspond to the sample display mode (only a sample of the spikes evenly distributed on all the recording were collected). Caution: in Qt graphical coordinate system, the Y axis is inverted (increasing downwards), thus a point (x,y) as to be drawn and tested as (x,-y). The value returns by the iterator is the spike sample value taking the Qt graphical coordinate system into consideration, the ordinate coordinate is the opposite of the raw data. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="916">
+        <label>Data::SampleWaveformIterator</label>
+        <link refid="classData_1_1SampleWaveformIterator"/>
+        <childnode refid="917" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="917">
+        <label>Data::WaveformIterator</label>
+        <link refid="classData_1_1WaveformIterator"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="918">
+        <label>Data::SampleWaveformIterator</label>
+        <link refid="classData_1_1SampleWaveformIterator"/>
+        <childnode refid="919" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="919">
+        <label>Data::WaveformIterator</label>
+        <link refid="classData_1_1WaveformIterator"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="1223" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="1223" bodyend="1255"/>
+    <listofallmembers>
+      <member refid="classData_1_1WaveformIterator_102418425ef12a2a0a21a2b34ba9c486a" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>areSpikesAvailable</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_143790ef5cc2a0be69f1df77ae3f21024" prot="private" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>Data::sampleWaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_154c10b36926801e7abdb2f21f49db8b9" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>init</name></member>
+      <member refid="classData_1_1WaveformIterator_1904126344aa4080298a4d3feeb596219" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>isMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1f00a32b4f27646b83a6347e196f9fe5c" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>meanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_124a31d686416b03fa487f608e05b0691" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>meanIndex</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_10f15b1fd1572a151c8a9f83617058286" prot="public" virt="virtual"><scope>Data::SampleWaveformIterator</scope><name>nbOfSpikes</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_11a2487c41e5082dda5c3a0d274fb0bdd" prot="public" virt="virtual"><scope>Data::SampleWaveformIterator</scope><name>nextMeanValue</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_137f62aef85c05adae40edcd2f8059ead" prot="public" virt="virtual"><scope>Data::SampleWaveformIterator</scope><name>nextSpike</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_146a6452a4e19a39ec4163bf5ac0cf019" prot="public" virt="virtual"><scope>Data::SampleWaveformIterator</scope><name>nextStDeviationValue</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_1fce6f1c0bc6d708bc54eb411bd61d89d" prot="private" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>SampleWaveformIterator</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_1de753e2139185c828170a1ec0c7d6578" prot="private" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>SampleWaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_14c875a47915da6eb8438431d9eae479c" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>setMeanAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_1d7b23ef0ea3c7985d868262fc442490f" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>setSpikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_110db8580537cf1fb4c2b05ade075f627" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>spikesAvailable</name></member>
+      <member refid="classData_1_1WaveformIterator_15aad50fd3a0c27ded4589a89a4db210a" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>spikesIndex</name></member>
+      <member refid="classData_1_1WaveformIterator_12980a4acae75a09db0786d745657752c" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>stDeviationIndex</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_148598421f4c7a3646c5afa3f132cefc5" prot="private" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>updateStatus</name></member>
+      <member refid="classData_1_1WaveformIterator_14e921373a8a4e8545062087a875b68f2" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_11971e5ee36997228eecd9057a7f46d8d" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>WaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_1066a811754b4e2672fd5e3180b7464a2" prot="protected" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>waveforms</name></member>
+      <member refid="classData_1_1SampleWaveformIterator_1837c44ef5d684bc304f054919d0be840" prot="public" virt="non-virtual"><scope>Data::SampleWaveformIterator</scope><name>~SampleWaveformIterator</name></member>
+      <member refid="classData_1_1WaveformIterator_1ef46e35187430bd5365ea8242a6478ac" prot="public" virt="virtual"><scope>Data::SampleWaveformIterator</scope><name>~WaveformIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

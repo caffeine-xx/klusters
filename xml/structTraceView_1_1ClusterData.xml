@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="structTraceView_1_1ClusterData" kind="struct" prot="private">
+    <compoundname>TraceView::ClusterData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structTraceView_1_1ClusterData_10954dde7c7a8735fd45a620890ff9948" prot="public" static="no" mutable="no">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt;</type>
+        <definition>Array&lt;dataType&gt; TraceView::ClusterData::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="863" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structTraceView_1_1ClusterData_1ac96b4279ff7e4f3d900e91920c5a1b6" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool TraceView::ClusterData::ready</definition>
+        <argsstring></argsstring>
+        <name>ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="864" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="864" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_16d99295806d19ebbde4f08b687c1cd71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::ClusterData::ClusterData</definition>
+        <argsstring>(Array&lt; dataType &gt; d, bool status)</argsstring>
+        <name>ClusterData</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="866" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="866" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_120325bfc647f2bf0ed2d2d1d52a3379d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::ClusterData::ClusterData</definition>
+        <argsstring>()</argsstring>
+        <name>ClusterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="870" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="870" bodyend="872"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_1769046ac749b80f7f41119742057db34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceView::ClusterData::setStatus</definition>
+        <argsstring>(bool status)</argsstring>
+        <name>setStatus</name>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="873" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="873" bodyend="873"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_1b140e1ded5c640d802abead3754b4aad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void TraceView::ClusterData::setData</definition>
+        <argsstring>(Array&lt; dataType &gt; &amp;d)</argsstring>
+        <name>setData</name>
+        <param>
+          <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="874" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="874" bodyend="874"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_19c4b87471e579eb6e7b88c6322762c5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool TraceView::ClusterData::status</definition>
+        <argsstring>()</argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="875" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="875" bodyend="875"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_15bbdbfc7c119a803ce7b30516ac67c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classArray" kindref="compound">Array</ref>&lt; dataType &gt; &amp;</type>
+        <definition>Array&lt;dataType&gt;&amp; TraceView::ClusterData::getData</definition>
+        <argsstring>()</argsstring>
+        <name>getData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="876" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="876" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="structTraceView_1_1ClusterData_1431d3b469f048aa326a27c5442cb0ced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>TraceView::ClusterData::~ClusterData</definition>
+        <argsstring>()</argsstring>
+        <name>~ClusterData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="878" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="878" bodyend="878"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure representing cluster data, actual data and status. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" line="862" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/traceview.h" bodystart="862" bodyend="879"/>
+    <listofallmembers>
+      <member refid="structTraceView_1_1ClusterData_16d99295806d19ebbde4f08b687c1cd71" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>ClusterData</name></member>
+      <member refid="structTraceView_1_1ClusterData_120325bfc647f2bf0ed2d2d1d52a3379d" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>ClusterData</name></member>
+      <member refid="structTraceView_1_1ClusterData_10954dde7c7a8735fd45a620890ff9948" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>data</name></member>
+      <member refid="structTraceView_1_1ClusterData_15bbdbfc7c119a803ce7b30516ac67c2b" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>getData</name></member>
+      <member refid="structTraceView_1_1ClusterData_1ac96b4279ff7e4f3d900e91920c5a1b6" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>ready</name></member>
+      <member refid="structTraceView_1_1ClusterData_1b140e1ded5c640d802abead3754b4aad" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>setData</name></member>
+      <member refid="structTraceView_1_1ClusterData_1769046ac749b80f7f41119742057db34" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>setStatus</name></member>
+      <member refid="structTraceView_1_1ClusterData_19c4b87471e579eb6e7b88c6322762c5d" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>status</name></member>
+      <member refid="structTraceView_1_1ClusterData_1431d3b469f048aa326a27c5442cb0ced" prot="public" virt="non-virtual"><scope>TraceView::ClusterData</scope><name>~ClusterData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

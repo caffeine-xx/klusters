@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="tracewidget_8h" kind="file">
+    <compoundname>tracewidget.h</compoundname>
+    <includes local="no">qwidget.h</includes>
+    <includes local="no">qvbox.h</includes>
+    <includes local="no">qspinbox.h</includes>
+    <includes local="no">qvalidator.h</includes>
+    <includes local="no">qlineedit.h</includes>
+    <includes local="no">qlabel.h</includes>
+    <includes local="no">qscrollbar.h</includes>
+    <includes local="no">qhbox.h</includes>
+    <includes local="no">qpainter.h</includes>
+    <includes local="no">qstyle.h</includes>
+    <includes local="no">kstatusbar.h</includes>
+    <includes refid="traceview_8h" local="yes">traceview.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="klustersview_8cpp" local="yes">klustersview.cpp</includedby>
+    <includedby refid="tracewidget_8cpp" local="yes">tracewidget.cpp</includedby>
+    <includedby refid="tracewidget_8moc_8cpp" local="yes">tracewidget.moc.cpp</includedby>
+    <incdepgraph>
+      <node id="2683">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="2668" relation="include">
+        </childnode>
+        <childnode refid="2684" relation="include">
+        </childnode>
+        <childnode refid="2685" relation="include">
+        </childnode>
+        <childnode refid="2686" relation="include">
+        </childnode>
+        <childnode refid="2690" relation="include">
+        </childnode>
+      </node>
+      <node id="2692">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="2693" relation="include">
+        </childnode>
+        <childnode refid="2694" relation="include">
+        </childnode>
+      </node>
+      <node id="2686">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="2687" relation="include">
+        </childnode>
+        <childnode refid="2688" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2667">
+        <label>tracewidget.h</label>
+        <link refid="tracewidget.h"/>
+        <childnode refid="2668" relation="include">
+        </childnode>
+        <childnode refid="2669" relation="include">
+        </childnode>
+        <childnode refid="2670" relation="include">
+        </childnode>
+        <childnode refid="2671" relation="include">
+        </childnode>
+        <childnode refid="2672" relation="include">
+        </childnode>
+        <childnode refid="2673" relation="include">
+        </childnode>
+        <childnode refid="2674" relation="include">
+        </childnode>
+        <childnode refid="2675" relation="include">
+        </childnode>
+        <childnode refid="2676" relation="include">
+        </childnode>
+        <childnode refid="2677" relation="include">
+        </childnode>
+        <childnode refid="2678" relation="include">
+        </childnode>
+        <childnode refid="2679" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2693">
+        <label>qobject.h</label>
+      </node>
+      <node id="2679">
+        <label>traceview.h</label>
+        <link refid="traceview_8h-source"/>
+        <childnode refid="2668" relation="include">
+        </childnode>
+        <childnode refid="2680" relation="include">
+        </childnode>
+        <childnode refid="2681" relation="include">
+        </childnode>
+        <childnode refid="2682" relation="include">
+        </childnode>
+        <childnode refid="2683" relation="include">
+        </childnode>
+        <childnode refid="2691" relation="include">
+        </childnode>
+        <childnode refid="2678" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2694">
+        <label>kurl.h</label>
+      </node>
+      <node id="2687">
+        <label>qrect.h</label>
+      </node>
+      <node id="2670">
+        <label>qspinbox.h</label>
+      </node>
+      <node id="2695">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2696" relation="include">
+        </childnode>
+        <childnode refid="2690" relation="include">
+        </childnode>
+      </node>
+      <node id="2684">
+        <label>qframe.h</label>
+      </node>
+      <node id="2678">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="2674">
+        <label>qscrollbar.h</label>
+      </node>
+      <node id="2698">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2688">
+        <label>qpoint.h</label>
+      </node>
+      <node id="2691">
+        <label>tracesprovider.h</label>
+        <link refid="tracesprovider_8h-source"/>
+        <childnode refid="2692" relation="include">
+        </childnode>
+        <childnode refid="2695" relation="include">
+        </childnode>
+        <childnode refid="2697" relation="include">
+        </childnode>
+        <childnode refid="2698" relation="include">
+        </childnode>
+        <childnode refid="2693" relation="include">
+        </childnode>
+      </node>
+      <node id="2685">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2676">
+        <label>qpainter.h</label>
+      </node>
+      <node id="2673">
+        <label>qlabel.h</label>
+      </node>
+      <node id="2689">
+        <label>math.h</label>
+      </node>
+      <node id="2668">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2672">
+        <label>qlineedit.h</label>
+      </node>
+      <node id="2690">
+        <label>iostream</label>
+      </node>
+      <node id="2682">
+        <label>qpair.h</label>
+      </node>
+      <node id="2671">
+        <label>qvalidator.h</label>
+      </node>
+      <node id="2675">
+        <label>qhbox.h</label>
+      </node>
+      <node id="2681">
+        <label>qdict.h</label>
+      </node>
+      <node id="2677">
+        <label>qstyle.h</label>
+      </node>
+      <node id="2680">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2696">
+        <label>cstring</label>
+      </node>
+      <node id="2669">
+        <label>qvbox.h</label>
+      </node>
+      <node id="2697">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classTraceWidget" prot="public">TraceWidget</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tracewidget.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Wed<sp/>Mar<sp/>17<sp/>2004</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2004<sp/>by<sp/>Lynn<sp/>Hazan</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>lynn.hazan.myrealbox.com</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>TRACEWIDGET_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>TRACEWIDGET_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qwidget.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qspinbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvalidator.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlineedit.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qlabel.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qscrollbar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qhbox.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstyle.h&gt;</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//Inclused<sp/>files<sp/>for<sp/>KDE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;kstatusbar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;traceview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>c/c++<sp/>libraries</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classTracesProvider" kindref="compound">TracesProvider</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classBaseFrame" kindref="compound">BaseFrame</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classChannelColors" kindref="compound">ChannelColors</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="classTraceWidget" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classTraceWidget" kindref="compound">TraceWidget</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QVBox<sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><ref refid="classTraceWidget_1b50e20ff6e32561871e5aaba5b0fdd98" kindref="member">TraceWidget</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>greyScale,<ref refid="classTracesProvider" kindref="compound">TracesProvider</ref>&amp;<sp/>tracesProvider,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>multiColumns,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>verticalLines,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>raster,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>waveforms,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>labelsDisplay,QValueList&lt;int&gt;&amp;<sp/>channelsToDisplay,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gain,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>acquisitionGain,<ref refid="classChannelColors" kindref="compound">ChannelColors</ref>*<sp/>channelColors,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QValueList&lt;int&gt;<sp/>&gt;*<sp/>groupsChannels,QMap&lt;int,int&gt;*<sp/>channelsGroups,QValueList&lt;int&gt;&amp;<sp/>channelOffsets,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;&amp;<sp/>gains,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>skippedChannels,QWidget*<sp/>parent=0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name=0,QColor<sp/>backgroundColor<sp/>=<sp/>Qt::black,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>KStatusBar*<sp/>statusBar<sp/>=<sp/>0L,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>=<sp/>4000,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>=<sp/>-500,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight<sp/>=<sp/>1001,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classTraceWidget" kindref="compound">TraceWidget</ref>();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classTraceWidget_18f26f46916c73e28e3fa46d62a561fd2" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_18f26f46916c73e28e3fa46d62a561fd2" kindref="member">timeFrameWidth</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>timeWindow;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="classTraceWidget_15f7034d8ed97e0cdea8b0f819497bd40" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_15f7034d8ed97e0cdea8b0f819497bd40" kindref="member">timeFrameStart</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>startTime;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="109" refid="classTraceWidget_16245719838a11243d06a420839192ed5" refkind="member"><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_16245719838a11243d06a420839192ed5" kindref="member">installEventFilter</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QObject*<sp/>filterObject){</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>QObject::installEventFilter(filterObject);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>view.installEventFilter(filterObject);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/***Changes<sp/>the<sp/>color<sp/>of<sp/>the<sp/>background.*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeBackgroundColor(QColor<sp/>color);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11fa59c875f93e8eff216e098d5b368d0" kindref="member">setGreyScale</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>grey);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_137c7e2a0863ccddb96b93e49bc71e9c0" kindref="member">moveToTime</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="classTraceWidget_1c2bad42f9c0a9276580cdd7411bcfc2e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1c2bad42f9c0a9276580cdd7411bcfc2e" kindref="member">setMultiColumns</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>multiple){view.<ref refid="classTraceView_1759186f2afec53e33fe8b29a259e475b" kindref="member">setMultiColumns</ref>(multiple);};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="classTraceWidget_1ca0b36157988c62c8738de687315a039" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1ca0b36157988c62c8738de687315a039" kindref="member">setClusterVerticalLines</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>lines){view.<ref refid="classTraceView_17943208b4827f2af154416001d983bea" kindref="member">setClusterVerticalLines</ref>(lines);};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="classTraceWidget_13dfd3c15803a31bb1a88026dc7687de6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_13dfd3c15803a31bb1a88026dc7687de6" kindref="member">setClusterRaster</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>raster){view.<ref refid="classTraceView_1d6c11753beebcf5cfd1412106b9594c3" kindref="member">setClusterRaster</ref>(raster);};</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="classTraceWidget_12df1df25d13a8e6b65bc0dddc9e8a3c2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_12df1df25d13a8e6b65bc0dddc9e8a3c2" kindref="member">setClusterWaveforms</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>waveforms){view.<ref refid="classTraceView_1e4e7720b743a457d10ca9be9b97bdf92" kindref="member">setClusterWaveforms</ref>(waveforms);};</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="classTraceWidget_1ac82a0211d883937da1fdb4459096dc8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1ac82a0211d883937da1fdb4459096dc8" kindref="member">slotChannelsSelected</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>selectedIds)<sp/>{emit<sp/>channelsSelected(selectedIds);};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="classTraceWidget_1de33f68230594ffbbdb74d434a73988f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1de33f68230594ffbbdb74d434a73988f" kindref="member">setMode</ref>(<ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref><sp/>selectedMode,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_1261b891ab9784b0e893b67d0cba4c816" kindref="member">setMode</ref>(selectedMode,active);};</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="classTraceWidget_132f3223cad09a473e1b8cd467414b0e4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_132f3223cad09a473e1b8cd467414b0e4" kindref="member">showChannels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>channelsToShow){</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1acd0592f3fd9725b8460e1c9617ef549" kindref="member">showChannels</ref>(channelsToShow);<sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="classTraceWidget_13517239e13cff267e7d19467f6d0348f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_13517239e13cff267e7d19467f6d0348f" kindref="member">showClusters</ref>(QString<sp/>name,QValueList&lt;int&gt;&amp;<sp/>clustersToShow){</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_11f56cb8787db3d5a73aa9d426a6d2ecd" kindref="member">showClusters</ref>(name,clustersToShow);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="classTraceWidget_186e04d75e207507102a78562c9600f9a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_186e04d75e207507102a78562c9600f9a" kindref="member">showEvents</ref>(QString<sp/>name,QValueList&lt;int&gt;&amp;<sp/>eventsToShow){</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1b1be7029208deced848dd5a00e069238" kindref="member">showEvents</ref>(name,eventsToShow);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="classTraceWidget_1bf6b8c96f354de2bcbc75f1f569089d7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1bf6b8c96f354de2bcbc75f1f569089d7" kindref="member">channelColorUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>channelId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_17b7f551c7d27a1462fb9ab11a62b7091" kindref="member">channelColorUpdate</ref>(channelId,active);};</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="classTraceWidget_10b5d7c9897e2dd2ef38a61bcf87c1574" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="classTraceWidget_10b5d7c9897e2dd2ef38a61bcf87c1574" kindref="member">clusterColorUpdate</ref>(QString<sp/>name,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_1f5af8811703eb4d91598b7cc59de5077" kindref="member">clusterColorUpdate</ref>(name,clusterId,active);};</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="207" refid="classTraceWidget_1d44507213e582ac1330950e5b7cecfc7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><ref refid="classTraceWidget_1d44507213e582ac1330950e5b7cecfc7" kindref="member">eventColorUpdate</ref>(QString<sp/>name,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>eventId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_14b1905ab18ff46db2d8d4d1f23991843" kindref="member">eventColorUpdate</ref>(name,eventId,active);};</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="classTraceWidget_10e8f031c8eb133e7bfd13cd5846e846e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_10e8f031c8eb133e7bfd13cd5846e846e" kindref="member">groupColorUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>groupId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_1784b87fcb2a70296f02c7188e4364492" kindref="member">groupColorUpdate</ref>(groupId,active);};</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="217" refid="classTraceWidget_15c0752514a4c21db6afb09a176f5696d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_15c0752514a4c21db6afb09a176f5696d" kindref="member">increaseAllChannelsAmplitude</ref>(){view.<ref refid="classTraceView_1521f5624dc65f250b1ec00be11c61e37" kindref="member">increaseAllAmplitude</ref>();};</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="classTraceWidget_1fef9831b3df19d3e41cb24e822272213" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1fef9831b3df19d3e41cb24e822272213" kindref="member">decreaseAllChannelsAmplitude</ref>(){view.<ref refid="classTraceView_1cbd3d6444c81ec515d87c381e077d1ea" kindref="member">decreaseAllAmplitude</ref>();};</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="classTraceWidget_1ab335626fc554d93855fa11dc7bac6a8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1ab335626fc554d93855fa11dc7bac6a8" kindref="member">increaseSelectedChannelsAmplitude</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>channelIds){view.<ref refid="classTraceView_1c52681dfe798393bc5d5186bf97a05ed" kindref="member">increaseSelectedChannelsAmplitude</ref>(channelIds);};</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="classTraceWidget_1c7aef903b1d6fd2afe563504a70eaae4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1c7aef903b1d6fd2afe563504a70eaae4" kindref="member">decreaseSelectedChannelsAmplitude</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>channelIds){view.<ref refid="classTraceView_150e36ea51a5bd89c335f2e13be17b2a7" kindref="member">decreaseSelectedChannelsAmplitude</ref>(channelIds);};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="classTraceWidget_11df17e9057fbeea4f2ec1e9fb767a6e2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11df17e9057fbeea4f2ec1e9fb767a6e2" kindref="member">setGains</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gain,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>acquisitionGain){view.<ref refid="classTraceView_142febc88cac5ee6029aa303cdca2e02a" kindref="member">setGains</ref>(gain,acquisitionGain);};</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="classTraceWidget_15f24a62ba53589c1cb838baa4d1293d4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_15f24a62ba53589c1cb838baa4d1293d4" kindref="member">updateDrawing</ref>(){view.<ref refid="classTraceView_129d2a7ffadad0c851ba1046e5e5c90e5" kindref="member">updateDrawing</ref>();};</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="classTraceWidget_1c84014a559c34920a4996a926260ed49" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1c84014a559c34920a4996a926260ed49" kindref="member">updateContents</ref>(){view.update();};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248" refid="classTraceWidget_1bc6355f560e9bd1bd6f759dba6ae7b26" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1bc6355f560e9bd1bd6f759dba6ae7b26" kindref="member">groupsModified</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_14c4a3549aa763d828f299293cd103439" kindref="member">groupsModified</ref>(active);};</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="classTraceWidget_17d2850c97653176d90c5b5814285386c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_17d2850c97653176d90c5b5814285386c" kindref="member">selectChannels</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>selectedIds){view.<ref refid="classTraceView_1de78893d26bacd552e16ca361a4ae2cf" kindref="member">selectChannels</ref>(selectedIds);};</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="classTraceWidget_15aabcad62fc6e46a201971fdd3139c25" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_15aabcad62fc6e46a201971fdd3139c25" kindref="member">resetOffsets</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMap&lt;int,int&gt;&amp;<sp/>selectedChannelDefaultOffsets){view.<ref refid="classTraceView_133725c681f33249a2f3123c321ccbb80" kindref="member">resetOffsets</ref>(selectedChannelDefaultOffsets);};</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="classTraceWidget_1ffdce068158627a523ec6dbd41c829fd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1ffdce068158627a523ec6dbd41c829fd" kindref="member">resetGains</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>selectedChannels){view.<ref refid="classTraceView_1803bd6e2132568020a5ef2dba539af46" kindref="member">resetGains</ref>(selectedChannels);};</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="classTraceWidget_1cc3c94695108c1bd2e2334f94b4dbe70" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1cc3c94695108c1bd2e2334f94b4dbe70" kindref="member">drawTraces</ref>(){view.<ref refid="classTraceView_19f7957aa400f6d89f046b738b5355cfa" kindref="member">displayTimeFrame</ref>(startTime,timeWindow);};</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="classTraceWidget_1724a55f81c7f99f744ffbeaf9fe43e4f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1724a55f81c7f99f744ffbeaf9fe43e4f" kindref="member">reset</ref>(){view.<ref refid="classTraceView_1e1590eb0f76bba3290d2aadf147b3557" kindref="member">reset</ref>();};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="classTraceWidget_10e8af727e710797baae58187c5b16480" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_10e8af727e710797baae58187c5b16480" kindref="member">showLabels</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>show){view.<ref refid="classTraceView_1ef31aa94de61b33418ff3ce65519fdd1" kindref="member">showHideLabels</ref>(show);};</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1d1c39916587b8db09e500f756d5fb5d2" kindref="member">slotSetStartAndDuration</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>time,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>duration);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288" refid="classTraceWidget_1e30fb396ed2a526fec0b41338e6bbb7c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1e30fb396ed2a526fec0b41338e6bbb7c" kindref="member">showCalibration</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>show,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_15b176cb94e4edbe6de0571c925072ea2" kindref="member">showCalibration</ref>(show,active);};</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1d989b83f81235c6df2a17e6fc2978028" kindref="member">samplingRateModified</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>length);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="classTraceWidget_1917be5d92aad1b3ef7ff82ad483ad3b7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1917be5d92aad1b3ef7ff82ad483ad3b7" kindref="member">addClusterProvider</ref>(<ref refid="classClustersProvider" kindref="compound">ClustersProvider</ref>*<sp/>clustersProvider,QString<sp/>name,<ref refid="classItemColors" kindref="compound">ItemColors</ref>*<sp/>clusterColors,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;&amp;<sp/>clustersToShow,QMap&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/>QValueList&lt;int&gt;<sp/>&gt;*<sp/>displayGroupsClusterFile,</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QMap&lt;int,int&gt;*<sp/>channelsSpikeGroups,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbSamplesBefore,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbSamplesAfter,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>clustersToSkip){</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_124e676e17e88878b88e382f23fcf8d26" kindref="member">addClusterProvider</ref>(clustersProvider,name,clusterColors,active,clustersToShow,displayGroupsClusterFile,</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>channelsSpikeGroups,nbSamplesBefore,nbSamplesAfter,clustersToSkip);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="320" refid="classTraceWidget_102e4eae09c132dbdb5b28f4671be9c46" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_102e4eae09c132dbdb5b28f4671be9c46" kindref="member">removeClusterProvider</ref>(QString<sp/>name,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1c0a337309aef21c7973117204745a08b" kindref="member">removeClusterProvider</ref>(name,active);<sp/><sp/></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332" refid="classTraceWidget_12e8e19cd02495a0f3cf3c1b9360125c9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_12e8e19cd02495a0f3cf3c1b9360125c9" kindref="member">addEventProvider</ref>(<ref refid="classEventsProvider" kindref="compound">EventsProvider</ref>*<sp/>eventsProvider,QString<sp/>name,<ref refid="classItemColors" kindref="compound">ItemColors</ref>*<sp/>eventColors,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>QValueList&lt;int&gt;&amp;<sp/>eventsToShow,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>eventsToNotBrowse){</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_12a33dd682edbab311d67deda5253a8a6" kindref="member">addEventProvider</ref>(eventsProvider,name,eventColors,active,eventsToShow,eventsToNotBrowse);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="classTraceWidget_1ffa0f1edd0c8eff94837e40e7355b310" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1ffa0f1edd0c8eff94837e40e7355b310" kindref="member">removeEventProvider</ref>(QString<sp/>name,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_15b1294c7ecf948fe3f3c1c71ea9e9a3a" kindref="member">removeEventProvider</ref>(name,active);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="classTraceWidget_114120575465ad55deeeff9cbe93af5d9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_114120575465ad55deeeff9cbe93af5d9" kindref="member">print</ref>(QPainter&amp;<sp/>printPainter,QPaintDeviceMetrics&amp;<sp/>metrics,QString<sp/>filePath,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>whiteBackground){</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/>QRect<sp/>textRec<sp/>=<sp/>QRect(printPainter.viewport().left()<sp/>+<sp/>5<sp/>,printPainter.viewport().height()<sp/>-<sp/>20,printPainter.viewport().width()<sp/>-<sp/>5,20);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/>QFont<sp/>f(</highlight><highlight class="stringliteral">&quot;Helvetica&quot;</highlight><highlight class="normal">,8);</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/>printPainter.setFont(f);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/>printPainter.setPen(black);<sp/></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/>printPainter.drawText(textRec,Qt::AlignAuto<sp/>|<sp/>Qt::AlignVCenter,</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>QString(</highlight><highlight class="stringliteral">&quot;File:<sp/>%1<sp/><sp/><sp/><sp/><sp/>Start<sp/>time:<sp/>%2<sp/>min<sp/>%3<sp/>s<sp/>%4<sp/>ms,<sp/>Duration:<sp/>%5<sp/>ms&quot;</highlight><highlight class="normal">).arg(filePath).arg(startMinute-&gt;value()).arg(startSecond-&gt;value()).arg(startMilisecond-&gt;value()).arg(duration-&gt;displayText()));</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Modify<sp/>the<sp/>viewport<sp/>so<sp/>the<sp/>view<sp/>will<sp/>not<sp/>draw<sp/>on<sp/>the<sp/>legend</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/>QRect<sp/>newViewport<sp/>=<sp/>QRect(printPainter.viewport().left(),printPainter.viewport().top(),printPainter.viewport().width(),printPainter.viewport().height());</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/>newViewport.setBottom(printPainter.viewport().bottom()<sp/>-<sp/>20);<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/>printPainter.setViewport(newViewport);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_17214244826f6a7c4d4b60219a43b7c60" kindref="member">print</ref>(printPainter,metrics,whiteBackground);</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/>printPainter.resetXForm();</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="classTraceWidget_11a9df873ea776894269b5b8ab4c4d71c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11a9df873ea776894269b5b8ab4c4d71c" kindref="member">showNextCluster</ref>(){view.<ref refid="classTraceView_11079f060958e7b60d315120abb9ecc41" kindref="member">showNextCluster</ref>();};</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="classTraceWidget_123ed27e8c52d639895694b431d49c4e3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_123ed27e8c52d639895694b431d49c4e3" kindref="member">showPreviousCluster</ref>(){view.<ref refid="classTraceView_1e3b6b42d339ec0ba5d1678f477c1ef8b" kindref="member">showPreviousCluster</ref>();};</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="classTraceWidget_11309a9c5bc7b7461c13bee0a05b86552" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11309a9c5bc7b7461c13bee0a05b86552" kindref="member">showNextEvent</ref>(){view.<ref refid="classTraceView_198cea56712568cbbfb84869406eb1e0c" kindref="member">showNextEvent</ref>();};</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="classTraceWidget_1068d07c3bde4b7072059b8c4301b386b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1068d07c3bde4b7072059b8c4301b386b" kindref="member">showPreviousEvent</ref>(){view.<ref refid="classTraceView_19a4e4ef79aba3d485089c0b5dc29b95e" kindref="member">showPreviousEvent</ref>();};</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="387" refid="classTraceWidget_10d12b73589b89ee21fdeb6b02e250c87" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_10d12b73589b89ee21fdeb6b02e250c87" kindref="member">slotEventModified</ref>(QString<sp/>providerName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newTime){</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/><ref refid="classTraceWidget_18d1a0b7bab31e304e0d539ef7c199672" kindref="member">eventModified</ref>(providerName,selectedEventId,time,newTime);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396" refid="classTraceWidget_14f0daf58c07be92a9acd0ba5a83a49a5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_14f0daf58c07be92a9acd0ba5a83a49a5" kindref="member">slotEventRemoved</ref>(QString<sp/>providerName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time){</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classTraceWidget_11ab7898ca132b2d5d7b29a2ddf54d61e" kindref="member">eventRemoved</ref>(providerName,selectedEventId,time);<sp/></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="406" refid="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" kindref="member">updateEvents</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,QString<sp/>providerName,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newTime){</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>eventTime<sp/>=<sp/>static_cast&lt;long&gt;(floor(0.5<sp/>+<sp/>time));</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>newEventTime<sp/>=<sp/>static_cast&lt;long&gt;(floor(0.5<sp/>+<sp/>newTime));<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((eventTime<sp/>&gt;=<sp/>startTime<sp/><sp/>&amp;&amp;<sp/>eventTime<sp/>&lt;=<sp/>(startTime<sp/>+<sp/>timeWindow))<sp/>||</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>(newEventTime<sp/>&gt;=<sp/>startTime<sp/><sp/>&amp;&amp;<sp/>newEventTime<sp/>&lt;=<sp/>(startTime<sp/>+<sp/>timeWindow)))<sp/>view.<ref refid="classTraceView_155428d02398ab02597a5721da780c502" kindref="member">updateEvents</ref>(providerName,active);</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415" refid="classTraceWidget_1291d9965739e3153f0c2e20ef0e96506" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1291d9965739e3153f0c2e20ef0e96506" kindref="member">removeEvent</ref>(){view.<ref refid="classTraceView_1313dc0bc4af37a5ab6e16a99a0ae8b25" kindref="member">removeEvent</ref>();};</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422" refid="classTraceWidget_16a14a0cfd637844755f4bc1a4dacef54" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" kindref="member">updateEvents</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,QString<sp/>providerName,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time){</highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>eventTime<sp/>=<sp/>static_cast&lt;long&gt;(floor(0.5<sp/>+<sp/>time));</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((eventTime<sp/>&gt;=<sp/>startTime<sp/><sp/>&amp;&amp;<sp/>eventTime<sp/>&lt;=<sp/>(startTime<sp/>+<sp/>timeWindow)))<sp/>view.<ref refid="classTraceView_155428d02398ab02597a5721da780c502" kindref="member">updateEvents</ref>(providerName,active);</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"></highlight></codeline>
+<codeline lineno="431" refid="classTraceWidget_185a6a4bc37aba744d4bfbb9b2dc74bb8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_185a6a4bc37aba744d4bfbb9b2dc74bb8" kindref="member">eventToAddProperties</ref>(QString<sp/>providerName,QString<sp/>eventDescription){</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/>view.<ref refid="classTraceView_1d9156ab617b02c8f187e458b938fed83" kindref="member">eventToAddProperties</ref>(providerName,eventDescription);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="440" refid="classTraceWidget_1d65594d2892d609c74b0b8ecd7f334ac" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1d65594d2892d609c74b0b8ecd7f334ac" kindref="member">slotEventAdded</ref>(QString<sp/>providerName,QString<sp/>addedEventDescription,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time){</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/>emit<sp/><ref refid="classTraceWidget_1dac1706bdb1d8da252abd1da2dc73854" kindref="member">eventAdded</ref>(providerName,addedEventDescription,time);<sp/><sp/></highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="449" refid="classTraceWidget_1e70bd1cc94de4c31f1209cf132b9b9ed" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1f221ad5cc9f1019860b81d5637d22ab0" kindref="member">updateEvents</ref>(QString<sp/>providerName,QValueList&lt;int&gt;&amp;<sp/>eventsToShow,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/>view.<ref refid="classTraceView_155428d02398ab02597a5721da780c502" kindref="member">updateEvents</ref>(providerName,eventsToShow,active);<sp/></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="458" refid="classTraceWidget_1f90dfdba437c499ada80c361b477cd46" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1f90dfdba437c499ada80c361b477cd46" kindref="member">updateWaveformInformation</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbSamplesBefore,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nbSamplesAfter,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1426c5ea3b1f31c871c5bc0ab46647b85" kindref="member">updateWaveformInformation</ref>(nbSamplesBefore,nbSamplesAfter,active);</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465" refid="classTraceWidget_113c030f5be9354e56d8f580f12fd16b9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_113c030f5be9354e56d8f580f12fd16b9" kindref="member">updateClusterData</ref>(</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){view.<ref refid="classTraceView_10bf137a71c4604245dad3c58a2f2a0be" kindref="member">updateClusterData</ref>(active);};</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="471" refid="classTraceWidget_16aee61c22cbc43a29019ec003f69b289" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_16aee61c22cbc43a29019ec003f69b289" kindref="member">updateNoneBrowsingEventList</ref>(QString<sp/>providerName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>eventsToNotBrowse){</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1dfeda22e2719ea704e5780c720986ba3" kindref="member">updateNoneBrowsingEventList</ref>(providerName,eventsToNotBrowse);</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479" refid="classTraceWidget_11f7b99b8d7a3dc892218a21e6ecea537" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11f7b99b8d7a3dc892218a21e6ecea537" kindref="member">updateNoneBrowsingClusterList</ref>(QString<sp/>providerName,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>clustersToNotBrowse){</highlight></codeline>
+<codeline lineno="480"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1ec505e9903c276ee3bb8e49396cee513" kindref="member">updateNoneBrowsingClusterList</ref>(providerName,clustersToNotBrowse);</highlight></codeline>
+<codeline lineno="481"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/></highlight><highlight class="comment">/***If<sp/>the<sp/>frame<sp/>is<sp/>contained<sp/>in<sp/>a<sp/>dockWidget,<sp/>this<sp/>slot<sp/>can<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="484"><highlight class="comment"><sp/><sp/>*<sp/>when<sp/>the<sp/>enclosing<sp/>dockwidget<sp/>is<sp/>being<sp/>closed.</highlight></codeline>
+<codeline lineno="485"><highlight class="comment"><sp/><sp/>*<sp/>Emits<sp/>the<sp/>parentDockBeingClosed<sp/>signal.</highlight></codeline>
+<codeline lineno="486"><highlight class="comment"><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="487"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>dockBeingClosed(){emit<sp/>parentDockBeingClosed(</highlight><highlight class="keyword">this</highlight><highlight class="normal">);};</highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="496" refid="classTraceWidget_18550f7b6cd52825d3f8cca90993495c3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_18550f7b6cd52825d3f8cca90993495c3" kindref="member">updateClusters</ref>(QString<sp/>name,QValueList&lt;int&gt;&amp;<sp/>clustersToShow,<ref refid="classItemColors" kindref="compound">ItemColors</ref>*<sp/>clusterColors,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/><sp/>view.<ref refid="classTraceView_1e80a78c501f0d18730cfde3d6988254b" kindref="member">updateClusters</ref>(name,clustersToShow,clusterColors,active);</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="503" refid="classTraceWidget_1cfadbd7b5d0f9231d8d28f6003c40902" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1cfadbd7b5d0f9231d8d28f6003c40902" kindref="member">updateSkipStatus</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>skippedChannels){view.<ref refid="classTraceView_12b8bb8cff8bd1ac6e5173a94eb36fce7" kindref="member">skipStatusChanged</ref>(skippedChannels);};</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="505"><highlight class="normal">signals:</highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>channelsSelected(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>selectedIds);</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1751e6ef64462695ca4dd2e68badde8ea" kindref="member">updateStartAndDuration</ref>(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime,</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeWindow);</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"></highlight></codeline>
+<codeline lineno="520"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_18d1a0b7bab31e304e0d539ef7c199672" kindref="member">eventModified</ref>(QString<sp/>providerName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newTime);</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_11ab7898ca132b2d5d7b29a2ddf54d61e" kindref="member">eventRemoved</ref>(QString<sp/>providerName,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>selectedEventId,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_1dac1706bdb1d8da252abd1da2dc73854" kindref="member">eventAdded</ref>(QString<sp/>providerName,QString<sp/>addedEventDescription,</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>time);</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/></highlight><highlight class="comment">/***Signals<sp/>that<sp/>the<sp/>enclosing<sp/>dockwidget<sp/>is<sp/>being<sp/>closed</highlight></codeline>
+<codeline lineno="537"><highlight class="comment"><sp/><sp/><sp/>*<sp/>@param<sp/>viewWidget<sp/>pointer<sp/>on<sp/>the<sp/>the<sp/>current<sp/>object.</highlight></codeline>
+<codeline lineno="538"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>parentDockBeingClosed(QWidget*<sp/>viewWidget);</highlight></codeline>
+<codeline lineno="540"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classTraceWidget_13c1aee2f245120fa6be62594e6d0b5c5" kindref="member">keyPressEvent</ref>(QKeyEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="548"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="549"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="550"><highlight class="normal"></highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initSelectionWidgets();</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"></highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotStartMinuteTimeUpdated(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="557"><highlight class="normal"></highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotStartSecondTimeUpdated(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"></highlight></codeline>
+<codeline lineno="562"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotStartMilisecondTimeUpdated(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"></highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotDurationUpdated();</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>slotScrollBarUpdated();</highlight></codeline>
+<codeline lineno="569"><highlight class="normal"></highlight></codeline>
+<codeline lineno="570"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><sp/></highlight></codeline>
+<codeline lineno="574"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeWindow;</highlight></codeline>
+<codeline lineno="575"><highlight class="normal"></highlight></codeline>
+<codeline lineno="577"><highlight class="normal"><sp/><sp/><ref refid="classTraceView" kindref="compound">TraceView</ref><sp/>view;</highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="582"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime;</highlight></codeline>
+<codeline lineno="583"><highlight class="normal"></highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/>QSpinBox*<sp/>startMinute;</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="590"><highlight class="normal"><sp/><sp/>QSpinBox*<sp/>startSecond;</highlight></codeline>
+<codeline lineno="591"><highlight class="normal"></highlight></codeline>
+<codeline lineno="594"><highlight class="normal"><sp/><sp/>QSpinBox*<sp/>startMilisecond;</highlight></codeline>
+<codeline lineno="595"><highlight class="normal"></highlight></codeline>
+<codeline lineno="598"><highlight class="normal"><sp/><sp/>QLineEdit*<sp/>duration;</highlight></codeline>
+<codeline lineno="599"><highlight class="normal"></highlight></codeline>
+<codeline lineno="600"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>INITIAL_TRACES_TIME_WINDOW;</highlight></codeline>
+<codeline lineno="601"><highlight class="normal"></highlight></codeline>
+<codeline lineno="602"><highlight class="normal"><sp/><sp/>QIntValidator<sp/>validator;</highlight></codeline>
+<codeline lineno="603"><highlight class="normal"></highlight></codeline>
+<codeline lineno="604"><highlight class="normal"><sp/><sp/>QLabel*<sp/>durationLabel;</highlight></codeline>
+<codeline lineno="605"><highlight class="normal"><sp/><sp/>QLabel*<sp/>startLabel;</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"></highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInit;</highlight></codeline>
+<codeline lineno="609"><highlight class="normal"></highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/>QScrollBar*<sp/>scrollBar;</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"></highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>recordingLength;</highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>lineStep;</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"></highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>pageStep;</highlight></codeline>
+<codeline lineno="620"><highlight class="normal"></highlight></codeline>
+<codeline lineno="622"><highlight class="normal"><sp/><sp/>QHBox*<sp/>selectionWidgets;</highlight></codeline>
+<codeline lineno="623"><highlight class="normal"></highlight></codeline>
+<codeline lineno="625"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minutePart;</highlight></codeline>
+<codeline lineno="626"><highlight class="normal"></highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>secondPart;</highlight></codeline>
+<codeline lineno="629"><highlight class="normal"></highlight></codeline>
+<codeline lineno="631"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>milisecondPart;</highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>updateView;</highlight></codeline>
+<codeline lineno="635"><highlight class="normal"></highlight></codeline>
+<codeline lineno="637"></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>correctStartTime();</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="643"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="644"><highlight class="normal"></highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/tracewidget.h"/>
+  </compounddef>
+</doxygen>

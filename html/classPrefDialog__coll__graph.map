@@ -1,0 +1,4 @@
+base referer
+rect $classPrefClusterView.html 5,5 133,32
+rect $classPrefWaveformView.html 157,5 304,32
+rect $classPrefGeneral.html 339,5 440,32

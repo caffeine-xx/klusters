@@ -1,0 +1,395 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1WaveformData" kind="class" prot="private">
+    <compoundname>Data::WaveformData</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class</type>
+        <declname>T</declname>
+        <defname>T</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1WaveformData_170c98feacff14c74fbaceb62dd157481" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::sampleSpikesTable</definition>
+        <argsstring></argsstring>
+        <name>sampleSpikesTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="845" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformData_1a6c8bc6d0523865cc9f110ce8aee91cb" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::timeFrameSpikesTable</definition>
+        <argsstring></argsstring>
+        <name>timeFrameSpikesTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="846" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformData_104628a68eef6f6a27f756796f888bf30" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::sampleMeanTable</definition>
+        <argsstring></argsstring>
+        <name>sampleMeanTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="847" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformData_1077a4b7f97fa75ed3be77ce1e6e4156f" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::timeFrameMeanTable</definition>
+        <argsstring></argsstring>
+        <name>timeFrameMeanTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="848" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformData_1d767f3c7af9b216fd5e39f1ecc4dee28" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::sampleStDeviationTable</definition>
+        <argsstring></argsstring>
+        <name>sampleStDeviationTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="849" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1WaveformData_12c7ff0f1997f999dd3a0d1464b7e51c0" prot="private" static="no" mutable="no">
+        <type>T *</type>
+        <definition>T* Data::WaveformData&lt; T &gt;::timeFrameStDeviationTable</definition>
+        <argsstring></argsstring>
+        <name>timeFrameStDeviationTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="850" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="850" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1WaveformData_16edbf4c74687a6c500b3f46a9c993020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformData&lt; T &gt;::WaveformData</definition>
+        <argsstring>(Data &amp;d, dataType nbSampleSpikes=0, dataType nbTimeFrameSpikes=0, dataType index=0, dataType startTime=0, dataType endTime=0)</argsstring>
+        <name>WaveformData</name>
+        <param>
+          <type><ref refid="classData" kindref="compound">Data</ref> &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbSampleSpikes</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbTimeFrameSpikes</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>startTime</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>endTime</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="805" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="804" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_178b1f95d9fa65686a8ef462f5ea1c9c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::WaveformData&lt; T &gt;::~WaveformData</definition>
+        <argsstring>()</argsstring>
+        <name>~WaveformData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="813" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="813" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_143d5bffb720754c6f07734f177f2508e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformData&lt; T &gt;::setSize</definition>
+        <argsstring>(dataType size, WaveformMode waveformMode=SAMPLE)</argsstring>
+        <name>setSize</name>
+        <param>
+          <type>dataType</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>WaveformMode</type>
+          <declname>waveformMode</declname>
+          <defval>SAMPLE</defval>
+        </param>
+        <briefdescription>
+<para>Specifies the number of spikes which can be store. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="822" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.cpp" bodystart="2608" bodyend="2632"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1a4fd9571f6c581160d52fe67d2db62b0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getSample</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getSample</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="823" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="823" bodyend="825"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1de577fe51e09c81a0784ae2e9fd3fac0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getTimeFrame</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getTimeFrame</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="826" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="826" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1aa3521842d0782bdddcfd510be068e0a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getSampleMean</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getSampleMean</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="829" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="829" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1cc2ae787a4c586cb1340bc86dcc6cb2e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getTimeFrameMean</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getTimeFrameMean</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="832" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="832" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_173e91bc42f4bb41ed74e351a9efe36de" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getSampleStDeviation</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getSampleStDeviation</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="835" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="835" bodyend="837"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_120db03b8f3450494493bff788fe8d862" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>dataType</type>
+        <definition>dataType Data::WaveformData&lt; T &gt;::getTimeFrameStDeviation</definition>
+        <argsstring>(dataType index) const </argsstring>
+        <name>getTimeFrameStDeviation</name>
+        <param>
+          <type>dataType</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="838" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="838" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_136b377e987e23ccb17b9a07de5c33aec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformData&lt; T &gt;::read</definition>
+        <argsstring>(SortableTable &amp;positionOfSpikes, dataType currentSpikeIndex, FILE *spikeFile, dataType nbSpkToDisplay)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>positionOfSpikes</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>currentSpikeIndex</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>spikeFile</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbSpkToDisplay</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="841" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.cpp" bodystart="2636" bodyend="2678"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1ad254e09aa23cff9717f53a65e4ff5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformData&lt; T &gt;::read</definition>
+        <argsstring>(SortableTable &amp;positionOfSpikes, dataType nbSpikesOfCluster, FILE *spikeFile, dataType &amp;currentSpikeIndex, dataType end)</argsstring>
+        <name>read</name>
+        <param>
+          <type><ref refid="classSortableTable" kindref="compound">SortableTable</ref> &amp;</type>
+          <declname>positionOfSpikes</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>nbSpikesOfCluster</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>spikeFile</declname>
+        </param>
+        <param>
+          <type>dataType &amp;</type>
+          <declname>currentSpikeIndex</declname>
+        </param>
+        <param>
+          <type>dataType</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="842" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.cpp" bodystart="2681" bodyend="2701"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1WaveformData_1f8f64911e0bf28c7dd1291c8eea20d86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::WaveformData&lt; T &gt;::calculateMean</definition>
+        <argsstring>(WaveformMode waveformMode=SAMPLE)</argsstring>
+        <name>calculateMean</name>
+        <param>
+          <type>WaveformMode</type>
+          <declname>waveformMode</declname>
+          <defval>SAMPLE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="843" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.cpp" bodystart="2704" bodyend="2751"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents waveform data for a cluster. </para>    </briefdescription>
+    <detaileddescription>
+<para>Has the spike information format relyes on the recording system (either a 12 or 16 bits recording system), this class is a template to allow the internal use type to be a short or a long int. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="926">
+        <label>T</label>
+      </node>
+      <node id="925">
+        <label>Data::WaveformData&lt; T &gt;</label>
+        <childnode refid="926" relation="usage">
+          <edgelabel>sampleStDeviationTable
+sampleMeanTable
+timeFrameSpikesTable
+timeFrameMeanTable
+timeFrameStDeviationTable
+sampleSpikesTable</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="801" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="801" bodyend="851"/>
+    <listofallmembers>
+      <member refid="classData_1_1WaveformData_1f8f64911e0bf28c7dd1291c8eea20d86" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>calculateMean</name></member>
+      <member refid="classData_1_1WaveformData_1a4fd9571f6c581160d52fe67d2db62b0" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getSample</name></member>
+      <member refid="classData_1_1WaveformData_1aa3521842d0782bdddcfd510be068e0a" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getSampleMean</name></member>
+      <member refid="classData_1_1WaveformData_173e91bc42f4bb41ed74e351a9efe36de" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getSampleStDeviation</name></member>
+      <member refid="classData_1_1WaveformData_1de577fe51e09c81a0784ae2e9fd3fac0" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getTimeFrame</name></member>
+      <member refid="classData_1_1WaveformData_1cc2ae787a4c586cb1340bc86dcc6cb2e" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getTimeFrameMean</name></member>
+      <member refid="classData_1_1WaveformData_120db03b8f3450494493bff788fe8d862" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>getTimeFrameStDeviation</name></member>
+      <member refid="classData_1_1WaveformData_136b377e987e23ccb17b9a07de5c33aec" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>read</name></member>
+      <member refid="classData_1_1WaveformData_1ad254e09aa23cff9717f53a65e4ff5ec" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>read</name></member>
+      <member refid="classData_1_1WaveformData_104628a68eef6f6a27f756796f888bf30" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>sampleMeanTable</name></member>
+      <member refid="classData_1_1WaveformData_170c98feacff14c74fbaceb62dd157481" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>sampleSpikesTable</name></member>
+      <member refid="classData_1_1WaveformData_1d767f3c7af9b216fd5e39f1ecc4dee28" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>sampleStDeviationTable</name></member>
+      <member refid="classData_1_1WaveformData_143d5bffb720754c6f07734f177f2508e" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>setSize</name></member>
+      <member refid="classData_1_1WaveformData_1077a4b7f97fa75ed3be77ce1e6e4156f" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>timeFrameMeanTable</name></member>
+      <member refid="classData_1_1WaveformData_1a6c8bc6d0523865cc9f110ce8aee91cb" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>timeFrameSpikesTable</name></member>
+      <member refid="classData_1_1WaveformData_12c7ff0f1997f999dd3a0d1464b7e51c0" prot="private" virt="non-virtual"><scope>Data::WaveformData</scope><name>timeFrameStDeviationTable</name></member>
+      <member refid="classData_1_1WaveformData_16edbf4c74687a6c500b3f46a9c993020" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>WaveformData</name></member>
+      <member refid="classData_1_1WaveformData_178b1f95d9fa65686a8ef462f5ea1c9c6" prot="public" virt="non-virtual"><scope>Data::WaveformData</scope><name>~WaveformData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

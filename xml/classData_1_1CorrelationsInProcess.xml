@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classData_1_1CorrelationsInProcess" kind="class" prot="private">
+    <compoundname>Data::CorrelationsInProcess</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classData_1_1CorrelationsInProcess_1f1e21a04b7e3ddb596c72077c8da6d0a" prot="private" static="no" mutable="no">
+        <type>QMap&lt; dataType, int &gt;</type>
+        <definition>QMap&lt;dataType,int&gt; Data::CorrelationsInProcess::clusters</definition>
+        <argsstring></argsstring>
+        <name>clusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="905" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="902" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classData_1_1CorrelationsInProcess_1ea1cba4d55c7cfe2285fafa2d0f6d6c8" prot="private" static="no" mutable="no">
+        <type>QMap&lt; dataType, bool &gt;</type>
+        <definition>QMap&lt;dataType,bool&gt; Data::CorrelationsInProcess::clustersModified</definition>
+        <argsstring></argsstring>
+        <name>clustersModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="906" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_1ec7a5443d313a1daabc24a39fc464133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::CorrelationsInProcess::CorrelationsInProcess</definition>
+        <argsstring>()</argsstring>
+        <name>CorrelationsInProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="879" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="879" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_17934d2cdc82276231a3303567048186f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Data::CorrelationsInProcess::~CorrelationsInProcess</definition>
+        <argsstring>()</argsstring>
+        <name>~CorrelationsInProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="880" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="880" bodyend="880"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_1b8dd3b0b48c6f0d8a88b58b2d2895632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::CorrelationsInProcess::addProcess</definition>
+        <argsstring>(dataType clusterId)</argsstring>
+        <name>addProcess</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="881" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="881" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_1c811b5c22725c6d2993c19c6f2e29346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::CorrelationsInProcess::removeProcess</definition>
+        <argsstring>(dataType clusterId)</argsstring>
+        <name>removeProcess</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="888" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="888" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_1c51a43f7a6f6218a55dc2fd2d9befe73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::CorrelationsInProcess::removeCluster</definition>
+        <argsstring>(dataType clusterId)</argsstring>
+        <name>removeCluster</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="895" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="895" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_13faae4fb6706b7fc79a55b67cda804f4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::CorrelationsInProcess::contains</definition>
+        <argsstring>(dataType clusterId) const</argsstring>
+        <name>contains</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="899" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="899" bodyend="899"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_11134623107bca64d8e11a3044a0287bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Data::CorrelationsInProcess::setClusterModified</definition>
+        <argsstring>(dataType clusterId, bool modified)</argsstring>
+        <name>setClusterModified</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>modified</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="901" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="901" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="classData_1_1CorrelationsInProcess_1c8a49a5ce270947d45fa33fa32b233d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Data::CorrelationsInProcess::isClusterModified</definition>
+        <argsstring>(dataType clusterId) const</argsstring>
+        <name>isClusterModified</name>
+        <param>
+          <type>dataType</type>
+          <declname>clusterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="902" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="902" bodyend="902"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class stores the information to know which cluster has correlations in process. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/data.h" line="876" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/data.h" bodystart="876" bodyend="907"/>
+    <listofallmembers>
+      <member refid="classData_1_1CorrelationsInProcess_1b8dd3b0b48c6f0d8a88b58b2d2895632" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>addProcess</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1f1e21a04b7e3ddb596c72077c8da6d0a" prot="private" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>clusters</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1ea1cba4d55c7cfe2285fafa2d0f6d6c8" prot="private" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>clustersModified</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_13faae4fb6706b7fc79a55b67cda804f4" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>contains</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1ec7a5443d313a1daabc24a39fc464133" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>CorrelationsInProcess</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1c8a49a5ce270947d45fa33fa32b233d7" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>isClusterModified</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1c51a43f7a6f6218a55dc2fd2d9befe73" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>removeCluster</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_1c811b5c22725c6d2993c19c6f2e29346" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>removeProcess</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_11134623107bca64d8e11a3044a0287bd" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>setClusterModified</name></member>
+      <member refid="classData_1_1CorrelationsInProcess_17934d2cdc82276231a3303567048186f" prot="public" virt="non-virtual"><scope>Data::CorrelationsInProcess</scope><name>~CorrelationsInProcess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

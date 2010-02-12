@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classUtilities" kind="class" prot="public">
+    <compoundname>Utilities</compoundname>
+    <includes refid="utilities_8h" local="no">utilities.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classUtilities_1fb6394ecee336829345779f30f857d87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Utilities::Utilities</definition>
+        <argsstring>()</argsstring>
+        <name>Utilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtilities_1e8119353254ad4a1ffbdd8de4e3ede76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Utilities::~Utilities</definition>
+        <argsstring>()</argsstring>
+        <name>~Utilities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classUtilities_115db2ed2d510f146f746951054410fc3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Utilities::compareVersion</definition>
+        <argsstring>(QString oldVersion, QString newVersion)</argsstring>
+        <name>compareVersion</name>
+        <param>
+          <type>QString</type>
+          <declname>oldVersion</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>newVersion</declname>
+        </param>
+        <briefdescription>
+<para>Compares the versions. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>oldVersion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the old version </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>newVersion</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new version </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if <computeroutput>newVersion</computeroutput> is superior to <computeroutput>oldVersion</computeroutput>, false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" bodystart="48" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtilities_1bf3d501b91ff27c14b3d23330ee49ab6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Utilities::getNbLines</definition>
+        <argsstring>(QString path)</argsstring>
+        <name>getNbLines</name>
+        <param>
+          <type>QString</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Counts and returns the number of lines in the file <computeroutput>path</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>file path. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the number of lines in the file. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="63" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.cpp" bodystart="29" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classUtilities_1ac87c2cd1387a63c1be999eda5b65d6e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Utilities::createBackup</definition>
+        <argsstring>(QString path)</argsstring>
+        <name>createBackup</name>
+        <param>
+          <type>QString</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Creates a backup of the file <computeroutput>path</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para>The backup file name is the original file name with an additional ~. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>file path. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.cpp" bodystart="82" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/utilities.h" bodystart="37" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classUtilities_115db2ed2d510f146f746951054410fc3" prot="public" virt="non-virtual"><scope>Utilities</scope><name>compareVersion</name></member>
+      <member refid="classUtilities_1ac87c2cd1387a63c1be999eda5b65d6e" prot="public" virt="non-virtual"><scope>Utilities</scope><name>createBackup</name></member>
+      <member refid="classUtilities_1bf3d501b91ff27c14b3d23330ee49ab6" prot="public" virt="non-virtual"><scope>Utilities</scope><name>getNbLines</name></member>
+      <member refid="classUtilities_1fb6394ecee336829345779f30f857d87" prot="public" virt="non-virtual"><scope>Utilities</scope><name>Utilities</name></member>
+      <member refid="classUtilities_1e8119353254ad4a1ffbdd8de4e3ede76" prot="public" virt="non-virtual"><scope>Utilities</scope><name>~Utilities</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

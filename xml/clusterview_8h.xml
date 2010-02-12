@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="clusterview_8h" kind="file">
+    <compoundname>clusterview.h</compoundname>
+    <includes local="no">qframe.h</includes>
+    <includes local="no">qpainter.h</includes>
+    <includes local="no">qstyle.h</includes>
+    <includes local="no">qpixmap.h</includes>
+    <includes local="no">qpointarray.h</includes>
+    <includes local="no">qtimer.h</includes>
+    <includes local="no">qregion.h</includes>
+    <includes local="no">qvaluelist.h</includes>
+    <includes refid="zoomwindow_8h" local="yes">zoomwindow.h</includes>
+    <includes refid="viewwidget_8h" local="yes">viewwidget.h</includes>
+    <includes refid="types_8h" local="yes">types.h</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="clusterview_8cpp" local="yes">clusterview.cpp</includedby>
+    <includedby refid="clusterview_8moc_8cpp" local="yes">clusterview.moc.cpp</includedby>
+    <includedby refid="klustersview_8cpp" local="yes">klustersview.cpp</includedby>
+    <incdepgraph>
+      <node id="532">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="530" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+      </node>
+      <node id="522">
+        <label>qtimer.h</label>
+      </node>
+      <node id="523">
+        <label>qregion.h</label>
+      </node>
+      <node id="524">
+        <label>qvaluelist.h</label>
+      </node>
+      <node id="529">
+        <label>viewwidget.h</label>
+        <link refid="viewwidget_8h-source"/>
+        <childnode refid="530" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+      </node>
+      <node id="525">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="526" relation="include">
+        </childnode>
+        <childnode refid="527" relation="include">
+        </childnode>
+        <childnode refid="528" relation="include">
+        </childnode>
+      </node>
+      <node id="526">
+        <label>qrect.h</label>
+      </node>
+      <node id="531">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="517">
+        <label>qframe.h</label>
+      </node>
+      <node id="527">
+        <label>qpoint.h</label>
+      </node>
+      <node id="533">
+        <label>qcursor.h</label>
+      </node>
+      <node id="518">
+        <label>qpainter.h</label>
+      </node>
+      <node id="516">
+        <label>clusterview.h</label>
+        <link refid="clusterview.h"/>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="519" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="521" relation="include">
+        </childnode>
+        <childnode refid="522" relation="include">
+        </childnode>
+        <childnode refid="523" relation="include">
+        </childnode>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+      </node>
+      <node id="528">
+        <label>math.h</label>
+      </node>
+      <node id="530">
+        <label>qwidget.h</label>
+      </node>
+      <node id="534">
+        <label>iostream</label>
+      </node>
+      <node id="521">
+        <label>qpointarray.h</label>
+      </node>
+      <node id="519">
+        <label>qstyle.h</label>
+      </node>
+      <node id="520">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="535">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classClusterView" prot="public">ClusterView</innerclass>
+    <innerclass refid="classClusterView_1_1ComputeEvent" prot="private">ClusterView::ComputeEvent</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>custerview.h<sp/><sp/>-<sp/><sp/>description</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-------------------</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/><sp/>begin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>Thu<sp/>Aug<sp/>21<sp/>2003</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/><sp/>copyright<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>(C)<sp/>2003<sp/>by<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/>email<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/***************************************************************************</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/><sp/><sp/>This<sp/>program<sp/>is<sp/>free<sp/>software;<sp/>you<sp/>can<sp/>redistribute<sp/>it<sp/>and/or<sp/>modify<sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/><sp/><sp/>it<sp/>under<sp/>the<sp/>terms<sp/>of<sp/>the<sp/>GNU<sp/>General<sp/>Public<sp/>License<sp/>as<sp/>published<sp/>by<sp/><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/>the<sp/>Free<sp/>Software<sp/>Foundation;<sp/>either<sp/>version<sp/>2<sp/>of<sp/>the<sp/>License,<sp/>or<sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/>(at<sp/>your<sp/>option)<sp/>any<sp/>later<sp/>version.<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>***************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>CLUSTERVIEW_H</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>CLUSTERVIEW_H</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>include<sp/>files<sp/>for<sp/>QT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qframe.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpainter.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qstyle.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpixmap.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qpointarray.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qtimer.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qregion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qvaluelist.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//include<sp/>files<sp/>for<sp/>the<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;zoomwindow.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;viewwidget.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;types.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">//General<sp/>C++<sp/>include<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">std;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classKlustersView" kindref="compound">KlustersView</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">QCursor;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classClusterView" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classClusterView" kindref="compound">ClusterView</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classViewWidget" kindref="compound">ViewWidget</ref><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="classClusterView" kindref="compound">ClusterView</ref>(<ref refid="classKlustersDoc" kindref="compound">KlustersDoc</ref>&amp;<sp/><ref refid="classViewWidget_1b8bdf22293e76d9a143fb84488d52fc4" kindref="member">doc</ref>,<ref refid="classKlustersView" kindref="compound">KlustersView</ref>&amp;<sp/><ref refid="classViewWidget_166610cd0dfae797713df3acb439033cc" kindref="member">view</ref>,QColor<sp/>backgroundColor,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeInterval,KStatusBar*<sp/><ref refid="classViewWidget_12556296973c80b8fea7e8f0cec46cc04" kindref="member">statusBar</ref>,<sp/>QWidget*<sp/>parent=0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name=0,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minSize<sp/>=<sp/>50,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxSize<sp/>=<sp/>4000,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowTopLeft<sp/>=<sp/>-500,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>windowBottomRight<sp/>=<sp/>1001,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>border<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>~<ref refid="classClusterView" kindref="compound">ClusterView</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classClusterView_13fc4e1caa1758efc732911018d6aa20d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classClusterView_13fc4e1caa1758efc732911018d6aa20d" kindref="member">isASelectionInProcess</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(selectionPolygon.size()<sp/>==<sp/>0)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classClusterView_1c402173ddc2e2c8f96552238c729baaf" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1c402173ddc2e2c8f96552238c729baaf" kindref="member">getDimensionX</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dimensionX;};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="classClusterView_11c78d2b8914cb416f2297e42c067395c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classClusterView_11c78d2b8914cb416f2297e42c067395c" kindref="member">getDimensionY</ref>()</highlight><highlight class="keyword"><sp/>const</highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dimensionY;};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref><sp/>getMode()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" kindref="member">mode</ref>;};</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>slots:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_16ffcd1d8fe34d114476adee218d09669" kindref="member">updatedDimensions</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimensionX,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimensionY);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classClusterView_1348b0efa3792a84bb90dea04f1f6240d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1348b0efa3792a84bb90dea04f1f6240d" kindref="member">singleColorUpdate</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>addClusterToUpdate(clusterId);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="classClusterView_127737e7d724d8b7d40e28d6b608a3be8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_127737e7d724d8b7d40e28d6b608a3be8" kindref="member">addClusterToView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>addClusterToUpdate(clusterId);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="classClusterView_17bcacb8fd83e248eae0433b84d70b793" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_17bcacb8fd83e248eae0433b84d70b793" kindref="member">removeClusterFromView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){redraw();};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classClusterView_177c9f49e4c78824e0e3e420053768e0c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_177c9f49e4c78824e0e3e420053768e0c" kindref="member">addNewClusterToView</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>addClusterToUpdate(clusterId);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="classClusterView_14ec27011a9dfdd473196c1465a8b7776" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_177c9f49e4c78824e0e3e420053768e0c" kindref="member">addNewClusterToView</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>addClusterToUpdate(clusterId);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="classClusterView_1fe0231d2fb10929704c69e586a939213" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1fe0231d2fb10929704c69e586a939213" kindref="member">spikesRemovedFromClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>fromClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){redraw();};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="classClusterView_111c8df88a2f4aeb7e06d0a72d6459421" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_111c8df88a2f4aeb7e06d0a72d6459421" kindref="member">spikesAddedToCluster</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>addClusterToUpdate(clusterId);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="classClusterView_18fb4f8b2704c0af4ef5860737fdd9c3b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_18fb4f8b2704c0af4ef5860737fdd9c3b" kindref="member">emptySelection</ref>(){<ref refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" kindref="member">drawContentsMode</ref><sp/>=<sp/>UPDATE;};</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1829d964b2b03c997e9e7098d2a17b12a" kindref="member">setMode</ref>(<ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">BaseFrame::Mode</ref><sp/>selectedMode);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="classClusterView_1b371d2d9b80836569432b24f83e24acb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1b371d2d9b80836569432b24f83e24acb" kindref="member">updateClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>modifiedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isModifiedByDeletion){</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isModifiedByDeletion)<sp/>redraw();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="classClusterView_1644f18a1ee8b7fdf3b9eb1cf5ae66091" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1644f18a1ee8b7fdf3b9eb1cf5ae66091" kindref="member">undoUpdateClusters</ref>(QValueList&lt;int&gt;&amp;<sp/>modifiedClusters,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){redraw();};</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="classClusterView_193c2b2017a6c459bb98c9e093f9eda15" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_193c2b2017a6c459bb98c9e093f9eda15" kindref="member">setTimeStepInSecond</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>step){</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>timeStepInSecond<sp/>=<sp/>step;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>timeStepInRecordingUnit<sp/>=<sp/><sp/>static_cast&lt;long&gt;((static_cast&lt;double&gt;(timeStepInSecond)<sp/>*<sp/>static_cast&lt;double&gt;(1000000))<sp/>/<sp/>samplingInterval);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="198" refid="classClusterView_1d187ace082fd89e71610257ee5db66a7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_193c2b2017a6c459bb98c9e093f9eda15" kindref="member">setTimeStepInSecond</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>step,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>active){<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/>timeStepInSecond<sp/>=<sp/>step;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>timeStepInRecordingUnit<sp/>=<sp/><sp/>static_cast&lt;long&gt;((static_cast&lt;double&gt;(timeStepInSecond)<sp/>*<sp/>static_cast&lt;double&gt;(1000000))<sp/>/<sp/>samplingInterval);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(active)redraw();<sp/></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_18a48d3dce82af1ac56f934b886a3bd81" kindref="member">print</ref>(QPainter&amp;<sp/>printPainter,QPaintDeviceMetrics&amp;<sp/>metrics,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>whiteBackground);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_19c392ec9d1bb56b601824fa735dac828" kindref="member">drawContents</ref>(QPainter*<sp/>p);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="218" refid="classClusterView_1507c8a4182de34387502bceabd1f57c4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1507c8a4182de34387502bceabd1f57c4" kindref="member">resizeEvent</ref>(QResizeEvent*<sp/>event){</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Trigger<sp/>parent<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1327a39135fa2ee76c5366c6277310c63" kindref="member">ViewWidget::resizeEvent</ref>(event);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_12b44bdf430dfe5ac3e741f36e20c9e47" kindref="member">mouseReleaseEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_15625cfa11cd85b65d59ef466f651bbff" kindref="member">mousePressEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1965a57cbb8e5b8748e6e2237c540b402" kindref="member">mouseMoveEvent</ref>(QMouseEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="225" refid="classClusterView_1f9d6e00ed3612cc90efeda9b4fc37487" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1f9d6e00ed3612cc90efeda9b4fc37487" kindref="member">mouseDoubleClickEvent</ref>(QMouseEvent*<sp/>event){</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Trigger<sp/>parent<sp/>event</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_161ed8b87d4046aa64b74855f200b4e1b" kindref="member">ViewWidget::mouseDoubleClickEvent</ref>(event);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classClusterView_1c69a4ad405464c0ce68acf5654586e42" kindref="member">customEvent</ref>(QCustomEvent*<sp/>event);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/>signals:</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>moveToTime(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>startTime);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//Color<sp/>for<sp/>the<sp/>different<sp/>selection<sp/>modes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>NEW_CLUSTER_COLOR;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>DELETE_NOISE_COLOR;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QColor<sp/>DELETE_ARTEFACT_COLOR;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawClusters(QPainter&amp;<sp/>painter,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>clustersList,</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>drawCircles<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QColor<sp/>selectPolygonColor(<ref refid="classBaseFrame_12d7e24808016f5b91c7232ab9b8fd148" kindref="member">Mode</ref><sp/><ref refid="classBaseFrame_13bac911fa71469ffae97a2cc1d7c5ac8" kindref="member">mode</ref>){</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(mode){</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>DELETE_NOISE:</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DELETE_NOISE_COLOR;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>DELETE_ARTEFACT:</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>DELETE_ARTEFACT_COLOR;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>NEW_CLUSTER:</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NEW_CLUSTER_COLOR;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>NEW_CLUSTERS:</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NEW_CLUSTER_COLOR;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>ZOOM:</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//nothing<sp/>to<sp/>do<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>SELECT_TIME:</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">//nothing<sp/>to<sp/>do<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//never<sp/>reach</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QColor(0,0,0);</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>resetSelectionPolygon();</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>eraseTheLastDrawnLine(QColor<sp/>polygonColor);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>eraseTheLastMovingLine(QColor<sp/>polygonColor);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addClusterToUpdate(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>clusterId);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawAxes(QPainter&amp;<sp/>painter);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>redraw(){</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><ref refid="classBaseFrame_1dda2f5f4c168321c208349db2e7b5ed9" kindref="member">drawContentsMode</ref><sp/>=<sp/>REDRAW;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Clear<sp/>the<sp/>update<sp/>list</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><ref refid="classViewWidget_1bccba002ff28008b32f8082553f6fca8" kindref="member">clusterUpdateList</ref>.clear();</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//reset<sp/>the<sp/>information<sp/>on<sp/>the<sp/>polygon<sp/>to<sp/>enable<sp/>a<sp/>mousetrack<sp/>in<sp/>mousemovEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/>polygonClosed<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>drawTimeInformation(QPainter&amp;<sp/>painter);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="comment">//Members</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/>QPointArray<sp/>selectionPolygon;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/>uint<sp/>nbSelectionPoints;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>polygonClosed;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMin;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>abscissaMax;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMin;</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>ordinateMax;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/>existLastMovingLine;<sp/></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimensionX;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dimensionY;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeDimension;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>samplingInterval;</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>timeStepInSecond;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timeStepInRecordingUnit;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/>QCursor<sp/>newClusterCursor;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/>QCursor<sp/>newClustersCursor;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/>QCursor<sp/>deleteNoiseCursor;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/>QCursor<sp/>deleteArtefactCursor;</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/>QCursor<sp/>selectTimeCursor;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ComputeEvent;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ComputeEvent;</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ComputeEvent*<sp/>getComputeEvent(QPointArray<sp/>polygon){</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ComputeEvent(polygon);</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">ComputeEvent<sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>QCustomEvent{</highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//Only<sp/>the<sp/>method<sp/>getComputeEvent<sp/>of<sp/>ClusterView<sp/>has<sp/>access<sp/>to<sp/>the<sp/>private<sp/>part<sp/>of<sp/>ComputeEvent,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">//the<sp/>constructor<sp/>of<sp/>ComputeEvent<sp/>being<sp/>private,<sp/>only<sp/>this<sp/>method<sp/>con<sp/>create<sp/>a<sp/>new<sp/>ComputeEvent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>ComputeEvent*<sp/>ClusterView::getComputeEvent(QPointArray<sp/>selectionPolygon);</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>~ComputeEvent(){};</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>QPointArray<sp/>polygon(){</highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>selectionPolygon;};</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/>ComputeEvent(QPointArray<sp/>polygon):QCustomEvent(QEvent::User<sp/>+<sp/>700),selectionPolygon(polygon){};</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/>QPointArray<sp/>selectionPolygon;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="407"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/clusterview.h"/>
+  </compounddef>
+</doxygen>

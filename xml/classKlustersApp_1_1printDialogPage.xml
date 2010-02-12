@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classKlustersApp_1_1printDialogPage" kind="class" prot="private">
+    <compoundname>KlustersApp::printDialogPage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classKlustersApp_1_1printDialogPage_11f98994d63c1b450f45368874b95f4a3" prot="private" static="no" mutable="no">
+        <type>QCheckBox *</type>
+        <definition>QCheckBox* KlustersApp::printDialogPage::backgroundColor</definition>
+        <argsstring></argsstring>
+        <name>backgroundColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="805" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="802" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classKlustersApp_1_1printDialogPage_1bbac376c2c54260fd512c1e55754e2a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>KlustersApp::printDialogPage::printDialogPage</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0)</argsstring>
+        <name>printDialogPage</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="788" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="788" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1printDialogPage_1dda64a51e3e6a356050df474c1039530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KlustersApp::printDialogPage::getOptions</definition>
+        <argsstring>(QMap&lt; QString, QString &gt; &amp;opts, bool incldef)</argsstring>
+        <name>getOptions</name>
+        <param>
+          <type>QMap&lt; QString, QString &gt; &amp;</type>
+          <declname>opts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>incldef</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="794" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="794" bodyend="796"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1printDialogPage_1f1ecf791ffaf0d50b139400223864063" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void KlustersApp::printDialogPage::setOptions</definition>
+        <argsstring>(const QMap&lt; QString, QString &gt; &amp;opts)</argsstring>
+        <name>setOptions</name>
+        <param>
+          <type>const QMap&lt; QString, QString &gt; &amp;</type>
+          <declname>opts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="798" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="798" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classKlustersApp_1_1printDialogPage_1a7527ee9c31d1291d948d34a800c12e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool KlustersApp::printDialogPage::isValid</definition>
+        <argsstring>(QString &amp;message)</argsstring>
+        <name>isValid</name>
+        <param>
+          <type>QString &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="802" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="802" bodyend="802"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" line="786" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/klusters.h" bodystart="786" bodyend="806"/>
+    <listofallmembers>
+      <member refid="classKlustersApp_1_1printDialogPage_11f98994d63c1b450f45368874b95f4a3" prot="private" virt="non-virtual"><scope>KlustersApp::printDialogPage</scope><name>backgroundColor</name></member>
+      <member refid="classKlustersApp_1_1printDialogPage_1dda64a51e3e6a356050df474c1039530" prot="public" virt="non-virtual"><scope>KlustersApp::printDialogPage</scope><name>getOptions</name></member>
+      <member refid="classKlustersApp_1_1printDialogPage_1a7527ee9c31d1291d948d34a800c12e5" prot="public" virt="non-virtual"><scope>KlustersApp::printDialogPage</scope><name>isValid</name></member>
+      <member refid="classKlustersApp_1_1printDialogPage_1bbac376c2c54260fd512c1e55754e2a2" prot="public" virt="non-virtual"><scope>KlustersApp::printDialogPage</scope><name>printDialogPage</name></member>
+      <member refid="classKlustersApp_1_1printDialogPage_1f1ecf791ffaf0d50b139400223864063" prot="public" virt="non-virtual"><scope>KlustersApp::printDialogPage</scope><name>setOptions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

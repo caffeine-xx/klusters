@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="traceview_8moc_8cpp" kind="file">
+    <compoundname>traceview.moc.cpp</compoundname>
+    <includes refid="traceview_8h" local="yes">traceview.h</includes>
+    <includes local="no">qmetaobject.h</includes>
+    <includes local="no">qapplication.h</includes>
+    <includes local="no">private/qucomextra_p.h</includes>
+    <includes local="no">qobjectdefs.h</includes>
+    <includes local="no">qsignalslotimp.h</includes>
+    <incdepgraph>
+      <node id="2629">
+        <label>qsignalslotimp.h</label>
+      </node>
+      <node id="2608">
+        <label>baseframe.h</label>
+        <link refid="baseframe_8h-source"/>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2609" relation="include">
+        </childnode>
+        <childnode refid="2610" relation="include">
+        </childnode>
+        <childnode refid="2611" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+      </node>
+      <node id="2627">
+        <label>private/qucomextra_p.h</label>
+      </node>
+      <node id="2617">
+        <label>dataprovider.h</label>
+        <link refid="dataprovider_8h-source"/>
+        <childnode refid="2618" relation="include">
+        </childnode>
+        <childnode refid="2619" relation="include">
+        </childnode>
+      </node>
+      <node id="2628">
+        <label>qobjectdefs.h</label>
+      </node>
+      <node id="2611">
+        <label>zoomwindow.h</label>
+        <link refid="zoomwindow_8h-source"/>
+        <childnode refid="2612" relation="include">
+        </childnode>
+        <childnode refid="2613" relation="include">
+        </childnode>
+        <childnode refid="2614" relation="include">
+        </childnode>
+      </node>
+      <node id="2618">
+        <label>qobject.h</label>
+      </node>
+      <node id="2603">
+        <label>traceview.h</label>
+        <link refid="traceview_8h-source"/>
+        <childnode refid="2604" relation="include">
+        </childnode>
+        <childnode refid="2605" relation="include">
+        </childnode>
+        <childnode refid="2606" relation="include">
+        </childnode>
+        <childnode refid="2607" relation="include">
+        </childnode>
+        <childnode refid="2608" relation="include">
+        </childnode>
+        <childnode refid="2616" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+        <childnode refid="2614" relation="include">
+        </childnode>
+      </node>
+      <node id="2619">
+        <label>kurl.h</label>
+      </node>
+      <node id="2612">
+        <label>qrect.h</label>
+      </node>
+      <node id="2620">
+        <label>array.h</label>
+        <link refid="array_8h-source"/>
+        <childnode refid="2621" relation="include">
+        </childnode>
+        <childnode refid="2615" relation="include">
+        </childnode>
+      </node>
+      <node id="2624">
+        <label>kstatusbar.h</label>
+      </node>
+      <node id="2609">
+        <label>qframe.h</label>
+      </node>
+      <node id="2623">
+        <label>qptrlist.h</label>
+      </node>
+      <node id="2613">
+        <label>qpoint.h</label>
+      </node>
+      <node id="2626">
+        <label>qapplication.h</label>
+      </node>
+      <node id="2616">
+        <label>tracesprovider.h</label>
+        <link refid="tracesprovider_8h-source"/>
+        <childnode refid="2617" relation="include">
+        </childnode>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2618" relation="include">
+        </childnode>
+      </node>
+      <node id="2610">
+        <label>qcursor.h</label>
+      </node>
+      <node id="2614">
+        <label>math.h</label>
+      </node>
+      <node id="2604">
+        <label>qwidget.h</label>
+      </node>
+      <node id="2615">
+        <label>iostream</label>
+      </node>
+      <node id="2625">
+        <label>qmetaobject.h</label>
+      </node>
+      <node id="2607">
+        <label>qpair.h</label>
+      </node>
+      <node id="2606">
+        <label>qdict.h</label>
+      </node>
+      <node id="2605">
+        <label>qpixmap.h</label>
+      </node>
+      <node id="2621">
+        <label>cstring</label>
+      </node>
+      <node id="2602">
+        <label>traceview.moc.cpp</label>
+        <link refid="traceview.moc.cpp"/>
+        <childnode refid="2603" relation="include">
+        </childnode>
+        <childnode refid="2625" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2629" relation="include">
+        </childnode>
+      </node>
+      <node id="2622">
+        <label>types.h</label>
+        <link refid="types_8h-source"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="">
+      <memberdef kind="function" id="traceview_8moc_8cpp_1cae946e9cf3cec5511e85c00f4c9ffb7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_TraceView</definition>
+        <argsstring>(&quot;TraceView&quot;,&amp;TraceView::staticMetaObject)</argsstring>
+        <name>cleanUp_TraceView</name>
+        <param>
+          <type>&quot;TraceView&quot;</type>
+        </param>
+        <param>
+          <type>&amp;TraceView::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="">
+      <memberdef kind="function" id="traceview_8moc_8cpp_1cae946e9cf3cec5511e85c00f4c9ffb7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaObjectCleanUp</type>
+        <definition>static QMetaObjectCleanUp cleanUp_TraceView</definition>
+        <argsstring>(&quot;TraceView&quot;,&amp;TraceView::staticMetaObject)</argsstring>
+        <name>cleanUp_TraceView</name>
+        <param>
+          <type>&quot;TraceView&quot;</type>
+        </param>
+        <param>
+          <type>&amp;TraceView::staticMetaObject</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.moc.cpp" line="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/****************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">**<sp/>TraceView<sp/>meta<sp/>object<sp/>code<sp/>from<sp/>reading<sp/>C++<sp/>file<sp/>&apos;traceview.h&apos;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">**<sp/>Created:<sp/>Sat<sp/>Sep<sp/>1<sp/>20:01:50<sp/>2007</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">**<sp/><sp/><sp/><sp/><sp/><sp/>by:<sp/>The<sp/>Qt<sp/>MOC<sp/>($Id:<sp/>qt/moc_yacc.cpp<sp/><sp/><sp/>3.3.7<sp/><sp/><sp/>edited<sp/>Oct<sp/>19<sp/>16:22<sp/>$)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">**</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">**<sp/>WARNING!<sp/>All<sp/>changes<sp/>made<sp/>in<sp/>this<sp/>file<sp/>will<sp/>be<sp/>lost!</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*****************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>QT_NO_COMPAT</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#include<sp/>&quot;traceview.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qmetaobject.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qapplication.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;private/qucomextra_p.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Q_MOC_OUTPUT_REVISION)<sp/>||<sp/>(Q_MOC_OUTPUT_REVISION<sp/>!=<sp/>26)</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;This<sp/>file<sp/>was<sp/>generated<sp/>using<sp/>the<sp/>moc<sp/>from<sp/>3.3.7.<sp/>It&quot;</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;cannot<sp/>be<sp/>used<sp/>with<sp/>the<sp/>include<sp/>files<sp/>from<sp/>this<sp/>version<sp/>of<sp/>Qt.&quot;</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#error<sp/>&quot;(The<sp/>moc<sp/>has<sp/>changed<sp/>too<sp/>much.)&quot;</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*TraceView::className()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="23"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">QMetaObject<sp/>*TraceView::metaObj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>QMetaObjectCleanUp<sp/>cleanUp_TraceView(<sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal">,<sp/>&amp;TraceView::staticMetaObject<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>TraceView::tr(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::DefaultCodec<sp/>);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromLatin1(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"></highlight><highlight class="normal">QString<sp/>TraceView::trUtf8(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*c<sp/>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>qApp<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qApp-&gt;translate(<sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal">,<sp/>s,<sp/>c,<sp/>QApplication::UnicodeUTF8<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>QString::fromUtf8(<sp/>s<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION_UTF8</highlight></codeline>
+<codeline lineno="47"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_TRANSLATION</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">QMetaObject*<sp/>TraceView::staticMetaObject()</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>metaObj<sp/>)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>QMetaObject*<sp/>parentObject<sp/>=<sp/>BaseFrame::staticMetaObject();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;dataAvailable&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_0<sp/>};</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_1[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;dataAvailable&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_slot_1<sp/>};</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_2[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;times&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ids&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;dataAvailable&quot;</highlight><highlight class="normal">,<sp/>4,<sp/>param_slot_2<sp/>};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_3[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTimeInRecordingUnits&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_3<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;nextClusterDataAvailable&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_slot_3<sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_4[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;data&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTimeInRecordingUnits&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_4<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;previousClusterDataAvailable&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_slot_4<sp/>};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_5[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;times&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ids&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_5<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;nextEventDataAvailable&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_slot_5<sp/>};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_6[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;times&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;dataType&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;ids&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;Array&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::InOut<sp/>},</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;initiator&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QObject&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;startingTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_6<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;previousEventDataAvailable&quot;</highlight><highlight class="normal">,<sp/>5,<sp/>param_slot_6<sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_7[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eventDescription&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_7<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;eventToAddProperties&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_slot_7<sp/>};</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_slot_8[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;skippedChannels&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>slot_8<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;skipStatusChanged&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_slot_8<sp/>};</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>slot_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dataAvailable(Array&lt;dataType&gt;&amp;,QObject*)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dataAvailable(Array&lt;dataType&gt;&amp;,QObject*,QString)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;dataAvailable(Array&lt;dataType&gt;&amp;,Array&lt;int&gt;&amp;,QObject*,QString)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_2,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;nextClusterDataAvailable(Array&lt;dataType&gt;&amp;,QObject*,QString,long,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_3,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;previousClusterDataAvailable(Array&lt;dataType&gt;&amp;,QObject*,QString,long,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_4,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;nextEventDataAvailable(Array&lt;dataType&gt;&amp;,Array&lt;int&gt;&amp;,QObject*,QString,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_5,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;previousEventDataAvailable(Array&lt;dataType&gt;&amp;,Array&lt;int&gt;&amp;,QObject*,QString,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_6,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eventToAddProperties(QString,QString)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_7,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;skipStatusChanged(const<sp/>QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;slot_8,<sp/>QMetaData::Public<sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_0[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedIds&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;QValueList&lt;int&gt;&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_0<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;channelsSelected&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>param_signal_0<sp/>};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_1[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;duration&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_ptr,<sp/></highlight><highlight class="stringliteral">&quot;long&quot;</highlight><highlight class="normal">,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_1<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;setStartAndDuration&quot;</highlight><highlight class="normal">,<sp/>2,<sp/>param_signal_1<sp/>};</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_2[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedEventId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_double,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;newTime&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_double,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_2<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;eventModified&quot;</highlight><highlight class="normal">,<sp/>4,<sp/>param_signal_2<sp/>};</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_3[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;selectedEventId&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_int,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_double,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_3<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;eventRemoved&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_signal_3<sp/>};</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUParameter<sp/>param_signal_4[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;providerName&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;addedEventDescription&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_QString,<sp/>0,<sp/>QUParameter::In<sp/>},</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;time&quot;</highlight><highlight class="normal">,<sp/>&amp;static_QUType_double,<sp/>0,<sp/>QUParameter::In<sp/>}</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QUMethod<sp/>signal_4<sp/>=<sp/>{</highlight><highlight class="stringliteral">&quot;eventAdded&quot;</highlight><highlight class="normal">,<sp/>3,<sp/>param_signal_4<sp/>};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaData<sp/>signal_tbl[]<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;channelsSelected(const<sp/>QValueList&lt;int&gt;&amp;)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_0,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;setStartAndDuration(long,long)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_1,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eventModified(QString,int,double,double)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_2,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eventRemoved(QString,int,double)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_3,<sp/>QMetaData::Public<sp/>},</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="stringliteral">&quot;eventAdded(QString,QString,double)&quot;</highlight><highlight class="normal">,<sp/>&amp;signal_4,<sp/>QMetaData::Public<sp/>}</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>metaObj<sp/>=<sp/>QMetaObject::new_metaobject(</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal">,<sp/>parentObject,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>slot_tbl,<sp/>9,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>signal_tbl,<sp/>5,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal">#endif<sp/></highlight><highlight class="comment">//<sp/>QT_NO_PROPERTIES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>cleanUp_TraceView.setMetaObject(<sp/>metaObj<sp/>);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>metaObj;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>TraceView::qt_cast(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>clname<sp/>)</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!qstrcmp(<sp/>clname,<sp/></highlight><highlight class="stringliteral">&quot;TraceView&quot;</highlight><highlight class="normal"><sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BaseFrame::qt_cast(<sp/>clname<sp/>);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qobjectdefs.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;qsignalslotimp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>channelsSelected</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceView::channelsSelected(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;<sp/>t0<sp/>)</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[2];</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,&amp;t0);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>setStartAndDuration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceView::setStartAndDuration(<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t0,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>t1<sp/>)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[3];</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+1,&amp;t0);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_ptr.set(o+2,&amp;t1);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>eventModified</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceView::eventModified(<sp/>QString<sp/>t0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t2,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t3<sp/>)</highlight></codeline>
+<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>2<sp/>);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[5];</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+1,t0);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_int.set(o+2,t1);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_double.set(o+3,t2);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_double.set(o+4,t3);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>eventRemoved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceView::eventRemoved(<sp/>QString<sp/>t0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t2<sp/>)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>3<sp/>);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[4];</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+1,t0);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_int.set(o+2,t1);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_double.set(o+3,t2);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="comment">//<sp/>SIGNAL<sp/>eventAdded</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>TraceView::eventAdded(<sp/>QString<sp/>t0,<sp/>QString<sp/>t1,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>t2<sp/>)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>signalsBlocked()<sp/>)</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>QConnectionList<sp/>*clist<sp/>=<sp/>receivers(<sp/>staticMetaObject()-&gt;signalOffset()<sp/>+<sp/>4<sp/>);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>!clist<sp/>)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>QUObject<sp/>o[4];</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+1,t0);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_QString.set(o+2,t1);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>static_QUType_double.set(o+3,t2);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>activate_signal(<sp/>clist,<sp/>o<sp/>);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TraceView::qt_invoke(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="257"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;slotOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/><ref refid="classTraceView_1ac696dfa3b582557b8bba553b5e10981" kindref="member">dataAvailable</ref>((<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>&amp;)*((<ref refid="classArray" kindref="compound">Array&lt;dataType&gt;</ref>*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2));<sp/>break;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>1:<sp/><ref refid="classTraceView_1ac696dfa3b582557b8bba553b5e10981" kindref="member">dataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3));<sp/>break;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>2:<sp/><ref refid="classTraceView_1ac696dfa3b582557b8bba553b5e10981" kindref="member">dataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)),(QObject*)static_QUType_ptr.get(_o+3),(QString)static_QUType_QString.get(_o+4));<sp/>break;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>3:<sp/><ref refid="classTraceView_12859ecbe86562874fe2664093aefefc4" kindref="member">nextClusterDataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+4))),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>4:<sp/><ref refid="classTraceView_1d1dc80ff4b51d2c1c8559276a72480ad" kindref="member">previousClusterDataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(QObject*)static_QUType_ptr.get(_o+2),(QString)static_QUType_QString.get(_o+3),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+4))),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>5:<sp/><ref refid="classTraceView_155cf8a5cf7eb8c36e7d73235836223b2" kindref="member">nextEventDataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)),(QObject*)static_QUType_ptr.get(_o+3),(QString)static_QUType_QString.get(_o+4),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>6:<sp/><ref refid="classTraceView_148c3fcf78b041f2728f606f1d2d6018e" kindref="member">previousEventDataAvailable</ref>((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;dataType&gt;*)static_QUType_ptr.get(_o+1)),(<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((<ref refid="classArray" kindref="compound">Array</ref>&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+2)),(QObject*)static_QUType_ptr.get(_o+3),(QString)static_QUType_QString.get(_o+4),(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+5))));<sp/>break;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>7:<sp/><ref refid="classTraceView_1d9156ab617b02c8f187e458b938fed83" kindref="member">eventToAddProperties</ref>((QString)static_QUType_QString.get(_o+1),(QString)static_QUType_QString.get(_o+2));<sp/>break;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>case<sp/>8:<sp/><ref refid="classTraceView_12b8bb8cff8bd1ac6e5173a94eb36fce7" kindref="member">skipStatusChanged</ref>((const<sp/>QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;&amp;)*((const<sp/>QValueList&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;*)static_QUType_ptr.get(_o+1)));<sp/>break;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>default:</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>return<sp/><ref refid="classBaseFrame" kindref="compound">BaseFrame</ref>::qt_invoke(<sp/>_id,<sp/>_o<sp/>);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/>return<sp/>TRUE;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classTraceView" kindref="compound">TraceView</ref>::qt_emit(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_id,<sp/>QUObject*<sp/>_o<sp/>)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(<sp/>_id<sp/>-<sp/>staticMetaObject()-&gt;signalOffset()<sp/>)<sp/>{</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:<sp/>channelsSelected((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;&amp;)*((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QValueList&lt;int&gt;*)static_QUType_ptr.get(_o+1)));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:<sp/>setStartAndDuration((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+1))),(long)(*((</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">*)static_QUType_ptr.get(_o+2))));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:<sp/>eventModified((QString)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2),(double)static_QUType_double.get(_o+3),(double)static_QUType_double.get(_o+4));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:<sp/>eventRemoved((QString)static_QUType_QString.get(_o+1),(int)static_QUType_int.get(_o+2),(double)static_QUType_double.get(_o+3));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:<sp/>eventAdded((QString)static_QUType_QString.get(_o+1),(QString)static_QUType_QString.get(_o+2),(double)static_QUType_double.get(_o+3));<sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BaseFrame::qt_emit(_id,_o);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>QT_NO_PROPERTIES</highlight></codeline>
+<codeline lineno="288"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TraceView::qt_property(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f,<sp/>QVariant*<sp/>v)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>BaseFrame::qt_property(<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/>f,<sp/>v);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>TraceView::qt_static_property(<sp/>QObject*<sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>,<sp/>QVariant*<sp/>){<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>FALSE;<sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>QT_NO_PROPERTIES</highlight></codeline>
+    </programlisting>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/traceview.moc.cpp"/>
+  </compounddef>
+</doxygen>

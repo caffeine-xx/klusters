@@ -1,0 +1,16 @@
+Begin3
+Title:          klusters -- Some description
+Version:        1.6.1
+Entered-date:   
+Description:    
+Keywords:       KDE Qt
+Author:         Lynn Hazan <lynn.hazan@myrealbox.com>
+Maintained-by:  Lynn Hazan <lynn.hazan@myrealbox.com>
+Home-page:      
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  klusters-1.6.1.tar.gz
+                xxx     klusters-1.6.1.lsm
+Platform:       Linux. Needs KDE
+Copying-policy: GPL
+End

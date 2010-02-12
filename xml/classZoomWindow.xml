@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classZoomWindow" kind="class" prot="public">
+    <compoundname>ZoomWindow</compoundname>
+    <includes refid="zoomwindow_8h" local="no">zoomwindow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classZoomWindow_1c6aa6733f0b919a275da095bd53834d3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::left</definition>
+        <argsstring></argsstring>
+        <name>left</name>
+        <briefdescription>
+<para>Left coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="107" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_1db0aa4e21c1050b7c77878e8b9389081" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::right</definition>
+        <argsstring></argsstring>
+        <name>right</name>
+        <briefdescription>
+<para>Right coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="111" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_161aac9c4a671e02291fc16d09fad8e63" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::bottom</definition>
+        <argsstring></argsstring>
+        <name>bottom</name>
+        <briefdescription>
+<para>Bottom coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="115" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_1ad689831d10c4121cc2b8dd1a1968519" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::top</definition>
+        <argsstring></argsstring>
+        <name>top</name>
+        <briefdescription>
+<para>Top coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="119" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_1b78d5199744002bf20ddf2b53881b630" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::initialLeft</definition>
+        <argsstring></argsstring>
+        <name>initialLeft</name>
+        <briefdescription>
+<para>Initial left coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="125" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_1618a025955caa45aa2fc0e8a0c62af81" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::initialRight</definition>
+        <argsstring></argsstring>
+        <name>initialRight</name>
+        <briefdescription>
+<para>Initial right coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="129" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_1ec7c738f2621943ab3d39ae9e0685488" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::initialBottom</definition>
+        <argsstring></argsstring>
+        <name>initialBottom</name>
+        <briefdescription>
+<para>Initial bottom coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="133" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_133a97c6adf7d57694ba54b32f8d7698a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ZoomWindow::initialTop</definition>
+        <argsstring></argsstring>
+        <name>initialTop</name>
+        <briefdescription>
+<para>Initial top coordinate of the rectangle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="137" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classZoomWindow_119f6b5558b8f20be9c2122a7959ba26e" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float ZoomWindow::MIN_SCALE</definition>
+        <argsstring></argsstring>
+        <name>MIN_SCALE</name>
+        <briefdescription>
+<para>Minimum zoom allowed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="142" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classZoomWindow_187c33c1dcbc06fd103ce64ba2fb324be" prot="private" static="yes" mutable="no">
+        <type>const float</type>
+        <definition>const float ZoomWindow::MAX_SCALE</definition>
+        <argsstring></argsstring>
+        <name>MAX_SCALE</name>
+        <briefdescription>
+<para>Maximum zoom allowed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="147" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classZoomWindow_13935a92cbd049d32a6ae96dba3653673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ZoomWindow::ZoomWindow</definition>
+        <argsstring>(const QRect &amp;rect)</argsstring>
+        <name>ZoomWindow</name>
+        <param>
+          <type>const QRect &amp;</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Constructor using a QRect. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>initial rectangle. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="28" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_1ebd4f209291a4931c73c3bf3bdfbbb6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ZoomWindow::~ZoomWindow</definition>
+        <argsstring>()</argsstring>
+        <name>~ZoomWindow</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="41" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_10e0ccfd2b978a01ee0e19ef1cd2f77e9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ZoomWindow::operator QRect</definition>
+        <argsstring>() const</argsstring>
+        <name>operator QRect</name>
+        <briefdescription>
+<para>Conversion to a QRect. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="49" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ZoomWindow::zoom</definition>
+        <argsstring>(float factor, float centerX, float centerY)</argsstring>
+        <name>zoom</name>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>centerX</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>centerY</declname>
+        </param>
+        <briefdescription>
+<para>Zooms the width and the height of the rectangle by <computeroutput>factor</computeroutput> and center it on the specified center (<computeroutput>centerX</computeroutput>, <computeroutput>centerY</computeroutput>). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>zoom factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centerX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>absciss of the center point for the newly zoomed rectangle </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>centerY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ordinate of the center point for the newly zoomed rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean indicating if the zoom has been done </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="58" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="59" bodyend="84"/>
+        <referencedby refid="classZoomWindow_17ff30a2fe474928de05df30ac4ffd4b0" compoundref="zoomwindow_8h" startline="69" endline="71">zoom</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_17ff30a2fe474928de05df30ac4ffd4b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ZoomWindow::zoom</definition>
+        <argsstring>(float factor, const QPoint &amp;center)</argsstring>
+        <name>zoom</name>
+        <param>
+          <type>float</type>
+          <declname>factor</declname>
+        </param>
+        <param>
+          <type>const QPoint &amp;</type>
+          <declname>center</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. </para>        </briefdescription>
+        <detaileddescription>
+<para>It behaves essentially like the above function. Zoom the rectangle by <computeroutput>factor</computeroutput> and center it on <computeroutput>center</computeroutput>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>zoom factor </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>center</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>center point for the newly zoomed rectangle </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean indicating if the zoom has been done </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="69" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="69" bodyend="71"/>
+        <references refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" compoundref="zoomwindow_8cpp" startline="59" endline="84">zoom</references>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_158976a2da22b64ae01b06ebdb878863b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ZoomWindow::zoom</definition>
+        <argsstring>(int firstClickX, int firstClickY, int secondClickX, int secondClickY)</argsstring>
+        <name>zoom</name>
+        <param>
+          <type>int</type>
+          <declname>firstClickX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>firstClickY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>secondClickX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>secondClickY</declname>
+        </param>
+        <briefdescription>
+<para>Zooms on the rectangle specified by two diagonal points (firstClickX,firstClickY) and (secondClickX,secondClickY). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstClickX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>absciss of the first selected point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>firstClickY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ordinate of the first selected point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>secondClickX</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>absciss of the second selected point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>secondClickY</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ordinate of the first selected point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean indicating if the zoom has been done </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="82" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="86" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_16a25a932c8bf2f19193b076c6153b9b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ZoomWindow::zoom</definition>
+        <argsstring>(QPoint firstPoint, QPoint secondPoint)</argsstring>
+        <name>zoom</name>
+        <param>
+          <type>QPoint</type>
+          <declname>firstPoint</declname>
+        </param>
+        <param>
+          <type>QPoint</type>
+          <declname>secondPoint</declname>
+        </param>
+        <briefdescription>
+<para>This is an overloaded member function, provided for convenience. </para>        </briefdescription>
+        <detaileddescription>
+<para>It behaves essentially like the above function. Zoom on the rectangle specified by two diagonal points <computeroutput>firstPoint</computeroutput> and <computeroutput>secondPoint</computeroutput>. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Qpoint of the first selected point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>secondPoint</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Qpoint of the first selected point </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>boolean indicating if the zoom has been done </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="92" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="92" bodyend="94"/>
+        <references refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" compoundref="zoomwindow_8cpp" startline="59" endline="84">zoom</references>
+      </memberdef>
+      <memberdef kind="function" id="classZoomWindow_159e54a28b349f48f4a8599baf60516c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomWindow::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+<para>Resets the zoomWindow to its initialize state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="154" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="154" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ZoomWindow::correctWindow</definition>
+        <argsstring>()</argsstring>
+        <name>correctWindow</name>
+        <briefdescription>
+<para>Make sure that the new window remains inside the intial boundaries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="100" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.cpp" bodystart="106" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class is used to enable zoom feature. </para>    </briefdescription>
+    <detaileddescription>
+<para>It computes the dimensions of the QRect (the window of a Qframe) corresponding to the part of the drawing which will actually be drawn onto the widget. The calculs are made in world coordinates system (the drawing coordinates system). <simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" line="33" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/zoomwindow.h" bodystart="33" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classZoomWindow_161aac9c4a671e02291fc16d09fad8e63" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>bottom</name></member>
+      <member refid="classZoomWindow_1c1d2065b9b77a065c3101a4003cfa7ba" prot="protected" virt="non-virtual"><scope>ZoomWindow</scope><name>correctWindow</name></member>
+      <member refid="classZoomWindow_1ec7c738f2621943ab3d39ae9e0685488" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>initialBottom</name></member>
+      <member refid="classZoomWindow_1b78d5199744002bf20ddf2b53881b630" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>initialLeft</name></member>
+      <member refid="classZoomWindow_1618a025955caa45aa2fc0e8a0c62af81" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>initialRight</name></member>
+      <member refid="classZoomWindow_133a97c6adf7d57694ba54b32f8d7698a" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>initialTop</name></member>
+      <member refid="classZoomWindow_1c6aa6733f0b919a275da095bd53834d3" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>left</name></member>
+      <member refid="classZoomWindow_187c33c1dcbc06fd103ce64ba2fb324be" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>MAX_SCALE</name></member>
+      <member refid="classZoomWindow_119f6b5558b8f20be9c2122a7959ba26e" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>MIN_SCALE</name></member>
+      <member refid="classZoomWindow_10e0ccfd2b978a01ee0e19ef1cd2f77e9" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>operator QRect</name></member>
+      <member refid="classZoomWindow_159e54a28b349f48f4a8599baf60516c7" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>reset</name></member>
+      <member refid="classZoomWindow_1db0aa4e21c1050b7c77878e8b9389081" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>right</name></member>
+      <member refid="classZoomWindow_1ad689831d10c4121cc2b8dd1a1968519" prot="private" virt="non-virtual"><scope>ZoomWindow</scope><name>top</name></member>
+      <member refid="classZoomWindow_162054b682209584ceb78acbb65c6fb8c" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>zoom</name></member>
+      <member refid="classZoomWindow_17ff30a2fe474928de05df30ac4ffd4b0" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>zoom</name></member>
+      <member refid="classZoomWindow_158976a2da22b64ae01b06ebdb878863b" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>zoom</name></member>
+      <member refid="classZoomWindow_16a25a932c8bf2f19193b076c6153b9b9" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>zoom</name></member>
+      <member refid="classZoomWindow_13935a92cbd049d32a6ae96dba3653673" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>ZoomWindow</name></member>
+      <member refid="classZoomWindow_1ebd4f209291a4931c73c3bf3bdfbbb6a" prot="public" virt="non-virtual"><scope>ZoomWindow</scope><name>~ZoomWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

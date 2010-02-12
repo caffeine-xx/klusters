@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classDataProvider" kind="class" prot="public">
+    <compoundname>DataProvider</compoundname>
+    <derivedcompoundref refid="classClustersProvider" prot="public" virt="non-virtual">ClustersProvider</derivedcompoundref>
+    <derivedcompoundref refid="classEventsProvider" prot="public" virt="non-virtual">EventsProvider</derivedcompoundref>
+    <derivedcompoundref refid="classTracesProvider" prot="public" virt="non-virtual">TracesProvider</derivedcompoundref>
+    <includes refid="dataprovider_8h" local="no">dataprovider.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classDataProvider_12fa94f4ef65e78995b0182cbe9a03b55" prot="protected" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString DataProvider::fileName</definition>
+        <argsstring></argsstring>
+        <name>fileName</name>
+        <briefdescription>
+<para>The name of the file containing the data provided by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="55" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classDataProvider_1c0f46a1b6591e24fb57682372c0fb3b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DataProvider::DataProvider</definition>
+        <argsstring>(KURL fileUrl)</argsstring>
+        <name>DataProvider</name>
+        <param>
+          <type>KURL</type>
+          <declname>fileUrl</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fileUrl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the url of the file containing the data provided by this class. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classDataProvider_1eaf1d12be2fa035dff39f34825a094d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>virtual</type>
+        <definition>DataProvider::~DataProvider</definition>
+        <argsstring>()</argsstring>
+        <name>~DataProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.cpp" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classDataProvider_10df9ff57ddcbad2ba07f62346a01f86c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DataProvider::requestData</definition>
+        <argsstring>(long startTime, long endTime, QObject *initiator, long startTimeInRecordingUnits=0)</argsstring>
+        <name>requestData</name>
+        <reimplementedby refid="classTracesProvider_115a28fc38479728605849e1d8bb4aad9">requestData</reimplementedby>
+        <reimplementedby refid="classEventsProvider_1d6dec09f16591b2f53cbddbdc96babb1">requestData</reimplementedby>
+        <reimplementedby refid="classClustersProvider_173f86b1dda818e9a02e1a5faa2dea1b8">requestData</reimplementedby>
+        <param>
+          <type>long</type>
+          <declname>startTime</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>endTime</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>initiator</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>startTimeInRecordingUnits</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Triggers the retrieve of the traces included in the time interval given by <computeroutput>startTime</computeroutput> and <computeroutput>endTime</computeroutput>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>startTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>endTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end of the time interval from which to retreive the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>initiator</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>instance requesting the data. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>startTimeInRecordingUnits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>begining of the time interval from which to retrieve the data in recording units. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="48" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classDataProvider_15361517c17a7054ca22554d83f882d94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>bool</type>
+        <definition>virtual bool DataProvider::isThreadsRunning</definition>
+        <argsstring>()</argsstring>
+        <name>isThreadsRunning</name>
+        <briefdescription>
+<para>Enables the caller to know if there is any thread running launch by the provider. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="51" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Base class for all the types of provider of data: <ref refid="classTracesProvider" kindref="compound">TracesProvider</ref>,<ref refid="classClustersProvider" kindref="compound">ClustersProvider</ref>, <ref refid="classEventsProvider" kindref="compound">EventsProvider</ref>, SpikesProvider. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Lynn Hazan </para></simplesect>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="941">
+        <label>ClustersProvider</label>
+        <link refid="classClustersProvider"/>
+        <childnode refid="940" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="940">
+        <label>DataProvider</label>
+        <link refid="classDataProvider"/>
+      </node>
+      <node id="943">
+        <label>TracesProvider</label>
+        <link refid="classTracesProvider"/>
+        <childnode refid="940" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="942">
+        <label>EventsProvider</label>
+        <link refid="classEventsProvider"/>
+        <childnode refid="940" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" line="33" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/dataprovider.h" bodystart="33" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classDataProvider_1c0f46a1b6591e24fb57682372c0fb3b3" prot="public" virt="non-virtual"><scope>DataProvider</scope><name>DataProvider</name></member>
+      <member refid="classDataProvider_12fa94f4ef65e78995b0182cbe9a03b55" prot="protected" virt="non-virtual"><scope>DataProvider</scope><name>fileName</name></member>
+      <member refid="classDataProvider_15361517c17a7054ca22554d83f882d94" prot="public" virt="virtual"><scope>DataProvider</scope><name>isThreadsRunning</name></member>
+      <member refid="classDataProvider_10df9ff57ddcbad2ba07f62346a01f86c" prot="public" virt="virtual"><scope>DataProvider</scope><name>requestData</name></member>
+      <member refid="classDataProvider_1eaf1d12be2fa035dff39f34825a094d2" prot="public" virt="virtual"><scope>DataProvider</scope><name>~DataProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

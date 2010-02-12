@@ -1,0 +1,12 @@
+base referer
+rect $classKlustersApp.html 505,368 607,395
+rect $classKlustersDoc.html 360,187 461,213
+rect $classAutoSaveThread.html 20,277 156,304
+rect $classClusterPalette.html 285,277 400,304
+rect $classChannelColors.html 221,96 341,123
+rect $classData.html 105,5 159,32
+rect $classClustersProvider.html 67,96 197,123
+rect $classTracesProvider.html 365,96 485,123
+rect $classItemColors.html 509,96 603,123
+rect $classProcessWidget.html 631,277 751,304
+rect $classPrefDialog.html 775,277 865,304

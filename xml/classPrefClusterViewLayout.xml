@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.1">
+  <compounddef id="classPrefClusterViewLayout" kind="class" prot="public">
+    <compoundname>PrefClusterViewLayout</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1de19fb0bea73ddddc8855f476515d8a2" prot="public" static="no" mutable="no">
+        <type>QGroupBox *</type>
+        <definition>QGroupBox* PrefClusterViewLayout::groupBox3</definition>
+        <argsstring></argsstring>
+        <name>groupBox3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="32" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1fc0c3ecf1e61a2af6975ae5a721427d5" prot="public" static="no" mutable="no">
+        <type>QLabel *</type>
+        <definition>QLabel* PrefClusterViewLayout::textLabel6</definition>
+        <argsstring></argsstring>
+        <name>textLabel6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="33" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1ea64c630a5dfb76f0b84b24ab3145f96" prot="public" static="no" mutable="no">
+        <type>QSpinBox *</type>
+        <definition>QSpinBox* PrefClusterViewLayout::intervalSpinBox</definition>
+        <argsstring></argsstring>
+        <name>intervalSpinBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="34" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1303885a7cdd8b3e9ec0ef5fb387cedc3" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* PrefClusterViewLayout::PrefClusterViewLayoutLayout</definition>
+        <argsstring></argsstring>
+        <name>PrefClusterViewLayoutLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="37" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1d1974cb5204b27736f012624d4c4299e" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefClusterViewLayout::spacer21</definition>
+        <argsstring></argsstring>
+        <name>spacer21</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="38" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1b182a39cd8cebea2f686088d60708804" prot="protected" static="no" mutable="no">
+        <type>QGridLayout *</type>
+        <definition>QGridLayout* PrefClusterViewLayout::layout57</definition>
+        <argsstring></argsstring>
+        <name>layout57</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="39" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1c33776726a123f7e8c575e3bce21dbf2" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefClusterViewLayout::spacer18</definition>
+        <argsstring></argsstring>
+        <name>spacer18</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="40" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_1fe771d38072e93c0ad7b8a794da004bd" prot="protected" static="no" mutable="no">
+        <type>QHBoxLayout *</type>
+        <definition>QHBoxLayout* PrefClusterViewLayout::layout55</definition>
+        <argsstring></argsstring>
+        <name>layout55</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="41" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPrefClusterViewLayout_12768d028dcb2fa1f426b23492b161bc1" prot="protected" static="no" mutable="no">
+        <type>QSpacerItem *</type>
+        <definition>QSpacerItem* PrefClusterViewLayout::spacer19</definition>
+        <argsstring></argsstring>
+        <name>spacer19</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="42" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPrefClusterViewLayout_19ee0e03be39135e729d2bfd1a5ab8dbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefClusterViewLayout::PrefClusterViewLayout</definition>
+        <argsstring>(QWidget *parent=0, const char *name=0, WFlags fl=0)</argsstring>
+        <name>PrefClusterViewLayout</name>
+        <param>
+          <type>QWidget *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>WFlags</type>
+          <declname>fl</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="29" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.cpp" bodystart="27" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classPrefClusterViewLayout_173659c7ff48ea3e1e77a544b47894363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PrefClusterViewLayout::~PrefClusterViewLayout</definition>
+        <argsstring>()</argsstring>
+        <name>~PrefClusterViewLayout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="30" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="classPrefClusterViewLayout_1638533101b0b70d69f9111d117699ba2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PrefClusterViewLayout::languageChange</definition>
+        <argsstring>()</argsstring>
+        <name>languageChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="45" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.cpp" bodystart="82" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" line="25" bodyfile="/home/lynn/CMBN/Klusters/klusters/src/prefclusterviewlayout.h" bodystart="24" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classPrefClusterViewLayout_1de19fb0bea73ddddc8855f476515d8a2" prot="public" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>groupBox3</name></member>
+      <member refid="classPrefClusterViewLayout_1ea64c630a5dfb76f0b84b24ab3145f96" prot="public" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>intervalSpinBox</name></member>
+      <member refid="classPrefClusterViewLayout_1638533101b0b70d69f9111d117699ba2" prot="protected" virt="virtual"><scope>PrefClusterViewLayout</scope><name>languageChange</name></member>
+      <member refid="classPrefClusterViewLayout_1fe771d38072e93c0ad7b8a794da004bd" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>layout55</name></member>
+      <member refid="classPrefClusterViewLayout_1b182a39cd8cebea2f686088d60708804" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>layout57</name></member>
+      <member refid="classPrefClusterViewLayout_19ee0e03be39135e729d2bfd1a5ab8dbb" prot="public" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>PrefClusterViewLayout</name></member>
+      <member refid="classPrefClusterViewLayout_1303885a7cdd8b3e9ec0ef5fb387cedc3" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>PrefClusterViewLayoutLayout</name></member>
+      <member refid="classPrefClusterViewLayout_1c33776726a123f7e8c575e3bce21dbf2" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>spacer18</name></member>
+      <member refid="classPrefClusterViewLayout_12768d028dcb2fa1f426b23492b161bc1" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>spacer19</name></member>
+      <member refid="classPrefClusterViewLayout_1d1974cb5204b27736f012624d4c4299e" prot="protected" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>spacer21</name></member>
+      <member refid="classPrefClusterViewLayout_1fc0c3ecf1e61a2af6975ae5a721427d5" prot="public" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>textLabel6</name></member>
+      <member refid="classPrefClusterViewLayout_173659c7ff48ea3e1e77a544b47894363" prot="public" virt="non-virtual"><scope>PrefClusterViewLayout</scope><name>~PrefClusterViewLayout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
